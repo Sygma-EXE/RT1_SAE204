@@ -8,3 +8,6 @@ CUDA :
 -https://github.com/NVIDIA/cuda-python
 -https://developer.nvidia.com/cuda-toolkit
 -https://cupy.dev
+
+HASH:
+-https://docs.python.org/3/library/hashlib.html

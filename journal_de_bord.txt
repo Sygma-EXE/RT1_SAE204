@@ -9,5 +9,7 @@ chaque jour de travail.
 | -Recherche sur ce qu'est CUDA et comment il marche en python (CuPy)                                     |
 | -Découverte de la librarie Python CryptoCipher                                                          |
 | -Création du Github                                                                                     |
+| -Première réflexion sur la mise en place du brute force                                                 |
+| -Recherche sur la mise en place de fonction de HASHAGE et DES sous python                               |
 +---------------------------------------------------------------------------------------------------------+
 
