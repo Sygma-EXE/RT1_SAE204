@@ -1,0 +1,13 @@
+L'objectif de ce projet des d'apprendre comment le chiffrement DES fonctionne et tenter de le brute force.
+
+Afin d'assurer une documentation claire et précise de nos avancé sur le projet, nous allons ajouter ici tous ce qui a été fais
+chaque jour de travail.
+
++---------------------------------------------------------------------------------------------------------+
+|>14/05/2025:                                                                                             |
+| -Recherche de ce qu'est le chiffrement DES et comment il fonctionne.                                    |
+| -Recherche sur ce qu'est CUDA et comment il marche en python (CuPy)                                     |
+| -Découverte de la librarie Python CryptoCipher                                                          |
+| -Création du Github                                                                                     |
++---------------------------------------------------------------------------------------------------------+
+

@@ -1,0 +1,10 @@
+DES(ou DEA en anglais):
+-https://web.maths.unsw.edu.au/~lafaye/CCM/crypto/des.htm
+-https://www.bibmath.net/crypto/index.php?action=affiche&quoi=moderne/des
+
+CUDA :
+-https://actes.sstic.org/SSTIC09/Cartes_graphiques-calcul-cryptographie_et_securite/SSTIC09-article-A-Joux-Cartes_graphiques-calcul-cryptographie_et_securite.pdf
+-https://nvidia.github.io/cuda-python/latest/
+-https://github.com/NVIDIA/cuda-python
+-https://developer.nvidia.com/cuda-toolkit
+-https://cupy.dev
