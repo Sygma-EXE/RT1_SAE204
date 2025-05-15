@@ -13,3 +13,10 @@ chaque jour de travail.
 | -Recherche sur la mise en place de fonction de HASHAGE et DES sous python                               |
 +---------------------------------------------------------------------------------------------------------+
 
++---------------------------------------------------------------------------------------------------------+
+|>15/05/2025:                                                                                             |
+| -Test de la première version du brute force: présence de plusieurs clef pour le même résultat           |
+| -Modification objectif du brute force: on cherche une clef et non là clef                               |
+| -Test optimisation liste de character à essayer                                                         |
+| -Recherche sur la mise en place de CUDA Python                                                          |
++---------------------------------------------------------------------------------------------------------+

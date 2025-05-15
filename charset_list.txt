@@ -1,0 +1,2 @@
+non opti: 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!"#$%&\'()*+,-./:;<=>?@[\]^_`{|}~'
+opti:     'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~'
