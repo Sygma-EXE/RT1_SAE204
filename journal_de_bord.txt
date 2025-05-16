@@ -20,3 +20,10 @@ chaque jour de travail.
 | -Test optimisation liste de character à essayer                                                         |
 | -Recherche sur la mise en place de CUDA Python                                                          |
 +---------------------------------------------------------------------------------------------------------+
+
++---------------------------------------------------------------------------------------------------------+
+|>16/05/2025:                                                                                             |
+| -Continuité des recherche sur CUDA                                                                      |
+| -Essai de connexion à la Carte Graphique (c'est une RTX 3070)-n'apparais pas sur les pc                 |
+| -Essai nouveelle version optimisé du brute force                                                        |
++---------------------------------------------------------------------------------------------------------+

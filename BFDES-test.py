@@ -19,6 +19,10 @@ decoded = base64.b64decode(enc_cipher)
 iv = decoded[:8]
 ciphertext = decoded[8:]
 
+###################################################
+#estimated time on the base laptop: 63 013.7 years#
+###################################################
+
 for x in map(''.join,itertools.product('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!"#$%&\'()*+,-./:;<=>?@[\]^_`{|}~',repeat=8)):
     fkey=x.encode('utf-8')
     #print(fkey)
