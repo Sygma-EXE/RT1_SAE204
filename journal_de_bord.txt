@@ -27,3 +27,10 @@ chaque jour de travail.
 | -Essai de connexion à la Carte Graphique (c'est une RTX 3070)-n'apparais pas sur les pc                 |
 | -Essai nouveelle version optimisé du brute force                                                        |
 +---------------------------------------------------------------------------------------------------------+
+
++---------------------------------------------------------------------------------------------------------+
+|>21/05/2025:                                                                                             |
+| -Continuité des recherche sur CUDA                                                                      |
+| -Connexion à la Carte Graphique uniquement sur les pc(pc6) en TD3                                       |
+| -Planification d'une nouvelle version optimal pour la deuxième solution (besoin d'une quainzaine PC)    |
++---------------------------------------------------------------------------------------------------------+
