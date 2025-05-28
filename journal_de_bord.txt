@@ -34,3 +34,13 @@ chaque jour de travail.
 | -Connexion à la Carte Graphique uniquement sur les pc(pc6) en TD3                                       |
 | -Planification d'une nouvelle version optimal pour la deuxième solution (besoin d'une quainzaine PC)    |
 +---------------------------------------------------------------------------------------------------------+
+
++---------------------------------------------------------------------------------------------------------+
+|>28/05/2025:                                                                                             |
+| -Prise en main de CUDA (bon dieu c'est quoi ce truc)                                                    |
+| -Mise en place d'un code python sans dépendance majeur pour le DES                                      |
+| -test optimisation python sur le laptop de base avec des fonction à 2 octects fixes                     |
+| -Succès de l'optimisation à 2 octets fixes                                                              |
+| -Programme de brute-force fonctionnant sur CUDA (sur le PC de Diego) mais pas sur la CG (problème de    |
+|  driver du laptop de l'établissement, un besoin de mise à jour driver pouvant en être la cause)         |
++---------------------------------------------------------------------------------------------------------+

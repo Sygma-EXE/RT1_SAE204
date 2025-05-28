@@ -25,7 +25,7 @@ ciphertext = decoded[8:]
 #estimated time on the base laptop: 163 years                                                #
 ##############################################################################################
 
-def decrypta():
+def decrypta1():
     i=0
     for x in map(''.join,itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != 'a': 
@@ -39,7 +39,7 @@ def decrypta():
             print("Found Key: ",fkey)
         i+=1
 
-def decryptb():
+def decryptb1():
     i=0
     for x in map(''.join,itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != 'b': 
@@ -53,7 +53,7 @@ def decryptb():
             print("Found Key: ",fkey)
         i+=1
 
-def decryptd():
+def decryptd1():
     i=0
     for x in map(''.join,itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != 'd': 
@@ -67,7 +67,7 @@ def decryptd():
             print("Found Key: ",fkey)
         i+=1
 
-def decryptf():
+def decryptf1():
     i=0
     for x in map(''.join,itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != 'f': 
@@ -81,7 +81,7 @@ def decryptf():
             print("Found Key: ",fkey)
         i+=1
 
-def decrypth():
+def decrypth1():
     i=0
     for x in map(''.join,itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != 'h': 
@@ -95,7 +95,7 @@ def decrypth():
             print("Found Key: ",fkey)
         i+=1
 
-def decryptj():
+def decryptj1():
     i=0
     for x in map(''.join,itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != 'j': 
@@ -109,7 +109,7 @@ def decryptj():
             print("Found Key: ",fkey)
         i+=1
 
-def decryptl():
+def decryptl1():
     i=0
     for x in map(''.join,itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != 'l': 
@@ -123,7 +123,7 @@ def decryptl():
             print("Found Key: ",fkey)
         i+=1
 
-def decryptn():
+def decryptn1():
     i=0
     for x in map(''.join,itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != 'n': 
@@ -137,7 +137,7 @@ def decryptn():
             print("Found Key: ",fkey)
         i+=1
 
-def decryptp():
+def decryptp1():
     i=0
     for x in map(''.join,itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != 'p': 
@@ -151,7 +151,7 @@ def decryptp():
             print("Found Key: ",fkey)
         i+=1
 
-def decryptr():
+def decryptr1():
     i=0
     for x in map(''.join,itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != 'r':
@@ -165,7 +165,7 @@ def decryptr():
             print("Found Key: ",fkey)
         i+=1
 
-def decryptt():
+def decryptt1():
     i=0
     for x in map(''.join,itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != 't': 
@@ -179,7 +179,7 @@ def decryptt():
             print("Found Key: ",fkey)
         i+=1
 
-def decryptv():
+def decryptv1():
     i=0
     for x in map(''.join,itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != 'v': 
@@ -193,7 +193,7 @@ def decryptv():
             print("Found Key: ",fkey)
         i+=1
 
-def decryptx():
+def decryptx1():
     i=0
     for x in map(''.join,itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != 'x': 
@@ -207,7 +207,7 @@ def decryptx():
             print("Found Key: ",fkey)
         i+=1
 
-def decryptz():
+def decryptz1():
     i=0
     for x in map(''.join,itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != 'z': 
@@ -221,7 +221,7 @@ def decryptz():
             print("Found Key: ",fkey)
         i+=1
 
-def decryptGA():
+def decryptGA1():
     i=0
     for x in map(''.join,itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != 'A': 
@@ -235,7 +235,7 @@ def decryptGA():
             print("Found Key: ",fkey)
         i+=1
 
-def decryptGB():
+def decryptGB1():
     i=0
     for x in map(''.join,itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != 'B': 
@@ -249,7 +249,7 @@ def decryptGB():
             print("Found Key: ",fkey)
         i+=1
 
-def decryptGD():
+def decryptGD1():
     i=0
     for x in map(''.join,itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != 'D': 
@@ -263,7 +263,7 @@ def decryptGD():
             print("Found Key: ",fkey)
         i+=1
 
-def decryptGF():
+def decryptGF1():
     i=0
     for x in map(''.join,itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != 'F': 
@@ -277,7 +277,7 @@ def decryptGF():
             print("Found Key: ",fkey)
         i+=1
 
-def decryptGH():
+def decryptGH1():
     i=0
     for x in map(''.join,itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != 'H': 
@@ -291,7 +291,7 @@ def decryptGH():
             print("Found Key: ",fkey)
         i+=1
 
-def decryptGJ():
+def decryptGJ1():
     i=0
     for x in map(''.join,itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != 'J': 
@@ -305,7 +305,7 @@ def decryptGJ():
             print("Found Key: ",fkey)
         i+=1
 
-def decryptGL():
+def decryptGL1():
     i=0
     for x in map(''.join,itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != 'L': 
@@ -319,7 +319,7 @@ def decryptGL():
             print("Found Key: ",fkey)
         i+=1
 
-def decryptGN():
+def decryptGN1():
     i=0
     for x in map(''.join,itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != 'N': 
@@ -333,7 +333,7 @@ def decryptGN():
             print("Found Key: ",fkey)
         i+=1
 
-def decryptGP():
+def decryptGP1():
     i=0
     for x in map(''.join,itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != 'P': 
@@ -347,7 +347,7 @@ def decryptGP():
             print("Found Key: ",fkey)
         i+=1
 
-def decryptGR():
+def decryptGR1():
     i=0
     for x in map(''.join,itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != 'R': 
@@ -361,7 +361,7 @@ def decryptGR():
             print("Found Key: ",fkey)
         i+=1
 
-def decryptGT():
+def decryptGT1():
     i=0
     for x in map(''.join,itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != 'T': 
@@ -375,7 +375,7 @@ def decryptGT():
             print("Found Key: ",fkey)
         i+=1
 
-def decryptGV():
+def decryptGV1():
     i=0
     for x in map(''.join,itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != 'V': 
@@ -389,7 +389,7 @@ def decryptGV():
             print("Found Key: ",fkey)
         i+=1
 
-def decryptGX():
+def decryptGX1():
     i=0
     for x in map(''.join,itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != 'x': 
@@ -403,7 +403,7 @@ def decryptGX():
             print("Found Key: ",fkey)
         i+=1
 
-def decryptGZ():
+def decryptGZ1():
     i=0
     for x in map(''.join,itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != 'Z': 
@@ -417,7 +417,7 @@ def decryptGZ():
             print("Found Key: ",fkey)
         i+=1
 
-def decrypt0():
+def decrypt01():
     i=0
     for x in map(''.join,itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != '0': 
@@ -431,7 +431,7 @@ def decrypt0():
             print("Found Key: ",fkey)
         i+=1
 
-def decrypt2():
+def decrypt21():
     i=0
     for x in map(''.join,itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != '2': 
@@ -445,7 +445,7 @@ def decrypt2():
             print("Found Key: ",fkey)
         i+=1
 
-def decrypt4():
+def decrypt41():
     i=0
     for x in map(''.join,itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != '4': 
@@ -459,7 +459,7 @@ def decrypt4():
             print("Found Key: ",fkey)
         i+=1
 
-def decrypt6():
+def decrypt61():
     i=0
     for x in map(''.join,itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != '6': 
@@ -473,7 +473,7 @@ def decrypt6():
             print("Found Key: ",fkey)
         i+=1
 
-def decrypt8():
+def decrypt81():
     i=0
     for x in map(''.join,itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != '8': 
@@ -487,7 +487,7 @@ def decrypt8():
             print("Found Key: ",fkey)
         i+=1
 
-def decryptex(): #!
+def decryptex1(): #!
     i=0
     for x in map(''.join,itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != '!': 
@@ -501,7 +501,7 @@ def decryptex(): #!
             print("Found Key: ",fkey)
         i+=1
 
-def decryptdq(): #"
+def decryptdq1(): #"
     i=0
     for x in map(''.join,itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != '"': 
@@ -515,7 +515,7 @@ def decryptdq(): #"
             print("Found Key: ",fkey)
         i+=1
 
-def decryptdol(): #$
+def decryptdol1(): #$
     i=0
     for x in map(''.join,itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != '$': 
@@ -530,7 +530,7 @@ def decryptdol(): #$
         i+=1
 
 
-def decryptes(): #&
+def decryptes1(): #&
     i=0
     for x in map(''.join,itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != '&': 
@@ -544,7 +544,7 @@ def decryptes(): #&
             print("Found Key: ",fkey)
         i+=1
 
-def decryptasq(): #'
+def decryptasq1(): #'
     i=0
     for x in map(''.join,itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != '\'': 
@@ -558,7 +558,7 @@ def decryptasq(): #'
             print("Found Key: ",fkey)
         i+=1
 
-def decryptpo(): #(
+def decryptpo1(): #(
     i=0
     for x in map(''.join,itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != '(': 
@@ -572,7 +572,7 @@ def decryptpo(): #(
             print("Found Key: ",fkey)
         i+=1
 
-def decryptast(): #*
+def decryptast1(): #*
     i=0
     for x in map(''.join,itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != '*': 
@@ -586,7 +586,7 @@ def decryptast(): #*
             print("Found Key: ",fkey)
         i+=1
 
-def decryptcom(): #,
+def decryptcom1(): #,
     i=0
     for x in map(''.join,itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != ',': 
@@ -600,7 +600,7 @@ def decryptcom(): #,
             print("Found Key: ",fkey)
         i+=1
 
-def decryptpoin(): #.
+def decryptpoin1(): #.
     i=0
     for x in map(''.join,itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != '.': 
@@ -614,7 +614,7 @@ def decryptpoin(): #.
             print("Found Key: ",fkey)
         i+=1
 
-def decryptdpoi(): #:
+def decryptdpoi1(): #:
     i=0
     for x in map(''.join,itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != ':': 
@@ -628,7 +628,7 @@ def decryptdpoi(): #:
             print("Found Key: ",fkey)
         i+=1
 
-def decryptmo(): #<
+def decryptmo1(): #<
     i=0
     for x in map(''.join,itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != '<': 
@@ -642,7 +642,7 @@ def decryptmo(): #<
             print("Found Key: ",fkey)
         i+=1
 
-def decryptmi(): #>
+def decryptmi1(): #>
     i=0
     for x in map(''.join,itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != '>': 
@@ -656,7 +656,7 @@ def decryptmi(): #>
             print("Found Key: ",fkey)
         i+=1
 
-def decryptat(): #@
+def decryptat1(): #@
     i=0
     for x in map(''.join,itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != '@': 
@@ -670,7 +670,7 @@ def decryptat(): #@
             print("Found Key: ",fkey)
         i+=1
 
-def decryptoc(): #[
+def decryptoc1(): #[
     i=0
     for x in map(''.join,itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~',repeat=8)):
         if i ==1000 or x[0] != '[': 
@@ -684,7 +684,7 @@ def decryptoc(): #[
             print("Found Key: ",fkey)
         i+=1
 
-def decryptbs(): #\
+def decryptbs1(): #\
     i=0
     for x in map(''.join,itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~',repeat=8)):
         if i ==1000 or x[0] != '\\': 
@@ -698,7 +698,7 @@ def decryptbs(): #\
             print("Found Key: ",fkey)
         i+=1
 
-def decryptcir(): #^
+def decryptcir1(): #^
     i=0
     for x in map(''.join,itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~',repeat=8)):
         if i ==1000 or x[0] != '^': 
@@ -712,7 +712,7 @@ def decryptcir(): #^
             print("Found Key: ",fkey)
         i+=1
 
-def decryptidk(): #`
+def decryptidk1(): #`
     i=0
     for x in map(''.join,itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != '`': 
@@ -726,7 +726,7 @@ def decryptidk(): #`
             print("Found Key: ",fkey)
         i+=1
 
-def decryptosc(): #{
+def decryptosc1(): #{
     i=0
     for x in map(''.join,itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~',repeat=8)):
         if i ==1000 or x[0] != '{': 
@@ -740,7 +740,7 @@ def decryptosc(): #{
             print("Found Key: ",fkey)
         i+=1
 
-def decryptss(): #|
+def decryptss1(): #|
     i=0
     for x in map(''.join,itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~',repeat=8)):
         if i ==1000 or x[0] != '|': 
@@ -754,7 +754,7 @@ def decryptss(): #|
             print("Found Key: ",fkey)
         i+=1
 
-def decrypttild(): #~
+def decrypttild1(): #~
     i=0
     for x in map(''.join,itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|',repeat=8)):
         if i ==1000 or x[0] != '~': 
@@ -768,59 +768,59 @@ def decrypttild(): #~
             print("Found Key: ",fkey)
         i+=1
 
-threada = threading.Thread(target=decrypta)
-threadb = threading.Thread(target=decryptb)
-threadd = threading.Thread(target=decryptd)
-threadf = threading.Thread(target=decryptf)
-threadh = threading.Thread(target=decrypth)
-threadj = threading.Thread(target=decryptj)
-threadl = threading.Thread(target=decryptl)
-threadn = threading.Thread(target=decryptn)
-threadp = threading.Thread(target=decryptp)
-threadr = threading.Thread(target=decryptr)
-threadt = threading.Thread(target=decryptt)
-threadv = threading.Thread(target=decryptv)
-threadx = threading.Thread(target=decryptx)
-threadz = threading.Thread(target=decryptz)
-threadGA = threading.Thread(target=decryptGA)
-threadGB = threading.Thread(target=decryptGB)
-threadGD = threading.Thread(target=decryptGD)
-threadGF = threading.Thread(target=decryptGF)
-threadGH = threading.Thread(target=decryptGH)
-threadGJ = threading.Thread(target=decryptGJ)
-threadGL = threading.Thread(target=decryptGL)
-threadGN = threading.Thread(target=decryptGN)
-threadGP = threading.Thread(target=decryptGP)
-threadGR = threading.Thread(target=decryptGR)
-threadGT = threading.Thread(target=decryptGT)
-threadGV = threading.Thread(target=decryptGV)
-threadGX = threading.Thread(target=decryptGX)
-threadGZ = threading.Thread(target=decryptGZ)
-thread0 = threading.Thread(target=decrypt0)
-thread2 = threading.Thread(target=decrypt2)
-thread4 = threading.Thread(target=decrypt4)
-thread6 = threading.Thread(target=decrypt6)
-thread8 = threading.Thread(target=decrypt8)
-threadex = threading.Thread(target=decryptex)
-threaddq = threading.Thread(target=decryptdq)
-threaddol = threading.Thread(target=decryptdol)
-threades = threading.Thread(target=decryptes)
-threadsq = threading.Thread(target=decryptasq)
-threadpo = threading.Thread(target=decryptpo)
-threadast = threading.Thread(target=decryptast)
-threadcom = threading.Thread(target=decryptcom)
-threadpoin = threading.Thread(target=decryptpoin)
-threaddpoi = threading.Thread(target=decryptdpoi)
-threadmo = threading.Thread(target=decryptmo)
-threadmi = threading.Thread(target=decryptmi)
-threadat = threading.Thread(target=decryptat)
-threadoc = threading.Thread(target=decryptoc)
-threadbs = threading.Thread(target=decryptbs)
-threadcir = threading.Thread(target=decryptcir)
-threadidk = threading.Thread(target=decryptidk)
-threadosc = threading.Thread(target=decryptosc)
-threadss = threading.Thread(target=decryptss)
-threadtild = threading.Thread(target=decrypttild)
+threada = threading.Thread(target=decrypta1)
+threadb = threading.Thread(target=decryptb1)
+threadd = threading.Thread(target=decryptd1)
+threadf = threading.Thread(target=decryptf1)
+threadh = threading.Thread(target=decrypth1)
+threadj = threading.Thread(target=decryptj1)
+threadl = threading.Thread(target=decryptl1)
+threadn = threading.Thread(target=decryptn1)
+threadp = threading.Thread(target=decryptp1)
+threadr = threading.Thread(target=decryptr1)
+threadt = threading.Thread(target=decryptt1)
+threadv = threading.Thread(target=decryptv1)
+threadx = threading.Thread(target=decryptx1)
+threadz = threading.Thread(target=decryptz1)
+threadGA = threading.Thread(target=decryptGA1)
+threadGB = threading.Thread(target=decryptGB1)
+threadGD = threading.Thread(target=decryptGD1)
+threadGF = threading.Thread(target=decryptGF1)
+threadGH = threading.Thread(target=decryptGH1)
+threadGJ = threading.Thread(target=decryptGJ1)
+threadGL = threading.Thread(target=decryptGL1)
+threadGN = threading.Thread(target=decryptGN1)
+threadGP = threading.Thread(target=decryptGP1)
+threadGR = threading.Thread(target=decryptGR1)
+threadGT = threading.Thread(target=decryptGT1)
+threadGV = threading.Thread(target=decryptGV1)
+threadGX = threading.Thread(target=decryptGX1)
+threadGZ = threading.Thread(target=decryptGZ1)
+thread0 = threading.Thread(target=decrypt01)
+thread2 = threading.Thread(target=decrypt21)
+thread4 = threading.Thread(target=decrypt41)
+thread6 = threading.Thread(target=decrypt61)
+thread8 = threading.Thread(target=decrypt81)
+threadex = threading.Thread(target=decryptex1)
+threaddq = threading.Thread(target=decryptdq1)
+threaddol = threading.Thread(target=decryptdol1)
+threades = threading.Thread(target=decryptes1)
+threadsq = threading.Thread(target=decryptasq1)
+threadpo = threading.Thread(target=decryptpo1)
+threadast = threading.Thread(target=decryptast1)
+threadcom = threading.Thread(target=decryptcom1)
+threadpoin = threading.Thread(target=decryptpoin1)
+threaddpoi = threading.Thread(target=decryptdpoi1)
+threadmo = threading.Thread(target=decryptmo1)
+threadmi = threading.Thread(target=decryptmi1)
+threadat = threading.Thread(target=decryptat1)
+threadoc = threading.Thread(target=decryptoc1)
+threadbs = threading.Thread(target=decryptbs1)
+threadcir = threading.Thread(target=decryptcir1)
+threadidk = threading.Thread(target=decryptidk1)
+threadosc = threading.Thread(target=decryptosc1)
+threadss = threading.Thread(target=decryptss1)
+threadtild = threading.Thread(target=decrypttild1)
 
 threada.start()
 threadb.start()
