@@ -7,6 +7,10 @@ import base64
 #estimated time on the base laptop: 141 days                                                 #
 ##############################################################################################
 
+##############################################################################################
+#estimated time on the big boy at home: 7 hours (need to test)                               #
+##############################################################################################
+
 key = b'uSD-fk83'
 texte = b'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.'
 
@@ -27,7 +31,7 @@ def decrypt_aa():
         if i == 1000 or x[:2] != 'aa':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -aa')
+        #print(fkey, ' -aa')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -41,7 +45,7 @@ def decrypt_ab():
         if i == 1000 or x[:2] != 'ab':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -ab')
+        #print(fkey, ' -ab')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -55,7 +59,7 @@ def decrypt_ad():
         if i == 1000 or x[:2] != 'ad':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -ad')
+        #print(fkey, ' -ad')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -69,7 +73,7 @@ def decrypt_af():
         if i == 1000 or x[:2] != 'af':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -af')
+        #print(fkey, ' -af')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -83,7 +87,7 @@ def decrypt_ah():
         if i == 1000 or x[:2] != 'ah':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -ah')
+        #print(fkey, ' -ah')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -97,7 +101,7 @@ def decrypt_aj():
         if i == 1000 or x[:2] != 'aj':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -aj')
+        #print(fkey, ' -aj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -111,7 +115,7 @@ def decrypt_al():
         if i == 1000 or x[:2] != 'al':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -al')
+        #print(fkey, ' -al')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -125,7 +129,7 @@ def decrypt_an():
         if i == 1000 or x[:2] != 'an':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -an')
+        #print(fkey, ' -an')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -139,7 +143,7 @@ def decrypt_ap():
         if i == 1000 or x[:2] != 'ap':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -ap')
+        #print(fkey, ' -ap')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -153,7 +157,7 @@ def decrypt_ar():
         if i == 1000 or x[:2] != 'ar':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -ar')
+        #print(fkey, ' -ar')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -167,7 +171,7 @@ def decrypt_at():
         if i == 1000 or x[:2] != 'at':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -at')
+        #print(fkey, ' -at')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -181,7 +185,7 @@ def decrypt_av():
         if i == 1000 or x[:2] != 'av':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -av')
+        #print(fkey, ' -av')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -195,7 +199,7 @@ def decrypt_ax():
         if i == 1000 or x[:2] != 'ax':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -ax')
+        #print(fkey, ' -ax')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -209,7 +213,7 @@ def decrypt_az():
         if i == 1000 or x[:2] != 'az':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -az')
+        #print(fkey, ' -az')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -223,7 +227,7 @@ def decrypt_aA():
         if i == 1000 or x[:2] != 'aA':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -aA')
+        #print(fkey, ' -aA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -237,7 +241,7 @@ def decrypt_aB():
         if i == 1000 or x[:2] != 'aB':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -aB')
+        #print(fkey, ' -aB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -251,7 +255,7 @@ def decrypt_aD():
         if i == 1000 or x[:2] != 'aD':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -aD')
+        #print(fkey, ' -aD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -265,7 +269,7 @@ def decrypt_aF():
         if i == 1000 or x[:2] != 'aF':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -aF')
+        #print(fkey, ' -aF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -279,7 +283,7 @@ def decrypt_aH():
         if i == 1000 or x[:2] != 'aH':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -aH')
+        #print(fkey, ' -aH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -293,7 +297,7 @@ def decrypt_aJ():
         if i == 1000 or x[:2] != 'aJ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -aJ')
+        #print(fkey, ' -aJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -307,7 +311,7 @@ def decrypt_aL():
         if i == 1000 or x[:2] != 'aL':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -aL')
+        #print(fkey, ' -aL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -321,7 +325,7 @@ def decrypt_aN():
         if i == 1000 or x[:2] != 'aN':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -aN')
+        #print(fkey, ' -aN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -335,7 +339,7 @@ def decrypt_aP():
         if i == 1000 or x[:2] != 'aP':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -aP')
+        #print(fkey, ' -aP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -349,7 +353,7 @@ def decrypt_aR():
         if i == 1000 or x[:2] != 'aR':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -aR')
+        #print(fkey, ' -aR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -363,7 +367,7 @@ def decrypt_aT():
         if i == 1000 or x[:2] != 'aT':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -aT')
+        #print(fkey, ' -aT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -377,7 +381,7 @@ def decrypt_aV():
         if i == 1000 or x[:2] != 'aV':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -aV')
+        #print(fkey, ' -aV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -391,7 +395,7 @@ def decrypt_aX():
         if i == 1000 or x[:2] != 'aX':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -aX')
+        #print(fkey, ' -aX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -405,7 +409,7 @@ def decrypt_aZ():
         if i == 1000 or x[:2] != 'aZ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -aZ')
+        #print(fkey, ' -aZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -419,7 +423,7 @@ def decrypt_a0():
         if i == 1000 or x[:2] != 'a0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -a0')
+        #print(fkey, ' -a0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -433,7 +437,7 @@ def decrypt_a2():
         if i == 1000 or x[:2] != 'a2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -a2')
+        #print(fkey, ' -a2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -447,7 +451,7 @@ def decrypt_a4():
         if i == 1000 or x[:2] != 'a4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -a4')
+        #print(fkey, ' -a4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -461,7 +465,7 @@ def decrypt_a6():
         if i == 1000 or x[:2] != 'a6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -a6')
+        #print(fkey, ' -a6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -475,7 +479,7 @@ def decrypt_a8():
         if i == 1000 or x[:2] != 'a8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -a8')
+        #print(fkey, ' -a8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -489,7 +493,7 @@ def decrypt_aexcl():
         if i == 1000 or x[:2] != 'a!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -a!')
+        #print(fkey, ' -a!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -503,7 +507,7 @@ def decrypt_adquote():
         if i == 1000 or x[:2] != 'a"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -a"')
+        #print(fkey, ' -a"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -517,7 +521,7 @@ def decrypt_adoll():
         if i == 1000 or x[:2] != 'a$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -a$')
+        #print(fkey, ' -a$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -531,7 +535,7 @@ def decrypt_aand():
         if i == 1000 or x[:2] != 'a&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -a&')
+        #print(fkey, ' -a&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -545,7 +549,7 @@ def decrypt_aquote():
         if i == 1000 or x[:2] != 'a\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -a\'')
+        #print(fkey, ' -a\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -559,7 +563,7 @@ def decrypt_apar():
         if i == 1000 or x[:2] != 'a(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -a(')
+        #print(fkey, ' -a(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -573,7 +577,7 @@ def decrypt_aast():
         if i == 1000 or x[:2] != 'a*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -a*')
+        #print(fkey, ' -a*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -587,7 +591,7 @@ def decrypt_avir():
         if i == 1000 or x[:2] != 'a,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -a,')
+        #print(fkey, ' -a,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -601,7 +605,7 @@ def decrypt_app():
         if i == 1000 or x[:2] != 'a.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -a.')
+        #print(fkey, ' -a.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -615,7 +619,7 @@ def decrypt_atp():
         if i == 1000 or x[:2] != 'a:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -a:')
+        #print(fkey, ' -a:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -629,7 +633,7 @@ def decrypt_aless():
         if i == 1000 or x[:2] != 'a<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -a<')
+        #print(fkey, ' -a<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -643,7 +647,7 @@ def decrypt_amore():
         if i == 1000 or x[:2] != 'a>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -a>')
+        #print(fkey, ' -a>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -657,7 +661,7 @@ def decrypt_aaro():
         if i == 1000 or x[:2] != 'a@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -a@')
+        #print(fkey, ' -a@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -671,7 +675,7 @@ def decrypt_acroc():
         if i == 1000 or x[:2] != 'a[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -a[')
+        #print(fkey, ' -a[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -685,7 +689,7 @@ def decrypt_absl():
         if i == 1000 or x[:2] != 'a\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -a\\')
+        #print(fkey, ' -a\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -699,7 +703,7 @@ def decrypt_acirc():
         if i == 1000 or x[:2] != 'a^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -a^')
+        #print(fkey, ' -a^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -713,7 +717,7 @@ def decrypt_aesp():
         if i == 1000 or x[:2] != 'a`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -a`')
+        #print(fkey, ' -a`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -727,7 +731,7 @@ def decrypt_acr():
         if i == 1000 or x[:2] != 'a{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -a{')
+        #print(fkey, ' -a{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -741,7 +745,7 @@ def decrypt_ahl():
         if i == 1000 or x[:2] != 'a|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -a|')
+        #print(fkey, ' -a|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -755,7 +759,7 @@ def decrypt_atild():
         if i == 1000 or x[:2] != 'a~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -a~')
+        #print(fkey, ' -a~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -769,7 +773,7 @@ def decrypt_ba():
         if i == 1000 or x[:2] != 'ba':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -ba')
+        #print(fkey, ' -ba')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -783,7 +787,7 @@ def decrypt_bb():
         if i == 1000 or x[:2] != 'bb':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -bb')
+        #print(fkey, ' -bb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -797,7 +801,7 @@ def decrypt_bd():
         if i == 1000 or x[:2] != 'bd':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -bd')
+        #print(fkey, ' -bd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -811,7 +815,7 @@ def decrypt_bf():
         if i == 1000 or x[:2] != 'bf':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -bf')
+        #print(fkey, ' -bf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -825,7 +829,7 @@ def decrypt_bh():
         if i == 1000 or x[:2] != 'bh':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -bh')
+        #print(fkey, ' -bh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -839,7 +843,7 @@ def decrypt_bj():
         if i == 1000 or x[:2] != 'bj':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -bj')
+        #print(fkey, ' -bj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -853,7 +857,7 @@ def decrypt_bl():
         if i == 1000 or x[:2] != 'bl':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -bl')
+        #print(fkey, ' -bl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -867,7 +871,7 @@ def decrypt_bn():
         if i == 1000 or x[:2] != 'bn':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -bn')
+        #print(fkey, ' -bn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -881,7 +885,7 @@ def decrypt_bp():
         if i == 1000 or x[:2] != 'bp':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -bp')
+        #print(fkey, ' -bp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -895,7 +899,7 @@ def decrypt_br():
         if i == 1000 or x[:2] != 'br':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -br')
+        #print(fkey, ' -br')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -909,7 +913,7 @@ def decrypt_bt():
         if i == 1000 or x[:2] != 'bt':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -bt')
+        #print(fkey, ' -bt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -923,7 +927,7 @@ def decrypt_bv():
         if i == 1000 or x[:2] != 'bv':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -bv')
+        #print(fkey, ' -bv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -937,7 +941,7 @@ def decrypt_bx():
         if i == 1000 or x[:2] != 'bx':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -bx')
+        #print(fkey, ' -bx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -951,7 +955,7 @@ def decrypt_bz():
         if i == 1000 or x[:2] != 'bz':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -bz')
+        #print(fkey, ' -bz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -965,7 +969,7 @@ def decrypt_bA():
         if i == 1000 or x[:2] != 'bA':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -bA')
+        #print(fkey, ' -bA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -979,7 +983,7 @@ def decrypt_bB():
         if i == 1000 or x[:2] != 'bB':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -bB')
+        #print(fkey, ' -bB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -993,7 +997,7 @@ def decrypt_bD():
         if i == 1000 or x[:2] != 'bD':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -bD')
+        #print(fkey, ' -bD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1007,7 +1011,7 @@ def decrypt_bF():
         if i == 1000 or x[:2] != 'bF':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -bF')
+        #print(fkey, ' -bF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1021,7 +1025,7 @@ def decrypt_bH():
         if i == 1000 or x[:2] != 'bH':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -bH')
+        #print(fkey, ' -bH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1035,7 +1039,7 @@ def decrypt_bJ():
         if i == 1000 or x[:2] != 'bJ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -bJ')
+        #print(fkey, ' -bJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1049,7 +1053,7 @@ def decrypt_bL():
         if i == 1000 or x[:2] != 'bL':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -bL')
+        #print(fkey, ' -bL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1063,7 +1067,7 @@ def decrypt_bN():
         if i == 1000 or x[:2] != 'bN':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -bN')
+        #print(fkey, ' -bN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1077,7 +1081,7 @@ def decrypt_bP():
         if i == 1000 or x[:2] != 'bP':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -bP')
+        #print(fkey, ' -bP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1091,7 +1095,7 @@ def decrypt_bR():
         if i == 1000 or x[:2] != 'bR':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -bR')
+        #print(fkey, ' -bR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1105,7 +1109,7 @@ def decrypt_bT():
         if i == 1000 or x[:2] != 'bT':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -bT')
+        #print(fkey, ' -bT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1119,7 +1123,7 @@ def decrypt_bV():
         if i == 1000 or x[:2] != 'bV':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -bV')
+        #print(fkey, ' -bV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1133,7 +1137,7 @@ def decrypt_bX():
         if i == 1000 or x[:2] != 'bX':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -bX')
+        #print(fkey, ' -bX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1147,7 +1151,7 @@ def decrypt_bZ():
         if i == 1000 or x[:2] != 'bZ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -bZ')
+        #print(fkey, ' -bZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1161,7 +1165,7 @@ def decrypt_b0():
         if i == 1000 or x[:2] != 'b0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -b0')
+        #print(fkey, ' -b0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1175,7 +1179,7 @@ def decrypt_b2():
         if i == 1000 or x[:2] != 'b2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -b2')
+        #print(fkey, ' -b2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1189,7 +1193,7 @@ def decrypt_b4():
         if i == 1000 or x[:2] != 'b4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -b4')
+        #print(fkey, ' -b4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1203,7 +1207,7 @@ def decrypt_b6():
         if i == 1000 or x[:2] != 'b6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -b6')
+        #print(fkey, ' -b6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1217,7 +1221,7 @@ def decrypt_b8():
         if i == 1000 or x[:2] != 'b8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -b8')
+        #print(fkey, ' -b8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1231,7 +1235,7 @@ def decrypt_bexcl():
         if i == 1000 or x[:2] != 'b!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -b!')
+        #print(fkey, ' -b!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1245,7 +1249,7 @@ def decrypt_bdquote():
         if i == 1000 or x[:2] != 'b"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -b"')
+        #print(fkey, ' -b"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1259,7 +1263,7 @@ def decrypt_bdoll():
         if i == 1000 or x[:2] != 'b$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -b$')
+        #print(fkey, ' -b$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1273,7 +1277,7 @@ def decrypt_band():
         if i == 1000 or x[:2] != 'b&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -b&')
+        #print(fkey, ' -b&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1287,7 +1291,7 @@ def decrypt_bquote():
         if i == 1000 or x[:2] != 'b\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -b\'')
+        #print(fkey, ' -b\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1301,7 +1305,7 @@ def decrypt_bpar():
         if i == 1000 or x[:2] != 'b(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -b(')
+        #print(fkey, ' -b(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1315,7 +1319,7 @@ def decrypt_bast():
         if i == 1000 or x[:2] != 'b*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -b*')
+        #print(fkey, ' -b*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1329,7 +1333,7 @@ def decrypt_bvir():
         if i == 1000 or x[:2] != 'b,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -b,')
+        #print(fkey, ' -b,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1343,7 +1347,7 @@ def decrypt_bpp():
         if i == 1000 or x[:2] != 'b.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -b.')
+        #print(fkey, ' -b.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1357,7 +1361,7 @@ def decrypt_btp():
         if i == 1000 or x[:2] != 'b:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -b:')
+        #print(fkey, ' -b:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1371,7 +1375,7 @@ def decrypt_bless():
         if i == 1000 or x[:2] != 'b<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -b<')
+        #print(fkey, ' -b<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1385,7 +1389,7 @@ def decrypt_bmore():
         if i == 1000 or x[:2] != 'b>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -b>')
+        #print(fkey, ' -b>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1399,7 +1403,7 @@ def decrypt_baro():
         if i == 1000 or x[:2] != 'b@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -b@')
+        #print(fkey, ' -b@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1413,7 +1417,7 @@ def decrypt_bcroc():
         if i == 1000 or x[:2] != 'b[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -b[')
+        #print(fkey, ' -b[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1427,7 +1431,7 @@ def decrypt_bbsl():
         if i == 1000 or x[:2] != 'b\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -b\\')
+        #print(fkey, ' -b\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1441,7 +1445,7 @@ def decrypt_bcirc():
         if i == 1000 or x[:2] != 'b^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -b^')
+        #print(fkey, ' -b^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1455,7 +1459,7 @@ def decrypt_besp():
         if i == 1000 or x[:2] != 'b`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -b`')
+        #print(fkey, ' -b`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1469,7 +1473,7 @@ def decrypt_bcr():
         if i == 1000 or x[:2] != 'b{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -b{')
+        #print(fkey, ' -b{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1483,7 +1487,7 @@ def decrypt_bhl():
         if i == 1000 or x[:2] != 'b|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -b|')
+        #print(fkey, ' -b|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1497,7 +1501,7 @@ def decrypt_btild():
         if i == 1000 or x[:2] != 'b~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -b~')
+        #print(fkey, ' -b~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1511,7 +1515,7 @@ def decrypt_da():
         if i == 1000 or x[:2] != 'da':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -da')
+        #print(fkey, ' -da')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1525,7 +1529,7 @@ def decrypt_db():
         if i == 1000 or x[:2] != 'db':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -db')
+        #print(fkey, ' -db')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1539,7 +1543,7 @@ def decrypt_dd():
         if i == 1000 or x[:2] != 'dd':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -dd')
+        #print(fkey, ' -dd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1553,7 +1557,7 @@ def decrypt_df():
         if i == 1000 or x[:2] != 'df':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -df')
+        #print(fkey, ' -df')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1567,7 +1571,7 @@ def decrypt_dh():
         if i == 1000 or x[:2] != 'dh':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -dh')
+        #print(fkey, ' -dh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1581,7 +1585,7 @@ def decrypt_dj():
         if i == 1000 or x[:2] != 'dj':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -dj')
+        #print(fkey, ' -dj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1595,7 +1599,7 @@ def decrypt_dl():
         if i == 1000 or x[:2] != 'dl':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -dl')
+        #print(fkey, ' -dl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1609,7 +1613,7 @@ def decrypt_dn():
         if i == 1000 or x[:2] != 'dn':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -dn')
+        #print(fkey, ' -dn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1623,7 +1627,7 @@ def decrypt_dp():
         if i == 1000 or x[:2] != 'dp':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -dp')
+        #print(fkey, ' -dp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1637,7 +1641,7 @@ def decrypt_dr():
         if i == 1000 or x[:2] != 'dr':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -dr')
+        #print(fkey, ' -dr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1651,7 +1655,7 @@ def decrypt_dt():
         if i == 1000 or x[:2] != 'dt':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -dt')
+        #print(fkey, ' -dt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1665,7 +1669,7 @@ def decrypt_dv():
         if i == 1000 or x[:2] != 'dv':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -dv')
+        #print(fkey, ' -dv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1679,7 +1683,7 @@ def decrypt_dx():
         if i == 1000 or x[:2] != 'dx':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -dx')
+        #print(fkey, ' -dx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1693,7 +1697,7 @@ def decrypt_dz():
         if i == 1000 or x[:2] != 'dz':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -dz')
+        #print(fkey, ' -dz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1707,7 +1711,7 @@ def decrypt_dA():
         if i == 1000 or x[:2] != 'dA':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -dA')
+        #print(fkey, ' -dA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1721,7 +1725,7 @@ def decrypt_dB():
         if i == 1000 or x[:2] != 'dB':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -dB')
+        #print(fkey, ' -dB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1735,7 +1739,7 @@ def decrypt_dD():
         if i == 1000 or x[:2] != 'dD':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -dD')
+        #print(fkey, ' -dD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1749,7 +1753,7 @@ def decrypt_dF():
         if i == 1000 or x[:2] != 'dF':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -dF')
+        #print(fkey, ' -dF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1763,7 +1767,7 @@ def decrypt_dH():
         if i == 1000 or x[:2] != 'dH':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -dH')
+        #print(fkey, ' -dH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1777,7 +1781,7 @@ def decrypt_dJ():
         if i == 1000 or x[:2] != 'dJ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -dJ')
+        #print(fkey, ' -dJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1791,7 +1795,7 @@ def decrypt_dL():
         if i == 1000 or x[:2] != 'dL':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -dL')
+        #print(fkey, ' -dL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1805,7 +1809,7 @@ def decrypt_dN():
         if i == 1000 or x[:2] != 'dN':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -dN')
+        #print(fkey, ' -dN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1819,7 +1823,7 @@ def decrypt_dP():
         if i == 1000 or x[:2] != 'dP':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -dP')
+        #print(fkey, ' -dP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1833,7 +1837,7 @@ def decrypt_dR():
         if i == 1000 or x[:2] != 'dR':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -dR')
+        #print(fkey, ' -dR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1847,7 +1851,7 @@ def decrypt_dT():
         if i == 1000 or x[:2] != 'dT':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -dT')
+        #print(fkey, ' -dT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1861,7 +1865,7 @@ def decrypt_dV():
         if i == 1000 or x[:2] != 'dV':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -dV')
+        #print(fkey, ' -dV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1875,7 +1879,7 @@ def decrypt_dX():
         if i == 1000 or x[:2] != 'dX':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -dX')
+        #print(fkey, ' -dX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1889,7 +1893,7 @@ def decrypt_dZ():
         if i == 1000 or x[:2] != 'dZ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -dZ')
+        #print(fkey, ' -dZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1903,7 +1907,7 @@ def decrypt_d0():
         if i == 1000 or x[:2] != 'd0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -d0')
+        #print(fkey, ' -d0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1917,7 +1921,7 @@ def decrypt_d2():
         if i == 1000 or x[:2] != 'd2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -d2')
+        #print(fkey, ' -d2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1931,7 +1935,7 @@ def decrypt_d4():
         if i == 1000 or x[:2] != 'd4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -d4')
+        #print(fkey, ' -d4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1945,7 +1949,7 @@ def decrypt_d6():
         if i == 1000 or x[:2] != 'd6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -d6')
+        #print(fkey, ' -d6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1959,7 +1963,7 @@ def decrypt_d8():
         if i == 1000 or x[:2] != 'd8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -d8')
+        #print(fkey, ' -d8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1973,7 +1977,7 @@ def decrypt_dexcl():
         if i == 1000 or x[:2] != 'd!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -d!')
+        #print(fkey, ' -d!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -1987,7 +1991,7 @@ def decrypt_ddquote():
         if i == 1000 or x[:2] != 'd"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -d"')
+        #print(fkey, ' -d"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2001,7 +2005,7 @@ def decrypt_ddoll():
         if i == 1000 or x[:2] != 'd$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -d$')
+        #print(fkey, ' -d$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2015,7 +2019,7 @@ def decrypt_dand():
         if i == 1000 or x[:2] != 'd&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -d&')
+        #print(fkey, ' -d&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2029,7 +2033,7 @@ def decrypt_dquote():
         if i == 1000 or x[:2] != 'd\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -d\'')
+        #print(fkey, ' -d\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2043,7 +2047,7 @@ def decrypt_dpar():
         if i == 1000 or x[:2] != 'd(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -d(')
+        #print(fkey, ' -d(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2057,7 +2061,7 @@ def decrypt_dast():
         if i == 1000 or x[:2] != 'd*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -d*')
+        #print(fkey, ' -d*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2071,7 +2075,7 @@ def decrypt_dvir():
         if i == 1000 or x[:2] != 'd,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -d,')
+        #print(fkey, ' -d,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2085,7 +2089,7 @@ def decrypt_dpp():
         if i == 1000 or x[:2] != 'd.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -d.')
+        #print(fkey, ' -d.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2099,7 +2103,7 @@ def decrypt_dtp():
         if i == 1000 or x[:2] != 'd:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -d:')
+        #print(fkey, ' -d:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2113,7 +2117,7 @@ def decrypt_dless():
         if i == 1000 or x[:2] != 'd<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -d<')
+        #print(fkey, ' -d<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2127,7 +2131,7 @@ def decrypt_dmore():
         if i == 1000 or x[:2] != 'd>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -d>')
+        #print(fkey, ' -d>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2141,7 +2145,7 @@ def decrypt_daro():
         if i == 1000 or x[:2] != 'd@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -d@')
+        #print(fkey, ' -d@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2155,7 +2159,7 @@ def decrypt_dcroc():
         if i == 1000 or x[:2] != 'd[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -d[')
+        #print(fkey, ' -d[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2169,7 +2173,7 @@ def decrypt_dbsl():
         if i == 1000 or x[:2] != 'd\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -d\\')
+        #print(fkey, ' -d\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2183,7 +2187,7 @@ def decrypt_dcirc():
         if i == 1000 or x[:2] != 'd^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -d^')
+        #print(fkey, ' -d^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2197,7 +2201,7 @@ def decrypt_desp():
         if i == 1000 or x[:2] != 'd`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -d`')
+        #print(fkey, ' -d`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2211,7 +2215,7 @@ def decrypt_dcr():
         if i == 1000 or x[:2] != 'd{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -d{')
+        #print(fkey, ' -d{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2225,7 +2229,7 @@ def decrypt_dhl():
         if i == 1000 or x[:2] != 'd|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -d|')
+        #print(fkey, ' -d|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2239,7 +2243,7 @@ def decrypt_dtild():
         if i == 1000 or x[:2] != 'd~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -d~')
+        #print(fkey, ' -d~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2253,7 +2257,7 @@ def decrypt_fa():
         if i == 1000 or x[:2] != 'fa':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -fa')
+        #print(fkey, ' -fa')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2267,7 +2271,7 @@ def decrypt_fb():
         if i == 1000 or x[:2] != 'fb':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -fb')
+        #print(fkey, ' -fb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2281,7 +2285,7 @@ def decrypt_fd():
         if i == 1000 or x[:2] != 'fd':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -fd')
+        #print(fkey, ' -fd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2295,7 +2299,7 @@ def decrypt_ff():
         if i == 1000 or x[:2] != 'ff':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -ff')
+        #print(fkey, ' -ff')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2309,7 +2313,7 @@ def decrypt_fh():
         if i == 1000 or x[:2] != 'fh':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -fh')
+        #print(fkey, ' -fh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2323,7 +2327,7 @@ def decrypt_fj():
         if i == 1000 or x[:2] != 'fj':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -fj')
+        #print(fkey, ' -fj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2337,7 +2341,7 @@ def decrypt_fl():
         if i == 1000 or x[:2] != 'fl':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -fl')
+        #print(fkey, ' -fl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2351,7 +2355,7 @@ def decrypt_fn():
         if i == 1000 or x[:2] != 'fn':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -fn')
+        #print(fkey, ' -fn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2365,7 +2369,7 @@ def decrypt_fp():
         if i == 1000 or x[:2] != 'fp':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -fp')
+        #print(fkey, ' -fp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2379,7 +2383,7 @@ def decrypt_fr():
         if i == 1000 or x[:2] != 'fr':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -fr')
+        #print(fkey, ' -fr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2393,7 +2397,7 @@ def decrypt_ft():
         if i == 1000 or x[:2] != 'ft':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -ft')
+        #print(fkey, ' -ft')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2407,7 +2411,7 @@ def decrypt_fv():
         if i == 1000 or x[:2] != 'fv':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -fv')
+        #print(fkey, ' -fv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2421,7 +2425,7 @@ def decrypt_fx():
         if i == 1000 or x[:2] != 'fx':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -fx')
+        #print(fkey, ' -fx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2435,7 +2439,7 @@ def decrypt_fz():
         if i == 1000 or x[:2] != 'fz':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -fz')
+        #print(fkey, ' -fz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2449,7 +2453,7 @@ def decrypt_fA():
         if i == 1000 or x[:2] != 'fA':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -fA')
+        #print(fkey, ' -fA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2463,7 +2467,7 @@ def decrypt_fB():
         if i == 1000 or x[:2] != 'fB':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -fB')
+        #print(fkey, ' -fB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2477,7 +2481,7 @@ def decrypt_fD():
         if i == 1000 or x[:2] != 'fD':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -fD')
+        #print(fkey, ' -fD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2491,7 +2495,7 @@ def decrypt_fF():
         if i == 1000 or x[:2] != 'fF':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -fF')
+        #print(fkey, ' -fF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2505,7 +2509,7 @@ def decrypt_fH():
         if i == 1000 or x[:2] != 'fH':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -fH')
+        #print(fkey, ' -fH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2519,7 +2523,7 @@ def decrypt_fJ():
         if i == 1000 or x[:2] != 'fJ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -fJ')
+        #print(fkey, ' -fJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2533,7 +2537,7 @@ def decrypt_fL():
         if i == 1000 or x[:2] != 'fL':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -fL')
+        #print(fkey, ' -fL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2547,7 +2551,7 @@ def decrypt_fN():
         if i == 1000 or x[:2] != 'fN':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -fN')
+        #print(fkey, ' -fN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2561,7 +2565,7 @@ def decrypt_fP():
         if i == 1000 or x[:2] != 'fP':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -fP')
+        #print(fkey, ' -fP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2575,7 +2579,7 @@ def decrypt_fR():
         if i == 1000 or x[:2] != 'fR':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -fR')
+        #print(fkey, ' -fR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2589,7 +2593,7 @@ def decrypt_fT():
         if i == 1000 or x[:2] != 'fT':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -fT')
+        #print(fkey, ' -fT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2603,7 +2607,7 @@ def decrypt_fV():
         if i == 1000 or x[:2] != 'fV':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -fV')
+        #print(fkey, ' -fV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2617,7 +2621,7 @@ def decrypt_fX():
         if i == 1000 or x[:2] != 'fX':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -fX')
+        #print(fkey, ' -fX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2631,7 +2635,7 @@ def decrypt_fZ():
         if i == 1000 or x[:2] != 'fZ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -fZ')
+        #print(fkey, ' -fZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2645,7 +2649,7 @@ def decrypt_f0():
         if i == 1000 or x[:2] != 'f0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -f0')
+        #print(fkey, ' -f0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2659,7 +2663,7 @@ def decrypt_f2():
         if i == 1000 or x[:2] != 'f2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -f2')
+        #print(fkey, ' -f2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2673,7 +2677,7 @@ def decrypt_f4():
         if i == 1000 or x[:2] != 'f4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -f4')
+        #print(fkey, ' -f4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2687,7 +2691,7 @@ def decrypt_f6():
         if i == 1000 or x[:2] != 'f6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -f6')
+        #print(fkey, ' -f6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2701,7 +2705,7 @@ def decrypt_f8():
         if i == 1000 or x[:2] != 'f8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -f8')
+        #print(fkey, ' -f8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2715,7 +2719,7 @@ def decrypt_fexcl():
         if i == 1000 or x[:2] != 'f!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -f!')
+        #print(fkey, ' -f!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2729,7 +2733,7 @@ def decrypt_fdquote():
         if i == 1000 or x[:2] != 'f"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -f"')
+        #print(fkey, ' -f"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2743,7 +2747,7 @@ def decrypt_fdoll():
         if i == 1000 or x[:2] != 'f$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -f$')
+        #print(fkey, ' -f$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2757,7 +2761,7 @@ def decrypt_fand():
         if i == 1000 or x[:2] != 'f&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -f&')
+        #print(fkey, ' -f&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2771,7 +2775,7 @@ def decrypt_fquote():
         if i == 1000 or x[:2] != 'f\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -f\'')
+        #print(fkey, ' -f\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2785,7 +2789,7 @@ def decrypt_fpar():
         if i == 1000 or x[:2] != 'f(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -f(')
+        #print(fkey, ' -f(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2799,7 +2803,7 @@ def decrypt_fast():
         if i == 1000 or x[:2] != 'f*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -f*')
+        #print(fkey, ' -f*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2813,7 +2817,7 @@ def decrypt_fvir():
         if i == 1000 or x[:2] != 'f,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -f,')
+        #print(fkey, ' -f,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2827,7 +2831,7 @@ def decrypt_fpp():
         if i == 1000 or x[:2] != 'f.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -f.')
+        #print(fkey, ' -f.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2841,7 +2845,7 @@ def decrypt_ftp():
         if i == 1000 or x[:2] != 'f:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -f:')
+        #print(fkey, ' -f:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2855,7 +2859,7 @@ def decrypt_fless():
         if i == 1000 or x[:2] != 'f<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -f<')
+        #print(fkey, ' -f<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2869,7 +2873,7 @@ def decrypt_fmore():
         if i == 1000 or x[:2] != 'f>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -f>')
+        #print(fkey, ' -f>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2883,7 +2887,7 @@ def decrypt_faro():
         if i == 1000 or x[:2] != 'f@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -f@')
+        #print(fkey, ' -f@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2897,7 +2901,7 @@ def decrypt_fcroc():
         if i == 1000 or x[:2] != 'f[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -f[')
+        #print(fkey, ' -f[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2911,7 +2915,7 @@ def decrypt_fbsl():
         if i == 1000 or x[:2] != 'f\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -f\\')
+        #print(fkey, ' -f\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2925,7 +2929,7 @@ def decrypt_fcirc():
         if i == 1000 or x[:2] != 'f^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -f^')
+        #print(fkey, ' -f^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2939,7 +2943,7 @@ def decrypt_fesp():
         if i == 1000 or x[:2] != 'f`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -f`')
+        #print(fkey, ' -f`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2953,7 +2957,7 @@ def decrypt_fcr():
         if i == 1000 or x[:2] != 'f{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -f{')
+        #print(fkey, ' -f{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2967,7 +2971,7 @@ def decrypt_fhl():
         if i == 1000 or x[:2] != 'f|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -f|')
+        #print(fkey, ' -f|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2981,7 +2985,7 @@ def decrypt_ftild():
         if i == 1000 or x[:2] != 'f~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -f~')
+        #print(fkey, ' -f~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -2995,7 +2999,7 @@ def decrypt_ha():
         if i == 1000 or x[:2] != 'ha':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -ha')
+        #print(fkey, ' -ha')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3009,7 +3013,7 @@ def decrypt_hb():
         if i == 1000 or x[:2] != 'hb':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -hb')
+        #print(fkey, ' -hb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3023,7 +3027,7 @@ def decrypt_hd():
         if i == 1000 or x[:2] != 'hd':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -hd')
+        #print(fkey, ' -hd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3037,7 +3041,7 @@ def decrypt_hf():
         if i == 1000 or x[:2] != 'hf':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -hf')
+        #print(fkey, ' -hf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3051,7 +3055,7 @@ def decrypt_hh():
         if i == 1000 or x[:2] != 'hh':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -hh')
+        #print(fkey, ' -hh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3065,7 +3069,7 @@ def decrypt_hj():
         if i == 1000 or x[:2] != 'hj':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -hj')
+        #print(fkey, ' -hj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3079,7 +3083,7 @@ def decrypt_hl():
         if i == 1000 or x[:2] != 'hl':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -hl')
+        #print(fkey, ' -hl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3093,7 +3097,7 @@ def decrypt_hn():
         if i == 1000 or x[:2] != 'hn':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -hn')
+        #print(fkey, ' -hn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3107,7 +3111,7 @@ def decrypt_hp():
         if i == 1000 or x[:2] != 'hp':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -hp')
+        #print(fkey, ' -hp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3121,7 +3125,7 @@ def decrypt_hr():
         if i == 1000 or x[:2] != 'hr':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -hr')
+        #print(fkey, ' -hr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3135,7 +3139,7 @@ def decrypt_ht():
         if i == 1000 or x[:2] != 'ht':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -ht')
+        #print(fkey, ' -ht')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3149,7 +3153,7 @@ def decrypt_hv():
         if i == 1000 or x[:2] != 'hv':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -hv')
+        #print(fkey, ' -hv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3163,7 +3167,7 @@ def decrypt_hx():
         if i == 1000 or x[:2] != 'hx':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -hx')
+        #print(fkey, ' -hx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3177,7 +3181,7 @@ def decrypt_hz():
         if i == 1000 or x[:2] != 'hz':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -hz')
+        #print(fkey, ' -hz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3191,7 +3195,7 @@ def decrypt_hA():
         if i == 1000 or x[:2] != 'hA':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -hA')
+        #print(fkey, ' -hA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3205,7 +3209,7 @@ def decrypt_hB():
         if i == 1000 or x[:2] != 'hB':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -hB')
+        #print(fkey, ' -hB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3219,7 +3223,7 @@ def decrypt_hD():
         if i == 1000 or x[:2] != 'hD':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -hD')
+        #print(fkey, ' -hD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3233,7 +3237,7 @@ def decrypt_hF():
         if i == 1000 or x[:2] != 'hF':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -hF')
+        #print(fkey, ' -hF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3247,7 +3251,7 @@ def decrypt_hH():
         if i == 1000 or x[:2] != 'hH':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -hH')
+        #print(fkey, ' -hH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3261,7 +3265,7 @@ def decrypt_hJ():
         if i == 1000 or x[:2] != 'hJ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -hJ')
+        #print(fkey, ' -hJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3275,7 +3279,7 @@ def decrypt_hL():
         if i == 1000 or x[:2] != 'hL':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -hL')
+        #print(fkey, ' -hL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3289,7 +3293,7 @@ def decrypt_hN():
         if i == 1000 or x[:2] != 'hN':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -hN')
+        #print(fkey, ' -hN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3303,7 +3307,7 @@ def decrypt_hP():
         if i == 1000 or x[:2] != 'hP':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -hP')
+        #print(fkey, ' -hP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3317,7 +3321,7 @@ def decrypt_hR():
         if i == 1000 or x[:2] != 'hR':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -hR')
+        #print(fkey, ' -hR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3331,7 +3335,7 @@ def decrypt_hT():
         if i == 1000 or x[:2] != 'hT':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -hT')
+        #print(fkey, ' -hT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3345,7 +3349,7 @@ def decrypt_hV():
         if i == 1000 or x[:2] != 'hV':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -hV')
+        #print(fkey, ' -hV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3359,7 +3363,7 @@ def decrypt_hX():
         if i == 1000 or x[:2] != 'hX':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -hX')
+        #print(fkey, ' -hX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3373,7 +3377,7 @@ def decrypt_hZ():
         if i == 1000 or x[:2] != 'hZ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -hZ')
+        #print(fkey, ' -hZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3387,7 +3391,7 @@ def decrypt_h0():
         if i == 1000 or x[:2] != 'h0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -h0')
+        #print(fkey, ' -h0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3401,7 +3405,7 @@ def decrypt_h2():
         if i == 1000 or x[:2] != 'h2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -h2')
+        #print(fkey, ' -h2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3415,7 +3419,7 @@ def decrypt_h4():
         if i == 1000 or x[:2] != 'h4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -h4')
+        #print(fkey, ' -h4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3429,7 +3433,7 @@ def decrypt_h6():
         if i == 1000 or x[:2] != 'h6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -h6')
+        #print(fkey, ' -h6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3443,7 +3447,7 @@ def decrypt_h8():
         if i == 1000 or x[:2] != 'h8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -h8')
+        #print(fkey, ' -h8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3457,7 +3461,7 @@ def decrypt_hexcl():
         if i == 1000 or x[:2] != 'h!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -h!')
+        #print(fkey, ' -h!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3471,7 +3475,7 @@ def decrypt_hdquote():
         if i == 1000 or x[:2] != 'h"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -h"')
+        #print(fkey, ' -h"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3485,7 +3489,7 @@ def decrypt_hdoll():
         if i == 1000 or x[:2] != 'h$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -h$')
+        #print(fkey, ' -h$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3499,7 +3503,7 @@ def decrypt_hand():
         if i == 1000 or x[:2] != 'h&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -h&')
+        #print(fkey, ' -h&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3513,7 +3517,7 @@ def decrypt_hquote():
         if i == 1000 or x[:2] != 'h\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -h\'')
+        #print(fkey, ' -h\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3527,7 +3531,7 @@ def decrypt_hpar():
         if i == 1000 or x[:2] != 'h(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -h(')
+        #print(fkey, ' -h(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3541,7 +3545,7 @@ def decrypt_hast():
         if i == 1000 or x[:2] != 'h*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -h*')
+        #print(fkey, ' -h*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3555,7 +3559,7 @@ def decrypt_hvir():
         if i == 1000 or x[:2] != 'h,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -h,')
+        #print(fkey, ' -h,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3569,7 +3573,7 @@ def decrypt_hpp():
         if i == 1000 or x[:2] != 'h.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -h.')
+        #print(fkey, ' -h.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3583,7 +3587,7 @@ def decrypt_htp():
         if i == 1000 or x[:2] != 'h:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -h:')
+        #print(fkey, ' -h:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3597,7 +3601,7 @@ def decrypt_hless():
         if i == 1000 or x[:2] != 'h<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -h<')
+        #print(fkey, ' -h<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3611,7 +3615,7 @@ def decrypt_hmore():
         if i == 1000 or x[:2] != 'h>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -h>')
+        #print(fkey, ' -h>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3625,7 +3629,7 @@ def decrypt_haro():
         if i == 1000 or x[:2] != 'h@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -h@')
+        #print(fkey, ' -h@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3639,7 +3643,7 @@ def decrypt_hcroc():
         if i == 1000 or x[:2] != 'h[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -h[')
+        #print(fkey, ' -h[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3653,7 +3657,7 @@ def decrypt_hbsl():
         if i == 1000 or x[:2] != 'h\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -h\\')
+        #print(fkey, ' -h\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3667,7 +3671,7 @@ def decrypt_hcirc():
         if i == 1000 or x[:2] != 'h^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -h^')
+        #print(fkey, ' -h^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3681,7 +3685,7 @@ def decrypt_hesp():
         if i == 1000 or x[:2] != 'h`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -h`')
+        #print(fkey, ' -h`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3695,7 +3699,7 @@ def decrypt_hcr():
         if i == 1000 or x[:2] != 'h{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -h{')
+        #print(fkey, ' -h{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3709,7 +3713,7 @@ def decrypt_hhl():
         if i == 1000 or x[:2] != 'h|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -h|')
+        #print(fkey, ' -h|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3723,7 +3727,7 @@ def decrypt_htild():
         if i == 1000 or x[:2] != 'h~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -h~')
+        #print(fkey, ' -h~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3737,7 +3741,7 @@ def decrypt_ja():
         if i == 1000 or x[:2] != 'ja':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -ja')
+        #print(fkey, ' -ja')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3751,7 +3755,7 @@ def decrypt_jb():
         if i == 1000 or x[:2] != 'jb':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -jb')
+        #print(fkey, ' -jb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3765,7 +3769,7 @@ def decrypt_jd():
         if i == 1000 or x[:2] != 'jd':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -jd')
+        #print(fkey, ' -jd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3779,7 +3783,7 @@ def decrypt_jf():
         if i == 1000 or x[:2] != 'jf':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -jf')
+        #print(fkey, ' -jf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3793,7 +3797,7 @@ def decrypt_jh():
         if i == 1000 or x[:2] != 'jh':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -jh')
+        #print(fkey, ' -jh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3807,7 +3811,7 @@ def decrypt_jj():
         if i == 1000 or x[:2] != 'jj':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -jj')
+        #print(fkey, ' -jj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3821,7 +3825,7 @@ def decrypt_jl():
         if i == 1000 or x[:2] != 'jl':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -jl')
+        #print(fkey, ' -jl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3835,7 +3839,7 @@ def decrypt_jn():
         if i == 1000 or x[:2] != 'jn':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -jn')
+        #print(fkey, ' -jn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3849,7 +3853,7 @@ def decrypt_jp():
         if i == 1000 or x[:2] != 'jp':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -jp')
+        #print(fkey, ' -jp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3863,7 +3867,7 @@ def decrypt_jr():
         if i == 1000 or x[:2] != 'jr':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -jr')
+        #print(fkey, ' -jr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3877,7 +3881,7 @@ def decrypt_jt():
         if i == 1000 or x[:2] != 'jt':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -jt')
+        #print(fkey, ' -jt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3891,7 +3895,7 @@ def decrypt_jv():
         if i == 1000 or x[:2] != 'jv':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -jv')
+        #print(fkey, ' -jv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3905,7 +3909,7 @@ def decrypt_jx():
         if i == 1000 or x[:2] != 'jx':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -jx')
+        #print(fkey, ' -jx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3919,7 +3923,7 @@ def decrypt_jz():
         if i == 1000 or x[:2] != 'jz':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -jz')
+        #print(fkey, ' -jz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3933,7 +3937,7 @@ def decrypt_jA():
         if i == 1000 or x[:2] != 'jA':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -jA')
+        #print(fkey, ' -jA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3947,7 +3951,7 @@ def decrypt_jB():
         if i == 1000 or x[:2] != 'jB':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -jB')
+        #print(fkey, ' -jB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3961,7 +3965,7 @@ def decrypt_jD():
         if i == 1000 or x[:2] != 'jD':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -jD')
+        #print(fkey, ' -jD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3975,7 +3979,7 @@ def decrypt_jF():
         if i == 1000 or x[:2] != 'jF':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -jF')
+        #print(fkey, ' -jF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -3989,7 +3993,7 @@ def decrypt_jH():
         if i == 1000 or x[:2] != 'jH':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -jH')
+        #print(fkey, ' -jH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4003,7 +4007,7 @@ def decrypt_jJ():
         if i == 1000 or x[:2] != 'jJ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -jJ')
+        #print(fkey, ' -jJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4017,7 +4021,7 @@ def decrypt_jL():
         if i == 1000 or x[:2] != 'jL':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -jL')
+        #print(fkey, ' -jL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4031,7 +4035,7 @@ def decrypt_jN():
         if i == 1000 or x[:2] != 'jN':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -jN')
+        #print(fkey, ' -jN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4045,7 +4049,7 @@ def decrypt_jP():
         if i == 1000 or x[:2] != 'jP':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -jP')
+        #print(fkey, ' -jP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4059,7 +4063,7 @@ def decrypt_jR():
         if i == 1000 or x[:2] != 'jR':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -jR')
+        #print(fkey, ' -jR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4073,7 +4077,7 @@ def decrypt_jT():
         if i == 1000 or x[:2] != 'jT':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -jT')
+        #print(fkey, ' -jT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4087,7 +4091,7 @@ def decrypt_jV():
         if i == 1000 or x[:2] != 'jV':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -jV')
+        #print(fkey, ' -jV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4101,7 +4105,7 @@ def decrypt_jX():
         if i == 1000 or x[:2] != 'jX':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -jX')
+        #print(fkey, ' -jX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4115,7 +4119,7 @@ def decrypt_jZ():
         if i == 1000 or x[:2] != 'jZ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -jZ')
+        #print(fkey, ' -jZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4129,7 +4133,7 @@ def decrypt_j0():
         if i == 1000 or x[:2] != 'j0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -j0')
+        #print(fkey, ' -j0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4143,7 +4147,7 @@ def decrypt_j2():
         if i == 1000 or x[:2] != 'j2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -j2')
+        #print(fkey, ' -j2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4157,7 +4161,7 @@ def decrypt_j4():
         if i == 1000 or x[:2] != 'j4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -j4')
+        #print(fkey, ' -j4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4171,7 +4175,7 @@ def decrypt_j6():
         if i == 1000 or x[:2] != 'j6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -j6')
+        #print(fkey, ' -j6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4185,7 +4189,7 @@ def decrypt_j8():
         if i == 1000 or x[:2] != 'j8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -j8')
+        #print(fkey, ' -j8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4199,7 +4203,7 @@ def decrypt_jexcl():
         if i == 1000 or x[:2] != 'j!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -j!')
+        #print(fkey, ' -j!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4213,7 +4217,7 @@ def decrypt_jdquote():
         if i == 1000 or x[:2] != 'j"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -j"')
+        #print(fkey, ' -j"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4227,7 +4231,7 @@ def decrypt_jdoll():
         if i == 1000 or x[:2] != 'j$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -j$')
+        #print(fkey, ' -j$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4241,7 +4245,7 @@ def decrypt_jand():
         if i == 1000 or x[:2] != 'j&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -j&')
+        #print(fkey, ' -j&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4255,7 +4259,7 @@ def decrypt_jquote():
         if i == 1000 or x[:2] != 'j\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -j\'')
+        #print(fkey, ' -j\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4269,7 +4273,7 @@ def decrypt_jpar():
         if i == 1000 or x[:2] != 'j(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -j(')
+        #print(fkey, ' -j(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4283,7 +4287,7 @@ def decrypt_jast():
         if i == 1000 or x[:2] != 'j*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -j*')
+        #print(fkey, ' -j*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4297,7 +4301,7 @@ def decrypt_jvir():
         if i == 1000 or x[:2] != 'j,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -j,')
+        #print(fkey, ' -j,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4311,7 +4315,7 @@ def decrypt_jpp():
         if i == 1000 or x[:2] != 'j.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -j.')
+        #print(fkey, ' -j.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4325,7 +4329,7 @@ def decrypt_jtp():
         if i == 1000 or x[:2] != 'j:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -j:')
+        #print(fkey, ' -j:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4339,7 +4343,7 @@ def decrypt_jless():
         if i == 1000 or x[:2] != 'j<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -j<')
+        #print(fkey, ' -j<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4353,7 +4357,7 @@ def decrypt_jmore():
         if i == 1000 or x[:2] != 'j>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -j>')
+        #print(fkey, ' -j>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4367,7 +4371,7 @@ def decrypt_jaro():
         if i == 1000 or x[:2] != 'j@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -j@')
+        #print(fkey, ' -j@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4381,7 +4385,7 @@ def decrypt_jcroc():
         if i == 1000 or x[:2] != 'j[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -j[')
+        #print(fkey, ' -j[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4395,7 +4399,7 @@ def decrypt_jbsl():
         if i == 1000 or x[:2] != 'j\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -j\\')
+        #print(fkey, ' -j\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4409,7 +4413,7 @@ def decrypt_jcirc():
         if i == 1000 or x[:2] != 'j^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -j^')
+        #print(fkey, ' -j^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4423,7 +4427,7 @@ def decrypt_jesp():
         if i == 1000 or x[:2] != 'j`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -j`')
+        #print(fkey, ' -j`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4437,7 +4441,7 @@ def decrypt_jcr():
         if i == 1000 or x[:2] != 'j{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -j{')
+        #print(fkey, ' -j{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4451,7 +4455,7 @@ def decrypt_jhl():
         if i == 1000 or x[:2] != 'j|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -j|')
+        #print(fkey, ' -j|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4465,7 +4469,7 @@ def decrypt_jtild():
         if i == 1000 or x[:2] != 'j~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -j~')
+        #print(fkey, ' -j~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4479,7 +4483,7 @@ def decrypt_la():
         if i == 1000 or x[:2] != 'la':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -la')
+        #print(fkey, ' -la')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4493,7 +4497,7 @@ def decrypt_lb():
         if i == 1000 or x[:2] != 'lb':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -lb')
+        #print(fkey, ' -lb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4507,7 +4511,7 @@ def decrypt_ld():
         if i == 1000 or x[:2] != 'ld':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -ld')
+        #print(fkey, ' -ld')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4521,7 +4525,7 @@ def decrypt_lf():
         if i == 1000 or x[:2] != 'lf':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -lf')
+        #print(fkey, ' -lf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4535,7 +4539,7 @@ def decrypt_lh():
         if i == 1000 or x[:2] != 'lh':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -lh')
+        #print(fkey, ' -lh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4549,7 +4553,7 @@ def decrypt_lj():
         if i == 1000 or x[:2] != 'lj':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -lj')
+        #print(fkey, ' -lj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4563,7 +4567,7 @@ def decrypt_ll():
         if i == 1000 or x[:2] != 'll':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -ll')
+        #print(fkey, ' -ll')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4577,7 +4581,7 @@ def decrypt_ln():
         if i == 1000 or x[:2] != 'ln':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -ln')
+        #print(fkey, ' -ln')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4591,7 +4595,7 @@ def decrypt_lp():
         if i == 1000 or x[:2] != 'lp':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -lp')
+        #print(fkey, ' -lp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4605,7 +4609,7 @@ def decrypt_lr():
         if i == 1000 or x[:2] != 'lr':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -lr')
+        #print(fkey, ' -lr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4619,7 +4623,7 @@ def decrypt_lt():
         if i == 1000 or x[:2] != 'lt':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -lt')
+        #print(fkey, ' -lt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4633,7 +4637,7 @@ def decrypt_lv():
         if i == 1000 or x[:2] != 'lv':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -lv')
+        #print(fkey, ' -lv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4647,7 +4651,7 @@ def decrypt_lx():
         if i == 1000 or x[:2] != 'lx':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -lx')
+        #print(fkey, ' -lx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4661,7 +4665,7 @@ def decrypt_lz():
         if i == 1000 or x[:2] != 'lz':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -lz')
+        #print(fkey, ' -lz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4675,7 +4679,7 @@ def decrypt_lA():
         if i == 1000 or x[:2] != 'lA':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -lA')
+        #print(fkey, ' -lA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4689,7 +4693,7 @@ def decrypt_lB():
         if i == 1000 or x[:2] != 'lB':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -lB')
+        #print(fkey, ' -lB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4703,7 +4707,7 @@ def decrypt_lD():
         if i == 1000 or x[:2] != 'lD':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -lD')
+        #print(fkey, ' -lD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4717,7 +4721,7 @@ def decrypt_lF():
         if i == 1000 or x[:2] != 'lF':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -lF')
+        #print(fkey, ' -lF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4731,7 +4735,7 @@ def decrypt_lH():
         if i == 1000 or x[:2] != 'lH':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -lH')
+        #print(fkey, ' -lH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4745,7 +4749,7 @@ def decrypt_lJ():
         if i == 1000 or x[:2] != 'lJ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -lJ')
+        #print(fkey, ' -lJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4759,7 +4763,7 @@ def decrypt_lL():
         if i == 1000 or x[:2] != 'lL':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -lL')
+        #print(fkey, ' -lL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4773,7 +4777,7 @@ def decrypt_lN():
         if i == 1000 or x[:2] != 'lN':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -lN')
+        #print(fkey, ' -lN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4787,7 +4791,7 @@ def decrypt_lP():
         if i == 1000 or x[:2] != 'lP':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -lP')
+        #print(fkey, ' -lP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4801,7 +4805,7 @@ def decrypt_lR():
         if i == 1000 or x[:2] != 'lR':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -lR')
+        #print(fkey, ' -lR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4815,7 +4819,7 @@ def decrypt_lT():
         if i == 1000 or x[:2] != 'lT':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -lT')
+        #print(fkey, ' -lT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4829,7 +4833,7 @@ def decrypt_lV():
         if i == 1000 or x[:2] != 'lV':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -lV')
+        #print(fkey, ' -lV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4843,7 +4847,7 @@ def decrypt_lX():
         if i == 1000 or x[:2] != 'lX':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -lX')
+        #print(fkey, ' -lX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4857,7 +4861,7 @@ def decrypt_lZ():
         if i == 1000 or x[:2] != 'lZ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -lZ')
+        #print(fkey, ' -lZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4871,7 +4875,7 @@ def decrypt_l0():
         if i == 1000 or x[:2] != 'l0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -l0')
+        #print(fkey, ' -l0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4885,7 +4889,7 @@ def decrypt_l2():
         if i == 1000 or x[:2] != 'l2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -l2')
+        #print(fkey, ' -l2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4899,7 +4903,7 @@ def decrypt_l4():
         if i == 1000 or x[:2] != 'l4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -l4')
+        #print(fkey, ' -l4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4913,7 +4917,7 @@ def decrypt_l6():
         if i == 1000 or x[:2] != 'l6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -l6')
+        #print(fkey, ' -l6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4927,7 +4931,7 @@ def decrypt_l8():
         if i == 1000 or x[:2] != 'l8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -l8')
+        #print(fkey, ' -l8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4941,7 +4945,7 @@ def decrypt_lexcl():
         if i == 1000 or x[:2] != 'l!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -l!')
+        #print(fkey, ' -l!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4955,7 +4959,7 @@ def decrypt_ldquote():
         if i == 1000 or x[:2] != 'l"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -l"')
+        #print(fkey, ' -l"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4969,7 +4973,7 @@ def decrypt_ldoll():
         if i == 1000 or x[:2] != 'l$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -l$')
+        #print(fkey, ' -l$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4983,7 +4987,7 @@ def decrypt_land():
         if i == 1000 or x[:2] != 'l&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -l&')
+        #print(fkey, ' -l&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -4997,7 +5001,7 @@ def decrypt_lquote():
         if i == 1000 or x[:2] != 'l\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -l\'')
+        #print(fkey, ' -l\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5011,7 +5015,7 @@ def decrypt_lpar():
         if i == 1000 or x[:2] != 'l(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -l(')
+        #print(fkey, ' -l(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5025,7 +5029,7 @@ def decrypt_last():
         if i == 1000 or x[:2] != 'l*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -l*')
+        #print(fkey, ' -l*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5039,7 +5043,7 @@ def decrypt_lvir():
         if i == 1000 or x[:2] != 'l,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -l,')
+        #print(fkey, ' -l,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5053,7 +5057,7 @@ def decrypt_lpp():
         if i == 1000 or x[:2] != 'l.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -l.')
+        #print(fkey, ' -l.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5067,7 +5071,7 @@ def decrypt_ltp():
         if i == 1000 or x[:2] != 'l:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -l:')
+        #print(fkey, ' -l:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5081,7 +5085,7 @@ def decrypt_lless():
         if i == 1000 or x[:2] != 'l<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -l<')
+        #print(fkey, ' -l<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5095,7 +5099,7 @@ def decrypt_lmore():
         if i == 1000 or x[:2] != 'l>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -l>')
+        #print(fkey, ' -l>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5109,7 +5113,7 @@ def decrypt_laro():
         if i == 1000 or x[:2] != 'l@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -l@')
+        #print(fkey, ' -l@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5123,7 +5127,7 @@ def decrypt_lcroc():
         if i == 1000 or x[:2] != 'l[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -l[')
+        #print(fkey, ' -l[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5137,7 +5141,7 @@ def decrypt_lbsl():
         if i == 1000 or x[:2] != 'l\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -l\\')
+        #print(fkey, ' -l\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5151,7 +5155,7 @@ def decrypt_lcirc():
         if i == 1000 or x[:2] != 'l^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -l^')
+        #print(fkey, ' -l^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5165,7 +5169,7 @@ def decrypt_lesp():
         if i == 1000 or x[:2] != 'l`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -l`')
+        #print(fkey, ' -l`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5179,7 +5183,7 @@ def decrypt_lcr():
         if i == 1000 or x[:2] != 'l{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -l{')
+        #print(fkey, ' -l{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5193,7 +5197,7 @@ def decrypt_lhl():
         if i == 1000 or x[:2] != 'l|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -l|')
+        #print(fkey, ' -l|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5207,7 +5211,7 @@ def decrypt_ltild():
         if i == 1000 or x[:2] != 'l~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -l~')
+        #print(fkey, ' -l~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5221,7 +5225,7 @@ def decrypt_na():
         if i == 1000 or x[:2] != 'na':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -na')
+        #print(fkey, ' -na')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5235,7 +5239,7 @@ def decrypt_nb():
         if i == 1000 or x[:2] != 'nb':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -nb')
+        #print(fkey, ' -nb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5249,7 +5253,7 @@ def decrypt_nd():
         if i == 1000 or x[:2] != 'nd':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -nd')
+        #print(fkey, ' -nd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5263,7 +5267,7 @@ def decrypt_nf():
         if i == 1000 or x[:2] != 'nf':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -nf')
+        #print(fkey, ' -nf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5277,7 +5281,7 @@ def decrypt_nh():
         if i == 1000 or x[:2] != 'nh':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -nh')
+        #print(fkey, ' -nh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5291,7 +5295,7 @@ def decrypt_nj():
         if i == 1000 or x[:2] != 'nj':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -nj')
+        #print(fkey, ' -nj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5305,7 +5309,7 @@ def decrypt_nl():
         if i == 1000 or x[:2] != 'nl':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -nl')
+        #print(fkey, ' -nl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5319,7 +5323,7 @@ def decrypt_nn():
         if i == 1000 or x[:2] != 'nn':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -nn')
+        #print(fkey, ' -nn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5333,7 +5337,7 @@ def decrypt_np():
         if i == 1000 or x[:2] != 'np':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -np')
+        #print(fkey, ' -np')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5347,7 +5351,7 @@ def decrypt_nr():
         if i == 1000 or x[:2] != 'nr':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -nr')
+        #print(fkey, ' -nr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5361,7 +5365,7 @@ def decrypt_nt():
         if i == 1000 or x[:2] != 'nt':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -nt')
+        #print(fkey, ' -nt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5375,7 +5379,7 @@ def decrypt_nv():
         if i == 1000 or x[:2] != 'nv':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -nv')
+        #print(fkey, ' -nv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5389,7 +5393,7 @@ def decrypt_nx():
         if i == 1000 or x[:2] != 'nx':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -nx')
+        #print(fkey, ' -nx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5403,7 +5407,7 @@ def decrypt_nz():
         if i == 1000 or x[:2] != 'nz':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -nz')
+        #print(fkey, ' -nz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5417,7 +5421,7 @@ def decrypt_nA():
         if i == 1000 or x[:2] != 'nA':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -nA')
+        #print(fkey, ' -nA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5431,7 +5435,7 @@ def decrypt_nB():
         if i == 1000 or x[:2] != 'nB':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -nB')
+        #print(fkey, ' -nB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5445,7 +5449,7 @@ def decrypt_nD():
         if i == 1000 or x[:2] != 'nD':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -nD')
+        #print(fkey, ' -nD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5459,7 +5463,7 @@ def decrypt_nF():
         if i == 1000 or x[:2] != 'nF':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -nF')
+        #print(fkey, ' -nF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5473,7 +5477,7 @@ def decrypt_nH():
         if i == 1000 or x[:2] != 'nH':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -nH')
+        #print(fkey, ' -nH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5487,7 +5491,7 @@ def decrypt_nJ():
         if i == 1000 or x[:2] != 'nJ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -nJ')
+        #print(fkey, ' -nJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5501,7 +5505,7 @@ def decrypt_nL():
         if i == 1000 or x[:2] != 'nL':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -nL')
+        #print(fkey, ' -nL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5515,7 +5519,7 @@ def decrypt_nN():
         if i == 1000 or x[:2] != 'nN':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -nN')
+        #print(fkey, ' -nN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5529,7 +5533,7 @@ def decrypt_nP():
         if i == 1000 or x[:2] != 'nP':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -nP')
+        #print(fkey, ' -nP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5543,7 +5547,7 @@ def decrypt_nR():
         if i == 1000 or x[:2] != 'nR':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -nR')
+        #print(fkey, ' -nR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5557,7 +5561,7 @@ def decrypt_nT():
         if i == 1000 or x[:2] != 'nT':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -nT')
+        #print(fkey, ' -nT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5571,7 +5575,7 @@ def decrypt_nV():
         if i == 1000 or x[:2] != 'nV':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -nV')
+        #print(fkey, ' -nV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5585,7 +5589,7 @@ def decrypt_nX():
         if i == 1000 or x[:2] != 'nX':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -nX')
+        #print(fkey, ' -nX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5599,7 +5603,7 @@ def decrypt_nZ():
         if i == 1000 or x[:2] != 'nZ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -nZ')
+        #print(fkey, ' -nZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5613,7 +5617,7 @@ def decrypt_n0():
         if i == 1000 or x[:2] != 'n0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -n0')
+        #print(fkey, ' -n0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5627,7 +5631,7 @@ def decrypt_n2():
         if i == 1000 or x[:2] != 'n2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -n2')
+        #print(fkey, ' -n2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5641,7 +5645,7 @@ def decrypt_n4():
         if i == 1000 or x[:2] != 'n4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -n4')
+        #print(fkey, ' -n4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5655,7 +5659,7 @@ def decrypt_n6():
         if i == 1000 or x[:2] != 'n6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -n6')
+        #print(fkey, ' -n6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5669,7 +5673,7 @@ def decrypt_n8():
         if i == 1000 or x[:2] != 'n8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -n8')
+        #print(fkey, ' -n8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5683,7 +5687,7 @@ def decrypt_nexcl():
         if i == 1000 or x[:2] != 'n!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -n!')
+        #print(fkey, ' -n!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5697,7 +5701,7 @@ def decrypt_ndquote():
         if i == 1000 or x[:2] != 'n"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -n"')
+        #print(fkey, ' -n"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5711,7 +5715,7 @@ def decrypt_ndoll():
         if i == 1000 or x[:2] != 'n$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -n$')
+        #print(fkey, ' -n$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5725,7 +5729,7 @@ def decrypt_nand():
         if i == 1000 or x[:2] != 'n&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -n&')
+        #print(fkey, ' -n&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5739,7 +5743,7 @@ def decrypt_nquote():
         if i == 1000 or x[:2] != 'n\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -n\'')
+        #print(fkey, ' -n\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5753,7 +5757,7 @@ def decrypt_npar():
         if i == 1000 or x[:2] != 'n(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -n(')
+        #print(fkey, ' -n(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5767,7 +5771,7 @@ def decrypt_nast():
         if i == 1000 or x[:2] != 'n*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -n*')
+        #print(fkey, ' -n*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5781,7 +5785,7 @@ def decrypt_nvir():
         if i == 1000 or x[:2] != 'n,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -n,')
+        #print(fkey, ' -n,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5795,7 +5799,7 @@ def decrypt_npp():
         if i == 1000 or x[:2] != 'n.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -n.')
+        #print(fkey, ' -n.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5809,7 +5813,7 @@ def decrypt_ntp():
         if i == 1000 or x[:2] != 'n:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -n:')
+        #print(fkey, ' -n:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5823,7 +5827,7 @@ def decrypt_nless():
         if i == 1000 or x[:2] != 'n<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -n<')
+        #print(fkey, ' -n<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5837,7 +5841,7 @@ def decrypt_nmore():
         if i == 1000 or x[:2] != 'n>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -n>')
+        #print(fkey, ' -n>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5851,7 +5855,7 @@ def decrypt_naro():
         if i == 1000 or x[:2] != 'n@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -n@')
+        #print(fkey, ' -n@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5865,7 +5869,7 @@ def decrypt_ncroc():
         if i == 1000 or x[:2] != 'n[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -n[')
+        #print(fkey, ' -n[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5879,7 +5883,7 @@ def decrypt_nbsl():
         if i == 1000 or x[:2] != 'n\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -n\\')
+        #print(fkey, ' -n\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5893,7 +5897,7 @@ def decrypt_ncirc():
         if i == 1000 or x[:2] != 'n^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -n^')
+        #print(fkey, ' -n^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5907,7 +5911,7 @@ def decrypt_nesp():
         if i == 1000 or x[:2] != 'n`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -n`')
+        #print(fkey, ' -n`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5921,7 +5925,7 @@ def decrypt_ncr():
         if i == 1000 or x[:2] != 'n{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -n{')
+        #print(fkey, ' -n{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5935,7 +5939,7 @@ def decrypt_nhl():
         if i == 1000 or x[:2] != 'n|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -n|')
+        #print(fkey, ' -n|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5949,7 +5953,7 @@ def decrypt_ntild():
         if i == 1000 or x[:2] != 'n~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -n~')
+        #print(fkey, ' -n~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5963,7 +5967,7 @@ def decrypt_pa():
         if i == 1000 or x[:2] != 'pa':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -pa')
+        #print(fkey, ' -pa')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5977,7 +5981,7 @@ def decrypt_pb():
         if i == 1000 or x[:2] != 'pb':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -pb')
+        #print(fkey, ' -pb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -5991,7 +5995,7 @@ def decrypt_pd():
         if i == 1000 or x[:2] != 'pd':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -pd')
+        #print(fkey, ' -pd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6005,7 +6009,7 @@ def decrypt_pf():
         if i == 1000 or x[:2] != 'pf':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -pf')
+        #print(fkey, ' -pf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6019,7 +6023,7 @@ def decrypt_ph():
         if i == 1000 or x[:2] != 'ph':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -ph')
+        #print(fkey, ' -ph')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6033,7 +6037,7 @@ def decrypt_pj():
         if i == 1000 or x[:2] != 'pj':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -pj')
+        #print(fkey, ' -pj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6047,7 +6051,7 @@ def decrypt_pl():
         if i == 1000 or x[:2] != 'pl':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -pl')
+        #print(fkey, ' -pl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6061,7 +6065,7 @@ def decrypt_pn():
         if i == 1000 or x[:2] != 'pn':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -pn')
+        #print(fkey, ' -pn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6075,7 +6079,7 @@ def decrypt_pp():
         if i == 1000 or x[:2] != 'pp':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -pp')
+        #print(fkey, ' -pp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6089,7 +6093,7 @@ def decrypt_pr():
         if i == 1000 or x[:2] != 'pr':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -pr')
+        #print(fkey, ' -pr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6103,7 +6107,7 @@ def decrypt_pt():
         if i == 1000 or x[:2] != 'pt':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -pt')
+        #print(fkey, ' -pt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6117,7 +6121,7 @@ def decrypt_pv():
         if i == 1000 or x[:2] != 'pv':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -pv')
+        #print(fkey, ' -pv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6131,7 +6135,7 @@ def decrypt_px():
         if i == 1000 or x[:2] != 'px':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -px')
+        #print(fkey, ' -px')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6145,7 +6149,7 @@ def decrypt_pz():
         if i == 1000 or x[:2] != 'pz':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -pz')
+        #print(fkey, ' -pz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6159,7 +6163,7 @@ def decrypt_pA():
         if i == 1000 or x[:2] != 'pA':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -pA')
+        #print(fkey, ' -pA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6173,7 +6177,7 @@ def decrypt_pB():
         if i == 1000 or x[:2] != 'pB':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -pB')
+        #print(fkey, ' -pB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6187,7 +6191,7 @@ def decrypt_pD():
         if i == 1000 or x[:2] != 'pD':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -pD')
+        #print(fkey, ' -pD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6201,7 +6205,7 @@ def decrypt_pF():
         if i == 1000 or x[:2] != 'pF':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -pF')
+        #print(fkey, ' -pF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6215,7 +6219,7 @@ def decrypt_pH():
         if i == 1000 or x[:2] != 'pH':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -pH')
+        #print(fkey, ' -pH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6229,7 +6233,7 @@ def decrypt_pJ():
         if i == 1000 or x[:2] != 'pJ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -pJ')
+        #print(fkey, ' -pJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6243,7 +6247,7 @@ def decrypt_pL():
         if i == 1000 or x[:2] != 'pL':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -pL')
+        #print(fkey, ' -pL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6257,7 +6261,7 @@ def decrypt_pN():
         if i == 1000 or x[:2] != 'pN':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -pN')
+        #print(fkey, ' -pN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6271,7 +6275,7 @@ def decrypt_pP():
         if i == 1000 or x[:2] != 'pP':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -pP')
+        #print(fkey, ' -pP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6285,7 +6289,7 @@ def decrypt_pR():
         if i == 1000 or x[:2] != 'pR':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -pR')
+        #print(fkey, ' -pR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6299,7 +6303,7 @@ def decrypt_pT():
         if i == 1000 or x[:2] != 'pT':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -pT')
+        #print(fkey, ' -pT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6313,7 +6317,7 @@ def decrypt_pV():
         if i == 1000 or x[:2] != 'pV':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -pV')
+        #print(fkey, ' -pV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6327,7 +6331,7 @@ def decrypt_pX():
         if i == 1000 or x[:2] != 'pX':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -pX')
+        #print(fkey, ' -pX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6341,7 +6345,7 @@ def decrypt_pZ():
         if i == 1000 or x[:2] != 'pZ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -pZ')
+        #print(fkey, ' -pZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6355,7 +6359,7 @@ def decrypt_p0():
         if i == 1000 or x[:2] != 'p0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -p0')
+        #print(fkey, ' -p0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6369,7 +6373,7 @@ def decrypt_p2():
         if i == 1000 or x[:2] != 'p2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -p2')
+        #print(fkey, ' -p2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6383,7 +6387,7 @@ def decrypt_p4():
         if i == 1000 or x[:2] != 'p4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -p4')
+        #print(fkey, ' -p4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6397,7 +6401,7 @@ def decrypt_p6():
         if i == 1000 or x[:2] != 'p6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -p6')
+        #print(fkey, ' -p6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6411,7 +6415,7 @@ def decrypt_p8():
         if i == 1000 or x[:2] != 'p8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -p8')
+        #print(fkey, ' -p8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6425,7 +6429,7 @@ def decrypt_pexcl():
         if i == 1000 or x[:2] != 'p!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -p!')
+        #print(fkey, ' -p!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6439,7 +6443,7 @@ def decrypt_pdquote():
         if i == 1000 or x[:2] != 'p"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -p"')
+        #print(fkey, ' -p"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6453,7 +6457,7 @@ def decrypt_pdoll():
         if i == 1000 or x[:2] != 'p$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -p$')
+        #print(fkey, ' -p$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6467,7 +6471,7 @@ def decrypt_pand():
         if i == 1000 or x[:2] != 'p&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -p&')
+        #print(fkey, ' -p&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6481,7 +6485,7 @@ def decrypt_pquote():
         if i == 1000 or x[:2] != 'p\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -p\'')
+        #print(fkey, ' -p\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6495,7 +6499,7 @@ def decrypt_ppar():
         if i == 1000 or x[:2] != 'p(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -p(')
+        #print(fkey, ' -p(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6509,7 +6513,7 @@ def decrypt_past():
         if i == 1000 or x[:2] != 'p*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -p*')
+        #print(fkey, ' -p*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6523,7 +6527,7 @@ def decrypt_pvir():
         if i == 1000 or x[:2] != 'p,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -p,')
+        #print(fkey, ' -p,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6537,7 +6541,7 @@ def decrypt_ppp():
         if i == 1000 or x[:2] != 'p.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -p.')
+        #print(fkey, ' -p.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6551,7 +6555,7 @@ def decrypt_ptp():
         if i == 1000 or x[:2] != 'p:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -p:')
+        #print(fkey, ' -p:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6565,7 +6569,7 @@ def decrypt_pless():
         if i == 1000 or x[:2] != 'p<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -p<')
+        #print(fkey, ' -p<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6579,7 +6583,7 @@ def decrypt_pmore():
         if i == 1000 or x[:2] != 'p>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -p>')
+        #print(fkey, ' -p>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6593,7 +6597,7 @@ def decrypt_paro():
         if i == 1000 or x[:2] != 'p@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -p@')
+        #print(fkey, ' -p@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6607,7 +6611,7 @@ def decrypt_pcroc():
         if i == 1000 or x[:2] != 'p[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -p[')
+        #print(fkey, ' -p[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6621,7 +6625,7 @@ def decrypt_pbsl():
         if i == 1000 or x[:2] != 'p\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -p\\')
+        #print(fkey, ' -p\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6635,7 +6639,7 @@ def decrypt_pcirc():
         if i == 1000 or x[:2] != 'p^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -p^')
+        #print(fkey, ' -p^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6649,7 +6653,7 @@ def decrypt_pesp():
         if i == 1000 or x[:2] != 'p`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -p`')
+        #print(fkey, ' -p`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6663,7 +6667,7 @@ def decrypt_pcr():
         if i == 1000 or x[:2] != 'p{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -p{')
+        #print(fkey, ' -p{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6677,7 +6681,7 @@ def decrypt_phl():
         if i == 1000 or x[:2] != 'p|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -p|')
+        #print(fkey, ' -p|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6691,7 +6695,7 @@ def decrypt_ptild():
         if i == 1000 or x[:2] != 'p~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -p~')
+        #print(fkey, ' -p~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6705,7 +6709,7 @@ def decrypt_ra():
         if i == 1000 or x[:2] != 'ra':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -ra')
+        #print(fkey, ' -ra')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6719,7 +6723,7 @@ def decrypt_rb():
         if i == 1000 or x[:2] != 'rb':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -rb')
+        #print(fkey, ' -rb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6733,7 +6737,7 @@ def decrypt_rd():
         if i == 1000 or x[:2] != 'rd':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -rd')
+        #print(fkey, ' -rd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6747,7 +6751,7 @@ def decrypt_rf():
         if i == 1000 or x[:2] != 'rf':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -rf')
+        #print(fkey, ' -rf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6761,7 +6765,7 @@ def decrypt_rh():
         if i == 1000 or x[:2] != 'rh':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -rh')
+        #print(fkey, ' -rh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6775,7 +6779,7 @@ def decrypt_rj():
         if i == 1000 or x[:2] != 'rj':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -rj')
+        #print(fkey, ' -rj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6789,7 +6793,7 @@ def decrypt_rl():
         if i == 1000 or x[:2] != 'rl':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -rl')
+        #print(fkey, ' -rl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6803,7 +6807,7 @@ def decrypt_rn():
         if i == 1000 or x[:2] != 'rn':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -rn')
+        #print(fkey, ' -rn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6817,7 +6821,7 @@ def decrypt_rp():
         if i == 1000 or x[:2] != 'rp':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -rp')
+        #print(fkey, ' -rp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6831,7 +6835,7 @@ def decrypt_rr():
         if i == 1000 or x[:2] != 'rr':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -rr')
+        #print(fkey, ' -rr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6845,7 +6849,7 @@ def decrypt_rt():
         if i == 1000 or x[:2] != 'rt':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -rt')
+        #print(fkey, ' -rt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6859,7 +6863,7 @@ def decrypt_rv():
         if i == 1000 or x[:2] != 'rv':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -rv')
+        #print(fkey, ' -rv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6873,7 +6877,7 @@ def decrypt_rx():
         if i == 1000 or x[:2] != 'rx':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -rx')
+        #print(fkey, ' -rx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6887,7 +6891,7 @@ def decrypt_rz():
         if i == 1000 or x[:2] != 'rz':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -rz')
+        #print(fkey, ' -rz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6901,7 +6905,7 @@ def decrypt_rA():
         if i == 1000 or x[:2] != 'rA':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -rA')
+        #print(fkey, ' -rA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6915,7 +6919,7 @@ def decrypt_rB():
         if i == 1000 or x[:2] != 'rB':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -rB')
+        #print(fkey, ' -rB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6929,7 +6933,7 @@ def decrypt_rD():
         if i == 1000 or x[:2] != 'rD':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -rD')
+        #print(fkey, ' -rD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6943,7 +6947,7 @@ def decrypt_rF():
         if i == 1000 or x[:2] != 'rF':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -rF')
+        #print(fkey, ' -rF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6957,7 +6961,7 @@ def decrypt_rH():
         if i == 1000 or x[:2] != 'rH':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -rH')
+        #print(fkey, ' -rH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6971,7 +6975,7 @@ def decrypt_rJ():
         if i == 1000 or x[:2] != 'rJ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -rJ')
+        #print(fkey, ' -rJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6985,7 +6989,7 @@ def decrypt_rL():
         if i == 1000 or x[:2] != 'rL':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -rL')
+        #print(fkey, ' -rL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -6999,7 +7003,7 @@ def decrypt_rN():
         if i == 1000 or x[:2] != 'rN':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -rN')
+        #print(fkey, ' -rN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7013,7 +7017,7 @@ def decrypt_rP():
         if i == 1000 or x[:2] != 'rP':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -rP')
+        #print(fkey, ' -rP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7027,7 +7031,7 @@ def decrypt_rR():
         if i == 1000 or x[:2] != 'rR':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -rR')
+        #print(fkey, ' -rR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7041,7 +7045,7 @@ def decrypt_rT():
         if i == 1000 or x[:2] != 'rT':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -rT')
+        #print(fkey, ' -rT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7055,7 +7059,7 @@ def decrypt_rV():
         if i == 1000 or x[:2] != 'rV':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -rV')
+        #print(fkey, ' -rV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7069,7 +7073,7 @@ def decrypt_rX():
         if i == 1000 or x[:2] != 'rX':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -rX')
+        #print(fkey, ' -rX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7083,7 +7087,7 @@ def decrypt_rZ():
         if i == 1000 or x[:2] != 'rZ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -rZ')
+        #print(fkey, ' -rZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7097,7 +7101,7 @@ def decrypt_r0():
         if i == 1000 or x[:2] != 'r0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -r0')
+        #print(fkey, ' -r0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7111,7 +7115,7 @@ def decrypt_r2():
         if i == 1000 or x[:2] != 'r2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -r2')
+        #print(fkey, ' -r2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7125,7 +7129,7 @@ def decrypt_r4():
         if i == 1000 or x[:2] != 'r4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -r4')
+        #print(fkey, ' -r4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7139,7 +7143,7 @@ def decrypt_r6():
         if i == 1000 or x[:2] != 'r6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -r6')
+        #print(fkey, ' -r6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7153,7 +7157,7 @@ def decrypt_r8():
         if i == 1000 or x[:2] != 'r8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -r8')
+        #print(fkey, ' -r8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7167,7 +7171,7 @@ def decrypt_rexcl():
         if i == 1000 or x[:2] != 'r!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -r!')
+        #print(fkey, ' -r!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7181,7 +7185,7 @@ def decrypt_rdquote():
         if i == 1000 or x[:2] != 'r"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -r"')
+        #print(fkey, ' -r"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7195,7 +7199,7 @@ def decrypt_rdoll():
         if i == 1000 or x[:2] != 'r$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -r$')
+        #print(fkey, ' -r$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7209,7 +7213,7 @@ def decrypt_rand():
         if i == 1000 or x[:2] != 'r&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -r&')
+        #print(fkey, ' -r&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7223,7 +7227,7 @@ def decrypt_rquote():
         if i == 1000 or x[:2] != 'r\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -r\'')
+        #print(fkey, ' -r\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7237,7 +7241,7 @@ def decrypt_rpar():
         if i == 1000 or x[:2] != 'r(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -r(')
+        #print(fkey, ' -r(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7251,7 +7255,7 @@ def decrypt_rast():
         if i == 1000 or x[:2] != 'r*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -r*')
+        #print(fkey, ' -r*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7265,7 +7269,7 @@ def decrypt_rvir():
         if i == 1000 or x[:2] != 'r,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -r,')
+        #print(fkey, ' -r,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7279,7 +7283,7 @@ def decrypt_rpp():
         if i == 1000 or x[:2] != 'r.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -r.')
+        #print(fkey, ' -r.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7293,7 +7297,7 @@ def decrypt_rtp():
         if i == 1000 or x[:2] != 'r:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -r:')
+        #print(fkey, ' -r:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7307,7 +7311,7 @@ def decrypt_rless():
         if i == 1000 or x[:2] != 'r<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -r<')
+        #print(fkey, ' -r<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7321,7 +7325,7 @@ def decrypt_rmore():
         if i == 1000 or x[:2] != 'r>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -r>')
+        #print(fkey, ' -r>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7335,7 +7339,7 @@ def decrypt_raro():
         if i == 1000 or x[:2] != 'r@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -r@')
+        #print(fkey, ' -r@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7349,7 +7353,7 @@ def decrypt_rcroc():
         if i == 1000 or x[:2] != 'r[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -r[')
+        #print(fkey, ' -r[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7363,7 +7367,7 @@ def decrypt_rbsl():
         if i == 1000 or x[:2] != 'r\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -r\\')
+        #print(fkey, ' -r\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7377,7 +7381,7 @@ def decrypt_rcirc():
         if i == 1000 or x[:2] != 'r^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -r^')
+        #print(fkey, ' -r^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7391,7 +7395,7 @@ def decrypt_resp():
         if i == 1000 or x[:2] != 'r`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -r`')
+        #print(fkey, ' -r`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7405,7 +7409,7 @@ def decrypt_rcr():
         if i == 1000 or x[:2] != 'r{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -r{')
+        #print(fkey, ' -r{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7419,7 +7423,7 @@ def decrypt_rhl():
         if i == 1000 or x[:2] != 'r|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -r|')
+        #print(fkey, ' -r|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7433,7 +7437,7 @@ def decrypt_rtild():
         if i == 1000 or x[:2] != 'r~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -r~')
+        #print(fkey, ' -r~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7447,7 +7451,7 @@ def decrypt_ta():
         if i == 1000 or x[:2] != 'ta':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -ta')
+        #print(fkey, ' -ta')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7461,7 +7465,7 @@ def decrypt_tb():
         if i == 1000 or x[:2] != 'tb':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -tb')
+        #print(fkey, ' -tb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7475,7 +7479,7 @@ def decrypt_td():
         if i == 1000 or x[:2] != 'td':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -td')
+        #print(fkey, ' -td')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7489,7 +7493,7 @@ def decrypt_tf():
         if i == 1000 or x[:2] != 'tf':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -tf')
+        #print(fkey, ' -tf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7503,7 +7507,7 @@ def decrypt_th():
         if i == 1000 or x[:2] != 'th':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -th')
+        #print(fkey, ' -th')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7517,7 +7521,7 @@ def decrypt_tj():
         if i == 1000 or x[:2] != 'tj':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -tj')
+        #print(fkey, ' -tj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7531,7 +7535,7 @@ def decrypt_tl():
         if i == 1000 or x[:2] != 'tl':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -tl')
+        #print(fkey, ' -tl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7545,7 +7549,7 @@ def decrypt_tn():
         if i == 1000 or x[:2] != 'tn':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -tn')
+        #print(fkey, ' -tn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7559,7 +7563,7 @@ def decrypt_tp():
         if i == 1000 or x[:2] != 'tp':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -tp')
+        #print(fkey, ' -tp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7573,7 +7577,7 @@ def decrypt_tr():
         if i == 1000 or x[:2] != 'tr':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -tr')
+        #print(fkey, ' -tr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7587,7 +7591,7 @@ def decrypt_tt():
         if i == 1000 or x[:2] != 'tt':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -tt')
+        #print(fkey, ' -tt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7601,7 +7605,7 @@ def decrypt_tv():
         if i == 1000 or x[:2] != 'tv':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -tv')
+        #print(fkey, ' -tv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7615,7 +7619,7 @@ def decrypt_tx():
         if i == 1000 or x[:2] != 'tx':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -tx')
+        #print(fkey, ' -tx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7629,7 +7633,7 @@ def decrypt_tz():
         if i == 1000 or x[:2] != 'tz':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -tz')
+        #print(fkey, ' -tz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7643,7 +7647,7 @@ def decrypt_tA():
         if i == 1000 or x[:2] != 'tA':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -tA')
+        #print(fkey, ' -tA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7657,7 +7661,7 @@ def decrypt_tB():
         if i == 1000 or x[:2] != 'tB':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -tB')
+        #print(fkey, ' -tB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7671,7 +7675,7 @@ def decrypt_tD():
         if i == 1000 or x[:2] != 'tD':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -tD')
+        #print(fkey, ' -tD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7685,7 +7689,7 @@ def decrypt_tF():
         if i == 1000 or x[:2] != 'tF':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -tF')
+        #print(fkey, ' -tF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7699,7 +7703,7 @@ def decrypt_tH():
         if i == 1000 or x[:2] != 'tH':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -tH')
+        #print(fkey, ' -tH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7713,7 +7717,7 @@ def decrypt_tJ():
         if i == 1000 or x[:2] != 'tJ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -tJ')
+        #print(fkey, ' -tJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7727,7 +7731,7 @@ def decrypt_tL():
         if i == 1000 or x[:2] != 'tL':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -tL')
+        #print(fkey, ' -tL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7741,7 +7745,7 @@ def decrypt_tN():
         if i == 1000 or x[:2] != 'tN':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -tN')
+        #print(fkey, ' -tN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7755,7 +7759,7 @@ def decrypt_tP():
         if i == 1000 or x[:2] != 'tP':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -tP')
+        #print(fkey, ' -tP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7769,7 +7773,7 @@ def decrypt_tR():
         if i == 1000 or x[:2] != 'tR':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -tR')
+        #print(fkey, ' -tR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7783,7 +7787,7 @@ def decrypt_tT():
         if i == 1000 or x[:2] != 'tT':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -tT')
+        #print(fkey, ' -tT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7797,7 +7801,7 @@ def decrypt_tV():
         if i == 1000 or x[:2] != 'tV':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -tV')
+        #print(fkey, ' -tV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7811,7 +7815,7 @@ def decrypt_tX():
         if i == 1000 or x[:2] != 'tX':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -tX')
+        #print(fkey, ' -tX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7825,7 +7829,7 @@ def decrypt_tZ():
         if i == 1000 or x[:2] != 'tZ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -tZ')
+        #print(fkey, ' -tZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7839,7 +7843,7 @@ def decrypt_t0():
         if i == 1000 or x[:2] != 't0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -t0')
+        #print(fkey, ' -t0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7853,7 +7857,7 @@ def decrypt_t2():
         if i == 1000 or x[:2] != 't2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -t2')
+        #print(fkey, ' -t2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7867,7 +7871,7 @@ def decrypt_t4():
         if i == 1000 or x[:2] != 't4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -t4')
+        #print(fkey, ' -t4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7881,7 +7885,7 @@ def decrypt_t6():
         if i == 1000 or x[:2] != 't6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -t6')
+        #print(fkey, ' -t6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7895,7 +7899,7 @@ def decrypt_t8():
         if i == 1000 or x[:2] != 't8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -t8')
+        #print(fkey, ' -t8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7909,7 +7913,7 @@ def decrypt_texcl():
         if i == 1000 or x[:2] != 't!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -t!')
+        #print(fkey, ' -t!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7923,7 +7927,7 @@ def decrypt_tdquote():
         if i == 1000 or x[:2] != 't"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -t"')
+        #print(fkey, ' -t"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7937,7 +7941,7 @@ def decrypt_tdoll():
         if i == 1000 or x[:2] != 't$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -t$')
+        #print(fkey, ' -t$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7951,7 +7955,7 @@ def decrypt_tand():
         if i == 1000 or x[:2] != 't&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -t&')
+        #print(fkey, ' -t&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7965,7 +7969,7 @@ def decrypt_tquote():
         if i == 1000 or x[:2] != 't\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -t\'')
+        #print(fkey, ' -t\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7979,7 +7983,7 @@ def decrypt_tpar():
         if i == 1000 or x[:2] != 't(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -t(')
+        #print(fkey, ' -t(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -7993,7 +7997,7 @@ def decrypt_tast():
         if i == 1000 or x[:2] != 't*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -t*')
+        #print(fkey, ' -t*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8007,7 +8011,7 @@ def decrypt_tvir():
         if i == 1000 or x[:2] != 't,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -t,')
+        #print(fkey, ' -t,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8021,7 +8025,7 @@ def decrypt_tpp():
         if i == 1000 or x[:2] != 't.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -t.')
+        #print(fkey, ' -t.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8035,7 +8039,7 @@ def decrypt_ttp():
         if i == 1000 or x[:2] != 't:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -t:')
+        #print(fkey, ' -t:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8049,7 +8053,7 @@ def decrypt_tless():
         if i == 1000 or x[:2] != 't<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -t<')
+        #print(fkey, ' -t<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8063,7 +8067,7 @@ def decrypt_tmore():
         if i == 1000 or x[:2] != 't>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -t>')
+        #print(fkey, ' -t>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8077,7 +8081,7 @@ def decrypt_taro():
         if i == 1000 or x[:2] != 't@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -t@')
+        #print(fkey, ' -t@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8091,7 +8095,7 @@ def decrypt_tcroc():
         if i == 1000 or x[:2] != 't[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -t[')
+        #print(fkey, ' -t[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8105,7 +8109,7 @@ def decrypt_tbsl():
         if i == 1000 or x[:2] != 't\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -t\\')
+        #print(fkey, ' -t\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8119,7 +8123,7 @@ def decrypt_tcirc():
         if i == 1000 or x[:2] != 't^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -t^')
+        #print(fkey, ' -t^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8133,7 +8137,7 @@ def decrypt_tesp():
         if i == 1000 or x[:2] != 't`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -t`')
+        #print(fkey, ' -t`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8147,7 +8151,7 @@ def decrypt_tcr():
         if i == 1000 or x[:2] != 't{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -t{')
+        #print(fkey, ' -t{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8161,7 +8165,7 @@ def decrypt_thl():
         if i == 1000 or x[:2] != 't|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -t|')
+        #print(fkey, ' -t|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8175,7 +8179,7 @@ def decrypt_ttild():
         if i == 1000 or x[:2] != 't~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -t~')
+        #print(fkey, ' -t~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8189,7 +8193,7 @@ def decrypt_va():
         if i == 1000 or x[:2] != 'va':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -va')
+        #print(fkey, ' -va')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8203,7 +8207,7 @@ def decrypt_vb():
         if i == 1000 or x[:2] != 'vb':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -vb')
+        #print(fkey, ' -vb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8217,7 +8221,7 @@ def decrypt_vd():
         if i == 1000 or x[:2] != 'vd':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -vd')
+        #print(fkey, ' -vd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8231,7 +8235,7 @@ def decrypt_vf():
         if i == 1000 or x[:2] != 'vf':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -vf')
+        #print(fkey, ' -vf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8245,7 +8249,7 @@ def decrypt_vh():
         if i == 1000 or x[:2] != 'vh':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -vh')
+        #print(fkey, ' -vh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8259,7 +8263,7 @@ def decrypt_vj():
         if i == 1000 or x[:2] != 'vj':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -vj')
+        #print(fkey, ' -vj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8273,7 +8277,7 @@ def decrypt_vl():
         if i == 1000 or x[:2] != 'vl':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -vl')
+        #print(fkey, ' -vl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8287,7 +8291,7 @@ def decrypt_vn():
         if i == 1000 or x[:2] != 'vn':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -vn')
+        #print(fkey, ' -vn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8301,7 +8305,7 @@ def decrypt_vp():
         if i == 1000 or x[:2] != 'vp':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -vp')
+        #print(fkey, ' -vp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8315,7 +8319,7 @@ def decrypt_vr():
         if i == 1000 or x[:2] != 'vr':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -vr')
+        #print(fkey, ' -vr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8329,7 +8333,7 @@ def decrypt_vt():
         if i == 1000 or x[:2] != 'vt':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -vt')
+        #print(fkey, ' -vt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8343,7 +8347,7 @@ def decrypt_vv():
         if i == 1000 or x[:2] != 'vv':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -vv')
+        #print(fkey, ' -vv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8357,7 +8361,7 @@ def decrypt_vx():
         if i == 1000 or x[:2] != 'vx':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -vx')
+        #print(fkey, ' -vx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8371,7 +8375,7 @@ def decrypt_vz():
         if i == 1000 or x[:2] != 'vz':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -vz')
+        #print(fkey, ' -vz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8385,7 +8389,7 @@ def decrypt_vA():
         if i == 1000 or x[:2] != 'vA':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -vA')
+        #print(fkey, ' -vA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8399,7 +8403,7 @@ def decrypt_vB():
         if i == 1000 or x[:2] != 'vB':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -vB')
+        #print(fkey, ' -vB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8413,7 +8417,7 @@ def decrypt_vD():
         if i == 1000 or x[:2] != 'vD':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -vD')
+        #print(fkey, ' -vD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8427,7 +8431,7 @@ def decrypt_vF():
         if i == 1000 or x[:2] != 'vF':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -vF')
+        #print(fkey, ' -vF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8441,7 +8445,7 @@ def decrypt_vH():
         if i == 1000 or x[:2] != 'vH':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -vH')
+        #print(fkey, ' -vH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8455,7 +8459,7 @@ def decrypt_vJ():
         if i == 1000 or x[:2] != 'vJ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -vJ')
+        #print(fkey, ' -vJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8469,7 +8473,7 @@ def decrypt_vL():
         if i == 1000 or x[:2] != 'vL':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -vL')
+        #print(fkey, ' -vL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8483,7 +8487,7 @@ def decrypt_vN():
         if i == 1000 or x[:2] != 'vN':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -vN')
+        #print(fkey, ' -vN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8497,7 +8501,7 @@ def decrypt_vP():
         if i == 1000 or x[:2] != 'vP':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -vP')
+        #print(fkey, ' -vP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8511,7 +8515,7 @@ def decrypt_vR():
         if i == 1000 or x[:2] != 'vR':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -vR')
+        #print(fkey, ' -vR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8525,7 +8529,7 @@ def decrypt_vT():
         if i == 1000 or x[:2] != 'vT':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -vT')
+        #print(fkey, ' -vT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8539,7 +8543,7 @@ def decrypt_vV():
         if i == 1000 or x[:2] != 'vV':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -vV')
+        #print(fkey, ' -vV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8553,7 +8557,7 @@ def decrypt_vX():
         if i == 1000 or x[:2] != 'vX':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -vX')
+        #print(fkey, ' -vX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8567,7 +8571,7 @@ def decrypt_vZ():
         if i == 1000 or x[:2] != 'vZ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -vZ')
+        #print(fkey, ' -vZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8581,7 +8585,7 @@ def decrypt_v0():
         if i == 1000 or x[:2] != 'v0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -v0')
+        #print(fkey, ' -v0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8595,7 +8599,7 @@ def decrypt_v2():
         if i == 1000 or x[:2] != 'v2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -v2')
+        #print(fkey, ' -v2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8609,7 +8613,7 @@ def decrypt_v4():
         if i == 1000 or x[:2] != 'v4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -v4')
+        #print(fkey, ' -v4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8623,7 +8627,7 @@ def decrypt_v6():
         if i == 1000 or x[:2] != 'v6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -v6')
+        #print(fkey, ' -v6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8637,7 +8641,7 @@ def decrypt_v8():
         if i == 1000 or x[:2] != 'v8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -v8')
+        #print(fkey, ' -v8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8651,7 +8655,7 @@ def decrypt_vexcl():
         if i == 1000 or x[:2] != 'v!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -v!')
+        #print(fkey, ' -v!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8665,7 +8669,7 @@ def decrypt_vdquote():
         if i == 1000 or x[:2] != 'v"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -v"')
+        #print(fkey, ' -v"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8679,7 +8683,7 @@ def decrypt_vdoll():
         if i == 1000 or x[:2] != 'v$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -v$')
+        #print(fkey, ' -v$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8693,7 +8697,7 @@ def decrypt_vand():
         if i == 1000 or x[:2] != 'v&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -v&')
+        #print(fkey, ' -v&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8707,7 +8711,7 @@ def decrypt_vquote():
         if i == 1000 or x[:2] != 'v\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -v\'')
+        #print(fkey, ' -v\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8721,7 +8725,7 @@ def decrypt_vpar():
         if i == 1000 or x[:2] != 'v(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -v(')
+        #print(fkey, ' -v(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8735,7 +8739,7 @@ def decrypt_vast():
         if i == 1000 or x[:2] != 'v*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -v*')
+        #print(fkey, ' -v*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8749,7 +8753,7 @@ def decrypt_vvir():
         if i == 1000 or x[:2] != 'v,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -v,')
+        #print(fkey, ' -v,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8763,7 +8767,7 @@ def decrypt_vpp():
         if i == 1000 or x[:2] != 'v.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -v.')
+        #print(fkey, ' -v.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8777,7 +8781,7 @@ def decrypt_vtp():
         if i == 1000 or x[:2] != 'v:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -v:')
+        #print(fkey, ' -v:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8791,7 +8795,7 @@ def decrypt_vless():
         if i == 1000 or x[:2] != 'v<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -v<')
+        #print(fkey, ' -v<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8805,7 +8809,7 @@ def decrypt_vmore():
         if i == 1000 or x[:2] != 'v>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -v>')
+        #print(fkey, ' -v>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8819,7 +8823,7 @@ def decrypt_varo():
         if i == 1000 or x[:2] != 'v@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -v@')
+        #print(fkey, ' -v@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8833,7 +8837,7 @@ def decrypt_vcroc():
         if i == 1000 or x[:2] != 'v[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -v[')
+        #print(fkey, ' -v[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8847,7 +8851,7 @@ def decrypt_vbsl():
         if i == 1000 or x[:2] != 'v\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -v\\')
+        #print(fkey, ' -v\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8861,7 +8865,7 @@ def decrypt_vcirc():
         if i == 1000 or x[:2] != 'v^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -v^')
+        #print(fkey, ' -v^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8875,7 +8879,7 @@ def decrypt_vesp():
         if i == 1000 or x[:2] != 'v`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -v`')
+        #print(fkey, ' -v`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8889,7 +8893,7 @@ def decrypt_vcr():
         if i == 1000 or x[:2] != 'v{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -v{')
+        #print(fkey, ' -v{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8903,7 +8907,7 @@ def decrypt_vhl():
         if i == 1000 or x[:2] != 'v|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -v|')
+        #print(fkey, ' -v|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8917,7 +8921,7 @@ def decrypt_vtild():
         if i == 1000 or x[:2] != 'v~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -v~')
+        #print(fkey, ' -v~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8931,7 +8935,7 @@ def decrypt_xa():
         if i == 1000 or x[:2] != 'xa':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -xa')
+        #print(fkey, ' -xa')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8945,7 +8949,7 @@ def decrypt_xb():
         if i == 1000 or x[:2] != 'xb':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -xb')
+        #print(fkey, ' -xb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8959,7 +8963,7 @@ def decrypt_xd():
         if i == 1000 or x[:2] != 'xd':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -xd')
+        #print(fkey, ' -xd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8973,7 +8977,7 @@ def decrypt_xf():
         if i == 1000 or x[:2] != 'xf':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -xf')
+        #print(fkey, ' -xf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -8987,7 +8991,7 @@ def decrypt_xh():
         if i == 1000 or x[:2] != 'xh':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -xh')
+        #print(fkey, ' -xh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9001,7 +9005,7 @@ def decrypt_xj():
         if i == 1000 or x[:2] != 'xj':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -xj')
+        #print(fkey, ' -xj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9015,7 +9019,7 @@ def decrypt_xl():
         if i == 1000 or x[:2] != 'xl':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -xl')
+        #print(fkey, ' -xl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9029,7 +9033,7 @@ def decrypt_xn():
         if i == 1000 or x[:2] != 'xn':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -xn')
+        #print(fkey, ' -xn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9043,7 +9047,7 @@ def decrypt_xp():
         if i == 1000 or x[:2] != 'xp':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -xp')
+        #print(fkey, ' -xp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9057,7 +9061,7 @@ def decrypt_xr():
         if i == 1000 or x[:2] != 'xr':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -xr')
+        #print(fkey, ' -xr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9071,7 +9075,7 @@ def decrypt_xt():
         if i == 1000 or x[:2] != 'xt':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -xt')
+        #print(fkey, ' -xt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9085,7 +9089,7 @@ def decrypt_xv():
         if i == 1000 or x[:2] != 'xv':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -xv')
+        #print(fkey, ' -xv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9099,7 +9103,7 @@ def decrypt_xx():
         if i == 1000 or x[:2] != 'xx':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -xx')
+        #print(fkey, ' -xx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9113,7 +9117,7 @@ def decrypt_xz():
         if i == 1000 or x[:2] != 'xz':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -xz')
+        #print(fkey, ' -xz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9127,7 +9131,7 @@ def decrypt_xA():
         if i == 1000 or x[:2] != 'xA':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -xA')
+        #print(fkey, ' -xA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9141,7 +9145,7 @@ def decrypt_xB():
         if i == 1000 or x[:2] != 'xB':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -xB')
+        #print(fkey, ' -xB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9155,7 +9159,7 @@ def decrypt_xD():
         if i == 1000 or x[:2] != 'xD':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -xD')
+        #print(fkey, ' -xD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9169,7 +9173,7 @@ def decrypt_xF():
         if i == 1000 or x[:2] != 'xF':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -xF')
+        #print(fkey, ' -xF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9183,7 +9187,7 @@ def decrypt_xH():
         if i == 1000 or x[:2] != 'xH':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -xH')
+        #print(fkey, ' -xH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9197,7 +9201,7 @@ def decrypt_xJ():
         if i == 1000 or x[:2] != 'xJ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -xJ')
+        #print(fkey, ' -xJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9211,7 +9215,7 @@ def decrypt_xL():
         if i == 1000 or x[:2] != 'xL':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -xL')
+        #print(fkey, ' -xL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9225,7 +9229,7 @@ def decrypt_xN():
         if i == 1000 or x[:2] != 'xN':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -xN')
+        #print(fkey, ' -xN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9239,7 +9243,7 @@ def decrypt_xP():
         if i == 1000 or x[:2] != 'xP':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -xP')
+        #print(fkey, ' -xP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9253,7 +9257,7 @@ def decrypt_xR():
         if i == 1000 or x[:2] != 'xR':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -xR')
+        #print(fkey, ' -xR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9267,7 +9271,7 @@ def decrypt_xT():
         if i == 1000 or x[:2] != 'xT':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -xT')
+        #print(fkey, ' -xT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9281,7 +9285,7 @@ def decrypt_xV():
         if i == 1000 or x[:2] != 'xV':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -xV')
+        #print(fkey, ' -xV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9295,7 +9299,7 @@ def decrypt_xX():
         if i == 1000 or x[:2] != 'xX':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -xX')
+        #print(fkey, ' -xX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9309,7 +9313,7 @@ def decrypt_xZ():
         if i == 1000 or x[:2] != 'xZ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -xZ')
+        #print(fkey, ' -xZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9323,7 +9327,7 @@ def decrypt_x0():
         if i == 1000 or x[:2] != 'x0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -x0')
+        #print(fkey, ' -x0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9337,7 +9341,7 @@ def decrypt_x2():
         if i == 1000 or x[:2] != 'x2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -x2')
+        #print(fkey, ' -x2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9351,7 +9355,7 @@ def decrypt_x4():
         if i == 1000 or x[:2] != 'x4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -x4')
+        #print(fkey, ' -x4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9365,7 +9369,7 @@ def decrypt_x6():
         if i == 1000 or x[:2] != 'x6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -x6')
+        #print(fkey, ' -x6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9379,7 +9383,7 @@ def decrypt_x8():
         if i == 1000 or x[:2] != 'x8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -x8')
+        #print(fkey, ' -x8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9393,7 +9397,7 @@ def decrypt_xexcl():
         if i == 1000 or x[:2] != 'x!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -x!')
+        #print(fkey, ' -x!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9407,7 +9411,7 @@ def decrypt_xdquote():
         if i == 1000 or x[:2] != 'x"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -x"')
+        #print(fkey, ' -x"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9421,7 +9425,7 @@ def decrypt_xdoll():
         if i == 1000 or x[:2] != 'x$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -x$')
+        #print(fkey, ' -x$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9435,7 +9439,7 @@ def decrypt_xand():
         if i == 1000 or x[:2] != 'x&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -x&')
+        #print(fkey, ' -x&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9449,7 +9453,7 @@ def decrypt_xquote():
         if i == 1000 or x[:2] != 'x\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -x\'')
+        #print(fkey, ' -x\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9463,7 +9467,7 @@ def decrypt_xpar():
         if i == 1000 or x[:2] != 'x(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -x(')
+        #print(fkey, ' -x(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9477,7 +9481,7 @@ def decrypt_xast():
         if i == 1000 or x[:2] != 'x*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -x*')
+        #print(fkey, ' -x*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9491,7 +9495,7 @@ def decrypt_xvir():
         if i == 1000 or x[:2] != 'x,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -x,')
+        #print(fkey, ' -x,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9505,7 +9509,7 @@ def decrypt_xpp():
         if i == 1000 or x[:2] != 'x.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -x.')
+        #print(fkey, ' -x.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9519,7 +9523,7 @@ def decrypt_xtp():
         if i == 1000 or x[:2] != 'x:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -x:')
+        #print(fkey, ' -x:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9533,7 +9537,7 @@ def decrypt_xless():
         if i == 1000 or x[:2] != 'x<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -x<')
+        #print(fkey, ' -x<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9547,7 +9551,7 @@ def decrypt_xmore():
         if i == 1000 or x[:2] != 'x>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -x>')
+        #print(fkey, ' -x>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9561,7 +9565,7 @@ def decrypt_xaro():
         if i == 1000 or x[:2] != 'x@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -x@')
+        #print(fkey, ' -x@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9575,7 +9579,7 @@ def decrypt_xcroc():
         if i == 1000 or x[:2] != 'x[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -x[')
+        #print(fkey, ' -x[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9589,7 +9593,7 @@ def decrypt_xbsl():
         if i == 1000 or x[:2] != 'x\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -x\\')
+        #print(fkey, ' -x\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9603,7 +9607,7 @@ def decrypt_xcirc():
         if i == 1000 or x[:2] != 'x^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -x^')
+        #print(fkey, ' -x^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9617,7 +9621,7 @@ def decrypt_xesp():
         if i == 1000 or x[:2] != 'x`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -x`')
+        #print(fkey, ' -x`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9631,7 +9635,7 @@ def decrypt_xcr():
         if i == 1000 or x[:2] != 'x{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -x{')
+        #print(fkey, ' -x{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9645,7 +9649,7 @@ def decrypt_xhl():
         if i == 1000 or x[:2] != 'x|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -x|')
+        #print(fkey, ' -x|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9659,7 +9663,7 @@ def decrypt_xtild():
         if i == 1000 or x[:2] != 'x~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -x~')
+        #print(fkey, ' -x~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9673,7 +9677,7 @@ def decrypt_za():
         if i == 1000 or x[:2] != 'za':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -za')
+        #print(fkey, ' -za')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9687,7 +9691,7 @@ def decrypt_zb():
         if i == 1000 or x[:2] != 'zb':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -zb')
+        #print(fkey, ' -zb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9701,7 +9705,7 @@ def decrypt_zd():
         if i == 1000 or x[:2] != 'zd':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -zd')
+        #print(fkey, ' -zd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9715,7 +9719,7 @@ def decrypt_zf():
         if i == 1000 or x[:2] != 'zf':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -zf')
+        #print(fkey, ' -zf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9729,7 +9733,7 @@ def decrypt_zh():
         if i == 1000 or x[:2] != 'zh':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -zh')
+        #print(fkey, ' -zh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9743,7 +9747,7 @@ def decrypt_zj():
         if i == 1000 or x[:2] != 'zj':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -zj')
+        #print(fkey, ' -zj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9757,7 +9761,7 @@ def decrypt_zl():
         if i == 1000 or x[:2] != 'zl':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -zl')
+        #print(fkey, ' -zl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9771,7 +9775,7 @@ def decrypt_zn():
         if i == 1000 or x[:2] != 'zn':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -zn')
+        #print(fkey, ' -zn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9785,7 +9789,7 @@ def decrypt_zp():
         if i == 1000 or x[:2] != 'zp':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -zp')
+        #print(fkey, ' -zp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9799,7 +9803,7 @@ def decrypt_zr():
         if i == 1000 or x[:2] != 'zr':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -zr')
+        #print(fkey, ' -zr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9813,7 +9817,7 @@ def decrypt_zt():
         if i == 1000 or x[:2] != 'zt':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -zt')
+        #print(fkey, ' -zt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9827,7 +9831,7 @@ def decrypt_zv():
         if i == 1000 or x[:2] != 'zv':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -zv')
+        #print(fkey, ' -zv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9841,7 +9845,7 @@ def decrypt_zx():
         if i == 1000 or x[:2] != 'zx':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -zx')
+        #print(fkey, ' -zx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9855,7 +9859,7 @@ def decrypt_zz():
         if i == 1000 or x[:2] != 'zz':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -zz')
+        #print(fkey, ' -zz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9869,7 +9873,7 @@ def decrypt_zA():
         if i == 1000 or x[:2] != 'zA':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -zA')
+        #print(fkey, ' -zA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9883,7 +9887,7 @@ def decrypt_zB():
         if i == 1000 or x[:2] != 'zB':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -zB')
+        #print(fkey, ' -zB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9897,7 +9901,7 @@ def decrypt_zD():
         if i == 1000 or x[:2] != 'zD':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -zD')
+        #print(fkey, ' -zD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9911,7 +9915,7 @@ def decrypt_zF():
         if i == 1000 or x[:2] != 'zF':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -zF')
+        #print(fkey, ' -zF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9925,7 +9929,7 @@ def decrypt_zH():
         if i == 1000 or x[:2] != 'zH':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -zH')
+        #print(fkey, ' -zH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9939,7 +9943,7 @@ def decrypt_zJ():
         if i == 1000 or x[:2] != 'zJ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -zJ')
+        #print(fkey, ' -zJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9953,7 +9957,7 @@ def decrypt_zL():
         if i == 1000 or x[:2] != 'zL':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -zL')
+        #print(fkey, ' -zL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9967,7 +9971,7 @@ def decrypt_zN():
         if i == 1000 or x[:2] != 'zN':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -zN')
+        #print(fkey, ' -zN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9981,7 +9985,7 @@ def decrypt_zP():
         if i == 1000 or x[:2] != 'zP':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -zP')
+        #print(fkey, ' -zP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -9995,7 +9999,7 @@ def decrypt_zR():
         if i == 1000 or x[:2] != 'zR':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -zR')
+        #print(fkey, ' -zR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10009,7 +10013,7 @@ def decrypt_zT():
         if i == 1000 or x[:2] != 'zT':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -zT')
+        #print(fkey, ' -zT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10023,7 +10027,7 @@ def decrypt_zV():
         if i == 1000 or x[:2] != 'zV':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -zV')
+        #print(fkey, ' -zV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10037,7 +10041,7 @@ def decrypt_zX():
         if i == 1000 or x[:2] != 'zX':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -zX')
+        #print(fkey, ' -zX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10051,7 +10055,7 @@ def decrypt_zZ():
         if i == 1000 or x[:2] != 'zZ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -zZ')
+        #print(fkey, ' -zZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10065,7 +10069,7 @@ def decrypt_z0():
         if i == 1000 or x[:2] != 'z0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -z0')
+        #print(fkey, ' -z0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10079,7 +10083,7 @@ def decrypt_z2():
         if i == 1000 or x[:2] != 'z2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -z2')
+        #print(fkey, ' -z2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10093,7 +10097,7 @@ def decrypt_z4():
         if i == 1000 or x[:2] != 'z4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -z4')
+        #print(fkey, ' -z4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10107,7 +10111,7 @@ def decrypt_z6():
         if i == 1000 or x[:2] != 'z6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -z6')
+        #print(fkey, ' -z6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10121,7 +10125,7 @@ def decrypt_z8():
         if i == 1000 or x[:2] != 'z8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -z8')
+        #print(fkey, ' -z8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10135,7 +10139,7 @@ def decrypt_zexcl():
         if i == 1000 or x[:2] != 'z!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -z!')
+        #print(fkey, ' -z!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10149,7 +10153,7 @@ def decrypt_zdquote():
         if i == 1000 or x[:2] != 'z"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -z"')
+        #print(fkey, ' -z"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10163,7 +10167,7 @@ def decrypt_zdoll():
         if i == 1000 or x[:2] != 'z$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -z$')
+        #print(fkey, ' -z$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10177,7 +10181,7 @@ def decrypt_zand():
         if i == 1000 or x[:2] != 'z&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -z&')
+        #print(fkey, ' -z&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10191,7 +10195,7 @@ def decrypt_zquote():
         if i == 1000 or x[:2] != 'z\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -z\'')
+        #print(fkey, ' -z\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10205,7 +10209,7 @@ def decrypt_zpar():
         if i == 1000 or x[:2] != 'z(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -z(')
+        #print(fkey, ' -z(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10219,7 +10223,7 @@ def decrypt_zast():
         if i == 1000 or x[:2] != 'z*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -z*')
+        #print(fkey, ' -z*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10233,7 +10237,7 @@ def decrypt_zvir():
         if i == 1000 or x[:2] != 'z,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -z,')
+        #print(fkey, ' -z,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10247,7 +10251,7 @@ def decrypt_zpp():
         if i == 1000 or x[:2] != 'z.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -z.')
+        #print(fkey, ' -z.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10261,7 +10265,7 @@ def decrypt_ztp():
         if i == 1000 or x[:2] != 'z:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -z:')
+        #print(fkey, ' -z:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10275,7 +10279,7 @@ def decrypt_zless():
         if i == 1000 or x[:2] != 'z<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -z<')
+        #print(fkey, ' -z<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10289,7 +10293,7 @@ def decrypt_zmore():
         if i == 1000 or x[:2] != 'z>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -z>')
+        #print(fkey, ' -z>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10303,7 +10307,7 @@ def decrypt_zaro():
         if i == 1000 or x[:2] != 'z@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -z@')
+        #print(fkey, ' -z@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10317,7 +10321,7 @@ def decrypt_zcroc():
         if i == 1000 or x[:2] != 'z[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -z[')
+        #print(fkey, ' -z[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10331,7 +10335,7 @@ def decrypt_zbsl():
         if i == 1000 or x[:2] != 'z\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -z\\')
+        #print(fkey, ' -z\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10345,7 +10349,7 @@ def decrypt_zcirc():
         if i == 1000 or x[:2] != 'z^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -z^')
+        #print(fkey, ' -z^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10359,7 +10363,7 @@ def decrypt_zesp():
         if i == 1000 or x[:2] != 'z`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -z`')
+        #print(fkey, ' -z`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10373,7 +10377,7 @@ def decrypt_zcr():
         if i == 1000 or x[:2] != 'z{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -z{')
+        #print(fkey, ' -z{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10387,7 +10391,7 @@ def decrypt_zhl():
         if i == 1000 or x[:2] != 'z|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -z|')
+        #print(fkey, ' -z|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10401,7 +10405,7 @@ def decrypt_ztild():
         if i == 1000 or x[:2] != 'z~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -z~')
+        #print(fkey, ' -z~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10415,7 +10419,7 @@ def decrypt_Aa():
         if i == 1000 or x[:2] != 'Aa':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Aa')
+        #print(fkey, ' -Aa')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10429,7 +10433,7 @@ def decrypt_Ab():
         if i == 1000 or x[:2] != 'Ab':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Ab')
+        #print(fkey, ' -Ab')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10443,7 +10447,7 @@ def decrypt_Ad():
         if i == 1000 or x[:2] != 'Ad':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Ad')
+        #print(fkey, ' -Ad')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10457,7 +10461,7 @@ def decrypt_Af():
         if i == 1000 or x[:2] != 'Af':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Af')
+        #print(fkey, ' -Af')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10471,7 +10475,7 @@ def decrypt_Ah():
         if i == 1000 or x[:2] != 'Ah':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Ah')
+        #print(fkey, ' -Ah')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10485,7 +10489,7 @@ def decrypt_Aj():
         if i == 1000 or x[:2] != 'Aj':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Aj')
+        #print(fkey, ' -Aj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10499,7 +10503,7 @@ def decrypt_Al():
         if i == 1000 or x[:2] != 'Al':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Al')
+        #print(fkey, ' -Al')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10513,7 +10517,7 @@ def decrypt_An():
         if i == 1000 or x[:2] != 'An':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -An')
+        #print(fkey, ' -An')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10527,7 +10531,7 @@ def decrypt_Ap():
         if i == 1000 or x[:2] != 'Ap':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Ap')
+        #print(fkey, ' -Ap')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10541,7 +10545,7 @@ def decrypt_Ar():
         if i == 1000 or x[:2] != 'Ar':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Ar')
+        #print(fkey, ' -Ar')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10555,7 +10559,7 @@ def decrypt_At():
         if i == 1000 or x[:2] != 'At':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -At')
+        #print(fkey, ' -At')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10569,7 +10573,7 @@ def decrypt_Av():
         if i == 1000 or x[:2] != 'Av':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Av')
+        #print(fkey, ' -Av')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10583,7 +10587,7 @@ def decrypt_Ax():
         if i == 1000 or x[:2] != 'Ax':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Ax')
+        #print(fkey, ' -Ax')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10597,7 +10601,7 @@ def decrypt_Az():
         if i == 1000 or x[:2] != 'Az':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Az')
+        #print(fkey, ' -Az')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10611,7 +10615,7 @@ def decrypt_AA():
         if i == 1000 or x[:2] != 'AA':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -AA')
+        #print(fkey, ' -AA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10625,7 +10629,7 @@ def decrypt_AB():
         if i == 1000 or x[:2] != 'AB':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -AB')
+        #print(fkey, ' -AB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10639,7 +10643,7 @@ def decrypt_AD():
         if i == 1000 or x[:2] != 'AD':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -AD')
+        #print(fkey, ' -AD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10653,7 +10657,7 @@ def decrypt_AF():
         if i == 1000 or x[:2] != 'AF':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -AF')
+        #print(fkey, ' -AF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10667,7 +10671,7 @@ def decrypt_AH():
         if i == 1000 or x[:2] != 'AH':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -AH')
+        #print(fkey, ' -AH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10681,7 +10685,7 @@ def decrypt_AJ():
         if i == 1000 or x[:2] != 'AJ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -AJ')
+        #print(fkey, ' -AJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10695,7 +10699,7 @@ def decrypt_AL():
         if i == 1000 or x[:2] != 'AL':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -AL')
+        #print(fkey, ' -AL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10709,7 +10713,7 @@ def decrypt_AN():
         if i == 1000 or x[:2] != 'AN':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -AN')
+        #print(fkey, ' -AN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10723,7 +10727,7 @@ def decrypt_AP():
         if i == 1000 or x[:2] != 'AP':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -AP')
+        #print(fkey, ' -AP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10737,7 +10741,7 @@ def decrypt_AR():
         if i == 1000 or x[:2] != 'AR':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -AR')
+        #print(fkey, ' -AR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10751,7 +10755,7 @@ def decrypt_AT():
         if i == 1000 or x[:2] != 'AT':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -AT')
+        #print(fkey, ' -AT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10765,7 +10769,7 @@ def decrypt_AV():
         if i == 1000 or x[:2] != 'AV':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -AV')
+        #print(fkey, ' -AV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10779,7 +10783,7 @@ def decrypt_AX():
         if i == 1000 or x[:2] != 'AX':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -AX')
+        #print(fkey, ' -AX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10793,7 +10797,7 @@ def decrypt_AZ():
         if i == 1000 or x[:2] != 'AZ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -AZ')
+        #print(fkey, ' -AZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10807,7 +10811,7 @@ def decrypt_A0():
         if i == 1000 or x[:2] != 'A0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -A0')
+        #print(fkey, ' -A0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10821,7 +10825,7 @@ def decrypt_A2():
         if i == 1000 or x[:2] != 'A2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -A2')
+        #print(fkey, ' -A2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10835,7 +10839,7 @@ def decrypt_A4():
         if i == 1000 or x[:2] != 'A4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -A4')
+        #print(fkey, ' -A4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10849,7 +10853,7 @@ def decrypt_A6():
         if i == 1000 or x[:2] != 'A6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -A6')
+        #print(fkey, ' -A6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10863,7 +10867,7 @@ def decrypt_A8():
         if i == 1000 or x[:2] != 'A8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -A8')
+        #print(fkey, ' -A8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10877,7 +10881,7 @@ def decrypt_Aexcl():
         if i == 1000 or x[:2] != 'A!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -A!')
+        #print(fkey, ' -A!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10891,7 +10895,7 @@ def decrypt_Adquote():
         if i == 1000 or x[:2] != 'A"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -A"')
+        #print(fkey, ' -A"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10905,7 +10909,7 @@ def decrypt_Adoll():
         if i == 1000 or x[:2] != 'A$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -A$')
+        #print(fkey, ' -A$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10919,7 +10923,7 @@ def decrypt_Aand():
         if i == 1000 or x[:2] != 'A&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -A&')
+        #print(fkey, ' -A&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10933,7 +10937,7 @@ def decrypt_Aquote():
         if i == 1000 or x[:2] != 'A\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -A\'')
+        #print(fkey, ' -A\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10947,7 +10951,7 @@ def decrypt_Apar():
         if i == 1000 or x[:2] != 'A(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -A(')
+        #print(fkey, ' -A(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10961,7 +10965,7 @@ def decrypt_Aast():
         if i == 1000 or x[:2] != 'A*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -A*')
+        #print(fkey, ' -A*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10975,7 +10979,7 @@ def decrypt_Avir():
         if i == 1000 or x[:2] != 'A,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -A,')
+        #print(fkey, ' -A,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -10989,7 +10993,7 @@ def decrypt_App():
         if i == 1000 or x[:2] != 'A.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -A.')
+        #print(fkey, ' -A.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11003,7 +11007,7 @@ def decrypt_Atp():
         if i == 1000 or x[:2] != 'A:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -A:')
+        #print(fkey, ' -A:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11017,7 +11021,7 @@ def decrypt_Aless():
         if i == 1000 or x[:2] != 'A<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -A<')
+        #print(fkey, ' -A<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11031,7 +11035,7 @@ def decrypt_Amore():
         if i == 1000 or x[:2] != 'A>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -A>')
+        #print(fkey, ' -A>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11045,7 +11049,7 @@ def decrypt_Aaro():
         if i == 1000 or x[:2] != 'A@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -A@')
+        #print(fkey, ' -A@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11059,7 +11063,7 @@ def decrypt_Acroc():
         if i == 1000 or x[:2] != 'A[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -A[')
+        #print(fkey, ' -A[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11073,7 +11077,7 @@ def decrypt_Absl():
         if i == 1000 or x[:2] != 'A\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -A\\')
+        #print(fkey, ' -A\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11087,7 +11091,7 @@ def decrypt_Acirc():
         if i == 1000 or x[:2] != 'A^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -A^')
+        #print(fkey, ' -A^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11101,7 +11105,7 @@ def decrypt_Aesp():
         if i == 1000 or x[:2] != 'A`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -A`')
+        #print(fkey, ' -A`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11115,7 +11119,7 @@ def decrypt_Acr():
         if i == 1000 or x[:2] != 'A{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -A{')
+        #print(fkey, ' -A{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11129,7 +11133,7 @@ def decrypt_Ahl():
         if i == 1000 or x[:2] != 'A|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -A|')
+        #print(fkey, ' -A|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11143,7 +11147,7 @@ def decrypt_Atild():
         if i == 1000 or x[:2] != 'A~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -A~')
+        #print(fkey, ' -A~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11157,7 +11161,7 @@ def decrypt_Ba():
         if i == 1000 or x[:2] != 'Ba':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Ba')
+        #print(fkey, ' -Ba')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11171,7 +11175,7 @@ def decrypt_Bb():
         if i == 1000 or x[:2] != 'Bb':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Bb')
+        #print(fkey, ' -Bb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11185,7 +11189,7 @@ def decrypt_Bd():
         if i == 1000 or x[:2] != 'Bd':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Bd')
+        #print(fkey, ' -Bd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11199,7 +11203,7 @@ def decrypt_Bf():
         if i == 1000 or x[:2] != 'Bf':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Bf')
+        #print(fkey, ' -Bf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11213,7 +11217,7 @@ def decrypt_Bh():
         if i == 1000 or x[:2] != 'Bh':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Bh')
+        #print(fkey, ' -Bh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11227,7 +11231,7 @@ def decrypt_Bj():
         if i == 1000 or x[:2] != 'Bj':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Bj')
+        #print(fkey, ' -Bj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11241,7 +11245,7 @@ def decrypt_Bl():
         if i == 1000 or x[:2] != 'Bl':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Bl')
+        #print(fkey, ' -Bl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11255,7 +11259,7 @@ def decrypt_Bn():
         if i == 1000 or x[:2] != 'Bn':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Bn')
+        #print(fkey, ' -Bn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11269,7 +11273,7 @@ def decrypt_Bp():
         if i == 1000 or x[:2] != 'Bp':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Bp')
+        #print(fkey, ' -Bp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11283,7 +11287,7 @@ def decrypt_Br():
         if i == 1000 or x[:2] != 'Br':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Br')
+        #print(fkey, ' -Br')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11297,7 +11301,7 @@ def decrypt_Bt():
         if i == 1000 or x[:2] != 'Bt':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Bt')
+        #print(fkey, ' -Bt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11311,7 +11315,7 @@ def decrypt_Bv():
         if i == 1000 or x[:2] != 'Bv':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Bv')
+        #print(fkey, ' -Bv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11325,7 +11329,7 @@ def decrypt_Bx():
         if i == 1000 or x[:2] != 'Bx':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Bx')
+        #print(fkey, ' -Bx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11339,7 +11343,7 @@ def decrypt_Bz():
         if i == 1000 or x[:2] != 'Bz':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Bz')
+        #print(fkey, ' -Bz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11353,7 +11357,7 @@ def decrypt_BA():
         if i == 1000 or x[:2] != 'BA':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -BA')
+        #print(fkey, ' -BA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11367,7 +11371,7 @@ def decrypt_BB():
         if i == 1000 or x[:2] != 'BB':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -BB')
+        #print(fkey, ' -BB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11381,7 +11385,7 @@ def decrypt_BD():
         if i == 1000 or x[:2] != 'BD':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -BD')
+        #print(fkey, ' -BD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11395,7 +11399,7 @@ def decrypt_BF():
         if i == 1000 or x[:2] != 'BF':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -BF')
+        #print(fkey, ' -BF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11409,7 +11413,7 @@ def decrypt_BH():
         if i == 1000 or x[:2] != 'BH':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -BH')
+        #print(fkey, ' -BH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11423,7 +11427,7 @@ def decrypt_BJ():
         if i == 1000 or x[:2] != 'BJ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -BJ')
+        #print(fkey, ' -BJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11437,7 +11441,7 @@ def decrypt_BL():
         if i == 1000 or x[:2] != 'BL':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -BL')
+        #print(fkey, ' -BL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11451,7 +11455,7 @@ def decrypt_BN():
         if i == 1000 or x[:2] != 'BN':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -BN')
+        #print(fkey, ' -BN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11465,7 +11469,7 @@ def decrypt_BP():
         if i == 1000 or x[:2] != 'BP':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -BP')
+        #print(fkey, ' -BP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11479,7 +11483,7 @@ def decrypt_BR():
         if i == 1000 or x[:2] != 'BR':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -BR')
+        #print(fkey, ' -BR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11493,7 +11497,7 @@ def decrypt_BT():
         if i == 1000 or x[:2] != 'BT':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -BT')
+        #print(fkey, ' -BT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11507,7 +11511,7 @@ def decrypt_BV():
         if i == 1000 or x[:2] != 'BV':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -BV')
+        #print(fkey, ' -BV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11521,7 +11525,7 @@ def decrypt_BX():
         if i == 1000 or x[:2] != 'BX':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -BX')
+        #print(fkey, ' -BX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11535,7 +11539,7 @@ def decrypt_BZ():
         if i == 1000 or x[:2] != 'BZ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -BZ')
+        #print(fkey, ' -BZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11549,7 +11553,7 @@ def decrypt_B0():
         if i == 1000 or x[:2] != 'B0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -B0')
+        #print(fkey, ' -B0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11563,7 +11567,7 @@ def decrypt_B2():
         if i == 1000 or x[:2] != 'B2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -B2')
+        #print(fkey, ' -B2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11577,7 +11581,7 @@ def decrypt_B4():
         if i == 1000 or x[:2] != 'B4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -B4')
+        #print(fkey, ' -B4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11591,7 +11595,7 @@ def decrypt_B6():
         if i == 1000 or x[:2] != 'B6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -B6')
+        #print(fkey, ' -B6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11605,7 +11609,7 @@ def decrypt_B8():
         if i == 1000 or x[:2] != 'B8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -B8')
+        #print(fkey, ' -B8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11619,7 +11623,7 @@ def decrypt_Bexcl():
         if i == 1000 or x[:2] != 'B!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -B!')
+        #print(fkey, ' -B!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11633,7 +11637,7 @@ def decrypt_Bdquote():
         if i == 1000 or x[:2] != 'B"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -B"')
+        #print(fkey, ' -B"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11647,7 +11651,7 @@ def decrypt_Bdoll():
         if i == 1000 or x[:2] != 'B$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -B$')
+        #print(fkey, ' -B$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11661,7 +11665,7 @@ def decrypt_Band():
         if i == 1000 or x[:2] != 'B&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -B&')
+        #print(fkey, ' -B&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11675,7 +11679,7 @@ def decrypt_Bquote():
         if i == 1000 or x[:2] != 'B\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -B\'')
+        #print(fkey, ' -B\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11689,7 +11693,7 @@ def decrypt_Bpar():
         if i == 1000 or x[:2] != 'B(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -B(')
+        #print(fkey, ' -B(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11703,7 +11707,7 @@ def decrypt_Bast():
         if i == 1000 or x[:2] != 'B*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -B*')
+        #print(fkey, ' -B*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11717,7 +11721,7 @@ def decrypt_Bvir():
         if i == 1000 or x[:2] != 'B,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -B,')
+        #print(fkey, ' -B,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11731,7 +11735,7 @@ def decrypt_Bpp():
         if i == 1000 or x[:2] != 'B.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -B.')
+        #print(fkey, ' -B.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11745,7 +11749,7 @@ def decrypt_Btp():
         if i == 1000 or x[:2] != 'B:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -B:')
+        #print(fkey, ' -B:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11759,7 +11763,7 @@ def decrypt_Bless():
         if i == 1000 or x[:2] != 'B<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -B<')
+        #print(fkey, ' -B<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11773,7 +11777,7 @@ def decrypt_Bmore():
         if i == 1000 or x[:2] != 'B>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -B>')
+        #print(fkey, ' -B>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11787,7 +11791,7 @@ def decrypt_Baro():
         if i == 1000 or x[:2] != 'B@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -B@')
+        #print(fkey, ' -B@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11801,7 +11805,7 @@ def decrypt_Bcroc():
         if i == 1000 or x[:2] != 'B[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -B[')
+        #print(fkey, ' -B[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11815,7 +11819,7 @@ def decrypt_Bbsl():
         if i == 1000 or x[:2] != 'B\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -B\\')
+        #print(fkey, ' -B\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11829,7 +11833,7 @@ def decrypt_Bcirc():
         if i == 1000 or x[:2] != 'B^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -B^')
+        #print(fkey, ' -B^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11843,7 +11847,7 @@ def decrypt_Besp():
         if i == 1000 or x[:2] != 'B`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -B`')
+        #print(fkey, ' -B`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11857,7 +11861,7 @@ def decrypt_Bcr():
         if i == 1000 or x[:2] != 'B{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -B{')
+        #print(fkey, ' -B{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11871,7 +11875,7 @@ def decrypt_Bhl():
         if i == 1000 or x[:2] != 'B|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -B|')
+        #print(fkey, ' -B|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11885,7 +11889,7 @@ def decrypt_Btild():
         if i == 1000 or x[:2] != 'B~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -B~')
+        #print(fkey, ' -B~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11899,7 +11903,7 @@ def decrypt_Da():
         if i == 1000 or x[:2] != 'Da':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Da')
+        #print(fkey, ' -Da')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11913,7 +11917,7 @@ def decrypt_Db():
         if i == 1000 or x[:2] != 'Db':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Db')
+        #print(fkey, ' -Db')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11927,7 +11931,7 @@ def decrypt_Dd():
         if i == 1000 or x[:2] != 'Dd':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Dd')
+        #print(fkey, ' -Dd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11941,7 +11945,7 @@ def decrypt_Df():
         if i == 1000 or x[:2] != 'Df':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Df')
+        #print(fkey, ' -Df')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11955,7 +11959,7 @@ def decrypt_Dh():
         if i == 1000 or x[:2] != 'Dh':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Dh')
+        #print(fkey, ' -Dh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11969,7 +11973,7 @@ def decrypt_Dj():
         if i == 1000 or x[:2] != 'Dj':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Dj')
+        #print(fkey, ' -Dj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11983,7 +11987,7 @@ def decrypt_Dl():
         if i == 1000 or x[:2] != 'Dl':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Dl')
+        #print(fkey, ' -Dl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -11997,7 +12001,7 @@ def decrypt_Dn():
         if i == 1000 or x[:2] != 'Dn':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Dn')
+        #print(fkey, ' -Dn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12011,7 +12015,7 @@ def decrypt_Dp():
         if i == 1000 or x[:2] != 'Dp':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Dp')
+        #print(fkey, ' -Dp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12025,7 +12029,7 @@ def decrypt_Dr():
         if i == 1000 or x[:2] != 'Dr':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Dr')
+        #print(fkey, ' -Dr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12039,7 +12043,7 @@ def decrypt_Dt():
         if i == 1000 or x[:2] != 'Dt':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Dt')
+        #print(fkey, ' -Dt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12053,7 +12057,7 @@ def decrypt_Dv():
         if i == 1000 or x[:2] != 'Dv':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Dv')
+        #print(fkey, ' -Dv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12067,7 +12071,7 @@ def decrypt_Dx():
         if i == 1000 or x[:2] != 'Dx':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Dx')
+        #print(fkey, ' -Dx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12081,7 +12085,7 @@ def decrypt_Dz():
         if i == 1000 or x[:2] != 'Dz':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Dz')
+        #print(fkey, ' -Dz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12095,7 +12099,7 @@ def decrypt_DA():
         if i == 1000 or x[:2] != 'DA':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -DA')
+        #print(fkey, ' -DA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12109,7 +12113,7 @@ def decrypt_DB():
         if i == 1000 or x[:2] != 'DB':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -DB')
+        #print(fkey, ' -DB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12123,7 +12127,7 @@ def decrypt_DD():
         if i == 1000 or x[:2] != 'DD':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -DD')
+        #print(fkey, ' -DD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12137,7 +12141,7 @@ def decrypt_DF():
         if i == 1000 or x[:2] != 'DF':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -DF')
+        #print(fkey, ' -DF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12151,7 +12155,7 @@ def decrypt_DH():
         if i == 1000 or x[:2] != 'DH':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -DH')
+        #print(fkey, ' -DH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12165,7 +12169,7 @@ def decrypt_DJ():
         if i == 1000 or x[:2] != 'DJ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -DJ')
+        #print(fkey, ' -DJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12179,7 +12183,7 @@ def decrypt_DL():
         if i == 1000 or x[:2] != 'DL':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -DL')
+        #print(fkey, ' -DL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12193,7 +12197,7 @@ def decrypt_DN():
         if i == 1000 or x[:2] != 'DN':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -DN')
+        #print(fkey, ' -DN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12207,7 +12211,7 @@ def decrypt_DP():
         if i == 1000 or x[:2] != 'DP':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -DP')
+        #print(fkey, ' -DP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12221,7 +12225,7 @@ def decrypt_DR():
         if i == 1000 or x[:2] != 'DR':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -DR')
+        #print(fkey, ' -DR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12235,7 +12239,7 @@ def decrypt_DT():
         if i == 1000 or x[:2] != 'DT':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -DT')
+        #print(fkey, ' -DT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12249,7 +12253,7 @@ def decrypt_DV():
         if i == 1000 or x[:2] != 'DV':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -DV')
+        #print(fkey, ' -DV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12263,7 +12267,7 @@ def decrypt_DX():
         if i == 1000 or x[:2] != 'DX':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -DX')
+        #print(fkey, ' -DX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12277,7 +12281,7 @@ def decrypt_DZ():
         if i == 1000 or x[:2] != 'DZ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -DZ')
+        #print(fkey, ' -DZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12291,7 +12295,7 @@ def decrypt_D0():
         if i == 1000 or x[:2] != 'D0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -D0')
+        #print(fkey, ' -D0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12305,7 +12309,7 @@ def decrypt_D2():
         if i == 1000 or x[:2] != 'D2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -D2')
+        #print(fkey, ' -D2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12319,7 +12323,7 @@ def decrypt_D4():
         if i == 1000 or x[:2] != 'D4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -D4')
+        #print(fkey, ' -D4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12333,7 +12337,7 @@ def decrypt_D6():
         if i == 1000 or x[:2] != 'D6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -D6')
+        #print(fkey, ' -D6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12347,7 +12351,7 @@ def decrypt_D8():
         if i == 1000 or x[:2] != 'D8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -D8')
+        #print(fkey, ' -D8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12361,7 +12365,7 @@ def decrypt_Dexcl():
         if i == 1000 or x[:2] != 'D!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -D!')
+        #print(fkey, ' -D!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12375,7 +12379,7 @@ def decrypt_Ddquote():
         if i == 1000 or x[:2] != 'D"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -D"')
+        #print(fkey, ' -D"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12389,7 +12393,7 @@ def decrypt_Ddoll():
         if i == 1000 or x[:2] != 'D$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -D$')
+        #print(fkey, ' -D$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12403,7 +12407,7 @@ def decrypt_Dand():
         if i == 1000 or x[:2] != 'D&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -D&')
+        #print(fkey, ' -D&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12417,7 +12421,7 @@ def decrypt_Dquote():
         if i == 1000 or x[:2] != 'D\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -D\'')
+        #print(fkey, ' -D\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12431,7 +12435,7 @@ def decrypt_Dpar():
         if i == 1000 or x[:2] != 'D(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -D(')
+        #print(fkey, ' -D(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12445,7 +12449,7 @@ def decrypt_Dast():
         if i == 1000 or x[:2] != 'D*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -D*')
+        #print(fkey, ' -D*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12459,7 +12463,7 @@ def decrypt_Dvir():
         if i == 1000 or x[:2] != 'D,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -D,')
+        #print(fkey, ' -D,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12473,7 +12477,7 @@ def decrypt_Dpp():
         if i == 1000 or x[:2] != 'D.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -D.')
+        #print(fkey, ' -D.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12487,7 +12491,7 @@ def decrypt_Dtp():
         if i == 1000 or x[:2] != 'D:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -D:')
+        #print(fkey, ' -D:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12501,7 +12505,7 @@ def decrypt_Dless():
         if i == 1000 or x[:2] != 'D<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -D<')
+        #print(fkey, ' -D<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12515,7 +12519,7 @@ def decrypt_Dmore():
         if i == 1000 or x[:2] != 'D>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -D>')
+        #print(fkey, ' -D>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12529,7 +12533,7 @@ def decrypt_Daro():
         if i == 1000 or x[:2] != 'D@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -D@')
+        #print(fkey, ' -D@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12543,7 +12547,7 @@ def decrypt_Dcroc():
         if i == 1000 or x[:2] != 'D[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -D[')
+        #print(fkey, ' -D[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12557,7 +12561,7 @@ def decrypt_Dbsl():
         if i == 1000 or x[:2] != 'D\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -D\\')
+        #print(fkey, ' -D\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12571,7 +12575,7 @@ def decrypt_Dcirc():
         if i == 1000 or x[:2] != 'D^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -D^')
+        #print(fkey, ' -D^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12585,7 +12589,7 @@ def decrypt_Desp():
         if i == 1000 or x[:2] != 'D`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -D`')
+        #print(fkey, ' -D`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12599,7 +12603,7 @@ def decrypt_Dcr():
         if i == 1000 or x[:2] != 'D{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -D{')
+        #print(fkey, ' -D{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12613,7 +12617,7 @@ def decrypt_Dhl():
         if i == 1000 or x[:2] != 'D|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -D|')
+        #print(fkey, ' -D|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12627,7 +12631,7 @@ def decrypt_Dtild():
         if i == 1000 or x[:2] != 'D~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -D~')
+        #print(fkey, ' -D~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12641,7 +12645,7 @@ def decrypt_Fa():
         if i == 1000 or x[:2] != 'Fa':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Fa')
+        #print(fkey, ' -Fa')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12655,7 +12659,7 @@ def decrypt_Fb():
         if i == 1000 or x[:2] != 'Fb':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Fb')
+        #print(fkey, ' -Fb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12669,7 +12673,7 @@ def decrypt_Fd():
         if i == 1000 or x[:2] != 'Fd':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Fd')
+        #print(fkey, ' -Fd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12683,7 +12687,7 @@ def decrypt_Ff():
         if i == 1000 or x[:2] != 'Ff':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Ff')
+        #print(fkey, ' -Ff')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12697,7 +12701,7 @@ def decrypt_Fh():
         if i == 1000 or x[:2] != 'Fh':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Fh')
+        #print(fkey, ' -Fh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12711,7 +12715,7 @@ def decrypt_Fj():
         if i == 1000 or x[:2] != 'Fj':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Fj')
+        #print(fkey, ' -Fj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12725,7 +12729,7 @@ def decrypt_Fl():
         if i == 1000 or x[:2] != 'Fl':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Fl')
+        #print(fkey, ' -Fl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12739,7 +12743,7 @@ def decrypt_Fn():
         if i == 1000 or x[:2] != 'Fn':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Fn')
+        #print(fkey, ' -Fn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12753,7 +12757,7 @@ def decrypt_Fp():
         if i == 1000 or x[:2] != 'Fp':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Fp')
+        #print(fkey, ' -Fp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12767,7 +12771,7 @@ def decrypt_Fr():
         if i == 1000 or x[:2] != 'Fr':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Fr')
+        #print(fkey, ' -Fr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12781,7 +12785,7 @@ def decrypt_Ft():
         if i == 1000 or x[:2] != 'Ft':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Ft')
+        #print(fkey, ' -Ft')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12795,7 +12799,7 @@ def decrypt_Fv():
         if i == 1000 or x[:2] != 'Fv':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Fv')
+        #print(fkey, ' -Fv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12809,7 +12813,7 @@ def decrypt_Fx():
         if i == 1000 or x[:2] != 'Fx':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Fx')
+        #print(fkey, ' -Fx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12823,7 +12827,7 @@ def decrypt_Fz():
         if i == 1000 or x[:2] != 'Fz':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Fz')
+        #print(fkey, ' -Fz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12837,7 +12841,7 @@ def decrypt_FA():
         if i == 1000 or x[:2] != 'FA':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -FA')
+        #print(fkey, ' -FA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12851,7 +12855,7 @@ def decrypt_FB():
         if i == 1000 or x[:2] != 'FB':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -FB')
+        #print(fkey, ' -FB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12865,7 +12869,7 @@ def decrypt_FD():
         if i == 1000 or x[:2] != 'FD':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -FD')
+        #print(fkey, ' -FD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12879,7 +12883,7 @@ def decrypt_FF():
         if i == 1000 or x[:2] != 'FF':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -FF')
+        #print(fkey, ' -FF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12893,7 +12897,7 @@ def decrypt_FH():
         if i == 1000 or x[:2] != 'FH':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -FH')
+        #print(fkey, ' -FH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12907,7 +12911,7 @@ def decrypt_FJ():
         if i == 1000 or x[:2] != 'FJ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -FJ')
+        #print(fkey, ' -FJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12921,7 +12925,7 @@ def decrypt_FL():
         if i == 1000 or x[:2] != 'FL':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -FL')
+        #print(fkey, ' -FL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12935,7 +12939,7 @@ def decrypt_FN():
         if i == 1000 or x[:2] != 'FN':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -FN')
+        #print(fkey, ' -FN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12949,7 +12953,7 @@ def decrypt_FP():
         if i == 1000 or x[:2] != 'FP':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -FP')
+        #print(fkey, ' -FP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12963,7 +12967,7 @@ def decrypt_FR():
         if i == 1000 or x[:2] != 'FR':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -FR')
+        #print(fkey, ' -FR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12977,7 +12981,7 @@ def decrypt_FT():
         if i == 1000 or x[:2] != 'FT':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -FT')
+        #print(fkey, ' -FT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -12991,7 +12995,7 @@ def decrypt_FV():
         if i == 1000 or x[:2] != 'FV':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -FV')
+        #print(fkey, ' -FV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13005,7 +13009,7 @@ def decrypt_FX():
         if i == 1000 or x[:2] != 'FX':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -FX')
+        #print(fkey, ' -FX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13019,7 +13023,7 @@ def decrypt_FZ():
         if i == 1000 or x[:2] != 'FZ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -FZ')
+        #print(fkey, ' -FZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13033,7 +13037,7 @@ def decrypt_F0():
         if i == 1000 or x[:2] != 'F0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -F0')
+        #print(fkey, ' -F0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13047,7 +13051,7 @@ def decrypt_F2():
         if i == 1000 or x[:2] != 'F2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -F2')
+        #print(fkey, ' -F2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13061,7 +13065,7 @@ def decrypt_F4():
         if i == 1000 or x[:2] != 'F4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -F4')
+        #print(fkey, ' -F4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13075,7 +13079,7 @@ def decrypt_F6():
         if i == 1000 or x[:2] != 'F6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -F6')
+        #print(fkey, ' -F6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13089,7 +13093,7 @@ def decrypt_F8():
         if i == 1000 or x[:2] != 'F8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -F8')
+        #print(fkey, ' -F8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13103,7 +13107,7 @@ def decrypt_Fexcl():
         if i == 1000 or x[:2] != 'F!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -F!')
+        #print(fkey, ' -F!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13117,7 +13121,7 @@ def decrypt_Fdquote():
         if i == 1000 or x[:2] != 'F"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -F"')
+        #print(fkey, ' -F"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13131,7 +13135,7 @@ def decrypt_Fdoll():
         if i == 1000 or x[:2] != 'F$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -F$')
+        #print(fkey, ' -F$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13145,7 +13149,7 @@ def decrypt_Fand():
         if i == 1000 or x[:2] != 'F&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -F&')
+        #print(fkey, ' -F&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13159,7 +13163,7 @@ def decrypt_Fquote():
         if i == 1000 or x[:2] != 'F\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -F\'')
+        #print(fkey, ' -F\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13173,7 +13177,7 @@ def decrypt_Fpar():
         if i == 1000 or x[:2] != 'F(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -F(')
+        #print(fkey, ' -F(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13187,7 +13191,7 @@ def decrypt_Fast():
         if i == 1000 or x[:2] != 'F*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -F*')
+        #print(fkey, ' -F*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13201,7 +13205,7 @@ def decrypt_Fvir():
         if i == 1000 or x[:2] != 'F,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -F,')
+        #print(fkey, ' -F,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13215,7 +13219,7 @@ def decrypt_Fpp():
         if i == 1000 or x[:2] != 'F.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -F.')
+        #print(fkey, ' -F.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13229,7 +13233,7 @@ def decrypt_Ftp():
         if i == 1000 or x[:2] != 'F:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -F:')
+        #print(fkey, ' -F:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13243,7 +13247,7 @@ def decrypt_Fless():
         if i == 1000 or x[:2] != 'F<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -F<')
+        #print(fkey, ' -F<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13257,7 +13261,7 @@ def decrypt_Fmore():
         if i == 1000 or x[:2] != 'F>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -F>')
+        #print(fkey, ' -F>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13271,7 +13275,7 @@ def decrypt_Faro():
         if i == 1000 or x[:2] != 'F@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -F@')
+        #print(fkey, ' -F@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13285,7 +13289,7 @@ def decrypt_Fcroc():
         if i == 1000 or x[:2] != 'F[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -F[')
+        #print(fkey, ' -F[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13299,7 +13303,7 @@ def decrypt_Fbsl():
         if i == 1000 or x[:2] != 'F\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -F\\')
+        #print(fkey, ' -F\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13313,7 +13317,7 @@ def decrypt_Fcirc():
         if i == 1000 or x[:2] != 'F^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -F^')
+        #print(fkey, ' -F^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13327,7 +13331,7 @@ def decrypt_Fesp():
         if i == 1000 or x[:2] != 'F`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -F`')
+        #print(fkey, ' -F`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13341,7 +13345,7 @@ def decrypt_Fcr():
         if i == 1000 or x[:2] != 'F{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -F{')
+        #print(fkey, ' -F{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13355,7 +13359,7 @@ def decrypt_Fhl():
         if i == 1000 or x[:2] != 'F|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -F|')
+        #print(fkey, ' -F|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13369,7 +13373,7 @@ def decrypt_Ftild():
         if i == 1000 or x[:2] != 'F~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -F~')
+        #print(fkey, ' -F~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13383,7 +13387,7 @@ def decrypt_Ha():
         if i == 1000 or x[:2] != 'Ha':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Ha')
+        #print(fkey, ' -Ha')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13397,7 +13401,7 @@ def decrypt_Hb():
         if i == 1000 or x[:2] != 'Hb':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Hb')
+        #print(fkey, ' -Hb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13411,7 +13415,7 @@ def decrypt_Hd():
         if i == 1000 or x[:2] != 'Hd':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Hd')
+        #print(fkey, ' -Hd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13425,7 +13429,7 @@ def decrypt_Hf():
         if i == 1000 or x[:2] != 'Hf':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Hf')
+        #print(fkey, ' -Hf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13439,7 +13443,7 @@ def decrypt_Hh():
         if i == 1000 or x[:2] != 'Hh':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Hh')
+        #print(fkey, ' -Hh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13453,7 +13457,7 @@ def decrypt_Hj():
         if i == 1000 or x[:2] != 'Hj':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Hj')
+        #print(fkey, ' -Hj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13467,7 +13471,7 @@ def decrypt_Hl():
         if i == 1000 or x[:2] != 'Hl':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Hl')
+        #print(fkey, ' -Hl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13481,7 +13485,7 @@ def decrypt_Hn():
         if i == 1000 or x[:2] != 'Hn':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Hn')
+        #print(fkey, ' -Hn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13495,7 +13499,7 @@ def decrypt_Hp():
         if i == 1000 or x[:2] != 'Hp':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Hp')
+        #print(fkey, ' -Hp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13509,7 +13513,7 @@ def decrypt_Hr():
         if i == 1000 or x[:2] != 'Hr':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Hr')
+        #print(fkey, ' -Hr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13523,7 +13527,7 @@ def decrypt_Ht():
         if i == 1000 or x[:2] != 'Ht':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Ht')
+        #print(fkey, ' -Ht')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13537,7 +13541,7 @@ def decrypt_Hv():
         if i == 1000 or x[:2] != 'Hv':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Hv')
+        #print(fkey, ' -Hv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13551,7 +13555,7 @@ def decrypt_Hx():
         if i == 1000 or x[:2] != 'Hx':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Hx')
+        #print(fkey, ' -Hx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13565,7 +13569,7 @@ def decrypt_Hz():
         if i == 1000 or x[:2] != 'Hz':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Hz')
+        #print(fkey, ' -Hz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13579,7 +13583,7 @@ def decrypt_HA():
         if i == 1000 or x[:2] != 'HA':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -HA')
+        #print(fkey, ' -HA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13593,7 +13597,7 @@ def decrypt_HB():
         if i == 1000 or x[:2] != 'HB':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -HB')
+        #print(fkey, ' -HB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13607,7 +13611,7 @@ def decrypt_HD():
         if i == 1000 or x[:2] != 'HD':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -HD')
+        #print(fkey, ' -HD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13621,7 +13625,7 @@ def decrypt_HF():
         if i == 1000 or x[:2] != 'HF':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -HF')
+        #print(fkey, ' -HF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13635,7 +13639,7 @@ def decrypt_HH():
         if i == 1000 or x[:2] != 'HH':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -HH')
+        #print(fkey, ' -HH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13649,7 +13653,7 @@ def decrypt_HJ():
         if i == 1000 or x[:2] != 'HJ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -HJ')
+        #print(fkey, ' -HJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13663,7 +13667,7 @@ def decrypt_HL():
         if i == 1000 or x[:2] != 'HL':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -HL')
+        #print(fkey, ' -HL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13677,7 +13681,7 @@ def decrypt_HN():
         if i == 1000 or x[:2] != 'HN':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -HN')
+        #print(fkey, ' -HN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13691,7 +13695,7 @@ def decrypt_HP():
         if i == 1000 or x[:2] != 'HP':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -HP')
+        #print(fkey, ' -HP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13705,7 +13709,7 @@ def decrypt_HR():
         if i == 1000 or x[:2] != 'HR':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -HR')
+        #print(fkey, ' -HR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13719,7 +13723,7 @@ def decrypt_HT():
         if i == 1000 or x[:2] != 'HT':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -HT')
+        #print(fkey, ' -HT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13733,7 +13737,7 @@ def decrypt_HV():
         if i == 1000 or x[:2] != 'HV':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -HV')
+        #print(fkey, ' -HV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13747,7 +13751,7 @@ def decrypt_HX():
         if i == 1000 or x[:2] != 'HX':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -HX')
+        #print(fkey, ' -HX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13761,7 +13765,7 @@ def decrypt_HZ():
         if i == 1000 or x[:2] != 'HZ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -HZ')
+        #print(fkey, ' -HZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13775,7 +13779,7 @@ def decrypt_H0():
         if i == 1000 or x[:2] != 'H0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -H0')
+        #print(fkey, ' -H0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13789,7 +13793,7 @@ def decrypt_H2():
         if i == 1000 or x[:2] != 'H2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -H2')
+        #print(fkey, ' -H2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13803,7 +13807,7 @@ def decrypt_H4():
         if i == 1000 or x[:2] != 'H4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -H4')
+        #print(fkey, ' -H4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13817,7 +13821,7 @@ def decrypt_H6():
         if i == 1000 or x[:2] != 'H6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -H6')
+        #print(fkey, ' -H6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13831,7 +13835,7 @@ def decrypt_H8():
         if i == 1000 or x[:2] != 'H8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -H8')
+        #print(fkey, ' -H8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13845,7 +13849,7 @@ def decrypt_Hexcl():
         if i == 1000 or x[:2] != 'H!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -H!')
+        #print(fkey, ' -H!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13859,7 +13863,7 @@ def decrypt_Hdquote():
         if i == 1000 or x[:2] != 'H"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -H"')
+        #print(fkey, ' -H"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13873,7 +13877,7 @@ def decrypt_Hdoll():
         if i == 1000 or x[:2] != 'H$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -H$')
+        #print(fkey, ' -H$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13887,7 +13891,7 @@ def decrypt_Hand():
         if i == 1000 or x[:2] != 'H&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -H&')
+        #print(fkey, ' -H&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13901,7 +13905,7 @@ def decrypt_Hquote():
         if i == 1000 or x[:2] != 'H\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -H\'')
+        #print(fkey, ' -H\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13915,7 +13919,7 @@ def decrypt_Hpar():
         if i == 1000 or x[:2] != 'H(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -H(')
+        #print(fkey, ' -H(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13929,7 +13933,7 @@ def decrypt_Hast():
         if i == 1000 or x[:2] != 'H*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -H*')
+        #print(fkey, ' -H*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13943,7 +13947,7 @@ def decrypt_Hvir():
         if i == 1000 or x[:2] != 'H,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -H,')
+        #print(fkey, ' -H,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13957,7 +13961,7 @@ def decrypt_Hpp():
         if i == 1000 or x[:2] != 'H.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -H.')
+        #print(fkey, ' -H.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13971,7 +13975,7 @@ def decrypt_Htp():
         if i == 1000 or x[:2] != 'H:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -H:')
+        #print(fkey, ' -H:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13985,7 +13989,7 @@ def decrypt_Hless():
         if i == 1000 or x[:2] != 'H<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -H<')
+        #print(fkey, ' -H<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -13999,7 +14003,7 @@ def decrypt_Hmore():
         if i == 1000 or x[:2] != 'H>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -H>')
+        #print(fkey, ' -H>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14013,7 +14017,7 @@ def decrypt_Haro():
         if i == 1000 or x[:2] != 'H@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -H@')
+        #print(fkey, ' -H@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14027,7 +14031,7 @@ def decrypt_Hcroc():
         if i == 1000 or x[:2] != 'H[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -H[')
+        #print(fkey, ' -H[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14041,7 +14045,7 @@ def decrypt_Hbsl():
         if i == 1000 or x[:2] != 'H\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -H\\')
+        #print(fkey, ' -H\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14055,7 +14059,7 @@ def decrypt_Hcirc():
         if i == 1000 or x[:2] != 'H^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -H^')
+        #print(fkey, ' -H^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14069,7 +14073,7 @@ def decrypt_Hesp():
         if i == 1000 or x[:2] != 'H`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -H`')
+        #print(fkey, ' -H`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14083,7 +14087,7 @@ def decrypt_Hcr():
         if i == 1000 or x[:2] != 'H{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -H{')
+        #print(fkey, ' -H{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14097,7 +14101,7 @@ def decrypt_Hhl():
         if i == 1000 or x[:2] != 'H|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -H|')
+        #print(fkey, ' -H|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14111,7 +14115,7 @@ def decrypt_Htild():
         if i == 1000 or x[:2] != 'H~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -H~')
+        #print(fkey, ' -H~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14125,7 +14129,7 @@ def decrypt_Ja():
         if i == 1000 or x[:2] != 'Ja':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Ja')
+        #print(fkey, ' -Ja')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14139,7 +14143,7 @@ def decrypt_Jb():
         if i == 1000 or x[:2] != 'Jb':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Jb')
+        #print(fkey, ' -Jb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14153,7 +14157,7 @@ def decrypt_Jd():
         if i == 1000 or x[:2] != 'Jd':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Jd')
+        #print(fkey, ' -Jd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14167,7 +14171,7 @@ def decrypt_Jf():
         if i == 1000 or x[:2] != 'Jf':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Jf')
+        #print(fkey, ' -Jf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14181,7 +14185,7 @@ def decrypt_Jh():
         if i == 1000 or x[:2] != 'Jh':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Jh')
+        #print(fkey, ' -Jh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14195,7 +14199,7 @@ def decrypt_Jj():
         if i == 1000 or x[:2] != 'Jj':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Jj')
+        #print(fkey, ' -Jj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14209,7 +14213,7 @@ def decrypt_Jl():
         if i == 1000 or x[:2] != 'Jl':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Jl')
+        #print(fkey, ' -Jl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14223,7 +14227,7 @@ def decrypt_Jn():
         if i == 1000 or x[:2] != 'Jn':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Jn')
+        #print(fkey, ' -Jn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14237,7 +14241,7 @@ def decrypt_Jp():
         if i == 1000 or x[:2] != 'Jp':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Jp')
+        #print(fkey, ' -Jp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14251,7 +14255,7 @@ def decrypt_Jr():
         if i == 1000 or x[:2] != 'Jr':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Jr')
+        #print(fkey, ' -Jr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14265,7 +14269,7 @@ def decrypt_Jt():
         if i == 1000 or x[:2] != 'Jt':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Jt')
+        #print(fkey, ' -Jt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14279,7 +14283,7 @@ def decrypt_Jv():
         if i == 1000 or x[:2] != 'Jv':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Jv')
+        #print(fkey, ' -Jv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14293,7 +14297,7 @@ def decrypt_Jx():
         if i == 1000 or x[:2] != 'Jx':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Jx')
+        #print(fkey, ' -Jx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14307,7 +14311,7 @@ def decrypt_Jz():
         if i == 1000 or x[:2] != 'Jz':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Jz')
+        #print(fkey, ' -Jz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14321,7 +14325,7 @@ def decrypt_JA():
         if i == 1000 or x[:2] != 'JA':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -JA')
+        #print(fkey, ' -JA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14335,7 +14339,7 @@ def decrypt_JB():
         if i == 1000 or x[:2] != 'JB':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -JB')
+        #print(fkey, ' -JB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14349,7 +14353,7 @@ def decrypt_JD():
         if i == 1000 or x[:2] != 'JD':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -JD')
+        #print(fkey, ' -JD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14363,7 +14367,7 @@ def decrypt_JF():
         if i == 1000 or x[:2] != 'JF':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -JF')
+        #print(fkey, ' -JF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14377,7 +14381,7 @@ def decrypt_JH():
         if i == 1000 or x[:2] != 'JH':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -JH')
+        #print(fkey, ' -JH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14391,7 +14395,7 @@ def decrypt_JJ():
         if i == 1000 or x[:2] != 'JJ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -JJ')
+        #print(fkey, ' -JJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14405,7 +14409,7 @@ def decrypt_JL():
         if i == 1000 or x[:2] != 'JL':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -JL')
+        #print(fkey, ' -JL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14419,7 +14423,7 @@ def decrypt_JN():
         if i == 1000 or x[:2] != 'JN':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -JN')
+        #print(fkey, ' -JN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14433,7 +14437,7 @@ def decrypt_JP():
         if i == 1000 or x[:2] != 'JP':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -JP')
+        #print(fkey, ' -JP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14447,7 +14451,7 @@ def decrypt_JR():
         if i == 1000 or x[:2] != 'JR':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -JR')
+        #print(fkey, ' -JR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14461,7 +14465,7 @@ def decrypt_JT():
         if i == 1000 or x[:2] != 'JT':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -JT')
+        #print(fkey, ' -JT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14475,7 +14479,7 @@ def decrypt_JV():
         if i == 1000 or x[:2] != 'JV':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -JV')
+        #print(fkey, ' -JV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14489,7 +14493,7 @@ def decrypt_JX():
         if i == 1000 or x[:2] != 'JX':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -JX')
+        #print(fkey, ' -JX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14503,7 +14507,7 @@ def decrypt_JZ():
         if i == 1000 or x[:2] != 'JZ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -JZ')
+        #print(fkey, ' -JZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14517,7 +14521,7 @@ def decrypt_J0():
         if i == 1000 or x[:2] != 'J0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -J0')
+        #print(fkey, ' -J0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14531,7 +14535,7 @@ def decrypt_J2():
         if i == 1000 or x[:2] != 'J2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -J2')
+        #print(fkey, ' -J2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14545,7 +14549,7 @@ def decrypt_J4():
         if i == 1000 or x[:2] != 'J4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -J4')
+        #print(fkey, ' -J4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14559,7 +14563,7 @@ def decrypt_J6():
         if i == 1000 or x[:2] != 'J6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -J6')
+        #print(fkey, ' -J6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14573,7 +14577,7 @@ def decrypt_J8():
         if i == 1000 or x[:2] != 'J8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -J8')
+        #print(fkey, ' -J8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14587,7 +14591,7 @@ def decrypt_Jexcl():
         if i == 1000 or x[:2] != 'J!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -J!')
+        #print(fkey, ' -J!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14601,7 +14605,7 @@ def decrypt_Jdquote():
         if i == 1000 or x[:2] != 'J"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -J"')
+        #print(fkey, ' -J"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14615,7 +14619,7 @@ def decrypt_Jdoll():
         if i == 1000 or x[:2] != 'J$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -J$')
+        #print(fkey, ' -J$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14629,7 +14633,7 @@ def decrypt_Jand():
         if i == 1000 or x[:2] != 'J&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -J&')
+        #print(fkey, ' -J&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14643,7 +14647,7 @@ def decrypt_Jquote():
         if i == 1000 or x[:2] != 'J\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -J\'')
+        #print(fkey, ' -J\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14657,7 +14661,7 @@ def decrypt_Jpar():
         if i == 1000 or x[:2] != 'J(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -J(')
+        #print(fkey, ' -J(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14671,7 +14675,7 @@ def decrypt_Jast():
         if i == 1000 or x[:2] != 'J*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -J*')
+        #print(fkey, ' -J*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14685,7 +14689,7 @@ def decrypt_Jvir():
         if i == 1000 or x[:2] != 'J,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -J,')
+        #print(fkey, ' -J,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14699,7 +14703,7 @@ def decrypt_Jpp():
         if i == 1000 or x[:2] != 'J.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -J.')
+        #print(fkey, ' -J.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14713,7 +14717,7 @@ def decrypt_Jtp():
         if i == 1000 or x[:2] != 'J:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -J:')
+        #print(fkey, ' -J:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14727,7 +14731,7 @@ def decrypt_Jless():
         if i == 1000 or x[:2] != 'J<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -J<')
+        #print(fkey, ' -J<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14741,7 +14745,7 @@ def decrypt_Jmore():
         if i == 1000 or x[:2] != 'J>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -J>')
+        #print(fkey, ' -J>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14755,7 +14759,7 @@ def decrypt_Jaro():
         if i == 1000 or x[:2] != 'J@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -J@')
+        #print(fkey, ' -J@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14769,7 +14773,7 @@ def decrypt_Jcroc():
         if i == 1000 or x[:2] != 'J[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -J[')
+        #print(fkey, ' -J[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14783,7 +14787,7 @@ def decrypt_Jbsl():
         if i == 1000 or x[:2] != 'J\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -J\\')
+        #print(fkey, ' -J\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14797,7 +14801,7 @@ def decrypt_Jcirc():
         if i == 1000 or x[:2] != 'J^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -J^')
+        #print(fkey, ' -J^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14811,7 +14815,7 @@ def decrypt_Jesp():
         if i == 1000 or x[:2] != 'J`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -J`')
+        #print(fkey, ' -J`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14825,7 +14829,7 @@ def decrypt_Jcr():
         if i == 1000 or x[:2] != 'J{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -J{')
+        #print(fkey, ' -J{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14839,7 +14843,7 @@ def decrypt_Jhl():
         if i == 1000 or x[:2] != 'J|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -J|')
+        #print(fkey, ' -J|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14853,7 +14857,7 @@ def decrypt_Jtild():
         if i == 1000 or x[:2] != 'J~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -J~')
+        #print(fkey, ' -J~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14867,7 +14871,7 @@ def decrypt_La():
         if i == 1000 or x[:2] != 'La':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -La')
+        #print(fkey, ' -La')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14881,7 +14885,7 @@ def decrypt_Lb():
         if i == 1000 or x[:2] != 'Lb':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Lb')
+        #print(fkey, ' -Lb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14895,7 +14899,7 @@ def decrypt_Ld():
         if i == 1000 or x[:2] != 'Ld':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Ld')
+        #print(fkey, ' -Ld')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14909,7 +14913,7 @@ def decrypt_Lf():
         if i == 1000 or x[:2] != 'Lf':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Lf')
+        #print(fkey, ' -Lf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14923,7 +14927,7 @@ def decrypt_Lh():
         if i == 1000 or x[:2] != 'Lh':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Lh')
+        #print(fkey, ' -Lh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14937,7 +14941,7 @@ def decrypt_Lj():
         if i == 1000 or x[:2] != 'Lj':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Lj')
+        #print(fkey, ' -Lj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14951,7 +14955,7 @@ def decrypt_Ll():
         if i == 1000 or x[:2] != 'Ll':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Ll')
+        #print(fkey, ' -Ll')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14965,7 +14969,7 @@ def decrypt_Ln():
         if i == 1000 or x[:2] != 'Ln':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Ln')
+        #print(fkey, ' -Ln')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14979,7 +14983,7 @@ def decrypt_Lp():
         if i == 1000 or x[:2] != 'Lp':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Lp')
+        #print(fkey, ' -Lp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -14993,7 +14997,7 @@ def decrypt_Lr():
         if i == 1000 or x[:2] != 'Lr':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Lr')
+        #print(fkey, ' -Lr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15007,7 +15011,7 @@ def decrypt_Lt():
         if i == 1000 or x[:2] != 'Lt':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Lt')
+        #print(fkey, ' -Lt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15021,7 +15025,7 @@ def decrypt_Lv():
         if i == 1000 or x[:2] != 'Lv':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Lv')
+        #print(fkey, ' -Lv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15035,7 +15039,7 @@ def decrypt_Lx():
         if i == 1000 or x[:2] != 'Lx':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Lx')
+        #print(fkey, ' -Lx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15049,7 +15053,7 @@ def decrypt_Lz():
         if i == 1000 or x[:2] != 'Lz':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Lz')
+        #print(fkey, ' -Lz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15063,7 +15067,7 @@ def decrypt_LA():
         if i == 1000 or x[:2] != 'LA':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -LA')
+        #print(fkey, ' -LA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15077,7 +15081,7 @@ def decrypt_LB():
         if i == 1000 or x[:2] != 'LB':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -LB')
+        #print(fkey, ' -LB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15091,7 +15095,7 @@ def decrypt_LD():
         if i == 1000 or x[:2] != 'LD':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -LD')
+        #print(fkey, ' -LD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15105,7 +15109,7 @@ def decrypt_LF():
         if i == 1000 or x[:2] != 'LF':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -LF')
+        #print(fkey, ' -LF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15119,7 +15123,7 @@ def decrypt_LH():
         if i == 1000 or x[:2] != 'LH':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -LH')
+        #print(fkey, ' -LH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15133,7 +15137,7 @@ def decrypt_LJ():
         if i == 1000 or x[:2] != 'LJ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -LJ')
+        #print(fkey, ' -LJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15147,7 +15151,7 @@ def decrypt_LL():
         if i == 1000 or x[:2] != 'LL':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -LL')
+        #print(fkey, ' -LL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15161,7 +15165,7 @@ def decrypt_LN():
         if i == 1000 or x[:2] != 'LN':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -LN')
+        #print(fkey, ' -LN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15175,7 +15179,7 @@ def decrypt_LP():
         if i == 1000 or x[:2] != 'LP':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -LP')
+        #print(fkey, ' -LP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15189,7 +15193,7 @@ def decrypt_LR():
         if i == 1000 or x[:2] != 'LR':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -LR')
+        #print(fkey, ' -LR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15203,7 +15207,7 @@ def decrypt_LT():
         if i == 1000 or x[:2] != 'LT':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -LT')
+        #print(fkey, ' -LT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15217,7 +15221,7 @@ def decrypt_LV():
         if i == 1000 or x[:2] != 'LV':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -LV')
+        #print(fkey, ' -LV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15231,7 +15235,7 @@ def decrypt_LX():
         if i == 1000 or x[:2] != 'LX':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -LX')
+        #print(fkey, ' -LX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15245,7 +15249,7 @@ def decrypt_LZ():
         if i == 1000 or x[:2] != 'LZ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -LZ')
+        #print(fkey, ' -LZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15259,7 +15263,7 @@ def decrypt_L0():
         if i == 1000 or x[:2] != 'L0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -L0')
+        #print(fkey, ' -L0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15273,7 +15277,7 @@ def decrypt_L2():
         if i == 1000 or x[:2] != 'L2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -L2')
+        #print(fkey, ' -L2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15287,7 +15291,7 @@ def decrypt_L4():
         if i == 1000 or x[:2] != 'L4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -L4')
+        #print(fkey, ' -L4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15301,7 +15305,7 @@ def decrypt_L6():
         if i == 1000 or x[:2] != 'L6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -L6')
+        #print(fkey, ' -L6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15315,7 +15319,7 @@ def decrypt_L8():
         if i == 1000 or x[:2] != 'L8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -L8')
+        #print(fkey, ' -L8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15329,7 +15333,7 @@ def decrypt_Lexcl():
         if i == 1000 or x[:2] != 'L!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -L!')
+        #print(fkey, ' -L!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15343,7 +15347,7 @@ def decrypt_Ldquote():
         if i == 1000 or x[:2] != 'L"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -L"')
+        #print(fkey, ' -L"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15357,7 +15361,7 @@ def decrypt_Ldoll():
         if i == 1000 or x[:2] != 'L$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -L$')
+        #print(fkey, ' -L$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15371,7 +15375,7 @@ def decrypt_Land():
         if i == 1000 or x[:2] != 'L&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -L&')
+        #print(fkey, ' -L&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15385,7 +15389,7 @@ def decrypt_Lquote():
         if i == 1000 or x[:2] != 'L\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -L\'')
+        #print(fkey, ' -L\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15399,7 +15403,7 @@ def decrypt_Lpar():
         if i == 1000 or x[:2] != 'L(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -L(')
+        #print(fkey, ' -L(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15413,7 +15417,7 @@ def decrypt_Last():
         if i == 1000 or x[:2] != 'L*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -L*')
+        #print(fkey, ' -L*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15427,7 +15431,7 @@ def decrypt_Lvir():
         if i == 1000 or x[:2] != 'L,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -L,')
+        #print(fkey, ' -L,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15441,7 +15445,7 @@ def decrypt_Lpp():
         if i == 1000 or x[:2] != 'L.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -L.')
+        #print(fkey, ' -L.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15455,7 +15459,7 @@ def decrypt_Ltp():
         if i == 1000 or x[:2] != 'L:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -L:')
+        #print(fkey, ' -L:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15469,7 +15473,7 @@ def decrypt_Lless():
         if i == 1000 or x[:2] != 'L<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -L<')
+        #print(fkey, ' -L<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15483,7 +15487,7 @@ def decrypt_Lmore():
         if i == 1000 or x[:2] != 'L>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -L>')
+        #print(fkey, ' -L>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15497,7 +15501,7 @@ def decrypt_Laro():
         if i == 1000 or x[:2] != 'L@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -L@')
+        #print(fkey, ' -L@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15511,7 +15515,7 @@ def decrypt_Lcroc():
         if i == 1000 or x[:2] != 'L[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -L[')
+        #print(fkey, ' -L[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15525,7 +15529,7 @@ def decrypt_Lbsl():
         if i == 1000 or x[:2] != 'L\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -L\\')
+        #print(fkey, ' -L\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15539,7 +15543,7 @@ def decrypt_Lcirc():
         if i == 1000 or x[:2] != 'L^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -L^')
+        #print(fkey, ' -L^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15553,7 +15557,7 @@ def decrypt_Lesp():
         if i == 1000 or x[:2] != 'L`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -L`')
+        #print(fkey, ' -L`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15567,7 +15571,7 @@ def decrypt_Lcr():
         if i == 1000 or x[:2] != 'L{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -L{')
+        #print(fkey, ' -L{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15581,7 +15585,7 @@ def decrypt_Lhl():
         if i == 1000 or x[:2] != 'L|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -L|')
+        #print(fkey, ' -L|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15595,7 +15599,7 @@ def decrypt_Ltild():
         if i == 1000 or x[:2] != 'L~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -L~')
+        #print(fkey, ' -L~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15609,7 +15613,7 @@ def decrypt_Na():
         if i == 1000 or x[:2] != 'Na':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Na')
+        #print(fkey, ' -Na')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15623,7 +15627,7 @@ def decrypt_Nb():
         if i == 1000 or x[:2] != 'Nb':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Nb')
+        #print(fkey, ' -Nb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15637,7 +15641,7 @@ def decrypt_Nd():
         if i == 1000 or x[:2] != 'Nd':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Nd')
+        #print(fkey, ' -Nd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15651,7 +15655,7 @@ def decrypt_Nf():
         if i == 1000 or x[:2] != 'Nf':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Nf')
+        #print(fkey, ' -Nf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15665,7 +15669,7 @@ def decrypt_Nh():
         if i == 1000 or x[:2] != 'Nh':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Nh')
+        #print(fkey, ' -Nh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15679,7 +15683,7 @@ def decrypt_Nj():
         if i == 1000 or x[:2] != 'Nj':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Nj')
+        #print(fkey, ' -Nj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15693,7 +15697,7 @@ def decrypt_Nl():
         if i == 1000 or x[:2] != 'Nl':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Nl')
+        #print(fkey, ' -Nl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15707,7 +15711,7 @@ def decrypt_Nn():
         if i == 1000 or x[:2] != 'Nn':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Nn')
+        #print(fkey, ' -Nn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15721,7 +15725,7 @@ def decrypt_Np():
         if i == 1000 or x[:2] != 'Np':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Np')
+        #print(fkey, ' -Np')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15735,7 +15739,7 @@ def decrypt_Nr():
         if i == 1000 or x[:2] != 'Nr':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Nr')
+        #print(fkey, ' -Nr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15749,7 +15753,7 @@ def decrypt_Nt():
         if i == 1000 or x[:2] != 'Nt':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Nt')
+        #print(fkey, ' -Nt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15763,7 +15767,7 @@ def decrypt_Nv():
         if i == 1000 or x[:2] != 'Nv':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Nv')
+        #print(fkey, ' -Nv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15777,7 +15781,7 @@ def decrypt_Nx():
         if i == 1000 or x[:2] != 'Nx':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Nx')
+        #print(fkey, ' -Nx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15791,7 +15795,7 @@ def decrypt_Nz():
         if i == 1000 or x[:2] != 'Nz':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Nz')
+        #print(fkey, ' -Nz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15805,7 +15809,7 @@ def decrypt_NA():
         if i == 1000 or x[:2] != 'NA':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -NA')
+        #print(fkey, ' -NA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15819,7 +15823,7 @@ def decrypt_NB():
         if i == 1000 or x[:2] != 'NB':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -NB')
+        #print(fkey, ' -NB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15833,7 +15837,7 @@ def decrypt_ND():
         if i == 1000 or x[:2] != 'ND':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -ND')
+        #print(fkey, ' -ND')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15847,7 +15851,7 @@ def decrypt_NF():
         if i == 1000 or x[:2] != 'NF':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -NF')
+        #print(fkey, ' -NF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15861,7 +15865,7 @@ def decrypt_NH():
         if i == 1000 or x[:2] != 'NH':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -NH')
+        #print(fkey, ' -NH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15875,7 +15879,7 @@ def decrypt_NJ():
         if i == 1000 or x[:2] != 'NJ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -NJ')
+        #print(fkey, ' -NJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15889,7 +15893,7 @@ def decrypt_NL():
         if i == 1000 or x[:2] != 'NL':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -NL')
+        #print(fkey, ' -NL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15903,7 +15907,7 @@ def decrypt_NN():
         if i == 1000 or x[:2] != 'NN':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -NN')
+        #print(fkey, ' -NN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15917,7 +15921,7 @@ def decrypt_NP():
         if i == 1000 or x[:2] != 'NP':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -NP')
+        #print(fkey, ' -NP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15931,7 +15935,7 @@ def decrypt_NR():
         if i == 1000 or x[:2] != 'NR':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -NR')
+        #print(fkey, ' -NR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15945,7 +15949,7 @@ def decrypt_NT():
         if i == 1000 or x[:2] != 'NT':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -NT')
+        #print(fkey, ' -NT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15959,7 +15963,7 @@ def decrypt_NV():
         if i == 1000 or x[:2] != 'NV':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -NV')
+        #print(fkey, ' -NV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15973,7 +15977,7 @@ def decrypt_NX():
         if i == 1000 or x[:2] != 'NX':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -NX')
+        #print(fkey, ' -NX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -15987,7 +15991,7 @@ def decrypt_NZ():
         if i == 1000 or x[:2] != 'NZ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -NZ')
+        #print(fkey, ' -NZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16001,7 +16005,7 @@ def decrypt_N0():
         if i == 1000 or x[:2] != 'N0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -N0')
+        #print(fkey, ' -N0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16015,7 +16019,7 @@ def decrypt_N2():
         if i == 1000 or x[:2] != 'N2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -N2')
+        #print(fkey, ' -N2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16029,7 +16033,7 @@ def decrypt_N4():
         if i == 1000 or x[:2] != 'N4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -N4')
+        #print(fkey, ' -N4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16043,7 +16047,7 @@ def decrypt_N6():
         if i == 1000 or x[:2] != 'N6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -N6')
+        #print(fkey, ' -N6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16057,7 +16061,7 @@ def decrypt_N8():
         if i == 1000 or x[:2] != 'N8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -N8')
+        #print(fkey, ' -N8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16071,7 +16075,7 @@ def decrypt_Nexcl():
         if i == 1000 or x[:2] != 'N!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -N!')
+        #print(fkey, ' -N!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16085,7 +16089,7 @@ def decrypt_Ndquote():
         if i == 1000 or x[:2] != 'N"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -N"')
+        #print(fkey, ' -N"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16099,7 +16103,7 @@ def decrypt_Ndoll():
         if i == 1000 or x[:2] != 'N$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -N$')
+        #print(fkey, ' -N$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16113,7 +16117,7 @@ def decrypt_Nand():
         if i == 1000 or x[:2] != 'N&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -N&')
+        #print(fkey, ' -N&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16127,7 +16131,7 @@ def decrypt_Nquote():
         if i == 1000 or x[:2] != 'N\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -N\'')
+        #print(fkey, ' -N\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16141,7 +16145,7 @@ def decrypt_Npar():
         if i == 1000 or x[:2] != 'N(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -N(')
+        #print(fkey, ' -N(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16155,7 +16159,7 @@ def decrypt_Nast():
         if i == 1000 or x[:2] != 'N*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -N*')
+        #print(fkey, ' -N*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16169,7 +16173,7 @@ def decrypt_Nvir():
         if i == 1000 or x[:2] != 'N,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -N,')
+        #print(fkey, ' -N,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16183,7 +16187,7 @@ def decrypt_Npp():
         if i == 1000 or x[:2] != 'N.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -N.')
+        #print(fkey, ' -N.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16197,7 +16201,7 @@ def decrypt_Ntp():
         if i == 1000 or x[:2] != 'N:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -N:')
+        #print(fkey, ' -N:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16211,7 +16215,7 @@ def decrypt_Nless():
         if i == 1000 or x[:2] != 'N<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -N<')
+        #print(fkey, ' -N<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16225,7 +16229,7 @@ def decrypt_Nmore():
         if i == 1000 or x[:2] != 'N>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -N>')
+        #print(fkey, ' -N>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16239,7 +16243,7 @@ def decrypt_Naro():
         if i == 1000 or x[:2] != 'N@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -N@')
+        #print(fkey, ' -N@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16253,7 +16257,7 @@ def decrypt_Ncroc():
         if i == 1000 or x[:2] != 'N[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -N[')
+        #print(fkey, ' -N[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16267,7 +16271,7 @@ def decrypt_Nbsl():
         if i == 1000 or x[:2] != 'N\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -N\\')
+        #print(fkey, ' -N\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16281,7 +16285,7 @@ def decrypt_Ncirc():
         if i == 1000 or x[:2] != 'N^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -N^')
+        #print(fkey, ' -N^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16295,7 +16299,7 @@ def decrypt_Nesp():
         if i == 1000 or x[:2] != 'N`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -N`')
+        #print(fkey, ' -N`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16309,7 +16313,7 @@ def decrypt_Ncr():
         if i == 1000 or x[:2] != 'N{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -N{')
+        #print(fkey, ' -N{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16323,7 +16327,7 @@ def decrypt_Nhl():
         if i == 1000 or x[:2] != 'N|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -N|')
+        #print(fkey, ' -N|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16337,7 +16341,7 @@ def decrypt_Ntild():
         if i == 1000 or x[:2] != 'N~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -N~')
+        #print(fkey, ' -N~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16351,7 +16355,7 @@ def decrypt_Pa():
         if i == 1000 or x[:2] != 'Pa':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Pa')
+        #print(fkey, ' -Pa')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16365,7 +16369,7 @@ def decrypt_Pb():
         if i == 1000 or x[:2] != 'Pb':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Pb')
+        #print(fkey, ' -Pb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16379,7 +16383,7 @@ def decrypt_Pd():
         if i == 1000 or x[:2] != 'Pd':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Pd')
+        #print(fkey, ' -Pd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16393,7 +16397,7 @@ def decrypt_Pf():
         if i == 1000 or x[:2] != 'Pf':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Pf')
+        #print(fkey, ' -Pf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16407,7 +16411,7 @@ def decrypt_Ph():
         if i == 1000 or x[:2] != 'Ph':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Ph')
+        #print(fkey, ' -Ph')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16421,7 +16425,7 @@ def decrypt_Pj():
         if i == 1000 or x[:2] != 'Pj':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Pj')
+        #print(fkey, ' -Pj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16435,7 +16439,7 @@ def decrypt_Pl():
         if i == 1000 or x[:2] != 'Pl':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Pl')
+        #print(fkey, ' -Pl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16449,7 +16453,7 @@ def decrypt_Pn():
         if i == 1000 or x[:2] != 'Pn':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Pn')
+        #print(fkey, ' -Pn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16463,7 +16467,7 @@ def decrypt_Pp():
         if i == 1000 or x[:2] != 'Pp':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Pp')
+        #print(fkey, ' -Pp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16477,7 +16481,7 @@ def decrypt_Pr():
         if i == 1000 or x[:2] != 'Pr':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Pr')
+        #print(fkey, ' -Pr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16491,7 +16495,7 @@ def decrypt_Pt():
         if i == 1000 or x[:2] != 'Pt':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Pt')
+        #print(fkey, ' -Pt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16505,7 +16509,7 @@ def decrypt_Pv():
         if i == 1000 or x[:2] != 'Pv':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Pv')
+        #print(fkey, ' -Pv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16519,7 +16523,7 @@ def decrypt_Px():
         if i == 1000 or x[:2] != 'Px':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Px')
+        #print(fkey, ' -Px')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16533,7 +16537,7 @@ def decrypt_Pz():
         if i == 1000 or x[:2] != 'Pz':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Pz')
+        #print(fkey, ' -Pz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16547,7 +16551,7 @@ def decrypt_PA():
         if i == 1000 or x[:2] != 'PA':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -PA')
+        #print(fkey, ' -PA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16561,7 +16565,7 @@ def decrypt_PB():
         if i == 1000 or x[:2] != 'PB':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -PB')
+        #print(fkey, ' -PB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16575,7 +16579,7 @@ def decrypt_PD():
         if i == 1000 or x[:2] != 'PD':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -PD')
+        #print(fkey, ' -PD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16589,7 +16593,7 @@ def decrypt_PF():
         if i == 1000 or x[:2] != 'PF':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -PF')
+        #print(fkey, ' -PF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16603,7 +16607,7 @@ def decrypt_PH():
         if i == 1000 or x[:2] != 'PH':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -PH')
+        #print(fkey, ' -PH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16617,7 +16621,7 @@ def decrypt_PJ():
         if i == 1000 or x[:2] != 'PJ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -PJ')
+        #print(fkey, ' -PJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16631,7 +16635,7 @@ def decrypt_PL():
         if i == 1000 or x[:2] != 'PL':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -PL')
+        #print(fkey, ' -PL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16645,7 +16649,7 @@ def decrypt_PN():
         if i == 1000 or x[:2] != 'PN':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -PN')
+        #print(fkey, ' -PN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16659,7 +16663,7 @@ def decrypt_PP():
         if i == 1000 or x[:2] != 'PP':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -PP')
+        #print(fkey, ' -PP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16673,7 +16677,7 @@ def decrypt_PR():
         if i == 1000 or x[:2] != 'PR':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -PR')
+        #print(fkey, ' -PR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16687,7 +16691,7 @@ def decrypt_PT():
         if i == 1000 or x[:2] != 'PT':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -PT')
+        #print(fkey, ' -PT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16701,7 +16705,7 @@ def decrypt_PV():
         if i == 1000 or x[:2] != 'PV':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -PV')
+        #print(fkey, ' -PV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16715,7 +16719,7 @@ def decrypt_PX():
         if i == 1000 or x[:2] != 'PX':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -PX')
+        #print(fkey, ' -PX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16729,7 +16733,7 @@ def decrypt_PZ():
         if i == 1000 or x[:2] != 'PZ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -PZ')
+        #print(fkey, ' -PZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16743,7 +16747,7 @@ def decrypt_P0():
         if i == 1000 or x[:2] != 'P0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -P0')
+        #print(fkey, ' -P0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16757,7 +16761,7 @@ def decrypt_P2():
         if i == 1000 or x[:2] != 'P2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -P2')
+        #print(fkey, ' -P2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16771,7 +16775,7 @@ def decrypt_P4():
         if i == 1000 or x[:2] != 'P4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -P4')
+        #print(fkey, ' -P4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16785,7 +16789,7 @@ def decrypt_P6():
         if i == 1000 or x[:2] != 'P6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -P6')
+        #print(fkey, ' -P6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16799,7 +16803,7 @@ def decrypt_P8():
         if i == 1000 or x[:2] != 'P8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -P8')
+        #print(fkey, ' -P8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16813,7 +16817,7 @@ def decrypt_Pexcl():
         if i == 1000 or x[:2] != 'P!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -P!')
+        #print(fkey, ' -P!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16827,7 +16831,7 @@ def decrypt_Pdquote():
         if i == 1000 or x[:2] != 'P"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -P"')
+        #print(fkey, ' -P"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16841,7 +16845,7 @@ def decrypt_Pdoll():
         if i == 1000 or x[:2] != 'P$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -P$')
+        #print(fkey, ' -P$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16855,7 +16859,7 @@ def decrypt_Pand():
         if i == 1000 or x[:2] != 'P&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -P&')
+        #print(fkey, ' -P&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16869,7 +16873,7 @@ def decrypt_Pquote():
         if i == 1000 or x[:2] != 'P\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -P\'')
+        #print(fkey, ' -P\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16883,7 +16887,7 @@ def decrypt_Ppar():
         if i == 1000 or x[:2] != 'P(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -P(')
+        #print(fkey, ' -P(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16897,7 +16901,7 @@ def decrypt_Past():
         if i == 1000 or x[:2] != 'P*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -P*')
+        #print(fkey, ' -P*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16911,7 +16915,7 @@ def decrypt_Pvir():
         if i == 1000 or x[:2] != 'P,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -P,')
+        #print(fkey, ' -P,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16925,7 +16929,7 @@ def decrypt_Ppp():
         if i == 1000 or x[:2] != 'P.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -P.')
+        #print(fkey, ' -P.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16939,7 +16943,7 @@ def decrypt_Ptp():
         if i == 1000 or x[:2] != 'P:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -P:')
+        #print(fkey, ' -P:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16953,7 +16957,7 @@ def decrypt_Pless():
         if i == 1000 or x[:2] != 'P<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -P<')
+        #print(fkey, ' -P<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16967,7 +16971,7 @@ def decrypt_Pmore():
         if i == 1000 or x[:2] != 'P>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -P>')
+        #print(fkey, ' -P>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16981,7 +16985,7 @@ def decrypt_Paro():
         if i == 1000 or x[:2] != 'P@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -P@')
+        #print(fkey, ' -P@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -16995,7 +16999,7 @@ def decrypt_Pcroc():
         if i == 1000 or x[:2] != 'P[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -P[')
+        #print(fkey, ' -P[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17009,7 +17013,7 @@ def decrypt_Pbsl():
         if i == 1000 or x[:2] != 'P\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -P\\')
+        #print(fkey, ' -P\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17023,7 +17027,7 @@ def decrypt_Pcirc():
         if i == 1000 or x[:2] != 'P^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -P^')
+        #print(fkey, ' -P^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17037,7 +17041,7 @@ def decrypt_Pesp():
         if i == 1000 or x[:2] != 'P`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -P`')
+        #print(fkey, ' -P`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17051,7 +17055,7 @@ def decrypt_Pcr():
         if i == 1000 or x[:2] != 'P{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -P{')
+        #print(fkey, ' -P{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17065,7 +17069,7 @@ def decrypt_Phl():
         if i == 1000 or x[:2] != 'P|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -P|')
+        #print(fkey, ' -P|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17079,7 +17083,7 @@ def decrypt_Ptild():
         if i == 1000 or x[:2] != 'P~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -P~')
+        #print(fkey, ' -P~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17093,7 +17097,7 @@ def decrypt_Ra():
         if i == 1000 or x[:2] != 'Ra':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Ra')
+        #print(fkey, ' -Ra')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17107,7 +17111,7 @@ def decrypt_Rb():
         if i == 1000 or x[:2] != 'Rb':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Rb')
+        #print(fkey, ' -Rb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17121,7 +17125,7 @@ def decrypt_Rd():
         if i == 1000 or x[:2] != 'Rd':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Rd')
+        #print(fkey, ' -Rd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17135,7 +17139,7 @@ def decrypt_Rf():
         if i == 1000 or x[:2] != 'Rf':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Rf')
+        #print(fkey, ' -Rf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17149,7 +17153,7 @@ def decrypt_Rh():
         if i == 1000 or x[:2] != 'Rh':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Rh')
+        #print(fkey, ' -Rh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17163,7 +17167,7 @@ def decrypt_Rj():
         if i == 1000 or x[:2] != 'Rj':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Rj')
+        #print(fkey, ' -Rj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17177,7 +17181,7 @@ def decrypt_Rl():
         if i == 1000 or x[:2] != 'Rl':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Rl')
+        #print(fkey, ' -Rl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17191,7 +17195,7 @@ def decrypt_Rn():
         if i == 1000 or x[:2] != 'Rn':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Rn')
+        #print(fkey, ' -Rn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17205,7 +17209,7 @@ def decrypt_Rp():
         if i == 1000 or x[:2] != 'Rp':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Rp')
+        #print(fkey, ' -Rp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17219,7 +17223,7 @@ def decrypt_Rr():
         if i == 1000 or x[:2] != 'Rr':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Rr')
+        #print(fkey, ' -Rr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17233,7 +17237,7 @@ def decrypt_Rt():
         if i == 1000 or x[:2] != 'Rt':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Rt')
+        #print(fkey, ' -Rt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17247,7 +17251,7 @@ def decrypt_Rv():
         if i == 1000 or x[:2] != 'Rv':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Rv')
+        #print(fkey, ' -Rv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17261,7 +17265,7 @@ def decrypt_Rx():
         if i == 1000 or x[:2] != 'Rx':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Rx')
+        #print(fkey, ' -Rx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17275,7 +17279,7 @@ def decrypt_Rz():
         if i == 1000 or x[:2] != 'Rz':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Rz')
+        #print(fkey, ' -Rz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17289,7 +17293,7 @@ def decrypt_RA():
         if i == 1000 or x[:2] != 'RA':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -RA')
+        #print(fkey, ' -RA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17303,7 +17307,7 @@ def decrypt_RB():
         if i == 1000 or x[:2] != 'RB':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -RB')
+        #print(fkey, ' -RB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17317,7 +17321,7 @@ def decrypt_RD():
         if i == 1000 or x[:2] != 'RD':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -RD')
+        #print(fkey, ' -RD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17331,7 +17335,7 @@ def decrypt_RF():
         if i == 1000 or x[:2] != 'RF':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -RF')
+        #print(fkey, ' -RF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17345,7 +17349,7 @@ def decrypt_RH():
         if i == 1000 or x[:2] != 'RH':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -RH')
+        #print(fkey, ' -RH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17359,7 +17363,7 @@ def decrypt_RJ():
         if i == 1000 or x[:2] != 'RJ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -RJ')
+        #print(fkey, ' -RJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17373,7 +17377,7 @@ def decrypt_RL():
         if i == 1000 or x[:2] != 'RL':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -RL')
+        #print(fkey, ' -RL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17387,7 +17391,7 @@ def decrypt_RN():
         if i == 1000 or x[:2] != 'RN':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -RN')
+        #print(fkey, ' -RN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17401,7 +17405,7 @@ def decrypt_RP():
         if i == 1000 or x[:2] != 'RP':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -RP')
+        #print(fkey, ' -RP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17415,7 +17419,7 @@ def decrypt_RR():
         if i == 1000 or x[:2] != 'RR':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -RR')
+        #print(fkey, ' -RR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17429,7 +17433,7 @@ def decrypt_RT():
         if i == 1000 or x[:2] != 'RT':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -RT')
+        #print(fkey, ' -RT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17443,7 +17447,7 @@ def decrypt_RV():
         if i == 1000 or x[:2] != 'RV':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -RV')
+        #print(fkey, ' -RV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17457,7 +17461,7 @@ def decrypt_RX():
         if i == 1000 or x[:2] != 'RX':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -RX')
+        #print(fkey, ' -RX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17471,7 +17475,7 @@ def decrypt_RZ():
         if i == 1000 or x[:2] != 'RZ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -RZ')
+        #print(fkey, ' -RZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17485,7 +17489,7 @@ def decrypt_R0():
         if i == 1000 or x[:2] != 'R0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -R0')
+        #print(fkey, ' -R0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17499,7 +17503,7 @@ def decrypt_R2():
         if i == 1000 or x[:2] != 'R2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -R2')
+        #print(fkey, ' -R2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17513,7 +17517,7 @@ def decrypt_R4():
         if i == 1000 or x[:2] != 'R4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -R4')
+        #print(fkey, ' -R4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17527,7 +17531,7 @@ def decrypt_R6():
         if i == 1000 or x[:2] != 'R6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -R6')
+        #print(fkey, ' -R6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17541,7 +17545,7 @@ def decrypt_R8():
         if i == 1000 or x[:2] != 'R8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -R8')
+        #print(fkey, ' -R8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17555,7 +17559,7 @@ def decrypt_Rexcl():
         if i == 1000 or x[:2] != 'R!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -R!')
+        #print(fkey, ' -R!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17569,7 +17573,7 @@ def decrypt_Rdquote():
         if i == 1000 or x[:2] != 'R"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -R"')
+        #print(fkey, ' -R"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17583,7 +17587,7 @@ def decrypt_Rdoll():
         if i == 1000 or x[:2] != 'R$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -R$')
+        #print(fkey, ' -R$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17597,7 +17601,7 @@ def decrypt_Rand():
         if i == 1000 or x[:2] != 'R&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -R&')
+        #print(fkey, ' -R&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17611,7 +17615,7 @@ def decrypt_Rquote():
         if i == 1000 or x[:2] != 'R\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -R\'')
+        #print(fkey, ' -R\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17625,7 +17629,7 @@ def decrypt_Rpar():
         if i == 1000 or x[:2] != 'R(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -R(')
+        #print(fkey, ' -R(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17639,7 +17643,7 @@ def decrypt_Rast():
         if i == 1000 or x[:2] != 'R*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -R*')
+        #print(fkey, ' -R*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17653,7 +17657,7 @@ def decrypt_Rvir():
         if i == 1000 or x[:2] != 'R,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -R,')
+        #print(fkey, ' -R,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17667,7 +17671,7 @@ def decrypt_Rpp():
         if i == 1000 or x[:2] != 'R.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -R.')
+        #print(fkey, ' -R.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17681,7 +17685,7 @@ def decrypt_Rtp():
         if i == 1000 or x[:2] != 'R:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -R:')
+        #print(fkey, ' -R:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17695,7 +17699,7 @@ def decrypt_Rless():
         if i == 1000 or x[:2] != 'R<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -R<')
+        #print(fkey, ' -R<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17709,7 +17713,7 @@ def decrypt_Rmore():
         if i == 1000 or x[:2] != 'R>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -R>')
+        #print(fkey, ' -R>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17723,7 +17727,7 @@ def decrypt_Raro():
         if i == 1000 or x[:2] != 'R@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -R@')
+        #print(fkey, ' -R@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17737,7 +17741,7 @@ def decrypt_Rcroc():
         if i == 1000 or x[:2] != 'R[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -R[')
+        #print(fkey, ' -R[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17751,7 +17755,7 @@ def decrypt_Rbsl():
         if i == 1000 or x[:2] != 'R\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -R\\')
+        #print(fkey, ' -R\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17765,7 +17769,7 @@ def decrypt_Rcirc():
         if i == 1000 or x[:2] != 'R^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -R^')
+        #print(fkey, ' -R^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17779,7 +17783,7 @@ def decrypt_Resp():
         if i == 1000 or x[:2] != 'R`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -R`')
+        #print(fkey, ' -R`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17793,7 +17797,7 @@ def decrypt_Rcr():
         if i == 1000 or x[:2] != 'R{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -R{')
+        #print(fkey, ' -R{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17807,7 +17811,7 @@ def decrypt_Rhl():
         if i == 1000 or x[:2] != 'R|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -R|')
+        #print(fkey, ' -R|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17821,7 +17825,7 @@ def decrypt_Rtild():
         if i == 1000 or x[:2] != 'R~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -R~')
+        #print(fkey, ' -R~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17835,7 +17839,7 @@ def decrypt_Ta():
         if i == 1000 or x[:2] != 'Ta':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Ta')
+        #print(fkey, ' -Ta')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17849,7 +17853,7 @@ def decrypt_Tb():
         if i == 1000 or x[:2] != 'Tb':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Tb')
+        #print(fkey, ' -Tb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17863,7 +17867,7 @@ def decrypt_Td():
         if i == 1000 or x[:2] != 'Td':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Td')
+        #print(fkey, ' -Td')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17877,7 +17881,7 @@ def decrypt_Tf():
         if i == 1000 or x[:2] != 'Tf':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Tf')
+        #print(fkey, ' -Tf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17891,7 +17895,7 @@ def decrypt_Th():
         if i == 1000 or x[:2] != 'Th':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Th')
+        #print(fkey, ' -Th')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17905,7 +17909,7 @@ def decrypt_Tj():
         if i == 1000 or x[:2] != 'Tj':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Tj')
+        #print(fkey, ' -Tj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17919,7 +17923,7 @@ def decrypt_Tl():
         if i == 1000 or x[:2] != 'Tl':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Tl')
+        #print(fkey, ' -Tl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17933,7 +17937,7 @@ def decrypt_Tn():
         if i == 1000 or x[:2] != 'Tn':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Tn')
+        #print(fkey, ' -Tn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17947,7 +17951,7 @@ def decrypt_Tp():
         if i == 1000 or x[:2] != 'Tp':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Tp')
+        #print(fkey, ' -Tp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17961,7 +17965,7 @@ def decrypt_Tr():
         if i == 1000 or x[:2] != 'Tr':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Tr')
+        #print(fkey, ' -Tr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17975,7 +17979,7 @@ def decrypt_Tt():
         if i == 1000 or x[:2] != 'Tt':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Tt')
+        #print(fkey, ' -Tt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -17989,7 +17993,7 @@ def decrypt_Tv():
         if i == 1000 or x[:2] != 'Tv':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Tv')
+        #print(fkey, ' -Tv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18003,7 +18007,7 @@ def decrypt_Tx():
         if i == 1000 or x[:2] != 'Tx':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Tx')
+        #print(fkey, ' -Tx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18017,7 +18021,7 @@ def decrypt_Tz():
         if i == 1000 or x[:2] != 'Tz':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Tz')
+        #print(fkey, ' -Tz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18031,7 +18035,7 @@ def decrypt_TA():
         if i == 1000 or x[:2] != 'TA':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -TA')
+        #print(fkey, ' -TA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18045,7 +18049,7 @@ def decrypt_TB():
         if i == 1000 or x[:2] != 'TB':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -TB')
+        #print(fkey, ' -TB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18059,7 +18063,7 @@ def decrypt_TD():
         if i == 1000 or x[:2] != 'TD':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -TD')
+        #print(fkey, ' -TD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18073,7 +18077,7 @@ def decrypt_TF():
         if i == 1000 or x[:2] != 'TF':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -TF')
+        #print(fkey, ' -TF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18087,7 +18091,7 @@ def decrypt_TH():
         if i == 1000 or x[:2] != 'TH':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -TH')
+        #print(fkey, ' -TH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18101,7 +18105,7 @@ def decrypt_TJ():
         if i == 1000 or x[:2] != 'TJ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -TJ')
+        #print(fkey, ' -TJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18115,7 +18119,7 @@ def decrypt_TL():
         if i == 1000 or x[:2] != 'TL':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -TL')
+        #print(fkey, ' -TL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18129,7 +18133,7 @@ def decrypt_TN():
         if i == 1000 or x[:2] != 'TN':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -TN')
+        #print(fkey, ' -TN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18143,7 +18147,7 @@ def decrypt_TP():
         if i == 1000 or x[:2] != 'TP':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -TP')
+        #print(fkey, ' -TP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18157,7 +18161,7 @@ def decrypt_TR():
         if i == 1000 or x[:2] != 'TR':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -TR')
+        #print(fkey, ' -TR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18171,7 +18175,7 @@ def decrypt_TT():
         if i == 1000 or x[:2] != 'TT':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -TT')
+        #print(fkey, ' -TT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18185,7 +18189,7 @@ def decrypt_TV():
         if i == 1000 or x[:2] != 'TV':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -TV')
+        #print(fkey, ' -TV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18199,7 +18203,7 @@ def decrypt_TX():
         if i == 1000 or x[:2] != 'TX':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -TX')
+        #print(fkey, ' -TX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18213,7 +18217,7 @@ def decrypt_TZ():
         if i == 1000 or x[:2] != 'TZ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -TZ')
+        #print(fkey, ' -TZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18227,7 +18231,7 @@ def decrypt_T0():
         if i == 1000 or x[:2] != 'T0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -T0')
+        #print(fkey, ' -T0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18241,7 +18245,7 @@ def decrypt_T2():
         if i == 1000 or x[:2] != 'T2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -T2')
+        #print(fkey, ' -T2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18255,7 +18259,7 @@ def decrypt_T4():
         if i == 1000 or x[:2] != 'T4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -T4')
+        #print(fkey, ' -T4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18269,7 +18273,7 @@ def decrypt_T6():
         if i == 1000 or x[:2] != 'T6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -T6')
+        #print(fkey, ' -T6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18283,7 +18287,7 @@ def decrypt_T8():
         if i == 1000 or x[:2] != 'T8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -T8')
+        #print(fkey, ' -T8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18297,7 +18301,7 @@ def decrypt_Texcl():
         if i == 1000 or x[:2] != 'T!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -T!')
+        #print(fkey, ' -T!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18311,7 +18315,7 @@ def decrypt_Tdquote():
         if i == 1000 or x[:2] != 'T"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -T"')
+        #print(fkey, ' -T"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18325,7 +18329,7 @@ def decrypt_Tdoll():
         if i == 1000 or x[:2] != 'T$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -T$')
+        #print(fkey, ' -T$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18339,7 +18343,7 @@ def decrypt_Tand():
         if i == 1000 or x[:2] != 'T&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -T&')
+        #print(fkey, ' -T&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18353,7 +18357,7 @@ def decrypt_Tquote():
         if i == 1000 or x[:2] != 'T\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -T\'')
+        #print(fkey, ' -T\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18367,7 +18371,7 @@ def decrypt_Tpar():
         if i == 1000 or x[:2] != 'T(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -T(')
+        #print(fkey, ' -T(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18381,7 +18385,7 @@ def decrypt_Tast():
         if i == 1000 or x[:2] != 'T*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -T*')
+        #print(fkey, ' -T*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18395,7 +18399,7 @@ def decrypt_Tvir():
         if i == 1000 or x[:2] != 'T,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -T,')
+        #print(fkey, ' -T,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18409,7 +18413,7 @@ def decrypt_Tpp():
         if i == 1000 or x[:2] != 'T.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -T.')
+        #print(fkey, ' -T.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18423,7 +18427,7 @@ def decrypt_Ttp():
         if i == 1000 or x[:2] != 'T:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -T:')
+        #print(fkey, ' -T:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18437,7 +18441,7 @@ def decrypt_Tless():
         if i == 1000 or x[:2] != 'T<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -T<')
+        #print(fkey, ' -T<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18451,7 +18455,7 @@ def decrypt_Tmore():
         if i == 1000 or x[:2] != 'T>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -T>')
+        #print(fkey, ' -T>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18465,7 +18469,7 @@ def decrypt_Taro():
         if i == 1000 or x[:2] != 'T@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -T@')
+        #print(fkey, ' -T@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18479,7 +18483,7 @@ def decrypt_Tcroc():
         if i == 1000 or x[:2] != 'T[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -T[')
+        #print(fkey, ' -T[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18493,7 +18497,7 @@ def decrypt_Tbsl():
         if i == 1000 or x[:2] != 'T\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -T\\')
+        #print(fkey, ' -T\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18507,7 +18511,7 @@ def decrypt_Tcirc():
         if i == 1000 or x[:2] != 'T^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -T^')
+        #print(fkey, ' -T^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18521,7 +18525,7 @@ def decrypt_Tesp():
         if i == 1000 or x[:2] != 'T`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -T`')
+        #print(fkey, ' -T`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18535,7 +18539,7 @@ def decrypt_Tcr():
         if i == 1000 or x[:2] != 'T{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -T{')
+        #print(fkey, ' -T{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18549,7 +18553,7 @@ def decrypt_Thl():
         if i == 1000 or x[:2] != 'T|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -T|')
+        #print(fkey, ' -T|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18563,7 +18567,7 @@ def decrypt_Ttild():
         if i == 1000 or x[:2] != 'T~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -T~')
+        #print(fkey, ' -T~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18577,7 +18581,7 @@ def decrypt_Va():
         if i == 1000 or x[:2] != 'Va':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Va')
+        #print(fkey, ' -Va')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18591,7 +18595,7 @@ def decrypt_Vb():
         if i == 1000 or x[:2] != 'Vb':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Vb')
+        #print(fkey, ' -Vb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18605,7 +18609,7 @@ def decrypt_Vd():
         if i == 1000 or x[:2] != 'Vd':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Vd')
+        #print(fkey, ' -Vd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18619,7 +18623,7 @@ def decrypt_Vf():
         if i == 1000 or x[:2] != 'Vf':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Vf')
+        #print(fkey, ' -Vf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18633,7 +18637,7 @@ def decrypt_Vh():
         if i == 1000 or x[:2] != 'Vh':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Vh')
+        #print(fkey, ' -Vh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18647,7 +18651,7 @@ def decrypt_Vj():
         if i == 1000 or x[:2] != 'Vj':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Vj')
+        #print(fkey, ' -Vj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18661,7 +18665,7 @@ def decrypt_Vl():
         if i == 1000 or x[:2] != 'Vl':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Vl')
+        #print(fkey, ' -Vl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18675,7 +18679,7 @@ def decrypt_Vn():
         if i == 1000 or x[:2] != 'Vn':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Vn')
+        #print(fkey, ' -Vn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18689,7 +18693,7 @@ def decrypt_Vp():
         if i == 1000 or x[:2] != 'Vp':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Vp')
+        #print(fkey, ' -Vp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18703,7 +18707,7 @@ def decrypt_Vr():
         if i == 1000 or x[:2] != 'Vr':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Vr')
+        #print(fkey, ' -Vr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18717,7 +18721,7 @@ def decrypt_Vt():
         if i == 1000 or x[:2] != 'Vt':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Vt')
+        #print(fkey, ' -Vt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18731,7 +18735,7 @@ def decrypt_Vv():
         if i == 1000 or x[:2] != 'Vv':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Vv')
+        #print(fkey, ' -Vv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18745,7 +18749,7 @@ def decrypt_Vx():
         if i == 1000 or x[:2] != 'Vx':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Vx')
+        #print(fkey, ' -Vx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18759,7 +18763,7 @@ def decrypt_Vz():
         if i == 1000 or x[:2] != 'Vz':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Vz')
+        #print(fkey, ' -Vz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18773,7 +18777,7 @@ def decrypt_VA():
         if i == 1000 or x[:2] != 'VA':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -VA')
+        #print(fkey, ' -VA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18787,7 +18791,7 @@ def decrypt_VB():
         if i == 1000 or x[:2] != 'VB':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -VB')
+        #print(fkey, ' -VB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18801,7 +18805,7 @@ def decrypt_VD():
         if i == 1000 or x[:2] != 'VD':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -VD')
+        #print(fkey, ' -VD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18815,7 +18819,7 @@ def decrypt_VF():
         if i == 1000 or x[:2] != 'VF':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -VF')
+        #print(fkey, ' -VF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18829,7 +18833,7 @@ def decrypt_VH():
         if i == 1000 or x[:2] != 'VH':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -VH')
+        #print(fkey, ' -VH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18843,7 +18847,7 @@ def decrypt_VJ():
         if i == 1000 or x[:2] != 'VJ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -VJ')
+        #print(fkey, ' -VJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18857,7 +18861,7 @@ def decrypt_VL():
         if i == 1000 or x[:2] != 'VL':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -VL')
+        #print(fkey, ' -VL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18871,7 +18875,7 @@ def decrypt_VN():
         if i == 1000 or x[:2] != 'VN':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -VN')
+        #print(fkey, ' -VN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18885,7 +18889,7 @@ def decrypt_VP():
         if i == 1000 or x[:2] != 'VP':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -VP')
+        #print(fkey, ' -VP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18899,7 +18903,7 @@ def decrypt_VR():
         if i == 1000 or x[:2] != 'VR':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -VR')
+        #print(fkey, ' -VR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18913,7 +18917,7 @@ def decrypt_VT():
         if i == 1000 or x[:2] != 'VT':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -VT')
+        #print(fkey, ' -VT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18927,7 +18931,7 @@ def decrypt_VV():
         if i == 1000 or x[:2] != 'VV':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -VV')
+        #print(fkey, ' -VV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18941,7 +18945,7 @@ def decrypt_VX():
         if i == 1000 or x[:2] != 'VX':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -VX')
+        #print(fkey, ' -VX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18955,7 +18959,7 @@ def decrypt_VZ():
         if i == 1000 or x[:2] != 'VZ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -VZ')
+        #print(fkey, ' -VZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18969,7 +18973,7 @@ def decrypt_V0():
         if i == 1000 or x[:2] != 'V0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -V0')
+        #print(fkey, ' -V0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18983,7 +18987,7 @@ def decrypt_V2():
         if i == 1000 or x[:2] != 'V2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -V2')
+        #print(fkey, ' -V2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -18997,7 +19001,7 @@ def decrypt_V4():
         if i == 1000 or x[:2] != 'V4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -V4')
+        #print(fkey, ' -V4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19011,7 +19015,7 @@ def decrypt_V6():
         if i == 1000 or x[:2] != 'V6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -V6')
+        #print(fkey, ' -V6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19025,7 +19029,7 @@ def decrypt_V8():
         if i == 1000 or x[:2] != 'V8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -V8')
+        #print(fkey, ' -V8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19039,7 +19043,7 @@ def decrypt_Vexcl():
         if i == 1000 or x[:2] != 'V!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -V!')
+        #print(fkey, ' -V!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19053,7 +19057,7 @@ def decrypt_Vdquote():
         if i == 1000 or x[:2] != 'V"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -V"')
+        #print(fkey, ' -V"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19067,7 +19071,7 @@ def decrypt_Vdoll():
         if i == 1000 or x[:2] != 'V$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -V$')
+        #print(fkey, ' -V$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19081,7 +19085,7 @@ def decrypt_Vand():
         if i == 1000 or x[:2] != 'V&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -V&')
+        #print(fkey, ' -V&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19095,7 +19099,7 @@ def decrypt_Vquote():
         if i == 1000 or x[:2] != 'V\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -V\'')
+        #print(fkey, ' -V\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19109,7 +19113,7 @@ def decrypt_Vpar():
         if i == 1000 or x[:2] != 'V(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -V(')
+        #print(fkey, ' -V(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19123,7 +19127,7 @@ def decrypt_Vast():
         if i == 1000 or x[:2] != 'V*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -V*')
+        #print(fkey, ' -V*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19137,7 +19141,7 @@ def decrypt_Vvir():
         if i == 1000 or x[:2] != 'V,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -V,')
+        #print(fkey, ' -V,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19151,7 +19155,7 @@ def decrypt_Vpp():
         if i == 1000 or x[:2] != 'V.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -V.')
+        #print(fkey, ' -V.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19165,7 +19169,7 @@ def decrypt_Vtp():
         if i == 1000 or x[:2] != 'V:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -V:')
+        #print(fkey, ' -V:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19179,7 +19183,7 @@ def decrypt_Vless():
         if i == 1000 or x[:2] != 'V<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -V<')
+        #print(fkey, ' -V<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19193,7 +19197,7 @@ def decrypt_Vmore():
         if i == 1000 or x[:2] != 'V>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -V>')
+        #print(fkey, ' -V>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19207,7 +19211,7 @@ def decrypt_Varo():
         if i == 1000 or x[:2] != 'V@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -V@')
+        #print(fkey, ' -V@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19221,7 +19225,7 @@ def decrypt_Vcroc():
         if i == 1000 or x[:2] != 'V[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -V[')
+        #print(fkey, ' -V[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19235,7 +19239,7 @@ def decrypt_Vbsl():
         if i == 1000 or x[:2] != 'V\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -V\\')
+        #print(fkey, ' -V\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19249,7 +19253,7 @@ def decrypt_Vcirc():
         if i == 1000 or x[:2] != 'V^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -V^')
+        #print(fkey, ' -V^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19263,7 +19267,7 @@ def decrypt_Vesp():
         if i == 1000 or x[:2] != 'V`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -V`')
+        #print(fkey, ' -V`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19277,7 +19281,7 @@ def decrypt_Vcr():
         if i == 1000 or x[:2] != 'V{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -V{')
+        #print(fkey, ' -V{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19291,7 +19295,7 @@ def decrypt_Vhl():
         if i == 1000 or x[:2] != 'V|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -V|')
+        #print(fkey, ' -V|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19305,7 +19309,7 @@ def decrypt_Vtild():
         if i == 1000 or x[:2] != 'V~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -V~')
+        #print(fkey, ' -V~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19319,7 +19323,7 @@ def decrypt_Xa():
         if i == 1000 or x[:2] != 'Xa':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Xa')
+        #print(fkey, ' -Xa')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19333,7 +19337,7 @@ def decrypt_Xb():
         if i == 1000 or x[:2] != 'Xb':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Xb')
+        #print(fkey, ' -Xb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19347,7 +19351,7 @@ def decrypt_Xd():
         if i == 1000 or x[:2] != 'Xd':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Xd')
+        #print(fkey, ' -Xd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19361,7 +19365,7 @@ def decrypt_Xf():
         if i == 1000 or x[:2] != 'Xf':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Xf')
+        #print(fkey, ' -Xf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19375,7 +19379,7 @@ def decrypt_Xh():
         if i == 1000 or x[:2] != 'Xh':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Xh')
+        #print(fkey, ' -Xh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19389,7 +19393,7 @@ def decrypt_Xj():
         if i == 1000 or x[:2] != 'Xj':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Xj')
+        #print(fkey, ' -Xj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19403,7 +19407,7 @@ def decrypt_Xl():
         if i == 1000 or x[:2] != 'Xl':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Xl')
+        #print(fkey, ' -Xl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19417,7 +19421,7 @@ def decrypt_Xn():
         if i == 1000 or x[:2] != 'Xn':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Xn')
+        #print(fkey, ' -Xn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19431,7 +19435,7 @@ def decrypt_Xp():
         if i == 1000 or x[:2] != 'Xp':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Xp')
+        #print(fkey, ' -Xp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19445,7 +19449,7 @@ def decrypt_Xr():
         if i == 1000 or x[:2] != 'Xr':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Xr')
+        #print(fkey, ' -Xr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19459,7 +19463,7 @@ def decrypt_Xt():
         if i == 1000 or x[:2] != 'Xt':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Xt')
+        #print(fkey, ' -Xt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19473,7 +19477,7 @@ def decrypt_Xv():
         if i == 1000 or x[:2] != 'Xv':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Xv')
+        #print(fkey, ' -Xv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19487,7 +19491,7 @@ def decrypt_Xx():
         if i == 1000 or x[:2] != 'Xx':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Xx')
+        #print(fkey, ' -Xx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19501,7 +19505,7 @@ def decrypt_Xz():
         if i == 1000 or x[:2] != 'Xz':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Xz')
+        #print(fkey, ' -Xz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19515,7 +19519,7 @@ def decrypt_XA():
         if i == 1000 or x[:2] != 'XA':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -XA')
+        #print(fkey, ' -XA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19529,7 +19533,7 @@ def decrypt_XB():
         if i == 1000 or x[:2] != 'XB':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -XB')
+        #print(fkey, ' -XB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19543,7 +19547,7 @@ def decrypt_XD():
         if i == 1000 or x[:2] != 'XD':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -XD')
+        #print(fkey, ' -XD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19557,7 +19561,7 @@ def decrypt_XF():
         if i == 1000 or x[:2] != 'XF':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -XF')
+        #print(fkey, ' -XF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19571,7 +19575,7 @@ def decrypt_XH():
         if i == 1000 or x[:2] != 'XH':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -XH')
+        #print(fkey, ' -XH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19585,7 +19589,7 @@ def decrypt_XJ():
         if i == 1000 or x[:2] != 'XJ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -XJ')
+        #print(fkey, ' -XJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19599,7 +19603,7 @@ def decrypt_XL():
         if i == 1000 or x[:2] != 'XL':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -XL')
+        #print(fkey, ' -XL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19613,7 +19617,7 @@ def decrypt_XN():
         if i == 1000 or x[:2] != 'XN':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -XN')
+        #print(fkey, ' -XN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19627,7 +19631,7 @@ def decrypt_XP():
         if i == 1000 or x[:2] != 'XP':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -XP')
+        #print(fkey, ' -XP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19641,7 +19645,7 @@ def decrypt_XR():
         if i == 1000 or x[:2] != 'XR':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -XR')
+        #print(fkey, ' -XR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19655,7 +19659,7 @@ def decrypt_XT():
         if i == 1000 or x[:2] != 'XT':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -XT')
+        #print(fkey, ' -XT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19669,7 +19673,7 @@ def decrypt_XV():
         if i == 1000 or x[:2] != 'XV':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -XV')
+        #print(fkey, ' -XV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19683,7 +19687,7 @@ def decrypt_XX():
         if i == 1000 or x[:2] != 'XX':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -XX')
+        #print(fkey, ' -XX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19697,7 +19701,7 @@ def decrypt_XZ():
         if i == 1000 or x[:2] != 'XZ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -XZ')
+        #print(fkey, ' -XZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19711,7 +19715,7 @@ def decrypt_X0():
         if i == 1000 or x[:2] != 'X0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -X0')
+        #print(fkey, ' -X0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19725,7 +19729,7 @@ def decrypt_X2():
         if i == 1000 or x[:2] != 'X2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -X2')
+        #print(fkey, ' -X2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19739,7 +19743,7 @@ def decrypt_X4():
         if i == 1000 or x[:2] != 'X4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -X4')
+        #print(fkey, ' -X4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19753,7 +19757,7 @@ def decrypt_X6():
         if i == 1000 or x[:2] != 'X6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -X6')
+        #print(fkey, ' -X6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19767,7 +19771,7 @@ def decrypt_X8():
         if i == 1000 or x[:2] != 'X8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -X8')
+        #print(fkey, ' -X8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19781,7 +19785,7 @@ def decrypt_Xexcl():
         if i == 1000 or x[:2] != 'X!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -X!')
+        #print(fkey, ' -X!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19795,7 +19799,7 @@ def decrypt_Xdquote():
         if i == 1000 or x[:2] != 'X"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -X"')
+        #print(fkey, ' -X"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19809,7 +19813,7 @@ def decrypt_Xdoll():
         if i == 1000 or x[:2] != 'X$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -X$')
+        #print(fkey, ' -X$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19823,7 +19827,7 @@ def decrypt_Xand():
         if i == 1000 or x[:2] != 'X&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -X&')
+        #print(fkey, ' -X&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19837,7 +19841,7 @@ def decrypt_Xquote():
         if i == 1000 or x[:2] != 'X\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -X\'')
+        #print(fkey, ' -X\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19851,7 +19855,7 @@ def decrypt_Xpar():
         if i == 1000 or x[:2] != 'X(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -X(')
+        #print(fkey, ' -X(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19865,7 +19869,7 @@ def decrypt_Xast():
         if i == 1000 or x[:2] != 'X*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -X*')
+        #print(fkey, ' -X*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19879,7 +19883,7 @@ def decrypt_Xvir():
         if i == 1000 or x[:2] != 'X,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -X,')
+        #print(fkey, ' -X,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19893,7 +19897,7 @@ def decrypt_Xpp():
         if i == 1000 or x[:2] != 'X.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -X.')
+        #print(fkey, ' -X.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19907,7 +19911,7 @@ def decrypt_Xtp():
         if i == 1000 or x[:2] != 'X:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -X:')
+        #print(fkey, ' -X:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19921,7 +19925,7 @@ def decrypt_Xless():
         if i == 1000 or x[:2] != 'X<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -X<')
+        #print(fkey, ' -X<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19935,7 +19939,7 @@ def decrypt_Xmore():
         if i == 1000 or x[:2] != 'X>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -X>')
+        #print(fkey, ' -X>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19949,7 +19953,7 @@ def decrypt_Xaro():
         if i == 1000 or x[:2] != 'X@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -X@')
+        #print(fkey, ' -X@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19963,7 +19967,7 @@ def decrypt_Xcroc():
         if i == 1000 or x[:2] != 'X[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -X[')
+        #print(fkey, ' -X[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19977,7 +19981,7 @@ def decrypt_Xbsl():
         if i == 1000 or x[:2] != 'X\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -X\\')
+        #print(fkey, ' -X\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -19991,7 +19995,7 @@ def decrypt_Xcirc():
         if i == 1000 or x[:2] != 'X^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -X^')
+        #print(fkey, ' -X^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20005,7 +20009,7 @@ def decrypt_Xesp():
         if i == 1000 or x[:2] != 'X`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -X`')
+        #print(fkey, ' -X`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20019,7 +20023,7 @@ def decrypt_Xcr():
         if i == 1000 or x[:2] != 'X{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -X{')
+        #print(fkey, ' -X{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20033,7 +20037,7 @@ def decrypt_Xhl():
         if i == 1000 or x[:2] != 'X|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -X|')
+        #print(fkey, ' -X|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20047,7 +20051,7 @@ def decrypt_Xtild():
         if i == 1000 or x[:2] != 'X~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -X~')
+        #print(fkey, ' -X~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20061,7 +20065,7 @@ def decrypt_Za():
         if i == 1000 or x[:2] != 'Za':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Za')
+        #print(fkey, ' -Za')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20075,7 +20079,7 @@ def decrypt_Zb():
         if i == 1000 or x[:2] != 'Zb':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Zb')
+        #print(fkey, ' -Zb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20089,7 +20093,7 @@ def decrypt_Zd():
         if i == 1000 or x[:2] != 'Zd':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Zd')
+        #print(fkey, ' -Zd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20103,7 +20107,7 @@ def decrypt_Zf():
         if i == 1000 or x[:2] != 'Zf':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Zf')
+        #print(fkey, ' -Zf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20117,7 +20121,7 @@ def decrypt_Zh():
         if i == 1000 or x[:2] != 'Zh':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Zh')
+        #print(fkey, ' -Zh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20131,7 +20135,7 @@ def decrypt_Zj():
         if i == 1000 or x[:2] != 'Zj':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Zj')
+        #print(fkey, ' -Zj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20145,7 +20149,7 @@ def decrypt_Zl():
         if i == 1000 or x[:2] != 'Zl':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Zl')
+        #print(fkey, ' -Zl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20159,7 +20163,7 @@ def decrypt_Zn():
         if i == 1000 or x[:2] != 'Zn':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Zn')
+        #print(fkey, ' -Zn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20173,7 +20177,7 @@ def decrypt_Zp():
         if i == 1000 or x[:2] != 'Zp':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Zp')
+        #print(fkey, ' -Zp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20187,7 +20191,7 @@ def decrypt_Zr():
         if i == 1000 or x[:2] != 'Zr':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Zr')
+        #print(fkey, ' -Zr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20201,7 +20205,7 @@ def decrypt_Zt():
         if i == 1000 or x[:2] != 'Zt':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Zt')
+        #print(fkey, ' -Zt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20215,7 +20219,7 @@ def decrypt_Zv():
         if i == 1000 or x[:2] != 'Zv':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Zv')
+        #print(fkey, ' -Zv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20229,7 +20233,7 @@ def decrypt_Zx():
         if i == 1000 or x[:2] != 'Zx':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Zx')
+        #print(fkey, ' -Zx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20243,7 +20247,7 @@ def decrypt_Zz():
         if i == 1000 or x[:2] != 'Zz':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Zz')
+        #print(fkey, ' -Zz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20257,7 +20261,7 @@ def decrypt_ZA():
         if i == 1000 or x[:2] != 'ZA':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -ZA')
+        #print(fkey, ' -ZA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20271,7 +20275,7 @@ def decrypt_ZB():
         if i == 1000 or x[:2] != 'ZB':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -ZB')
+        #print(fkey, ' -ZB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20285,7 +20289,7 @@ def decrypt_ZD():
         if i == 1000 or x[:2] != 'ZD':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -ZD')
+        #print(fkey, ' -ZD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20299,7 +20303,7 @@ def decrypt_ZF():
         if i == 1000 or x[:2] != 'ZF':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -ZF')
+        #print(fkey, ' -ZF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20313,7 +20317,7 @@ def decrypt_ZH():
         if i == 1000 or x[:2] != 'ZH':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -ZH')
+        #print(fkey, ' -ZH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20327,7 +20331,7 @@ def decrypt_ZJ():
         if i == 1000 or x[:2] != 'ZJ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -ZJ')
+        #print(fkey, ' -ZJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20341,7 +20345,7 @@ def decrypt_ZL():
         if i == 1000 or x[:2] != 'ZL':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -ZL')
+        #print(fkey, ' -ZL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20355,7 +20359,7 @@ def decrypt_ZN():
         if i == 1000 or x[:2] != 'ZN':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -ZN')
+        #print(fkey, ' -ZN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20369,7 +20373,7 @@ def decrypt_ZP():
         if i == 1000 or x[:2] != 'ZP':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -ZP')
+        #print(fkey, ' -ZP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20383,7 +20387,7 @@ def decrypt_ZR():
         if i == 1000 or x[:2] != 'ZR':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -ZR')
+        #print(fkey, ' -ZR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20397,7 +20401,7 @@ def decrypt_ZT():
         if i == 1000 or x[:2] != 'ZT':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -ZT')
+        #print(fkey, ' -ZT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20411,7 +20415,7 @@ def decrypt_ZV():
         if i == 1000 or x[:2] != 'ZV':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -ZV')
+        #print(fkey, ' -ZV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20425,7 +20429,7 @@ def decrypt_ZX():
         if i == 1000 or x[:2] != 'ZX':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -ZX')
+        #print(fkey, ' -ZX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20439,7 +20443,7 @@ def decrypt_ZZ():
         if i == 1000 or x[:2] != 'ZZ':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -ZZ')
+        #print(fkey, ' -ZZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20453,7 +20457,7 @@ def decrypt_Z0():
         if i == 1000 or x[:2] != 'Z0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Z0')
+        #print(fkey, ' -Z0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20467,7 +20471,7 @@ def decrypt_Z2():
         if i == 1000 or x[:2] != 'Z2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Z2')
+        #print(fkey, ' -Z2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20481,7 +20485,7 @@ def decrypt_Z4():
         if i == 1000 or x[:2] != 'Z4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Z4')
+        #print(fkey, ' -Z4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20495,7 +20499,7 @@ def decrypt_Z6():
         if i == 1000 or x[:2] != 'Z6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Z6')
+        #print(fkey, ' -Z6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20509,7 +20513,7 @@ def decrypt_Z8():
         if i == 1000 or x[:2] != 'Z8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Z8')
+        #print(fkey, ' -Z8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20523,7 +20527,7 @@ def decrypt_Zexcl():
         if i == 1000 or x[:2] != 'Z!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Z!')
+        #print(fkey, ' -Z!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20537,7 +20541,7 @@ def decrypt_Zdquote():
         if i == 1000 or x[:2] != 'Z"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Z"')
+        #print(fkey, ' -Z"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20551,7 +20555,7 @@ def decrypt_Zdoll():
         if i == 1000 or x[:2] != 'Z$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Z$')
+        #print(fkey, ' -Z$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20565,7 +20569,7 @@ def decrypt_Zand():
         if i == 1000 or x[:2] != 'Z&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Z&')
+        #print(fkey, ' -Z&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20579,7 +20583,7 @@ def decrypt_Zquote():
         if i == 1000 or x[:2] != 'Z\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Z\'')
+        #print(fkey, ' -Z\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20593,7 +20597,7 @@ def decrypt_Zpar():
         if i == 1000 or x[:2] != 'Z(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Z(')
+        #print(fkey, ' -Z(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20607,7 +20611,7 @@ def decrypt_Zast():
         if i == 1000 or x[:2] != 'Z*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Z*')
+        #print(fkey, ' -Z*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20621,7 +20625,7 @@ def decrypt_Zvir():
         if i == 1000 or x[:2] != 'Z,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Z,')
+        #print(fkey, ' -Z,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20635,7 +20639,7 @@ def decrypt_Zpp():
         if i == 1000 or x[:2] != 'Z.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Z.')
+        #print(fkey, ' -Z.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20649,7 +20653,7 @@ def decrypt_Ztp():
         if i == 1000 or x[:2] != 'Z:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Z:')
+        #print(fkey, ' -Z:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20663,7 +20667,7 @@ def decrypt_Zless():
         if i == 1000 or x[:2] != 'Z<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Z<')
+        #print(fkey, ' -Z<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20677,7 +20681,7 @@ def decrypt_Zmore():
         if i == 1000 or x[:2] != 'Z>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Z>')
+        #print(fkey, ' -Z>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20691,7 +20695,7 @@ def decrypt_Zaro():
         if i == 1000 or x[:2] != 'Z@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Z@')
+        #print(fkey, ' -Z@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20705,7 +20709,7 @@ def decrypt_Zcroc():
         if i == 1000 or x[:2] != 'Z[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Z[')
+        #print(fkey, ' -Z[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20719,7 +20723,7 @@ def decrypt_Zbsl():
         if i == 1000 or x[:2] != 'Z\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Z\\')
+        #print(fkey, ' -Z\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20733,7 +20737,7 @@ def decrypt_Zcirc():
         if i == 1000 or x[:2] != 'Z^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Z^')
+        #print(fkey, ' -Z^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20747,7 +20751,7 @@ def decrypt_Zesp():
         if i == 1000 or x[:2] != 'Z`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Z`')
+        #print(fkey, ' -Z`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20761,7 +20765,7 @@ def decrypt_Zcr():
         if i == 1000 or x[:2] != 'Z{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Z{')
+        #print(fkey, ' -Z{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20775,7 +20779,7 @@ def decrypt_Zhl():
         if i == 1000 or x[:2] != 'Z|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Z|')
+        #print(fkey, ' -Z|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20789,7 +20793,7 @@ def decrypt_Ztild():
         if i == 1000 or x[:2] != 'Z~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -Z~')
+        #print(fkey, ' -Z~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20803,7 +20807,7 @@ def decrypt_0a():
         if i == 1000 or x[:2] != '0a':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0a')
+        #print(fkey, ' -0a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20817,7 +20821,7 @@ def decrypt_0b():
         if i == 1000 or x[:2] != '0b':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0b')
+        #print(fkey, ' -0b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20831,7 +20835,7 @@ def decrypt_0d():
         if i == 1000 or x[:2] != '0d':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0d')
+        #print(fkey, ' -0d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20845,7 +20849,7 @@ def decrypt_0f():
         if i == 1000 or x[:2] != '0f':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0f')
+        #print(fkey, ' -0f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20859,7 +20863,7 @@ def decrypt_0h():
         if i == 1000 or x[:2] != '0h':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0h')
+        #print(fkey, ' -0h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20873,7 +20877,7 @@ def decrypt_0j():
         if i == 1000 or x[:2] != '0j':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0j')
+        #print(fkey, ' -0j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20887,7 +20891,7 @@ def decrypt_0l():
         if i == 1000 or x[:2] != '0l':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0l')
+        #print(fkey, ' -0l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20901,7 +20905,7 @@ def decrypt_0n():
         if i == 1000 or x[:2] != '0n':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0n')
+        #print(fkey, ' -0n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20915,7 +20919,7 @@ def decrypt_0p():
         if i == 1000 or x[:2] != '0p':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0p')
+        #print(fkey, ' -0p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20929,7 +20933,7 @@ def decrypt_0r():
         if i == 1000 or x[:2] != '0r':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0r')
+        #print(fkey, ' -0r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20943,7 +20947,7 @@ def decrypt_0t():
         if i == 1000 or x[:2] != '0t':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0t')
+        #print(fkey, ' -0t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20957,7 +20961,7 @@ def decrypt_0v():
         if i == 1000 or x[:2] != '0v':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0v')
+        #print(fkey, ' -0v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20971,7 +20975,7 @@ def decrypt_0x():
         if i == 1000 or x[:2] != '0x':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0x')
+        #print(fkey, ' -0x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20985,7 +20989,7 @@ def decrypt_0z():
         if i == 1000 or x[:2] != '0z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0z')
+        #print(fkey, ' -0z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -20999,7 +21003,7 @@ def decrypt_0A():
         if i == 1000 or x[:2] != '0A':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0A')
+        #print(fkey, ' -0A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21013,7 +21017,7 @@ def decrypt_0B():
         if i == 1000 or x[:2] != '0B':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0B')
+        #print(fkey, ' -0B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21027,7 +21031,7 @@ def decrypt_0D():
         if i == 1000 or x[:2] != '0D':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0D')
+        #print(fkey, ' -0D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21041,7 +21045,7 @@ def decrypt_0F():
         if i == 1000 or x[:2] != '0F':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0F')
+        #print(fkey, ' -0F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21055,7 +21059,7 @@ def decrypt_0H():
         if i == 1000 or x[:2] != '0H':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0H')
+        #print(fkey, ' -0H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21069,7 +21073,7 @@ def decrypt_0J():
         if i == 1000 or x[:2] != '0J':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0J')
+        #print(fkey, ' -0J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21083,7 +21087,7 @@ def decrypt_0L():
         if i == 1000 or x[:2] != '0L':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0L')
+        #print(fkey, ' -0L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21097,7 +21101,7 @@ def decrypt_0N():
         if i == 1000 or x[:2] != '0N':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0N')
+        #print(fkey, ' -0N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21111,7 +21115,7 @@ def decrypt_0P():
         if i == 1000 or x[:2] != '0P':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0P')
+        #print(fkey, ' -0P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21125,7 +21129,7 @@ def decrypt_0R():
         if i == 1000 or x[:2] != '0R':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0R')
+        #print(fkey, ' -0R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21139,7 +21143,7 @@ def decrypt_0T():
         if i == 1000 or x[:2] != '0T':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0T')
+        #print(fkey, ' -0T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21153,7 +21157,7 @@ def decrypt_0V():
         if i == 1000 or x[:2] != '0V':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0V')
+        #print(fkey, ' -0V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21167,7 +21171,7 @@ def decrypt_0X():
         if i == 1000 or x[:2] != '0X':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0X')
+        #print(fkey, ' -0X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21181,7 +21185,7 @@ def decrypt_0Z():
         if i == 1000 or x[:2] != '0Z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0Z')
+        #print(fkey, ' -0Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21195,7 +21199,7 @@ def decrypt_00():
         if i == 1000 or x[:2] != '00':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -00')
+        #print(fkey, ' -00')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21209,7 +21213,7 @@ def decrypt_02():
         if i == 1000 or x[:2] != '02':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -02')
+        #print(fkey, ' -02')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21223,7 +21227,7 @@ def decrypt_04():
         if i == 1000 or x[:2] != '04':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -04')
+        #print(fkey, ' -04')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21237,7 +21241,7 @@ def decrypt_06():
         if i == 1000 or x[:2] != '06':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -06')
+        #print(fkey, ' -06')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21251,7 +21255,7 @@ def decrypt_08():
         if i == 1000 or x[:2] != '08':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -08')
+        #print(fkey, ' -08')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21265,7 +21269,7 @@ def decrypt_0excl():
         if i == 1000 or x[:2] != '0!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0!')
+        #print(fkey, ' -0!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21279,7 +21283,7 @@ def decrypt_0dquote():
         if i == 1000 or x[:2] != '0"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0"')
+        #print(fkey, ' -0"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21293,7 +21297,7 @@ def decrypt_0doll():
         if i == 1000 or x[:2] != '0$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0$')
+        #print(fkey, ' -0$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21307,7 +21311,7 @@ def decrypt_0and():
         if i == 1000 or x[:2] != '0&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0&')
+        #print(fkey, ' -0&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21321,7 +21325,7 @@ def decrypt_0quote():
         if i == 1000 or x[:2] != '0\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0\'')
+        #print(fkey, ' -0\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21335,7 +21339,7 @@ def decrypt_0par():
         if i == 1000 or x[:2] != '0(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0(')
+        #print(fkey, ' -0(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21349,7 +21353,7 @@ def decrypt_0ast():
         if i == 1000 or x[:2] != '0*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0*')
+        #print(fkey, ' -0*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21363,7 +21367,7 @@ def decrypt_0vir():
         if i == 1000 or x[:2] != '0,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0,')
+        #print(fkey, ' -0,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21377,7 +21381,7 @@ def decrypt_0pp():
         if i == 1000 or x[:2] != '0.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0.')
+        #print(fkey, ' -0.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21391,7 +21395,7 @@ def decrypt_0tp():
         if i == 1000 or x[:2] != '0:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0:')
+        #print(fkey, ' -0:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21405,7 +21409,7 @@ def decrypt_0less():
         if i == 1000 or x[:2] != '0<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0<')
+        #print(fkey, ' -0<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21419,7 +21423,7 @@ def decrypt_0more():
         if i == 1000 or x[:2] != '0>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0>')
+        #print(fkey, ' -0>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21433,7 +21437,7 @@ def decrypt_0aro():
         if i == 1000 or x[:2] != '0@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0@')
+        #print(fkey, ' -0@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21447,7 +21451,7 @@ def decrypt_0croc():
         if i == 1000 or x[:2] != '0[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0[')
+        #print(fkey, ' -0[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21461,7 +21465,7 @@ def decrypt_0bsl():
         if i == 1000 or x[:2] != '0\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0\\')
+        #print(fkey, ' -0\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21475,7 +21479,7 @@ def decrypt_0circ():
         if i == 1000 or x[:2] != '0^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0^')
+        #print(fkey, ' -0^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21489,7 +21493,7 @@ def decrypt_0esp():
         if i == 1000 or x[:2] != '0`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0`')
+        #print(fkey, ' -0`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21503,7 +21507,7 @@ def decrypt_0cr():
         if i == 1000 or x[:2] != '0{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0{')
+        #print(fkey, ' -0{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21517,7 +21521,7 @@ def decrypt_0hl():
         if i == 1000 or x[:2] != '0|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0|')
+        #print(fkey, ' -0|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21531,7 +21535,7 @@ def decrypt_0tild():
         if i == 1000 or x[:2] != '0~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -0~')
+        #print(fkey, ' -0~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21545,7 +21549,7 @@ def decrypt_2a():
         if i == 1000 or x[:2] != '2a':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2a')
+        #print(fkey, ' -2a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21559,7 +21563,7 @@ def decrypt_2b():
         if i == 1000 or x[:2] != '2b':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2b')
+        #print(fkey, ' -2b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21573,7 +21577,7 @@ def decrypt_2d():
         if i == 1000 or x[:2] != '2d':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2d')
+        #print(fkey, ' -2d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21587,7 +21591,7 @@ def decrypt_2f():
         if i == 1000 or x[:2] != '2f':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2f')
+        #print(fkey, ' -2f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21601,7 +21605,7 @@ def decrypt_2h():
         if i == 1000 or x[:2] != '2h':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2h')
+        #print(fkey, ' -2h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21615,7 +21619,7 @@ def decrypt_2j():
         if i == 1000 or x[:2] != '2j':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2j')
+        #print(fkey, ' -2j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21629,7 +21633,7 @@ def decrypt_2l():
         if i == 1000 or x[:2] != '2l':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2l')
+        #print(fkey, ' -2l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21643,7 +21647,7 @@ def decrypt_2n():
         if i == 1000 or x[:2] != '2n':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2n')
+        #print(fkey, ' -2n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21657,7 +21661,7 @@ def decrypt_2p():
         if i == 1000 or x[:2] != '2p':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2p')
+        #print(fkey, ' -2p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21671,7 +21675,7 @@ def decrypt_2r():
         if i == 1000 or x[:2] != '2r':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2r')
+        #print(fkey, ' -2r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21685,7 +21689,7 @@ def decrypt_2t():
         if i == 1000 or x[:2] != '2t':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2t')
+        #print(fkey, ' -2t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21699,7 +21703,7 @@ def decrypt_2v():
         if i == 1000 or x[:2] != '2v':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2v')
+        #print(fkey, ' -2v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21713,7 +21717,7 @@ def decrypt_2x():
         if i == 1000 or x[:2] != '2x':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2x')
+        #print(fkey, ' -2x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21727,7 +21731,7 @@ def decrypt_2z():
         if i == 1000 or x[:2] != '2z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2z')
+        #print(fkey, ' -2z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21741,7 +21745,7 @@ def decrypt_2A():
         if i == 1000 or x[:2] != '2A':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2A')
+        #print(fkey, ' -2A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21755,7 +21759,7 @@ def decrypt_2B():
         if i == 1000 or x[:2] != '2B':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2B')
+        #print(fkey, ' -2B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21769,7 +21773,7 @@ def decrypt_2D():
         if i == 1000 or x[:2] != '2D':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2D')
+        #print(fkey, ' -2D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21783,7 +21787,7 @@ def decrypt_2F():
         if i == 1000 or x[:2] != '2F':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2F')
+        #print(fkey, ' -2F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21797,7 +21801,7 @@ def decrypt_2H():
         if i == 1000 or x[:2] != '2H':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2H')
+        #print(fkey, ' -2H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21811,7 +21815,7 @@ def decrypt_2J():
         if i == 1000 or x[:2] != '2J':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2J')
+        #print(fkey, ' -2J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21825,7 +21829,7 @@ def decrypt_2L():
         if i == 1000 or x[:2] != '2L':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2L')
+        #print(fkey, ' -2L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21839,7 +21843,7 @@ def decrypt_2N():
         if i == 1000 or x[:2] != '2N':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2N')
+        #print(fkey, ' -2N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21853,7 +21857,7 @@ def decrypt_2P():
         if i == 1000 or x[:2] != '2P':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2P')
+        #print(fkey, ' -2P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21867,7 +21871,7 @@ def decrypt_2R():
         if i == 1000 or x[:2] != '2R':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2R')
+        #print(fkey, ' -2R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21881,7 +21885,7 @@ def decrypt_2T():
         if i == 1000 or x[:2] != '2T':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2T')
+        #print(fkey, ' -2T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21895,7 +21899,7 @@ def decrypt_2V():
         if i == 1000 or x[:2] != '2V':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2V')
+        #print(fkey, ' -2V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21909,7 +21913,7 @@ def decrypt_2X():
         if i == 1000 or x[:2] != '2X':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2X')
+        #print(fkey, ' -2X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21923,7 +21927,7 @@ def decrypt_2Z():
         if i == 1000 or x[:2] != '2Z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2Z')
+        #print(fkey, ' -2Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21937,7 +21941,7 @@ def decrypt_20():
         if i == 1000 or x[:2] != '20':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -20')
+        #print(fkey, ' -20')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21951,7 +21955,7 @@ def decrypt_22():
         if i == 1000 or x[:2] != '22':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -22')
+        #print(fkey, ' -22')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21965,7 +21969,7 @@ def decrypt_24():
         if i == 1000 or x[:2] != '24':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -24')
+        #print(fkey, ' -24')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21979,7 +21983,7 @@ def decrypt_26():
         if i == 1000 or x[:2] != '26':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -26')
+        #print(fkey, ' -26')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -21993,7 +21997,7 @@ def decrypt_28():
         if i == 1000 or x[:2] != '28':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -28')
+        #print(fkey, ' -28')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22007,7 +22011,7 @@ def decrypt_2excl():
         if i == 1000 or x[:2] != '2!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2!')
+        #print(fkey, ' -2!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22021,7 +22025,7 @@ def decrypt_2dquote():
         if i == 1000 or x[:2] != '2"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2"')
+        #print(fkey, ' -2"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22035,7 +22039,7 @@ def decrypt_2doll():
         if i == 1000 or x[:2] != '2$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2$')
+        #print(fkey, ' -2$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22049,7 +22053,7 @@ def decrypt_2and():
         if i == 1000 or x[:2] != '2&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2&')
+        #print(fkey, ' -2&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22063,7 +22067,7 @@ def decrypt_2quote():
         if i == 1000 or x[:2] != '2\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2\'')
+        #print(fkey, ' -2\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22077,7 +22081,7 @@ def decrypt_2par():
         if i == 1000 or x[:2] != '2(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2(')
+        #print(fkey, ' -2(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22091,7 +22095,7 @@ def decrypt_2ast():
         if i == 1000 or x[:2] != '2*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2*')
+        #print(fkey, ' -2*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22105,7 +22109,7 @@ def decrypt_2vir():
         if i == 1000 or x[:2] != '2,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2,')
+        #print(fkey, ' -2,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22119,7 +22123,7 @@ def decrypt_2pp():
         if i == 1000 or x[:2] != '2.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2.')
+        #print(fkey, ' -2.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22133,7 +22137,7 @@ def decrypt_2tp():
         if i == 1000 or x[:2] != '2:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2:')
+        #print(fkey, ' -2:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22147,7 +22151,7 @@ def decrypt_2less():
         if i == 1000 or x[:2] != '2<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2<')
+        #print(fkey, ' -2<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22161,7 +22165,7 @@ def decrypt_2more():
         if i == 1000 or x[:2] != '2>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2>')
+        #print(fkey, ' -2>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22175,7 +22179,7 @@ def decrypt_2aro():
         if i == 1000 or x[:2] != '2@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2@')
+        #print(fkey, ' -2@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22189,7 +22193,7 @@ def decrypt_2croc():
         if i == 1000 or x[:2] != '2[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2[')
+        #print(fkey, ' -2[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22203,7 +22207,7 @@ def decrypt_2bsl():
         if i == 1000 or x[:2] != '2\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2\\')
+        #print(fkey, ' -2\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22217,7 +22221,7 @@ def decrypt_2circ():
         if i == 1000 or x[:2] != '2^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2^')
+        #print(fkey, ' -2^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22231,7 +22235,7 @@ def decrypt_2esp():
         if i == 1000 or x[:2] != '2`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2`')
+        #print(fkey, ' -2`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22245,7 +22249,7 @@ def decrypt_2cr():
         if i == 1000 or x[:2] != '2{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2{')
+        #print(fkey, ' -2{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22259,7 +22263,7 @@ def decrypt_2hl():
         if i == 1000 or x[:2] != '2|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2|')
+        #print(fkey, ' -2|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22273,7 +22277,7 @@ def decrypt_2tild():
         if i == 1000 or x[:2] != '2~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -2~')
+        #print(fkey, ' -2~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22287,7 +22291,7 @@ def decrypt_4a():
         if i == 1000 or x[:2] != '4a':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4a')
+        #print(fkey, ' -4a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22301,7 +22305,7 @@ def decrypt_4b():
         if i == 1000 or x[:2] != '4b':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4b')
+        #print(fkey, ' -4b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22315,7 +22319,7 @@ def decrypt_4d():
         if i == 1000 or x[:2] != '4d':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4d')
+        #print(fkey, ' -4d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22329,7 +22333,7 @@ def decrypt_4f():
         if i == 1000 or x[:2] != '4f':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4f')
+        #print(fkey, ' -4f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22343,7 +22347,7 @@ def decrypt_4h():
         if i == 1000 or x[:2] != '4h':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4h')
+        #print(fkey, ' -4h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22357,7 +22361,7 @@ def decrypt_4j():
         if i == 1000 or x[:2] != '4j':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4j')
+        #print(fkey, ' -4j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22371,7 +22375,7 @@ def decrypt_4l():
         if i == 1000 or x[:2] != '4l':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4l')
+        #print(fkey, ' -4l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22385,7 +22389,7 @@ def decrypt_4n():
         if i == 1000 or x[:2] != '4n':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4n')
+        #print(fkey, ' -4n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22399,7 +22403,7 @@ def decrypt_4p():
         if i == 1000 or x[:2] != '4p':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4p')
+        #print(fkey, ' -4p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22413,7 +22417,7 @@ def decrypt_4r():
         if i == 1000 or x[:2] != '4r':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4r')
+        #print(fkey, ' -4r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22427,7 +22431,7 @@ def decrypt_4t():
         if i == 1000 or x[:2] != '4t':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4t')
+        #print(fkey, ' -4t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22441,7 +22445,7 @@ def decrypt_4v():
         if i == 1000 or x[:2] != '4v':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4v')
+        #print(fkey, ' -4v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22455,7 +22459,7 @@ def decrypt_4x():
         if i == 1000 or x[:2] != '4x':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4x')
+        #print(fkey, ' -4x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22469,7 +22473,7 @@ def decrypt_4z():
         if i == 1000 or x[:2] != '4z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4z')
+        #print(fkey, ' -4z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22483,7 +22487,7 @@ def decrypt_4A():
         if i == 1000 or x[:2] != '4A':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4A')
+        #print(fkey, ' -4A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22497,7 +22501,7 @@ def decrypt_4B():
         if i == 1000 or x[:2] != '4B':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4B')
+        #print(fkey, ' -4B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22511,7 +22515,7 @@ def decrypt_4D():
         if i == 1000 or x[:2] != '4D':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4D')
+        #print(fkey, ' -4D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22525,7 +22529,7 @@ def decrypt_4F():
         if i == 1000 or x[:2] != '4F':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4F')
+        #print(fkey, ' -4F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22539,7 +22543,7 @@ def decrypt_4H():
         if i == 1000 or x[:2] != '4H':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4H')
+        #print(fkey, ' -4H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22553,7 +22557,7 @@ def decrypt_4J():
         if i == 1000 or x[:2] != '4J':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4J')
+        #print(fkey, ' -4J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22567,7 +22571,7 @@ def decrypt_4L():
         if i == 1000 or x[:2] != '4L':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4L')
+        #print(fkey, ' -4L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22581,7 +22585,7 @@ def decrypt_4N():
         if i == 1000 or x[:2] != '4N':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4N')
+        #print(fkey, ' -4N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22595,7 +22599,7 @@ def decrypt_4P():
         if i == 1000 or x[:2] != '4P':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4P')
+        #print(fkey, ' -4P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22609,7 +22613,7 @@ def decrypt_4R():
         if i == 1000 or x[:2] != '4R':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4R')
+        #print(fkey, ' -4R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22623,7 +22627,7 @@ def decrypt_4T():
         if i == 1000 or x[:2] != '4T':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4T')
+        #print(fkey, ' -4T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22637,7 +22641,7 @@ def decrypt_4V():
         if i == 1000 or x[:2] != '4V':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4V')
+        #print(fkey, ' -4V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22651,7 +22655,7 @@ def decrypt_4X():
         if i == 1000 or x[:2] != '4X':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4X')
+        #print(fkey, ' -4X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22665,7 +22669,7 @@ def decrypt_4Z():
         if i == 1000 or x[:2] != '4Z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4Z')
+        #print(fkey, ' -4Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22679,7 +22683,7 @@ def decrypt_40():
         if i == 1000 or x[:2] != '40':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -40')
+        #print(fkey, ' -40')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22693,7 +22697,7 @@ def decrypt_42():
         if i == 1000 or x[:2] != '42':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -42')
+        #print(fkey, ' -42')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22707,7 +22711,7 @@ def decrypt_44():
         if i == 1000 or x[:2] != '44':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -44')
+        #print(fkey, ' -44')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22721,7 +22725,7 @@ def decrypt_46():
         if i == 1000 or x[:2] != '46':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -46')
+        #print(fkey, ' -46')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22735,7 +22739,7 @@ def decrypt_48():
         if i == 1000 or x[:2] != '48':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -48')
+        #print(fkey, ' -48')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22749,7 +22753,7 @@ def decrypt_4excl():
         if i == 1000 or x[:2] != '4!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4!')
+        #print(fkey, ' -4!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22763,7 +22767,7 @@ def decrypt_4dquote():
         if i == 1000 or x[:2] != '4"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4"')
+        #print(fkey, ' -4"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22777,7 +22781,7 @@ def decrypt_4doll():
         if i == 1000 or x[:2] != '4$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4$')
+        #print(fkey, ' -4$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22791,7 +22795,7 @@ def decrypt_4and():
         if i == 1000 or x[:2] != '4&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4&')
+        #print(fkey, ' -4&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22805,7 +22809,7 @@ def decrypt_4quote():
         if i == 1000 or x[:2] != '4\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4\'')
+        #print(fkey, ' -4\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22819,7 +22823,7 @@ def decrypt_4par():
         if i == 1000 or x[:2] != '4(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4(')
+        #print(fkey, ' -4(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22833,7 +22837,7 @@ def decrypt_4ast():
         if i == 1000 or x[:2] != '4*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4*')
+        #print(fkey, ' -4*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22847,7 +22851,7 @@ def decrypt_4vir():
         if i == 1000 or x[:2] != '4,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4,')
+        #print(fkey, ' -4,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22861,7 +22865,7 @@ def decrypt_4pp():
         if i == 1000 or x[:2] != '4.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4.')
+        #print(fkey, ' -4.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22875,7 +22879,7 @@ def decrypt_4tp():
         if i == 1000 or x[:2] != '4:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4:')
+        #print(fkey, ' -4:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22889,7 +22893,7 @@ def decrypt_4less():
         if i == 1000 or x[:2] != '4<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4<')
+        #print(fkey, ' -4<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22903,7 +22907,7 @@ def decrypt_4more():
         if i == 1000 or x[:2] != '4>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4>')
+        #print(fkey, ' -4>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22917,7 +22921,7 @@ def decrypt_4aro():
         if i == 1000 or x[:2] != '4@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4@')
+        #print(fkey, ' -4@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22931,7 +22935,7 @@ def decrypt_4croc():
         if i == 1000 or x[:2] != '4[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4[')
+        #print(fkey, ' -4[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22945,7 +22949,7 @@ def decrypt_4bsl():
         if i == 1000 or x[:2] != '4\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4\\')
+        #print(fkey, ' -4\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22959,7 +22963,7 @@ def decrypt_4circ():
         if i == 1000 or x[:2] != '4^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4^')
+        #print(fkey, ' -4^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22973,7 +22977,7 @@ def decrypt_4esp():
         if i == 1000 or x[:2] != '4`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4`')
+        #print(fkey, ' -4`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -22987,7 +22991,7 @@ def decrypt_4cr():
         if i == 1000 or x[:2] != '4{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4{')
+        #print(fkey, ' -4{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23001,7 +23005,7 @@ def decrypt_4hl():
         if i == 1000 or x[:2] != '4|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4|')
+        #print(fkey, ' -4|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23015,7 +23019,7 @@ def decrypt_4tild():
         if i == 1000 or x[:2] != '4~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -4~')
+        #print(fkey, ' -4~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23029,7 +23033,7 @@ def decrypt_6a():
         if i == 1000 or x[:2] != '6a':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6a')
+        #print(fkey, ' -6a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23043,7 +23047,7 @@ def decrypt_6b():
         if i == 1000 or x[:2] != '6b':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6b')
+        #print(fkey, ' -6b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23057,7 +23061,7 @@ def decrypt_6d():
         if i == 1000 or x[:2] != '6d':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6d')
+        #print(fkey, ' -6d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23071,7 +23075,7 @@ def decrypt_6f():
         if i == 1000 or x[:2] != '6f':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6f')
+        #print(fkey, ' -6f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23085,7 +23089,7 @@ def decrypt_6h():
         if i == 1000 or x[:2] != '6h':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6h')
+        #print(fkey, ' -6h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23099,7 +23103,7 @@ def decrypt_6j():
         if i == 1000 or x[:2] != '6j':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6j')
+        #print(fkey, ' -6j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23113,7 +23117,7 @@ def decrypt_6l():
         if i == 1000 or x[:2] != '6l':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6l')
+        #print(fkey, ' -6l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23127,7 +23131,7 @@ def decrypt_6n():
         if i == 1000 or x[:2] != '6n':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6n')
+        #print(fkey, ' -6n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23141,7 +23145,7 @@ def decrypt_6p():
         if i == 1000 or x[:2] != '6p':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6p')
+        #print(fkey, ' -6p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23155,7 +23159,7 @@ def decrypt_6r():
         if i == 1000 or x[:2] != '6r':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6r')
+        #print(fkey, ' -6r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23169,7 +23173,7 @@ def decrypt_6t():
         if i == 1000 or x[:2] != '6t':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6t')
+        #print(fkey, ' -6t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23183,7 +23187,7 @@ def decrypt_6v():
         if i == 1000 or x[:2] != '6v':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6v')
+        #print(fkey, ' -6v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23197,7 +23201,7 @@ def decrypt_6x():
         if i == 1000 or x[:2] != '6x':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6x')
+        #print(fkey, ' -6x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23211,7 +23215,7 @@ def decrypt_6z():
         if i == 1000 or x[:2] != '6z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6z')
+        #print(fkey, ' -6z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23225,7 +23229,7 @@ def decrypt_6A():
         if i == 1000 or x[:2] != '6A':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6A')
+        #print(fkey, ' -6A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23239,7 +23243,7 @@ def decrypt_6B():
         if i == 1000 or x[:2] != '6B':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6B')
+        #print(fkey, ' -6B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23253,7 +23257,7 @@ def decrypt_6D():
         if i == 1000 or x[:2] != '6D':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6D')
+        #print(fkey, ' -6D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23267,7 +23271,7 @@ def decrypt_6F():
         if i == 1000 or x[:2] != '6F':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6F')
+        #print(fkey, ' -6F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23281,7 +23285,7 @@ def decrypt_6H():
         if i == 1000 or x[:2] != '6H':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6H')
+        #print(fkey, ' -6H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23295,7 +23299,7 @@ def decrypt_6J():
         if i == 1000 or x[:2] != '6J':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6J')
+        #print(fkey, ' -6J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23309,7 +23313,7 @@ def decrypt_6L():
         if i == 1000 or x[:2] != '6L':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6L')
+        #print(fkey, ' -6L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23323,7 +23327,7 @@ def decrypt_6N():
         if i == 1000 or x[:2] != '6N':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6N')
+        #print(fkey, ' -6N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23337,7 +23341,7 @@ def decrypt_6P():
         if i == 1000 or x[:2] != '6P':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6P')
+        #print(fkey, ' -6P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23351,7 +23355,7 @@ def decrypt_6R():
         if i == 1000 or x[:2] != '6R':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6R')
+        #print(fkey, ' -6R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23365,7 +23369,7 @@ def decrypt_6T():
         if i == 1000 or x[:2] != '6T':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6T')
+        #print(fkey, ' -6T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23379,7 +23383,7 @@ def decrypt_6V():
         if i == 1000 or x[:2] != '6V':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6V')
+        #print(fkey, ' -6V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23393,7 +23397,7 @@ def decrypt_6X():
         if i == 1000 or x[:2] != '6X':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6X')
+        #print(fkey, ' -6X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23407,7 +23411,7 @@ def decrypt_6Z():
         if i == 1000 or x[:2] != '6Z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6Z')
+        #print(fkey, ' -6Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23421,7 +23425,7 @@ def decrypt_60():
         if i == 1000 or x[:2] != '60':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -60')
+        #print(fkey, ' -60')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23435,7 +23439,7 @@ def decrypt_62():
         if i == 1000 or x[:2] != '62':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -62')
+        #print(fkey, ' -62')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23449,7 +23453,7 @@ def decrypt_64():
         if i == 1000 or x[:2] != '64':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -64')
+        #print(fkey, ' -64')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23463,7 +23467,7 @@ def decrypt_66():
         if i == 1000 or x[:2] != '66':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -66')
+        #print(fkey, ' -66')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23477,7 +23481,7 @@ def decrypt_68():
         if i == 1000 or x[:2] != '68':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -68')
+        #print(fkey, ' -68')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23491,7 +23495,7 @@ def decrypt_6excl():
         if i == 1000 or x[:2] != '6!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6!')
+        #print(fkey, ' -6!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23505,7 +23509,7 @@ def decrypt_6dquote():
         if i == 1000 or x[:2] != '6"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6"')
+        #print(fkey, ' -6"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23519,7 +23523,7 @@ def decrypt_6doll():
         if i == 1000 or x[:2] != '6$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6$')
+        #print(fkey, ' -6$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23533,7 +23537,7 @@ def decrypt_6and():
         if i == 1000 or x[:2] != '6&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6&')
+        #print(fkey, ' -6&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23547,7 +23551,7 @@ def decrypt_6quote():
         if i == 1000 or x[:2] != '6\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6\'')
+        #print(fkey, ' -6\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23561,7 +23565,7 @@ def decrypt_6par():
         if i == 1000 or x[:2] != '6(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6(')
+        #print(fkey, ' -6(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23575,7 +23579,7 @@ def decrypt_6ast():
         if i == 1000 or x[:2] != '6*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6*')
+        #print(fkey, ' -6*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23589,7 +23593,7 @@ def decrypt_6vir():
         if i == 1000 or x[:2] != '6,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6,')
+        #print(fkey, ' -6,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23603,7 +23607,7 @@ def decrypt_6pp():
         if i == 1000 or x[:2] != '6.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6.')
+        #print(fkey, ' -6.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23617,7 +23621,7 @@ def decrypt_6tp():
         if i == 1000 or x[:2] != '6:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6:')
+        #print(fkey, ' -6:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23631,7 +23635,7 @@ def decrypt_6less():
         if i == 1000 or x[:2] != '6<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6<')
+        #print(fkey, ' -6<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23645,7 +23649,7 @@ def decrypt_6more():
         if i == 1000 or x[:2] != '6>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6>')
+        #print(fkey, ' -6>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23659,7 +23663,7 @@ def decrypt_6aro():
         if i == 1000 or x[:2] != '6@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6@')
+        #print(fkey, ' -6@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23673,7 +23677,7 @@ def decrypt_6croc():
         if i == 1000 or x[:2] != '6[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6[')
+        #print(fkey, ' -6[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23687,7 +23691,7 @@ def decrypt_6bsl():
         if i == 1000 or x[:2] != '6\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6\\')
+        #print(fkey, ' -6\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23701,7 +23705,7 @@ def decrypt_6circ():
         if i == 1000 or x[:2] != '6^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6^')
+        #print(fkey, ' -6^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23715,7 +23719,7 @@ def decrypt_6esp():
         if i == 1000 or x[:2] != '6`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6`')
+        #print(fkey, ' -6`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23729,7 +23733,7 @@ def decrypt_6cr():
         if i == 1000 or x[:2] != '6{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6{')
+        #print(fkey, ' -6{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23743,7 +23747,7 @@ def decrypt_6hl():
         if i == 1000 or x[:2] != '6|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6|')
+        #print(fkey, ' -6|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23757,7 +23761,7 @@ def decrypt_6tild():
         if i == 1000 or x[:2] != '6~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -6~')
+        #print(fkey, ' -6~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23771,7 +23775,7 @@ def decrypt_8a():
         if i == 1000 or x[:2] != '8a':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8a')
+        #print(fkey, ' -8a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23785,7 +23789,7 @@ def decrypt_8b():
         if i == 1000 or x[:2] != '8b':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8b')
+        #print(fkey, ' -8b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23799,7 +23803,7 @@ def decrypt_8d():
         if i == 1000 or x[:2] != '8d':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8d')
+        #print(fkey, ' -8d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23813,7 +23817,7 @@ def decrypt_8f():
         if i == 1000 or x[:2] != '8f':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8f')
+        #print(fkey, ' -8f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23827,7 +23831,7 @@ def decrypt_8h():
         if i == 1000 or x[:2] != '8h':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8h')
+        #print(fkey, ' -8h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23841,7 +23845,7 @@ def decrypt_8j():
         if i == 1000 or x[:2] != '8j':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8j')
+        #print(fkey, ' -8j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23855,7 +23859,7 @@ def decrypt_8l():
         if i == 1000 or x[:2] != '8l':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8l')
+        #print(fkey, ' -8l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23869,7 +23873,7 @@ def decrypt_8n():
         if i == 1000 or x[:2] != '8n':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8n')
+        #print(fkey, ' -8n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23883,7 +23887,7 @@ def decrypt_8p():
         if i == 1000 or x[:2] != '8p':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8p')
+        #print(fkey, ' -8p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23897,7 +23901,7 @@ def decrypt_8r():
         if i == 1000 or x[:2] != '8r':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8r')
+        #print(fkey, ' -8r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23911,7 +23915,7 @@ def decrypt_8t():
         if i == 1000 or x[:2] != '8t':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8t')
+        #print(fkey, ' -8t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23925,7 +23929,7 @@ def decrypt_8v():
         if i == 1000 or x[:2] != '8v':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8v')
+        #print(fkey, ' -8v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23939,7 +23943,7 @@ def decrypt_8x():
         if i == 1000 or x[:2] != '8x':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8x')
+        #print(fkey, ' -8x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23953,7 +23957,7 @@ def decrypt_8z():
         if i == 1000 or x[:2] != '8z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8z')
+        #print(fkey, ' -8z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23967,7 +23971,7 @@ def decrypt_8A():
         if i == 1000 or x[:2] != '8A':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8A')
+        #print(fkey, ' -8A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23981,7 +23985,7 @@ def decrypt_8B():
         if i == 1000 or x[:2] != '8B':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8B')
+        #print(fkey, ' -8B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -23995,7 +23999,7 @@ def decrypt_8D():
         if i == 1000 or x[:2] != '8D':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8D')
+        #print(fkey, ' -8D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24009,7 +24013,7 @@ def decrypt_8F():
         if i == 1000 or x[:2] != '8F':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8F')
+        #print(fkey, ' -8F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24023,7 +24027,7 @@ def decrypt_8H():
         if i == 1000 or x[:2] != '8H':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8H')
+        #print(fkey, ' -8H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24037,7 +24041,7 @@ def decrypt_8J():
         if i == 1000 or x[:2] != '8J':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8J')
+        #print(fkey, ' -8J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24051,7 +24055,7 @@ def decrypt_8L():
         if i == 1000 or x[:2] != '8L':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8L')
+        #print(fkey, ' -8L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24065,7 +24069,7 @@ def decrypt_8N():
         if i == 1000 or x[:2] != '8N':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8N')
+        #print(fkey, ' -8N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24079,7 +24083,7 @@ def decrypt_8P():
         if i == 1000 or x[:2] != '8P':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8P')
+        #print(fkey, ' -8P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24093,7 +24097,7 @@ def decrypt_8R():
         if i == 1000 or x[:2] != '8R':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8R')
+        #print(fkey, ' -8R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24107,7 +24111,7 @@ def decrypt_8T():
         if i == 1000 or x[:2] != '8T':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8T')
+        #print(fkey, ' -8T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24121,7 +24125,7 @@ def decrypt_8V():
         if i == 1000 or x[:2] != '8V':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8V')
+        #print(fkey, ' -8V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24135,7 +24139,7 @@ def decrypt_8X():
         if i == 1000 or x[:2] != '8X':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8X')
+        #print(fkey, ' -8X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24149,7 +24153,7 @@ def decrypt_8Z():
         if i == 1000 or x[:2] != '8Z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8Z')
+        #print(fkey, ' -8Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24163,7 +24167,7 @@ def decrypt_80():
         if i == 1000 or x[:2] != '80':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -80')
+        #print(fkey, ' -80')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24177,7 +24181,7 @@ def decrypt_82():
         if i == 1000 or x[:2] != '82':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -82')
+        #print(fkey, ' -82')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24191,7 +24195,7 @@ def decrypt_84():
         if i == 1000 or x[:2] != '84':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -84')
+        #print(fkey, ' -84')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24205,7 +24209,7 @@ def decrypt_86():
         if i == 1000 or x[:2] != '86':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -86')
+        #print(fkey, ' -86')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24219,7 +24223,7 @@ def decrypt_88():
         if i == 1000 or x[:2] != '88':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -88')
+        #print(fkey, ' -88')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24233,7 +24237,7 @@ def decrypt_8excl():
         if i == 1000 or x[:2] != '8!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8!')
+        #print(fkey, ' -8!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24247,7 +24251,7 @@ def decrypt_8dquote():
         if i == 1000 or x[:2] != '8"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8"')
+        #print(fkey, ' -8"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24261,7 +24265,7 @@ def decrypt_8doll():
         if i == 1000 or x[:2] != '8$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8$')
+        #print(fkey, ' -8$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24275,7 +24279,7 @@ def decrypt_8and():
         if i == 1000 or x[:2] != '8&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8&')
+        #print(fkey, ' -8&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24289,7 +24293,7 @@ def decrypt_8quote():
         if i == 1000 or x[:2] != '8\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8\'')
+        #print(fkey, ' -8\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24303,7 +24307,7 @@ def decrypt_8par():
         if i == 1000 or x[:2] != '8(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8(')
+        #print(fkey, ' -8(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24317,7 +24321,7 @@ def decrypt_8ast():
         if i == 1000 or x[:2] != '8*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8*')
+        #print(fkey, ' -8*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24331,7 +24335,7 @@ def decrypt_8vir():
         if i == 1000 or x[:2] != '8,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8,')
+        #print(fkey, ' -8,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24345,7 +24349,7 @@ def decrypt_8pp():
         if i == 1000 or x[:2] != '8.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8.')
+        #print(fkey, ' -8.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24359,7 +24363,7 @@ def decrypt_8tp():
         if i == 1000 or x[:2] != '8:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8:')
+        #print(fkey, ' -8:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24373,7 +24377,7 @@ def decrypt_8less():
         if i == 1000 or x[:2] != '8<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8<')
+        #print(fkey, ' -8<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24387,7 +24391,7 @@ def decrypt_8more():
         if i == 1000 or x[:2] != '8>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8>')
+        #print(fkey, ' -8>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24401,7 +24405,7 @@ def decrypt_8aro():
         if i == 1000 or x[:2] != '8@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8@')
+        #print(fkey, ' -8@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24415,7 +24419,7 @@ def decrypt_8croc():
         if i == 1000 or x[:2] != '8[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8[')
+        #print(fkey, ' -8[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24429,7 +24433,7 @@ def decrypt_8bsl():
         if i == 1000 or x[:2] != '8\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8\\')
+        #print(fkey, ' -8\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24443,7 +24447,7 @@ def decrypt_8circ():
         if i == 1000 or x[:2] != '8^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8^')
+        #print(fkey, ' -8^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24457,7 +24461,7 @@ def decrypt_8esp():
         if i == 1000 or x[:2] != '8`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8`')
+        #print(fkey, ' -8`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24471,7 +24475,7 @@ def decrypt_8cr():
         if i == 1000 or x[:2] != '8{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8{')
+        #print(fkey, ' -8{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24485,7 +24489,7 @@ def decrypt_8hl():
         if i == 1000 or x[:2] != '8|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8|')
+        #print(fkey, ' -8|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24499,7 +24503,7 @@ def decrypt_8tild():
         if i == 1000 or x[:2] != '8~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -8~')
+        #print(fkey, ' -8~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24513,7 +24517,7 @@ def decrypt_excla():
         if i == 1000 or x[:2] != '!a':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!a')
+        #print(fkey, ' -!a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24527,7 +24531,7 @@ def decrypt_exclb():
         if i == 1000 or x[:2] != '!b':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!b')
+        #print(fkey, ' -!b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24541,7 +24545,7 @@ def decrypt_excld():
         if i == 1000 or x[:2] != '!d':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!d')
+        #print(fkey, ' -!d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24555,7 +24559,7 @@ def decrypt_exclf():
         if i == 1000 or x[:2] != '!f':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!f')
+        #print(fkey, ' -!f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24569,7 +24573,7 @@ def decrypt_exclh():
         if i == 1000 or x[:2] != '!h':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!h')
+        #print(fkey, ' -!h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24583,7 +24587,7 @@ def decrypt_exclj():
         if i == 1000 or x[:2] != '!j':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!j')
+        #print(fkey, ' -!j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24597,7 +24601,7 @@ def decrypt_excll():
         if i == 1000 or x[:2] != '!l':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!l')
+        #print(fkey, ' -!l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24611,7 +24615,7 @@ def decrypt_excln():
         if i == 1000 or x[:2] != '!n':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!n')
+        #print(fkey, ' -!n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24625,7 +24629,7 @@ def decrypt_exclp():
         if i == 1000 or x[:2] != '!p':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!p')
+        #print(fkey, ' -!p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24639,7 +24643,7 @@ def decrypt_exclr():
         if i == 1000 or x[:2] != '!r':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!r')
+        #print(fkey, ' -!r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24653,7 +24657,7 @@ def decrypt_exclt():
         if i == 1000 or x[:2] != '!t':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!t')
+        #print(fkey, ' -!t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24667,7 +24671,7 @@ def decrypt_exclv():
         if i == 1000 or x[:2] != '!v':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!v')
+        #print(fkey, ' -!v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24681,7 +24685,7 @@ def decrypt_exclx():
         if i == 1000 or x[:2] != '!x':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!x')
+        #print(fkey, ' -!x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24695,7 +24699,7 @@ def decrypt_exclz():
         if i == 1000 or x[:2] != '!z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!z')
+        #print(fkey, ' -!z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24709,7 +24713,7 @@ def decrypt_exclA():
         if i == 1000 or x[:2] != '!A':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!A')
+        #print(fkey, ' -!A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24723,7 +24727,7 @@ def decrypt_exclB():
         if i == 1000 or x[:2] != '!B':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!B')
+        #print(fkey, ' -!B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24737,7 +24741,7 @@ def decrypt_exclD():
         if i == 1000 or x[:2] != '!D':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!D')
+        #print(fkey, ' -!D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24751,7 +24755,7 @@ def decrypt_exclF():
         if i == 1000 or x[:2] != '!F':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!F')
+        #print(fkey, ' -!F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24765,7 +24769,7 @@ def decrypt_exclH():
         if i == 1000 or x[:2] != '!H':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!H')
+        #print(fkey, ' -!H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24779,7 +24783,7 @@ def decrypt_exclJ():
         if i == 1000 or x[:2] != '!J':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!J')
+        #print(fkey, ' -!J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24793,7 +24797,7 @@ def decrypt_exclL():
         if i == 1000 or x[:2] != '!L':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!L')
+        #print(fkey, ' -!L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24807,7 +24811,7 @@ def decrypt_exclN():
         if i == 1000 or x[:2] != '!N':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!N')
+        #print(fkey, ' -!N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24821,7 +24825,7 @@ def decrypt_exclP():
         if i == 1000 or x[:2] != '!P':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!P')
+        #print(fkey, ' -!P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24835,7 +24839,7 @@ def decrypt_exclR():
         if i == 1000 or x[:2] != '!R':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!R')
+        #print(fkey, ' -!R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24849,7 +24853,7 @@ def decrypt_exclT():
         if i == 1000 or x[:2] != '!T':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!T')
+        #print(fkey, ' -!T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24863,7 +24867,7 @@ def decrypt_exclV():
         if i == 1000 or x[:2] != '!V':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!V')
+        #print(fkey, ' -!V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24877,7 +24881,7 @@ def decrypt_exclX():
         if i == 1000 or x[:2] != '!X':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!X')
+        #print(fkey, ' -!X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24891,7 +24895,7 @@ def decrypt_exclZ():
         if i == 1000 or x[:2] != '!Z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!Z')
+        #print(fkey, ' -!Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24905,7 +24909,7 @@ def decrypt_excl0():
         if i == 1000 or x[:2] != '!0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!0')
+        #print(fkey, ' -!0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24919,7 +24923,7 @@ def decrypt_excl2():
         if i == 1000 or x[:2] != '!2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!2')
+        #print(fkey, ' -!2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24933,7 +24937,7 @@ def decrypt_excl4():
         if i == 1000 or x[:2] != '!4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!4')
+        #print(fkey, ' -!4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24947,7 +24951,7 @@ def decrypt_excl6():
         if i == 1000 or x[:2] != '!6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!6')
+        #print(fkey, ' -!6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24961,7 +24965,7 @@ def decrypt_excl8():
         if i == 1000 or x[:2] != '!8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!8')
+        #print(fkey, ' -!8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24975,7 +24979,7 @@ def decrypt_exclexcl():
         if i == 1000 or x[:2] != '!!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!!')
+        #print(fkey, ' -!!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -24989,7 +24993,7 @@ def decrypt_excldquote():
         if i == 1000 or x[:2] != '!"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!"')
+        #print(fkey, ' -!"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25003,7 +25007,7 @@ def decrypt_excldoll():
         if i == 1000 or x[:2] != '!$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!$')
+        #print(fkey, ' -!$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25017,7 +25021,7 @@ def decrypt_excland():
         if i == 1000 or x[:2] != '!&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!&')
+        #print(fkey, ' -!&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25031,7 +25035,7 @@ def decrypt_exclquote():
         if i == 1000 or x[:2] != '!\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!\'')
+        #print(fkey, ' -!\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25045,7 +25049,7 @@ def decrypt_exclpar():
         if i == 1000 or x[:2] != 'excl(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -excl(')
+        #print(fkey, ' -excl(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25059,7 +25063,7 @@ def decrypt_exclast():
         if i == 1000 or x[:2] != '!*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!*')
+        #print(fkey, ' -!*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25073,7 +25077,7 @@ def decrypt_exclvir():
         if i == 1000 or x[:2] != '!,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!,')
+        #print(fkey, ' -!,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25087,7 +25091,7 @@ def decrypt_exclpp():
         if i == 1000 or x[:2] != '!.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!.')
+        #print(fkey, ' -!.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25101,7 +25105,7 @@ def decrypt_excltp():
         if i == 1000 or x[:2] != '!:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!:')
+        #print(fkey, ' -!:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25115,7 +25119,7 @@ def decrypt_exclless():
         if i == 1000 or x[:2] != '!<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!<')
+        #print(fkey, ' -!<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25129,7 +25133,7 @@ def decrypt_exclmore():
         if i == 1000 or x[:2] != '!>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!>')
+        #print(fkey, ' -!>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25143,7 +25147,7 @@ def decrypt_exclaro():
         if i == 1000 or x[:2] != '!@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!@')
+        #print(fkey, ' -!@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25157,7 +25161,7 @@ def decrypt_exclcroc():
         if i == 1000 or x[:2] != '![':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -![')
+        #print(fkey, ' -![')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25171,7 +25175,7 @@ def decrypt_exclbsl():
         if i == 1000 or x[:2] != '!\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!\\')
+        #print(fkey, ' -!\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25185,7 +25189,7 @@ def decrypt_exclcirc():
         if i == 1000 or x[:2] != '!^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!^')
+        #print(fkey, ' -!^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25199,7 +25203,7 @@ def decrypt_exclesp():
         if i == 1000 or x[:2] != '!`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!`')
+        #print(fkey, ' -!`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25213,7 +25217,7 @@ def decrypt_exclcr():
         if i == 1000 or x[:2] != '!{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!{')
+        #print(fkey, ' -!{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25227,7 +25231,7 @@ def decrypt_exclhl():
         if i == 1000 or x[:2] != '!|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!|')
+        #print(fkey, ' -!|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25241,7 +25245,7 @@ def decrypt_excltild():
         if i == 1000 or x[:2] != '!~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -!~')
+        #print(fkey, ' -!~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25255,7 +25259,7 @@ def decrypt_doubquota():
         if i == 1000 or x[:2] != '"a':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"a')
+        #print(fkey, ' -"a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25269,7 +25273,7 @@ def decrypt_doubquotb():
         if i == 1000 or x[:2] != '"b':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"b')
+        #print(fkey, ' -"b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25283,7 +25287,7 @@ def decrypt_doubquotd():
         if i == 1000 or x[:2] != '"d':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"d')
+        #print(fkey, ' -"d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25297,7 +25301,7 @@ def decrypt_doubquotf():
         if i == 1000 or x[:2] != '"f':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"f')
+        #print(fkey, ' -"f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25311,7 +25315,7 @@ def decrypt_doubquoth():
         if i == 1000 or x[:2] != '"h':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"h')
+        #print(fkey, ' -"h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25325,7 +25329,7 @@ def decrypt_doubquotj():
         if i == 1000 or x[:2] != '"j':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"j')
+        #print(fkey, ' -"j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25339,7 +25343,7 @@ def decrypt_doubquotl():
         if i == 1000 or x[:2] != '"l':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"l')
+        #print(fkey, ' -"l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25353,7 +25357,7 @@ def decrypt_doubquotn():
         if i == 1000 or x[:2] != '"n':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"n')
+        #print(fkey, ' -"n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25367,7 +25371,7 @@ def decrypt_doubquotp():
         if i == 1000 or x[:2] != '"p':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"p')
+        #print(fkey, ' -"p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25381,7 +25385,7 @@ def decrypt_doubquotr():
         if i == 1000 or x[:2] != '"r':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"r')
+        #print(fkey, ' -"r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25395,7 +25399,7 @@ def decrypt_doubquott():
         if i == 1000 or x[:2] != '"t':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"t')
+        #print(fkey, ' -"t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25409,7 +25413,7 @@ def decrypt_doubquotv():
         if i == 1000 or x[:2] != '"v':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"v')
+        #print(fkey, ' -"v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25423,7 +25427,7 @@ def decrypt_doubquotx():
         if i == 1000 or x[:2] != '"x':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"x')
+        #print(fkey, ' -"x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25437,7 +25441,7 @@ def decrypt_doubquotz():
         if i == 1000 or x[:2] != '"z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"z')
+        #print(fkey, ' -"z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25451,7 +25455,7 @@ def decrypt_doubquotA():
         if i == 1000 or x[:2] != '"A':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"A')
+        #print(fkey, ' -"A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25465,7 +25469,7 @@ def decrypt_doubquotB():
         if i == 1000 or x[:2] != '"B':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"B')
+        #print(fkey, ' -"B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25479,7 +25483,7 @@ def decrypt_doubquotD():
         if i == 1000 or x[:2] != '"D':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"D')
+        #print(fkey, ' -"D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25493,7 +25497,7 @@ def decrypt_doubquotF():
         if i == 1000 or x[:2] != '"F':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"F')
+        #print(fkey, ' -"F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25507,7 +25511,7 @@ def decrypt_doubquotH():
         if i == 1000 or x[:2] != '"H':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"H')
+        #print(fkey, ' -"H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25521,7 +25525,7 @@ def decrypt_doubquotJ():
         if i == 1000 or x[:2] != '"J':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"J')
+        #print(fkey, ' -"J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25535,7 +25539,7 @@ def decrypt_doubquotL():
         if i == 1000 or x[:2] != '"L':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"L')
+        #print(fkey, ' -"L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25549,7 +25553,7 @@ def decrypt_doubquotN():
         if i == 1000 or x[:2] != '"N':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"N')
+        #print(fkey, ' -"N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25563,7 +25567,7 @@ def decrypt_doubquotP():
         if i == 1000 or x[:2] != '"P':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"P')
+        #print(fkey, ' -"P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25577,7 +25581,7 @@ def decrypt_doubquotR():
         if i == 1000 or x[:2] != '"R':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"R')
+        #print(fkey, ' -"R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25591,7 +25595,7 @@ def decrypt_doubquotT():
         if i == 1000 or x[:2] != '"T':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"T')
+        #print(fkey, ' -"T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25605,7 +25609,7 @@ def decrypt_doubquotV():
         if i == 1000 or x[:2] != '"V':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"V')
+        #print(fkey, ' -"V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25619,7 +25623,7 @@ def decrypt_doubquotX():
         if i == 1000 or x[:2] != '"X':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"X')
+        #print(fkey, ' -"X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25633,7 +25637,7 @@ def decrypt_doubquotZ():
         if i == 1000 or x[:2] != '"Z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"Z')
+        #print(fkey, ' -"Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25647,7 +25651,7 @@ def decrypt_doubquot0():
         if i == 1000 or x[:2] != '"0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"0')
+        #print(fkey, ' -"0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25661,7 +25665,7 @@ def decrypt_doubquot2():
         if i == 1000 or x[:2] != '"2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"2')
+        #print(fkey, ' -"2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25675,7 +25679,7 @@ def decrypt_doubquot4():
         if i == 1000 or x[:2] != '"4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"4')
+        #print(fkey, ' -"4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25689,7 +25693,7 @@ def decrypt_doubquot6():
         if i == 1000 or x[:2] != '"6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"6')
+        #print(fkey, ' -"6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25703,7 +25707,7 @@ def decrypt_doubquot8():
         if i == 1000 or x[:2] != '"8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"8')
+        #print(fkey, ' -"8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25717,7 +25721,7 @@ def decrypt_doubquotexcl():
         if i == 1000 or x[:2] != '"!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"!')
+        #print(fkey, ' -"!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25731,7 +25735,7 @@ def decrypt_doubquotdquote():
         if i == 1000 or x[:2] != '""':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -""')
+        #print(fkey, ' -""')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25745,7 +25749,7 @@ def decrypt_doubquotdoll():
         if i == 1000 or x[:2] != '"$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"$')
+        #print(fkey, ' -"$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25759,7 +25763,7 @@ def decrypt_doubquotand():
         if i == 1000 or x[:2] != '"&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"&')
+        #print(fkey, ' -"&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25773,7 +25777,7 @@ def decrypt_doubquotquote():
         if i == 1000 or x[:2] != '"\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"\'')
+        #print(fkey, ' -"\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25787,7 +25791,7 @@ def decrypt_doubquotpar():
         if i == 1000 or x[:2] != 'dquote(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -dquote(')
+        #print(fkey, ' -dquote(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25801,7 +25805,7 @@ def decrypt_doubquotast():
         if i == 1000 or x[:2] != '"*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"*')
+        #print(fkey, ' -"*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25815,7 +25819,7 @@ def decrypt_doubquotvir():
         if i == 1000 or x[:2] != '",':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -",')
+        #print(fkey, ' -",')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25829,7 +25833,7 @@ def decrypt_doubquotpp():
         if i == 1000 or x[:2] != '".':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -".')
+        #print(fkey, ' -".')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25843,7 +25847,7 @@ def decrypt_doubquottp():
         if i == 1000 or x[:2] != '":':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -":')
+        #print(fkey, ' -":')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25857,7 +25861,7 @@ def decrypt_doubquotless():
         if i == 1000 or x[:2] != '"<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"<')
+        #print(fkey, ' -"<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25871,7 +25875,7 @@ def decrypt_doubquotmore():
         if i == 1000 or x[:2] != '">':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -">')
+        #print(fkey, ' -">')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25885,7 +25889,7 @@ def decrypt_doubquotaro():
         if i == 1000 or x[:2] != '"@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"@')
+        #print(fkey, ' -"@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25899,7 +25903,7 @@ def decrypt_doubquotcroc():
         if i == 1000 or x[:2] != '"[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"[')
+        #print(fkey, ' -"[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25913,7 +25917,7 @@ def decrypt_doubquotbsl():
         if i == 1000 or x[:2] != '"\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"\\')
+        #print(fkey, ' -"\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25927,7 +25931,7 @@ def decrypt_doubquotcirc():
         if i == 1000 or x[:2] != '"^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"^')
+        #print(fkey, ' -"^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25941,7 +25945,7 @@ def decrypt_doubquotesp():
         if i == 1000 or x[:2] != '"`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"`')
+        #print(fkey, ' -"`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25955,7 +25959,7 @@ def decrypt_doubquotcr():
         if i == 1000 or x[:2] != '"{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"{')
+        #print(fkey, ' -"{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25969,7 +25973,7 @@ def decrypt_doubquothl():
         if i == 1000 or x[:2] != '"|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"|')
+        #print(fkey, ' -"|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25983,7 +25987,7 @@ def decrypt_doubquottild():
         if i == 1000 or x[:2] != '"~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -"~')
+        #print(fkey, ' -"~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -25997,7 +26001,7 @@ def decrypt_dolla():
         if i == 1000 or x[:2] != '$a':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$a')
+        #print(fkey, ' -$a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26011,7 +26015,7 @@ def decrypt_dollb():
         if i == 1000 or x[:2] != '$b':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$b')
+        #print(fkey, ' -$b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26025,7 +26029,7 @@ def decrypt_dolld():
         if i == 1000 or x[:2] != '$d':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$d')
+        #print(fkey, ' -$d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26039,7 +26043,7 @@ def decrypt_dollf():
         if i == 1000 or x[:2] != '$f':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$f')
+        #print(fkey, ' -$f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26053,7 +26057,7 @@ def decrypt_dollh():
         if i == 1000 or x[:2] != '$h':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$h')
+        #print(fkey, ' -$h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26067,7 +26071,7 @@ def decrypt_dollj():
         if i == 1000 or x[:2] != '$j':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$j')
+        #print(fkey, ' -$j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26081,7 +26085,7 @@ def decrypt_dolll():
         if i == 1000 or x[:2] != '$l':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$l')
+        #print(fkey, ' -$l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26095,7 +26099,7 @@ def decrypt_dolln():
         if i == 1000 or x[:2] != '$n':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$n')
+        #print(fkey, ' -$n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26109,7 +26113,7 @@ def decrypt_dollp():
         if i == 1000 or x[:2] != '$p':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$p')
+        #print(fkey, ' -$p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26123,7 +26127,7 @@ def decrypt_dollr():
         if i == 1000 or x[:2] != '$r':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$r')
+        #print(fkey, ' -$r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26137,7 +26141,7 @@ def decrypt_dollt():
         if i == 1000 or x[:2] != '$t':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$t')
+        #print(fkey, ' -$t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26151,7 +26155,7 @@ def decrypt_dollv():
         if i == 1000 or x[:2] != '$v':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$v')
+        #print(fkey, ' -$v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26165,7 +26169,7 @@ def decrypt_dollx():
         if i == 1000 or x[:2] != '$x':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$x')
+        #print(fkey, ' -$x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26179,7 +26183,7 @@ def decrypt_dollz():
         if i == 1000 or x[:2] != '$z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$z')
+        #print(fkey, ' -$z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26193,7 +26197,7 @@ def decrypt_dollA():
         if i == 1000 or x[:2] != '$A':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$A')
+        #print(fkey, ' -$A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26207,7 +26211,7 @@ def decrypt_dollB():
         if i == 1000 or x[:2] != '$B':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$B')
+        #print(fkey, ' -$B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26221,7 +26225,7 @@ def decrypt_dollD():
         if i == 1000 or x[:2] != '$D':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$D')
+        #print(fkey, ' -$D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26235,7 +26239,7 @@ def decrypt_dollF():
         if i == 1000 or x[:2] != '$F':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$F')
+        #print(fkey, ' -$F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26249,7 +26253,7 @@ def decrypt_dollH():
         if i == 1000 or x[:2] != '$H':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$H')
+        #print(fkey, ' -$H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26263,7 +26267,7 @@ def decrypt_dollJ():
         if i == 1000 or x[:2] != '$J':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$J')
+        #print(fkey, ' -$J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26277,7 +26281,7 @@ def decrypt_dollL():
         if i == 1000 or x[:2] != '$L':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$L')
+        #print(fkey, ' -$L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26291,7 +26295,7 @@ def decrypt_dollN():
         if i == 1000 or x[:2] != '$N':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$N')
+        #print(fkey, ' -$N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26305,7 +26309,7 @@ def decrypt_dollP():
         if i == 1000 or x[:2] != '$P':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$P')
+        #print(fkey, ' -$P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26319,7 +26323,7 @@ def decrypt_dollR():
         if i == 1000 or x[:2] != '$R':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$R')
+        #print(fkey, ' -$R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26333,7 +26337,7 @@ def decrypt_dollT():
         if i == 1000 or x[:2] != '$T':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$T')
+        #print(fkey, ' -$T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26347,7 +26351,7 @@ def decrypt_dollV():
         if i == 1000 or x[:2] != '$V':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$V')
+        #print(fkey, ' -$V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26361,7 +26365,7 @@ def decrypt_dollX():
         if i == 1000 or x[:2] != '$X':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$X')
+        #print(fkey, ' -$X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26375,7 +26379,7 @@ def decrypt_dollZ():
         if i == 1000 or x[:2] != '$Z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$Z')
+        #print(fkey, ' -$Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26389,7 +26393,7 @@ def decrypt_doll0():
         if i == 1000 or x[:2] != '$0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$0')
+        #print(fkey, ' -$0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26403,7 +26407,7 @@ def decrypt_doll2():
         if i == 1000 or x[:2] != '$2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$2')
+        #print(fkey, ' -$2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26417,7 +26421,7 @@ def decrypt_doll4():
         if i == 1000 or x[:2] != '$4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$4')
+        #print(fkey, ' -$4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26431,7 +26435,7 @@ def decrypt_doll6():
         if i == 1000 or x[:2] != '$6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$6')
+        #print(fkey, ' -$6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26445,7 +26449,7 @@ def decrypt_doll8():
         if i == 1000 or x[:2] != '$8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$8')
+        #print(fkey, ' -$8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26459,7 +26463,7 @@ def decrypt_dollexcl():
         if i == 1000 or x[:2] != '$!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$!')
+        #print(fkey, ' -$!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26473,7 +26477,7 @@ def decrypt_dolldquote():
         if i == 1000 or x[:2] != '$"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$"')
+        #print(fkey, ' -$"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26487,7 +26491,7 @@ def decrypt_dolldoll():
         if i == 1000 or x[:2] != '$$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$$')
+        #print(fkey, ' -$$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26501,7 +26505,7 @@ def decrypt_dolland():
         if i == 1000 or x[:2] != '$&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$&')
+        #print(fkey, ' -$&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26515,7 +26519,7 @@ def decrypt_dollquote():
         if i == 1000 or x[:2] != '$\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$\'')
+        #print(fkey, ' -$\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26529,7 +26533,7 @@ def decrypt_dollpar():
         if i == 1000 or x[:2] != 'doll(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -doll(')
+        #print(fkey, ' -doll(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26543,7 +26547,7 @@ def decrypt_dollast():
         if i == 1000 or x[:2] != '$*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$*')
+        #print(fkey, ' -$*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26557,7 +26561,7 @@ def decrypt_dollvir():
         if i == 1000 or x[:2] != '$,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$,')
+        #print(fkey, ' -$,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26571,7 +26575,7 @@ def decrypt_dollpp():
         if i == 1000 or x[:2] != '$.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$.')
+        #print(fkey, ' -$.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26585,7 +26589,7 @@ def decrypt_dolltp():
         if i == 1000 or x[:2] != '$:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$:')
+        #print(fkey, ' -$:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26599,7 +26603,7 @@ def decrypt_dollless():
         if i == 1000 or x[:2] != '$<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$<')
+        #print(fkey, ' -$<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26613,7 +26617,7 @@ def decrypt_dollmore():
         if i == 1000 or x[:2] != '$>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$>')
+        #print(fkey, ' -$>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26627,7 +26631,7 @@ def decrypt_dollaro():
         if i == 1000 or x[:2] != '$@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$@')
+        #print(fkey, ' -$@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26641,7 +26645,7 @@ def decrypt_dollcroc():
         if i == 1000 or x[:2] != '$[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$[')
+        #print(fkey, ' -$[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26655,7 +26659,7 @@ def decrypt_dollbsl():
         if i == 1000 or x[:2] != '$\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$\\')
+        #print(fkey, ' -$\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26669,7 +26673,7 @@ def decrypt_dollcirc():
         if i == 1000 or x[:2] != '$^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$^')
+        #print(fkey, ' -$^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26683,7 +26687,7 @@ def decrypt_dollesp():
         if i == 1000 or x[:2] != '$`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$`')
+        #print(fkey, ' -$`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26697,7 +26701,7 @@ def decrypt_dollcr():
         if i == 1000 or x[:2] != '${':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -${')
+        #print(fkey, ' -${')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26711,7 +26715,7 @@ def decrypt_dollhl():
         if i == 1000 or x[:2] != '$|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$|')
+        #print(fkey, ' -$|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26725,7 +26729,7 @@ def decrypt_dolltild():
         if i == 1000 or x[:2] != '$~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -$~')
+        #print(fkey, ' -$~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26739,7 +26743,7 @@ def decryptespaa():
         if i == 1000 or x[:2] != '&a':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&a')
+        #print(fkey, ' -&a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26753,7 +26757,7 @@ def decryptespab():
         if i == 1000 or x[:2] != '&b':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&b')
+        #print(fkey, ' -&b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26767,7 +26771,7 @@ def decryptespad():
         if i == 1000 or x[:2] != '&d':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&d')
+        #print(fkey, ' -&d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26781,7 +26785,7 @@ def decryptespaf():
         if i == 1000 or x[:2] != '&f':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&f')
+        #print(fkey, ' -&f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26795,7 +26799,7 @@ def decryptespah():
         if i == 1000 or x[:2] != '&h':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&h')
+        #print(fkey, ' -&h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26809,7 +26813,7 @@ def decryptespaj():
         if i == 1000 or x[:2] != '&j':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&j')
+        #print(fkey, ' -&j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26823,7 +26827,7 @@ def decryptespal():
         if i == 1000 or x[:2] != '&l':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&l')
+        #print(fkey, ' -&l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26837,7 +26841,7 @@ def decryptespan():
         if i == 1000 or x[:2] != '&n':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&n')
+        #print(fkey, ' -&n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26851,7 +26855,7 @@ def decryptespap():
         if i == 1000 or x[:2] != '&p':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&p')
+        #print(fkey, ' -&p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26865,7 +26869,7 @@ def decryptespar():
         if i == 1000 or x[:2] != '&r':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&r')
+        #print(fkey, ' -&r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26879,7 +26883,7 @@ def decryptespat():
         if i == 1000 or x[:2] != '&t':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&t')
+        #print(fkey, ' -&t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26893,7 +26897,7 @@ def decryptespav():
         if i == 1000 or x[:2] != '&v':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&v')
+        #print(fkey, ' -&v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26907,7 +26911,7 @@ def decryptespax():
         if i == 1000 or x[:2] != '&x':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&x')
+        #print(fkey, ' -&x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26921,7 +26925,7 @@ def decryptespaz():
         if i == 1000 or x[:2] != '&z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&z')
+        #print(fkey, ' -&z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26935,7 +26939,7 @@ def decryptespaA():
         if i == 1000 or x[:2] != '&A':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&A')
+        #print(fkey, ' -&A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26949,7 +26953,7 @@ def decryptespaB():
         if i == 1000 or x[:2] != '&B':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&B')
+        #print(fkey, ' -&B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26963,7 +26967,7 @@ def decryptespaD():
         if i == 1000 or x[:2] != '&D':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&D')
+        #print(fkey, ' -&D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26977,7 +26981,7 @@ def decryptespaF():
         if i == 1000 or x[:2] != '&F':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&F')
+        #print(fkey, ' -&F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -26991,7 +26995,7 @@ def decryptespaH():
         if i == 1000 or x[:2] != '&H':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&H')
+        #print(fkey, ' -&H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27005,7 +27009,7 @@ def decryptespaJ():
         if i == 1000 or x[:2] != '&J':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&J')
+        #print(fkey, ' -&J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27019,7 +27023,7 @@ def decryptespaL():
         if i == 1000 or x[:2] != '&L':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&L')
+        #print(fkey, ' -&L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27033,7 +27037,7 @@ def decryptespaN():
         if i == 1000 or x[:2] != '&N':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&N')
+        #print(fkey, ' -&N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27047,7 +27051,7 @@ def decryptespaP():
         if i == 1000 or x[:2] != '&P':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&P')
+        #print(fkey, ' -&P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27061,7 +27065,7 @@ def decryptespaR():
         if i == 1000 or x[:2] != '&R':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&R')
+        #print(fkey, ' -&R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27075,7 +27079,7 @@ def decryptespaT():
         if i == 1000 or x[:2] != '&T':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&T')
+        #print(fkey, ' -&T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27089,7 +27093,7 @@ def decryptespaV():
         if i == 1000 or x[:2] != '&V':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&V')
+        #print(fkey, ' -&V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27103,7 +27107,7 @@ def decryptespaX():
         if i == 1000 or x[:2] != '&X':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&X')
+        #print(fkey, ' -&X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27117,7 +27121,7 @@ def decryptespaZ():
         if i == 1000 or x[:2] != '&Z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&Z')
+        #print(fkey, ' -&Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27131,7 +27135,7 @@ def decryptespa0():
         if i == 1000 or x[:2] != '&0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&0')
+        #print(fkey, ' -&0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27145,7 +27149,7 @@ def decryptespa2():
         if i == 1000 or x[:2] != '&2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&2')
+        #print(fkey, ' -&2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27159,7 +27163,7 @@ def decryptespa4():
         if i == 1000 or x[:2] != '&4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&4')
+        #print(fkey, ' -&4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27173,7 +27177,7 @@ def decryptespa6():
         if i == 1000 or x[:2] != '&6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&6')
+        #print(fkey, ' -&6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27187,7 +27191,7 @@ def decryptespa8():
         if i == 1000 or x[:2] != '&8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&8')
+        #print(fkey, ' -&8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27201,7 +27205,7 @@ def decryptespaexcl():
         if i == 1000 or x[:2] != '&!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&!')
+        #print(fkey, ' -&!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27215,7 +27219,7 @@ def decryptespadquote():
         if i == 1000 or x[:2] != '&"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&"')
+        #print(fkey, ' -&"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27229,7 +27233,7 @@ def decryptespadoll():
         if i == 1000 or x[:2] != '&$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&$')
+        #print(fkey, ' -&$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27243,7 +27247,7 @@ def decryptespaand():
         if i == 1000 or x[:2] != '&&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&&')
+        #print(fkey, ' -&&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27257,7 +27261,7 @@ def decryptespaquote():
         if i == 1000 or x[:2] != '&\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&\'')
+        #print(fkey, ' -&\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27271,7 +27275,7 @@ def decryptespapar():
         if i == 1000 or x[:2] != 'and(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -and(')
+        #print(fkey, ' -and(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27285,7 +27289,7 @@ def decryptespaast():
         if i == 1000 or x[:2] != '&*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&*')
+        #print(fkey, ' -&*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27299,7 +27303,7 @@ def decryptespavir():
         if i == 1000 or x[:2] != '&,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&,')
+        #print(fkey, ' -&,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27313,7 +27317,7 @@ def decryptespapp():
         if i == 1000 or x[:2] != '&.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&.')
+        #print(fkey, ' -&.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27327,7 +27331,7 @@ def decryptespatp():
         if i == 1000 or x[:2] != '&:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&:')
+        #print(fkey, ' -&:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27341,7 +27345,7 @@ def decryptespaless():
         if i == 1000 or x[:2] != '&<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&<')
+        #print(fkey, ' -&<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27355,7 +27359,7 @@ def decryptespamore():
         if i == 1000 or x[:2] != '&>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&>')
+        #print(fkey, ' -&>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27369,7 +27373,7 @@ def decryptespaaro():
         if i == 1000 or x[:2] != '&@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&@')
+        #print(fkey, ' -&@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27383,7 +27387,7 @@ def decryptespacroc():
         if i == 1000 or x[:2] != '&[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&[')
+        #print(fkey, ' -&[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27397,7 +27401,7 @@ def decryptespabsl():
         if i == 1000 or x[:2] != '&\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&\\')
+        #print(fkey, ' -&\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27411,7 +27415,7 @@ def decryptespacirc():
         if i == 1000 or x[:2] != '&^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&^')
+        #print(fkey, ' -&^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27425,7 +27429,7 @@ def decryptespaesp():
         if i == 1000 or x[:2] != '&`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&`')
+        #print(fkey, ' -&`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27439,7 +27443,7 @@ def decryptespacr():
         if i == 1000 or x[:2] != '&{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&{')
+        #print(fkey, ' -&{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27453,7 +27457,7 @@ def decryptespahl():
         if i == 1000 or x[:2] != '&|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&|')
+        #print(fkey, ' -&|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27467,7 +27471,7 @@ def decryptespatild():
         if i == 1000 or x[:2] != '&~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -&~')
+        #print(fkey, ' -&~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27481,7 +27485,7 @@ def decrypt_quota():
         if i == 1000 or x[:2] != '\'a':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'a')
+        #print(fkey, ' -\'a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27495,7 +27499,7 @@ def decrypt_quotb():
         if i == 1000 or x[:2] != '\'b':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'b')
+        #print(fkey, ' -\'b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27509,7 +27513,7 @@ def decrypt_quotd():
         if i == 1000 or x[:2] != '\'d':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'d')
+        #print(fkey, ' -\'d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27523,7 +27527,7 @@ def decrypt_quotf():
         if i == 1000 or x[:2] != '\'f':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'f')
+        #print(fkey, ' -\'f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27537,7 +27541,7 @@ def decrypt_quoth():
         if i == 1000 or x[:2] != '\'h':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'h')
+        #print(fkey, ' -\'h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27551,7 +27555,7 @@ def decrypt_quotj():
         if i == 1000 or x[:2] != '\'j':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'j')
+        #print(fkey, ' -\'j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27565,7 +27569,7 @@ def decrypt_quotl():
         if i == 1000 or x[:2] != '\'l':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'l')
+        #print(fkey, ' -\'l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27579,7 +27583,7 @@ def decrypt_quotn():
         if i == 1000 or x[:2] != '\'n':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'n')
+        #print(fkey, ' -\'n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27593,7 +27597,7 @@ def decrypt_quotp():
         if i == 1000 or x[:2] != '\'p':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'p')
+        #print(fkey, ' -\'p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27607,7 +27611,7 @@ def decrypt_quotr():
         if i == 1000 or x[:2] != '\'r':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'r')
+        #print(fkey, ' -\'r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27621,7 +27625,7 @@ def decrypt_quott():
         if i == 1000 or x[:2] != '\'t':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'t')
+        #print(fkey, ' -\'t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27635,7 +27639,7 @@ def decrypt_quotv():
         if i == 1000 or x[:2] != '\'v':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'v')
+        #print(fkey, ' -\'v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27649,7 +27653,7 @@ def decrypt_quotx():
         if i == 1000 or x[:2] != '\'x':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'x')
+        #print(fkey, ' -\'x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27663,7 +27667,7 @@ def decrypt_quotz():
         if i == 1000 or x[:2] != '\'z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'z')
+        #print(fkey, ' -\'z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27677,7 +27681,7 @@ def decrypt_quotA():
         if i == 1000 or x[:2] != '\'A':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'A')
+        #print(fkey, ' -\'A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27691,7 +27695,7 @@ def decrypt_quotB():
         if i == 1000 or x[:2] != '\'B':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'B')
+        #print(fkey, ' -\'B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27705,7 +27709,7 @@ def decrypt_quotD():
         if i == 1000 or x[:2] != '\'D':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'D')
+        #print(fkey, ' -\'D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27719,7 +27723,7 @@ def decrypt_quotF():
         if i == 1000 or x[:2] != '\'F':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'F')
+        #print(fkey, ' -\'F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27733,7 +27737,7 @@ def decrypt_quotH():
         if i == 1000 or x[:2] != '\'H':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'H')
+        #print(fkey, ' -\'H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27747,7 +27751,7 @@ def decrypt_quotJ():
         if i == 1000 or x[:2] != '\'J':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'J')
+        #print(fkey, ' -\'J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27761,7 +27765,7 @@ def decrypt_quotL():
         if i == 1000 or x[:2] != '\'L':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'L')
+        #print(fkey, ' -\'L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27775,7 +27779,7 @@ def decrypt_quotN():
         if i == 1000 or x[:2] != '\'N':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'N')
+        #print(fkey, ' -\'N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27789,7 +27793,7 @@ def decrypt_quotP():
         if i == 1000 or x[:2] != '\'P':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'P')
+        #print(fkey, ' -\'P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27803,7 +27807,7 @@ def decrypt_quotR():
         if i == 1000 or x[:2] != '\'R':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'R')
+        #print(fkey, ' -\'R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27817,7 +27821,7 @@ def decrypt_quotT():
         if i == 1000 or x[:2] != '\'T':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'T')
+        #print(fkey, ' -\'T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27831,7 +27835,7 @@ def decrypt_quotV():
         if i == 1000 or x[:2] != '\'V':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'V')
+        #print(fkey, ' -\'V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27845,7 +27849,7 @@ def decrypt_quotX():
         if i == 1000 or x[:2] != '\'X':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'X')
+        #print(fkey, ' -\'X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27859,7 +27863,7 @@ def decrypt_quotZ():
         if i == 1000 or x[:2] != '\'Z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'Z')
+        #print(fkey, ' -\'Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27873,7 +27877,7 @@ def decrypt_quot0():
         if i == 1000 or x[:2] != '\'0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'0')
+        #print(fkey, ' -\'0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27887,7 +27891,7 @@ def decrypt_quot2():
         if i == 1000 or x[:2] != '\'2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'2')
+        #print(fkey, ' -\'2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27901,7 +27905,7 @@ def decrypt_quot4():
         if i == 1000 or x[:2] != '\'4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'4')
+        #print(fkey, ' -\'4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27915,7 +27919,7 @@ def decrypt_quot6():
         if i == 1000 or x[:2] != '\'6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'6')
+        #print(fkey, ' -\'6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27929,7 +27933,7 @@ def decrypt_quot8():
         if i == 1000 or x[:2] != '\'8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'8')
+        #print(fkey, ' -\'8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27943,7 +27947,7 @@ def decrypt_quotexcl():
         if i == 1000 or x[:2] != '\'!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'!')
+        #print(fkey, ' -\'!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27957,7 +27961,7 @@ def decrypt_quotdquote():
         if i == 1000 or x[:2] != '\'"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'"')
+        #print(fkey, ' -\'"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27971,7 +27975,7 @@ def decrypt_quotdoll():
         if i == 1000 or x[:2] != '\'$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'$')
+        #print(fkey, ' -\'$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27985,7 +27989,7 @@ def decrypt_quotand():
         if i == 1000 or x[:2] != '\'&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'&')
+        #print(fkey, ' -\'&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -27999,7 +28003,7 @@ def decrypt_quotquote():
         if i == 1000 or x[:2] != '\'\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'\'')
+        #print(fkey, ' -\'\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28013,7 +28017,7 @@ def decrypt_quotpar():
         if i == 1000 or x[:2] != '\'(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'(')
+        #print(fkey, ' -\'(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28027,7 +28031,7 @@ def decrypt_quotast():
         if i == 1000 or x[:2] != '\'*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'*')
+        #print(fkey, ' -\'*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28041,7 +28045,7 @@ def decrypt_quotvir():
         if i == 1000 or x[:2] != '\',':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\',')
+        #print(fkey, ' -\',')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28055,7 +28059,7 @@ def decrypt_quotpp():
         if i == 1000 or x[:2] != '\'.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'.')
+        #print(fkey, ' -\'.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28069,7 +28073,7 @@ def decrypt_quottp():
         if i == 1000 or x[:2] != '\':':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\':')
+        #print(fkey, ' -\':')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28083,7 +28087,7 @@ def decrypt_quotless():
         if i == 1000 or x[:2] != '\'<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'<')
+        #print(fkey, ' -\'<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28097,7 +28101,7 @@ def decrypt_quotmore():
         if i == 1000 or x[:2] != '\'>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'>')
+        #print(fkey, ' -\'>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28111,7 +28115,7 @@ def decrypt_quotaro():
         if i == 1000 or x[:2] != '\'@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'@')
+        #print(fkey, ' -\'@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28125,7 +28129,7 @@ def decrypt_quotcroc():
         if i == 1000 or x[:2] != '\'[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'[')
+        #print(fkey, ' -\'[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28139,7 +28143,7 @@ def decrypt_quotbsl():
         if i == 1000 or x[:2] != '\'\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'\\')
+        #print(fkey, ' -\'\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28153,7 +28157,7 @@ def decrypt_quotcirc():
         if i == 1000 or x[:2] != '\'^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'^')
+        #print(fkey, ' -\'^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28167,7 +28171,7 @@ def decrypt_quotesp():
         if i == 1000 or x[:2] != '\'`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'`')
+        #print(fkey, ' -\'`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28181,7 +28185,7 @@ def decrypt_quotcr():
         if i == 1000 or x[:2] != '\'{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'{')
+        #print(fkey, ' -\'{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28195,7 +28199,7 @@ def decrypt_quothl():
         if i == 1000 or x[:2] != '\'|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'|')
+        #print(fkey, ' -\'|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28209,7 +28213,7 @@ def decrypt_quottild():
         if i == 1000 or x[:2] != '\'~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\'~')
+        #print(fkey, ' -\'~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28223,7 +28227,7 @@ def decrypt_parena():
         if i == 1000 or x[:2] != '(a':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(a')
+        #print(fkey, ' -(a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28237,7 +28241,7 @@ def decrypt_parenb():
         if i == 1000 or x[:2] != '(b':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(b')
+        #print(fkey, ' -(b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28251,7 +28255,7 @@ def decrypt_parend():
         if i == 1000 or x[:2] != '(d':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(d')
+        #print(fkey, ' -(d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28265,7 +28269,7 @@ def decrypt_parenf():
         if i == 1000 or x[:2] != '(f':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(f')
+        #print(fkey, ' -(f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28279,7 +28283,7 @@ def decrypt_parenh():
         if i == 1000 or x[:2] != '(h':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(h')
+        #print(fkey, ' -(h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28293,7 +28297,7 @@ def decrypt_parenj():
         if i == 1000 or x[:2] != '(j':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(j')
+        #print(fkey, ' -(j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28307,7 +28311,7 @@ def decrypt_parenl():
         if i == 1000 or x[:2] != '(l':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(l')
+        #print(fkey, ' -(l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28321,7 +28325,7 @@ def decrypt_parenn():
         if i == 1000 or x[:2] != '(n':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(n')
+        #print(fkey, ' -(n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28335,7 +28339,7 @@ def decrypt_parenp():
         if i == 1000 or x[:2] != '(p':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(p')
+        #print(fkey, ' -(p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28349,7 +28353,7 @@ def decrypt_parenr():
         if i == 1000 or x[:2] != '(r':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(r')
+        #print(fkey, ' -(r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28363,7 +28367,7 @@ def decrypt_parent():
         if i == 1000 or x[:2] != '(t':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(t')
+        #print(fkey, ' -(t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28377,7 +28381,7 @@ def decrypt_parenv():
         if i == 1000 or x[:2] != '(v':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(v')
+        #print(fkey, ' -(v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28391,7 +28395,7 @@ def decrypt_parenx():
         if i == 1000 or x[:2] != '(x':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(x')
+        #print(fkey, ' -(x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28405,7 +28409,7 @@ def decrypt_parenz():
         if i == 1000 or x[:2] != '(z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(z')
+        #print(fkey, ' -(z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28419,7 +28423,7 @@ def decrypt_parenA():
         if i == 1000 or x[:2] != '(A':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(A')
+        #print(fkey, ' -(A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28433,7 +28437,7 @@ def decrypt_parenB():
         if i == 1000 or x[:2] != '(B':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(B')
+        #print(fkey, ' -(B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28447,7 +28451,7 @@ def decrypt_parenD():
         if i == 1000 or x[:2] != '(D':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(D')
+        #print(fkey, ' -(D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28461,7 +28465,7 @@ def decrypt_parenF():
         if i == 1000 or x[:2] != '(F':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(F')
+        #print(fkey, ' -(F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28475,7 +28479,7 @@ def decrypt_parenH():
         if i == 1000 or x[:2] != '(H':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(H')
+        #print(fkey, ' -(H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28489,7 +28493,7 @@ def decrypt_parenJ():
         if i == 1000 or x[:2] != '(J':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(J')
+        #print(fkey, ' -(J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28503,7 +28507,7 @@ def decrypt_parenL():
         if i == 1000 or x[:2] != '(L':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(L')
+        #print(fkey, ' -(L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28517,7 +28521,7 @@ def decrypt_parenN():
         if i == 1000 or x[:2] != '(N':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(N')
+        #print(fkey, ' -(N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28531,7 +28535,7 @@ def decrypt_parenP():
         if i == 1000 or x[:2] != '(P':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(P')
+        #print(fkey, ' -(P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28545,7 +28549,7 @@ def decrypt_parenR():
         if i == 1000 or x[:2] != '(R':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(R')
+        #print(fkey, ' -(R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28559,7 +28563,7 @@ def decrypt_parenT():
         if i == 1000 or x[:2] != '(T':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(T')
+        #print(fkey, ' -(T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28573,7 +28577,7 @@ def decrypt_parenV():
         if i == 1000 or x[:2] != '(V':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(V')
+        #print(fkey, ' -(V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28587,7 +28591,7 @@ def decrypt_parenX():
         if i == 1000 or x[:2] != '(X':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(X')
+        #print(fkey, ' -(X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28601,7 +28605,7 @@ def decrypt_parenZ():
         if i == 1000 or x[:2] != '(Z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(Z')
+        #print(fkey, ' -(Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28615,7 +28619,7 @@ def decrypt_paren0():
         if i == 1000 or x[:2] != '(0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(0')
+        #print(fkey, ' -(0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28629,7 +28633,7 @@ def decrypt_paren2():
         if i == 1000 or x[:2] != '(2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(2')
+        #print(fkey, ' -(2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28643,7 +28647,7 @@ def decrypt_paren4():
         if i == 1000 or x[:2] != '(4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(4')
+        #print(fkey, ' -(4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28657,7 +28661,7 @@ def decrypt_paren6():
         if i == 1000 or x[:2] != '(6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(6')
+        #print(fkey, ' -(6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28671,7 +28675,7 @@ def decrypt_paren8():
         if i == 1000 or x[:2] != '(8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(8')
+        #print(fkey, ' -(8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28685,7 +28689,7 @@ def decrypt_parenexcl():
         if i == 1000 or x[:2] != '(!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(!')
+        #print(fkey, ' -(!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28699,7 +28703,7 @@ def decrypt_parendquote():
         if i == 1000 or x[:2] != '("':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -("')
+        #print(fkey, ' -("')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28713,7 +28717,7 @@ def decrypt_parendoll():
         if i == 1000 or x[:2] != '($':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -($')
+        #print(fkey, ' -($')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28727,7 +28731,7 @@ def decrypt_parenand():
         if i == 1000 or x[:2] != '(&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(&')
+        #print(fkey, ' -(&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28741,7 +28745,7 @@ def decrypt_parenquote():
         if i == 1000 or x[:2] != '(\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(\'')
+        #print(fkey, ' -(\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28755,7 +28759,7 @@ def decrypt_parpara():
         if i == 1000 or x[:2] != 'par(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -par(')
+        #print(fkey, ' -par(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28769,7 +28773,7 @@ def decrypt_parenast():
         if i == 1000 or x[:2] != '(*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(*')
+        #print(fkey, ' -(*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28783,7 +28787,7 @@ def decrypt_parenvir():
         if i == 1000 or x[:2] != '(,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(,')
+        #print(fkey, ' -(,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28797,7 +28801,7 @@ def decrypt_parenpp():
         if i == 1000 or x[:2] != '(.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(.')
+        #print(fkey, ' -(.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28811,7 +28815,7 @@ def decrypt_parentp():
         if i == 1000 or x[:2] != '(:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(:')
+        #print(fkey, ' -(:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28825,7 +28829,7 @@ def decrypt_parenless():
         if i == 1000 or x[:2] != '(<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(<')
+        #print(fkey, ' -(<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28839,7 +28843,7 @@ def decrypt_parenmore():
         if i == 1000 or x[:2] != '(>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(>')
+        #print(fkey, ' -(>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28853,7 +28857,7 @@ def decrypt_parenaro():
         if i == 1000 or x[:2] != '(@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(@')
+        #print(fkey, ' -(@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28867,7 +28871,7 @@ def decrypt_parencroc():
         if i == 1000 or x[:2] != '([':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -([')
+        #print(fkey, ' -([')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28881,7 +28885,7 @@ def decrypt_parenbsl():
         if i == 1000 or x[:2] != '(\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(\\')
+        #print(fkey, ' -(\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28895,7 +28899,7 @@ def decrypt_parencirc():
         if i == 1000 or x[:2] != '(^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(^')
+        #print(fkey, ' -(^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28909,7 +28913,7 @@ def decrypt_parenesp():
         if i == 1000 or x[:2] != '(`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(`')
+        #print(fkey, ' -(`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28923,7 +28927,7 @@ def decrypt_parencr():
         if i == 1000 or x[:2] != '({':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -({')
+        #print(fkey, ' -({')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28937,7 +28941,7 @@ def decrypt_parenhl():
         if i == 1000 or x[:2] != '(|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(|')
+        #print(fkey, ' -(|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28951,7 +28955,7 @@ def decrypt_parentild():
         if i == 1000 or x[:2] != '(~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -(~')
+        #print(fkey, ' -(~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28965,7 +28969,7 @@ def decrypt_espea():
         if i == 1000 or x[:2] != '*a':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*a')
+        #print(fkey, ' -*a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28979,7 +28983,7 @@ def decrypt_espeb():
         if i == 1000 or x[:2] != '*b':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*b')
+        #print(fkey, ' -*b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -28993,7 +28997,7 @@ def decrypt_esped():
         if i == 1000 or x[:2] != '*d':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*d')
+        #print(fkey, ' -*d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29007,7 +29011,7 @@ def decrypt_espef():
         if i == 1000 or x[:2] != '*f':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*f')
+        #print(fkey, ' -*f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29021,7 +29025,7 @@ def decrypt_espeh():
         if i == 1000 or x[:2] != '*h':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*h')
+        #print(fkey, ' -*h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29035,7 +29039,7 @@ def decrypt_espej():
         if i == 1000 or x[:2] != '*j':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*j')
+        #print(fkey, ' -*j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29049,7 +29053,7 @@ def decrypt_espel():
         if i == 1000 or x[:2] != '*l':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*l')
+        #print(fkey, ' -*l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29063,7 +29067,7 @@ def decrypt_espen():
         if i == 1000 or x[:2] != '*n':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*n')
+        #print(fkey, ' -*n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29077,7 +29081,7 @@ def decrypt_espep():
         if i == 1000 or x[:2] != '*p':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*p')
+        #print(fkey, ' -*p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29091,7 +29095,7 @@ def decrypt_esper():
         if i == 1000 or x[:2] != '*r':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*r')
+        #print(fkey, ' -*r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29105,7 +29109,7 @@ def decrypt_espet():
         if i == 1000 or x[:2] != '*t':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*t')
+        #print(fkey, ' -*t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29119,7 +29123,7 @@ def decrypt_espev():
         if i == 1000 or x[:2] != '*v':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*v')
+        #print(fkey, ' -*v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29133,7 +29137,7 @@ def decrypt_espex():
         if i == 1000 or x[:2] != '*x':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*x')
+        #print(fkey, ' -*x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29147,7 +29151,7 @@ def decrypt_espez():
         if i == 1000 or x[:2] != '*z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*z')
+        #print(fkey, ' -*z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29161,7 +29165,7 @@ def decrypt_espeA():
         if i == 1000 or x[:2] != '*A':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*A')
+        #print(fkey, ' -*A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29175,7 +29179,7 @@ def decrypt_espeB():
         if i == 1000 or x[:2] != '*B':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*B')
+        #print(fkey, ' -*B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29189,7 +29193,7 @@ def decrypt_espeD():
         if i == 1000 or x[:2] != '*D':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*D')
+        #print(fkey, ' -*D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29203,7 +29207,7 @@ def decrypt_espeF():
         if i == 1000 or x[:2] != '*F':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*F')
+        #print(fkey, ' -*F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29217,7 +29221,7 @@ def decrypt_espeH():
         if i == 1000 or x[:2] != '*H':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*H')
+        #print(fkey, ' -*H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29231,7 +29235,7 @@ def decrypt_espeJ():
         if i == 1000 or x[:2] != '*J':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*J')
+        #print(fkey, ' -*J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29245,7 +29249,7 @@ def decrypt_espeL():
         if i == 1000 or x[:2] != '*L':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*L')
+        #print(fkey, ' -*L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29259,7 +29263,7 @@ def decrypt_espeN():
         if i == 1000 or x[:2] != '*N':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*N')
+        #print(fkey, ' -*N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29273,7 +29277,7 @@ def decrypt_espeP():
         if i == 1000 or x[:2] != '*P':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*P')
+        #print(fkey, ' -*P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29287,7 +29291,7 @@ def decrypt_espeR():
         if i == 1000 or x[:2] != '*R':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*R')
+        #print(fkey, ' -*R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29301,7 +29305,7 @@ def decrypt_espeT():
         if i == 1000 or x[:2] != '*T':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*T')
+        #print(fkey, ' -*T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29315,7 +29319,7 @@ def decrypt_espeV():
         if i == 1000 or x[:2] != '*V':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*V')
+        #print(fkey, ' -*V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29329,7 +29333,7 @@ def decrypt_espeX():
         if i == 1000 or x[:2] != '*X':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*X')
+        #print(fkey, ' -*X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29343,7 +29347,7 @@ def decrypt_espeZ():
         if i == 1000 or x[:2] != '*Z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*Z')
+        #print(fkey, ' -*Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29357,7 +29361,7 @@ def decrypt_espe0():
         if i == 1000 or x[:2] != '*0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*0')
+        #print(fkey, ' -*0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29371,7 +29375,7 @@ def decrypt_espe2():
         if i == 1000 or x[:2] != '*2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*2')
+        #print(fkey, ' -*2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29385,7 +29389,7 @@ def decrypt_espe4():
         if i == 1000 or x[:2] != '*4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*4')
+        #print(fkey, ' -*4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29399,7 +29403,7 @@ def decrypt_espe6():
         if i == 1000 or x[:2] != '*6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*6')
+        #print(fkey, ' -*6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29413,7 +29417,7 @@ def decrypt_espe8():
         if i == 1000 or x[:2] != '*8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*8')
+        #print(fkey, ' -*8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29427,7 +29431,7 @@ def decrypt_espeexcl():
         if i == 1000 or x[:2] != '*!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*!')
+        #print(fkey, ' -*!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29441,7 +29445,7 @@ def decrypt_espedquote():
         if i == 1000 or x[:2] != '*"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*"')
+        #print(fkey, ' -*"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29455,7 +29459,7 @@ def decrypt_espedoll():
         if i == 1000 or x[:2] != '*$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*$')
+        #print(fkey, ' -*$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29469,7 +29473,7 @@ def decrypt_espeand():
         if i == 1000 or x[:2] != '*&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*&')
+        #print(fkey, ' -*&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29483,7 +29487,7 @@ def decrypt_espequote():
         if i == 1000 or x[:2] != '*\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*\'')
+        #print(fkey, ' -*\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29497,7 +29501,7 @@ def decrypt_astpar():
         if i == 1000 or x[:2] != 'ast(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -ast(')
+        #print(fkey, ' -ast(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29511,7 +29515,7 @@ def decrypt_espeast():
         if i == 1000 or x[:2] != '**':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -**')
+        #print(fkey, ' -**')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29525,7 +29529,7 @@ def decrypt_espevir():
         if i == 1000 or x[:2] != '*,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*,')
+        #print(fkey, ' -*,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29539,7 +29543,7 @@ def decrypt_espepp():
         if i == 1000 or x[:2] != '*.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*.')
+        #print(fkey, ' -*.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29553,7 +29557,7 @@ def decrypt_espetp():
         if i == 1000 or x[:2] != '*:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*:')
+        #print(fkey, ' -*:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29567,7 +29571,7 @@ def decrypt_espeless():
         if i == 1000 or x[:2] != '*<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*<')
+        #print(fkey, ' -*<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29581,7 +29585,7 @@ def decrypt_espemore():
         if i == 1000 or x[:2] != '*>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*>')
+        #print(fkey, ' -*>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29595,7 +29599,7 @@ def decrypt_espearo():
         if i == 1000 or x[:2] != '*@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*@')
+        #print(fkey, ' -*@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29609,7 +29613,7 @@ def decrypt_especroc():
         if i == 1000 or x[:2] != '*[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*[')
+        #print(fkey, ' -*[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29623,7 +29627,7 @@ def decrypt_espebsl():
         if i == 1000 or x[:2] != '*\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*\\')
+        #print(fkey, ' -*\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29637,7 +29641,7 @@ def decrypt_especirc():
         if i == 1000 or x[:2] != '*^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*^')
+        #print(fkey, ' -*^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29651,7 +29655,7 @@ def decrypt_espeesp():
         if i == 1000 or x[:2] != '*`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*`')
+        #print(fkey, ' -*`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29665,7 +29669,7 @@ def decrypt_especr():
         if i == 1000 or x[:2] != '*{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*{')
+        #print(fkey, ' -*{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29679,7 +29683,7 @@ def decrypt_espehl():
         if i == 1000 or x[:2] != '*|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*|')
+        #print(fkey, ' -*|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29693,7 +29697,7 @@ def decrypt_espetild():
         if i == 1000 or x[:2] != '*~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -*~')
+        #print(fkey, ' -*~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29707,7 +29711,7 @@ def decrypt_vira():
         if i == 1000 or x[:2] != ',a':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,a')
+        #print(fkey, ' -,a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29721,7 +29725,7 @@ def decrypt_virb():
         if i == 1000 or x[:2] != ',b':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,b')
+        #print(fkey, ' -,b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29735,7 +29739,7 @@ def decrypt_vird():
         if i == 1000 or x[:2] != ',d':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,d')
+        #print(fkey, ' -,d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29749,7 +29753,7 @@ def decrypt_virf():
         if i == 1000 or x[:2] != ',f':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,f')
+        #print(fkey, ' -,f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29763,7 +29767,7 @@ def decrypt_virh():
         if i == 1000 or x[:2] != ',h':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,h')
+        #print(fkey, ' -,h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29777,7 +29781,7 @@ def decrypt_virj():
         if i == 1000 or x[:2] != ',j':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,j')
+        #print(fkey, ' -,j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29791,7 +29795,7 @@ def decrypt_virl():
         if i == 1000 or x[:2] != ',l':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,l')
+        #print(fkey, ' -,l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29805,7 +29809,7 @@ def decrypt_virn():
         if i == 1000 or x[:2] != ',n':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,n')
+        #print(fkey, ' -,n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29819,7 +29823,7 @@ def decrypt_virp():
         if i == 1000 or x[:2] != ',p':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,p')
+        #print(fkey, ' -,p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29833,7 +29837,7 @@ def decrypt_virr():
         if i == 1000 or x[:2] != ',r':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,r')
+        #print(fkey, ' -,r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29847,7 +29851,7 @@ def decrypt_virt():
         if i == 1000 or x[:2] != ',t':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,t')
+        #print(fkey, ' -,t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29861,7 +29865,7 @@ def decrypt_virv():
         if i == 1000 or x[:2] != ',v':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,v')
+        #print(fkey, ' -,v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29875,7 +29879,7 @@ def decrypt_virx():
         if i == 1000 or x[:2] != ',x':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,x')
+        #print(fkey, ' -,x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29889,7 +29893,7 @@ def decrypt_virz():
         if i == 1000 or x[:2] != ',z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,z')
+        #print(fkey, ' -,z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29903,7 +29907,7 @@ def decrypt_virA():
         if i == 1000 or x[:2] != ',A':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,A')
+        #print(fkey, ' -,A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29917,7 +29921,7 @@ def decrypt_virB():
         if i == 1000 or x[:2] != ',B':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,B')
+        #print(fkey, ' -,B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29931,7 +29935,7 @@ def decrypt_virD():
         if i == 1000 or x[:2] != ',D':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,D')
+        #print(fkey, ' -,D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29945,7 +29949,7 @@ def decrypt_virF():
         if i == 1000 or x[:2] != ',F':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,F')
+        #print(fkey, ' -,F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29959,7 +29963,7 @@ def decrypt_virH():
         if i == 1000 or x[:2] != ',H':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,H')
+        #print(fkey, ' -,H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29973,7 +29977,7 @@ def decrypt_virJ():
         if i == 1000 or x[:2] != ',J':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,J')
+        #print(fkey, ' -,J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -29987,7 +29991,7 @@ def decrypt_virL():
         if i == 1000 or x[:2] != ',L':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,L')
+        #print(fkey, ' -,L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30001,7 +30005,7 @@ def decrypt_virN():
         if i == 1000 or x[:2] != ',N':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,N')
+        #print(fkey, ' -,N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30015,7 +30019,7 @@ def decrypt_virP():
         if i == 1000 or x[:2] != ',P':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,P')
+        #print(fkey, ' -,P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30029,7 +30033,7 @@ def decrypt_virR():
         if i == 1000 or x[:2] != ',R':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,R')
+        #print(fkey, ' -,R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30043,7 +30047,7 @@ def decrypt_virT():
         if i == 1000 or x[:2] != ',T':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,T')
+        #print(fkey, ' -,T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30057,7 +30061,7 @@ def decrypt_virV():
         if i == 1000 or x[:2] != ',V':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,V')
+        #print(fkey, ' -,V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30071,7 +30075,7 @@ def decrypt_virX():
         if i == 1000 or x[:2] != ',X':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,X')
+        #print(fkey, ' -,X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30085,7 +30089,7 @@ def decrypt_virZ():
         if i == 1000 or x[:2] != ',Z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,Z')
+        #print(fkey, ' -,Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30099,7 +30103,7 @@ def decrypt_vir0():
         if i == 1000 or x[:2] != ',0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,0')
+        #print(fkey, ' -,0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30113,7 +30117,7 @@ def decrypt_vir2():
         if i == 1000 or x[:2] != ',2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,2')
+        #print(fkey, ' -,2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30127,7 +30131,7 @@ def decrypt_vir4():
         if i == 1000 or x[:2] != ',4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,4')
+        #print(fkey, ' -,4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30141,7 +30145,7 @@ def decrypt_vir6():
         if i == 1000 or x[:2] != ',6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,6')
+        #print(fkey, ' -,6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30155,7 +30159,7 @@ def decrypt_vir8():
         if i == 1000 or x[:2] != ',8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,8')
+        #print(fkey, ' -,8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30169,7 +30173,7 @@ def decrypt_virexcl():
         if i == 1000 or x[:2] != ',!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,!')
+        #print(fkey, ' -,!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30183,7 +30187,7 @@ def decrypt_virdquote():
         if i == 1000 or x[:2] != ',"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,"')
+        #print(fkey, ' -,"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30197,7 +30201,7 @@ def decrypt_virdoll():
         if i == 1000 or x[:2] != ',$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,$')
+        #print(fkey, ' -,$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30211,7 +30215,7 @@ def decrypt_virand():
         if i == 1000 or x[:2] != ',&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,&')
+        #print(fkey, ' -,&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30225,7 +30229,7 @@ def decrypt_virquote():
         if i == 1000 or x[:2] != ',\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,\'')
+        #print(fkey, ' -,\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30239,7 +30243,7 @@ def decrypt_virpar():
         if i == 1000 or x[:2] != 'vir(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -vir(')
+        #print(fkey, ' -vir(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30253,7 +30257,7 @@ def decrypt_virast():
         if i == 1000 or x[:2] != ',*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,*')
+        #print(fkey, ' -,*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30267,7 +30271,7 @@ def decrypt_virvir():
         if i == 1000 or x[:2] != ',,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,,')
+        #print(fkey, ' -,,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30281,7 +30285,7 @@ def decrypt_virpp():
         if i == 1000 or x[:2] != ',.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,.')
+        #print(fkey, ' -,.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30295,7 +30299,7 @@ def decrypt_virtp():
         if i == 1000 or x[:2] != ',:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,:')
+        #print(fkey, ' -,:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30309,7 +30313,7 @@ def decrypt_virless():
         if i == 1000 or x[:2] != ',<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,<')
+        #print(fkey, ' -,<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30323,7 +30327,7 @@ def decrypt_virmore():
         if i == 1000 or x[:2] != ',>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,>')
+        #print(fkey, ' -,>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30337,7 +30341,7 @@ def decrypt_viraro():
         if i == 1000 or x[:2] != ',@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,@')
+        #print(fkey, ' -,@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30351,7 +30355,7 @@ def decrypt_vircroc():
         if i == 1000 or x[:2] != ',[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,[')
+        #print(fkey, ' -,[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30365,7 +30369,7 @@ def decrypt_virbsl():
         if i == 1000 or x[:2] != ',\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,\\')
+        #print(fkey, ' -,\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30379,7 +30383,7 @@ def decrypt_vircirc():
         if i == 1000 or x[:2] != ',^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,^')
+        #print(fkey, ' -,^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30393,7 +30397,7 @@ def decrypt_viresp():
         if i == 1000 or x[:2] != ',`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,`')
+        #print(fkey, ' -,`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30407,7 +30411,7 @@ def decrypt_vircr():
         if i == 1000 or x[:2] != ',{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,{')
+        #print(fkey, ' -,{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30421,7 +30425,7 @@ def decrypt_virhl():
         if i == 1000 or x[:2] != ',|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,|')
+        #print(fkey, ' -,|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30435,7 +30439,7 @@ def decrypt_virtild():
         if i == 1000 or x[:2] != ',~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -,~')
+        #print(fkey, ' -,~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30449,7 +30453,7 @@ def decrypt_poina():
         if i == 1000 or x[:2] != '.a':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.a')
+        #print(fkey, ' -.a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30463,7 +30467,7 @@ def decrypt_poinb():
         if i == 1000 or x[:2] != '.b':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.b')
+        #print(fkey, ' -.b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30477,7 +30481,7 @@ def decrypt_poind():
         if i == 1000 or x[:2] != '.d':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.d')
+        #print(fkey, ' -.d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30491,7 +30495,7 @@ def decrypt_poinf():
         if i == 1000 or x[:2] != '.f':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.f')
+        #print(fkey, ' -.f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30505,7 +30509,7 @@ def decrypt_poinh():
         if i == 1000 or x[:2] != '.h':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.h')
+        #print(fkey, ' -.h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30519,7 +30523,7 @@ def decrypt_poinj():
         if i == 1000 or x[:2] != '.j':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.j')
+        #print(fkey, ' -.j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30533,7 +30537,7 @@ def decrypt_poinl():
         if i == 1000 or x[:2] != '.l':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.l')
+        #print(fkey, ' -.l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30547,7 +30551,7 @@ def decrypt_poinn():
         if i == 1000 or x[:2] != '.n':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.n')
+        #print(fkey, ' -.n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30561,7 +30565,7 @@ def decrypt_poinp():
         if i == 1000 or x[:2] != '.p':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.p')
+        #print(fkey, ' -.p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30575,7 +30579,7 @@ def decrypt_poinr():
         if i == 1000 or x[:2] != '.r':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.r')
+        #print(fkey, ' -.r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30589,7 +30593,7 @@ def decrypt_point():
         if i == 1000 or x[:2] != '.t':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.t')
+        #print(fkey, ' -.t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30603,7 +30607,7 @@ def decrypt_poinv():
         if i == 1000 or x[:2] != '.v':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.v')
+        #print(fkey, ' -.v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30617,7 +30621,7 @@ def decrypt_poinx():
         if i == 1000 or x[:2] != '.x':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.x')
+        #print(fkey, ' -.x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30631,7 +30635,7 @@ def decrypt_poinz():
         if i == 1000 or x[:2] != '.z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.z')
+        #print(fkey, ' -.z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30645,7 +30649,7 @@ def decrypt_poinA():
         if i == 1000 or x[:2] != '.A':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.A')
+        #print(fkey, ' -.A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30659,7 +30663,7 @@ def decrypt_poinB():
         if i == 1000 or x[:2] != '.B':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.B')
+        #print(fkey, ' -.B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30673,7 +30677,7 @@ def decrypt_poinD():
         if i == 1000 or x[:2] != '.D':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.D')
+        #print(fkey, ' -.D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30687,7 +30691,7 @@ def decrypt_poinF():
         if i == 1000 or x[:2] != '.F':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.F')
+        #print(fkey, ' -.F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30701,7 +30705,7 @@ def decrypt_poinH():
         if i == 1000 or x[:2] != '.H':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.H')
+        #print(fkey, ' -.H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30715,7 +30719,7 @@ def decrypt_poinJ():
         if i == 1000 or x[:2] != '.J':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.J')
+        #print(fkey, ' -.J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30729,7 +30733,7 @@ def decrypt_poinL():
         if i == 1000 or x[:2] != '.L':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.L')
+        #print(fkey, ' -.L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30743,7 +30747,7 @@ def decrypt_poinN():
         if i == 1000 or x[:2] != '.N':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.N')
+        #print(fkey, ' -.N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30757,7 +30761,7 @@ def decrypt_poinP():
         if i == 1000 or x[:2] != '.P':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.P')
+        #print(fkey, ' -.P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30771,7 +30775,7 @@ def decrypt_poinR():
         if i == 1000 or x[:2] != '.R':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.R')
+        #print(fkey, ' -.R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30785,7 +30789,7 @@ def decrypt_poinT():
         if i == 1000 or x[:2] != '.T':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.T')
+        #print(fkey, ' -.T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30799,7 +30803,7 @@ def decrypt_poinV():
         if i == 1000 or x[:2] != '.V':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.V')
+        #print(fkey, ' -.V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30813,7 +30817,7 @@ def decrypt_poinX():
         if i == 1000 or x[:2] != '.X':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.X')
+        #print(fkey, ' -.X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30827,7 +30831,7 @@ def decrypt_poinZ():
         if i == 1000 or x[:2] != '.Z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.Z')
+        #print(fkey, ' -.Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30841,7 +30845,7 @@ def decrypt_poin0():
         if i == 1000 or x[:2] != '.0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.0')
+        #print(fkey, ' -.0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30855,7 +30859,7 @@ def decrypt_poin2():
         if i == 1000 or x[:2] != '.2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.2')
+        #print(fkey, ' -.2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30869,7 +30873,7 @@ def decrypt_poin4():
         if i == 1000 or x[:2] != '.4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.4')
+        #print(fkey, ' -.4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30883,7 +30887,7 @@ def decrypt_poin6():
         if i == 1000 or x[:2] != '.6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.6')
+        #print(fkey, ' -.6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30897,7 +30901,7 @@ def decrypt_poin8():
         if i == 1000 or x[:2] != '.8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.8')
+        #print(fkey, ' -.8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30911,7 +30915,7 @@ def decrypt_poinexcl():
         if i == 1000 or x[:2] != '.!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.!')
+        #print(fkey, ' -.!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30925,7 +30929,7 @@ def decrypt_poindquote():
         if i == 1000 or x[:2] != '."':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -."')
+        #print(fkey, ' -."')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30939,7 +30943,7 @@ def decrypt_poindoll():
         if i == 1000 or x[:2] != '.$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.$')
+        #print(fkey, ' -.$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30953,7 +30957,7 @@ def decrypt_poinand():
         if i == 1000 or x[:2] != '.&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.&')
+        #print(fkey, ' -.&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30967,7 +30971,7 @@ def decrypt_poinquote():
         if i == 1000 or x[:2] != '.\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.\'')
+        #print(fkey, ' -.\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30981,7 +30985,7 @@ def decrypt_pppar():
         if i == 1000 or x[:2] != 'pp(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -pp(')
+        #print(fkey, ' -pp(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -30995,7 +30999,7 @@ def decrypt_poinast():
         if i == 1000 or x[:2] != '.*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.*')
+        #print(fkey, ' -.*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31009,7 +31013,7 @@ def decrypt_poinvir():
         if i == 1000 or x[:2] != '.,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.,')
+        #print(fkey, ' -.,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31023,7 +31027,7 @@ def decrypt_poinpp():
         if i == 1000 or x[:2] != '..':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -..')
+        #print(fkey, ' -..')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31037,7 +31041,7 @@ def decrypt_pointp():
         if i == 1000 or x[:2] != '.:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.:')
+        #print(fkey, ' -.:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31051,7 +31055,7 @@ def decrypt_poinless():
         if i == 1000 or x[:2] != '.<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.<')
+        #print(fkey, ' -.<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31065,7 +31069,7 @@ def decrypt_poinmore():
         if i == 1000 or x[:2] != '.>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.>')
+        #print(fkey, ' -.>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31079,7 +31083,7 @@ def decrypt_poinaro():
         if i == 1000 or x[:2] != '.@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.@')
+        #print(fkey, ' -.@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31093,7 +31097,7 @@ def decrypt_poincroc():
         if i == 1000 or x[:2] != '.[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.[')
+        #print(fkey, ' -.[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31107,7 +31111,7 @@ def decrypt_poinbsl():
         if i == 1000 or x[:2] != '.\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.\\')
+        #print(fkey, ' -.\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31121,7 +31125,7 @@ def decrypt_poincirc():
         if i == 1000 or x[:2] != '.^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.^')
+        #print(fkey, ' -.^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31135,7 +31139,7 @@ def decrypt_poinesp():
         if i == 1000 or x[:2] != '.`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.`')
+        #print(fkey, ' -.`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31149,7 +31153,7 @@ def decrypt_poincr():
         if i == 1000 or x[:2] != '.{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.{')
+        #print(fkey, ' -.{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31163,7 +31167,7 @@ def decrypt_poinhl():
         if i == 1000 or x[:2] != '.|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.|')
+        #print(fkey, ' -.|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31177,7 +31181,7 @@ def decrypt_pointild():
         if i == 1000 or x[:2] != '.~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -.~')
+        #print(fkey, ' -.~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31191,7 +31195,7 @@ def decrypt_doubpoina():
         if i == 1000 or x[:2] != ':a':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:a')
+        #print(fkey, ' -:a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31205,7 +31209,7 @@ def decrypt_doubpoinb():
         if i == 1000 or x[:2] != ':b':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:b')
+        #print(fkey, ' -:b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31219,7 +31223,7 @@ def decrypt_doubpoind():
         if i == 1000 or x[:2] != ':d':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:d')
+        #print(fkey, ' -:d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31233,7 +31237,7 @@ def decrypt_doubpoinf():
         if i == 1000 or x[:2] != ':f':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:f')
+        #print(fkey, ' -:f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31247,7 +31251,7 @@ def decrypt_doubpoinh():
         if i == 1000 or x[:2] != ':h':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:h')
+        #print(fkey, ' -:h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31261,7 +31265,7 @@ def decrypt_doubpoinj():
         if i == 1000 or x[:2] != ':j':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:j')
+        #print(fkey, ' -:j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31275,7 +31279,7 @@ def decrypt_doubpoinl():
         if i == 1000 or x[:2] != ':l':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:l')
+        #print(fkey, ' -:l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31289,7 +31293,7 @@ def decrypt_doubpoinn():
         if i == 1000 or x[:2] != ':n':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:n')
+        #print(fkey, ' -:n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31303,7 +31307,7 @@ def decrypt_doubpoinp():
         if i == 1000 or x[:2] != ':p':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:p')
+        #print(fkey, ' -:p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31317,7 +31321,7 @@ def decrypt_doubpoinr():
         if i == 1000 or x[:2] != ':r':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:r')
+        #print(fkey, ' -:r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31331,7 +31335,7 @@ def decrypt_doubpoint():
         if i == 1000 or x[:2] != ':t':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:t')
+        #print(fkey, ' -:t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31345,7 +31349,7 @@ def decrypt_doubpoinv():
         if i == 1000 or x[:2] != ':v':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:v')
+        #print(fkey, ' -:v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31359,7 +31363,7 @@ def decrypt_doubpoinx():
         if i == 1000 or x[:2] != ':x':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:x')
+        #print(fkey, ' -:x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31373,7 +31377,7 @@ def decrypt_doubpoinz():
         if i == 1000 or x[:2] != ':z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:z')
+        #print(fkey, ' -:z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31387,7 +31391,7 @@ def decrypt_doubpoinA():
         if i == 1000 or x[:2] != ':A':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:A')
+        #print(fkey, ' -:A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31401,7 +31405,7 @@ def decrypt_doubpoinB():
         if i == 1000 or x[:2] != ':B':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:B')
+        #print(fkey, ' -:B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31415,7 +31419,7 @@ def decrypt_doubpoinD():
         if i == 1000 or x[:2] != ':D':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:D')
+        #print(fkey, ' -:D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31429,7 +31433,7 @@ def decrypt_doubpoinF():
         if i == 1000 or x[:2] != ':F':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:F')
+        #print(fkey, ' -:F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31443,7 +31447,7 @@ def decrypt_doubpoinH():
         if i == 1000 or x[:2] != ':H':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:H')
+        #print(fkey, ' -:H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31457,7 +31461,7 @@ def decrypt_doubpoinJ():
         if i == 1000 or x[:2] != ':J':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:J')
+        #print(fkey, ' -:J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31471,7 +31475,7 @@ def decrypt_doubpoinL():
         if i == 1000 or x[:2] != ':L':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:L')
+        #print(fkey, ' -:L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31485,7 +31489,7 @@ def decrypt_doubpoinN():
         if i == 1000 or x[:2] != ':N':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:N')
+        #print(fkey, ' -:N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31499,7 +31503,7 @@ def decrypt_doubpoinP():
         if i == 1000 or x[:2] != ':P':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:P')
+        #print(fkey, ' -:P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31513,7 +31517,7 @@ def decrypt_doubpoinR():
         if i == 1000 or x[:2] != ':R':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:R')
+        #print(fkey, ' -:R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31527,7 +31531,7 @@ def decrypt_doubpoinT():
         if i == 1000 or x[:2] != ':T':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:T')
+        #print(fkey, ' -:T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31541,7 +31545,7 @@ def decrypt_doubpoinV():
         if i == 1000 or x[:2] != ':V':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:V')
+        #print(fkey, ' -:V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31555,7 +31559,7 @@ def decrypt_doubpoinX():
         if i == 1000 or x[:2] != ':X':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:X')
+        #print(fkey, ' -:X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31569,7 +31573,7 @@ def decrypt_doubpoinZ():
         if i == 1000 or x[:2] != ':Z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:Z')
+        #print(fkey, ' -:Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31583,7 +31587,7 @@ def decrypt_doubpoin0():
         if i == 1000 or x[:2] != ':0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:0')
+        #print(fkey, ' -:0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31597,7 +31601,7 @@ def decrypt_doubpoin2():
         if i == 1000 or x[:2] != ':2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:2')
+        #print(fkey, ' -:2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31611,7 +31615,7 @@ def decrypt_doubpoin4():
         if i == 1000 or x[:2] != ':4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:4')
+        #print(fkey, ' -:4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31625,7 +31629,7 @@ def decrypt_doubpoin6():
         if i == 1000 or x[:2] != ':6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:6')
+        #print(fkey, ' -:6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31639,7 +31643,7 @@ def decrypt_doubpoin8():
         if i == 1000 or x[:2] != ':8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:8')
+        #print(fkey, ' -:8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31653,7 +31657,7 @@ def decrypt_doubpoinexcl():
         if i == 1000 or x[:2] != ':!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:!')
+        #print(fkey, ' -:!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31667,7 +31671,7 @@ def decrypt_doubpoindquote():
         if i == 1000 or x[:2] != ':"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:"')
+        #print(fkey, ' -:"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31681,7 +31685,7 @@ def decrypt_doubpoindoll():
         if i == 1000 or x[:2] != ':$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:$')
+        #print(fkey, ' -:$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31695,7 +31699,7 @@ def decrypt_doubpoinand():
         if i == 1000 or x[:2] != ':&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:&')
+        #print(fkey, ' -:&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31709,7 +31713,7 @@ def decrypt_doubpoinquote():
         if i == 1000 or x[:2] != ':\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:\'')
+        #print(fkey, ' -:\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31723,7 +31727,7 @@ def decrypt_tppar():
         if i == 1000 or x[:2] != 'tp(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -tp(')
+        #print(fkey, ' -tp(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31737,7 +31741,7 @@ def decrypt_doubpoinast():
         if i == 1000 or x[:2] != ':*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:*')
+        #print(fkey, ' -:*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31751,7 +31755,7 @@ def decrypt_doubpoinvir():
         if i == 1000 or x[:2] != ':,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:,')
+        #print(fkey, ' -:,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31765,7 +31769,7 @@ def decrypt_doubpoinpp():
         if i == 1000 or x[:2] != ':.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:.')
+        #print(fkey, ' -:.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31779,7 +31783,7 @@ def decrypt_doubpointp():
         if i == 1000 or x[:2] != '::':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -::')
+        #print(fkey, ' -::')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31793,7 +31797,7 @@ def decrypt_doubpoinless():
         if i == 1000 or x[:2] != ':<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:<')
+        #print(fkey, ' -:<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31807,7 +31811,7 @@ def decrypt_doubpoinmore():
         if i == 1000 or x[:2] != ':>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:>')
+        #print(fkey, ' -:>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31821,7 +31825,7 @@ def decrypt_doubpoinaro():
         if i == 1000 or x[:2] != ':@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:@')
+        #print(fkey, ' -:@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31835,7 +31839,7 @@ def decrypt_doubpoincroc():
         if i == 1000 or x[:2] != ':[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:[')
+        #print(fkey, ' -:[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31849,7 +31853,7 @@ def decrypt_doubpoinbsl():
         if i == 1000 or x[:2] != ':\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:\\')
+        #print(fkey, ' -:\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31863,7 +31867,7 @@ def decrypt_doubpoincirc():
         if i == 1000 or x[:2] != ':^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:^')
+        #print(fkey, ' -:^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31877,7 +31881,7 @@ def decrypt_doubpoinesp():
         if i == 1000 or x[:2] != ':`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:`')
+        #print(fkey, ' -:`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31891,7 +31895,7 @@ def decrypt_doubpoincr():
         if i == 1000 or x[:2] != ':{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:{')
+        #print(fkey, ' -:{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31905,7 +31909,7 @@ def decrypt_doubpoinhl():
         if i == 1000 or x[:2] != ':|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:|')
+        #print(fkey, ' -:|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31919,7 +31923,7 @@ def decrypt_doubpointild():
         if i == 1000 or x[:2] != ':~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -:~')
+        #print(fkey, ' -:~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31933,7 +31937,7 @@ def decrypt_lessa():
         if i == 1000 or x[:2] != '<a':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<a')
+        #print(fkey, ' -<a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31947,7 +31951,7 @@ def decrypt_lessb():
         if i == 1000 or x[:2] != '<b':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<b')
+        #print(fkey, ' -<b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31961,7 +31965,7 @@ def decrypt_lessd():
         if i == 1000 or x[:2] != '<d':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<d')
+        #print(fkey, ' -<d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31975,7 +31979,7 @@ def decrypt_lessf():
         if i == 1000 or x[:2] != '<f':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<f')
+        #print(fkey, ' -<f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -31989,7 +31993,7 @@ def decrypt_lessh():
         if i == 1000 or x[:2] != '<h':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<h')
+        #print(fkey, ' -<h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32003,7 +32007,7 @@ def decrypt_lessj():
         if i == 1000 or x[:2] != '<j':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<j')
+        #print(fkey, ' -<j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32017,7 +32021,7 @@ def decrypt_lessl():
         if i == 1000 or x[:2] != '<l':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<l')
+        #print(fkey, ' -<l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32031,7 +32035,7 @@ def decrypt_lessn():
         if i == 1000 or x[:2] != '<n':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<n')
+        #print(fkey, ' -<n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32045,7 +32049,7 @@ def decrypt_lessp():
         if i == 1000 or x[:2] != '<p':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<p')
+        #print(fkey, ' -<p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32059,7 +32063,7 @@ def decrypt_lessr():
         if i == 1000 or x[:2] != '<r':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<r')
+        #print(fkey, ' -<r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32073,7 +32077,7 @@ def decrypt_lesst():
         if i == 1000 or x[:2] != '<t':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<t')
+        #print(fkey, ' -<t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32087,7 +32091,7 @@ def decrypt_lessv():
         if i == 1000 or x[:2] != '<v':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<v')
+        #print(fkey, ' -<v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32101,7 +32105,7 @@ def decrypt_lessx():
         if i == 1000 or x[:2] != '<x':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<x')
+        #print(fkey, ' -<x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32115,7 +32119,7 @@ def decrypt_lessz():
         if i == 1000 or x[:2] != '<z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<z')
+        #print(fkey, ' -<z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32129,7 +32133,7 @@ def decrypt_lessA():
         if i == 1000 or x[:2] != '<A':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<A')
+        #print(fkey, ' -<A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32143,7 +32147,7 @@ def decrypt_lessB():
         if i == 1000 or x[:2] != '<B':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<B')
+        #print(fkey, ' -<B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32157,7 +32161,7 @@ def decrypt_lessD():
         if i == 1000 or x[:2] != '<D':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<D')
+        #print(fkey, ' -<D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32171,7 +32175,7 @@ def decrypt_lessF():
         if i == 1000 or x[:2] != '<F':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<F')
+        #print(fkey, ' -<F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32185,7 +32189,7 @@ def decrypt_lessH():
         if i == 1000 or x[:2] != '<H':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<H')
+        #print(fkey, ' -<H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32199,7 +32203,7 @@ def decrypt_lessJ():
         if i == 1000 or x[:2] != '<J':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<J')
+        #print(fkey, ' -<J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32213,7 +32217,7 @@ def decrypt_lessL():
         if i == 1000 or x[:2] != '<L':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<L')
+        #print(fkey, ' -<L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32227,7 +32231,7 @@ def decrypt_lessN():
         if i == 1000 or x[:2] != '<N':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<N')
+        #print(fkey, ' -<N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32241,7 +32245,7 @@ def decrypt_lessP():
         if i == 1000 or x[:2] != '<P':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<P')
+        #print(fkey, ' -<P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32255,7 +32259,7 @@ def decrypt_lessR():
         if i == 1000 or x[:2] != '<R':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<R')
+        #print(fkey, ' -<R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32269,7 +32273,7 @@ def decrypt_lessT():
         if i == 1000 or x[:2] != '<T':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<T')
+        #print(fkey, ' -<T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32283,7 +32287,7 @@ def decrypt_lessV():
         if i == 1000 or x[:2] != '<V':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<V')
+        #print(fkey, ' -<V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32297,7 +32301,7 @@ def decrypt_lessX():
         if i == 1000 or x[:2] != '<X':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<X')
+        #print(fkey, ' -<X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32311,7 +32315,7 @@ def decrypt_lessZ():
         if i == 1000 or x[:2] != '<Z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<Z')
+        #print(fkey, ' -<Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32325,7 +32329,7 @@ def decrypt_less0():
         if i == 1000 or x[:2] != '<0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<0')
+        #print(fkey, ' -<0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32339,7 +32343,7 @@ def decrypt_less2():
         if i == 1000 or x[:2] != '<2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<2')
+        #print(fkey, ' -<2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32353,7 +32357,7 @@ def decrypt_less4():
         if i == 1000 or x[:2] != '<4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<4')
+        #print(fkey, ' -<4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32367,7 +32371,7 @@ def decrypt_less6():
         if i == 1000 or x[:2] != '<6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<6')
+        #print(fkey, ' -<6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32381,7 +32385,7 @@ def decrypt_less8():
         if i == 1000 or x[:2] != '<8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<8')
+        #print(fkey, ' -<8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32395,7 +32399,7 @@ def decrypt_lessexcl():
         if i == 1000 or x[:2] != '<!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<!')
+        #print(fkey, ' -<!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32409,7 +32413,7 @@ def decrypt_lessdquote():
         if i == 1000 or x[:2] != '<"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<"')
+        #print(fkey, ' -<"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32423,7 +32427,7 @@ def decrypt_lessdoll():
         if i == 1000 or x[:2] != '<$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<$')
+        #print(fkey, ' -<$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32437,7 +32441,7 @@ def decrypt_lessand():
         if i == 1000 or x[:2] != '<&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<&')
+        #print(fkey, ' -<&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32451,7 +32455,7 @@ def decrypt_lessquote():
         if i == 1000 or x[:2] != '<\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<\'')
+        #print(fkey, ' -<\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32465,7 +32469,7 @@ def decrypt_morepar():
         if i == 1000 or x[:2] != 'less(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -less(')
+        #print(fkey, ' -less(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32479,7 +32483,7 @@ def decrypt_lessast():
         if i == 1000 or x[:2] != '<*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<*')
+        #print(fkey, ' -<*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32493,7 +32497,7 @@ def decrypt_lessvir():
         if i == 1000 or x[:2] != '<,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<,')
+        #print(fkey, ' -<,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32507,7 +32511,7 @@ def decrypt_lesspp():
         if i == 1000 or x[:2] != '<.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<.')
+        #print(fkey, ' -<.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32521,7 +32525,7 @@ def decrypt_lesstp():
         if i == 1000 or x[:2] != '<:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<:')
+        #print(fkey, ' -<:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32535,7 +32539,7 @@ def decrypt_lessless():
         if i == 1000 or x[:2] != '<<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<<')
+        #print(fkey, ' -<<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32549,7 +32553,7 @@ def decrypt_lessmore():
         if i == 1000 or x[:2] != '<>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<>')
+        #print(fkey, ' -<>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32563,7 +32567,7 @@ def decrypt_lessaro():
         if i == 1000 or x[:2] != '<@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<@')
+        #print(fkey, ' -<@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32577,7 +32581,7 @@ def decrypt_lesscroc():
         if i == 1000 or x[:2] != '<[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<[')
+        #print(fkey, ' -<[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32591,7 +32595,7 @@ def decrypt_lessbsl():
         if i == 1000 or x[:2] != '<\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<\\')
+        #print(fkey, ' -<\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32605,7 +32609,7 @@ def decrypt_lesscirc():
         if i == 1000 or x[:2] != '<^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<^')
+        #print(fkey, ' -<^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32619,7 +32623,7 @@ def decrypt_lessesp():
         if i == 1000 or x[:2] != '<`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<`')
+        #print(fkey, ' -<`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32633,7 +32637,7 @@ def decrypt_lesscr():
         if i == 1000 or x[:2] != '<{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<{')
+        #print(fkey, ' -<{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32647,7 +32651,7 @@ def decrypt_lesshl():
         if i == 1000 or x[:2] != '<|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<|')
+        #print(fkey, ' -<|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32661,7 +32665,7 @@ def decrypt_lesstild():
         if i == 1000 or x[:2] != '<~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -<~')
+        #print(fkey, ' -<~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32675,7 +32679,7 @@ def decrypt_morea():
         if i == 1000 or x[:2] != '>a':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->a')
+        #print(fkey, ' ->a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32689,7 +32693,7 @@ def decrypt_moreb():
         if i == 1000 or x[:2] != '>b':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->b')
+        #print(fkey, ' ->b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32703,7 +32707,7 @@ def decrypt_mored():
         if i == 1000 or x[:2] != '>d':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->d')
+        #print(fkey, ' ->d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32717,7 +32721,7 @@ def decrypt_moref():
         if i == 1000 or x[:2] != '>f':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->f')
+        #print(fkey, ' ->f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32731,7 +32735,7 @@ def decrypt_moreh():
         if i == 1000 or x[:2] != '>h':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->h')
+        #print(fkey, ' ->h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32745,7 +32749,7 @@ def decrypt_morej():
         if i == 1000 or x[:2] != '>j':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->j')
+        #print(fkey, ' ->j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32759,7 +32763,7 @@ def decrypt_morel():
         if i == 1000 or x[:2] != '>l':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->l')
+        #print(fkey, ' ->l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32773,7 +32777,7 @@ def decrypt_moren():
         if i == 1000 or x[:2] != '>n':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->n')
+        #print(fkey, ' ->n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32787,7 +32791,7 @@ def decrypt_morep():
         if i == 1000 or x[:2] != '>p':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->p')
+        #print(fkey, ' ->p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32801,7 +32805,7 @@ def decrypt_morer():
         if i == 1000 or x[:2] != '>r':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->r')
+        #print(fkey, ' ->r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32815,7 +32819,7 @@ def decrypt_moret():
         if i == 1000 or x[:2] != '>t':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->t')
+        #print(fkey, ' ->t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32829,7 +32833,7 @@ def decrypt_morev():
         if i == 1000 or x[:2] != '>v':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->v')
+        #print(fkey, ' ->v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32843,7 +32847,7 @@ def decrypt_morex():
         if i == 1000 or x[:2] != '>x':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->x')
+        #print(fkey, ' ->x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32857,7 +32861,7 @@ def decrypt_morez():
         if i == 1000 or x[:2] != '>z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->z')
+        #print(fkey, ' ->z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32871,7 +32875,7 @@ def decrypt_moreA():
         if i == 1000 or x[:2] != '>A':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->A')
+        #print(fkey, ' ->A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32885,7 +32889,7 @@ def decrypt_moreB():
         if i == 1000 or x[:2] != '>B':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->B')
+        #print(fkey, ' ->B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32899,7 +32903,7 @@ def decrypt_moreD():
         if i == 1000 or x[:2] != '>D':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->D')
+        #print(fkey, ' ->D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32913,7 +32917,7 @@ def decrypt_moreF():
         if i == 1000 or x[:2] != '>F':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->F')
+        #print(fkey, ' ->F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32927,7 +32931,7 @@ def decrypt_moreH():
         if i == 1000 or x[:2] != '>H':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->H')
+        #print(fkey, ' ->H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32941,7 +32945,7 @@ def decrypt_moreJ():
         if i == 1000 or x[:2] != '>J':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->J')
+        #print(fkey, ' ->J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32955,7 +32959,7 @@ def decrypt_moreL():
         if i == 1000 or x[:2] != '>L':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->L')
+        #print(fkey, ' ->L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32969,7 +32973,7 @@ def decrypt_moreN():
         if i == 1000 or x[:2] != '>N':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->N')
+        #print(fkey, ' ->N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32983,7 +32987,7 @@ def decrypt_moreP():
         if i == 1000 or x[:2] != '>P':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->P')
+        #print(fkey, ' ->P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -32997,7 +33001,7 @@ def decrypt_moreR():
         if i == 1000 or x[:2] != '>R':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->R')
+        #print(fkey, ' ->R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33011,7 +33015,7 @@ def decrypt_moreT():
         if i == 1000 or x[:2] != '>T':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->T')
+        #print(fkey, ' ->T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33025,7 +33029,7 @@ def decrypt_moreV():
         if i == 1000 or x[:2] != '>V':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->V')
+        #print(fkey, ' ->V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33039,7 +33043,7 @@ def decrypt_moreX():
         if i == 1000 or x[:2] != '>X':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->X')
+        #print(fkey, ' ->X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33053,7 +33057,7 @@ def decrypt_moreZ():
         if i == 1000 or x[:2] != '>Z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->Z')
+        #print(fkey, ' ->Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33067,7 +33071,7 @@ def decrypt_more0():
         if i == 1000 or x[:2] != '>0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->0')
+        #print(fkey, ' ->0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33081,7 +33085,7 @@ def decrypt_more2():
         if i == 1000 or x[:2] != '>2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->2')
+        #print(fkey, ' ->2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33095,7 +33099,7 @@ def decrypt_more4():
         if i == 1000 or x[:2] != '>4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->4')
+        #print(fkey, ' ->4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33109,7 +33113,7 @@ def decrypt_more6():
         if i == 1000 or x[:2] != '>6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->6')
+        #print(fkey, ' ->6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33123,7 +33127,7 @@ def decrypt_more8():
         if i == 1000 or x[:2] != '>8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->8')
+        #print(fkey, ' ->8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33137,7 +33141,7 @@ def decrypt_moreexcl():
         if i == 1000 or x[:2] != '>!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->!')
+        #print(fkey, ' ->!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33151,7 +33155,7 @@ def decrypt_moredquote():
         if i == 1000 or x[:2] != '>"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->"')
+        #print(fkey, ' ->"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33165,7 +33169,7 @@ def decrypt_moredoll():
         if i == 1000 or x[:2] != '>$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->$')
+        #print(fkey, ' ->$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33179,7 +33183,7 @@ def decrypt_moreand():
         if i == 1000 or x[:2] != '>&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->&')
+        #print(fkey, ' ->&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33193,7 +33197,7 @@ def decrypt_morequote():
         if i == 1000 or x[:2] != '>\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->\'')
+        #print(fkey, ' ->\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33207,7 +33211,7 @@ def decrypt_lesspar():
         if i == 1000 or x[:2] != 'more(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -more(')
+        #print(fkey, ' -more(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33221,7 +33225,7 @@ def decrypt_moreast():
         if i == 1000 or x[:2] != '>*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->*')
+        #print(fkey, ' ->*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33235,7 +33239,7 @@ def decrypt_morevir():
         if i == 1000 or x[:2] != '>,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->,')
+        #print(fkey, ' ->,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33249,7 +33253,7 @@ def decrypt_morepp():
         if i == 1000 or x[:2] != '>.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->.')
+        #print(fkey, ' ->.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33263,7 +33267,7 @@ def decrypt_moretp():
         if i == 1000 or x[:2] != '>:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->:')
+        #print(fkey, ' ->:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33277,7 +33281,7 @@ def decrypt_moreless():
         if i == 1000 or x[:2] != '><':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -><')
+        #print(fkey, ' -><')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33291,7 +33295,7 @@ def decrypt_moremore():
         if i == 1000 or x[:2] != '>>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->>')
+        #print(fkey, ' ->>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33305,7 +33309,7 @@ def decrypt_morearo():
         if i == 1000 or x[:2] != '>@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->@')
+        #print(fkey, ' ->@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33319,7 +33323,7 @@ def decrypt_morecroc():
         if i == 1000 or x[:2] != '>[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->[')
+        #print(fkey, ' ->[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33333,7 +33337,7 @@ def decrypt_morebsl():
         if i == 1000 or x[:2] != '>\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->\\')
+        #print(fkey, ' ->\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33347,7 +33351,7 @@ def decrypt_morecirc():
         if i == 1000 or x[:2] != '>^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->^')
+        #print(fkey, ' ->^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33361,7 +33365,7 @@ def decrypt_moreesp():
         if i == 1000 or x[:2] != '>`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->`')
+        #print(fkey, ' ->`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33375,7 +33379,7 @@ def decrypt_morecr():
         if i == 1000 or x[:2] != '>{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->{')
+        #print(fkey, ' ->{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33389,7 +33393,7 @@ def decrypt_morehl():
         if i == 1000 or x[:2] != '>|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->|')
+        #print(fkey, ' ->|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33403,7 +33407,7 @@ def decrypt_moretild():
         if i == 1000 or x[:2] != '>~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' ->~')
+        #print(fkey, ' ->~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33417,7 +33421,7 @@ def decrypt_arobasa():
         if i == 1000 or x[:2] != '@a':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@a')
+        #print(fkey, ' -@a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33431,7 +33435,7 @@ def decrypt_arobasb():
         if i == 1000 or x[:2] != '@b':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@b')
+        #print(fkey, ' -@b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33445,7 +33449,7 @@ def decrypt_arobasd():
         if i == 1000 or x[:2] != '@d':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@d')
+        #print(fkey, ' -@d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33459,7 +33463,7 @@ def decrypt_arobasf():
         if i == 1000 or x[:2] != '@f':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@f')
+        #print(fkey, ' -@f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33473,7 +33477,7 @@ def decrypt_arobash():
         if i == 1000 or x[:2] != '@h':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@h')
+        #print(fkey, ' -@h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33487,7 +33491,7 @@ def decrypt_arobasj():
         if i == 1000 or x[:2] != '@j':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@j')
+        #print(fkey, ' -@j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33501,7 +33505,7 @@ def decrypt_arobasl():
         if i == 1000 or x[:2] != '@l':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@l')
+        #print(fkey, ' -@l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33515,7 +33519,7 @@ def decrypt_arobasn():
         if i == 1000 or x[:2] != '@n':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@n')
+        #print(fkey, ' -@n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33529,7 +33533,7 @@ def decrypt_arobasp():
         if i == 1000 or x[:2] != '@p':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@p')
+        #print(fkey, ' -@p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33543,7 +33547,7 @@ def decrypt_arobasr():
         if i == 1000 or x[:2] != '@r':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@r')
+        #print(fkey, ' -@r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33557,7 +33561,7 @@ def decrypt_arobast():
         if i == 1000 or x[:2] != '@t':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@t')
+        #print(fkey, ' -@t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33571,7 +33575,7 @@ def decrypt_arobasv():
         if i == 1000 or x[:2] != '@v':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@v')
+        #print(fkey, ' -@v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33585,7 +33589,7 @@ def decrypt_arobasx():
         if i == 1000 or x[:2] != '@x':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@x')
+        #print(fkey, ' -@x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33599,7 +33603,7 @@ def decrypt_arobasz():
         if i == 1000 or x[:2] != '@z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@z')
+        #print(fkey, ' -@z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33613,7 +33617,7 @@ def decrypt_arobasA():
         if i == 1000 or x[:2] != '@A':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@A')
+        #print(fkey, ' -@A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33627,7 +33631,7 @@ def decrypt_arobasB():
         if i == 1000 or x[:2] != '@B':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@B')
+        #print(fkey, ' -@B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33641,7 +33645,7 @@ def decrypt_arobasD():
         if i == 1000 or x[:2] != '@D':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@D')
+        #print(fkey, ' -@D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33655,7 +33659,7 @@ def decrypt_arobasF():
         if i == 1000 or x[:2] != '@F':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@F')
+        #print(fkey, ' -@F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33669,7 +33673,7 @@ def decrypt_arobasH():
         if i == 1000 or x[:2] != '@H':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@H')
+        #print(fkey, ' -@H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33683,7 +33687,7 @@ def decrypt_arobasJ():
         if i == 1000 or x[:2] != '@J':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@J')
+        #print(fkey, ' -@J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33697,7 +33701,7 @@ def decrypt_arobasL():
         if i == 1000 or x[:2] != '@L':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@L')
+        #print(fkey, ' -@L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33711,7 +33715,7 @@ def decrypt_arobasN():
         if i == 1000 or x[:2] != '@N':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@N')
+        #print(fkey, ' -@N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33725,7 +33729,7 @@ def decrypt_arobasP():
         if i == 1000 or x[:2] != '@P':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@P')
+        #print(fkey, ' -@P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33739,7 +33743,7 @@ def decrypt_arobasR():
         if i == 1000 or x[:2] != '@R':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@R')
+        #print(fkey, ' -@R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33753,7 +33757,7 @@ def decrypt_arobasT():
         if i == 1000 or x[:2] != '@T':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@T')
+        #print(fkey, ' -@T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33767,7 +33771,7 @@ def decrypt_arobasV():
         if i == 1000 or x[:2] != '@V':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@V')
+        #print(fkey, ' -@V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33781,7 +33785,7 @@ def decrypt_arobasX():
         if i == 1000 or x[:2] != '@X':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@X')
+        #print(fkey, ' -@X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33795,7 +33799,7 @@ def decrypt_arobasZ():
         if i == 1000 or x[:2] != '@Z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@Z')
+        #print(fkey, ' -@Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33809,7 +33813,7 @@ def decrypt_arobas0():
         if i == 1000 or x[:2] != '@0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@0')
+        #print(fkey, ' -@0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33823,7 +33827,7 @@ def decrypt_arobas2():
         if i == 1000 or x[:2] != '@2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@2')
+        #print(fkey, ' -@2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33837,7 +33841,7 @@ def decrypt_arobas4():
         if i == 1000 or x[:2] != '@4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@4')
+        #print(fkey, ' -@4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33851,7 +33855,7 @@ def decrypt_arobas6():
         if i == 1000 or x[:2] != '@6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@6')
+        #print(fkey, ' -@6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33865,7 +33869,7 @@ def decrypt_arobas8():
         if i == 1000 or x[:2] != '@8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@8')
+        #print(fkey, ' -@8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33879,7 +33883,7 @@ def decrypt_arobasexcl():
         if i == 1000 or x[:2] != '@!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@!')
+        #print(fkey, ' -@!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33893,7 +33897,7 @@ def decrypt_arobasdquote():
         if i == 1000 or x[:2] != '@"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@"')
+        #print(fkey, ' -@"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33907,7 +33911,7 @@ def decrypt_arobasdoll():
         if i == 1000 or x[:2] != '@$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@$')
+        #print(fkey, ' -@$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33921,7 +33925,7 @@ def decrypt_arobasand():
         if i == 1000 or x[:2] != '@&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@&')
+        #print(fkey, ' -@&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33935,7 +33939,7 @@ def decrypt_arobasquote():
         if i == 1000 or x[:2] != '@\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@\'')
+        #print(fkey, ' -@\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33949,7 +33953,7 @@ def decrypt_aropar():
         if i == 1000 or x[:2] != 'aro(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -aro(')
+        #print(fkey, ' -aro(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33963,7 +33967,7 @@ def decrypt_arobasast():
         if i == 1000 or x[:2] != '@*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@*')
+        #print(fkey, ' -@*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33977,7 +33981,7 @@ def decrypt_arobasvir():
         if i == 1000 or x[:2] != '@,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@,')
+        #print(fkey, ' -@,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -33991,7 +33995,7 @@ def decrypt_arobaspp():
         if i == 1000 or x[:2] != '@.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@.')
+        #print(fkey, ' -@.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34005,7 +34009,7 @@ def decrypt_arobastp():
         if i == 1000 or x[:2] != '@:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@:')
+        #print(fkey, ' -@:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34019,7 +34023,7 @@ def decrypt_arobasless():
         if i == 1000 or x[:2] != '@<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@<')
+        #print(fkey, ' -@<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34033,7 +34037,7 @@ def decrypt_arobasmore():
         if i == 1000 or x[:2] != '@>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@>')
+        #print(fkey, ' -@>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34047,7 +34051,7 @@ def decrypt_arobasaro():
         if i == 1000 or x[:2] != '@@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@@')
+        #print(fkey, ' -@@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34061,7 +34065,7 @@ def decrypt_arobascroc():
         if i == 1000 or x[:2] != '@[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@[')
+        #print(fkey, ' -@[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34075,7 +34079,7 @@ def decrypt_arobasbsl():
         if i == 1000 or x[:2] != '@\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@\\')
+        #print(fkey, ' -@\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34089,7 +34093,7 @@ def decrypt_arobascirc():
         if i == 1000 or x[:2] != '@^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@^')
+        #print(fkey, ' -@^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34103,7 +34107,7 @@ def decrypt_arobasesp():
         if i == 1000 or x[:2] != '@`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@`')
+        #print(fkey, ' -@`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34117,7 +34121,7 @@ def decrypt_arobascr():
         if i == 1000 or x[:2] != '@{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@{')
+        #print(fkey, ' -@{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34131,7 +34135,7 @@ def decrypt_arobashl():
         if i == 1000 or x[:2] != '@|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@|')
+        #print(fkey, ' -@|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34145,7 +34149,7 @@ def decrypt_arobastild():
         if i == 1000 or x[:2] != '@~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -@~')
+        #print(fkey, ' -@~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34159,7 +34163,7 @@ def decrypt_crocha():
         if i == 1000 or x[:2] != '[a':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[a')
+        #print(fkey, ' -[a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34173,7 +34177,7 @@ def decrypt_crochb():
         if i == 1000 or x[:2] != '[b':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[b')
+        #print(fkey, ' -[b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34187,7 +34191,7 @@ def decrypt_crochd():
         if i == 1000 or x[:2] != '[d':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[d')
+        #print(fkey, ' -[d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34201,7 +34205,7 @@ def decrypt_crochf():
         if i == 1000 or x[:2] != '[f':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[f')
+        #print(fkey, ' -[f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34215,7 +34219,7 @@ def decrypt_crochh():
         if i == 1000 or x[:2] != '[h':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[h')
+        #print(fkey, ' -[h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34229,7 +34233,7 @@ def decrypt_crochj():
         if i == 1000 or x[:2] != '[j':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[j')
+        #print(fkey, ' -[j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34243,7 +34247,7 @@ def decrypt_crochl():
         if i == 1000 or x[:2] != '[l':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[l')
+        #print(fkey, ' -[l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34257,7 +34261,7 @@ def decrypt_crochn():
         if i == 1000 or x[:2] != '[n':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[n')
+        #print(fkey, ' -[n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34271,7 +34275,7 @@ def decrypt_crochp():
         if i == 1000 or x[:2] != '[p':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[p')
+        #print(fkey, ' -[p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34285,7 +34289,7 @@ def decrypt_crochr():
         if i == 1000 or x[:2] != '[r':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[r')
+        #print(fkey, ' -[r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34299,7 +34303,7 @@ def decrypt_crocht():
         if i == 1000 or x[:2] != '[t':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[t')
+        #print(fkey, ' -[t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34313,7 +34317,7 @@ def decrypt_crochv():
         if i == 1000 or x[:2] != '[v':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[v')
+        #print(fkey, ' -[v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34327,7 +34331,7 @@ def decrypt_crochx():
         if i == 1000 or x[:2] != '[x':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[x')
+        #print(fkey, ' -[x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34341,7 +34345,7 @@ def decrypt_crochz():
         if i == 1000 or x[:2] != '[z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[z')
+        #print(fkey, ' -[z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34355,7 +34359,7 @@ def decrypt_crochA():
         if i == 1000 or x[:2] != '[A':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[A')
+        #print(fkey, ' -[A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34369,7 +34373,7 @@ def decrypt_crochB():
         if i == 1000 or x[:2] != '[B':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[B')
+        #print(fkey, ' -[B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34383,7 +34387,7 @@ def decrypt_crochD():
         if i == 1000 or x[:2] != '[D':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[D')
+        #print(fkey, ' -[D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34397,7 +34401,7 @@ def decrypt_crochF():
         if i == 1000 or x[:2] != '[F':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[F')
+        #print(fkey, ' -[F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34411,7 +34415,7 @@ def decrypt_crochH():
         if i == 1000 or x[:2] != '[H':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[H')
+        #print(fkey, ' -[H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34425,7 +34429,7 @@ def decrypt_crochJ():
         if i == 1000 or x[:2] != '[J':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[J')
+        #print(fkey, ' -[J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34439,7 +34443,7 @@ def decrypt_crochL():
         if i == 1000 or x[:2] != '[L':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[L')
+        #print(fkey, ' -[L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34453,7 +34457,7 @@ def decrypt_crochN():
         if i == 1000 or x[:2] != '[N':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[N')
+        #print(fkey, ' -[N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34467,7 +34471,7 @@ def decrypt_crochP():
         if i == 1000 or x[:2] != '[P':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[P')
+        #print(fkey, ' -[P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34481,7 +34485,7 @@ def decrypt_crochR():
         if i == 1000 or x[:2] != '[R':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[R')
+        #print(fkey, ' -[R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34495,7 +34499,7 @@ def decrypt_crochT():
         if i == 1000 or x[:2] != '[T':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[T')
+        #print(fkey, ' -[T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34509,7 +34513,7 @@ def decrypt_crochV():
         if i == 1000 or x[:2] != '[V':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[V')
+        #print(fkey, ' -[V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34523,7 +34527,7 @@ def decrypt_crochX():
         if i == 1000 or x[:2] != '[X':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[X')
+        #print(fkey, ' -[X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34537,7 +34541,7 @@ def decrypt_crochZ():
         if i == 1000 or x[:2] != '[Z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[Z')
+        #print(fkey, ' -[Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34551,7 +34555,7 @@ def decrypt_croch0():
         if i == 1000 or x[:2] != '[0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[0')
+        #print(fkey, ' -[0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34565,7 +34569,7 @@ def decrypt_croch2():
         if i == 1000 or x[:2] != '[2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[2')
+        #print(fkey, ' -[2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34579,7 +34583,7 @@ def decrypt_croch4():
         if i == 1000 or x[:2] != '[4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[4')
+        #print(fkey, ' -[4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34593,7 +34597,7 @@ def decrypt_croch6():
         if i == 1000 or x[:2] != '[6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[6')
+        #print(fkey, ' -[6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34607,7 +34611,7 @@ def decrypt_croch8():
         if i == 1000 or x[:2] != '[8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[8')
+        #print(fkey, ' -[8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34621,7 +34625,7 @@ def decrypt_crochexcl():
         if i == 1000 or x[:2] != '[!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[!')
+        #print(fkey, ' -[!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34635,7 +34639,7 @@ def decrypt_crochdquote():
         if i == 1000 or x[:2] != '["':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -["')
+        #print(fkey, ' -["')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34649,7 +34653,7 @@ def decrypt_crochdoll():
         if i == 1000 or x[:2] != '[$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[$')
+        #print(fkey, ' -[$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34663,7 +34667,7 @@ def decrypt_crochand():
         if i == 1000 or x[:2] != '[&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[&')
+        #print(fkey, ' -[&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34677,7 +34681,7 @@ def decrypt_crochquote():
         if i == 1000 or x[:2] != '[\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[\'')
+        #print(fkey, ' -[\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34691,7 +34695,7 @@ def decrypt_crocpar():
         if i == 1000 or x[:2] != 'croc(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -croc(')
+        #print(fkey, ' -croc(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34705,7 +34709,7 @@ def decrypt_crochast():
         if i == 1000 or x[:2] != '[*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[*')
+        #print(fkey, ' -[*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34719,7 +34723,7 @@ def decrypt_crochvir():
         if i == 1000 or x[:2] != '[,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[,')
+        #print(fkey, ' -[,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34733,7 +34737,7 @@ def decrypt_crochpp():
         if i == 1000 or x[:2] != '[.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[.')
+        #print(fkey, ' -[.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34747,7 +34751,7 @@ def decrypt_crochtp():
         if i == 1000 or x[:2] != '[:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[:')
+        #print(fkey, ' -[:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34761,7 +34765,7 @@ def decrypt_crochless():
         if i == 1000 or x[:2] != '[<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[<')
+        #print(fkey, ' -[<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34775,7 +34779,7 @@ def decrypt_crochmore():
         if i == 1000 or x[:2] != '[>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[>')
+        #print(fkey, ' -[>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34789,7 +34793,7 @@ def decrypt_crocharo():
         if i == 1000 or x[:2] != '[@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[@')
+        #print(fkey, ' -[@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34803,7 +34807,7 @@ def decrypt_crochcroc():
         if i == 1000 or x[:2] != '[[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[[')
+        #print(fkey, ' -[[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34817,7 +34821,7 @@ def decrypt_crochbsl():
         if i == 1000 or x[:2] != '[\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[\\')
+        #print(fkey, ' -[\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34831,7 +34835,7 @@ def decrypt_crochcirc():
         if i == 1000 or x[:2] != '[^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[^')
+        #print(fkey, ' -[^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34845,7 +34849,7 @@ def decrypt_crochesp():
         if i == 1000 or x[:2] != '[`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[`')
+        #print(fkey, ' -[`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34859,7 +34863,7 @@ def decrypt_crochcr():
         if i == 1000 or x[:2] != '[{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[{')
+        #print(fkey, ' -[{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34873,7 +34877,7 @@ def decrypt_crochhl():
         if i == 1000 or x[:2] != '[|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[|')
+        #print(fkey, ' -[|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34887,7 +34891,7 @@ def decrypt_crochtild():
         if i == 1000 or x[:2] != '[~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -[~')
+        #print(fkey, ' -[~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34901,7 +34905,7 @@ def decrypt_bsa():
         if i == 1000 or x[:2] != '\a':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\a')
+        #print(fkey, ' -\a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34915,7 +34919,7 @@ def decrypt_bsb():
         if i == 1000 or x[:2] != '\b':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\b')
+        #print(fkey, ' -\b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34929,7 +34933,7 @@ def decrypt_bsd():
         if i == 1000 or x[:2] != '\d':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\d')
+        #print(fkey, ' -\d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34943,7 +34947,7 @@ def decrypt_bsf():
         if i == 1000 or x[:2] != '\f':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\f')
+        #print(fkey, ' -\f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34957,7 +34961,7 @@ def decrypt_bsh():
         if i == 1000 or x[:2] != '\h':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\h')
+        #print(fkey, ' -\h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34971,7 +34975,7 @@ def decrypt_bsj():
         if i == 1000 or x[:2] != '\j':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\j')
+        #print(fkey, ' -\j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34985,7 +34989,7 @@ def decrypt_bsl():
         if i == 1000 or x[:2] != '\l':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\l')
+        #print(fkey, ' -\l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -34999,7 +35003,7 @@ def decrypt_bsn():
         if i == 1000 or x[:2] != '\n':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\n')
+        #print(fkey, ' -\n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35013,7 +35017,7 @@ def decrypt_bsp():
         if i == 1000 or x[:2] != '\p':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\p')
+        #print(fkey, ' -\p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35027,7 +35031,7 @@ def decrypt_bsr():
         if i == 1000 or x[:2] != '\r':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\r')
+        #print(fkey, ' -\r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35041,7 +35045,7 @@ def decrypt_bst():
         if i == 1000 or x[:2] != '\t':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\t')
+        #print(fkey, ' -\t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35055,7 +35059,7 @@ def decrypt_bsv():
         if i == 1000 or x[:2] != '\v':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\v')
+        #print(fkey, ' -\v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35069,7 +35073,7 @@ def decrypt_bsx():
         if i == 1000 or x[:2] != '\\x':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\\x')
+        #print(fkey, ' -\\x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35083,7 +35087,7 @@ def decrypt_bsz():
         if i == 1000 or x[:2] != '\z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\z')
+        #print(fkey, ' -\z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35097,7 +35101,7 @@ def decrypt_bsA():
         if i == 1000 or x[:2] != '\A':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\A')
+        #print(fkey, ' -\A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35111,7 +35115,7 @@ def decrypt_bsB():
         if i == 1000 or x[:2] != '\B':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\B')
+        #print(fkey, ' -\B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35125,7 +35129,7 @@ def decrypt_bsD():
         if i == 1000 or x[:2] != '\D':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\D')
+        #print(fkey, ' -\D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35139,7 +35143,7 @@ def decrypt_bsF():
         if i == 1000 or x[:2] != '\F':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\F')
+        #print(fkey, ' -\F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35153,7 +35157,7 @@ def decrypt_bsH():
         if i == 1000 or x[:2] != '\H':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\H')
+        #print(fkey, ' -\H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35167,7 +35171,7 @@ def decrypt_bsJ():
         if i == 1000 or x[:2] != '\J':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\J')
+        #print(fkey, ' -\J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35181,7 +35185,7 @@ def decrypt_bsL():
         if i == 1000 or x[:2] != '\L':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\L')
+        #print(fkey, ' -\L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35195,7 +35199,7 @@ def decrypt_bsN():
         if i == 1000 or x[:2] != '\\N':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\\N')
+        #print(fkey, ' -\\N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35209,7 +35213,7 @@ def decrypt_bsP():
         if i == 1000 or x[:2] != '\P':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\P')
+        #print(fkey, ' -\P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35223,7 +35227,7 @@ def decrypt_bsR():
         if i == 1000 or x[:2] != '\R':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\R')
+        #print(fkey, ' -\R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35237,7 +35241,7 @@ def decrypt_bsT():
         if i == 1000 or x[:2] != '\T':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\T')
+        #print(fkey, ' -\T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35251,7 +35255,7 @@ def decrypt_bsV():
         if i == 1000 or x[:2] != '\V':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\V')
+        #print(fkey, ' -\V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35265,7 +35269,7 @@ def decrypt_bsX():
         if i == 1000 or x[:2] != '\X':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\X')
+        #print(fkey, ' -\X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35279,7 +35283,7 @@ def decrypt_bsZ():
         if i == 1000 or x[:2] != '\Z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\Z')
+        #print(fkey, ' -\Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35293,7 +35297,7 @@ def decrypt_bs0():
         if i == 1000 or x[:2] != '\0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\0')
+        #print(fkey, ' -\0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35307,7 +35311,7 @@ def decrypt_bs2():
         if i == 1000 or x[:2] != '\2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\2')
+        #print(fkey, ' -\2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35321,7 +35325,7 @@ def decrypt_bs4():
         if i == 1000 or x[:2] != '\4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\4')
+        #print(fkey, ' -\4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35335,7 +35339,7 @@ def decrypt_bs6():
         if i == 1000 or x[:2] != '\6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\6')
+        #print(fkey, ' -\6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35349,7 +35353,7 @@ def decrypt_bs8():
         if i == 1000 or x[:2] != '\8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\8')
+        #print(fkey, ' -\8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35363,7 +35367,7 @@ def decrypt_bsexcl():
         if i == 1000 or x[:2] != '\!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\!')
+        #print(fkey, ' -\!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35377,7 +35381,7 @@ def decrypt_bsdquote():
         if i == 1000 or x[:2] != '\"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\"')
+        #print(fkey, ' -\"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35391,7 +35395,7 @@ def decrypt_bsdoll():
         if i == 1000 or x[:2] != '\$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\$')
+        #print(fkey, ' -\$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35405,7 +35409,7 @@ def decrypt_bsand():
         if i == 1000 or x[:2] != '\&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\&')
+        #print(fkey, ' -\&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35419,7 +35423,7 @@ def decrypt_bsquote():
         if i == 1000 or x[:2] != '\\\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\\\'')
+        #print(fkey, ' -\\\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35433,7 +35437,7 @@ def decrypt_bslpar():
         if i == 1000 or x[:2] != 'bsl(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -bsl(')
+        #print(fkey, ' -bsl(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35447,7 +35451,7 @@ def decrypt_bsast():
         if i == 1000 or x[:2] != '\*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\*')
+        #print(fkey, ' -\*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35461,7 +35465,7 @@ def decrypt_bsvir():
         if i == 1000 or x[:2] != '\,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\,')
+        #print(fkey, ' -\,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35475,7 +35479,7 @@ def decrypt_bspp():
         if i == 1000 or x[:2] != '\.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\.')
+        #print(fkey, ' -\.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35489,7 +35493,7 @@ def decrypt_bstp():
         if i == 1000 or x[:2] != '\:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\:')
+        #print(fkey, ' -\:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35503,7 +35507,7 @@ def decrypt_bsless():
         if i == 1000 or x[:2] != '\<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\<')
+        #print(fkey, ' -\<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35517,7 +35521,7 @@ def decrypt_bsmore():
         if i == 1000 or x[:2] != '\>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\>')
+        #print(fkey, ' -\>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35531,7 +35535,7 @@ def decrypt_bsaro():
         if i == 1000 or x[:2] != '\@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\@')
+        #print(fkey, ' -\@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35545,7 +35549,7 @@ def decrypt_bscroc():
         if i == 1000 or x[:2] != '\[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\[')
+        #print(fkey, ' -\[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35559,7 +35563,7 @@ def decrypt_bsbsl():
         if i == 1000 or x[:2] != '\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\\')
+        #print(fkey, ' -\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35573,7 +35577,7 @@ def decrypt_bscirc():
         if i == 1000 or x[:2] != '\^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\^')
+        #print(fkey, ' -\^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35587,7 +35591,7 @@ def decrypt_bsesp():
         if i == 1000 or x[:2] != '\`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\`')
+        #print(fkey, ' -\`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35601,7 +35605,7 @@ def decrypt_bscr():
         if i == 1000 or x[:2] != '\{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\{')
+        #print(fkey, ' -\{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35615,7 +35619,7 @@ def decrypt_bshl():
         if i == 1000 or x[:2] != '\|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\|')
+        #print(fkey, ' -\|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35629,7 +35633,7 @@ def decrypt_bstild():
         if i == 1000 or x[:2] != '\~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -\~')
+        #print(fkey, ' -\~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35643,7 +35647,7 @@ def decrypt_cira():
         if i == 1000 or x[:2] != '^a':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^a')
+        #print(fkey, ' -^a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35657,7 +35661,7 @@ def decrypt_cirb():
         if i == 1000 or x[:2] != '^b':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^b')
+        #print(fkey, ' -^b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35671,7 +35675,7 @@ def decrypt_cird():
         if i == 1000 or x[:2] != '^d':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^d')
+        #print(fkey, ' -^d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35685,7 +35689,7 @@ def decrypt_cirf():
         if i == 1000 or x[:2] != '^f':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^f')
+        #print(fkey, ' -^f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35699,7 +35703,7 @@ def decrypt_cirh():
         if i == 1000 or x[:2] != '^h':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^h')
+        #print(fkey, ' -^h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35713,7 +35717,7 @@ def decrypt_cirj():
         if i == 1000 or x[:2] != '^j':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^j')
+        #print(fkey, ' -^j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35727,7 +35731,7 @@ def decrypt_cirl():
         if i == 1000 or x[:2] != '^l':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^l')
+        #print(fkey, ' -^l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35741,7 +35745,7 @@ def decrypt_cirn():
         if i == 1000 or x[:2] != '^n':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^n')
+        #print(fkey, ' -^n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35755,7 +35759,7 @@ def decrypt_cirp():
         if i == 1000 or x[:2] != '^p':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^p')
+        #print(fkey, ' -^p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35769,7 +35773,7 @@ def decrypt_cirr():
         if i == 1000 or x[:2] != '^r':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^r')
+        #print(fkey, ' -^r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35783,7 +35787,7 @@ def decrypt_cirt():
         if i == 1000 or x[:2] != '^t':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^t')
+        #print(fkey, ' -^t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35797,7 +35801,7 @@ def decrypt_cirv():
         if i == 1000 or x[:2] != '^v':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^v')
+        #print(fkey, ' -^v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35811,7 +35815,7 @@ def decrypt_cirx():
         if i == 1000 or x[:2] != '^x':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^x')
+        #print(fkey, ' -^x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35825,7 +35829,7 @@ def decrypt_cirz():
         if i == 1000 or x[:2] != '^z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^z')
+        #print(fkey, ' -^z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35839,7 +35843,7 @@ def decrypt_cirA():
         if i == 1000 or x[:2] != '^A':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^A')
+        #print(fkey, ' -^A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35853,7 +35857,7 @@ def decrypt_cirB():
         if i == 1000 or x[:2] != '^B':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^B')
+        #print(fkey, ' -^B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35867,7 +35871,7 @@ def decrypt_cirD():
         if i == 1000 or x[:2] != '^D':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^D')
+        #print(fkey, ' -^D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35881,7 +35885,7 @@ def decrypt_cirF():
         if i == 1000 or x[:2] != '^F':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^F')
+        #print(fkey, ' -^F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35895,7 +35899,7 @@ def decrypt_cirH():
         if i == 1000 or x[:2] != '^H':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^H')
+        #print(fkey, ' -^H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35909,7 +35913,7 @@ def decrypt_cirJ():
         if i == 1000 or x[:2] != '^J':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^J')
+        #print(fkey, ' -^J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35923,7 +35927,7 @@ def decrypt_cirL():
         if i == 1000 or x[:2] != '^L':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^L')
+        #print(fkey, ' -^L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35937,7 +35941,7 @@ def decrypt_cirN():
         if i == 1000 or x[:2] != '^N':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^N')
+        #print(fkey, ' -^N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35951,7 +35955,7 @@ def decrypt_cirP():
         if i == 1000 or x[:2] != '^P':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^P')
+        #print(fkey, ' -^P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35965,7 +35969,7 @@ def decrypt_cirR():
         if i == 1000 or x[:2] != '^R':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^R')
+        #print(fkey, ' -^R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35979,7 +35983,7 @@ def decrypt_cirT():
         if i == 1000 or x[:2] != '^T':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^T')
+        #print(fkey, ' -^T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -35993,7 +35997,7 @@ def decrypt_cirV():
         if i == 1000 or x[:2] != '^V':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^V')
+        #print(fkey, ' -^V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36007,7 +36011,7 @@ def decrypt_cirX():
         if i == 1000 or x[:2] != '^X':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^X')
+        #print(fkey, ' -^X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36021,7 +36025,7 @@ def decrypt_cirZ():
         if i == 1000 or x[:2] != '^Z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^Z')
+        #print(fkey, ' -^Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36035,7 +36039,7 @@ def decrypt_cir0():
         if i == 1000 or x[:2] != '^0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^0')
+        #print(fkey, ' -^0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36049,7 +36053,7 @@ def decrypt_cir2():
         if i == 1000 or x[:2] != '^2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^2')
+        #print(fkey, ' -^2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36063,7 +36067,7 @@ def decrypt_cir4():
         if i == 1000 or x[:2] != '^4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^4')
+        #print(fkey, ' -^4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36077,7 +36081,7 @@ def decrypt_cir6():
         if i == 1000 or x[:2] != '^6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^6')
+        #print(fkey, ' -^6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36091,7 +36095,7 @@ def decrypt_cir8():
         if i == 1000 or x[:2] != '^8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^8')
+        #print(fkey, ' -^8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36105,7 +36109,7 @@ def decrypt_cirexcl():
         if i == 1000 or x[:2] != '^!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^!')
+        #print(fkey, ' -^!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36119,7 +36123,7 @@ def decrypt_cirdquote():
         if i == 1000 or x[:2] != '^"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^"')
+        #print(fkey, ' -^"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36133,7 +36137,7 @@ def decrypt_cirdoll():
         if i == 1000 or x[:2] != '^$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^$')
+        #print(fkey, ' -^$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36147,7 +36151,7 @@ def decrypt_cirand():
         if i == 1000 or x[:2] != '^&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^&')
+        #print(fkey, ' -^&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36161,7 +36165,7 @@ def decrypt_cirquote():
         if i == 1000 or x[:2] != '^\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^\'')
+        #print(fkey, ' -^\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36175,7 +36179,7 @@ def decrypt_circpar():
         if i == 1000 or x[:2] != 'circ(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -circ(')
+        #print(fkey, ' -circ(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36189,7 +36193,7 @@ def decrypt_cirast():
         if i == 1000 or x[:2] != '^*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^*')
+        #print(fkey, ' -^*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36203,7 +36207,7 @@ def decrypt_cirvir():
         if i == 1000 or x[:2] != '^,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^,')
+        #print(fkey, ' -^,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36217,7 +36221,7 @@ def decrypt_cirpp():
         if i == 1000 or x[:2] != '^.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^.')
+        #print(fkey, ' -^.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36231,7 +36235,7 @@ def decrypt_cirtp():
         if i == 1000 or x[:2] != '^:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^:')
+        #print(fkey, ' -^:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36245,7 +36249,7 @@ def decrypt_cirless():
         if i == 1000 or x[:2] != '^<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^<')
+        #print(fkey, ' -^<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36259,7 +36263,7 @@ def decrypt_cirmore():
         if i == 1000 or x[:2] != '^>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^>')
+        #print(fkey, ' -^>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36273,7 +36277,7 @@ def decrypt_ciraro():
         if i == 1000 or x[:2] != '^@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^@')
+        #print(fkey, ' -^@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36287,7 +36291,7 @@ def decrypt_circroc():
         if i == 1000 or x[:2] != '^[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^[')
+        #print(fkey, ' -^[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36301,7 +36305,7 @@ def decrypt_cirbsl():
         if i == 1000 or x[:2] != '^\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^\\')
+        #print(fkey, ' -^\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36315,7 +36319,7 @@ def decrypt_circirc():
         if i == 1000 or x[:2] != '^^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^^')
+        #print(fkey, ' -^^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36329,7 +36333,7 @@ def decrypt_ciresp():
         if i == 1000 or x[:2] != '^`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^`')
+        #print(fkey, ' -^`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36343,7 +36347,7 @@ def decrypt_circr():
         if i == 1000 or x[:2] != '^{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^{')
+        #print(fkey, ' -^{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36357,7 +36361,7 @@ def decrypt_cirhl():
         if i == 1000 or x[:2] != '^|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^|')
+        #print(fkey, ' -^|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36371,7 +36375,7 @@ def decrypt_cirtild():
         if i == 1000 or x[:2] != '^~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -^~')
+        #print(fkey, ' -^~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36385,7 +36389,7 @@ def decrypt_esua():
         if i == 1000 or x[:2] != '`a':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`a')
+        #print(fkey, ' -`a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36399,7 +36403,7 @@ def decrypt_esub():
         if i == 1000 or x[:2] != '`b':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`b')
+        #print(fkey, ' -`b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36413,7 +36417,7 @@ def decrypt_esud():
         if i == 1000 or x[:2] != '`d':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`d')
+        #print(fkey, ' -`d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36427,7 +36431,7 @@ def decrypt_esuf():
         if i == 1000 or x[:2] != '`f':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`f')
+        #print(fkey, ' -`f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36441,7 +36445,7 @@ def decrypt_esuh():
         if i == 1000 or x[:2] != '`h':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`h')
+        #print(fkey, ' -`h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36455,7 +36459,7 @@ def decrypt_esuj():
         if i == 1000 or x[:2] != '`j':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`j')
+        #print(fkey, ' -`j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36469,7 +36473,7 @@ def decrypt_esul():
         if i == 1000 or x[:2] != '`l':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`l')
+        #print(fkey, ' -`l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36483,7 +36487,7 @@ def decrypt_esun():
         if i == 1000 or x[:2] != '`n':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`n')
+        #print(fkey, ' -`n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36497,7 +36501,7 @@ def decrypt_esup():
         if i == 1000 or x[:2] != '`p':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`p')
+        #print(fkey, ' -`p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36511,7 +36515,7 @@ def decrypt_esur():
         if i == 1000 or x[:2] != '`r':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`r')
+        #print(fkey, ' -`r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36525,7 +36529,7 @@ def decrypt_esut():
         if i == 1000 or x[:2] != '`t':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`t')
+        #print(fkey, ' -`t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36539,7 +36543,7 @@ def decrypt_esuv():
         if i == 1000 or x[:2] != '`v':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`v')
+        #print(fkey, ' -`v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36553,7 +36557,7 @@ def decrypt_esux():
         if i == 1000 or x[:2] != '`x':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`x')
+        #print(fkey, ' -`x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36567,7 +36571,7 @@ def decrypt_esuz():
         if i == 1000 or x[:2] != '`z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`z')
+        #print(fkey, ' -`z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36581,7 +36585,7 @@ def decrypt_esuA():
         if i == 1000 or x[:2] != '`A':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`A')
+        #print(fkey, ' -`A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36595,7 +36599,7 @@ def decrypt_esuB():
         if i == 1000 or x[:2] != '`B':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`B')
+        #print(fkey, ' -`B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36609,7 +36613,7 @@ def decrypt_esuD():
         if i == 1000 or x[:2] != '`D':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`D')
+        #print(fkey, ' -`D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36623,7 +36627,7 @@ def decrypt_esuF():
         if i == 1000 or x[:2] != '`F':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`F')
+        #print(fkey, ' -`F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36637,7 +36641,7 @@ def decrypt_esuH():
         if i == 1000 or x[:2] != '`H':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`H')
+        #print(fkey, ' -`H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36651,7 +36655,7 @@ def decrypt_esuJ():
         if i == 1000 or x[:2] != '`J':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`J')
+        #print(fkey, ' -`J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36665,7 +36669,7 @@ def decrypt_esuL():
         if i == 1000 or x[:2] != '`L':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`L')
+        #print(fkey, ' -`L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36679,7 +36683,7 @@ def decrypt_esuN():
         if i == 1000 or x[:2] != '`N':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`N')
+        #print(fkey, ' -`N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36693,7 +36697,7 @@ def decrypt_esuP():
         if i == 1000 or x[:2] != '`P':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`P')
+        #print(fkey, ' -`P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36707,7 +36711,7 @@ def decrypt_esuR():
         if i == 1000 or x[:2] != '`R':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`R')
+        #print(fkey, ' -`R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36721,7 +36725,7 @@ def decrypt_esuT():
         if i == 1000 or x[:2] != '`T':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`T')
+        #print(fkey, ' -`T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36735,7 +36739,7 @@ def decrypt_esuV():
         if i == 1000 or x[:2] != '`V':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`V')
+        #print(fkey, ' -`V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36749,7 +36753,7 @@ def decrypt_esuX():
         if i == 1000 or x[:2] != '`X':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`X')
+        #print(fkey, ' -`X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36763,7 +36767,7 @@ def decrypt_esuZ():
         if i == 1000 or x[:2] != '`Z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`Z')
+        #print(fkey, ' -`Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36777,7 +36781,7 @@ def decrypt_esu0():
         if i == 1000 or x[:2] != '`0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`0')
+        #print(fkey, ' -`0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36791,7 +36795,7 @@ def decrypt_esu2():
         if i == 1000 or x[:2] != '`2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`2')
+        #print(fkey, ' -`2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36805,7 +36809,7 @@ def decrypt_esu4():
         if i == 1000 or x[:2] != '`4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`4')
+        #print(fkey, ' -`4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36819,7 +36823,7 @@ def decrypt_esu6():
         if i == 1000 or x[:2] != '`6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`6')
+        #print(fkey, ' -`6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36833,7 +36837,7 @@ def decrypt_esu8():
         if i == 1000 or x[:2] != '`8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`8')
+        #print(fkey, ' -`8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36847,7 +36851,7 @@ def decrypt_esuexcl():
         if i == 1000 or x[:2] != '`!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`!')
+        #print(fkey, ' -`!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36861,7 +36865,7 @@ def decrypt_esudquote():
         if i == 1000 or x[:2] != '`"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`"')
+        #print(fkey, ' -`"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36875,7 +36879,7 @@ def decrypt_esudoll():
         if i == 1000 or x[:2] != '`$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`$')
+        #print(fkey, ' -`$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36889,7 +36893,7 @@ def decrypt_esuand():
         if i == 1000 or x[:2] != '`&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`&')
+        #print(fkey, ' -`&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36903,7 +36907,7 @@ def decrypt_esuquote():
         if i == 1000 or x[:2] != '`\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`\'')
+        #print(fkey, ' -`\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36917,7 +36921,7 @@ def decrypt_esppar():
         if i == 1000 or x[:2] != 'esp(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -esp(')
+        #print(fkey, ' -esp(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36931,7 +36935,7 @@ def decrypt_esuast():
         if i == 1000 or x[:2] != '`*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`*')
+        #print(fkey, ' -`*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36945,7 +36949,7 @@ def decrypt_esuvir():
         if i == 1000 or x[:2] != '`,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`,')
+        #print(fkey, ' -`,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36959,7 +36963,7 @@ def decrypt_esupp():
         if i == 1000 or x[:2] != '`.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`.')
+        #print(fkey, ' -`.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36973,7 +36977,7 @@ def decrypt_esutp():
         if i == 1000 or x[:2] != '`:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`:')
+        #print(fkey, ' -`:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -36987,7 +36991,7 @@ def decrypt_esuless():
         if i == 1000 or x[:2] != '`<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`<')
+        #print(fkey, ' -`<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37001,7 +37005,7 @@ def decrypt_esumore():
         if i == 1000 or x[:2] != '`>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`>')
+        #print(fkey, ' -`>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37015,7 +37019,7 @@ def decrypt_esuaro():
         if i == 1000 or x[:2] != '`@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`@')
+        #print(fkey, ' -`@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37029,7 +37033,7 @@ def decrypt_esucroc():
         if i == 1000 or x[:2] != '`[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`[')
+        #print(fkey, ' -`[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37043,7 +37047,7 @@ def decrypt_esubsl():
         if i == 1000 or x[:2] != '`\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`\\')
+        #print(fkey, ' -`\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37057,7 +37061,7 @@ def decrypt_esucirc():
         if i == 1000 or x[:2] != '`^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`^')
+        #print(fkey, ' -`^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37071,7 +37075,7 @@ def decrypt_esuesp():
         if i == 1000 or x[:2] != '``':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -``')
+        #print(fkey, ' -``')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37085,7 +37089,7 @@ def decrypt_esucr():
         if i == 1000 or x[:2] != '`{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`{')
+        #print(fkey, ' -`{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37099,7 +37103,7 @@ def decrypt_esuhl():
         if i == 1000 or x[:2] != '`|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`|')
+        #print(fkey, ' -`|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37113,7 +37117,7 @@ def decrypt_esutild():
         if i == 1000 or x[:2] != '`~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -`~')
+        #print(fkey, ' -`~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37127,7 +37131,7 @@ def decrypt_crocha():
         if i == 1000 or x[:2] != '{a':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{a')
+        #print(fkey, ' -{a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37141,7 +37145,7 @@ def decrypt_crochb():
         if i == 1000 or x[:2] != '{b':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{b')
+        #print(fkey, ' -{b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37155,7 +37159,7 @@ def decrypt_crochd():
         if i == 1000 or x[:2] != '{d':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{d')
+        #print(fkey, ' -{d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37169,7 +37173,7 @@ def decrypt_crochf():
         if i == 1000 or x[:2] != '{f':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{f')
+        #print(fkey, ' -{f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37183,7 +37187,7 @@ def decrypt_crochh():
         if i == 1000 or x[:2] != '{h':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{h')
+        #print(fkey, ' -{h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37197,7 +37201,7 @@ def decrypt_crochj():
         if i == 1000 or x[:2] != '{j':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{j')
+        #print(fkey, ' -{j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37211,7 +37215,7 @@ def decrypt_crochl():
         if i == 1000 or x[:2] != '{l':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{l')
+        #print(fkey, ' -{l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37225,7 +37229,7 @@ def decrypt_crochn():
         if i == 1000 or x[:2] != '{n':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{n')
+        #print(fkey, ' -{n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37239,7 +37243,7 @@ def decrypt_crochp():
         if i == 1000 or x[:2] != '{p':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{p')
+        #print(fkey, ' -{p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37253,7 +37257,7 @@ def decrypt_crochr():
         if i == 1000 or x[:2] != '{r':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{r')
+        #print(fkey, ' -{r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37267,7 +37271,7 @@ def decrypt_crocht():
         if i == 1000 or x[:2] != '{t':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{t')
+        #print(fkey, ' -{t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37281,7 +37285,7 @@ def decrypt_crochv():
         if i == 1000 or x[:2] != '{v':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{v')
+        #print(fkey, ' -{v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37295,7 +37299,7 @@ def decrypt_crochx():
         if i == 1000 or x[:2] != '{x':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{x')
+        #print(fkey, ' -{x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37309,7 +37313,7 @@ def decrypt_crochz():
         if i == 1000 or x[:2] != '{z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{z')
+        #print(fkey, ' -{z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37323,7 +37327,7 @@ def decrypt_crochA():
         if i == 1000 or x[:2] != '{A':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{A')
+        #print(fkey, ' -{A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37337,7 +37341,7 @@ def decrypt_crochB():
         if i == 1000 or x[:2] != '{B':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{B')
+        #print(fkey, ' -{B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37351,7 +37355,7 @@ def decrypt_crochD():
         if i == 1000 or x[:2] != '{D':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{D')
+        #print(fkey, ' -{D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37365,7 +37369,7 @@ def decrypt_crochF():
         if i == 1000 or x[:2] != '{F':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{F')
+        #print(fkey, ' -{F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37379,7 +37383,7 @@ def decrypt_crochH():
         if i == 1000 or x[:2] != '{H':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{H')
+        #print(fkey, ' -{H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37393,7 +37397,7 @@ def decrypt_crochJ():
         if i == 1000 or x[:2] != '{J':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{J')
+        #print(fkey, ' -{J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37407,7 +37411,7 @@ def decrypt_crochL():
         if i == 1000 or x[:2] != '{L':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{L')
+        #print(fkey, ' -{L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37421,7 +37425,7 @@ def decrypt_crochN():
         if i == 1000 or x[:2] != '{N':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{N')
+        #print(fkey, ' -{N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37435,7 +37439,7 @@ def decrypt_crochP():
         if i == 1000 or x[:2] != '{P':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{P')
+        #print(fkey, ' -{P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37449,7 +37453,7 @@ def decrypt_crochR():
         if i == 1000 or x[:2] != '{R':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{R')
+        #print(fkey, ' -{R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37463,7 +37467,7 @@ def decrypt_crochT():
         if i == 1000 or x[:2] != '{T':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{T')
+        #print(fkey, ' -{T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37477,7 +37481,7 @@ def decrypt_crochV():
         if i == 1000 or x[:2] != '{V':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{V')
+        #print(fkey, ' -{V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37491,7 +37495,7 @@ def decrypt_crochX():
         if i == 1000 or x[:2] != '{X':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{X')
+        #print(fkey, ' -{X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37505,7 +37509,7 @@ def decrypt_crochZ():
         if i == 1000 or x[:2] != '{Z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{Z')
+        #print(fkey, ' -{Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37519,7 +37523,7 @@ def decrypt_croch0():
         if i == 1000 or x[:2] != '{0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{0')
+        #print(fkey, ' -{0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37533,7 +37537,7 @@ def decrypt_croch2():
         if i == 1000 or x[:2] != '{2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{2')
+        #print(fkey, ' -{2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37547,7 +37551,7 @@ def decrypt_croch4():
         if i == 1000 or x[:2] != '{4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{4')
+        #print(fkey, ' -{4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37561,7 +37565,7 @@ def decrypt_croch6():
         if i == 1000 or x[:2] != '{6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{6')
+        #print(fkey, ' -{6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37575,7 +37579,7 @@ def decrypt_croch8():
         if i == 1000 or x[:2] != '{8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{8')
+        #print(fkey, ' -{8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37589,7 +37593,7 @@ def decrypt_crochexcl():
         if i == 1000 or x[:2] != '{!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{!')
+        #print(fkey, ' -{!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37603,7 +37607,7 @@ def decrypt_crochdquote():
         if i == 1000 or x[:2] != '{"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{"')
+        #print(fkey, ' -{"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37617,7 +37621,7 @@ def decrypt_crochdoll():
         if i == 1000 or x[:2] != '{$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{$')
+        #print(fkey, ' -{$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37631,7 +37635,7 @@ def decrypt_crochand():
         if i == 1000 or x[:2] != '{&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{&')
+        #print(fkey, ' -{&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37645,7 +37649,7 @@ def decrypt_crochquote():
         if i == 1000 or x[:2] != '{\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{\'')
+        #print(fkey, ' -{\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37659,7 +37663,7 @@ def decrypt_crpar():
         if i == 1000 or x[:2] != 'cr(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -cr(')
+        #print(fkey, ' -cr(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37673,7 +37677,7 @@ def decrypt_crochast():
         if i == 1000 or x[:2] != '{*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{*')
+        #print(fkey, ' -{*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37687,7 +37691,7 @@ def decrypt_crochvir():
         if i == 1000 or x[:2] != '{,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{,')
+        #print(fkey, ' -{,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37701,7 +37705,7 @@ def decrypt_crochpp():
         if i == 1000 or x[:2] != '{.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{.')
+        #print(fkey, ' -{.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37715,7 +37719,7 @@ def decrypt_crochtp():
         if i == 1000 or x[:2] != '{:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{:')
+        #print(fkey, ' -{:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37729,7 +37733,7 @@ def decrypt_crochless():
         if i == 1000 or x[:2] != '{<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{<')
+        #print(fkey, ' -{<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37743,7 +37747,7 @@ def decrypt_crochmore():
         if i == 1000 or x[:2] != '{>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{>')
+        #print(fkey, ' -{>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37757,7 +37761,7 @@ def decrypt_crocharo():
         if i == 1000 or x[:2] != '{@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{@')
+        #print(fkey, ' -{@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37771,7 +37775,7 @@ def decrypt_crochcroc():
         if i == 1000 or x[:2] != '{[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{[')
+        #print(fkey, ' -{[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37785,7 +37789,7 @@ def decrypt_crochbsl():
         if i == 1000 or x[:2] != '{\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{\\')
+        #print(fkey, ' -{\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37799,7 +37803,7 @@ def decrypt_crochcirc():
         if i == 1000 or x[:2] != '{^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{^')
+        #print(fkey, ' -{^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37813,7 +37817,7 @@ def decrypt_crochesp():
         if i == 1000 or x[:2] != '{`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{`')
+        #print(fkey, ' -{`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37827,7 +37831,7 @@ def decrypt_crochcr():
         if i == 1000 or x[:2] != '{{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{{')
+        #print(fkey, ' -{{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37841,7 +37845,7 @@ def decrypt_crochhl():
         if i == 1000 or x[:2] != '{|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{|')
+        #print(fkey, ' -{|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37855,7 +37859,7 @@ def decrypt_crochtild():
         if i == 1000 or x[:2] != '{~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -{~')
+        #print(fkey, ' -{~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37869,7 +37873,7 @@ def decrypt_vsla():
         if i == 1000 or x[:2] != '|a':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|a')
+        #print(fkey, ' -|a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37883,7 +37887,7 @@ def decrypt_vslb():
         if i == 1000 or x[:2] != '|b':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|b')
+        #print(fkey, ' -|b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37897,7 +37901,7 @@ def decrypt_vsld():
         if i == 1000 or x[:2] != '|d':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|d')
+        #print(fkey, ' -|d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37911,7 +37915,7 @@ def decrypt_vslf():
         if i == 1000 or x[:2] != '|f':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|f')
+        #print(fkey, ' -|f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37925,7 +37929,7 @@ def decrypt_vslh():
         if i == 1000 or x[:2] != '|h':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|h')
+        #print(fkey, ' -|h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37939,7 +37943,7 @@ def decrypt_vslj():
         if i == 1000 or x[:2] != '|j':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|j')
+        #print(fkey, ' -|j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37953,7 +37957,7 @@ def decrypt_vsll():
         if i == 1000 or x[:2] != '|l':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|l')
+        #print(fkey, ' -|l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37967,7 +37971,7 @@ def decrypt_vsln():
         if i == 1000 or x[:2] != '|n':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|n')
+        #print(fkey, ' -|n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37981,7 +37985,7 @@ def decrypt_vslp():
         if i == 1000 or x[:2] != '|p':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|p')
+        #print(fkey, ' -|p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -37995,7 +37999,7 @@ def decrypt_vslr():
         if i == 1000 or x[:2] != '|r':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|r')
+        #print(fkey, ' -|r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38009,7 +38013,7 @@ def decrypt_vslt():
         if i == 1000 or x[:2] != '|t':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|t')
+        #print(fkey, ' -|t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38023,7 +38027,7 @@ def decrypt_vslv():
         if i == 1000 or x[:2] != '|v':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|v')
+        #print(fkey, ' -|v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38037,7 +38041,7 @@ def decrypt_vslx():
         if i == 1000 or x[:2] != '|x':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|x')
+        #print(fkey, ' -|x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38051,7 +38055,7 @@ def decrypt_vslz():
         if i == 1000 or x[:2] != '|z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|z')
+        #print(fkey, ' -|z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38065,7 +38069,7 @@ def decrypt_vslA():
         if i == 1000 or x[:2] != '|A':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|A')
+        #print(fkey, ' -|A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38079,7 +38083,7 @@ def decrypt_vslB():
         if i == 1000 or x[:2] != '|B':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|B')
+        #print(fkey, ' -|B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38093,7 +38097,7 @@ def decrypt_vslD():
         if i == 1000 or x[:2] != '|D':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|D')
+        #print(fkey, ' -|D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38107,7 +38111,7 @@ def decrypt_vslF():
         if i == 1000 or x[:2] != '|F':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|F')
+        #print(fkey, ' -|F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38121,7 +38125,7 @@ def decrypt_vslH():
         if i == 1000 or x[:2] != '|H':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|H')
+        #print(fkey, ' -|H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38135,7 +38139,7 @@ def decrypt_vslJ():
         if i == 1000 or x[:2] != '|J':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|J')
+        #print(fkey, ' -|J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38149,7 +38153,7 @@ def decrypt_vslL():
         if i == 1000 or x[:2] != '|L':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|L')
+        #print(fkey, ' -|L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38163,7 +38167,7 @@ def decrypt_vslN():
         if i == 1000 or x[:2] != '|N':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|N')
+        #print(fkey, ' -|N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38177,7 +38181,7 @@ def decrypt_vslP():
         if i == 1000 or x[:2] != '|P':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|P')
+        #print(fkey, ' -|P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38191,7 +38195,7 @@ def decrypt_vslR():
         if i == 1000 or x[:2] != '|R':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|R')
+        #print(fkey, ' -|R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38205,7 +38209,7 @@ def decrypt_vslT():
         if i == 1000 or x[:2] != '|T':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|T')
+        #print(fkey, ' -|T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38219,7 +38223,7 @@ def decrypt_vslV():
         if i == 1000 or x[:2] != '|V':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|V')
+        #print(fkey, ' -|V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38233,7 +38237,7 @@ def decrypt_vslX():
         if i == 1000 or x[:2] != '|X':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|X')
+        #print(fkey, ' -|X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38247,7 +38251,7 @@ def decrypt_vslZ():
         if i == 1000 or x[:2] != '|Z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|Z')
+        #print(fkey, ' -|Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38261,7 +38265,7 @@ def decrypt_vsl0():
         if i == 1000 or x[:2] != '|0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|0')
+        #print(fkey, ' -|0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38275,7 +38279,7 @@ def decrypt_vsl2():
         if i == 1000 or x[:2] != '|2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|2')
+        #print(fkey, ' -|2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38289,7 +38293,7 @@ def decrypt_vsl4():
         if i == 1000 or x[:2] != '|4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|4')
+        #print(fkey, ' -|4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38303,7 +38307,7 @@ def decrypt_vsl6():
         if i == 1000 or x[:2] != '|6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|6')
+        #print(fkey, ' -|6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38317,7 +38321,7 @@ def decrypt_vsl8():
         if i == 1000 or x[:2] != '|8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|8')
+        #print(fkey, ' -|8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38331,7 +38335,7 @@ def decrypt_vslexcl():
         if i == 1000 or x[:2] != '|!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|!')
+        #print(fkey, ' -|!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38345,7 +38349,7 @@ def decrypt_vsldquote():
         if i == 1000 or x[:2] != '|"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|"')
+        #print(fkey, ' -|"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38359,7 +38363,7 @@ def decrypt_vsldoll():
         if i == 1000 or x[:2] != '|$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|$')
+        #print(fkey, ' -|$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38373,7 +38377,7 @@ def decrypt_vsland():
         if i == 1000 or x[:2] != '|&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|&')
+        #print(fkey, ' -|&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38387,7 +38391,7 @@ def decrypt_vslquote():
         if i == 1000 or x[:2] != '|\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|\'')
+        #print(fkey, ' -|\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38401,7 +38405,7 @@ def decrypt_hlpar():
         if i == 1000 or x[:2] != 'hl(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -hl(')
+        #print(fkey, ' -hl(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38415,7 +38419,7 @@ def decrypt_vslast():
         if i == 1000 or x[:2] != '|*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|*')
+        #print(fkey, ' -|*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38429,7 +38433,7 @@ def decrypt_vslvir():
         if i == 1000 or x[:2] != '|,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|,')
+        #print(fkey, ' -|,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38443,7 +38447,7 @@ def decrypt_vslpp():
         if i == 1000 or x[:2] != '|.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|.')
+        #print(fkey, ' -|.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38457,7 +38461,7 @@ def decrypt_vsltp():
         if i == 1000 or x[:2] != '|:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|:')
+        #print(fkey, ' -|:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38471,7 +38475,7 @@ def decrypt_vslless():
         if i == 1000 or x[:2] != '|<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|<')
+        #print(fkey, ' -|<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38485,7 +38489,7 @@ def decrypt_vslmore():
         if i == 1000 or x[:2] != '|>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|>')
+        #print(fkey, ' -|>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38499,7 +38503,7 @@ def decrypt_vslaro():
         if i == 1000 or x[:2] != '|@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|@')
+        #print(fkey, ' -|@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38513,7 +38517,7 @@ def decrypt_vslcroc():
         if i == 1000 or x[:2] != '|[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|[')
+        #print(fkey, ' -|[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38527,7 +38531,7 @@ def decrypt_vslbsl():
         if i == 1000 or x[:2] != '|\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|\\')
+        #print(fkey, ' -|\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38541,7 +38545,7 @@ def decrypt_vslcirc():
         if i == 1000 or x[:2] != '|^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|^')
+        #print(fkey, ' -|^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38555,7 +38559,7 @@ def decrypt_vslesp():
         if i == 1000 or x[:2] != '|`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|`')
+        #print(fkey, ' -|`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38569,7 +38573,7 @@ def decrypt_vslcr():
         if i == 1000 or x[:2] != '|{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|{')
+        #print(fkey, ' -|{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38583,7 +38587,7 @@ def decrypt_vslhl():
         if i == 1000 or x[:2] != '||':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -||')
+        #print(fkey, ' -||')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38597,7 +38601,7 @@ def decrypt_vsltild():
         if i == 1000 or x[:2] != '|~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -|~')
+        #print(fkey, ' -|~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38611,7 +38615,7 @@ def decrypt_tila():
         if i == 1000 or x[:2] != '~a':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~a')
+        #print(fkey, ' -~a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38625,7 +38629,7 @@ def decrypt_tilb():
         if i == 1000 or x[:2] != '~b':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~b')
+        #print(fkey, ' -~b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38639,7 +38643,7 @@ def decrypt_tild():
         if i == 1000 or x[:2] != '~d':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~d')
+        #print(fkey, ' -~d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38653,7 +38657,7 @@ def decrypt_tilf():
         if i == 1000 or x[:2] != '~f':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~f')
+        #print(fkey, ' -~f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38667,7 +38671,7 @@ def decrypt_tilh():
         if i == 1000 or x[:2] != '~h':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~h')
+        #print(fkey, ' -~h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38681,7 +38685,7 @@ def decrypt_tilj():
         if i == 1000 or x[:2] != '~j':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~j')
+        #print(fkey, ' -~j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38695,7 +38699,7 @@ def decrypt_till():
         if i == 1000 or x[:2] != '~l':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~l')
+        #print(fkey, ' -~l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38709,7 +38713,7 @@ def decrypt_tiln():
         if i == 1000 or x[:2] != '~n':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~n')
+        #print(fkey, ' -~n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38723,7 +38727,7 @@ def decrypt_tilp():
         if i == 1000 or x[:2] != '~p':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~p')
+        #print(fkey, ' -~p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38737,7 +38741,7 @@ def decrypt_tilr():
         if i == 1000 or x[:2] != '~r':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~r')
+        #print(fkey, ' -~r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38751,7 +38755,7 @@ def decrypt_tilt():
         if i == 1000 or x[:2] != '~t':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~t')
+        #print(fkey, ' -~t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38765,7 +38769,7 @@ def decrypt_tilv():
         if i == 1000 or x[:2] != '~v':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~v')
+        #print(fkey, ' -~v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38779,7 +38783,7 @@ def decrypt_tilx():
         if i == 1000 or x[:2] != '~x':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~x')
+        #print(fkey, ' -~x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38793,7 +38797,7 @@ def decrypt_tilz():
         if i == 1000 or x[:2] != '~z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~z')
+        #print(fkey, ' -~z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38807,7 +38811,7 @@ def decrypt_tilA():
         if i == 1000 or x[:2] != '~A':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~A')
+        #print(fkey, ' -~A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38821,7 +38825,7 @@ def decrypt_tilB():
         if i == 1000 or x[:2] != '~B':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~B')
+        #print(fkey, ' -~B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38835,7 +38839,7 @@ def decrypt_tilD():
         if i == 1000 or x[:2] != '~D':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~D')
+        #print(fkey, ' -~D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38849,7 +38853,7 @@ def decrypt_tilF():
         if i == 1000 or x[:2] != '~F':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~F')
+        #print(fkey, ' -~F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38863,7 +38867,7 @@ def decrypt_tilH():
         if i == 1000 or x[:2] != '~H':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~H')
+        #print(fkey, ' -~H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38877,7 +38881,7 @@ def decrypt_tilJ():
         if i == 1000 or x[:2] != '~J':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~J')
+        #print(fkey, ' -~J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38891,7 +38895,7 @@ def decrypt_tilL():
         if i == 1000 or x[:2] != '~L':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~L')
+        #print(fkey, ' -~L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38905,7 +38909,7 @@ def decrypt_tilN():
         if i == 1000 or x[:2] != '~N':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~N')
+        #print(fkey, ' -~N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38919,7 +38923,7 @@ def decrypt_tilP():
         if i == 1000 or x[:2] != '~P':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~P')
+        #print(fkey, ' -~P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38933,7 +38937,7 @@ def decrypt_tilR():
         if i == 1000 or x[:2] != '~R':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~R')
+        #print(fkey, ' -~R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38947,7 +38951,7 @@ def decrypt_tilT():
         if i == 1000 or x[:2] != '~T':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~T')
+        #print(fkey, ' -~T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38961,7 +38965,7 @@ def decrypt_tilV():
         if i == 1000 or x[:2] != '~V':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~V')
+        #print(fkey, ' -~V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38975,7 +38979,7 @@ def decrypt_tilX():
         if i == 1000 or x[:2] != '~X':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~X')
+        #print(fkey, ' -~X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -38989,7 +38993,7 @@ def decrypt_tilZ():
         if i == 1000 or x[:2] != '~Z':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~Z')
+        #print(fkey, ' -~Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -39003,7 +39007,7 @@ def decrypt_til0():
         if i == 1000 or x[:2] != '~0':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~0')
+        #print(fkey, ' -~0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -39017,7 +39021,7 @@ def decrypt_til2():
         if i == 1000 or x[:2] != '~2':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~2')
+        #print(fkey, ' -~2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -39031,7 +39035,7 @@ def decrypt_til4():
         if i == 1000 or x[:2] != '~4':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~4')
+        #print(fkey, ' -~4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -39045,7 +39049,7 @@ def decrypt_til6():
         if i == 1000 or x[:2] != '~6':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~6')
+        #print(fkey, ' -~6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -39059,7 +39063,7 @@ def decrypt_til8():
         if i == 1000 or x[:2] != '~8':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~8')
+        #print(fkey, ' -~8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -39073,7 +39077,7 @@ def decrypt_tilexcl():
         if i == 1000 or x[:2] != '~!':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~!')
+        #print(fkey, ' -~!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -39087,7 +39091,7 @@ def decrypt_tildquote():
         if i == 1000 or x[:2] != '~"':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~"')
+        #print(fkey, ' -~"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -39101,7 +39105,7 @@ def decrypt_tildoll():
         if i == 1000 or x[:2] != '~$':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~$')
+        #print(fkey, ' -~$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -39115,7 +39119,7 @@ def decrypt_tiland():
         if i == 1000 or x[:2] != '~&':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~&')
+        #print(fkey, ' -~&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -39129,7 +39133,7 @@ def decrypt_tilquote():
         if i == 1000 or x[:2] != '~\'':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~\'')
+        #print(fkey, ' -~\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -39143,7 +39147,7 @@ def decrypt_tilpar():
         if i == 1000 or x[:2] != 'tild(':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -tild(')
+        #print(fkey, ' -tild(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -39157,7 +39161,7 @@ def decrypt_tilast():
         if i == 1000 or x[:2] != '~*':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~*')
+        #print(fkey, ' -~*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -39171,7 +39175,7 @@ def decrypt_tilvir():
         if i == 1000 or x[:2] != '~,':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~,')
+        #print(fkey, ' -~,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -39185,7 +39189,7 @@ def decrypt_tilpp():
         if i == 1000 or x[:2] != '~.':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~.')
+        #print(fkey, ' -~.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -39199,7 +39203,7 @@ def decrypt_tiltp():
         if i == 1000 or x[:2] != '~:':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~:')
+        #print(fkey, ' -~:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -39213,7 +39217,7 @@ def decrypt_tilless():
         if i == 1000 or x[:2] != '~<':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~<')
+        #print(fkey, ' -~<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -39227,7 +39231,7 @@ def decrypt_tilmore():
         if i == 1000 or x[:2] != '~>':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~>')
+        #print(fkey, ' -~>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -39241,7 +39245,7 @@ def decrypt_tilaro():
         if i == 1000 or x[:2] != '~@':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~@')
+        #print(fkey, ' -~@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -39255,7 +39259,7 @@ def decrypt_tilcroc():
         if i == 1000 or x[:2] != '~[':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~[')
+        #print(fkey, ' -~[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -39269,7 +39273,7 @@ def decrypt_tilbsl():
         if i == 1000 or x[:2] != '~\\':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~\\')
+        #print(fkey, ' -~\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -39283,7 +39287,7 @@ def decrypt_tilcirc():
         if i == 1000 or x[:2] != '~^':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~^')
+        #print(fkey, ' -~^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -39297,7 +39301,7 @@ def decrypt_tilesp():
         if i == 1000 or x[:2] != '~`':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~`')
+        #print(fkey, ' -~`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -39311,7 +39315,7 @@ def decrypt_tilcr():
         if i == 1000 or x[:2] != '~{':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~{')
+        #print(fkey, ' -~{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -39325,7 +39329,7 @@ def decrypt_tilhl():
         if i == 1000 or x[:2] != '~|':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~|')
+        #print(fkey, ' -~|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
@@ -39339,7 +39343,7 @@ def decrypt_tiltild():
         if i == 1000 or x[:2] != '~~':
             break
         fkey = x.encode('utf-8')
-        print(fkey, ' -~~')
+        #print(fkey, ' -~~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
