@@ -11,7 +11,7 @@ import base64
 #estimated time on the big boy at home: 7 hours (need to test)                               #
 ##############################################################################################
 
-key = b'uSD-fk83'
+key = b'aaaaaAz8'
 texte = b'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.'
 
 #Chiffrement
@@ -28,7 +28,7 @@ ciphertext = decoded[8:]
 def decrypt_aa():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'aa':
+        if x[:2] != 'aa':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -aa')
@@ -42,7 +42,7 @@ def decrypt_aa():
 def decrypt_ab():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'ab':
+        if x[:2] != 'ab':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -ab')
@@ -56,7 +56,7 @@ def decrypt_ab():
 def decrypt_ad():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'ad':
+        if x[:2] != 'ad':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -ad')
@@ -70,7 +70,7 @@ def decrypt_ad():
 def decrypt_af():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'af':
+        if x[:2] != 'af':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -af')
@@ -84,7 +84,7 @@ def decrypt_af():
 def decrypt_ah():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'ah':
+        if x[:2] != 'ah':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -ah')
@@ -98,7 +98,7 @@ def decrypt_ah():
 def decrypt_aj():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'aj':
+        if x[:2] != 'aj':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -aj')
@@ -112,7 +112,7 @@ def decrypt_aj():
 def decrypt_al():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'al':
+        if x[:2] != 'al':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -al')
@@ -126,7 +126,7 @@ def decrypt_al():
 def decrypt_an():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'an':
+        if x[:2] != 'an':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -an')
@@ -140,7 +140,7 @@ def decrypt_an():
 def decrypt_ap():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'ap':
+        if x[:2] != 'ap':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -ap')
@@ -154,7 +154,7 @@ def decrypt_ap():
 def decrypt_ar():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'ar':
+        if x[:2] != 'ar':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -ar')
@@ -168,7 +168,7 @@ def decrypt_ar():
 def decrypt_at():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'at':
+        if x[:2] != 'at':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -at')
@@ -182,7 +182,7 @@ def decrypt_at():
 def decrypt_av():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'av':
+        if x[:2] != 'av':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -av')
@@ -196,7 +196,7 @@ def decrypt_av():
 def decrypt_ax():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'ax':
+        if x[:2] != 'ax':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -ax')
@@ -210,7 +210,7 @@ def decrypt_ax():
 def decrypt_az():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'az':
+        if x[:2] != 'az':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -az')
@@ -224,7 +224,7 @@ def decrypt_az():
 def decrypt_aA():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'aA':
+        if x[:2] != 'aA':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -aA')
@@ -238,7 +238,7 @@ def decrypt_aA():
 def decrypt_aB():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'aB':
+        if x[:2] != 'aB':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -aB')
@@ -252,7 +252,7 @@ def decrypt_aB():
 def decrypt_aD():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'aD':
+        if x[:2] != 'aD':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -aD')
@@ -266,7 +266,7 @@ def decrypt_aD():
 def decrypt_aF():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'aF':
+        if x[:2] != 'aF':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -aF')
@@ -280,7 +280,7 @@ def decrypt_aF():
 def decrypt_aH():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'aH':
+        if x[:2] != 'aH':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -aH')
@@ -294,7 +294,7 @@ def decrypt_aH():
 def decrypt_aJ():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'aJ':
+        if x[:2] != 'aJ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -aJ')
@@ -308,7 +308,7 @@ def decrypt_aJ():
 def decrypt_aL():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'aL':
+        if x[:2] != 'aL':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -aL')
@@ -322,7 +322,7 @@ def decrypt_aL():
 def decrypt_aN():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'aN':
+        if x[:2] != 'aN':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -aN')
@@ -336,7 +336,7 @@ def decrypt_aN():
 def decrypt_aP():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'aP':
+        if x[:2] != 'aP':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -aP')
@@ -350,7 +350,7 @@ def decrypt_aP():
 def decrypt_aR():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'aR':
+        if x[:2] != 'aR':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -aR')
@@ -364,7 +364,7 @@ def decrypt_aR():
 def decrypt_aT():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'aT':
+        if x[:2] != 'aT':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -aT')
@@ -378,7 +378,7 @@ def decrypt_aT():
 def decrypt_aV():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'aV':
+        if x[:2] != 'aV':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -aV')
@@ -392,7 +392,7 @@ def decrypt_aV():
 def decrypt_aX():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'aX':
+        if x[:2] != 'aX':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -aX')
@@ -406,7 +406,7 @@ def decrypt_aX():
 def decrypt_aZ():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'aZ':
+        if x[:2] != 'aZ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -aZ')
@@ -420,7 +420,7 @@ def decrypt_aZ():
 def decrypt_a0():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'a0':
+        if x[:2] != 'a0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -a0')
@@ -434,7 +434,7 @@ def decrypt_a0():
 def decrypt_a2():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'a2':
+        if x[:2] != 'a2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -a2')
@@ -448,7 +448,7 @@ def decrypt_a2():
 def decrypt_a4():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'a4':
+        if x[:2] != 'a4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -a4')
@@ -462,7 +462,7 @@ def decrypt_a4():
 def decrypt_a6():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'a6':
+        if x[:2] != 'a6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -a6')
@@ -476,7 +476,7 @@ def decrypt_a6():
 def decrypt_a8():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'a8':
+        if x[:2] != 'a8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -a8')
@@ -490,7 +490,7 @@ def decrypt_a8():
 def decrypt_aexcl():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'a!':
+        if x[:2] != 'a!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -a!')
@@ -504,7 +504,7 @@ def decrypt_aexcl():
 def decrypt_adquote():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'a"':
+        if x[:2] != 'a"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -a"')
@@ -518,7 +518,7 @@ def decrypt_adquote():
 def decrypt_adoll():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'a$':
+        if x[:2] != 'a$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -a$')
@@ -532,7 +532,7 @@ def decrypt_adoll():
 def decrypt_aand():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'a&':
+        if x[:2] != 'a&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -a&')
@@ -546,7 +546,7 @@ def decrypt_aand():
 def decrypt_aquote():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'a\'':
+        if x[:2] != 'a\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -a\'')
@@ -560,7 +560,7 @@ def decrypt_aquote():
 def decrypt_apar():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'a(':
+        if x[:2] != 'a(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -a(')
@@ -574,7 +574,7 @@ def decrypt_apar():
 def decrypt_aast():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'a*':
+        if x[:2] != 'a*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -a*')
@@ -588,7 +588,7 @@ def decrypt_aast():
 def decrypt_avir():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'a,':
+        if x[:2] != 'a,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -a,')
@@ -602,7 +602,7 @@ def decrypt_avir():
 def decrypt_app():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'a.':
+        if x[:2] != 'a.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -a.')
@@ -616,7 +616,7 @@ def decrypt_app():
 def decrypt_atp():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'a:':
+        if x[:2] != 'a:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -a:')
@@ -630,7 +630,7 @@ def decrypt_atp():
 def decrypt_aless():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'a<':
+        if x[:2] != 'a<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -a<')
@@ -644,7 +644,7 @@ def decrypt_aless():
 def decrypt_amore():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'a>':
+        if x[:2] != 'a>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -a>')
@@ -658,7 +658,7 @@ def decrypt_amore():
 def decrypt_aaro():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'a@':
+        if x[:2] != 'a@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -a@')
@@ -672,7 +672,7 @@ def decrypt_aaro():
 def decrypt_acroc():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'a[':
+        if x[:2] != 'a[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -a[')
@@ -686,7 +686,7 @@ def decrypt_acroc():
 def decrypt_absl():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'a\\':
+        if x[:2] != 'a\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -a\\')
@@ -700,7 +700,7 @@ def decrypt_absl():
 def decrypt_acirc():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'a^':
+        if x[:2] != 'a^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -a^')
@@ -714,7 +714,7 @@ def decrypt_acirc():
 def decrypt_aesp():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'a`':
+        if x[:2] != 'a`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -a`')
@@ -728,7 +728,7 @@ def decrypt_aesp():
 def decrypt_acr():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'a{':
+        if x[:2] != 'a{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -a{')
@@ -742,7 +742,7 @@ def decrypt_acr():
 def decrypt_ahl():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'a|':
+        if x[:2] != 'a|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -a|')
@@ -756,7 +756,7 @@ def decrypt_ahl():
 def decrypt_atild():
     i = 0
     for x in map(''.join, itertools.product('abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'a~':
+        if x[:2] != 'a~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -a~')
@@ -770,7 +770,7 @@ def decrypt_atild():
 def decrypt_ba():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'ba':
+        if x[:2] != 'ba':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -ba')
@@ -784,7 +784,7 @@ def decrypt_ba():
 def decrypt_bb():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'bb':
+        if x[:2] != 'bb':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -bb')
@@ -798,7 +798,7 @@ def decrypt_bb():
 def decrypt_bd():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'bd':
+        if x[:2] != 'bd':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -bd')
@@ -812,7 +812,7 @@ def decrypt_bd():
 def decrypt_bf():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'bf':
+        if x[:2] != 'bf':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -bf')
@@ -826,7 +826,7 @@ def decrypt_bf():
 def decrypt_bh():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'bh':
+        if x[:2] != 'bh':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -bh')
@@ -840,7 +840,7 @@ def decrypt_bh():
 def decrypt_bj():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'bj':
+        if x[:2] != 'bj':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -bj')
@@ -854,7 +854,7 @@ def decrypt_bj():
 def decrypt_bl():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'bl':
+        if x[:2] != 'bl':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -bl')
@@ -868,7 +868,7 @@ def decrypt_bl():
 def decrypt_bn():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'bn':
+        if x[:2] != 'bn':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -bn')
@@ -882,7 +882,7 @@ def decrypt_bn():
 def decrypt_bp():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'bp':
+        if x[:2] != 'bp':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -bp')
@@ -896,7 +896,7 @@ def decrypt_bp():
 def decrypt_br():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'br':
+        if x[:2] != 'br':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -br')
@@ -910,7 +910,7 @@ def decrypt_br():
 def decrypt_bt():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'bt':
+        if x[:2] != 'bt':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -bt')
@@ -924,7 +924,7 @@ def decrypt_bt():
 def decrypt_bv():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'bv':
+        if x[:2] != 'bv':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -bv')
@@ -938,7 +938,7 @@ def decrypt_bv():
 def decrypt_bx():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'bx':
+        if x[:2] != 'bx':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -bx')
@@ -952,7 +952,7 @@ def decrypt_bx():
 def decrypt_bz():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'bz':
+        if x[:2] != 'bz':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -bz')
@@ -966,7 +966,7 @@ def decrypt_bz():
 def decrypt_bA():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'bA':
+        if x[:2] != 'bA':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -bA')
@@ -980,7 +980,7 @@ def decrypt_bA():
 def decrypt_bB():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'bB':
+        if x[:2] != 'bB':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -bB')
@@ -994,7 +994,7 @@ def decrypt_bB():
 def decrypt_bD():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'bD':
+        if x[:2] != 'bD':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -bD')
@@ -1008,7 +1008,7 @@ def decrypt_bD():
 def decrypt_bF():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'bF':
+        if x[:2] != 'bF':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -bF')
@@ -1022,7 +1022,7 @@ def decrypt_bF():
 def decrypt_bH():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'bH':
+        if x[:2] != 'bH':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -bH')
@@ -1036,7 +1036,7 @@ def decrypt_bH():
 def decrypt_bJ():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'bJ':
+        if x[:2] != 'bJ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -bJ')
@@ -1050,7 +1050,7 @@ def decrypt_bJ():
 def decrypt_bL():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'bL':
+        if x[:2] != 'bL':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -bL')
@@ -1064,7 +1064,7 @@ def decrypt_bL():
 def decrypt_bN():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'bN':
+        if x[:2] != 'bN':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -bN')
@@ -1078,7 +1078,7 @@ def decrypt_bN():
 def decrypt_bP():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'bP':
+        if x[:2] != 'bP':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -bP')
@@ -1092,7 +1092,7 @@ def decrypt_bP():
 def decrypt_bR():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'bR':
+        if x[:2] != 'bR':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -bR')
@@ -1106,7 +1106,7 @@ def decrypt_bR():
 def decrypt_bT():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'bT':
+        if x[:2] != 'bT':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -bT')
@@ -1120,7 +1120,7 @@ def decrypt_bT():
 def decrypt_bV():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'bV':
+        if x[:2] != 'bV':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -bV')
@@ -1134,7 +1134,7 @@ def decrypt_bV():
 def decrypt_bX():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'bX':
+        if x[:2] != 'bX':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -bX')
@@ -1148,7 +1148,7 @@ def decrypt_bX():
 def decrypt_bZ():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'bZ':
+        if x[:2] != 'bZ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -bZ')
@@ -1162,7 +1162,7 @@ def decrypt_bZ():
 def decrypt_b0():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'b0':
+        if x[:2] != 'b0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -b0')
@@ -1176,7 +1176,7 @@ def decrypt_b0():
 def decrypt_b2():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'b2':
+        if x[:2] != 'b2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -b2')
@@ -1190,7 +1190,7 @@ def decrypt_b2():
 def decrypt_b4():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'b4':
+        if x[:2] != 'b4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -b4')
@@ -1204,7 +1204,7 @@ def decrypt_b4():
 def decrypt_b6():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'b6':
+        if x[:2] != 'b6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -b6')
@@ -1218,7 +1218,7 @@ def decrypt_b6():
 def decrypt_b8():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'b8':
+        if x[:2] != 'b8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -b8')
@@ -1232,7 +1232,7 @@ def decrypt_b8():
 def decrypt_bexcl():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'b!':
+        if x[:2] != 'b!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -b!')
@@ -1246,7 +1246,7 @@ def decrypt_bexcl():
 def decrypt_bdquote():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'b"':
+        if x[:2] != 'b"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -b"')
@@ -1260,7 +1260,7 @@ def decrypt_bdquote():
 def decrypt_bdoll():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'b$':
+        if x[:2] != 'b$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -b$')
@@ -1274,7 +1274,7 @@ def decrypt_bdoll():
 def decrypt_band():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'b&':
+        if x[:2] != 'b&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -b&')
@@ -1288,7 +1288,7 @@ def decrypt_band():
 def decrypt_bquote():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'b\'':
+        if x[:2] != 'b\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -b\'')
@@ -1302,7 +1302,7 @@ def decrypt_bquote():
 def decrypt_bpar():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'b(':
+        if x[:2] != 'b(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -b(')
@@ -1316,7 +1316,7 @@ def decrypt_bpar():
 def decrypt_bast():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'b*':
+        if x[:2] != 'b*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -b*')
@@ -1330,7 +1330,7 @@ def decrypt_bast():
 def decrypt_bvir():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'b,':
+        if x[:2] != 'b,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -b,')
@@ -1344,7 +1344,7 @@ def decrypt_bvir():
 def decrypt_bpp():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'b.':
+        if x[:2] != 'b.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -b.')
@@ -1358,7 +1358,7 @@ def decrypt_bpp():
 def decrypt_btp():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'b:':
+        if x[:2] != 'b:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -b:')
@@ -1372,7 +1372,7 @@ def decrypt_btp():
 def decrypt_bless():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'b<':
+        if x[:2] != 'b<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -b<')
@@ -1386,7 +1386,7 @@ def decrypt_bless():
 def decrypt_bmore():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'b>':
+        if x[:2] != 'b>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -b>')
@@ -1400,7 +1400,7 @@ def decrypt_bmore():
 def decrypt_baro():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'b@':
+        if x[:2] != 'b@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -b@')
@@ -1414,7 +1414,7 @@ def decrypt_baro():
 def decrypt_bcroc():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'b[':
+        if x[:2] != 'b[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -b[')
@@ -1428,7 +1428,7 @@ def decrypt_bcroc():
 def decrypt_bbsl():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'b\\':
+        if x[:2] != 'b\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -b\\')
@@ -1442,7 +1442,7 @@ def decrypt_bbsl():
 def decrypt_bcirc():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'b^':
+        if x[:2] != 'b^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -b^')
@@ -1456,7 +1456,7 @@ def decrypt_bcirc():
 def decrypt_besp():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'b`':
+        if x[:2] != 'b`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -b`')
@@ -1470,7 +1470,7 @@ def decrypt_besp():
 def decrypt_bcr():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'b{':
+        if x[:2] != 'b{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -b{')
@@ -1484,7 +1484,7 @@ def decrypt_bcr():
 def decrypt_bhl():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'b|':
+        if x[:2] != 'b|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -b|')
@@ -1498,7 +1498,7 @@ def decrypt_bhl():
 def decrypt_btild():
     i = 0
     for x in map(''.join, itertools.product('badfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'b~':
+        if x[:2] != 'b~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -b~')
@@ -1512,7 +1512,7 @@ def decrypt_btild():
 def decrypt_da():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'da':
+        if x[:2] != 'da':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -da')
@@ -1526,7 +1526,7 @@ def decrypt_da():
 def decrypt_db():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'db':
+        if x[:2] != 'db':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -db')
@@ -1540,7 +1540,7 @@ def decrypt_db():
 def decrypt_dd():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'dd':
+        if x[:2] != 'dd':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -dd')
@@ -1554,7 +1554,7 @@ def decrypt_dd():
 def decrypt_df():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'df':
+        if x[:2] != 'df':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -df')
@@ -1568,7 +1568,7 @@ def decrypt_df():
 def decrypt_dh():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'dh':
+        if x[:2] != 'dh':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -dh')
@@ -1582,7 +1582,7 @@ def decrypt_dh():
 def decrypt_dj():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'dj':
+        if x[:2] != 'dj':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -dj')
@@ -1596,7 +1596,7 @@ def decrypt_dj():
 def decrypt_dl():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'dl':
+        if x[:2] != 'dl':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -dl')
@@ -1610,7 +1610,7 @@ def decrypt_dl():
 def decrypt_dn():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'dn':
+        if x[:2] != 'dn':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -dn')
@@ -1624,7 +1624,7 @@ def decrypt_dn():
 def decrypt_dp():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'dp':
+        if x[:2] != 'dp':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -dp')
@@ -1638,7 +1638,7 @@ def decrypt_dp():
 def decrypt_dr():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'dr':
+        if x[:2] != 'dr':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -dr')
@@ -1652,7 +1652,7 @@ def decrypt_dr():
 def decrypt_dt():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'dt':
+        if x[:2] != 'dt':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -dt')
@@ -1666,7 +1666,7 @@ def decrypt_dt():
 def decrypt_dv():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'dv':
+        if x[:2] != 'dv':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -dv')
@@ -1680,7 +1680,7 @@ def decrypt_dv():
 def decrypt_dx():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'dx':
+        if x[:2] != 'dx':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -dx')
@@ -1694,7 +1694,7 @@ def decrypt_dx():
 def decrypt_dz():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'dz':
+        if x[:2] != 'dz':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -dz')
@@ -1708,7 +1708,7 @@ def decrypt_dz():
 def decrypt_dA():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'dA':
+        if x[:2] != 'dA':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -dA')
@@ -1722,7 +1722,7 @@ def decrypt_dA():
 def decrypt_dB():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'dB':
+        if x[:2] != 'dB':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -dB')
@@ -1736,7 +1736,7 @@ def decrypt_dB():
 def decrypt_dD():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'dD':
+        if x[:2] != 'dD':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -dD')
@@ -1750,7 +1750,7 @@ def decrypt_dD():
 def decrypt_dF():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'dF':
+        if x[:2] != 'dF':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -dF')
@@ -1764,7 +1764,7 @@ def decrypt_dF():
 def decrypt_dH():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'dH':
+        if x[:2] != 'dH':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -dH')
@@ -1778,7 +1778,7 @@ def decrypt_dH():
 def decrypt_dJ():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'dJ':
+        if x[:2] != 'dJ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -dJ')
@@ -1792,7 +1792,7 @@ def decrypt_dJ():
 def decrypt_dL():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'dL':
+        if x[:2] != 'dL':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -dL')
@@ -1806,7 +1806,7 @@ def decrypt_dL():
 def decrypt_dN():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'dN':
+        if x[:2] != 'dN':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -dN')
@@ -1820,7 +1820,7 @@ def decrypt_dN():
 def decrypt_dP():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'dP':
+        if x[:2] != 'dP':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -dP')
@@ -1834,7 +1834,7 @@ def decrypt_dP():
 def decrypt_dR():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'dR':
+        if x[:2] != 'dR':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -dR')
@@ -1848,7 +1848,7 @@ def decrypt_dR():
 def decrypt_dT():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'dT':
+        if x[:2] != 'dT':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -dT')
@@ -1862,7 +1862,7 @@ def decrypt_dT():
 def decrypt_dV():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'dV':
+        if x[:2] != 'dV':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -dV')
@@ -1876,7 +1876,7 @@ def decrypt_dV():
 def decrypt_dX():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'dX':
+        if x[:2] != 'dX':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -dX')
@@ -1890,7 +1890,7 @@ def decrypt_dX():
 def decrypt_dZ():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'dZ':
+        if x[:2] != 'dZ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -dZ')
@@ -1904,7 +1904,7 @@ def decrypt_dZ():
 def decrypt_d0():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'd0':
+        if x[:2] != 'd0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -d0')
@@ -1918,7 +1918,7 @@ def decrypt_d0():
 def decrypt_d2():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'd2':
+        if x[:2] != 'd2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -d2')
@@ -1932,7 +1932,7 @@ def decrypt_d2():
 def decrypt_d4():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'd4':
+        if x[:2] != 'd4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -d4')
@@ -1946,7 +1946,7 @@ def decrypt_d4():
 def decrypt_d6():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'd6':
+        if x[:2] != 'd6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -d6')
@@ -1960,7 +1960,7 @@ def decrypt_d6():
 def decrypt_d8():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'd8':
+        if x[:2] != 'd8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -d8')
@@ -1974,7 +1974,7 @@ def decrypt_d8():
 def decrypt_dexcl():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'd!':
+        if x[:2] != 'd!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -d!')
@@ -1988,7 +1988,7 @@ def decrypt_dexcl():
 def decrypt_ddquote():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'd"':
+        if x[:2] != 'd"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -d"')
@@ -2002,7 +2002,7 @@ def decrypt_ddquote():
 def decrypt_ddoll():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'd$':
+        if x[:2] != 'd$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -d$')
@@ -2016,7 +2016,7 @@ def decrypt_ddoll():
 def decrypt_dand():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'd&':
+        if x[:2] != 'd&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -d&')
@@ -2030,7 +2030,7 @@ def decrypt_dand():
 def decrypt_dquote():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'd\'':
+        if x[:2] != 'd\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -d\'')
@@ -2044,7 +2044,7 @@ def decrypt_dquote():
 def decrypt_dpar():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'd(':
+        if x[:2] != 'd(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -d(')
@@ -2058,7 +2058,7 @@ def decrypt_dpar():
 def decrypt_dast():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'd*':
+        if x[:2] != 'd*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -d*')
@@ -2072,7 +2072,7 @@ def decrypt_dast():
 def decrypt_dvir():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'd,':
+        if x[:2] != 'd,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -d,')
@@ -2086,7 +2086,7 @@ def decrypt_dvir():
 def decrypt_dpp():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'd.':
+        if x[:2] != 'd.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -d.')
@@ -2100,7 +2100,7 @@ def decrypt_dpp():
 def decrypt_dtp():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'd:':
+        if x[:2] != 'd:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -d:')
@@ -2114,7 +2114,7 @@ def decrypt_dtp():
 def decrypt_dless():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'd<':
+        if x[:2] != 'd<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -d<')
@@ -2128,7 +2128,7 @@ def decrypt_dless():
 def decrypt_dmore():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'd>':
+        if x[:2] != 'd>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -d>')
@@ -2142,7 +2142,7 @@ def decrypt_dmore():
 def decrypt_daro():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'd@':
+        if x[:2] != 'd@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -d@')
@@ -2156,7 +2156,7 @@ def decrypt_daro():
 def decrypt_dcroc():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'd[':
+        if x[:2] != 'd[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -d[')
@@ -2170,7 +2170,7 @@ def decrypt_dcroc():
 def decrypt_dbsl():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'd\\':
+        if x[:2] != 'd\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -d\\')
@@ -2184,7 +2184,7 @@ def decrypt_dbsl():
 def decrypt_dcirc():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'd^':
+        if x[:2] != 'd^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -d^')
@@ -2198,7 +2198,7 @@ def decrypt_dcirc():
 def decrypt_desp():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'd`':
+        if x[:2] != 'd`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -d`')
@@ -2212,7 +2212,7 @@ def decrypt_desp():
 def decrypt_dcr():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'd{':
+        if x[:2] != 'd{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -d{')
@@ -2226,7 +2226,7 @@ def decrypt_dcr():
 def decrypt_dhl():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'd|':
+        if x[:2] != 'd|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -d|')
@@ -2240,7 +2240,7 @@ def decrypt_dhl():
 def decrypt_dtild():
     i = 0
     for x in map(''.join, itertools.product('dabfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'd~':
+        if x[:2] != 'd~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -d~')
@@ -2254,7 +2254,7 @@ def decrypt_dtild():
 def decrypt_fa():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'fa':
+        if x[:2] != 'fa':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -fa')
@@ -2268,7 +2268,7 @@ def decrypt_fa():
 def decrypt_fb():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'fb':
+        if x[:2] != 'fb':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -fb')
@@ -2282,7 +2282,7 @@ def decrypt_fb():
 def decrypt_fd():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'fd':
+        if x[:2] != 'fd':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -fd')
@@ -2296,7 +2296,7 @@ def decrypt_fd():
 def decrypt_ff():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'ff':
+        if x[:2] != 'ff':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -ff')
@@ -2310,7 +2310,7 @@ def decrypt_ff():
 def decrypt_fh():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'fh':
+        if x[:2] != 'fh':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -fh')
@@ -2324,7 +2324,7 @@ def decrypt_fh():
 def decrypt_fj():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'fj':
+        if x[:2] != 'fj':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -fj')
@@ -2338,7 +2338,7 @@ def decrypt_fj():
 def decrypt_fl():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'fl':
+        if x[:2] != 'fl':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -fl')
@@ -2352,7 +2352,7 @@ def decrypt_fl():
 def decrypt_fn():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'fn':
+        if x[:2] != 'fn':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -fn')
@@ -2366,7 +2366,7 @@ def decrypt_fn():
 def decrypt_fp():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'fp':
+        if x[:2] != 'fp':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -fp')
@@ -2380,7 +2380,7 @@ def decrypt_fp():
 def decrypt_fr():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'fr':
+        if x[:2] != 'fr':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -fr')
@@ -2394,7 +2394,7 @@ def decrypt_fr():
 def decrypt_ft():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'ft':
+        if x[:2] != 'ft':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -ft')
@@ -2408,7 +2408,7 @@ def decrypt_ft():
 def decrypt_fv():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'fv':
+        if x[:2] != 'fv':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -fv')
@@ -2422,7 +2422,7 @@ def decrypt_fv():
 def decrypt_fx():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'fx':
+        if x[:2] != 'fx':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -fx')
@@ -2436,7 +2436,7 @@ def decrypt_fx():
 def decrypt_fz():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'fz':
+        if x[:2] != 'fz':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -fz')
@@ -2450,7 +2450,7 @@ def decrypt_fz():
 def decrypt_fA():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'fA':
+        if x[:2] != 'fA':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -fA')
@@ -2464,7 +2464,7 @@ def decrypt_fA():
 def decrypt_fB():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'fB':
+        if x[:2] != 'fB':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -fB')
@@ -2478,7 +2478,7 @@ def decrypt_fB():
 def decrypt_fD():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'fD':
+        if x[:2] != 'fD':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -fD')
@@ -2492,7 +2492,7 @@ def decrypt_fD():
 def decrypt_fF():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'fF':
+        if x[:2] != 'fF':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -fF')
@@ -2506,7 +2506,7 @@ def decrypt_fF():
 def decrypt_fH():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'fH':
+        if x[:2] != 'fH':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -fH')
@@ -2520,7 +2520,7 @@ def decrypt_fH():
 def decrypt_fJ():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'fJ':
+        if x[:2] != 'fJ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -fJ')
@@ -2534,7 +2534,7 @@ def decrypt_fJ():
 def decrypt_fL():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'fL':
+        if x[:2] != 'fL':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -fL')
@@ -2548,7 +2548,7 @@ def decrypt_fL():
 def decrypt_fN():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'fN':
+        if x[:2] != 'fN':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -fN')
@@ -2562,7 +2562,7 @@ def decrypt_fN():
 def decrypt_fP():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'fP':
+        if x[:2] != 'fP':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -fP')
@@ -2576,7 +2576,7 @@ def decrypt_fP():
 def decrypt_fR():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'fR':
+        if x[:2] != 'fR':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -fR')
@@ -2590,7 +2590,7 @@ def decrypt_fR():
 def decrypt_fT():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'fT':
+        if x[:2] != 'fT':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -fT')
@@ -2604,7 +2604,7 @@ def decrypt_fT():
 def decrypt_fV():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'fV':
+        if x[:2] != 'fV':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -fV')
@@ -2618,7 +2618,7 @@ def decrypt_fV():
 def decrypt_fX():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'fX':
+        if x[:2] != 'fX':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -fX')
@@ -2632,7 +2632,7 @@ def decrypt_fX():
 def decrypt_fZ():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'fZ':
+        if x[:2] != 'fZ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -fZ')
@@ -2646,7 +2646,7 @@ def decrypt_fZ():
 def decrypt_f0():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'f0':
+        if x[:2] != 'f0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -f0')
@@ -2660,7 +2660,7 @@ def decrypt_f0():
 def decrypt_f2():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'f2':
+        if x[:2] != 'f2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -f2')
@@ -2674,7 +2674,7 @@ def decrypt_f2():
 def decrypt_f4():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'f4':
+        if x[:2] != 'f4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -f4')
@@ -2688,7 +2688,7 @@ def decrypt_f4():
 def decrypt_f6():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'f6':
+        if x[:2] != 'f6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -f6')
@@ -2702,7 +2702,7 @@ def decrypt_f6():
 def decrypt_f8():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'f8':
+        if x[:2] != 'f8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -f8')
@@ -2716,7 +2716,7 @@ def decrypt_f8():
 def decrypt_fexcl():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'f!':
+        if x[:2] != 'f!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -f!')
@@ -2730,7 +2730,7 @@ def decrypt_fexcl():
 def decrypt_fdquote():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'f"':
+        if x[:2] != 'f"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -f"')
@@ -2744,7 +2744,7 @@ def decrypt_fdquote():
 def decrypt_fdoll():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'f$':
+        if x[:2] != 'f$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -f$')
@@ -2758,7 +2758,7 @@ def decrypt_fdoll():
 def decrypt_fand():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'f&':
+        if x[:2] != 'f&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -f&')
@@ -2772,7 +2772,7 @@ def decrypt_fand():
 def decrypt_fquote():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'f\'':
+        if x[:2] != 'f\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -f\'')
@@ -2786,7 +2786,7 @@ def decrypt_fquote():
 def decrypt_fpar():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'f(':
+        if x[:2] != 'f(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -f(')
@@ -2800,7 +2800,7 @@ def decrypt_fpar():
 def decrypt_fast():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'f*':
+        if x[:2] != 'f*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -f*')
@@ -2814,7 +2814,7 @@ def decrypt_fast():
 def decrypt_fvir():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'f,':
+        if x[:2] != 'f,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -f,')
@@ -2828,7 +2828,7 @@ def decrypt_fvir():
 def decrypt_fpp():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'f.':
+        if x[:2] != 'f.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -f.')
@@ -2842,7 +2842,7 @@ def decrypt_fpp():
 def decrypt_ftp():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'f:':
+        if x[:2] != 'f:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -f:')
@@ -2856,7 +2856,7 @@ def decrypt_ftp():
 def decrypt_fless():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'f<':
+        if x[:2] != 'f<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -f<')
@@ -2870,7 +2870,7 @@ def decrypt_fless():
 def decrypt_fmore():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'f>':
+        if x[:2] != 'f>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -f>')
@@ -2884,7 +2884,7 @@ def decrypt_fmore():
 def decrypt_faro():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'f@':
+        if x[:2] != 'f@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -f@')
@@ -2898,7 +2898,7 @@ def decrypt_faro():
 def decrypt_fcroc():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'f[':
+        if x[:2] != 'f[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -f[')
@@ -2912,7 +2912,7 @@ def decrypt_fcroc():
 def decrypt_fbsl():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'f\\':
+        if x[:2] != 'f\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -f\\')
@@ -2926,7 +2926,7 @@ def decrypt_fbsl():
 def decrypt_fcirc():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'f^':
+        if x[:2] != 'f^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -f^')
@@ -2940,7 +2940,7 @@ def decrypt_fcirc():
 def decrypt_fesp():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'f`':
+        if x[:2] != 'f`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -f`')
@@ -2954,7 +2954,7 @@ def decrypt_fesp():
 def decrypt_fcr():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'f{':
+        if x[:2] != 'f{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -f{')
@@ -2968,7 +2968,7 @@ def decrypt_fcr():
 def decrypt_fhl():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'f|':
+        if x[:2] != 'f|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -f|')
@@ -2982,7 +2982,7 @@ def decrypt_fhl():
 def decrypt_ftild():
     i = 0
     for x in map(''.join, itertools.product('fabdhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'f~':
+        if x[:2] != 'f~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -f~')
@@ -2996,7 +2996,7 @@ def decrypt_ftild():
 def decrypt_ha():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'ha':
+        if x[:2] != 'ha':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -ha')
@@ -3010,7 +3010,7 @@ def decrypt_ha():
 def decrypt_hb():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'hb':
+        if x[:2] != 'hb':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -hb')
@@ -3024,7 +3024,7 @@ def decrypt_hb():
 def decrypt_hd():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'hd':
+        if x[:2] != 'hd':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -hd')
@@ -3038,7 +3038,7 @@ def decrypt_hd():
 def decrypt_hf():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'hf':
+        if x[:2] != 'hf':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -hf')
@@ -3052,7 +3052,7 @@ def decrypt_hf():
 def decrypt_hh():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'hh':
+        if x[:2] != 'hh':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -hh')
@@ -3066,7 +3066,7 @@ def decrypt_hh():
 def decrypt_hj():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'hj':
+        if x[:2] != 'hj':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -hj')
@@ -3080,7 +3080,7 @@ def decrypt_hj():
 def decrypt_hl():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'hl':
+        if x[:2] != 'hl':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -hl')
@@ -3094,7 +3094,7 @@ def decrypt_hl():
 def decrypt_hn():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'hn':
+        if x[:2] != 'hn':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -hn')
@@ -3108,7 +3108,7 @@ def decrypt_hn():
 def decrypt_hp():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'hp':
+        if x[:2] != 'hp':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -hp')
@@ -3122,7 +3122,7 @@ def decrypt_hp():
 def decrypt_hr():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'hr':
+        if x[:2] != 'hr':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -hr')
@@ -3136,7 +3136,7 @@ def decrypt_hr():
 def decrypt_ht():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'ht':
+        if x[:2] != 'ht':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -ht')
@@ -3150,7 +3150,7 @@ def decrypt_ht():
 def decrypt_hv():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'hv':
+        if x[:2] != 'hv':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -hv')
@@ -3164,7 +3164,7 @@ def decrypt_hv():
 def decrypt_hx():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'hx':
+        if x[:2] != 'hx':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -hx')
@@ -3178,7 +3178,7 @@ def decrypt_hx():
 def decrypt_hz():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'hz':
+        if x[:2] != 'hz':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -hz')
@@ -3192,7 +3192,7 @@ def decrypt_hz():
 def decrypt_hA():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'hA':
+        if x[:2] != 'hA':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -hA')
@@ -3206,7 +3206,7 @@ def decrypt_hA():
 def decrypt_hB():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'hB':
+        if x[:2] != 'hB':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -hB')
@@ -3220,7 +3220,7 @@ def decrypt_hB():
 def decrypt_hD():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'hD':
+        if x[:2] != 'hD':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -hD')
@@ -3234,7 +3234,7 @@ def decrypt_hD():
 def decrypt_hF():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'hF':
+        if x[:2] != 'hF':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -hF')
@@ -3248,7 +3248,7 @@ def decrypt_hF():
 def decrypt_hH():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'hH':
+        if x[:2] != 'hH':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -hH')
@@ -3262,7 +3262,7 @@ def decrypt_hH():
 def decrypt_hJ():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'hJ':
+        if x[:2] != 'hJ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -hJ')
@@ -3276,7 +3276,7 @@ def decrypt_hJ():
 def decrypt_hL():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'hL':
+        if x[:2] != 'hL':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -hL')
@@ -3290,7 +3290,7 @@ def decrypt_hL():
 def decrypt_hN():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'hN':
+        if x[:2] != 'hN':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -hN')
@@ -3304,7 +3304,7 @@ def decrypt_hN():
 def decrypt_hP():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'hP':
+        if x[:2] != 'hP':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -hP')
@@ -3318,7 +3318,7 @@ def decrypt_hP():
 def decrypt_hR():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'hR':
+        if x[:2] != 'hR':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -hR')
@@ -3332,7 +3332,7 @@ def decrypt_hR():
 def decrypt_hT():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'hT':
+        if x[:2] != 'hT':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -hT')
@@ -3346,7 +3346,7 @@ def decrypt_hT():
 def decrypt_hV():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'hV':
+        if x[:2] != 'hV':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -hV')
@@ -3360,7 +3360,7 @@ def decrypt_hV():
 def decrypt_hX():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'hX':
+        if x[:2] != 'hX':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -hX')
@@ -3374,7 +3374,7 @@ def decrypt_hX():
 def decrypt_hZ():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'hZ':
+        if x[:2] != 'hZ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -hZ')
@@ -3388,7 +3388,7 @@ def decrypt_hZ():
 def decrypt_h0():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'h0':
+        if x[:2] != 'h0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -h0')
@@ -3402,7 +3402,7 @@ def decrypt_h0():
 def decrypt_h2():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'h2':
+        if x[:2] != 'h2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -h2')
@@ -3416,7 +3416,7 @@ def decrypt_h2():
 def decrypt_h4():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'h4':
+        if x[:2] != 'h4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -h4')
@@ -3430,7 +3430,7 @@ def decrypt_h4():
 def decrypt_h6():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'h6':
+        if x[:2] != 'h6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -h6')
@@ -3444,7 +3444,7 @@ def decrypt_h6():
 def decrypt_h8():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'h8':
+        if x[:2] != 'h8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -h8')
@@ -3458,7 +3458,7 @@ def decrypt_h8():
 def decrypt_hexcl():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'h!':
+        if x[:2] != 'h!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -h!')
@@ -3472,7 +3472,7 @@ def decrypt_hexcl():
 def decrypt_hdquote():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'h"':
+        if x[:2] != 'h"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -h"')
@@ -3486,7 +3486,7 @@ def decrypt_hdquote():
 def decrypt_hdoll():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'h$':
+        if x[:2] != 'h$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -h$')
@@ -3500,7 +3500,7 @@ def decrypt_hdoll():
 def decrypt_hand():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'h&':
+        if x[:2] != 'h&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -h&')
@@ -3514,7 +3514,7 @@ def decrypt_hand():
 def decrypt_hquote():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'h\'':
+        if x[:2] != 'h\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -h\'')
@@ -3528,7 +3528,7 @@ def decrypt_hquote():
 def decrypt_hpar():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'h(':
+        if x[:2] != 'h(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -h(')
@@ -3542,7 +3542,7 @@ def decrypt_hpar():
 def decrypt_hast():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'h*':
+        if x[:2] != 'h*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -h*')
@@ -3556,7 +3556,7 @@ def decrypt_hast():
 def decrypt_hvir():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'h,':
+        if x[:2] != 'h,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -h,')
@@ -3570,7 +3570,7 @@ def decrypt_hvir():
 def decrypt_hpp():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'h.':
+        if x[:2] != 'h.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -h.')
@@ -3584,7 +3584,7 @@ def decrypt_hpp():
 def decrypt_htp():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'h:':
+        if x[:2] != 'h:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -h:')
@@ -3598,7 +3598,7 @@ def decrypt_htp():
 def decrypt_hless():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'h<':
+        if x[:2] != 'h<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -h<')
@@ -3612,7 +3612,7 @@ def decrypt_hless():
 def decrypt_hmore():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'h>':
+        if x[:2] != 'h>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -h>')
@@ -3626,7 +3626,7 @@ def decrypt_hmore():
 def decrypt_haro():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'h@':
+        if x[:2] != 'h@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -h@')
@@ -3640,7 +3640,7 @@ def decrypt_haro():
 def decrypt_hcroc():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'h[':
+        if x[:2] != 'h[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -h[')
@@ -3654,7 +3654,7 @@ def decrypt_hcroc():
 def decrypt_hbsl():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'h\\':
+        if x[:2] != 'h\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -h\\')
@@ -3668,7 +3668,7 @@ def decrypt_hbsl():
 def decrypt_hcirc():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'h^':
+        if x[:2] != 'h^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -h^')
@@ -3682,7 +3682,7 @@ def decrypt_hcirc():
 def decrypt_hesp():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'h`':
+        if x[:2] != 'h`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -h`')
@@ -3696,7 +3696,7 @@ def decrypt_hesp():
 def decrypt_hcr():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'h{':
+        if x[:2] != 'h{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -h{')
@@ -3710,7 +3710,7 @@ def decrypt_hcr():
 def decrypt_hhl():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'h|':
+        if x[:2] != 'h|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -h|')
@@ -3724,7 +3724,7 @@ def decrypt_hhl():
 def decrypt_htild():
     i = 0
     for x in map(''.join, itertools.product('habdfjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'h~':
+        if x[:2] != 'h~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -h~')
@@ -3738,7 +3738,7 @@ def decrypt_htild():
 def decrypt_ja():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'ja':
+        if x[:2] != 'ja':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -ja')
@@ -3752,7 +3752,7 @@ def decrypt_ja():
 def decrypt_jb():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'jb':
+        if x[:2] != 'jb':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -jb')
@@ -3766,7 +3766,7 @@ def decrypt_jb():
 def decrypt_jd():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'jd':
+        if x[:2] != 'jd':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -jd')
@@ -3780,7 +3780,7 @@ def decrypt_jd():
 def decrypt_jf():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'jf':
+        if x[:2] != 'jf':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -jf')
@@ -3794,7 +3794,7 @@ def decrypt_jf():
 def decrypt_jh():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'jh':
+        if x[:2] != 'jh':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -jh')
@@ -3808,7 +3808,7 @@ def decrypt_jh():
 def decrypt_jj():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'jj':
+        if x[:2] != 'jj':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -jj')
@@ -3822,7 +3822,7 @@ def decrypt_jj():
 def decrypt_jl():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'jl':
+        if x[:2] != 'jl':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -jl')
@@ -3836,7 +3836,7 @@ def decrypt_jl():
 def decrypt_jn():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'jn':
+        if x[:2] != 'jn':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -jn')
@@ -3850,7 +3850,7 @@ def decrypt_jn():
 def decrypt_jp():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'jp':
+        if x[:2] != 'jp':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -jp')
@@ -3864,7 +3864,7 @@ def decrypt_jp():
 def decrypt_jr():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'jr':
+        if x[:2] != 'jr':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -jr')
@@ -3878,7 +3878,7 @@ def decrypt_jr():
 def decrypt_jt():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'jt':
+        if x[:2] != 'jt':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -jt')
@@ -3892,7 +3892,7 @@ def decrypt_jt():
 def decrypt_jv():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'jv':
+        if x[:2] != 'jv':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -jv')
@@ -3906,7 +3906,7 @@ def decrypt_jv():
 def decrypt_jx():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'jx':
+        if x[:2] != 'jx':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -jx')
@@ -3920,7 +3920,7 @@ def decrypt_jx():
 def decrypt_jz():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'jz':
+        if x[:2] != 'jz':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -jz')
@@ -3934,7 +3934,7 @@ def decrypt_jz():
 def decrypt_jA():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'jA':
+        if x[:2] != 'jA':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -jA')
@@ -3948,7 +3948,7 @@ def decrypt_jA():
 def decrypt_jB():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'jB':
+        if x[:2] != 'jB':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -jB')
@@ -3962,7 +3962,7 @@ def decrypt_jB():
 def decrypt_jD():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'jD':
+        if x[:2] != 'jD':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -jD')
@@ -3976,7 +3976,7 @@ def decrypt_jD():
 def decrypt_jF():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'jF':
+        if x[:2] != 'jF':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -jF')
@@ -3990,7 +3990,7 @@ def decrypt_jF():
 def decrypt_jH():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'jH':
+        if x[:2] != 'jH':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -jH')
@@ -4004,7 +4004,7 @@ def decrypt_jH():
 def decrypt_jJ():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'jJ':
+        if x[:2] != 'jJ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -jJ')
@@ -4018,7 +4018,7 @@ def decrypt_jJ():
 def decrypt_jL():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'jL':
+        if x[:2] != 'jL':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -jL')
@@ -4032,7 +4032,7 @@ def decrypt_jL():
 def decrypt_jN():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'jN':
+        if x[:2] != 'jN':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -jN')
@@ -4046,7 +4046,7 @@ def decrypt_jN():
 def decrypt_jP():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'jP':
+        if x[:2] != 'jP':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -jP')
@@ -4060,7 +4060,7 @@ def decrypt_jP():
 def decrypt_jR():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'jR':
+        if x[:2] != 'jR':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -jR')
@@ -4074,7 +4074,7 @@ def decrypt_jR():
 def decrypt_jT():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'jT':
+        if x[:2] != 'jT':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -jT')
@@ -4088,7 +4088,7 @@ def decrypt_jT():
 def decrypt_jV():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'jV':
+        if x[:2] != 'jV':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -jV')
@@ -4102,7 +4102,7 @@ def decrypt_jV():
 def decrypt_jX():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'jX':
+        if x[:2] != 'jX':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -jX')
@@ -4116,7 +4116,7 @@ def decrypt_jX():
 def decrypt_jZ():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'jZ':
+        if x[:2] != 'jZ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -jZ')
@@ -4130,7 +4130,7 @@ def decrypt_jZ():
 def decrypt_j0():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'j0':
+        if x[:2] != 'j0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -j0')
@@ -4144,7 +4144,7 @@ def decrypt_j0():
 def decrypt_j2():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'j2':
+        if x[:2] != 'j2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -j2')
@@ -4158,7 +4158,7 @@ def decrypt_j2():
 def decrypt_j4():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'j4':
+        if x[:2] != 'j4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -j4')
@@ -4172,7 +4172,7 @@ def decrypt_j4():
 def decrypt_j6():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'j6':
+        if x[:2] != 'j6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -j6')
@@ -4186,7 +4186,7 @@ def decrypt_j6():
 def decrypt_j8():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'j8':
+        if x[:2] != 'j8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -j8')
@@ -4200,7 +4200,7 @@ def decrypt_j8():
 def decrypt_jexcl():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'j!':
+        if x[:2] != 'j!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -j!')
@@ -4214,7 +4214,7 @@ def decrypt_jexcl():
 def decrypt_jdquote():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'j"':
+        if x[:2] != 'j"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -j"')
@@ -4228,7 +4228,7 @@ def decrypt_jdquote():
 def decrypt_jdoll():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'j$':
+        if x[:2] != 'j$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -j$')
@@ -4242,7 +4242,7 @@ def decrypt_jdoll():
 def decrypt_jand():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'j&':
+        if x[:2] != 'j&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -j&')
@@ -4256,7 +4256,7 @@ def decrypt_jand():
 def decrypt_jquote():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'j\'':
+        if x[:2] != 'j\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -j\'')
@@ -4270,7 +4270,7 @@ def decrypt_jquote():
 def decrypt_jpar():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'j(':
+        if x[:2] != 'j(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -j(')
@@ -4284,7 +4284,7 @@ def decrypt_jpar():
 def decrypt_jast():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'j*':
+        if x[:2] != 'j*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -j*')
@@ -4298,7 +4298,7 @@ def decrypt_jast():
 def decrypt_jvir():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'j,':
+        if x[:2] != 'j,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -j,')
@@ -4312,7 +4312,7 @@ def decrypt_jvir():
 def decrypt_jpp():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'j.':
+        if x[:2] != 'j.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -j.')
@@ -4326,7 +4326,7 @@ def decrypt_jpp():
 def decrypt_jtp():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'j:':
+        if x[:2] != 'j:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -j:')
@@ -4340,7 +4340,7 @@ def decrypt_jtp():
 def decrypt_jless():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'j<':
+        if x[:2] != 'j<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -j<')
@@ -4354,7 +4354,7 @@ def decrypt_jless():
 def decrypt_jmore():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'j>':
+        if x[:2] != 'j>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -j>')
@@ -4368,7 +4368,7 @@ def decrypt_jmore():
 def decrypt_jaro():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'j@':
+        if x[:2] != 'j@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -j@')
@@ -4382,7 +4382,7 @@ def decrypt_jaro():
 def decrypt_jcroc():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'j[':
+        if x[:2] != 'j[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -j[')
@@ -4396,7 +4396,7 @@ def decrypt_jcroc():
 def decrypt_jbsl():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'j\\':
+        if x[:2] != 'j\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -j\\')
@@ -4410,7 +4410,7 @@ def decrypt_jbsl():
 def decrypt_jcirc():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'j^':
+        if x[:2] != 'j^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -j^')
@@ -4424,7 +4424,7 @@ def decrypt_jcirc():
 def decrypt_jesp():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'j`':
+        if x[:2] != 'j`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -j`')
@@ -4438,7 +4438,7 @@ def decrypt_jesp():
 def decrypt_jcr():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'j{':
+        if x[:2] != 'j{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -j{')
@@ -4452,7 +4452,7 @@ def decrypt_jcr():
 def decrypt_jhl():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'j|':
+        if x[:2] != 'j|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -j|')
@@ -4466,7 +4466,7 @@ def decrypt_jhl():
 def decrypt_jtild():
     i = 0
     for x in map(''.join, itertools.product('jabdfhlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'j~':
+        if x[:2] != 'j~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -j~')
@@ -4480,7 +4480,7 @@ def decrypt_jtild():
 def decrypt_la():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'la':
+        if x[:2] != 'la':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -la')
@@ -4494,7 +4494,7 @@ def decrypt_la():
 def decrypt_lb():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'lb':
+        if x[:2] != 'lb':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -lb')
@@ -4508,7 +4508,7 @@ def decrypt_lb():
 def decrypt_ld():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'ld':
+        if x[:2] != 'ld':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -ld')
@@ -4522,7 +4522,7 @@ def decrypt_ld():
 def decrypt_lf():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'lf':
+        if x[:2] != 'lf':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -lf')
@@ -4536,7 +4536,7 @@ def decrypt_lf():
 def decrypt_lh():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'lh':
+        if x[:2] != 'lh':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -lh')
@@ -4550,7 +4550,7 @@ def decrypt_lh():
 def decrypt_lj():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'lj':
+        if x[:2] != 'lj':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -lj')
@@ -4564,7 +4564,7 @@ def decrypt_lj():
 def decrypt_ll():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'll':
+        if x[:2] != 'll':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -ll')
@@ -4578,7 +4578,7 @@ def decrypt_ll():
 def decrypt_ln():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'ln':
+        if x[:2] != 'ln':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -ln')
@@ -4592,7 +4592,7 @@ def decrypt_ln():
 def decrypt_lp():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'lp':
+        if x[:2] != 'lp':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -lp')
@@ -4606,7 +4606,7 @@ def decrypt_lp():
 def decrypt_lr():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'lr':
+        if x[:2] != 'lr':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -lr')
@@ -4620,7 +4620,7 @@ def decrypt_lr():
 def decrypt_lt():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'lt':
+        if x[:2] != 'lt':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -lt')
@@ -4634,7 +4634,7 @@ def decrypt_lt():
 def decrypt_lv():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'lv':
+        if x[:2] != 'lv':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -lv')
@@ -4648,7 +4648,7 @@ def decrypt_lv():
 def decrypt_lx():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'lx':
+        if x[:2] != 'lx':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -lx')
@@ -4662,7 +4662,7 @@ def decrypt_lx():
 def decrypt_lz():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'lz':
+        if x[:2] != 'lz':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -lz')
@@ -4676,7 +4676,7 @@ def decrypt_lz():
 def decrypt_lA():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'lA':
+        if x[:2] != 'lA':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -lA')
@@ -4690,7 +4690,7 @@ def decrypt_lA():
 def decrypt_lB():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'lB':
+        if x[:2] != 'lB':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -lB')
@@ -4704,7 +4704,7 @@ def decrypt_lB():
 def decrypt_lD():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'lD':
+        if x[:2] != 'lD':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -lD')
@@ -4718,7 +4718,7 @@ def decrypt_lD():
 def decrypt_lF():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'lF':
+        if x[:2] != 'lF':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -lF')
@@ -4732,7 +4732,7 @@ def decrypt_lF():
 def decrypt_lH():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'lH':
+        if x[:2] != 'lH':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -lH')
@@ -4746,7 +4746,7 @@ def decrypt_lH():
 def decrypt_lJ():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'lJ':
+        if x[:2] != 'lJ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -lJ')
@@ -4760,7 +4760,7 @@ def decrypt_lJ():
 def decrypt_lL():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'lL':
+        if x[:2] != 'lL':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -lL')
@@ -4774,7 +4774,7 @@ def decrypt_lL():
 def decrypt_lN():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'lN':
+        if x[:2] != 'lN':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -lN')
@@ -4788,7 +4788,7 @@ def decrypt_lN():
 def decrypt_lP():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'lP':
+        if x[:2] != 'lP':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -lP')
@@ -4802,7 +4802,7 @@ def decrypt_lP():
 def decrypt_lR():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'lR':
+        if x[:2] != 'lR':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -lR')
@@ -4816,7 +4816,7 @@ def decrypt_lR():
 def decrypt_lT():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'lT':
+        if x[:2] != 'lT':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -lT')
@@ -4830,7 +4830,7 @@ def decrypt_lT():
 def decrypt_lV():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'lV':
+        if x[:2] != 'lV':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -lV')
@@ -4844,7 +4844,7 @@ def decrypt_lV():
 def decrypt_lX():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'lX':
+        if x[:2] != 'lX':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -lX')
@@ -4858,7 +4858,7 @@ def decrypt_lX():
 def decrypt_lZ():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'lZ':
+        if x[:2] != 'lZ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -lZ')
@@ -4872,7 +4872,7 @@ def decrypt_lZ():
 def decrypt_l0():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'l0':
+        if x[:2] != 'l0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -l0')
@@ -4886,7 +4886,7 @@ def decrypt_l0():
 def decrypt_l2():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'l2':
+        if x[:2] != 'l2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -l2')
@@ -4900,7 +4900,7 @@ def decrypt_l2():
 def decrypt_l4():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'l4':
+        if x[:2] != 'l4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -l4')
@@ -4914,7 +4914,7 @@ def decrypt_l4():
 def decrypt_l6():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'l6':
+        if x[:2] != 'l6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -l6')
@@ -4928,7 +4928,7 @@ def decrypt_l6():
 def decrypt_l8():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'l8':
+        if x[:2] != 'l8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -l8')
@@ -4942,7 +4942,7 @@ def decrypt_l8():
 def decrypt_lexcl():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'l!':
+        if x[:2] != 'l!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -l!')
@@ -4956,7 +4956,7 @@ def decrypt_lexcl():
 def decrypt_ldquote():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'l"':
+        if x[:2] != 'l"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -l"')
@@ -4970,7 +4970,7 @@ def decrypt_ldquote():
 def decrypt_ldoll():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'l$':
+        if x[:2] != 'l$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -l$')
@@ -4984,7 +4984,7 @@ def decrypt_ldoll():
 def decrypt_land():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'l&':
+        if x[:2] != 'l&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -l&')
@@ -4998,7 +4998,7 @@ def decrypt_land():
 def decrypt_lquote():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'l\'':
+        if x[:2] != 'l\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -l\'')
@@ -5012,7 +5012,7 @@ def decrypt_lquote():
 def decrypt_lpar():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'l(':
+        if x[:2] != 'l(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -l(')
@@ -5026,7 +5026,7 @@ def decrypt_lpar():
 def decrypt_last():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'l*':
+        if x[:2] != 'l*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -l*')
@@ -5040,7 +5040,7 @@ def decrypt_last():
 def decrypt_lvir():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'l,':
+        if x[:2] != 'l,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -l,')
@@ -5054,7 +5054,7 @@ def decrypt_lvir():
 def decrypt_lpp():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'l.':
+        if x[:2] != 'l.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -l.')
@@ -5068,7 +5068,7 @@ def decrypt_lpp():
 def decrypt_ltp():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'l:':
+        if x[:2] != 'l:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -l:')
@@ -5082,7 +5082,7 @@ def decrypt_ltp():
 def decrypt_lless():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'l<':
+        if x[:2] != 'l<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -l<')
@@ -5096,7 +5096,7 @@ def decrypt_lless():
 def decrypt_lmore():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'l>':
+        if x[:2] != 'l>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -l>')
@@ -5110,7 +5110,7 @@ def decrypt_lmore():
 def decrypt_laro():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'l@':
+        if x[:2] != 'l@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -l@')
@@ -5124,7 +5124,7 @@ def decrypt_laro():
 def decrypt_lcroc():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'l[':
+        if x[:2] != 'l[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -l[')
@@ -5138,7 +5138,7 @@ def decrypt_lcroc():
 def decrypt_lbsl():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'l\\':
+        if x[:2] != 'l\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -l\\')
@@ -5152,7 +5152,7 @@ def decrypt_lbsl():
 def decrypt_lcirc():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'l^':
+        if x[:2] != 'l^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -l^')
@@ -5166,7 +5166,7 @@ def decrypt_lcirc():
 def decrypt_lesp():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'l`':
+        if x[:2] != 'l`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -l`')
@@ -5180,7 +5180,7 @@ def decrypt_lesp():
 def decrypt_lcr():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'l{':
+        if x[:2] != 'l{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -l{')
@@ -5194,7 +5194,7 @@ def decrypt_lcr():
 def decrypt_lhl():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'l|':
+        if x[:2] != 'l|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -l|')
@@ -5208,7 +5208,7 @@ def decrypt_lhl():
 def decrypt_ltild():
     i = 0
     for x in map(''.join, itertools.product('labdfhjnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'l~':
+        if x[:2] != 'l~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -l~')
@@ -5222,7 +5222,7 @@ def decrypt_ltild():
 def decrypt_na():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'na':
+        if x[:2] != 'na':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -na')
@@ -5236,7 +5236,7 @@ def decrypt_na():
 def decrypt_nb():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'nb':
+        if x[:2] != 'nb':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -nb')
@@ -5250,7 +5250,7 @@ def decrypt_nb():
 def decrypt_nd():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'nd':
+        if x[:2] != 'nd':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -nd')
@@ -5264,7 +5264,7 @@ def decrypt_nd():
 def decrypt_nf():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'nf':
+        if x[:2] != 'nf':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -nf')
@@ -5278,7 +5278,7 @@ def decrypt_nf():
 def decrypt_nh():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'nh':
+        if x[:2] != 'nh':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -nh')
@@ -5292,7 +5292,7 @@ def decrypt_nh():
 def decrypt_nj():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'nj':
+        if x[:2] != 'nj':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -nj')
@@ -5306,7 +5306,7 @@ def decrypt_nj():
 def decrypt_nl():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'nl':
+        if x[:2] != 'nl':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -nl')
@@ -5320,7 +5320,7 @@ def decrypt_nl():
 def decrypt_nn():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'nn':
+        if x[:2] != 'nn':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -nn')
@@ -5334,7 +5334,7 @@ def decrypt_nn():
 def decrypt_np():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'np':
+        if x[:2] != 'np':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -np')
@@ -5348,7 +5348,7 @@ def decrypt_np():
 def decrypt_nr():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'nr':
+        if x[:2] != 'nr':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -nr')
@@ -5362,7 +5362,7 @@ def decrypt_nr():
 def decrypt_nt():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'nt':
+        if x[:2] != 'nt':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -nt')
@@ -5376,7 +5376,7 @@ def decrypt_nt():
 def decrypt_nv():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'nv':
+        if x[:2] != 'nv':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -nv')
@@ -5390,7 +5390,7 @@ def decrypt_nv():
 def decrypt_nx():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'nx':
+        if x[:2] != 'nx':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -nx')
@@ -5404,7 +5404,7 @@ def decrypt_nx():
 def decrypt_nz():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'nz':
+        if x[:2] != 'nz':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -nz')
@@ -5418,7 +5418,7 @@ def decrypt_nz():
 def decrypt_nA():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'nA':
+        if x[:2] != 'nA':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -nA')
@@ -5432,7 +5432,7 @@ def decrypt_nA():
 def decrypt_nB():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'nB':
+        if x[:2] != 'nB':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -nB')
@@ -5446,7 +5446,7 @@ def decrypt_nB():
 def decrypt_nD():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'nD':
+        if x[:2] != 'nD':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -nD')
@@ -5460,7 +5460,7 @@ def decrypt_nD():
 def decrypt_nF():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'nF':
+        if x[:2] != 'nF':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -nF')
@@ -5474,7 +5474,7 @@ def decrypt_nF():
 def decrypt_nH():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'nH':
+        if x[:2] != 'nH':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -nH')
@@ -5488,7 +5488,7 @@ def decrypt_nH():
 def decrypt_nJ():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'nJ':
+        if x[:2] != 'nJ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -nJ')
@@ -5502,7 +5502,7 @@ def decrypt_nJ():
 def decrypt_nL():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'nL':
+        if x[:2] != 'nL':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -nL')
@@ -5516,7 +5516,7 @@ def decrypt_nL():
 def decrypt_nN():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'nN':
+        if x[:2] != 'nN':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -nN')
@@ -5530,7 +5530,7 @@ def decrypt_nN():
 def decrypt_nP():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'nP':
+        if x[:2] != 'nP':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -nP')
@@ -5544,7 +5544,7 @@ def decrypt_nP():
 def decrypt_nR():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'nR':
+        if x[:2] != 'nR':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -nR')
@@ -5558,7 +5558,7 @@ def decrypt_nR():
 def decrypt_nT():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'nT':
+        if x[:2] != 'nT':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -nT')
@@ -5572,7 +5572,7 @@ def decrypt_nT():
 def decrypt_nV():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'nV':
+        if x[:2] != 'nV':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -nV')
@@ -5586,7 +5586,7 @@ def decrypt_nV():
 def decrypt_nX():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'nX':
+        if x[:2] != 'nX':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -nX')
@@ -5600,7 +5600,7 @@ def decrypt_nX():
 def decrypt_nZ():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'nZ':
+        if x[:2] != 'nZ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -nZ')
@@ -5614,7 +5614,7 @@ def decrypt_nZ():
 def decrypt_n0():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'n0':
+        if x[:2] != 'n0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -n0')
@@ -5628,7 +5628,7 @@ def decrypt_n0():
 def decrypt_n2():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'n2':
+        if x[:2] != 'n2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -n2')
@@ -5642,7 +5642,7 @@ def decrypt_n2():
 def decrypt_n4():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'n4':
+        if x[:2] != 'n4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -n4')
@@ -5656,7 +5656,7 @@ def decrypt_n4():
 def decrypt_n6():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'n6':
+        if x[:2] != 'n6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -n6')
@@ -5670,7 +5670,7 @@ def decrypt_n6():
 def decrypt_n8():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'n8':
+        if x[:2] != 'n8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -n8')
@@ -5684,7 +5684,7 @@ def decrypt_n8():
 def decrypt_nexcl():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'n!':
+        if x[:2] != 'n!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -n!')
@@ -5698,7 +5698,7 @@ def decrypt_nexcl():
 def decrypt_ndquote():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'n"':
+        if x[:2] != 'n"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -n"')
@@ -5712,7 +5712,7 @@ def decrypt_ndquote():
 def decrypt_ndoll():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'n$':
+        if x[:2] != 'n$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -n$')
@@ -5726,7 +5726,7 @@ def decrypt_ndoll():
 def decrypt_nand():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'n&':
+        if x[:2] != 'n&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -n&')
@@ -5740,7 +5740,7 @@ def decrypt_nand():
 def decrypt_nquote():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'n\'':
+        if x[:2] != 'n\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -n\'')
@@ -5754,7 +5754,7 @@ def decrypt_nquote():
 def decrypt_npar():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'n(':
+        if x[:2] != 'n(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -n(')
@@ -5768,7 +5768,7 @@ def decrypt_npar():
 def decrypt_nast():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'n*':
+        if x[:2] != 'n*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -n*')
@@ -5782,7 +5782,7 @@ def decrypt_nast():
 def decrypt_nvir():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'n,':
+        if x[:2] != 'n,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -n,')
@@ -5796,7 +5796,7 @@ def decrypt_nvir():
 def decrypt_npp():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'n.':
+        if x[:2] != 'n.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -n.')
@@ -5810,7 +5810,7 @@ def decrypt_npp():
 def decrypt_ntp():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'n:':
+        if x[:2] != 'n:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -n:')
@@ -5824,7 +5824,7 @@ def decrypt_ntp():
 def decrypt_nless():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'n<':
+        if x[:2] != 'n<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -n<')
@@ -5838,7 +5838,7 @@ def decrypt_nless():
 def decrypt_nmore():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'n>':
+        if x[:2] != 'n>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -n>')
@@ -5852,7 +5852,7 @@ def decrypt_nmore():
 def decrypt_naro():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'n@':
+        if x[:2] != 'n@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -n@')
@@ -5866,7 +5866,7 @@ def decrypt_naro():
 def decrypt_ncroc():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'n[':
+        if x[:2] != 'n[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -n[')
@@ -5880,7 +5880,7 @@ def decrypt_ncroc():
 def decrypt_nbsl():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'n\\':
+        if x[:2] != 'n\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -n\\')
@@ -5894,7 +5894,7 @@ def decrypt_nbsl():
 def decrypt_ncirc():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'n^':
+        if x[:2] != 'n^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -n^')
@@ -5908,7 +5908,7 @@ def decrypt_ncirc():
 def decrypt_nesp():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'n`':
+        if x[:2] != 'n`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -n`')
@@ -5922,7 +5922,7 @@ def decrypt_nesp():
 def decrypt_ncr():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'n{':
+        if x[:2] != 'n{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -n{')
@@ -5936,7 +5936,7 @@ def decrypt_ncr():
 def decrypt_nhl():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'n|':
+        if x[:2] != 'n|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -n|')
@@ -5950,7 +5950,7 @@ def decrypt_nhl():
 def decrypt_ntild():
     i = 0
     for x in map(''.join, itertools.product('nabdfhjlprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'n~':
+        if x[:2] != 'n~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -n~')
@@ -5964,7 +5964,7 @@ def decrypt_ntild():
 def decrypt_pa():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'pa':
+        if x[:2] != 'pa':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -pa')
@@ -5978,7 +5978,7 @@ def decrypt_pa():
 def decrypt_pb():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'pb':
+        if x[:2] != 'pb':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -pb')
@@ -5992,7 +5992,7 @@ def decrypt_pb():
 def decrypt_pd():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'pd':
+        if x[:2] != 'pd':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -pd')
@@ -6006,7 +6006,7 @@ def decrypt_pd():
 def decrypt_pf():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'pf':
+        if x[:2] != 'pf':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -pf')
@@ -6020,7 +6020,7 @@ def decrypt_pf():
 def decrypt_ph():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'ph':
+        if x[:2] != 'ph':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -ph')
@@ -6034,7 +6034,7 @@ def decrypt_ph():
 def decrypt_pj():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'pj':
+        if x[:2] != 'pj':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -pj')
@@ -6048,7 +6048,7 @@ def decrypt_pj():
 def decrypt_pl():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'pl':
+        if x[:2] != 'pl':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -pl')
@@ -6062,7 +6062,7 @@ def decrypt_pl():
 def decrypt_pn():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'pn':
+        if x[:2] != 'pn':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -pn')
@@ -6076,7 +6076,7 @@ def decrypt_pn():
 def decrypt_pp():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'pp':
+        if x[:2] != 'pp':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -pp')
@@ -6090,7 +6090,7 @@ def decrypt_pp():
 def decrypt_pr():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'pr':
+        if x[:2] != 'pr':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -pr')
@@ -6104,7 +6104,7 @@ def decrypt_pr():
 def decrypt_pt():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'pt':
+        if x[:2] != 'pt':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -pt')
@@ -6118,7 +6118,7 @@ def decrypt_pt():
 def decrypt_pv():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'pv':
+        if x[:2] != 'pv':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -pv')
@@ -6132,7 +6132,7 @@ def decrypt_pv():
 def decrypt_px():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'px':
+        if x[:2] != 'px':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -px')
@@ -6146,7 +6146,7 @@ def decrypt_px():
 def decrypt_pz():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'pz':
+        if x[:2] != 'pz':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -pz')
@@ -6160,7 +6160,7 @@ def decrypt_pz():
 def decrypt_pA():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'pA':
+        if x[:2] != 'pA':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -pA')
@@ -6174,7 +6174,7 @@ def decrypt_pA():
 def decrypt_pB():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'pB':
+        if x[:2] != 'pB':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -pB')
@@ -6188,7 +6188,7 @@ def decrypt_pB():
 def decrypt_pD():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'pD':
+        if x[:2] != 'pD':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -pD')
@@ -6202,7 +6202,7 @@ def decrypt_pD():
 def decrypt_pF():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'pF':
+        if x[:2] != 'pF':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -pF')
@@ -6216,7 +6216,7 @@ def decrypt_pF():
 def decrypt_pH():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'pH':
+        if x[:2] != 'pH':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -pH')
@@ -6230,7 +6230,7 @@ def decrypt_pH():
 def decrypt_pJ():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'pJ':
+        if x[:2] != 'pJ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -pJ')
@@ -6244,7 +6244,7 @@ def decrypt_pJ():
 def decrypt_pL():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'pL':
+        if x[:2] != 'pL':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -pL')
@@ -6258,7 +6258,7 @@ def decrypt_pL():
 def decrypt_pN():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'pN':
+        if x[:2] != 'pN':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -pN')
@@ -6272,7 +6272,7 @@ def decrypt_pN():
 def decrypt_pP():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'pP':
+        if x[:2] != 'pP':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -pP')
@@ -6286,7 +6286,7 @@ def decrypt_pP():
 def decrypt_pR():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'pR':
+        if x[:2] != 'pR':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -pR')
@@ -6300,7 +6300,7 @@ def decrypt_pR():
 def decrypt_pT():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'pT':
+        if x[:2] != 'pT':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -pT')
@@ -6314,7 +6314,7 @@ def decrypt_pT():
 def decrypt_pV():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'pV':
+        if x[:2] != 'pV':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -pV')
@@ -6328,7 +6328,7 @@ def decrypt_pV():
 def decrypt_pX():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'pX':
+        if x[:2] != 'pX':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -pX')
@@ -6342,7 +6342,7 @@ def decrypt_pX():
 def decrypt_pZ():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'pZ':
+        if x[:2] != 'pZ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -pZ')
@@ -6356,7 +6356,7 @@ def decrypt_pZ():
 def decrypt_p0():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'p0':
+        if x[:2] != 'p0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -p0')
@@ -6370,7 +6370,7 @@ def decrypt_p0():
 def decrypt_p2():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'p2':
+        if x[:2] != 'p2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -p2')
@@ -6384,7 +6384,7 @@ def decrypt_p2():
 def decrypt_p4():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'p4':
+        if x[:2] != 'p4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -p4')
@@ -6398,7 +6398,7 @@ def decrypt_p4():
 def decrypt_p6():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'p6':
+        if x[:2] != 'p6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -p6')
@@ -6412,7 +6412,7 @@ def decrypt_p6():
 def decrypt_p8():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'p8':
+        if x[:2] != 'p8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -p8')
@@ -6426,7 +6426,7 @@ def decrypt_p8():
 def decrypt_pexcl():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'p!':
+        if x[:2] != 'p!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -p!')
@@ -6440,7 +6440,7 @@ def decrypt_pexcl():
 def decrypt_pdquote():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'p"':
+        if x[:2] != 'p"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -p"')
@@ -6454,7 +6454,7 @@ def decrypt_pdquote():
 def decrypt_pdoll():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'p$':
+        if x[:2] != 'p$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -p$')
@@ -6468,7 +6468,7 @@ def decrypt_pdoll():
 def decrypt_pand():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'p&':
+        if x[:2] != 'p&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -p&')
@@ -6482,7 +6482,7 @@ def decrypt_pand():
 def decrypt_pquote():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'p\'':
+        if x[:2] != 'p\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -p\'')
@@ -6496,7 +6496,7 @@ def decrypt_pquote():
 def decrypt_ppar():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'p(':
+        if x[:2] != 'p(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -p(')
@@ -6510,7 +6510,7 @@ def decrypt_ppar():
 def decrypt_past():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'p*':
+        if x[:2] != 'p*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -p*')
@@ -6524,7 +6524,7 @@ def decrypt_past():
 def decrypt_pvir():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'p,':
+        if x[:2] != 'p,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -p,')
@@ -6538,7 +6538,7 @@ def decrypt_pvir():
 def decrypt_ppp():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'p.':
+        if x[:2] != 'p.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -p.')
@@ -6552,7 +6552,7 @@ def decrypt_ppp():
 def decrypt_ptp():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'p:':
+        if x[:2] != 'p:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -p:')
@@ -6566,7 +6566,7 @@ def decrypt_ptp():
 def decrypt_pless():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'p<':
+        if x[:2] != 'p<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -p<')
@@ -6580,7 +6580,7 @@ def decrypt_pless():
 def decrypt_pmore():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'p>':
+        if x[:2] != 'p>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -p>')
@@ -6594,7 +6594,7 @@ def decrypt_pmore():
 def decrypt_paro():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'p@':
+        if x[:2] != 'p@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -p@')
@@ -6608,7 +6608,7 @@ def decrypt_paro():
 def decrypt_pcroc():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'p[':
+        if x[:2] != 'p[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -p[')
@@ -6622,7 +6622,7 @@ def decrypt_pcroc():
 def decrypt_pbsl():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'p\\':
+        if x[:2] != 'p\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -p\\')
@@ -6636,7 +6636,7 @@ def decrypt_pbsl():
 def decrypt_pcirc():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'p^':
+        if x[:2] != 'p^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -p^')
@@ -6650,7 +6650,7 @@ def decrypt_pcirc():
 def decrypt_pesp():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'p`':
+        if x[:2] != 'p`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -p`')
@@ -6664,7 +6664,7 @@ def decrypt_pesp():
 def decrypt_pcr():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'p{':
+        if x[:2] != 'p{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -p{')
@@ -6678,7 +6678,7 @@ def decrypt_pcr():
 def decrypt_phl():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'p|':
+        if x[:2] != 'p|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -p|')
@@ -6692,7 +6692,7 @@ def decrypt_phl():
 def decrypt_ptild():
     i = 0
     for x in map(''.join, itertools.product('pabdfhjlnrtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'p~':
+        if x[:2] != 'p~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -p~')
@@ -6706,7 +6706,7 @@ def decrypt_ptild():
 def decrypt_ra():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'ra':
+        if x[:2] != 'ra':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -ra')
@@ -6720,7 +6720,7 @@ def decrypt_ra():
 def decrypt_rb():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'rb':
+        if x[:2] != 'rb':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -rb')
@@ -6734,7 +6734,7 @@ def decrypt_rb():
 def decrypt_rd():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'rd':
+        if x[:2] != 'rd':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -rd')
@@ -6748,7 +6748,7 @@ def decrypt_rd():
 def decrypt_rf():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'rf':
+        if x[:2] != 'rf':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -rf')
@@ -6762,7 +6762,7 @@ def decrypt_rf():
 def decrypt_rh():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'rh':
+        if x[:2] != 'rh':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -rh')
@@ -6776,7 +6776,7 @@ def decrypt_rh():
 def decrypt_rj():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'rj':
+        if x[:2] != 'rj':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -rj')
@@ -6790,7 +6790,7 @@ def decrypt_rj():
 def decrypt_rl():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'rl':
+        if x[:2] != 'rl':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -rl')
@@ -6804,7 +6804,7 @@ def decrypt_rl():
 def decrypt_rn():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'rn':
+        if x[:2] != 'rn':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -rn')
@@ -6818,7 +6818,7 @@ def decrypt_rn():
 def decrypt_rp():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'rp':
+        if x[:2] != 'rp':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -rp')
@@ -6832,7 +6832,7 @@ def decrypt_rp():
 def decrypt_rr():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'rr':
+        if x[:2] != 'rr':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -rr')
@@ -6846,7 +6846,7 @@ def decrypt_rr():
 def decrypt_rt():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'rt':
+        if x[:2] != 'rt':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -rt')
@@ -6860,7 +6860,7 @@ def decrypt_rt():
 def decrypt_rv():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'rv':
+        if x[:2] != 'rv':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -rv')
@@ -6874,7 +6874,7 @@ def decrypt_rv():
 def decrypt_rx():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'rx':
+        if x[:2] != 'rx':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -rx')
@@ -6888,7 +6888,7 @@ def decrypt_rx():
 def decrypt_rz():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'rz':
+        if x[:2] != 'rz':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -rz')
@@ -6902,7 +6902,7 @@ def decrypt_rz():
 def decrypt_rA():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'rA':
+        if x[:2] != 'rA':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -rA')
@@ -6916,7 +6916,7 @@ def decrypt_rA():
 def decrypt_rB():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'rB':
+        if x[:2] != 'rB':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -rB')
@@ -6930,7 +6930,7 @@ def decrypt_rB():
 def decrypt_rD():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'rD':
+        if x[:2] != 'rD':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -rD')
@@ -6944,7 +6944,7 @@ def decrypt_rD():
 def decrypt_rF():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'rF':
+        if x[:2] != 'rF':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -rF')
@@ -6958,7 +6958,7 @@ def decrypt_rF():
 def decrypt_rH():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'rH':
+        if x[:2] != 'rH':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -rH')
@@ -6972,7 +6972,7 @@ def decrypt_rH():
 def decrypt_rJ():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'rJ':
+        if x[:2] != 'rJ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -rJ')
@@ -6986,7 +6986,7 @@ def decrypt_rJ():
 def decrypt_rL():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'rL':
+        if x[:2] != 'rL':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -rL')
@@ -7000,7 +7000,7 @@ def decrypt_rL():
 def decrypt_rN():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'rN':
+        if x[:2] != 'rN':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -rN')
@@ -7014,7 +7014,7 @@ def decrypt_rN():
 def decrypt_rP():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'rP':
+        if x[:2] != 'rP':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -rP')
@@ -7028,7 +7028,7 @@ def decrypt_rP():
 def decrypt_rR():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'rR':
+        if x[:2] != 'rR':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -rR')
@@ -7042,7 +7042,7 @@ def decrypt_rR():
 def decrypt_rT():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'rT':
+        if x[:2] != 'rT':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -rT')
@@ -7056,7 +7056,7 @@ def decrypt_rT():
 def decrypt_rV():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'rV':
+        if x[:2] != 'rV':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -rV')
@@ -7070,7 +7070,7 @@ def decrypt_rV():
 def decrypt_rX():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'rX':
+        if x[:2] != 'rX':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -rX')
@@ -7084,7 +7084,7 @@ def decrypt_rX():
 def decrypt_rZ():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'rZ':
+        if x[:2] != 'rZ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -rZ')
@@ -7098,7 +7098,7 @@ def decrypt_rZ():
 def decrypt_r0():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'r0':
+        if x[:2] != 'r0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -r0')
@@ -7112,7 +7112,7 @@ def decrypt_r0():
 def decrypt_r2():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'r2':
+        if x[:2] != 'r2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -r2')
@@ -7126,7 +7126,7 @@ def decrypt_r2():
 def decrypt_r4():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'r4':
+        if x[:2] != 'r4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -r4')
@@ -7140,7 +7140,7 @@ def decrypt_r4():
 def decrypt_r6():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'r6':
+        if x[:2] != 'r6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -r6')
@@ -7154,7 +7154,7 @@ def decrypt_r6():
 def decrypt_r8():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'r8':
+        if x[:2] != 'r8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -r8')
@@ -7168,7 +7168,7 @@ def decrypt_r8():
 def decrypt_rexcl():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'r!':
+        if x[:2] != 'r!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -r!')
@@ -7182,7 +7182,7 @@ def decrypt_rexcl():
 def decrypt_rdquote():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'r"':
+        if x[:2] != 'r"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -r"')
@@ -7196,7 +7196,7 @@ def decrypt_rdquote():
 def decrypt_rdoll():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'r$':
+        if x[:2] != 'r$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -r$')
@@ -7210,7 +7210,7 @@ def decrypt_rdoll():
 def decrypt_rand():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'r&':
+        if x[:2] != 'r&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -r&')
@@ -7224,7 +7224,7 @@ def decrypt_rand():
 def decrypt_rquote():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'r\'':
+        if x[:2] != 'r\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -r\'')
@@ -7238,7 +7238,7 @@ def decrypt_rquote():
 def decrypt_rpar():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'r(':
+        if x[:2] != 'r(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -r(')
@@ -7252,7 +7252,7 @@ def decrypt_rpar():
 def decrypt_rast():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'r*':
+        if x[:2] != 'r*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -r*')
@@ -7266,7 +7266,7 @@ def decrypt_rast():
 def decrypt_rvir():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'r,':
+        if x[:2] != 'r,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -r,')
@@ -7280,7 +7280,7 @@ def decrypt_rvir():
 def decrypt_rpp():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'r.':
+        if x[:2] != 'r.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -r.')
@@ -7294,7 +7294,7 @@ def decrypt_rpp():
 def decrypt_rtp():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'r:':
+        if x[:2] != 'r:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -r:')
@@ -7308,7 +7308,7 @@ def decrypt_rtp():
 def decrypt_rless():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'r<':
+        if x[:2] != 'r<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -r<')
@@ -7322,7 +7322,7 @@ def decrypt_rless():
 def decrypt_rmore():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'r>':
+        if x[:2] != 'r>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -r>')
@@ -7336,7 +7336,7 @@ def decrypt_rmore():
 def decrypt_raro():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'r@':
+        if x[:2] != 'r@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -r@')
@@ -7350,7 +7350,7 @@ def decrypt_raro():
 def decrypt_rcroc():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'r[':
+        if x[:2] != 'r[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -r[')
@@ -7364,7 +7364,7 @@ def decrypt_rcroc():
 def decrypt_rbsl():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'r\\':
+        if x[:2] != 'r\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -r\\')
@@ -7378,7 +7378,7 @@ def decrypt_rbsl():
 def decrypt_rcirc():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'r^':
+        if x[:2] != 'r^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -r^')
@@ -7392,7 +7392,7 @@ def decrypt_rcirc():
 def decrypt_resp():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'r`':
+        if x[:2] != 'r`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -r`')
@@ -7406,7 +7406,7 @@ def decrypt_resp():
 def decrypt_rcr():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'r{':
+        if x[:2] != 'r{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -r{')
@@ -7420,7 +7420,7 @@ def decrypt_rcr():
 def decrypt_rhl():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'r|':
+        if x[:2] != 'r|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -r|')
@@ -7434,7 +7434,7 @@ def decrypt_rhl():
 def decrypt_rtild():
     i = 0
     for x in map(''.join, itertools.product('rabdfhjlnptvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'r~':
+        if x[:2] != 'r~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -r~')
@@ -7448,7 +7448,7 @@ def decrypt_rtild():
 def decrypt_ta():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'ta':
+        if x[:2] != 'ta':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -ta')
@@ -7462,7 +7462,7 @@ def decrypt_ta():
 def decrypt_tb():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'tb':
+        if x[:2] != 'tb':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -tb')
@@ -7476,7 +7476,7 @@ def decrypt_tb():
 def decrypt_td():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'td':
+        if x[:2] != 'td':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -td')
@@ -7490,7 +7490,7 @@ def decrypt_td():
 def decrypt_tf():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'tf':
+        if x[:2] != 'tf':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -tf')
@@ -7504,7 +7504,7 @@ def decrypt_tf():
 def decrypt_th():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'th':
+        if x[:2] != 'th':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -th')
@@ -7518,7 +7518,7 @@ def decrypt_th():
 def decrypt_tj():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'tj':
+        if x[:2] != 'tj':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -tj')
@@ -7532,7 +7532,7 @@ def decrypt_tj():
 def decrypt_tl():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'tl':
+        if x[:2] != 'tl':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -tl')
@@ -7546,7 +7546,7 @@ def decrypt_tl():
 def decrypt_tn():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'tn':
+        if x[:2] != 'tn':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -tn')
@@ -7560,7 +7560,7 @@ def decrypt_tn():
 def decrypt_tp():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'tp':
+        if x[:2] != 'tp':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -tp')
@@ -7574,7 +7574,7 @@ def decrypt_tp():
 def decrypt_tr():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'tr':
+        if x[:2] != 'tr':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -tr')
@@ -7588,7 +7588,7 @@ def decrypt_tr():
 def decrypt_tt():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'tt':
+        if x[:2] != 'tt':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -tt')
@@ -7602,7 +7602,7 @@ def decrypt_tt():
 def decrypt_tv():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'tv':
+        if x[:2] != 'tv':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -tv')
@@ -7616,7 +7616,7 @@ def decrypt_tv():
 def decrypt_tx():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'tx':
+        if x[:2] != 'tx':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -tx')
@@ -7630,7 +7630,7 @@ def decrypt_tx():
 def decrypt_tz():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'tz':
+        if x[:2] != 'tz':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -tz')
@@ -7644,7 +7644,7 @@ def decrypt_tz():
 def decrypt_tA():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'tA':
+        if x[:2] != 'tA':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -tA')
@@ -7658,7 +7658,7 @@ def decrypt_tA():
 def decrypt_tB():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'tB':
+        if x[:2] != 'tB':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -tB')
@@ -7672,7 +7672,7 @@ def decrypt_tB():
 def decrypt_tD():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'tD':
+        if x[:2] != 'tD':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -tD')
@@ -7686,7 +7686,7 @@ def decrypt_tD():
 def decrypt_tF():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'tF':
+        if x[:2] != 'tF':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -tF')
@@ -7700,7 +7700,7 @@ def decrypt_tF():
 def decrypt_tH():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'tH':
+        if x[:2] != 'tH':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -tH')
@@ -7714,7 +7714,7 @@ def decrypt_tH():
 def decrypt_tJ():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'tJ':
+        if x[:2] != 'tJ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -tJ')
@@ -7728,7 +7728,7 @@ def decrypt_tJ():
 def decrypt_tL():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'tL':
+        if x[:2] != 'tL':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -tL')
@@ -7742,7 +7742,7 @@ def decrypt_tL():
 def decrypt_tN():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'tN':
+        if x[:2] != 'tN':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -tN')
@@ -7756,7 +7756,7 @@ def decrypt_tN():
 def decrypt_tP():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'tP':
+        if x[:2] != 'tP':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -tP')
@@ -7770,7 +7770,7 @@ def decrypt_tP():
 def decrypt_tR():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'tR':
+        if x[:2] != 'tR':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -tR')
@@ -7784,7 +7784,7 @@ def decrypt_tR():
 def decrypt_tT():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'tT':
+        if x[:2] != 'tT':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -tT')
@@ -7798,7 +7798,7 @@ def decrypt_tT():
 def decrypt_tV():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'tV':
+        if x[:2] != 'tV':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -tV')
@@ -7812,7 +7812,7 @@ def decrypt_tV():
 def decrypt_tX():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'tX':
+        if x[:2] != 'tX':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -tX')
@@ -7826,7 +7826,7 @@ def decrypt_tX():
 def decrypt_tZ():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'tZ':
+        if x[:2] != 'tZ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -tZ')
@@ -7840,7 +7840,7 @@ def decrypt_tZ():
 def decrypt_t0():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 't0':
+        if x[:2] != 't0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -t0')
@@ -7854,7 +7854,7 @@ def decrypt_t0():
 def decrypt_t2():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 't2':
+        if x[:2] != 't2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -t2')
@@ -7868,7 +7868,7 @@ def decrypt_t2():
 def decrypt_t4():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 't4':
+        if x[:2] != 't4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -t4')
@@ -7882,7 +7882,7 @@ def decrypt_t4():
 def decrypt_t6():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 't6':
+        if x[:2] != 't6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -t6')
@@ -7896,7 +7896,7 @@ def decrypt_t6():
 def decrypt_t8():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 't8':
+        if x[:2] != 't8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -t8')
@@ -7910,7 +7910,7 @@ def decrypt_t8():
 def decrypt_texcl():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 't!':
+        if x[:2] != 't!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -t!')
@@ -7924,7 +7924,7 @@ def decrypt_texcl():
 def decrypt_tdquote():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 't"':
+        if x[:2] != 't"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -t"')
@@ -7938,7 +7938,7 @@ def decrypt_tdquote():
 def decrypt_tdoll():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 't$':
+        if x[:2] != 't$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -t$')
@@ -7952,7 +7952,7 @@ def decrypt_tdoll():
 def decrypt_tand():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 't&':
+        if x[:2] != 't&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -t&')
@@ -7966,7 +7966,7 @@ def decrypt_tand():
 def decrypt_tquote():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 't\'':
+        if x[:2] != 't\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -t\'')
@@ -7980,7 +7980,7 @@ def decrypt_tquote():
 def decrypt_tpar():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 't(':
+        if x[:2] != 't(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -t(')
@@ -7994,7 +7994,7 @@ def decrypt_tpar():
 def decrypt_tast():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 't*':
+        if x[:2] != 't*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -t*')
@@ -8008,7 +8008,7 @@ def decrypt_tast():
 def decrypt_tvir():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 't,':
+        if x[:2] != 't,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -t,')
@@ -8022,7 +8022,7 @@ def decrypt_tvir():
 def decrypt_tpp():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 't.':
+        if x[:2] != 't.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -t.')
@@ -8036,7 +8036,7 @@ def decrypt_tpp():
 def decrypt_ttp():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 't:':
+        if x[:2] != 't:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -t:')
@@ -8050,7 +8050,7 @@ def decrypt_ttp():
 def decrypt_tless():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 't<':
+        if x[:2] != 't<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -t<')
@@ -8064,7 +8064,7 @@ def decrypt_tless():
 def decrypt_tmore():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 't>':
+        if x[:2] != 't>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -t>')
@@ -8078,7 +8078,7 @@ def decrypt_tmore():
 def decrypt_taro():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 't@':
+        if x[:2] != 't@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -t@')
@@ -8092,7 +8092,7 @@ def decrypt_taro():
 def decrypt_tcroc():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 't[':
+        if x[:2] != 't[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -t[')
@@ -8106,7 +8106,7 @@ def decrypt_tcroc():
 def decrypt_tbsl():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 't\\':
+        if x[:2] != 't\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -t\\')
@@ -8120,7 +8120,7 @@ def decrypt_tbsl():
 def decrypt_tcirc():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 't^':
+        if x[:2] != 't^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -t^')
@@ -8134,7 +8134,7 @@ def decrypt_tcirc():
 def decrypt_tesp():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 't`':
+        if x[:2] != 't`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -t`')
@@ -8148,7 +8148,7 @@ def decrypt_tesp():
 def decrypt_tcr():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 't{':
+        if x[:2] != 't{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -t{')
@@ -8162,7 +8162,7 @@ def decrypt_tcr():
 def decrypt_thl():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 't|':
+        if x[:2] != 't|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -t|')
@@ -8176,7 +8176,7 @@ def decrypt_thl():
 def decrypt_ttild():
     i = 0
     for x in map(''.join, itertools.product('tabdfhjlnprvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 't~':
+        if x[:2] != 't~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -t~')
@@ -8190,7 +8190,7 @@ def decrypt_ttild():
 def decrypt_va():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'va':
+        if x[:2] != 'va':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -va')
@@ -8204,7 +8204,7 @@ def decrypt_va():
 def decrypt_vb():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'vb':
+        if x[:2] != 'vb':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -vb')
@@ -8218,7 +8218,7 @@ def decrypt_vb():
 def decrypt_vd():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'vd':
+        if x[:2] != 'vd':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -vd')
@@ -8232,7 +8232,7 @@ def decrypt_vd():
 def decrypt_vf():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'vf':
+        if x[:2] != 'vf':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -vf')
@@ -8246,7 +8246,7 @@ def decrypt_vf():
 def decrypt_vh():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'vh':
+        if x[:2] != 'vh':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -vh')
@@ -8260,7 +8260,7 @@ def decrypt_vh():
 def decrypt_vj():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'vj':
+        if x[:2] != 'vj':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -vj')
@@ -8274,7 +8274,7 @@ def decrypt_vj():
 def decrypt_vl():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'vl':
+        if x[:2] != 'vl':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -vl')
@@ -8288,7 +8288,7 @@ def decrypt_vl():
 def decrypt_vn():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'vn':
+        if x[:2] != 'vn':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -vn')
@@ -8302,7 +8302,7 @@ def decrypt_vn():
 def decrypt_vp():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'vp':
+        if x[:2] != 'vp':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -vp')
@@ -8316,7 +8316,7 @@ def decrypt_vp():
 def decrypt_vr():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'vr':
+        if x[:2] != 'vr':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -vr')
@@ -8330,7 +8330,7 @@ def decrypt_vr():
 def decrypt_vt():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'vt':
+        if x[:2] != 'vt':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -vt')
@@ -8344,7 +8344,7 @@ def decrypt_vt():
 def decrypt_vv():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'vv':
+        if x[:2] != 'vv':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -vv')
@@ -8358,7 +8358,7 @@ def decrypt_vv():
 def decrypt_vx():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'vx':
+        if x[:2] != 'vx':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -vx')
@@ -8372,7 +8372,7 @@ def decrypt_vx():
 def decrypt_vz():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'vz':
+        if x[:2] != 'vz':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -vz')
@@ -8386,7 +8386,7 @@ def decrypt_vz():
 def decrypt_vA():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'vA':
+        if x[:2] != 'vA':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -vA')
@@ -8400,7 +8400,7 @@ def decrypt_vA():
 def decrypt_vB():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'vB':
+        if x[:2] != 'vB':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -vB')
@@ -8414,7 +8414,7 @@ def decrypt_vB():
 def decrypt_vD():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'vD':
+        if x[:2] != 'vD':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -vD')
@@ -8428,7 +8428,7 @@ def decrypt_vD():
 def decrypt_vF():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'vF':
+        if x[:2] != 'vF':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -vF')
@@ -8442,7 +8442,7 @@ def decrypt_vF():
 def decrypt_vH():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'vH':
+        if x[:2] != 'vH':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -vH')
@@ -8456,7 +8456,7 @@ def decrypt_vH():
 def decrypt_vJ():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'vJ':
+        if x[:2] != 'vJ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -vJ')
@@ -8470,7 +8470,7 @@ def decrypt_vJ():
 def decrypt_vL():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'vL':
+        if x[:2] != 'vL':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -vL')
@@ -8484,7 +8484,7 @@ def decrypt_vL():
 def decrypt_vN():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'vN':
+        if x[:2] != 'vN':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -vN')
@@ -8498,7 +8498,7 @@ def decrypt_vN():
 def decrypt_vP():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'vP':
+        if x[:2] != 'vP':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -vP')
@@ -8512,7 +8512,7 @@ def decrypt_vP():
 def decrypt_vR():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'vR':
+        if x[:2] != 'vR':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -vR')
@@ -8526,7 +8526,7 @@ def decrypt_vR():
 def decrypt_vT():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'vT':
+        if x[:2] != 'vT':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -vT')
@@ -8540,7 +8540,7 @@ def decrypt_vT():
 def decrypt_vV():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'vV':
+        if x[:2] != 'vV':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -vV')
@@ -8554,7 +8554,7 @@ def decrypt_vV():
 def decrypt_vX():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'vX':
+        if x[:2] != 'vX':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -vX')
@@ -8568,7 +8568,7 @@ def decrypt_vX():
 def decrypt_vZ():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'vZ':
+        if x[:2] != 'vZ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -vZ')
@@ -8582,7 +8582,7 @@ def decrypt_vZ():
 def decrypt_v0():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'v0':
+        if x[:2] != 'v0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -v0')
@@ -8596,7 +8596,7 @@ def decrypt_v0():
 def decrypt_v2():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'v2':
+        if x[:2] != 'v2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -v2')
@@ -8610,7 +8610,7 @@ def decrypt_v2():
 def decrypt_v4():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'v4':
+        if x[:2] != 'v4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -v4')
@@ -8624,7 +8624,7 @@ def decrypt_v4():
 def decrypt_v6():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'v6':
+        if x[:2] != 'v6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -v6')
@@ -8638,7 +8638,7 @@ def decrypt_v6():
 def decrypt_v8():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'v8':
+        if x[:2] != 'v8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -v8')
@@ -8652,7 +8652,7 @@ def decrypt_v8():
 def decrypt_vexcl():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'v!':
+        if x[:2] != 'v!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -v!')
@@ -8666,7 +8666,7 @@ def decrypt_vexcl():
 def decrypt_vdquote():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'v"':
+        if x[:2] != 'v"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -v"')
@@ -8680,7 +8680,7 @@ def decrypt_vdquote():
 def decrypt_vdoll():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'v$':
+        if x[:2] != 'v$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -v$')
@@ -8694,7 +8694,7 @@ def decrypt_vdoll():
 def decrypt_vand():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'v&':
+        if x[:2] != 'v&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -v&')
@@ -8708,7 +8708,7 @@ def decrypt_vand():
 def decrypt_vquote():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'v\'':
+        if x[:2] != 'v\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -v\'')
@@ -8722,7 +8722,7 @@ def decrypt_vquote():
 def decrypt_vpar():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'v(':
+        if x[:2] != 'v(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -v(')
@@ -8736,7 +8736,7 @@ def decrypt_vpar():
 def decrypt_vast():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'v*':
+        if x[:2] != 'v*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -v*')
@@ -8750,7 +8750,7 @@ def decrypt_vast():
 def decrypt_vvir():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'v,':
+        if x[:2] != 'v,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -v,')
@@ -8764,7 +8764,7 @@ def decrypt_vvir():
 def decrypt_vpp():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'v.':
+        if x[:2] != 'v.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -v.')
@@ -8778,7 +8778,7 @@ def decrypt_vpp():
 def decrypt_vtp():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'v:':
+        if x[:2] != 'v:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -v:')
@@ -8792,7 +8792,7 @@ def decrypt_vtp():
 def decrypt_vless():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'v<':
+        if x[:2] != 'v<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -v<')
@@ -8806,7 +8806,7 @@ def decrypt_vless():
 def decrypt_vmore():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'v>':
+        if x[:2] != 'v>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -v>')
@@ -8820,7 +8820,7 @@ def decrypt_vmore():
 def decrypt_varo():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'v@':
+        if x[:2] != 'v@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -v@')
@@ -8834,7 +8834,7 @@ def decrypt_varo():
 def decrypt_vcroc():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'v[':
+        if x[:2] != 'v[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -v[')
@@ -8848,7 +8848,7 @@ def decrypt_vcroc():
 def decrypt_vbsl():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'v\\':
+        if x[:2] != 'v\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -v\\')
@@ -8862,7 +8862,7 @@ def decrypt_vbsl():
 def decrypt_vcirc():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'v^':
+        if x[:2] != 'v^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -v^')
@@ -8876,7 +8876,7 @@ def decrypt_vcirc():
 def decrypt_vesp():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'v`':
+        if x[:2] != 'v`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -v`')
@@ -8890,7 +8890,7 @@ def decrypt_vesp():
 def decrypt_vcr():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'v{':
+        if x[:2] != 'v{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -v{')
@@ -8904,7 +8904,7 @@ def decrypt_vcr():
 def decrypt_vhl():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'v|':
+        if x[:2] != 'v|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -v|')
@@ -8918,7 +8918,7 @@ def decrypt_vhl():
 def decrypt_vtild():
     i = 0
     for x in map(''.join, itertools.product('vabdfhjlnprtxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'v~':
+        if x[:2] != 'v~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -v~')
@@ -8932,7 +8932,7 @@ def decrypt_vtild():
 def decrypt_xa():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'xa':
+        if x[:2] != 'xa':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -xa')
@@ -8946,7 +8946,7 @@ def decrypt_xa():
 def decrypt_xb():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'xb':
+        if x[:2] != 'xb':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -xb')
@@ -8960,7 +8960,7 @@ def decrypt_xb():
 def decrypt_xd():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'xd':
+        if x[:2] != 'xd':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -xd')
@@ -8974,7 +8974,7 @@ def decrypt_xd():
 def decrypt_xf():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'xf':
+        if x[:2] != 'xf':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -xf')
@@ -8988,7 +8988,7 @@ def decrypt_xf():
 def decrypt_xh():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'xh':
+        if x[:2] != 'xh':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -xh')
@@ -9002,7 +9002,7 @@ def decrypt_xh():
 def decrypt_xj():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'xj':
+        if x[:2] != 'xj':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -xj')
@@ -9016,7 +9016,7 @@ def decrypt_xj():
 def decrypt_xl():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'xl':
+        if x[:2] != 'xl':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -xl')
@@ -9030,7 +9030,7 @@ def decrypt_xl():
 def decrypt_xn():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'xn':
+        if x[:2] != 'xn':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -xn')
@@ -9044,7 +9044,7 @@ def decrypt_xn():
 def decrypt_xp():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'xp':
+        if x[:2] != 'xp':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -xp')
@@ -9058,7 +9058,7 @@ def decrypt_xp():
 def decrypt_xr():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'xr':
+        if x[:2] != 'xr':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -xr')
@@ -9072,7 +9072,7 @@ def decrypt_xr():
 def decrypt_xt():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'xt':
+        if x[:2] != 'xt':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -xt')
@@ -9086,7 +9086,7 @@ def decrypt_xt():
 def decrypt_xv():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'xv':
+        if x[:2] != 'xv':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -xv')
@@ -9100,7 +9100,7 @@ def decrypt_xv():
 def decrypt_xx():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'xx':
+        if x[:2] != 'xx':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -xx')
@@ -9114,7 +9114,7 @@ def decrypt_xx():
 def decrypt_xz():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'xz':
+        if x[:2] != 'xz':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -xz')
@@ -9128,7 +9128,7 @@ def decrypt_xz():
 def decrypt_xA():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'xA':
+        if x[:2] != 'xA':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -xA')
@@ -9142,7 +9142,7 @@ def decrypt_xA():
 def decrypt_xB():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'xB':
+        if x[:2] != 'xB':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -xB')
@@ -9156,7 +9156,7 @@ def decrypt_xB():
 def decrypt_xD():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'xD':
+        if x[:2] != 'xD':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -xD')
@@ -9170,7 +9170,7 @@ def decrypt_xD():
 def decrypt_xF():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'xF':
+        if x[:2] != 'xF':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -xF')
@@ -9184,7 +9184,7 @@ def decrypt_xF():
 def decrypt_xH():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'xH':
+        if x[:2] != 'xH':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -xH')
@@ -9198,7 +9198,7 @@ def decrypt_xH():
 def decrypt_xJ():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'xJ':
+        if x[:2] != 'xJ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -xJ')
@@ -9212,7 +9212,7 @@ def decrypt_xJ():
 def decrypt_xL():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'xL':
+        if x[:2] != 'xL':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -xL')
@@ -9226,7 +9226,7 @@ def decrypt_xL():
 def decrypt_xN():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'xN':
+        if x[:2] != 'xN':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -xN')
@@ -9240,7 +9240,7 @@ def decrypt_xN():
 def decrypt_xP():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'xP':
+        if x[:2] != 'xP':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -xP')
@@ -9254,7 +9254,7 @@ def decrypt_xP():
 def decrypt_xR():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'xR':
+        if x[:2] != 'xR':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -xR')
@@ -9268,7 +9268,7 @@ def decrypt_xR():
 def decrypt_xT():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'xT':
+        if x[:2] != 'xT':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -xT')
@@ -9282,7 +9282,7 @@ def decrypt_xT():
 def decrypt_xV():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'xV':
+        if x[:2] != 'xV':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -xV')
@@ -9296,7 +9296,7 @@ def decrypt_xV():
 def decrypt_xX():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'xX':
+        if x[:2] != 'xX':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -xX')
@@ -9310,7 +9310,7 @@ def decrypt_xX():
 def decrypt_xZ():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'xZ':
+        if x[:2] != 'xZ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -xZ')
@@ -9324,7 +9324,7 @@ def decrypt_xZ():
 def decrypt_x0():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'x0':
+        if x[:2] != 'x0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -x0')
@@ -9338,7 +9338,7 @@ def decrypt_x0():
 def decrypt_x2():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'x2':
+        if x[:2] != 'x2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -x2')
@@ -9352,7 +9352,7 @@ def decrypt_x2():
 def decrypt_x4():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'x4':
+        if x[:2] != 'x4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -x4')
@@ -9366,7 +9366,7 @@ def decrypt_x4():
 def decrypt_x6():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'x6':
+        if x[:2] != 'x6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -x6')
@@ -9380,7 +9380,7 @@ def decrypt_x6():
 def decrypt_x8():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'x8':
+        if x[:2] != 'x8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -x8')
@@ -9394,7 +9394,7 @@ def decrypt_x8():
 def decrypt_xexcl():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'x!':
+        if x[:2] != 'x!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -x!')
@@ -9408,7 +9408,7 @@ def decrypt_xexcl():
 def decrypt_xdquote():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'x"':
+        if x[:2] != 'x"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -x"')
@@ -9422,7 +9422,7 @@ def decrypt_xdquote():
 def decrypt_xdoll():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'x$':
+        if x[:2] != 'x$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -x$')
@@ -9436,7 +9436,7 @@ def decrypt_xdoll():
 def decrypt_xand():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'x&':
+        if x[:2] != 'x&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -x&')
@@ -9450,7 +9450,7 @@ def decrypt_xand():
 def decrypt_xquote():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'x\'':
+        if x[:2] != 'x\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -x\'')
@@ -9464,7 +9464,7 @@ def decrypt_xquote():
 def decrypt_xpar():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'x(':
+        if x[:2] != 'x(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -x(')
@@ -9478,7 +9478,7 @@ def decrypt_xpar():
 def decrypt_xast():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'x*':
+        if x[:2] != 'x*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -x*')
@@ -9492,7 +9492,7 @@ def decrypt_xast():
 def decrypt_xvir():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'x,':
+        if x[:2] != 'x,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -x,')
@@ -9506,7 +9506,7 @@ def decrypt_xvir():
 def decrypt_xpp():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'x.':
+        if x[:2] != 'x.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -x.')
@@ -9520,7 +9520,7 @@ def decrypt_xpp():
 def decrypt_xtp():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'x:':
+        if x[:2] != 'x:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -x:')
@@ -9534,7 +9534,7 @@ def decrypt_xtp():
 def decrypt_xless():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'x<':
+        if x[:2] != 'x<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -x<')
@@ -9548,7 +9548,7 @@ def decrypt_xless():
 def decrypt_xmore():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'x>':
+        if x[:2] != 'x>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -x>')
@@ -9562,7 +9562,7 @@ def decrypt_xmore():
 def decrypt_xaro():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'x@':
+        if x[:2] != 'x@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -x@')
@@ -9576,7 +9576,7 @@ def decrypt_xaro():
 def decrypt_xcroc():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'x[':
+        if x[:2] != 'x[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -x[')
@@ -9590,7 +9590,7 @@ def decrypt_xcroc():
 def decrypt_xbsl():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'x\\':
+        if x[:2] != 'x\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -x\\')
@@ -9604,7 +9604,7 @@ def decrypt_xbsl():
 def decrypt_xcirc():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'x^':
+        if x[:2] != 'x^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -x^')
@@ -9618,7 +9618,7 @@ def decrypt_xcirc():
 def decrypt_xesp():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'x`':
+        if x[:2] != 'x`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -x`')
@@ -9632,7 +9632,7 @@ def decrypt_xesp():
 def decrypt_xcr():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'x{':
+        if x[:2] != 'x{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -x{')
@@ -9646,7 +9646,7 @@ def decrypt_xcr():
 def decrypt_xhl():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'x|':
+        if x[:2] != 'x|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -x|')
@@ -9660,7 +9660,7 @@ def decrypt_xhl():
 def decrypt_xtild():
     i = 0
     for x in map(''.join, itertools.product('xabdfhjlnprtvzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'x~':
+        if x[:2] != 'x~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -x~')
@@ -9674,7 +9674,7 @@ def decrypt_xtild():
 def decrypt_za():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'za':
+        if x[:2] != 'za':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -za')
@@ -9688,7 +9688,7 @@ def decrypt_za():
 def decrypt_zb():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'zb':
+        if x[:2] != 'zb':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -zb')
@@ -9702,7 +9702,7 @@ def decrypt_zb():
 def decrypt_zd():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'zd':
+        if x[:2] != 'zd':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -zd')
@@ -9716,7 +9716,7 @@ def decrypt_zd():
 def decrypt_zf():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'zf':
+        if x[:2] != 'zf':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -zf')
@@ -9730,7 +9730,7 @@ def decrypt_zf():
 def decrypt_zh():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'zh':
+        if x[:2] != 'zh':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -zh')
@@ -9744,7 +9744,7 @@ def decrypt_zh():
 def decrypt_zj():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'zj':
+        if x[:2] != 'zj':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -zj')
@@ -9758,7 +9758,7 @@ def decrypt_zj():
 def decrypt_zl():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'zl':
+        if x[:2] != 'zl':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -zl')
@@ -9772,7 +9772,7 @@ def decrypt_zl():
 def decrypt_zn():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'zn':
+        if x[:2] != 'zn':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -zn')
@@ -9786,7 +9786,7 @@ def decrypt_zn():
 def decrypt_zp():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'zp':
+        if x[:2] != 'zp':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -zp')
@@ -9800,7 +9800,7 @@ def decrypt_zp():
 def decrypt_zr():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'zr':
+        if x[:2] != 'zr':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -zr')
@@ -9814,7 +9814,7 @@ def decrypt_zr():
 def decrypt_zt():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'zt':
+        if x[:2] != 'zt':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -zt')
@@ -9828,7 +9828,7 @@ def decrypt_zt():
 def decrypt_zv():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'zv':
+        if x[:2] != 'zv':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -zv')
@@ -9842,7 +9842,7 @@ def decrypt_zv():
 def decrypt_zx():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'zx':
+        if x[:2] != 'zx':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -zx')
@@ -9856,7 +9856,7 @@ def decrypt_zx():
 def decrypt_zz():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'zz':
+        if x[:2] != 'zz':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -zz')
@@ -9870,7 +9870,7 @@ def decrypt_zz():
 def decrypt_zA():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'zA':
+        if x[:2] != 'zA':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -zA')
@@ -9884,7 +9884,7 @@ def decrypt_zA():
 def decrypt_zB():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'zB':
+        if x[:2] != 'zB':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -zB')
@@ -9898,7 +9898,7 @@ def decrypt_zB():
 def decrypt_zD():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'zD':
+        if x[:2] != 'zD':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -zD')
@@ -9912,7 +9912,7 @@ def decrypt_zD():
 def decrypt_zF():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'zF':
+        if x[:2] != 'zF':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -zF')
@@ -9926,7 +9926,7 @@ def decrypt_zF():
 def decrypt_zH():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'zH':
+        if x[:2] != 'zH':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -zH')
@@ -9940,7 +9940,7 @@ def decrypt_zH():
 def decrypt_zJ():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'zJ':
+        if x[:2] != 'zJ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -zJ')
@@ -9954,7 +9954,7 @@ def decrypt_zJ():
 def decrypt_zL():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'zL':
+        if x[:2] != 'zL':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -zL')
@@ -9968,7 +9968,7 @@ def decrypt_zL():
 def decrypt_zN():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'zN':
+        if x[:2] != 'zN':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -zN')
@@ -9982,7 +9982,7 @@ def decrypt_zN():
 def decrypt_zP():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'zP':
+        if x[:2] != 'zP':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -zP')
@@ -9996,7 +9996,7 @@ def decrypt_zP():
 def decrypt_zR():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'zR':
+        if x[:2] != 'zR':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -zR')
@@ -10010,7 +10010,7 @@ def decrypt_zR():
 def decrypt_zT():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'zT':
+        if x[:2] != 'zT':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -zT')
@@ -10024,7 +10024,7 @@ def decrypt_zT():
 def decrypt_zV():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'zV':
+        if x[:2] != 'zV':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -zV')
@@ -10038,7 +10038,7 @@ def decrypt_zV():
 def decrypt_zX():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'zX':
+        if x[:2] != 'zX':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -zX')
@@ -10052,7 +10052,7 @@ def decrypt_zX():
 def decrypt_zZ():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'zZ':
+        if x[:2] != 'zZ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -zZ')
@@ -10066,7 +10066,7 @@ def decrypt_zZ():
 def decrypt_z0():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'z0':
+        if x[:2] != 'z0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -z0')
@@ -10080,7 +10080,7 @@ def decrypt_z0():
 def decrypt_z2():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'z2':
+        if x[:2] != 'z2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -z2')
@@ -10094,7 +10094,7 @@ def decrypt_z2():
 def decrypt_z4():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'z4':
+        if x[:2] != 'z4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -z4')
@@ -10108,7 +10108,7 @@ def decrypt_z4():
 def decrypt_z6():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'z6':
+        if x[:2] != 'z6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -z6')
@@ -10122,7 +10122,7 @@ def decrypt_z6():
 def decrypt_z8():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'z8':
+        if x[:2] != 'z8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -z8')
@@ -10136,7 +10136,7 @@ def decrypt_z8():
 def decrypt_zexcl():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'z!':
+        if x[:2] != 'z!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -z!')
@@ -10150,7 +10150,7 @@ def decrypt_zexcl():
 def decrypt_zdquote():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'z"':
+        if x[:2] != 'z"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -z"')
@@ -10164,7 +10164,7 @@ def decrypt_zdquote():
 def decrypt_zdoll():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'z$':
+        if x[:2] != 'z$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -z$')
@@ -10178,7 +10178,7 @@ def decrypt_zdoll():
 def decrypt_zand():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'z&':
+        if x[:2] != 'z&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -z&')
@@ -10192,7 +10192,7 @@ def decrypt_zand():
 def decrypt_zquote():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'z\'':
+        if x[:2] != 'z\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -z\'')
@@ -10206,7 +10206,7 @@ def decrypt_zquote():
 def decrypt_zpar():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'z(':
+        if x[:2] != 'z(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -z(')
@@ -10220,7 +10220,7 @@ def decrypt_zpar():
 def decrypt_zast():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'z*':
+        if x[:2] != 'z*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -z*')
@@ -10234,7 +10234,7 @@ def decrypt_zast():
 def decrypt_zvir():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'z,':
+        if x[:2] != 'z,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -z,')
@@ -10248,7 +10248,7 @@ def decrypt_zvir():
 def decrypt_zpp():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'z.':
+        if x[:2] != 'z.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -z.')
@@ -10262,7 +10262,7 @@ def decrypt_zpp():
 def decrypt_ztp():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'z:':
+        if x[:2] != 'z:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -z:')
@@ -10276,7 +10276,7 @@ def decrypt_ztp():
 def decrypt_zless():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'z<':
+        if x[:2] != 'z<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -z<')
@@ -10290,7 +10290,7 @@ def decrypt_zless():
 def decrypt_zmore():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'z>':
+        if x[:2] != 'z>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -z>')
@@ -10304,7 +10304,7 @@ def decrypt_zmore():
 def decrypt_zaro():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'z@':
+        if x[:2] != 'z@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -z@')
@@ -10318,7 +10318,7 @@ def decrypt_zaro():
 def decrypt_zcroc():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'z[':
+        if x[:2] != 'z[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -z[')
@@ -10332,7 +10332,7 @@ def decrypt_zcroc():
 def decrypt_zbsl():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'z\\':
+        if x[:2] != 'z\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -z\\')
@@ -10346,7 +10346,7 @@ def decrypt_zbsl():
 def decrypt_zcirc():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'z^':
+        if x[:2] != 'z^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -z^')
@@ -10360,7 +10360,7 @@ def decrypt_zcirc():
 def decrypt_zesp():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'z`':
+        if x[:2] != 'z`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -z`')
@@ -10374,7 +10374,7 @@ def decrypt_zesp():
 def decrypt_zcr():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'z{':
+        if x[:2] != 'z{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -z{')
@@ -10388,7 +10388,7 @@ def decrypt_zcr():
 def decrypt_zhl():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'z|':
+        if x[:2] != 'z|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -z|')
@@ -10402,7 +10402,7 @@ def decrypt_zhl():
 def decrypt_ztild():
     i = 0
     for x in map(''.join, itertools.product('zabdfhjlnprtvxABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'z~':
+        if x[:2] != 'z~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -z~')
@@ -10416,7 +10416,7 @@ def decrypt_ztild():
 def decrypt_Aa():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Aa':
+        if x[:2] != 'Aa':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Aa')
@@ -10430,7 +10430,7 @@ def decrypt_Aa():
 def decrypt_Ab():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Ab':
+        if x[:2] != 'Ab':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Ab')
@@ -10444,7 +10444,7 @@ def decrypt_Ab():
 def decrypt_Ad():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Ad':
+        if x[:2] != 'Ad':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Ad')
@@ -10458,7 +10458,7 @@ def decrypt_Ad():
 def decrypt_Af():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Af':
+        if x[:2] != 'Af':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Af')
@@ -10472,7 +10472,7 @@ def decrypt_Af():
 def decrypt_Ah():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Ah':
+        if x[:2] != 'Ah':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Ah')
@@ -10486,7 +10486,7 @@ def decrypt_Ah():
 def decrypt_Aj():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Aj':
+        if x[:2] != 'Aj':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Aj')
@@ -10500,7 +10500,7 @@ def decrypt_Aj():
 def decrypt_Al():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Al':
+        if x[:2] != 'Al':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Al')
@@ -10514,7 +10514,7 @@ def decrypt_Al():
 def decrypt_An():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'An':
+        if x[:2] != 'An':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -An')
@@ -10528,7 +10528,7 @@ def decrypt_An():
 def decrypt_Ap():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Ap':
+        if x[:2] != 'Ap':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Ap')
@@ -10542,7 +10542,7 @@ def decrypt_Ap():
 def decrypt_Ar():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Ar':
+        if x[:2] != 'Ar':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Ar')
@@ -10556,7 +10556,7 @@ def decrypt_Ar():
 def decrypt_At():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'At':
+        if x[:2] != 'At':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -At')
@@ -10570,7 +10570,7 @@ def decrypt_At():
 def decrypt_Av():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Av':
+        if x[:2] != 'Av':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Av')
@@ -10584,7 +10584,7 @@ def decrypt_Av():
 def decrypt_Ax():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Ax':
+        if x[:2] != 'Ax':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Ax')
@@ -10598,7 +10598,7 @@ def decrypt_Ax():
 def decrypt_Az():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Az':
+        if x[:2] != 'Az':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Az')
@@ -10612,7 +10612,7 @@ def decrypt_Az():
 def decrypt_AA():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'AA':
+        if x[:2] != 'AA':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -AA')
@@ -10626,7 +10626,7 @@ def decrypt_AA():
 def decrypt_AB():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'AB':
+        if x[:2] != 'AB':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -AB')
@@ -10640,7 +10640,7 @@ def decrypt_AB():
 def decrypt_AD():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'AD':
+        if x[:2] != 'AD':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -AD')
@@ -10654,7 +10654,7 @@ def decrypt_AD():
 def decrypt_AF():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'AF':
+        if x[:2] != 'AF':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -AF')
@@ -10668,7 +10668,7 @@ def decrypt_AF():
 def decrypt_AH():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'AH':
+        if x[:2] != 'AH':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -AH')
@@ -10682,7 +10682,7 @@ def decrypt_AH():
 def decrypt_AJ():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'AJ':
+        if x[:2] != 'AJ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -AJ')
@@ -10696,7 +10696,7 @@ def decrypt_AJ():
 def decrypt_AL():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'AL':
+        if x[:2] != 'AL':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -AL')
@@ -10710,7 +10710,7 @@ def decrypt_AL():
 def decrypt_AN():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'AN':
+        if x[:2] != 'AN':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -AN')
@@ -10724,7 +10724,7 @@ def decrypt_AN():
 def decrypt_AP():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'AP':
+        if x[:2] != 'AP':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -AP')
@@ -10738,7 +10738,7 @@ def decrypt_AP():
 def decrypt_AR():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'AR':
+        if x[:2] != 'AR':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -AR')
@@ -10752,7 +10752,7 @@ def decrypt_AR():
 def decrypt_AT():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'AT':
+        if x[:2] != 'AT':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -AT')
@@ -10766,7 +10766,7 @@ def decrypt_AT():
 def decrypt_AV():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'AV':
+        if x[:2] != 'AV':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -AV')
@@ -10780,7 +10780,7 @@ def decrypt_AV():
 def decrypt_AX():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'AX':
+        if x[:2] != 'AX':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -AX')
@@ -10794,7 +10794,7 @@ def decrypt_AX():
 def decrypt_AZ():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'AZ':
+        if x[:2] != 'AZ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -AZ')
@@ -10808,7 +10808,7 @@ def decrypt_AZ():
 def decrypt_A0():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'A0':
+        if x[:2] != 'A0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -A0')
@@ -10822,7 +10822,7 @@ def decrypt_A0():
 def decrypt_A2():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'A2':
+        if x[:2] != 'A2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -A2')
@@ -10836,7 +10836,7 @@ def decrypt_A2():
 def decrypt_A4():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'A4':
+        if x[:2] != 'A4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -A4')
@@ -10850,7 +10850,7 @@ def decrypt_A4():
 def decrypt_A6():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'A6':
+        if x[:2] != 'A6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -A6')
@@ -10864,7 +10864,7 @@ def decrypt_A6():
 def decrypt_A8():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'A8':
+        if x[:2] != 'A8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -A8')
@@ -10878,7 +10878,7 @@ def decrypt_A8():
 def decrypt_Aexcl():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'A!':
+        if x[:2] != 'A!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -A!')
@@ -10892,7 +10892,7 @@ def decrypt_Aexcl():
 def decrypt_Adquote():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'A"':
+        if x[:2] != 'A"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -A"')
@@ -10906,7 +10906,7 @@ def decrypt_Adquote():
 def decrypt_Adoll():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'A$':
+        if x[:2] != 'A$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -A$')
@@ -10920,7 +10920,7 @@ def decrypt_Adoll():
 def decrypt_Aand():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'A&':
+        if x[:2] != 'A&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -A&')
@@ -10934,7 +10934,7 @@ def decrypt_Aand():
 def decrypt_Aquote():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'A\'':
+        if x[:2] != 'A\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -A\'')
@@ -10948,7 +10948,7 @@ def decrypt_Aquote():
 def decrypt_Apar():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'A(':
+        if x[:2] != 'A(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -A(')
@@ -10962,7 +10962,7 @@ def decrypt_Apar():
 def decrypt_Aast():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'A*':
+        if x[:2] != 'A*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -A*')
@@ -10976,7 +10976,7 @@ def decrypt_Aast():
 def decrypt_Avir():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'A,':
+        if x[:2] != 'A,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -A,')
@@ -10990,7 +10990,7 @@ def decrypt_Avir():
 def decrypt_App():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'A.':
+        if x[:2] != 'A.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -A.')
@@ -11004,7 +11004,7 @@ def decrypt_App():
 def decrypt_Atp():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'A:':
+        if x[:2] != 'A:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -A:')
@@ -11018,7 +11018,7 @@ def decrypt_Atp():
 def decrypt_Aless():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'A<':
+        if x[:2] != 'A<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -A<')
@@ -11032,7 +11032,7 @@ def decrypt_Aless():
 def decrypt_Amore():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'A>':
+        if x[:2] != 'A>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -A>')
@@ -11046,7 +11046,7 @@ def decrypt_Amore():
 def decrypt_Aaro():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'A@':
+        if x[:2] != 'A@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -A@')
@@ -11060,7 +11060,7 @@ def decrypt_Aaro():
 def decrypt_Acroc():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'A[':
+        if x[:2] != 'A[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -A[')
@@ -11074,7 +11074,7 @@ def decrypt_Acroc():
 def decrypt_Absl():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'A\\':
+        if x[:2] != 'A\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -A\\')
@@ -11088,7 +11088,7 @@ def decrypt_Absl():
 def decrypt_Acirc():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'A^':
+        if x[:2] != 'A^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -A^')
@@ -11102,7 +11102,7 @@ def decrypt_Acirc():
 def decrypt_Aesp():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'A`':
+        if x[:2] != 'A`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -A`')
@@ -11116,7 +11116,7 @@ def decrypt_Aesp():
 def decrypt_Acr():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'A{':
+        if x[:2] != 'A{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -A{')
@@ -11130,7 +11130,7 @@ def decrypt_Acr():
 def decrypt_Ahl():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'A|':
+        if x[:2] != 'A|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -A|')
@@ -11144,7 +11144,7 @@ def decrypt_Ahl():
 def decrypt_Atild():
     i = 0
     for x in map(''.join, itertools.product('AabdfhjlnprtvxzBDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'A~':
+        if x[:2] != 'A~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -A~')
@@ -11158,7 +11158,7 @@ def decrypt_Atild():
 def decrypt_Ba():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Ba':
+        if x[:2] != 'Ba':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Ba')
@@ -11172,7 +11172,7 @@ def decrypt_Ba():
 def decrypt_Bb():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Bb':
+        if x[:2] != 'Bb':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Bb')
@@ -11186,7 +11186,7 @@ def decrypt_Bb():
 def decrypt_Bd():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Bd':
+        if x[:2] != 'Bd':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Bd')
@@ -11200,7 +11200,7 @@ def decrypt_Bd():
 def decrypt_Bf():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Bf':
+        if x[:2] != 'Bf':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Bf')
@@ -11214,7 +11214,7 @@ def decrypt_Bf():
 def decrypt_Bh():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Bh':
+        if x[:2] != 'Bh':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Bh')
@@ -11228,7 +11228,7 @@ def decrypt_Bh():
 def decrypt_Bj():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Bj':
+        if x[:2] != 'Bj':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Bj')
@@ -11242,7 +11242,7 @@ def decrypt_Bj():
 def decrypt_Bl():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Bl':
+        if x[:2] != 'Bl':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Bl')
@@ -11256,7 +11256,7 @@ def decrypt_Bl():
 def decrypt_Bn():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Bn':
+        if x[:2] != 'Bn':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Bn')
@@ -11270,7 +11270,7 @@ def decrypt_Bn():
 def decrypt_Bp():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Bp':
+        if x[:2] != 'Bp':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Bp')
@@ -11284,7 +11284,7 @@ def decrypt_Bp():
 def decrypt_Br():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Br':
+        if x[:2] != 'Br':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Br')
@@ -11298,7 +11298,7 @@ def decrypt_Br():
 def decrypt_Bt():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Bt':
+        if x[:2] != 'Bt':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Bt')
@@ -11312,7 +11312,7 @@ def decrypt_Bt():
 def decrypt_Bv():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Bv':
+        if x[:2] != 'Bv':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Bv')
@@ -11326,7 +11326,7 @@ def decrypt_Bv():
 def decrypt_Bx():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Bx':
+        if x[:2] != 'Bx':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Bx')
@@ -11340,7 +11340,7 @@ def decrypt_Bx():
 def decrypt_Bz():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Bz':
+        if x[:2] != 'Bz':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Bz')
@@ -11354,7 +11354,7 @@ def decrypt_Bz():
 def decrypt_BA():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'BA':
+        if x[:2] != 'BA':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -BA')
@@ -11368,7 +11368,7 @@ def decrypt_BA():
 def decrypt_BB():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'BB':
+        if x[:2] != 'BB':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -BB')
@@ -11382,7 +11382,7 @@ def decrypt_BB():
 def decrypt_BD():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'BD':
+        if x[:2] != 'BD':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -BD')
@@ -11396,7 +11396,7 @@ def decrypt_BD():
 def decrypt_BF():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'BF':
+        if x[:2] != 'BF':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -BF')
@@ -11410,7 +11410,7 @@ def decrypt_BF():
 def decrypt_BH():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'BH':
+        if x[:2] != 'BH':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -BH')
@@ -11424,7 +11424,7 @@ def decrypt_BH():
 def decrypt_BJ():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'BJ':
+        if x[:2] != 'BJ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -BJ')
@@ -11438,7 +11438,7 @@ def decrypt_BJ():
 def decrypt_BL():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'BL':
+        if x[:2] != 'BL':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -BL')
@@ -11452,7 +11452,7 @@ def decrypt_BL():
 def decrypt_BN():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'BN':
+        if x[:2] != 'BN':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -BN')
@@ -11466,7 +11466,7 @@ def decrypt_BN():
 def decrypt_BP():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'BP':
+        if x[:2] != 'BP':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -BP')
@@ -11480,7 +11480,7 @@ def decrypt_BP():
 def decrypt_BR():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'BR':
+        if x[:2] != 'BR':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -BR')
@@ -11494,7 +11494,7 @@ def decrypt_BR():
 def decrypt_BT():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'BT':
+        if x[:2] != 'BT':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -BT')
@@ -11508,7 +11508,7 @@ def decrypt_BT():
 def decrypt_BV():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'BV':
+        if x[:2] != 'BV':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -BV')
@@ -11522,7 +11522,7 @@ def decrypt_BV():
 def decrypt_BX():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'BX':
+        if x[:2] != 'BX':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -BX')
@@ -11536,7 +11536,7 @@ def decrypt_BX():
 def decrypt_BZ():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'BZ':
+        if x[:2] != 'BZ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -BZ')
@@ -11550,7 +11550,7 @@ def decrypt_BZ():
 def decrypt_B0():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'B0':
+        if x[:2] != 'B0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -B0')
@@ -11564,7 +11564,7 @@ def decrypt_B0():
 def decrypt_B2():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'B2':
+        if x[:2] != 'B2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -B2')
@@ -11578,7 +11578,7 @@ def decrypt_B2():
 def decrypt_B4():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'B4':
+        if x[:2] != 'B4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -B4')
@@ -11592,7 +11592,7 @@ def decrypt_B4():
 def decrypt_B6():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'B6':
+        if x[:2] != 'B6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -B6')
@@ -11606,7 +11606,7 @@ def decrypt_B6():
 def decrypt_B8():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'B8':
+        if x[:2] != 'B8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -B8')
@@ -11620,7 +11620,7 @@ def decrypt_B8():
 def decrypt_Bexcl():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'B!':
+        if x[:2] != 'B!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -B!')
@@ -11634,7 +11634,7 @@ def decrypt_Bexcl():
 def decrypt_Bdquote():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'B"':
+        if x[:2] != 'B"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -B"')
@@ -11648,7 +11648,7 @@ def decrypt_Bdquote():
 def decrypt_Bdoll():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'B$':
+        if x[:2] != 'B$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -B$')
@@ -11662,7 +11662,7 @@ def decrypt_Bdoll():
 def decrypt_Band():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'B&':
+        if x[:2] != 'B&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -B&')
@@ -11676,7 +11676,7 @@ def decrypt_Band():
 def decrypt_Bquote():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'B\'':
+        if x[:2] != 'B\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -B\'')
@@ -11690,7 +11690,7 @@ def decrypt_Bquote():
 def decrypt_Bpar():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'B(':
+        if x[:2] != 'B(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -B(')
@@ -11704,7 +11704,7 @@ def decrypt_Bpar():
 def decrypt_Bast():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'B*':
+        if x[:2] != 'B*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -B*')
@@ -11718,7 +11718,7 @@ def decrypt_Bast():
 def decrypt_Bvir():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'B,':
+        if x[:2] != 'B,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -B,')
@@ -11732,7 +11732,7 @@ def decrypt_Bvir():
 def decrypt_Bpp():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'B.':
+        if x[:2] != 'B.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -B.')
@@ -11746,7 +11746,7 @@ def decrypt_Bpp():
 def decrypt_Btp():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'B:':
+        if x[:2] != 'B:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -B:')
@@ -11760,7 +11760,7 @@ def decrypt_Btp():
 def decrypt_Bless():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'B<':
+        if x[:2] != 'B<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -B<')
@@ -11774,7 +11774,7 @@ def decrypt_Bless():
 def decrypt_Bmore():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'B>':
+        if x[:2] != 'B>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -B>')
@@ -11788,7 +11788,7 @@ def decrypt_Bmore():
 def decrypt_Baro():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'B@':
+        if x[:2] != 'B@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -B@')
@@ -11802,7 +11802,7 @@ def decrypt_Baro():
 def decrypt_Bcroc():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'B[':
+        if x[:2] != 'B[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -B[')
@@ -11816,7 +11816,7 @@ def decrypt_Bcroc():
 def decrypt_Bbsl():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'B\\':
+        if x[:2] != 'B\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -B\\')
@@ -11830,7 +11830,7 @@ def decrypt_Bbsl():
 def decrypt_Bcirc():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'B^':
+        if x[:2] != 'B^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -B^')
@@ -11844,7 +11844,7 @@ def decrypt_Bcirc():
 def decrypt_Besp():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'B`':
+        if x[:2] != 'B`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -B`')
@@ -11858,7 +11858,7 @@ def decrypt_Besp():
 def decrypt_Bcr():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'B{':
+        if x[:2] != 'B{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -B{')
@@ -11872,7 +11872,7 @@ def decrypt_Bcr():
 def decrypt_Bhl():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'B|':
+        if x[:2] != 'B|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -B|')
@@ -11886,7 +11886,7 @@ def decrypt_Bhl():
 def decrypt_Btild():
     i = 0
     for x in map(''.join, itertools.product('BabdfhjlnprtvxzADFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'B~':
+        if x[:2] != 'B~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -B~')
@@ -11900,7 +11900,7 @@ def decrypt_Btild():
 def decrypt_Da():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Da':
+        if x[:2] != 'Da':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Da')
@@ -11914,7 +11914,7 @@ def decrypt_Da():
 def decrypt_Db():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Db':
+        if x[:2] != 'Db':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Db')
@@ -11928,7 +11928,7 @@ def decrypt_Db():
 def decrypt_Dd():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Dd':
+        if x[:2] != 'Dd':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Dd')
@@ -11942,7 +11942,7 @@ def decrypt_Dd():
 def decrypt_Df():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Df':
+        if x[:2] != 'Df':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Df')
@@ -11956,7 +11956,7 @@ def decrypt_Df():
 def decrypt_Dh():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Dh':
+        if x[:2] != 'Dh':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Dh')
@@ -11970,7 +11970,7 @@ def decrypt_Dh():
 def decrypt_Dj():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Dj':
+        if x[:2] != 'Dj':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Dj')
@@ -11984,7 +11984,7 @@ def decrypt_Dj():
 def decrypt_Dl():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Dl':
+        if x[:2] != 'Dl':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Dl')
@@ -11998,7 +11998,7 @@ def decrypt_Dl():
 def decrypt_Dn():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Dn':
+        if x[:2] != 'Dn':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Dn')
@@ -12012,7 +12012,7 @@ def decrypt_Dn():
 def decrypt_Dp():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Dp':
+        if x[:2] != 'Dp':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Dp')
@@ -12026,7 +12026,7 @@ def decrypt_Dp():
 def decrypt_Dr():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Dr':
+        if x[:2] != 'Dr':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Dr')
@@ -12040,7 +12040,7 @@ def decrypt_Dr():
 def decrypt_Dt():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Dt':
+        if x[:2] != 'Dt':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Dt')
@@ -12054,7 +12054,7 @@ def decrypt_Dt():
 def decrypt_Dv():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Dv':
+        if x[:2] != 'Dv':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Dv')
@@ -12068,7 +12068,7 @@ def decrypt_Dv():
 def decrypt_Dx():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Dx':
+        if x[:2] != 'Dx':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Dx')
@@ -12082,7 +12082,7 @@ def decrypt_Dx():
 def decrypt_Dz():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Dz':
+        if x[:2] != 'Dz':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Dz')
@@ -12096,7 +12096,7 @@ def decrypt_Dz():
 def decrypt_DA():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'DA':
+        if x[:2] != 'DA':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -DA')
@@ -12110,7 +12110,7 @@ def decrypt_DA():
 def decrypt_DB():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'DB':
+        if x[:2] != 'DB':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -DB')
@@ -12124,7 +12124,7 @@ def decrypt_DB():
 def decrypt_DD():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'DD':
+        if x[:2] != 'DD':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -DD')
@@ -12138,7 +12138,7 @@ def decrypt_DD():
 def decrypt_DF():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'DF':
+        if x[:2] != 'DF':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -DF')
@@ -12152,7 +12152,7 @@ def decrypt_DF():
 def decrypt_DH():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'DH':
+        if x[:2] != 'DH':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -DH')
@@ -12166,7 +12166,7 @@ def decrypt_DH():
 def decrypt_DJ():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'DJ':
+        if x[:2] != 'DJ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -DJ')
@@ -12180,7 +12180,7 @@ def decrypt_DJ():
 def decrypt_DL():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'DL':
+        if x[:2] != 'DL':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -DL')
@@ -12194,7 +12194,7 @@ def decrypt_DL():
 def decrypt_DN():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'DN':
+        if x[:2] != 'DN':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -DN')
@@ -12208,7 +12208,7 @@ def decrypt_DN():
 def decrypt_DP():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'DP':
+        if x[:2] != 'DP':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -DP')
@@ -12222,7 +12222,7 @@ def decrypt_DP():
 def decrypt_DR():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'DR':
+        if x[:2] != 'DR':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -DR')
@@ -12236,7 +12236,7 @@ def decrypt_DR():
 def decrypt_DT():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'DT':
+        if x[:2] != 'DT':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -DT')
@@ -12250,7 +12250,7 @@ def decrypt_DT():
 def decrypt_DV():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'DV':
+        if x[:2] != 'DV':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -DV')
@@ -12264,7 +12264,7 @@ def decrypt_DV():
 def decrypt_DX():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'DX':
+        if x[:2] != 'DX':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -DX')
@@ -12278,7 +12278,7 @@ def decrypt_DX():
 def decrypt_DZ():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'DZ':
+        if x[:2] != 'DZ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -DZ')
@@ -12292,7 +12292,7 @@ def decrypt_DZ():
 def decrypt_D0():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'D0':
+        if x[:2] != 'D0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -D0')
@@ -12306,7 +12306,7 @@ def decrypt_D0():
 def decrypt_D2():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'D2':
+        if x[:2] != 'D2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -D2')
@@ -12320,7 +12320,7 @@ def decrypt_D2():
 def decrypt_D4():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'D4':
+        if x[:2] != 'D4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -D4')
@@ -12334,7 +12334,7 @@ def decrypt_D4():
 def decrypt_D6():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'D6':
+        if x[:2] != 'D6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -D6')
@@ -12348,7 +12348,7 @@ def decrypt_D6():
 def decrypt_D8():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'D8':
+        if x[:2] != 'D8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -D8')
@@ -12362,7 +12362,7 @@ def decrypt_D8():
 def decrypt_Dexcl():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'D!':
+        if x[:2] != 'D!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -D!')
@@ -12376,7 +12376,7 @@ def decrypt_Dexcl():
 def decrypt_Ddquote():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'D"':
+        if x[:2] != 'D"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -D"')
@@ -12390,7 +12390,7 @@ def decrypt_Ddquote():
 def decrypt_Ddoll():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'D$':
+        if x[:2] != 'D$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -D$')
@@ -12404,7 +12404,7 @@ def decrypt_Ddoll():
 def decrypt_Dand():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'D&':
+        if x[:2] != 'D&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -D&')
@@ -12418,7 +12418,7 @@ def decrypt_Dand():
 def decrypt_Dquote():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'D\'':
+        if x[:2] != 'D\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -D\'')
@@ -12432,7 +12432,7 @@ def decrypt_Dquote():
 def decrypt_Dpar():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'D(':
+        if x[:2] != 'D(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -D(')
@@ -12446,7 +12446,7 @@ def decrypt_Dpar():
 def decrypt_Dast():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'D*':
+        if x[:2] != 'D*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -D*')
@@ -12460,7 +12460,7 @@ def decrypt_Dast():
 def decrypt_Dvir():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'D,':
+        if x[:2] != 'D,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -D,')
@@ -12474,7 +12474,7 @@ def decrypt_Dvir():
 def decrypt_Dpp():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'D.':
+        if x[:2] != 'D.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -D.')
@@ -12488,7 +12488,7 @@ def decrypt_Dpp():
 def decrypt_Dtp():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'D:':
+        if x[:2] != 'D:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -D:')
@@ -12502,7 +12502,7 @@ def decrypt_Dtp():
 def decrypt_Dless():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'D<':
+        if x[:2] != 'D<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -D<')
@@ -12516,7 +12516,7 @@ def decrypt_Dless():
 def decrypt_Dmore():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'D>':
+        if x[:2] != 'D>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -D>')
@@ -12530,7 +12530,7 @@ def decrypt_Dmore():
 def decrypt_Daro():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'D@':
+        if x[:2] != 'D@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -D@')
@@ -12544,7 +12544,7 @@ def decrypt_Daro():
 def decrypt_Dcroc():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'D[':
+        if x[:2] != 'D[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -D[')
@@ -12558,7 +12558,7 @@ def decrypt_Dcroc():
 def decrypt_Dbsl():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'D\\':
+        if x[:2] != 'D\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -D\\')
@@ -12572,7 +12572,7 @@ def decrypt_Dbsl():
 def decrypt_Dcirc():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'D^':
+        if x[:2] != 'D^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -D^')
@@ -12586,7 +12586,7 @@ def decrypt_Dcirc():
 def decrypt_Desp():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'D`':
+        if x[:2] != 'D`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -D`')
@@ -12600,7 +12600,7 @@ def decrypt_Desp():
 def decrypt_Dcr():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'D{':
+        if x[:2] != 'D{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -D{')
@@ -12614,7 +12614,7 @@ def decrypt_Dcr():
 def decrypt_Dhl():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'D|':
+        if x[:2] != 'D|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -D|')
@@ -12628,7 +12628,7 @@ def decrypt_Dhl():
 def decrypt_Dtild():
     i = 0
     for x in map(''.join, itertools.product('DabdfhjlnprtvxzABFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'D~':
+        if x[:2] != 'D~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -D~')
@@ -12642,7 +12642,7 @@ def decrypt_Dtild():
 def decrypt_Fa():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Fa':
+        if x[:2] != 'Fa':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Fa')
@@ -12656,7 +12656,7 @@ def decrypt_Fa():
 def decrypt_Fb():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Fb':
+        if x[:2] != 'Fb':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Fb')
@@ -12670,7 +12670,7 @@ def decrypt_Fb():
 def decrypt_Fd():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Fd':
+        if x[:2] != 'Fd':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Fd')
@@ -12684,7 +12684,7 @@ def decrypt_Fd():
 def decrypt_Ff():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Ff':
+        if x[:2] != 'Ff':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Ff')
@@ -12698,7 +12698,7 @@ def decrypt_Ff():
 def decrypt_Fh():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Fh':
+        if x[:2] != 'Fh':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Fh')
@@ -12712,7 +12712,7 @@ def decrypt_Fh():
 def decrypt_Fj():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Fj':
+        if x[:2] != 'Fj':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Fj')
@@ -12726,7 +12726,7 @@ def decrypt_Fj():
 def decrypt_Fl():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Fl':
+        if x[:2] != 'Fl':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Fl')
@@ -12740,7 +12740,7 @@ def decrypt_Fl():
 def decrypt_Fn():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Fn':
+        if x[:2] != 'Fn':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Fn')
@@ -12754,7 +12754,7 @@ def decrypt_Fn():
 def decrypt_Fp():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Fp':
+        if x[:2] != 'Fp':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Fp')
@@ -12768,7 +12768,7 @@ def decrypt_Fp():
 def decrypt_Fr():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Fr':
+        if x[:2] != 'Fr':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Fr')
@@ -12782,7 +12782,7 @@ def decrypt_Fr():
 def decrypt_Ft():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Ft':
+        if x[:2] != 'Ft':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Ft')
@@ -12796,7 +12796,7 @@ def decrypt_Ft():
 def decrypt_Fv():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Fv':
+        if x[:2] != 'Fv':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Fv')
@@ -12810,7 +12810,7 @@ def decrypt_Fv():
 def decrypt_Fx():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Fx':
+        if x[:2] != 'Fx':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Fx')
@@ -12824,7 +12824,7 @@ def decrypt_Fx():
 def decrypt_Fz():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Fz':
+        if x[:2] != 'Fz':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Fz')
@@ -12838,7 +12838,7 @@ def decrypt_Fz():
 def decrypt_FA():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'FA':
+        if x[:2] != 'FA':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -FA')
@@ -12852,7 +12852,7 @@ def decrypt_FA():
 def decrypt_FB():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'FB':
+        if x[:2] != 'FB':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -FB')
@@ -12866,7 +12866,7 @@ def decrypt_FB():
 def decrypt_FD():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'FD':
+        if x[:2] != 'FD':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -FD')
@@ -12880,7 +12880,7 @@ def decrypt_FD():
 def decrypt_FF():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'FF':
+        if x[:2] != 'FF':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -FF')
@@ -12894,7 +12894,7 @@ def decrypt_FF():
 def decrypt_FH():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'FH':
+        if x[:2] != 'FH':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -FH')
@@ -12908,7 +12908,7 @@ def decrypt_FH():
 def decrypt_FJ():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'FJ':
+        if x[:2] != 'FJ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -FJ')
@@ -12922,7 +12922,7 @@ def decrypt_FJ():
 def decrypt_FL():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'FL':
+        if x[:2] != 'FL':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -FL')
@@ -12936,7 +12936,7 @@ def decrypt_FL():
 def decrypt_FN():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'FN':
+        if x[:2] != 'FN':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -FN')
@@ -12950,7 +12950,7 @@ def decrypt_FN():
 def decrypt_FP():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'FP':
+        if x[:2] != 'FP':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -FP')
@@ -12964,7 +12964,7 @@ def decrypt_FP():
 def decrypt_FR():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'FR':
+        if x[:2] != 'FR':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -FR')
@@ -12978,7 +12978,7 @@ def decrypt_FR():
 def decrypt_FT():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'FT':
+        if x[:2] != 'FT':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -FT')
@@ -12992,7 +12992,7 @@ def decrypt_FT():
 def decrypt_FV():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'FV':
+        if x[:2] != 'FV':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -FV')
@@ -13006,7 +13006,7 @@ def decrypt_FV():
 def decrypt_FX():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'FX':
+        if x[:2] != 'FX':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -FX')
@@ -13020,7 +13020,7 @@ def decrypt_FX():
 def decrypt_FZ():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'FZ':
+        if x[:2] != 'FZ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -FZ')
@@ -13034,7 +13034,7 @@ def decrypt_FZ():
 def decrypt_F0():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'F0':
+        if x[:2] != 'F0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -F0')
@@ -13048,7 +13048,7 @@ def decrypt_F0():
 def decrypt_F2():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'F2':
+        if x[:2] != 'F2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -F2')
@@ -13062,7 +13062,7 @@ def decrypt_F2():
 def decrypt_F4():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'F4':
+        if x[:2] != 'F4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -F4')
@@ -13076,7 +13076,7 @@ def decrypt_F4():
 def decrypt_F6():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'F6':
+        if x[:2] != 'F6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -F6')
@@ -13090,7 +13090,7 @@ def decrypt_F6():
 def decrypt_F8():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'F8':
+        if x[:2] != 'F8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -F8')
@@ -13104,7 +13104,7 @@ def decrypt_F8():
 def decrypt_Fexcl():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'F!':
+        if x[:2] != 'F!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -F!')
@@ -13118,7 +13118,7 @@ def decrypt_Fexcl():
 def decrypt_Fdquote():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'F"':
+        if x[:2] != 'F"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -F"')
@@ -13132,7 +13132,7 @@ def decrypt_Fdquote():
 def decrypt_Fdoll():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'F$':
+        if x[:2] != 'F$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -F$')
@@ -13146,7 +13146,7 @@ def decrypt_Fdoll():
 def decrypt_Fand():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'F&':
+        if x[:2] != 'F&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -F&')
@@ -13160,7 +13160,7 @@ def decrypt_Fand():
 def decrypt_Fquote():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'F\'':
+        if x[:2] != 'F\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -F\'')
@@ -13174,7 +13174,7 @@ def decrypt_Fquote():
 def decrypt_Fpar():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'F(':
+        if x[:2] != 'F(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -F(')
@@ -13188,7 +13188,7 @@ def decrypt_Fpar():
 def decrypt_Fast():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'F*':
+        if x[:2] != 'F*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -F*')
@@ -13202,7 +13202,7 @@ def decrypt_Fast():
 def decrypt_Fvir():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'F,':
+        if x[:2] != 'F,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -F,')
@@ -13216,7 +13216,7 @@ def decrypt_Fvir():
 def decrypt_Fpp():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'F.':
+        if x[:2] != 'F.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -F.')
@@ -13230,7 +13230,7 @@ def decrypt_Fpp():
 def decrypt_Ftp():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'F:':
+        if x[:2] != 'F:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -F:')
@@ -13244,7 +13244,7 @@ def decrypt_Ftp():
 def decrypt_Fless():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'F<':
+        if x[:2] != 'F<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -F<')
@@ -13258,7 +13258,7 @@ def decrypt_Fless():
 def decrypt_Fmore():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'F>':
+        if x[:2] != 'F>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -F>')
@@ -13272,7 +13272,7 @@ def decrypt_Fmore():
 def decrypt_Faro():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'F@':
+        if x[:2] != 'F@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -F@')
@@ -13286,7 +13286,7 @@ def decrypt_Faro():
 def decrypt_Fcroc():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'F[':
+        if x[:2] != 'F[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -F[')
@@ -13300,7 +13300,7 @@ def decrypt_Fcroc():
 def decrypt_Fbsl():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'F\\':
+        if x[:2] != 'F\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -F\\')
@@ -13314,7 +13314,7 @@ def decrypt_Fbsl():
 def decrypt_Fcirc():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'F^':
+        if x[:2] != 'F^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -F^')
@@ -13328,7 +13328,7 @@ def decrypt_Fcirc():
 def decrypt_Fesp():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'F`':
+        if x[:2] != 'F`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -F`')
@@ -13342,7 +13342,7 @@ def decrypt_Fesp():
 def decrypt_Fcr():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'F{':
+        if x[:2] != 'F{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -F{')
@@ -13356,7 +13356,7 @@ def decrypt_Fcr():
 def decrypt_Fhl():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'F|':
+        if x[:2] != 'F|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -F|')
@@ -13370,7 +13370,7 @@ def decrypt_Fhl():
 def decrypt_Ftild():
     i = 0
     for x in map(''.join, itertools.product('FabdfhjlnprtvxzABDHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'F~':
+        if x[:2] != 'F~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -F~')
@@ -13384,7 +13384,7 @@ def decrypt_Ftild():
 def decrypt_Ha():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Ha':
+        if x[:2] != 'Ha':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Ha')
@@ -13398,7 +13398,7 @@ def decrypt_Ha():
 def decrypt_Hb():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Hb':
+        if x[:2] != 'Hb':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Hb')
@@ -13412,7 +13412,7 @@ def decrypt_Hb():
 def decrypt_Hd():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Hd':
+        if x[:2] != 'Hd':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Hd')
@@ -13426,7 +13426,7 @@ def decrypt_Hd():
 def decrypt_Hf():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Hf':
+        if x[:2] != 'Hf':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Hf')
@@ -13440,7 +13440,7 @@ def decrypt_Hf():
 def decrypt_Hh():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Hh':
+        if x[:2] != 'Hh':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Hh')
@@ -13454,7 +13454,7 @@ def decrypt_Hh():
 def decrypt_Hj():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Hj':
+        if x[:2] != 'Hj':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Hj')
@@ -13468,7 +13468,7 @@ def decrypt_Hj():
 def decrypt_Hl():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Hl':
+        if x[:2] != 'Hl':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Hl')
@@ -13482,7 +13482,7 @@ def decrypt_Hl():
 def decrypt_Hn():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Hn':
+        if x[:2] != 'Hn':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Hn')
@@ -13496,7 +13496,7 @@ def decrypt_Hn():
 def decrypt_Hp():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Hp':
+        if x[:2] != 'Hp':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Hp')
@@ -13510,7 +13510,7 @@ def decrypt_Hp():
 def decrypt_Hr():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Hr':
+        if x[:2] != 'Hr':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Hr')
@@ -13524,7 +13524,7 @@ def decrypt_Hr():
 def decrypt_Ht():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Ht':
+        if x[:2] != 'Ht':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Ht')
@@ -13538,7 +13538,7 @@ def decrypt_Ht():
 def decrypt_Hv():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Hv':
+        if x[:2] != 'Hv':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Hv')
@@ -13552,7 +13552,7 @@ def decrypt_Hv():
 def decrypt_Hx():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Hx':
+        if x[:2] != 'Hx':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Hx')
@@ -13566,7 +13566,7 @@ def decrypt_Hx():
 def decrypt_Hz():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Hz':
+        if x[:2] != 'Hz':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Hz')
@@ -13580,7 +13580,7 @@ def decrypt_Hz():
 def decrypt_HA():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'HA':
+        if x[:2] != 'HA':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -HA')
@@ -13594,7 +13594,7 @@ def decrypt_HA():
 def decrypt_HB():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'HB':
+        if x[:2] != 'HB':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -HB')
@@ -13608,7 +13608,7 @@ def decrypt_HB():
 def decrypt_HD():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'HD':
+        if x[:2] != 'HD':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -HD')
@@ -13622,7 +13622,7 @@ def decrypt_HD():
 def decrypt_HF():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'HF':
+        if x[:2] != 'HF':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -HF')
@@ -13636,7 +13636,7 @@ def decrypt_HF():
 def decrypt_HH():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'HH':
+        if x[:2] != 'HH':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -HH')
@@ -13650,7 +13650,7 @@ def decrypt_HH():
 def decrypt_HJ():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'HJ':
+        if x[:2] != 'HJ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -HJ')
@@ -13664,7 +13664,7 @@ def decrypt_HJ():
 def decrypt_HL():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'HL':
+        if x[:2] != 'HL':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -HL')
@@ -13678,7 +13678,7 @@ def decrypt_HL():
 def decrypt_HN():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'HN':
+        if x[:2] != 'HN':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -HN')
@@ -13692,7 +13692,7 @@ def decrypt_HN():
 def decrypt_HP():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'HP':
+        if x[:2] != 'HP':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -HP')
@@ -13706,7 +13706,7 @@ def decrypt_HP():
 def decrypt_HR():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'HR':
+        if x[:2] != 'HR':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -HR')
@@ -13720,7 +13720,7 @@ def decrypt_HR():
 def decrypt_HT():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'HT':
+        if x[:2] != 'HT':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -HT')
@@ -13734,7 +13734,7 @@ def decrypt_HT():
 def decrypt_HV():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'HV':
+        if x[:2] != 'HV':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -HV')
@@ -13748,7 +13748,7 @@ def decrypt_HV():
 def decrypt_HX():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'HX':
+        if x[:2] != 'HX':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -HX')
@@ -13762,7 +13762,7 @@ def decrypt_HX():
 def decrypt_HZ():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'HZ':
+        if x[:2] != 'HZ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -HZ')
@@ -13776,7 +13776,7 @@ def decrypt_HZ():
 def decrypt_H0():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'H0':
+        if x[:2] != 'H0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -H0')
@@ -13790,7 +13790,7 @@ def decrypt_H0():
 def decrypt_H2():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'H2':
+        if x[:2] != 'H2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -H2')
@@ -13804,7 +13804,7 @@ def decrypt_H2():
 def decrypt_H4():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'H4':
+        if x[:2] != 'H4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -H4')
@@ -13818,7 +13818,7 @@ def decrypt_H4():
 def decrypt_H6():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'H6':
+        if x[:2] != 'H6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -H6')
@@ -13832,7 +13832,7 @@ def decrypt_H6():
 def decrypt_H8():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'H8':
+        if x[:2] != 'H8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -H8')
@@ -13846,7 +13846,7 @@ def decrypt_H8():
 def decrypt_Hexcl():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'H!':
+        if x[:2] != 'H!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -H!')
@@ -13860,7 +13860,7 @@ def decrypt_Hexcl():
 def decrypt_Hdquote():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'H"':
+        if x[:2] != 'H"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -H"')
@@ -13874,7 +13874,7 @@ def decrypt_Hdquote():
 def decrypt_Hdoll():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'H$':
+        if x[:2] != 'H$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -H$')
@@ -13888,7 +13888,7 @@ def decrypt_Hdoll():
 def decrypt_Hand():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'H&':
+        if x[:2] != 'H&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -H&')
@@ -13902,7 +13902,7 @@ def decrypt_Hand():
 def decrypt_Hquote():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'H\'':
+        if x[:2] != 'H\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -H\'')
@@ -13916,7 +13916,7 @@ def decrypt_Hquote():
 def decrypt_Hpar():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'H(':
+        if x[:2] != 'H(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -H(')
@@ -13930,7 +13930,7 @@ def decrypt_Hpar():
 def decrypt_Hast():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'H*':
+        if x[:2] != 'H*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -H*')
@@ -13944,7 +13944,7 @@ def decrypt_Hast():
 def decrypt_Hvir():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'H,':
+        if x[:2] != 'H,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -H,')
@@ -13958,7 +13958,7 @@ def decrypt_Hvir():
 def decrypt_Hpp():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'H.':
+        if x[:2] != 'H.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -H.')
@@ -13972,7 +13972,7 @@ def decrypt_Hpp():
 def decrypt_Htp():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'H:':
+        if x[:2] != 'H:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -H:')
@@ -13986,7 +13986,7 @@ def decrypt_Htp():
 def decrypt_Hless():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'H<':
+        if x[:2] != 'H<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -H<')
@@ -14000,7 +14000,7 @@ def decrypt_Hless():
 def decrypt_Hmore():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'H>':
+        if x[:2] != 'H>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -H>')
@@ -14014,7 +14014,7 @@ def decrypt_Hmore():
 def decrypt_Haro():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'H@':
+        if x[:2] != 'H@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -H@')
@@ -14028,7 +14028,7 @@ def decrypt_Haro():
 def decrypt_Hcroc():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'H[':
+        if x[:2] != 'H[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -H[')
@@ -14042,7 +14042,7 @@ def decrypt_Hcroc():
 def decrypt_Hbsl():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'H\\':
+        if x[:2] != 'H\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -H\\')
@@ -14056,7 +14056,7 @@ def decrypt_Hbsl():
 def decrypt_Hcirc():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'H^':
+        if x[:2] != 'H^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -H^')
@@ -14070,7 +14070,7 @@ def decrypt_Hcirc():
 def decrypt_Hesp():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'H`':
+        if x[:2] != 'H`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -H`')
@@ -14084,7 +14084,7 @@ def decrypt_Hesp():
 def decrypt_Hcr():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'H{':
+        if x[:2] != 'H{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -H{')
@@ -14098,7 +14098,7 @@ def decrypt_Hcr():
 def decrypt_Hhl():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'H|':
+        if x[:2] != 'H|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -H|')
@@ -14112,7 +14112,7 @@ def decrypt_Hhl():
 def decrypt_Htild():
     i = 0
     for x in map(''.join, itertools.product('HabdfhjlnprtvxzABDFJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'H~':
+        if x[:2] != 'H~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -H~')
@@ -14126,7 +14126,7 @@ def decrypt_Htild():
 def decrypt_Ja():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Ja':
+        if x[:2] != 'Ja':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Ja')
@@ -14140,7 +14140,7 @@ def decrypt_Ja():
 def decrypt_Jb():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Jb':
+        if x[:2] != 'Jb':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Jb')
@@ -14154,7 +14154,7 @@ def decrypt_Jb():
 def decrypt_Jd():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Jd':
+        if x[:2] != 'Jd':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Jd')
@@ -14168,7 +14168,7 @@ def decrypt_Jd():
 def decrypt_Jf():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Jf':
+        if x[:2] != 'Jf':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Jf')
@@ -14182,7 +14182,7 @@ def decrypt_Jf():
 def decrypt_Jh():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Jh':
+        if x[:2] != 'Jh':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Jh')
@@ -14196,7 +14196,7 @@ def decrypt_Jh():
 def decrypt_Jj():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Jj':
+        if x[:2] != 'Jj':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Jj')
@@ -14210,7 +14210,7 @@ def decrypt_Jj():
 def decrypt_Jl():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Jl':
+        if x[:2] != 'Jl':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Jl')
@@ -14224,7 +14224,7 @@ def decrypt_Jl():
 def decrypt_Jn():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Jn':
+        if x[:2] != 'Jn':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Jn')
@@ -14238,7 +14238,7 @@ def decrypt_Jn():
 def decrypt_Jp():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Jp':
+        if x[:2] != 'Jp':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Jp')
@@ -14252,7 +14252,7 @@ def decrypt_Jp():
 def decrypt_Jr():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Jr':
+        if x[:2] != 'Jr':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Jr')
@@ -14266,7 +14266,7 @@ def decrypt_Jr():
 def decrypt_Jt():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Jt':
+        if x[:2] != 'Jt':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Jt')
@@ -14280,7 +14280,7 @@ def decrypt_Jt():
 def decrypt_Jv():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Jv':
+        if x[:2] != 'Jv':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Jv')
@@ -14294,7 +14294,7 @@ def decrypt_Jv():
 def decrypt_Jx():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Jx':
+        if x[:2] != 'Jx':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Jx')
@@ -14308,7 +14308,7 @@ def decrypt_Jx():
 def decrypt_Jz():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Jz':
+        if x[:2] != 'Jz':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Jz')
@@ -14322,7 +14322,7 @@ def decrypt_Jz():
 def decrypt_JA():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'JA':
+        if x[:2] != 'JA':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -JA')
@@ -14336,7 +14336,7 @@ def decrypt_JA():
 def decrypt_JB():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'JB':
+        if x[:2] != 'JB':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -JB')
@@ -14350,7 +14350,7 @@ def decrypt_JB():
 def decrypt_JD():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'JD':
+        if x[:2] != 'JD':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -JD')
@@ -14364,7 +14364,7 @@ def decrypt_JD():
 def decrypt_JF():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'JF':
+        if x[:2] != 'JF':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -JF')
@@ -14378,7 +14378,7 @@ def decrypt_JF():
 def decrypt_JH():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'JH':
+        if x[:2] != 'JH':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -JH')
@@ -14392,7 +14392,7 @@ def decrypt_JH():
 def decrypt_JJ():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'JJ':
+        if x[:2] != 'JJ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -JJ')
@@ -14406,7 +14406,7 @@ def decrypt_JJ():
 def decrypt_JL():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'JL':
+        if x[:2] != 'JL':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -JL')
@@ -14420,7 +14420,7 @@ def decrypt_JL():
 def decrypt_JN():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'JN':
+        if x[:2] != 'JN':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -JN')
@@ -14434,7 +14434,7 @@ def decrypt_JN():
 def decrypt_JP():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'JP':
+        if x[:2] != 'JP':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -JP')
@@ -14448,7 +14448,7 @@ def decrypt_JP():
 def decrypt_JR():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'JR':
+        if x[:2] != 'JR':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -JR')
@@ -14462,7 +14462,7 @@ def decrypt_JR():
 def decrypt_JT():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'JT':
+        if x[:2] != 'JT':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -JT')
@@ -14476,7 +14476,7 @@ def decrypt_JT():
 def decrypt_JV():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'JV':
+        if x[:2] != 'JV':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -JV')
@@ -14490,7 +14490,7 @@ def decrypt_JV():
 def decrypt_JX():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'JX':
+        if x[:2] != 'JX':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -JX')
@@ -14504,7 +14504,7 @@ def decrypt_JX():
 def decrypt_JZ():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'JZ':
+        if x[:2] != 'JZ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -JZ')
@@ -14518,7 +14518,7 @@ def decrypt_JZ():
 def decrypt_J0():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'J0':
+        if x[:2] != 'J0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -J0')
@@ -14532,7 +14532,7 @@ def decrypt_J0():
 def decrypt_J2():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'J2':
+        if x[:2] != 'J2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -J2')
@@ -14546,7 +14546,7 @@ def decrypt_J2():
 def decrypt_J4():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'J4':
+        if x[:2] != 'J4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -J4')
@@ -14560,7 +14560,7 @@ def decrypt_J4():
 def decrypt_J6():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'J6':
+        if x[:2] != 'J6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -J6')
@@ -14574,7 +14574,7 @@ def decrypt_J6():
 def decrypt_J8():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'J8':
+        if x[:2] != 'J8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -J8')
@@ -14588,7 +14588,7 @@ def decrypt_J8():
 def decrypt_Jexcl():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'J!':
+        if x[:2] != 'J!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -J!')
@@ -14602,7 +14602,7 @@ def decrypt_Jexcl():
 def decrypt_Jdquote():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'J"':
+        if x[:2] != 'J"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -J"')
@@ -14616,7 +14616,7 @@ def decrypt_Jdquote():
 def decrypt_Jdoll():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'J$':
+        if x[:2] != 'J$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -J$')
@@ -14630,7 +14630,7 @@ def decrypt_Jdoll():
 def decrypt_Jand():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'J&':
+        if x[:2] != 'J&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -J&')
@@ -14644,7 +14644,7 @@ def decrypt_Jand():
 def decrypt_Jquote():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'J\'':
+        if x[:2] != 'J\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -J\'')
@@ -14658,7 +14658,7 @@ def decrypt_Jquote():
 def decrypt_Jpar():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'J(':
+        if x[:2] != 'J(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -J(')
@@ -14672,7 +14672,7 @@ def decrypt_Jpar():
 def decrypt_Jast():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'J*':
+        if x[:2] != 'J*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -J*')
@@ -14686,7 +14686,7 @@ def decrypt_Jast():
 def decrypt_Jvir():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'J,':
+        if x[:2] != 'J,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -J,')
@@ -14700,7 +14700,7 @@ def decrypt_Jvir():
 def decrypt_Jpp():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'J.':
+        if x[:2] != 'J.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -J.')
@@ -14714,7 +14714,7 @@ def decrypt_Jpp():
 def decrypt_Jtp():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'J:':
+        if x[:2] != 'J:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -J:')
@@ -14728,7 +14728,7 @@ def decrypt_Jtp():
 def decrypt_Jless():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'J<':
+        if x[:2] != 'J<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -J<')
@@ -14742,7 +14742,7 @@ def decrypt_Jless():
 def decrypt_Jmore():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'J>':
+        if x[:2] != 'J>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -J>')
@@ -14756,7 +14756,7 @@ def decrypt_Jmore():
 def decrypt_Jaro():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'J@':
+        if x[:2] != 'J@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -J@')
@@ -14770,7 +14770,7 @@ def decrypt_Jaro():
 def decrypt_Jcroc():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'J[':
+        if x[:2] != 'J[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -J[')
@@ -14784,7 +14784,7 @@ def decrypt_Jcroc():
 def decrypt_Jbsl():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'J\\':
+        if x[:2] != 'J\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -J\\')
@@ -14798,7 +14798,7 @@ def decrypt_Jbsl():
 def decrypt_Jcirc():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'J^':
+        if x[:2] != 'J^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -J^')
@@ -14812,7 +14812,7 @@ def decrypt_Jcirc():
 def decrypt_Jesp():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'J`':
+        if x[:2] != 'J`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -J`')
@@ -14826,7 +14826,7 @@ def decrypt_Jesp():
 def decrypt_Jcr():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'J{':
+        if x[:2] != 'J{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -J{')
@@ -14840,7 +14840,7 @@ def decrypt_Jcr():
 def decrypt_Jhl():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'J|':
+        if x[:2] != 'J|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -J|')
@@ -14854,7 +14854,7 @@ def decrypt_Jhl():
 def decrypt_Jtild():
     i = 0
     for x in map(''.join, itertools.product('JabdfhjlnprtvxzABDFHLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'J~':
+        if x[:2] != 'J~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -J~')
@@ -14868,7 +14868,7 @@ def decrypt_Jtild():
 def decrypt_La():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'La':
+        if x[:2] != 'La':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -La')
@@ -14882,7 +14882,7 @@ def decrypt_La():
 def decrypt_Lb():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Lb':
+        if x[:2] != 'Lb':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Lb')
@@ -14896,7 +14896,7 @@ def decrypt_Lb():
 def decrypt_Ld():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Ld':
+        if x[:2] != 'Ld':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Ld')
@@ -14910,7 +14910,7 @@ def decrypt_Ld():
 def decrypt_Lf():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Lf':
+        if x[:2] != 'Lf':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Lf')
@@ -14924,7 +14924,7 @@ def decrypt_Lf():
 def decrypt_Lh():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Lh':
+        if x[:2] != 'Lh':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Lh')
@@ -14938,7 +14938,7 @@ def decrypt_Lh():
 def decrypt_Lj():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Lj':
+        if x[:2] != 'Lj':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Lj')
@@ -14952,7 +14952,7 @@ def decrypt_Lj():
 def decrypt_Ll():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Ll':
+        if x[:2] != 'Ll':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Ll')
@@ -14966,7 +14966,7 @@ def decrypt_Ll():
 def decrypt_Ln():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Ln':
+        if x[:2] != 'Ln':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Ln')
@@ -14980,7 +14980,7 @@ def decrypt_Ln():
 def decrypt_Lp():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Lp':
+        if x[:2] != 'Lp':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Lp')
@@ -14994,7 +14994,7 @@ def decrypt_Lp():
 def decrypt_Lr():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Lr':
+        if x[:2] != 'Lr':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Lr')
@@ -15008,7 +15008,7 @@ def decrypt_Lr():
 def decrypt_Lt():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Lt':
+        if x[:2] != 'Lt':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Lt')
@@ -15022,7 +15022,7 @@ def decrypt_Lt():
 def decrypt_Lv():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Lv':
+        if x[:2] != 'Lv':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Lv')
@@ -15036,7 +15036,7 @@ def decrypt_Lv():
 def decrypt_Lx():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Lx':
+        if x[:2] != 'Lx':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Lx')
@@ -15050,7 +15050,7 @@ def decrypt_Lx():
 def decrypt_Lz():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Lz':
+        if x[:2] != 'Lz':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Lz')
@@ -15064,7 +15064,7 @@ def decrypt_Lz():
 def decrypt_LA():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'LA':
+        if x[:2] != 'LA':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -LA')
@@ -15078,7 +15078,7 @@ def decrypt_LA():
 def decrypt_LB():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'LB':
+        if x[:2] != 'LB':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -LB')
@@ -15092,7 +15092,7 @@ def decrypt_LB():
 def decrypt_LD():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'LD':
+        if x[:2] != 'LD':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -LD')
@@ -15106,7 +15106,7 @@ def decrypt_LD():
 def decrypt_LF():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'LF':
+        if x[:2] != 'LF':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -LF')
@@ -15120,7 +15120,7 @@ def decrypt_LF():
 def decrypt_LH():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'LH':
+        if x[:2] != 'LH':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -LH')
@@ -15134,7 +15134,7 @@ def decrypt_LH():
 def decrypt_LJ():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'LJ':
+        if x[:2] != 'LJ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -LJ')
@@ -15148,7 +15148,7 @@ def decrypt_LJ():
 def decrypt_LL():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'LL':
+        if x[:2] != 'LL':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -LL')
@@ -15162,7 +15162,7 @@ def decrypt_LL():
 def decrypt_LN():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'LN':
+        if x[:2] != 'LN':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -LN')
@@ -15176,7 +15176,7 @@ def decrypt_LN():
 def decrypt_LP():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'LP':
+        if x[:2] != 'LP':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -LP')
@@ -15190,7 +15190,7 @@ def decrypt_LP():
 def decrypt_LR():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'LR':
+        if x[:2] != 'LR':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -LR')
@@ -15204,7 +15204,7 @@ def decrypt_LR():
 def decrypt_LT():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'LT':
+        if x[:2] != 'LT':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -LT')
@@ -15218,7 +15218,7 @@ def decrypt_LT():
 def decrypt_LV():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'LV':
+        if x[:2] != 'LV':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -LV')
@@ -15232,7 +15232,7 @@ def decrypt_LV():
 def decrypt_LX():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'LX':
+        if x[:2] != 'LX':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -LX')
@@ -15246,7 +15246,7 @@ def decrypt_LX():
 def decrypt_LZ():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'LZ':
+        if x[:2] != 'LZ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -LZ')
@@ -15260,7 +15260,7 @@ def decrypt_LZ():
 def decrypt_L0():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'L0':
+        if x[:2] != 'L0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -L0')
@@ -15274,7 +15274,7 @@ def decrypt_L0():
 def decrypt_L2():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'L2':
+        if x[:2] != 'L2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -L2')
@@ -15288,7 +15288,7 @@ def decrypt_L2():
 def decrypt_L4():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'L4':
+        if x[:2] != 'L4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -L4')
@@ -15302,7 +15302,7 @@ def decrypt_L4():
 def decrypt_L6():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'L6':
+        if x[:2] != 'L6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -L6')
@@ -15316,7 +15316,7 @@ def decrypt_L6():
 def decrypt_L8():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'L8':
+        if x[:2] != 'L8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -L8')
@@ -15330,7 +15330,7 @@ def decrypt_L8():
 def decrypt_Lexcl():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'L!':
+        if x[:2] != 'L!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -L!')
@@ -15344,7 +15344,7 @@ def decrypt_Lexcl():
 def decrypt_Ldquote():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'L"':
+        if x[:2] != 'L"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -L"')
@@ -15358,7 +15358,7 @@ def decrypt_Ldquote():
 def decrypt_Ldoll():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'L$':
+        if x[:2] != 'L$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -L$')
@@ -15372,7 +15372,7 @@ def decrypt_Ldoll():
 def decrypt_Land():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'L&':
+        if x[:2] != 'L&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -L&')
@@ -15386,7 +15386,7 @@ def decrypt_Land():
 def decrypt_Lquote():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'L\'':
+        if x[:2] != 'L\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -L\'')
@@ -15400,7 +15400,7 @@ def decrypt_Lquote():
 def decrypt_Lpar():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'L(':
+        if x[:2] != 'L(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -L(')
@@ -15414,7 +15414,7 @@ def decrypt_Lpar():
 def decrypt_Last():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'L*':
+        if x[:2] != 'L*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -L*')
@@ -15428,7 +15428,7 @@ def decrypt_Last():
 def decrypt_Lvir():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'L,':
+        if x[:2] != 'L,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -L,')
@@ -15442,7 +15442,7 @@ def decrypt_Lvir():
 def decrypt_Lpp():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'L.':
+        if x[:2] != 'L.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -L.')
@@ -15456,7 +15456,7 @@ def decrypt_Lpp():
 def decrypt_Ltp():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'L:':
+        if x[:2] != 'L:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -L:')
@@ -15470,7 +15470,7 @@ def decrypt_Ltp():
 def decrypt_Lless():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'L<':
+        if x[:2] != 'L<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -L<')
@@ -15484,7 +15484,7 @@ def decrypt_Lless():
 def decrypt_Lmore():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'L>':
+        if x[:2] != 'L>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -L>')
@@ -15498,7 +15498,7 @@ def decrypt_Lmore():
 def decrypt_Laro():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'L@':
+        if x[:2] != 'L@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -L@')
@@ -15512,7 +15512,7 @@ def decrypt_Laro():
 def decrypt_Lcroc():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'L[':
+        if x[:2] != 'L[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -L[')
@@ -15526,7 +15526,7 @@ def decrypt_Lcroc():
 def decrypt_Lbsl():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'L\\':
+        if x[:2] != 'L\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -L\\')
@@ -15540,7 +15540,7 @@ def decrypt_Lbsl():
 def decrypt_Lcirc():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'L^':
+        if x[:2] != 'L^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -L^')
@@ -15554,7 +15554,7 @@ def decrypt_Lcirc():
 def decrypt_Lesp():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'L`':
+        if x[:2] != 'L`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -L`')
@@ -15568,7 +15568,7 @@ def decrypt_Lesp():
 def decrypt_Lcr():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'L{':
+        if x[:2] != 'L{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -L{')
@@ -15582,7 +15582,7 @@ def decrypt_Lcr():
 def decrypt_Lhl():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'L|':
+        if x[:2] != 'L|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -L|')
@@ -15596,7 +15596,7 @@ def decrypt_Lhl():
 def decrypt_Ltild():
     i = 0
     for x in map(''.join, itertools.product('LabdfhjlnprtvxzABDFHJNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'L~':
+        if x[:2] != 'L~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -L~')
@@ -15610,7 +15610,7 @@ def decrypt_Ltild():
 def decrypt_Na():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Na':
+        if x[:2] != 'Na':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Na')
@@ -15624,7 +15624,7 @@ def decrypt_Na():
 def decrypt_Nb():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Nb':
+        if x[:2] != 'Nb':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Nb')
@@ -15638,7 +15638,7 @@ def decrypt_Nb():
 def decrypt_Nd():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Nd':
+        if x[:2] != 'Nd':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Nd')
@@ -15652,7 +15652,7 @@ def decrypt_Nd():
 def decrypt_Nf():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Nf':
+        if x[:2] != 'Nf':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Nf')
@@ -15666,7 +15666,7 @@ def decrypt_Nf():
 def decrypt_Nh():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Nh':
+        if x[:2] != 'Nh':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Nh')
@@ -15680,7 +15680,7 @@ def decrypt_Nh():
 def decrypt_Nj():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Nj':
+        if x[:2] != 'Nj':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Nj')
@@ -15694,7 +15694,7 @@ def decrypt_Nj():
 def decrypt_Nl():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Nl':
+        if x[:2] != 'Nl':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Nl')
@@ -15708,7 +15708,7 @@ def decrypt_Nl():
 def decrypt_Nn():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Nn':
+        if x[:2] != 'Nn':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Nn')
@@ -15722,7 +15722,7 @@ def decrypt_Nn():
 def decrypt_Np():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Np':
+        if x[:2] != 'Np':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Np')
@@ -15736,7 +15736,7 @@ def decrypt_Np():
 def decrypt_Nr():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Nr':
+        if x[:2] != 'Nr':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Nr')
@@ -15750,7 +15750,7 @@ def decrypt_Nr():
 def decrypt_Nt():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Nt':
+        if x[:2] != 'Nt':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Nt')
@@ -15764,7 +15764,7 @@ def decrypt_Nt():
 def decrypt_Nv():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Nv':
+        if x[:2] != 'Nv':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Nv')
@@ -15778,7 +15778,7 @@ def decrypt_Nv():
 def decrypt_Nx():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Nx':
+        if x[:2] != 'Nx':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Nx')
@@ -15792,7 +15792,7 @@ def decrypt_Nx():
 def decrypt_Nz():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Nz':
+        if x[:2] != 'Nz':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Nz')
@@ -15806,7 +15806,7 @@ def decrypt_Nz():
 def decrypt_NA():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'NA':
+        if x[:2] != 'NA':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -NA')
@@ -15820,7 +15820,7 @@ def decrypt_NA():
 def decrypt_NB():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'NB':
+        if x[:2] != 'NB':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -NB')
@@ -15834,7 +15834,7 @@ def decrypt_NB():
 def decrypt_ND():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'ND':
+        if x[:2] != 'ND':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -ND')
@@ -15848,7 +15848,7 @@ def decrypt_ND():
 def decrypt_NF():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'NF':
+        if x[:2] != 'NF':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -NF')
@@ -15862,7 +15862,7 @@ def decrypt_NF():
 def decrypt_NH():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'NH':
+        if x[:2] != 'NH':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -NH')
@@ -15876,7 +15876,7 @@ def decrypt_NH():
 def decrypt_NJ():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'NJ':
+        if x[:2] != 'NJ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -NJ')
@@ -15890,7 +15890,7 @@ def decrypt_NJ():
 def decrypt_NL():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'NL':
+        if x[:2] != 'NL':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -NL')
@@ -15904,7 +15904,7 @@ def decrypt_NL():
 def decrypt_NN():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'NN':
+        if x[:2] != 'NN':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -NN')
@@ -15918,7 +15918,7 @@ def decrypt_NN():
 def decrypt_NP():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'NP':
+        if x[:2] != 'NP':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -NP')
@@ -15932,7 +15932,7 @@ def decrypt_NP():
 def decrypt_NR():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'NR':
+        if x[:2] != 'NR':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -NR')
@@ -15946,7 +15946,7 @@ def decrypt_NR():
 def decrypt_NT():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'NT':
+        if x[:2] != 'NT':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -NT')
@@ -15960,7 +15960,7 @@ def decrypt_NT():
 def decrypt_NV():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'NV':
+        if x[:2] != 'NV':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -NV')
@@ -15974,7 +15974,7 @@ def decrypt_NV():
 def decrypt_NX():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'NX':
+        if x[:2] != 'NX':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -NX')
@@ -15988,7 +15988,7 @@ def decrypt_NX():
 def decrypt_NZ():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'NZ':
+        if x[:2] != 'NZ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -NZ')
@@ -16002,7 +16002,7 @@ def decrypt_NZ():
 def decrypt_N0():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'N0':
+        if x[:2] != 'N0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -N0')
@@ -16016,7 +16016,7 @@ def decrypt_N0():
 def decrypt_N2():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'N2':
+        if x[:2] != 'N2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -N2')
@@ -16030,7 +16030,7 @@ def decrypt_N2():
 def decrypt_N4():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'N4':
+        if x[:2] != 'N4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -N4')
@@ -16044,7 +16044,7 @@ def decrypt_N4():
 def decrypt_N6():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'N6':
+        if x[:2] != 'N6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -N6')
@@ -16058,7 +16058,7 @@ def decrypt_N6():
 def decrypt_N8():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'N8':
+        if x[:2] != 'N8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -N8')
@@ -16072,7 +16072,7 @@ def decrypt_N8():
 def decrypt_Nexcl():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'N!':
+        if x[:2] != 'N!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -N!')
@@ -16086,7 +16086,7 @@ def decrypt_Nexcl():
 def decrypt_Ndquote():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'N"':
+        if x[:2] != 'N"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -N"')
@@ -16100,7 +16100,7 @@ def decrypt_Ndquote():
 def decrypt_Ndoll():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'N$':
+        if x[:2] != 'N$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -N$')
@@ -16114,7 +16114,7 @@ def decrypt_Ndoll():
 def decrypt_Nand():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'N&':
+        if x[:2] != 'N&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -N&')
@@ -16128,7 +16128,7 @@ def decrypt_Nand():
 def decrypt_Nquote():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'N\'':
+        if x[:2] != 'N\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -N\'')
@@ -16142,7 +16142,7 @@ def decrypt_Nquote():
 def decrypt_Npar():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'N(':
+        if x[:2] != 'N(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -N(')
@@ -16156,7 +16156,7 @@ def decrypt_Npar():
 def decrypt_Nast():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'N*':
+        if x[:2] != 'N*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -N*')
@@ -16170,7 +16170,7 @@ def decrypt_Nast():
 def decrypt_Nvir():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'N,':
+        if x[:2] != 'N,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -N,')
@@ -16184,7 +16184,7 @@ def decrypt_Nvir():
 def decrypt_Npp():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'N.':
+        if x[:2] != 'N.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -N.')
@@ -16198,7 +16198,7 @@ def decrypt_Npp():
 def decrypt_Ntp():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'N:':
+        if x[:2] != 'N:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -N:')
@@ -16212,7 +16212,7 @@ def decrypt_Ntp():
 def decrypt_Nless():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'N<':
+        if x[:2] != 'N<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -N<')
@@ -16226,7 +16226,7 @@ def decrypt_Nless():
 def decrypt_Nmore():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'N>':
+        if x[:2] != 'N>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -N>')
@@ -16240,7 +16240,7 @@ def decrypt_Nmore():
 def decrypt_Naro():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'N@':
+        if x[:2] != 'N@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -N@')
@@ -16254,7 +16254,7 @@ def decrypt_Naro():
 def decrypt_Ncroc():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'N[':
+        if x[:2] != 'N[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -N[')
@@ -16268,7 +16268,7 @@ def decrypt_Ncroc():
 def decrypt_Nbsl():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'N\\':
+        if x[:2] != 'N\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -N\\')
@@ -16282,7 +16282,7 @@ def decrypt_Nbsl():
 def decrypt_Ncirc():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'N^':
+        if x[:2] != 'N^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -N^')
@@ -16296,7 +16296,7 @@ def decrypt_Ncirc():
 def decrypt_Nesp():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'N`':
+        if x[:2] != 'N`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -N`')
@@ -16310,7 +16310,7 @@ def decrypt_Nesp():
 def decrypt_Ncr():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'N{':
+        if x[:2] != 'N{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -N{')
@@ -16324,7 +16324,7 @@ def decrypt_Ncr():
 def decrypt_Nhl():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'N|':
+        if x[:2] != 'N|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -N|')
@@ -16338,7 +16338,7 @@ def decrypt_Nhl():
 def decrypt_Ntild():
     i = 0
     for x in map(''.join, itertools.product('NabdfhjlnprtvxzABDFHJLPRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'N~':
+        if x[:2] != 'N~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -N~')
@@ -16352,7 +16352,7 @@ def decrypt_Ntild():
 def decrypt_Pa():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Pa':
+        if x[:2] != 'Pa':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Pa')
@@ -16366,7 +16366,7 @@ def decrypt_Pa():
 def decrypt_Pb():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Pb':
+        if x[:2] != 'Pb':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Pb')
@@ -16380,7 +16380,7 @@ def decrypt_Pb():
 def decrypt_Pd():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Pd':
+        if x[:2] != 'Pd':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Pd')
@@ -16394,7 +16394,7 @@ def decrypt_Pd():
 def decrypt_Pf():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Pf':
+        if x[:2] != 'Pf':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Pf')
@@ -16408,7 +16408,7 @@ def decrypt_Pf():
 def decrypt_Ph():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Ph':
+        if x[:2] != 'Ph':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Ph')
@@ -16422,7 +16422,7 @@ def decrypt_Ph():
 def decrypt_Pj():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Pj':
+        if x[:2] != 'Pj':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Pj')
@@ -16436,7 +16436,7 @@ def decrypt_Pj():
 def decrypt_Pl():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Pl':
+        if x[:2] != 'Pl':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Pl')
@@ -16450,7 +16450,7 @@ def decrypt_Pl():
 def decrypt_Pn():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Pn':
+        if x[:2] != 'Pn':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Pn')
@@ -16464,7 +16464,7 @@ def decrypt_Pn():
 def decrypt_Pp():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Pp':
+        if x[:2] != 'Pp':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Pp')
@@ -16478,7 +16478,7 @@ def decrypt_Pp():
 def decrypt_Pr():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Pr':
+        if x[:2] != 'Pr':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Pr')
@@ -16492,7 +16492,7 @@ def decrypt_Pr():
 def decrypt_Pt():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Pt':
+        if x[:2] != 'Pt':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Pt')
@@ -16506,7 +16506,7 @@ def decrypt_Pt():
 def decrypt_Pv():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Pv':
+        if x[:2] != 'Pv':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Pv')
@@ -16520,7 +16520,7 @@ def decrypt_Pv():
 def decrypt_Px():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Px':
+        if x[:2] != 'Px':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Px')
@@ -16534,7 +16534,7 @@ def decrypt_Px():
 def decrypt_Pz():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Pz':
+        if x[:2] != 'Pz':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Pz')
@@ -16548,7 +16548,7 @@ def decrypt_Pz():
 def decrypt_PA():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'PA':
+        if x[:2] != 'PA':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -PA')
@@ -16562,7 +16562,7 @@ def decrypt_PA():
 def decrypt_PB():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'PB':
+        if x[:2] != 'PB':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -PB')
@@ -16576,7 +16576,7 @@ def decrypt_PB():
 def decrypt_PD():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'PD':
+        if x[:2] != 'PD':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -PD')
@@ -16590,7 +16590,7 @@ def decrypt_PD():
 def decrypt_PF():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'PF':
+        if x[:2] != 'PF':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -PF')
@@ -16604,7 +16604,7 @@ def decrypt_PF():
 def decrypt_PH():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'PH':
+        if x[:2] != 'PH':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -PH')
@@ -16618,7 +16618,7 @@ def decrypt_PH():
 def decrypt_PJ():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'PJ':
+        if x[:2] != 'PJ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -PJ')
@@ -16632,7 +16632,7 @@ def decrypt_PJ():
 def decrypt_PL():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'PL':
+        if x[:2] != 'PL':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -PL')
@@ -16646,7 +16646,7 @@ def decrypt_PL():
 def decrypt_PN():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'PN':
+        if x[:2] != 'PN':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -PN')
@@ -16660,7 +16660,7 @@ def decrypt_PN():
 def decrypt_PP():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'PP':
+        if x[:2] != 'PP':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -PP')
@@ -16674,7 +16674,7 @@ def decrypt_PP():
 def decrypt_PR():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'PR':
+        if x[:2] != 'PR':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -PR')
@@ -16688,7 +16688,7 @@ def decrypt_PR():
 def decrypt_PT():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'PT':
+        if x[:2] != 'PT':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -PT')
@@ -16702,7 +16702,7 @@ def decrypt_PT():
 def decrypt_PV():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'PV':
+        if x[:2] != 'PV':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -PV')
@@ -16716,7 +16716,7 @@ def decrypt_PV():
 def decrypt_PX():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'PX':
+        if x[:2] != 'PX':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -PX')
@@ -16730,7 +16730,7 @@ def decrypt_PX():
 def decrypt_PZ():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'PZ':
+        if x[:2] != 'PZ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -PZ')
@@ -16744,7 +16744,7 @@ def decrypt_PZ():
 def decrypt_P0():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'P0':
+        if x[:2] != 'P0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -P0')
@@ -16758,7 +16758,7 @@ def decrypt_P0():
 def decrypt_P2():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'P2':
+        if x[:2] != 'P2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -P2')
@@ -16772,7 +16772,7 @@ def decrypt_P2():
 def decrypt_P4():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'P4':
+        if x[:2] != 'P4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -P4')
@@ -16786,7 +16786,7 @@ def decrypt_P4():
 def decrypt_P6():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'P6':
+        if x[:2] != 'P6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -P6')
@@ -16800,7 +16800,7 @@ def decrypt_P6():
 def decrypt_P8():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'P8':
+        if x[:2] != 'P8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -P8')
@@ -16814,7 +16814,7 @@ def decrypt_P8():
 def decrypt_Pexcl():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'P!':
+        if x[:2] != 'P!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -P!')
@@ -16828,7 +16828,7 @@ def decrypt_Pexcl():
 def decrypt_Pdquote():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'P"':
+        if x[:2] != 'P"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -P"')
@@ -16842,7 +16842,7 @@ def decrypt_Pdquote():
 def decrypt_Pdoll():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'P$':
+        if x[:2] != 'P$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -P$')
@@ -16856,7 +16856,7 @@ def decrypt_Pdoll():
 def decrypt_Pand():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'P&':
+        if x[:2] != 'P&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -P&')
@@ -16870,7 +16870,7 @@ def decrypt_Pand():
 def decrypt_Pquote():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'P\'':
+        if x[:2] != 'P\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -P\'')
@@ -16884,7 +16884,7 @@ def decrypt_Pquote():
 def decrypt_Ppar():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'P(':
+        if x[:2] != 'P(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -P(')
@@ -16898,7 +16898,7 @@ def decrypt_Ppar():
 def decrypt_Past():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'P*':
+        if x[:2] != 'P*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -P*')
@@ -16912,7 +16912,7 @@ def decrypt_Past():
 def decrypt_Pvir():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'P,':
+        if x[:2] != 'P,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -P,')
@@ -16926,7 +16926,7 @@ def decrypt_Pvir():
 def decrypt_Ppp():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'P.':
+        if x[:2] != 'P.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -P.')
@@ -16940,7 +16940,7 @@ def decrypt_Ppp():
 def decrypt_Ptp():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'P:':
+        if x[:2] != 'P:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -P:')
@@ -16954,7 +16954,7 @@ def decrypt_Ptp():
 def decrypt_Pless():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'P<':
+        if x[:2] != 'P<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -P<')
@@ -16968,7 +16968,7 @@ def decrypt_Pless():
 def decrypt_Pmore():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'P>':
+        if x[:2] != 'P>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -P>')
@@ -16982,7 +16982,7 @@ def decrypt_Pmore():
 def decrypt_Paro():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'P@':
+        if x[:2] != 'P@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -P@')
@@ -16996,7 +16996,7 @@ def decrypt_Paro():
 def decrypt_Pcroc():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'P[':
+        if x[:2] != 'P[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -P[')
@@ -17010,7 +17010,7 @@ def decrypt_Pcroc():
 def decrypt_Pbsl():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'P\\':
+        if x[:2] != 'P\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -P\\')
@@ -17024,7 +17024,7 @@ def decrypt_Pbsl():
 def decrypt_Pcirc():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'P^':
+        if x[:2] != 'P^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -P^')
@@ -17038,7 +17038,7 @@ def decrypt_Pcirc():
 def decrypt_Pesp():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'P`':
+        if x[:2] != 'P`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -P`')
@@ -17052,7 +17052,7 @@ def decrypt_Pesp():
 def decrypt_Pcr():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'P{':
+        if x[:2] != 'P{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -P{')
@@ -17066,7 +17066,7 @@ def decrypt_Pcr():
 def decrypt_Phl():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'P|':
+        if x[:2] != 'P|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -P|')
@@ -17080,7 +17080,7 @@ def decrypt_Phl():
 def decrypt_Ptild():
     i = 0
     for x in map(''.join, itertools.product('PabdfhjlnprtvxzABDFHJLNRTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'P~':
+        if x[:2] != 'P~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -P~')
@@ -17094,7 +17094,7 @@ def decrypt_Ptild():
 def decrypt_Ra():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Ra':
+        if x[:2] != 'Ra':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Ra')
@@ -17108,7 +17108,7 @@ def decrypt_Ra():
 def decrypt_Rb():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Rb':
+        if x[:2] != 'Rb':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Rb')
@@ -17122,7 +17122,7 @@ def decrypt_Rb():
 def decrypt_Rd():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Rd':
+        if x[:2] != 'Rd':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Rd')
@@ -17136,7 +17136,7 @@ def decrypt_Rd():
 def decrypt_Rf():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Rf':
+        if x[:2] != 'Rf':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Rf')
@@ -17150,7 +17150,7 @@ def decrypt_Rf():
 def decrypt_Rh():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Rh':
+        if x[:2] != 'Rh':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Rh')
@@ -17164,7 +17164,7 @@ def decrypt_Rh():
 def decrypt_Rj():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Rj':
+        if x[:2] != 'Rj':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Rj')
@@ -17178,7 +17178,7 @@ def decrypt_Rj():
 def decrypt_Rl():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Rl':
+        if x[:2] != 'Rl':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Rl')
@@ -17192,7 +17192,7 @@ def decrypt_Rl():
 def decrypt_Rn():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Rn':
+        if x[:2] != 'Rn':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Rn')
@@ -17206,7 +17206,7 @@ def decrypt_Rn():
 def decrypt_Rp():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Rp':
+        if x[:2] != 'Rp':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Rp')
@@ -17220,7 +17220,7 @@ def decrypt_Rp():
 def decrypt_Rr():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Rr':
+        if x[:2] != 'Rr':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Rr')
@@ -17234,7 +17234,7 @@ def decrypt_Rr():
 def decrypt_Rt():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Rt':
+        if x[:2] != 'Rt':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Rt')
@@ -17248,7 +17248,7 @@ def decrypt_Rt():
 def decrypt_Rv():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Rv':
+        if x[:2] != 'Rv':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Rv')
@@ -17262,7 +17262,7 @@ def decrypt_Rv():
 def decrypt_Rx():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Rx':
+        if x[:2] != 'Rx':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Rx')
@@ -17276,7 +17276,7 @@ def decrypt_Rx():
 def decrypt_Rz():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Rz':
+        if x[:2] != 'Rz':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Rz')
@@ -17290,7 +17290,7 @@ def decrypt_Rz():
 def decrypt_RA():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'RA':
+        if x[:2] != 'RA':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -RA')
@@ -17304,7 +17304,7 @@ def decrypt_RA():
 def decrypt_RB():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'RB':
+        if x[:2] != 'RB':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -RB')
@@ -17318,7 +17318,7 @@ def decrypt_RB():
 def decrypt_RD():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'RD':
+        if x[:2] != 'RD':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -RD')
@@ -17332,7 +17332,7 @@ def decrypt_RD():
 def decrypt_RF():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'RF':
+        if x[:2] != 'RF':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -RF')
@@ -17346,7 +17346,7 @@ def decrypt_RF():
 def decrypt_RH():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'RH':
+        if x[:2] != 'RH':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -RH')
@@ -17360,7 +17360,7 @@ def decrypt_RH():
 def decrypt_RJ():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'RJ':
+        if x[:2] != 'RJ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -RJ')
@@ -17374,7 +17374,7 @@ def decrypt_RJ():
 def decrypt_RL():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'RL':
+        if x[:2] != 'RL':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -RL')
@@ -17388,7 +17388,7 @@ def decrypt_RL():
 def decrypt_RN():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'RN':
+        if x[:2] != 'RN':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -RN')
@@ -17402,7 +17402,7 @@ def decrypt_RN():
 def decrypt_RP():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'RP':
+        if x[:2] != 'RP':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -RP')
@@ -17416,7 +17416,7 @@ def decrypt_RP():
 def decrypt_RR():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'RR':
+        if x[:2] != 'RR':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -RR')
@@ -17430,7 +17430,7 @@ def decrypt_RR():
 def decrypt_RT():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'RT':
+        if x[:2] != 'RT':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -RT')
@@ -17444,7 +17444,7 @@ def decrypt_RT():
 def decrypt_RV():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'RV':
+        if x[:2] != 'RV':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -RV')
@@ -17458,7 +17458,7 @@ def decrypt_RV():
 def decrypt_RX():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'RX':
+        if x[:2] != 'RX':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -RX')
@@ -17472,7 +17472,7 @@ def decrypt_RX():
 def decrypt_RZ():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'RZ':
+        if x[:2] != 'RZ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -RZ')
@@ -17486,7 +17486,7 @@ def decrypt_RZ():
 def decrypt_R0():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'R0':
+        if x[:2] != 'R0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -R0')
@@ -17500,7 +17500,7 @@ def decrypt_R0():
 def decrypt_R2():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'R2':
+        if x[:2] != 'R2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -R2')
@@ -17514,7 +17514,7 @@ def decrypt_R2():
 def decrypt_R4():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'R4':
+        if x[:2] != 'R4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -R4')
@@ -17528,7 +17528,7 @@ def decrypt_R4():
 def decrypt_R6():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'R6':
+        if x[:2] != 'R6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -R6')
@@ -17542,7 +17542,7 @@ def decrypt_R6():
 def decrypt_R8():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'R8':
+        if x[:2] != 'R8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -R8')
@@ -17556,7 +17556,7 @@ def decrypt_R8():
 def decrypt_Rexcl():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'R!':
+        if x[:2] != 'R!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -R!')
@@ -17570,7 +17570,7 @@ def decrypt_Rexcl():
 def decrypt_Rdquote():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'R"':
+        if x[:2] != 'R"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -R"')
@@ -17584,7 +17584,7 @@ def decrypt_Rdquote():
 def decrypt_Rdoll():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'R$':
+        if x[:2] != 'R$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -R$')
@@ -17598,7 +17598,7 @@ def decrypt_Rdoll():
 def decrypt_Rand():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'R&':
+        if x[:2] != 'R&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -R&')
@@ -17612,7 +17612,7 @@ def decrypt_Rand():
 def decrypt_Rquote():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'R\'':
+        if x[:2] != 'R\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -R\'')
@@ -17626,7 +17626,7 @@ def decrypt_Rquote():
 def decrypt_Rpar():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'R(':
+        if x[:2] != 'R(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -R(')
@@ -17640,7 +17640,7 @@ def decrypt_Rpar():
 def decrypt_Rast():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'R*':
+        if x[:2] != 'R*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -R*')
@@ -17654,7 +17654,7 @@ def decrypt_Rast():
 def decrypt_Rvir():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'R,':
+        if x[:2] != 'R,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -R,')
@@ -17668,7 +17668,7 @@ def decrypt_Rvir():
 def decrypt_Rpp():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'R.':
+        if x[:2] != 'R.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -R.')
@@ -17682,7 +17682,7 @@ def decrypt_Rpp():
 def decrypt_Rtp():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'R:':
+        if x[:2] != 'R:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -R:')
@@ -17696,7 +17696,7 @@ def decrypt_Rtp():
 def decrypt_Rless():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'R<':
+        if x[:2] != 'R<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -R<')
@@ -17710,7 +17710,7 @@ def decrypt_Rless():
 def decrypt_Rmore():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'R>':
+        if x[:2] != 'R>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -R>')
@@ -17724,7 +17724,7 @@ def decrypt_Rmore():
 def decrypt_Raro():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'R@':
+        if x[:2] != 'R@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -R@')
@@ -17738,7 +17738,7 @@ def decrypt_Raro():
 def decrypt_Rcroc():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'R[':
+        if x[:2] != 'R[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -R[')
@@ -17752,7 +17752,7 @@ def decrypt_Rcroc():
 def decrypt_Rbsl():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'R\\':
+        if x[:2] != 'R\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -R\\')
@@ -17766,7 +17766,7 @@ def decrypt_Rbsl():
 def decrypt_Rcirc():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'R^':
+        if x[:2] != 'R^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -R^')
@@ -17780,7 +17780,7 @@ def decrypt_Rcirc():
 def decrypt_Resp():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'R`':
+        if x[:2] != 'R`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -R`')
@@ -17794,7 +17794,7 @@ def decrypt_Resp():
 def decrypt_Rcr():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'R{':
+        if x[:2] != 'R{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -R{')
@@ -17808,7 +17808,7 @@ def decrypt_Rcr():
 def decrypt_Rhl():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'R|':
+        if x[:2] != 'R|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -R|')
@@ -17822,7 +17822,7 @@ def decrypt_Rhl():
 def decrypt_Rtild():
     i = 0
     for x in map(''.join, itertools.product('RabdfhjlnprtvxzABDFHJLNPTVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'R~':
+        if x[:2] != 'R~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -R~')
@@ -17836,7 +17836,7 @@ def decrypt_Rtild():
 def decrypt_Ta():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Ta':
+        if x[:2] != 'Ta':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Ta')
@@ -17850,7 +17850,7 @@ def decrypt_Ta():
 def decrypt_Tb():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Tb':
+        if x[:2] != 'Tb':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Tb')
@@ -17864,7 +17864,7 @@ def decrypt_Tb():
 def decrypt_Td():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Td':
+        if x[:2] != 'Td':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Td')
@@ -17878,7 +17878,7 @@ def decrypt_Td():
 def decrypt_Tf():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Tf':
+        if x[:2] != 'Tf':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Tf')
@@ -17892,7 +17892,7 @@ def decrypt_Tf():
 def decrypt_Th():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Th':
+        if x[:2] != 'Th':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Th')
@@ -17906,7 +17906,7 @@ def decrypt_Th():
 def decrypt_Tj():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Tj':
+        if x[:2] != 'Tj':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Tj')
@@ -17920,7 +17920,7 @@ def decrypt_Tj():
 def decrypt_Tl():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Tl':
+        if x[:2] != 'Tl':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Tl')
@@ -17934,7 +17934,7 @@ def decrypt_Tl():
 def decrypt_Tn():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Tn':
+        if x[:2] != 'Tn':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Tn')
@@ -17948,7 +17948,7 @@ def decrypt_Tn():
 def decrypt_Tp():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Tp':
+        if x[:2] != 'Tp':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Tp')
@@ -17962,7 +17962,7 @@ def decrypt_Tp():
 def decrypt_Tr():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Tr':
+        if x[:2] != 'Tr':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Tr')
@@ -17976,7 +17976,7 @@ def decrypt_Tr():
 def decrypt_Tt():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Tt':
+        if x[:2] != 'Tt':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Tt')
@@ -17990,7 +17990,7 @@ def decrypt_Tt():
 def decrypt_Tv():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Tv':
+        if x[:2] != 'Tv':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Tv')
@@ -18004,7 +18004,7 @@ def decrypt_Tv():
 def decrypt_Tx():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Tx':
+        if x[:2] != 'Tx':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Tx')
@@ -18018,7 +18018,7 @@ def decrypt_Tx():
 def decrypt_Tz():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Tz':
+        if x[:2] != 'Tz':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Tz')
@@ -18032,7 +18032,7 @@ def decrypt_Tz():
 def decrypt_TA():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'TA':
+        if x[:2] != 'TA':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -TA')
@@ -18046,7 +18046,7 @@ def decrypt_TA():
 def decrypt_TB():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'TB':
+        if x[:2] != 'TB':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -TB')
@@ -18060,7 +18060,7 @@ def decrypt_TB():
 def decrypt_TD():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'TD':
+        if x[:2] != 'TD':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -TD')
@@ -18074,7 +18074,7 @@ def decrypt_TD():
 def decrypt_TF():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'TF':
+        if x[:2] != 'TF':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -TF')
@@ -18088,7 +18088,7 @@ def decrypt_TF():
 def decrypt_TH():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'TH':
+        if x[:2] != 'TH':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -TH')
@@ -18102,7 +18102,7 @@ def decrypt_TH():
 def decrypt_TJ():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'TJ':
+        if x[:2] != 'TJ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -TJ')
@@ -18116,7 +18116,7 @@ def decrypt_TJ():
 def decrypt_TL():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'TL':
+        if x[:2] != 'TL':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -TL')
@@ -18130,7 +18130,7 @@ def decrypt_TL():
 def decrypt_TN():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'TN':
+        if x[:2] != 'TN':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -TN')
@@ -18144,7 +18144,7 @@ def decrypt_TN():
 def decrypt_TP():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'TP':
+        if x[:2] != 'TP':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -TP')
@@ -18158,7 +18158,7 @@ def decrypt_TP():
 def decrypt_TR():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'TR':
+        if x[:2] != 'TR':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -TR')
@@ -18172,7 +18172,7 @@ def decrypt_TR():
 def decrypt_TT():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'TT':
+        if x[:2] != 'TT':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -TT')
@@ -18186,7 +18186,7 @@ def decrypt_TT():
 def decrypt_TV():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'TV':
+        if x[:2] != 'TV':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -TV')
@@ -18200,7 +18200,7 @@ def decrypt_TV():
 def decrypt_TX():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'TX':
+        if x[:2] != 'TX':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -TX')
@@ -18214,7 +18214,7 @@ def decrypt_TX():
 def decrypt_TZ():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'TZ':
+        if x[:2] != 'TZ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -TZ')
@@ -18228,7 +18228,7 @@ def decrypt_TZ():
 def decrypt_T0():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'T0':
+        if x[:2] != 'T0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -T0')
@@ -18242,7 +18242,7 @@ def decrypt_T0():
 def decrypt_T2():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'T2':
+        if x[:2] != 'T2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -T2')
@@ -18256,7 +18256,7 @@ def decrypt_T2():
 def decrypt_T4():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'T4':
+        if x[:2] != 'T4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -T4')
@@ -18270,7 +18270,7 @@ def decrypt_T4():
 def decrypt_T6():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'T6':
+        if x[:2] != 'T6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -T6')
@@ -18284,7 +18284,7 @@ def decrypt_T6():
 def decrypt_T8():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'T8':
+        if x[:2] != 'T8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -T8')
@@ -18298,7 +18298,7 @@ def decrypt_T8():
 def decrypt_Texcl():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'T!':
+        if x[:2] != 'T!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -T!')
@@ -18312,7 +18312,7 @@ def decrypt_Texcl():
 def decrypt_Tdquote():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'T"':
+        if x[:2] != 'T"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -T"')
@@ -18326,7 +18326,7 @@ def decrypt_Tdquote():
 def decrypt_Tdoll():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'T$':
+        if x[:2] != 'T$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -T$')
@@ -18340,7 +18340,7 @@ def decrypt_Tdoll():
 def decrypt_Tand():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'T&':
+        if x[:2] != 'T&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -T&')
@@ -18354,7 +18354,7 @@ def decrypt_Tand():
 def decrypt_Tquote():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'T\'':
+        if x[:2] != 'T\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -T\'')
@@ -18368,7 +18368,7 @@ def decrypt_Tquote():
 def decrypt_Tpar():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'T(':
+        if x[:2] != 'T(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -T(')
@@ -18382,7 +18382,7 @@ def decrypt_Tpar():
 def decrypt_Tast():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'T*':
+        if x[:2] != 'T*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -T*')
@@ -18396,7 +18396,7 @@ def decrypt_Tast():
 def decrypt_Tvir():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'T,':
+        if x[:2] != 'T,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -T,')
@@ -18410,7 +18410,7 @@ def decrypt_Tvir():
 def decrypt_Tpp():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'T.':
+        if x[:2] != 'T.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -T.')
@@ -18424,7 +18424,7 @@ def decrypt_Tpp():
 def decrypt_Ttp():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'T:':
+        if x[:2] != 'T:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -T:')
@@ -18438,7 +18438,7 @@ def decrypt_Ttp():
 def decrypt_Tless():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'T<':
+        if x[:2] != 'T<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -T<')
@@ -18452,7 +18452,7 @@ def decrypt_Tless():
 def decrypt_Tmore():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'T>':
+        if x[:2] != 'T>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -T>')
@@ -18466,7 +18466,7 @@ def decrypt_Tmore():
 def decrypt_Taro():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'T@':
+        if x[:2] != 'T@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -T@')
@@ -18480,7 +18480,7 @@ def decrypt_Taro():
 def decrypt_Tcroc():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'T[':
+        if x[:2] != 'T[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -T[')
@@ -18494,7 +18494,7 @@ def decrypt_Tcroc():
 def decrypt_Tbsl():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'T\\':
+        if x[:2] != 'T\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -T\\')
@@ -18508,7 +18508,7 @@ def decrypt_Tbsl():
 def decrypt_Tcirc():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'T^':
+        if x[:2] != 'T^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -T^')
@@ -18522,7 +18522,7 @@ def decrypt_Tcirc():
 def decrypt_Tesp():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'T`':
+        if x[:2] != 'T`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -T`')
@@ -18536,7 +18536,7 @@ def decrypt_Tesp():
 def decrypt_Tcr():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'T{':
+        if x[:2] != 'T{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -T{')
@@ -18550,7 +18550,7 @@ def decrypt_Tcr():
 def decrypt_Thl():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'T|':
+        if x[:2] != 'T|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -T|')
@@ -18564,7 +18564,7 @@ def decrypt_Thl():
 def decrypt_Ttild():
     i = 0
     for x in map(''.join, itertools.product('TabdfhjlnprtvxzABDFHJLNPRVXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'T~':
+        if x[:2] != 'T~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -T~')
@@ -18578,7 +18578,7 @@ def decrypt_Ttild():
 def decrypt_Va():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Va':
+        if x[:2] != 'Va':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Va')
@@ -18592,7 +18592,7 @@ def decrypt_Va():
 def decrypt_Vb():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Vb':
+        if x[:2] != 'Vb':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Vb')
@@ -18606,7 +18606,7 @@ def decrypt_Vb():
 def decrypt_Vd():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Vd':
+        if x[:2] != 'Vd':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Vd')
@@ -18620,7 +18620,7 @@ def decrypt_Vd():
 def decrypt_Vf():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Vf':
+        if x[:2] != 'Vf':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Vf')
@@ -18634,7 +18634,7 @@ def decrypt_Vf():
 def decrypt_Vh():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Vh':
+        if x[:2] != 'Vh':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Vh')
@@ -18648,7 +18648,7 @@ def decrypt_Vh():
 def decrypt_Vj():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Vj':
+        if x[:2] != 'Vj':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Vj')
@@ -18662,7 +18662,7 @@ def decrypt_Vj():
 def decrypt_Vl():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Vl':
+        if x[:2] != 'Vl':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Vl')
@@ -18676,7 +18676,7 @@ def decrypt_Vl():
 def decrypt_Vn():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Vn':
+        if x[:2] != 'Vn':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Vn')
@@ -18690,7 +18690,7 @@ def decrypt_Vn():
 def decrypt_Vp():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Vp':
+        if x[:2] != 'Vp':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Vp')
@@ -18704,7 +18704,7 @@ def decrypt_Vp():
 def decrypt_Vr():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Vr':
+        if x[:2] != 'Vr':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Vr')
@@ -18718,7 +18718,7 @@ def decrypt_Vr():
 def decrypt_Vt():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Vt':
+        if x[:2] != 'Vt':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Vt')
@@ -18732,7 +18732,7 @@ def decrypt_Vt():
 def decrypt_Vv():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Vv':
+        if x[:2] != 'Vv':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Vv')
@@ -18746,7 +18746,7 @@ def decrypt_Vv():
 def decrypt_Vx():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Vx':
+        if x[:2] != 'Vx':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Vx')
@@ -18760,7 +18760,7 @@ def decrypt_Vx():
 def decrypt_Vz():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Vz':
+        if x[:2] != 'Vz':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Vz')
@@ -18774,7 +18774,7 @@ def decrypt_Vz():
 def decrypt_VA():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'VA':
+        if x[:2] != 'VA':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -VA')
@@ -18788,7 +18788,7 @@ def decrypt_VA():
 def decrypt_VB():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'VB':
+        if x[:2] != 'VB':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -VB')
@@ -18802,7 +18802,7 @@ def decrypt_VB():
 def decrypt_VD():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'VD':
+        if x[:2] != 'VD':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -VD')
@@ -18816,7 +18816,7 @@ def decrypt_VD():
 def decrypt_VF():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'VF':
+        if x[:2] != 'VF':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -VF')
@@ -18830,7 +18830,7 @@ def decrypt_VF():
 def decrypt_VH():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'VH':
+        if x[:2] != 'VH':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -VH')
@@ -18844,7 +18844,7 @@ def decrypt_VH():
 def decrypt_VJ():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'VJ':
+        if x[:2] != 'VJ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -VJ')
@@ -18858,7 +18858,7 @@ def decrypt_VJ():
 def decrypt_VL():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'VL':
+        if x[:2] != 'VL':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -VL')
@@ -18872,7 +18872,7 @@ def decrypt_VL():
 def decrypt_VN():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'VN':
+        if x[:2] != 'VN':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -VN')
@@ -18886,7 +18886,7 @@ def decrypt_VN():
 def decrypt_VP():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'VP':
+        if x[:2] != 'VP':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -VP')
@@ -18900,7 +18900,7 @@ def decrypt_VP():
 def decrypt_VR():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'VR':
+        if x[:2] != 'VR':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -VR')
@@ -18914,7 +18914,7 @@ def decrypt_VR():
 def decrypt_VT():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'VT':
+        if x[:2] != 'VT':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -VT')
@@ -18928,7 +18928,7 @@ def decrypt_VT():
 def decrypt_VV():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'VV':
+        if x[:2] != 'VV':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -VV')
@@ -18942,7 +18942,7 @@ def decrypt_VV():
 def decrypt_VX():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'VX':
+        if x[:2] != 'VX':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -VX')
@@ -18956,7 +18956,7 @@ def decrypt_VX():
 def decrypt_VZ():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'VZ':
+        if x[:2] != 'VZ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -VZ')
@@ -18970,7 +18970,7 @@ def decrypt_VZ():
 def decrypt_V0():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'V0':
+        if x[:2] != 'V0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -V0')
@@ -18984,7 +18984,7 @@ def decrypt_V0():
 def decrypt_V2():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'V2':
+        if x[:2] != 'V2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -V2')
@@ -18998,7 +18998,7 @@ def decrypt_V2():
 def decrypt_V4():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'V4':
+        if x[:2] != 'V4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -V4')
@@ -19012,7 +19012,7 @@ def decrypt_V4():
 def decrypt_V6():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'V6':
+        if x[:2] != 'V6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -V6')
@@ -19026,7 +19026,7 @@ def decrypt_V6():
 def decrypt_V8():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'V8':
+        if x[:2] != 'V8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -V8')
@@ -19040,7 +19040,7 @@ def decrypt_V8():
 def decrypt_Vexcl():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'V!':
+        if x[:2] != 'V!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -V!')
@@ -19054,7 +19054,7 @@ def decrypt_Vexcl():
 def decrypt_Vdquote():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'V"':
+        if x[:2] != 'V"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -V"')
@@ -19068,7 +19068,7 @@ def decrypt_Vdquote():
 def decrypt_Vdoll():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'V$':
+        if x[:2] != 'V$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -V$')
@@ -19082,7 +19082,7 @@ def decrypt_Vdoll():
 def decrypt_Vand():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'V&':
+        if x[:2] != 'V&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -V&')
@@ -19096,7 +19096,7 @@ def decrypt_Vand():
 def decrypt_Vquote():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'V\'':
+        if x[:2] != 'V\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -V\'')
@@ -19110,7 +19110,7 @@ def decrypt_Vquote():
 def decrypt_Vpar():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'V(':
+        if x[:2] != 'V(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -V(')
@@ -19124,7 +19124,7 @@ def decrypt_Vpar():
 def decrypt_Vast():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'V*':
+        if x[:2] != 'V*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -V*')
@@ -19138,7 +19138,7 @@ def decrypt_Vast():
 def decrypt_Vvir():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'V,':
+        if x[:2] != 'V,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -V,')
@@ -19152,7 +19152,7 @@ def decrypt_Vvir():
 def decrypt_Vpp():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'V.':
+        if x[:2] != 'V.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -V.')
@@ -19166,7 +19166,7 @@ def decrypt_Vpp():
 def decrypt_Vtp():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'V:':
+        if x[:2] != 'V:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -V:')
@@ -19180,7 +19180,7 @@ def decrypt_Vtp():
 def decrypt_Vless():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'V<':
+        if x[:2] != 'V<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -V<')
@@ -19194,7 +19194,7 @@ def decrypt_Vless():
 def decrypt_Vmore():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'V>':
+        if x[:2] != 'V>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -V>')
@@ -19208,7 +19208,7 @@ def decrypt_Vmore():
 def decrypt_Varo():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'V@':
+        if x[:2] != 'V@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -V@')
@@ -19222,7 +19222,7 @@ def decrypt_Varo():
 def decrypt_Vcroc():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'V[':
+        if x[:2] != 'V[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -V[')
@@ -19236,7 +19236,7 @@ def decrypt_Vcroc():
 def decrypt_Vbsl():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'V\\':
+        if x[:2] != 'V\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -V\\')
@@ -19250,7 +19250,7 @@ def decrypt_Vbsl():
 def decrypt_Vcirc():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'V^':
+        if x[:2] != 'V^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -V^')
@@ -19264,7 +19264,7 @@ def decrypt_Vcirc():
 def decrypt_Vesp():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'V`':
+        if x[:2] != 'V`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -V`')
@@ -19278,7 +19278,7 @@ def decrypt_Vesp():
 def decrypt_Vcr():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'V{':
+        if x[:2] != 'V{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -V{')
@@ -19292,7 +19292,7 @@ def decrypt_Vcr():
 def decrypt_Vhl():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'V|':
+        if x[:2] != 'V|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -V|')
@@ -19306,7 +19306,7 @@ def decrypt_Vhl():
 def decrypt_Vtild():
     i = 0
     for x in map(''.join, itertools.product('VabdfhjlnprtvxzABDFHJLNPRTXZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'V~':
+        if x[:2] != 'V~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -V~')
@@ -19320,7 +19320,7 @@ def decrypt_Vtild():
 def decrypt_Xa():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Xa':
+        if x[:2] != 'Xa':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Xa')
@@ -19334,7 +19334,7 @@ def decrypt_Xa():
 def decrypt_Xb():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Xb':
+        if x[:2] != 'Xb':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Xb')
@@ -19348,7 +19348,7 @@ def decrypt_Xb():
 def decrypt_Xd():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Xd':
+        if x[:2] != 'Xd':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Xd')
@@ -19362,7 +19362,7 @@ def decrypt_Xd():
 def decrypt_Xf():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Xf':
+        if x[:2] != 'Xf':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Xf')
@@ -19376,7 +19376,7 @@ def decrypt_Xf():
 def decrypt_Xh():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Xh':
+        if x[:2] != 'Xh':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Xh')
@@ -19390,7 +19390,7 @@ def decrypt_Xh():
 def decrypt_Xj():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Xj':
+        if x[:2] != 'Xj':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Xj')
@@ -19404,7 +19404,7 @@ def decrypt_Xj():
 def decrypt_Xl():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Xl':
+        if x[:2] != 'Xl':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Xl')
@@ -19418,7 +19418,7 @@ def decrypt_Xl():
 def decrypt_Xn():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Xn':
+        if x[:2] != 'Xn':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Xn')
@@ -19432,7 +19432,7 @@ def decrypt_Xn():
 def decrypt_Xp():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Xp':
+        if x[:2] != 'Xp':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Xp')
@@ -19446,7 +19446,7 @@ def decrypt_Xp():
 def decrypt_Xr():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Xr':
+        if x[:2] != 'Xr':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Xr')
@@ -19460,7 +19460,7 @@ def decrypt_Xr():
 def decrypt_Xt():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Xt':
+        if x[:2] != 'Xt':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Xt')
@@ -19474,7 +19474,7 @@ def decrypt_Xt():
 def decrypt_Xv():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Xv':
+        if x[:2] != 'Xv':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Xv')
@@ -19488,7 +19488,7 @@ def decrypt_Xv():
 def decrypt_Xx():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Xx':
+        if x[:2] != 'Xx':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Xx')
@@ -19502,7 +19502,7 @@ def decrypt_Xx():
 def decrypt_Xz():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Xz':
+        if x[:2] != 'Xz':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Xz')
@@ -19516,7 +19516,7 @@ def decrypt_Xz():
 def decrypt_XA():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'XA':
+        if x[:2] != 'XA':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -XA')
@@ -19530,7 +19530,7 @@ def decrypt_XA():
 def decrypt_XB():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'XB':
+        if x[:2] != 'XB':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -XB')
@@ -19544,7 +19544,7 @@ def decrypt_XB():
 def decrypt_XD():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'XD':
+        if x[:2] != 'XD':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -XD')
@@ -19558,7 +19558,7 @@ def decrypt_XD():
 def decrypt_XF():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'XF':
+        if x[:2] != 'XF':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -XF')
@@ -19572,7 +19572,7 @@ def decrypt_XF():
 def decrypt_XH():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'XH':
+        if x[:2] != 'XH':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -XH')
@@ -19586,7 +19586,7 @@ def decrypt_XH():
 def decrypt_XJ():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'XJ':
+        if x[:2] != 'XJ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -XJ')
@@ -19600,7 +19600,7 @@ def decrypt_XJ():
 def decrypt_XL():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'XL':
+        if x[:2] != 'XL':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -XL')
@@ -19614,7 +19614,7 @@ def decrypt_XL():
 def decrypt_XN():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'XN':
+        if x[:2] != 'XN':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -XN')
@@ -19628,7 +19628,7 @@ def decrypt_XN():
 def decrypt_XP():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'XP':
+        if x[:2] != 'XP':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -XP')
@@ -19642,7 +19642,7 @@ def decrypt_XP():
 def decrypt_XR():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'XR':
+        if x[:2] != 'XR':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -XR')
@@ -19656,7 +19656,7 @@ def decrypt_XR():
 def decrypt_XT():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'XT':
+        if x[:2] != 'XT':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -XT')
@@ -19670,7 +19670,7 @@ def decrypt_XT():
 def decrypt_XV():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'XV':
+        if x[:2] != 'XV':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -XV')
@@ -19684,7 +19684,7 @@ def decrypt_XV():
 def decrypt_XX():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'XX':
+        if x[:2] != 'XX':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -XX')
@@ -19698,7 +19698,7 @@ def decrypt_XX():
 def decrypt_XZ():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'XZ':
+        if x[:2] != 'XZ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -XZ')
@@ -19712,7 +19712,7 @@ def decrypt_XZ():
 def decrypt_X0():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'X0':
+        if x[:2] != 'X0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -X0')
@@ -19726,7 +19726,7 @@ def decrypt_X0():
 def decrypt_X2():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'X2':
+        if x[:2] != 'X2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -X2')
@@ -19740,7 +19740,7 @@ def decrypt_X2():
 def decrypt_X4():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'X4':
+        if x[:2] != 'X4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -X4')
@@ -19754,7 +19754,7 @@ def decrypt_X4():
 def decrypt_X6():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'X6':
+        if x[:2] != 'X6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -X6')
@@ -19768,7 +19768,7 @@ def decrypt_X6():
 def decrypt_X8():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'X8':
+        if x[:2] != 'X8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -X8')
@@ -19782,7 +19782,7 @@ def decrypt_X8():
 def decrypt_Xexcl():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'X!':
+        if x[:2] != 'X!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -X!')
@@ -19796,7 +19796,7 @@ def decrypt_Xexcl():
 def decrypt_Xdquote():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'X"':
+        if x[:2] != 'X"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -X"')
@@ -19810,7 +19810,7 @@ def decrypt_Xdquote():
 def decrypt_Xdoll():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'X$':
+        if x[:2] != 'X$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -X$')
@@ -19824,7 +19824,7 @@ def decrypt_Xdoll():
 def decrypt_Xand():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'X&':
+        if x[:2] != 'X&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -X&')
@@ -19838,7 +19838,7 @@ def decrypt_Xand():
 def decrypt_Xquote():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'X\'':
+        if x[:2] != 'X\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -X\'')
@@ -19852,7 +19852,7 @@ def decrypt_Xquote():
 def decrypt_Xpar():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'X(':
+        if x[:2] != 'X(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -X(')
@@ -19866,7 +19866,7 @@ def decrypt_Xpar():
 def decrypt_Xast():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'X*':
+        if x[:2] != 'X*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -X*')
@@ -19880,7 +19880,7 @@ def decrypt_Xast():
 def decrypt_Xvir():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'X,':
+        if x[:2] != 'X,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -X,')
@@ -19894,7 +19894,7 @@ def decrypt_Xvir():
 def decrypt_Xpp():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'X.':
+        if x[:2] != 'X.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -X.')
@@ -19908,7 +19908,7 @@ def decrypt_Xpp():
 def decrypt_Xtp():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'X:':
+        if x[:2] != 'X:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -X:')
@@ -19922,7 +19922,7 @@ def decrypt_Xtp():
 def decrypt_Xless():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'X<':
+        if x[:2] != 'X<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -X<')
@@ -19936,7 +19936,7 @@ def decrypt_Xless():
 def decrypt_Xmore():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'X>':
+        if x[:2] != 'X>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -X>')
@@ -19950,7 +19950,7 @@ def decrypt_Xmore():
 def decrypt_Xaro():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'X@':
+        if x[:2] != 'X@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -X@')
@@ -19964,7 +19964,7 @@ def decrypt_Xaro():
 def decrypt_Xcroc():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'X[':
+        if x[:2] != 'X[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -X[')
@@ -19978,7 +19978,7 @@ def decrypt_Xcroc():
 def decrypt_Xbsl():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'X\\':
+        if x[:2] != 'X\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -X\\')
@@ -19992,7 +19992,7 @@ def decrypt_Xbsl():
 def decrypt_Xcirc():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'X^':
+        if x[:2] != 'X^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -X^')
@@ -20006,7 +20006,7 @@ def decrypt_Xcirc():
 def decrypt_Xesp():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'X`':
+        if x[:2] != 'X`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -X`')
@@ -20020,7 +20020,7 @@ def decrypt_Xesp():
 def decrypt_Xcr():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'X{':
+        if x[:2] != 'X{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -X{')
@@ -20034,7 +20034,7 @@ def decrypt_Xcr():
 def decrypt_Xhl():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'X|':
+        if x[:2] != 'X|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -X|')
@@ -20048,7 +20048,7 @@ def decrypt_Xhl():
 def decrypt_Xtild():
     i = 0
     for x in map(''.join, itertools.product('XabdfhjlnprtvxzABDFHJLNPRTVZ02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'X~':
+        if x[:2] != 'X~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -X~')
@@ -20062,7 +20062,7 @@ def decrypt_Xtild():
 def decrypt_Za():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Za':
+        if x[:2] != 'Za':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Za')
@@ -20076,7 +20076,7 @@ def decrypt_Za():
 def decrypt_Zb():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Zb':
+        if x[:2] != 'Zb':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Zb')
@@ -20090,7 +20090,7 @@ def decrypt_Zb():
 def decrypt_Zd():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Zd':
+        if x[:2] != 'Zd':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Zd')
@@ -20104,7 +20104,7 @@ def decrypt_Zd():
 def decrypt_Zf():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Zf':
+        if x[:2] != 'Zf':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Zf')
@@ -20118,7 +20118,7 @@ def decrypt_Zf():
 def decrypt_Zh():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Zh':
+        if x[:2] != 'Zh':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Zh')
@@ -20132,7 +20132,7 @@ def decrypt_Zh():
 def decrypt_Zj():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Zj':
+        if x[:2] != 'Zj':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Zj')
@@ -20146,7 +20146,7 @@ def decrypt_Zj():
 def decrypt_Zl():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Zl':
+        if x[:2] != 'Zl':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Zl')
@@ -20160,7 +20160,7 @@ def decrypt_Zl():
 def decrypt_Zn():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Zn':
+        if x[:2] != 'Zn':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Zn')
@@ -20174,7 +20174,7 @@ def decrypt_Zn():
 def decrypt_Zp():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Zp':
+        if x[:2] != 'Zp':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Zp')
@@ -20188,7 +20188,7 @@ def decrypt_Zp():
 def decrypt_Zr():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Zr':
+        if x[:2] != 'Zr':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Zr')
@@ -20202,7 +20202,7 @@ def decrypt_Zr():
 def decrypt_Zt():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Zt':
+        if x[:2] != 'Zt':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Zt')
@@ -20216,7 +20216,7 @@ def decrypt_Zt():
 def decrypt_Zv():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Zv':
+        if x[:2] != 'Zv':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Zv')
@@ -20230,7 +20230,7 @@ def decrypt_Zv():
 def decrypt_Zx():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Zx':
+        if x[:2] != 'Zx':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Zx')
@@ -20244,7 +20244,7 @@ def decrypt_Zx():
 def decrypt_Zz():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Zz':
+        if x[:2] != 'Zz':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Zz')
@@ -20258,7 +20258,7 @@ def decrypt_Zz():
 def decrypt_ZA():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'ZA':
+        if x[:2] != 'ZA':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -ZA')
@@ -20272,7 +20272,7 @@ def decrypt_ZA():
 def decrypt_ZB():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'ZB':
+        if x[:2] != 'ZB':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -ZB')
@@ -20286,7 +20286,7 @@ def decrypt_ZB():
 def decrypt_ZD():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'ZD':
+        if x[:2] != 'ZD':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -ZD')
@@ -20300,7 +20300,7 @@ def decrypt_ZD():
 def decrypt_ZF():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'ZF':
+        if x[:2] != 'ZF':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -ZF')
@@ -20314,7 +20314,7 @@ def decrypt_ZF():
 def decrypt_ZH():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'ZH':
+        if x[:2] != 'ZH':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -ZH')
@@ -20328,7 +20328,7 @@ def decrypt_ZH():
 def decrypt_ZJ():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'ZJ':
+        if x[:2] != 'ZJ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -ZJ')
@@ -20342,7 +20342,7 @@ def decrypt_ZJ():
 def decrypt_ZL():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'ZL':
+        if x[:2] != 'ZL':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -ZL')
@@ -20356,7 +20356,7 @@ def decrypt_ZL():
 def decrypt_ZN():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'ZN':
+        if x[:2] != 'ZN':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -ZN')
@@ -20370,7 +20370,7 @@ def decrypt_ZN():
 def decrypt_ZP():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'ZP':
+        if x[:2] != 'ZP':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -ZP')
@@ -20384,7 +20384,7 @@ def decrypt_ZP():
 def decrypt_ZR():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'ZR':
+        if x[:2] != 'ZR':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -ZR')
@@ -20398,7 +20398,7 @@ def decrypt_ZR():
 def decrypt_ZT():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'ZT':
+        if x[:2] != 'ZT':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -ZT')
@@ -20412,7 +20412,7 @@ def decrypt_ZT():
 def decrypt_ZV():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'ZV':
+        if x[:2] != 'ZV':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -ZV')
@@ -20426,7 +20426,7 @@ def decrypt_ZV():
 def decrypt_ZX():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'ZX':
+        if x[:2] != 'ZX':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -ZX')
@@ -20440,7 +20440,7 @@ def decrypt_ZX():
 def decrypt_ZZ():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'ZZ':
+        if x[:2] != 'ZZ':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -ZZ')
@@ -20454,7 +20454,7 @@ def decrypt_ZZ():
 def decrypt_Z0():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Z0':
+        if x[:2] != 'Z0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Z0')
@@ -20468,7 +20468,7 @@ def decrypt_Z0():
 def decrypt_Z2():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Z2':
+        if x[:2] != 'Z2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Z2')
@@ -20482,7 +20482,7 @@ def decrypt_Z2():
 def decrypt_Z4():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Z4':
+        if x[:2] != 'Z4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Z4')
@@ -20496,7 +20496,7 @@ def decrypt_Z4():
 def decrypt_Z6():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Z6':
+        if x[:2] != 'Z6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Z6')
@@ -20510,7 +20510,7 @@ def decrypt_Z6():
 def decrypt_Z8():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Z8':
+        if x[:2] != 'Z8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Z8')
@@ -20524,7 +20524,7 @@ def decrypt_Z8():
 def decrypt_Zexcl():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Z!':
+        if x[:2] != 'Z!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Z!')
@@ -20538,7 +20538,7 @@ def decrypt_Zexcl():
 def decrypt_Zdquote():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Z"':
+        if x[:2] != 'Z"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Z"')
@@ -20552,7 +20552,7 @@ def decrypt_Zdquote():
 def decrypt_Zdoll():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Z$':
+        if x[:2] != 'Z$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Z$')
@@ -20566,7 +20566,7 @@ def decrypt_Zdoll():
 def decrypt_Zand():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Z&':
+        if x[:2] != 'Z&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Z&')
@@ -20580,7 +20580,7 @@ def decrypt_Zand():
 def decrypt_Zquote():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Z\'':
+        if x[:2] != 'Z\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Z\'')
@@ -20594,7 +20594,7 @@ def decrypt_Zquote():
 def decrypt_Zpar():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Z(':
+        if x[:2] != 'Z(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Z(')
@@ -20608,7 +20608,7 @@ def decrypt_Zpar():
 def decrypt_Zast():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Z*':
+        if x[:2] != 'Z*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Z*')
@@ -20622,7 +20622,7 @@ def decrypt_Zast():
 def decrypt_Zvir():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Z,':
+        if x[:2] != 'Z,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Z,')
@@ -20636,7 +20636,7 @@ def decrypt_Zvir():
 def decrypt_Zpp():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Z.':
+        if x[:2] != 'Z.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Z.')
@@ -20650,7 +20650,7 @@ def decrypt_Zpp():
 def decrypt_Ztp():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Z:':
+        if x[:2] != 'Z:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Z:')
@@ -20664,7 +20664,7 @@ def decrypt_Ztp():
 def decrypt_Zless():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Z<':
+        if x[:2] != 'Z<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Z<')
@@ -20678,7 +20678,7 @@ def decrypt_Zless():
 def decrypt_Zmore():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Z>':
+        if x[:2] != 'Z>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Z>')
@@ -20692,7 +20692,7 @@ def decrypt_Zmore():
 def decrypt_Zaro():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Z@':
+        if x[:2] != 'Z@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Z@')
@@ -20706,7 +20706,7 @@ def decrypt_Zaro():
 def decrypt_Zcroc():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Z[':
+        if x[:2] != 'Z[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Z[')
@@ -20720,7 +20720,7 @@ def decrypt_Zcroc():
 def decrypt_Zbsl():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Z\\':
+        if x[:2] != 'Z\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Z\\')
@@ -20734,7 +20734,7 @@ def decrypt_Zbsl():
 def decrypt_Zcirc():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Z^':
+        if x[:2] != 'Z^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Z^')
@@ -20748,7 +20748,7 @@ def decrypt_Zcirc():
 def decrypt_Zesp():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Z`':
+        if x[:2] != 'Z`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Z`')
@@ -20762,7 +20762,7 @@ def decrypt_Zesp():
 def decrypt_Zcr():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Z{':
+        if x[:2] != 'Z{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Z{')
@@ -20776,7 +20776,7 @@ def decrypt_Zcr():
 def decrypt_Zhl():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Z|':
+        if x[:2] != 'Z|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Z|')
@@ -20790,7 +20790,7 @@ def decrypt_Zhl():
 def decrypt_Ztild():
     i = 0
     for x in map(''.join, itertools.product('ZabdfhjlnprtvxzABDFHJLNPRTVX02468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'Z~':
+        if x[:2] != 'Z~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -Z~')
@@ -20804,7 +20804,7 @@ def decrypt_Ztild():
 def decrypt_0a():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0a':
+        if x[:2] != '0a':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0a')
@@ -20818,7 +20818,7 @@ def decrypt_0a():
 def decrypt_0b():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0b':
+        if x[:2] != '0b':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0b')
@@ -20832,7 +20832,7 @@ def decrypt_0b():
 def decrypt_0d():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0d':
+        if x[:2] != '0d':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0d')
@@ -20846,7 +20846,7 @@ def decrypt_0d():
 def decrypt_0f():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0f':
+        if x[:2] != '0f':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0f')
@@ -20860,7 +20860,7 @@ def decrypt_0f():
 def decrypt_0h():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0h':
+        if x[:2] != '0h':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0h')
@@ -20874,7 +20874,7 @@ def decrypt_0h():
 def decrypt_0j():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0j':
+        if x[:2] != '0j':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0j')
@@ -20888,7 +20888,7 @@ def decrypt_0j():
 def decrypt_0l():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0l':
+        if x[:2] != '0l':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0l')
@@ -20902,7 +20902,7 @@ def decrypt_0l():
 def decrypt_0n():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0n':
+        if x[:2] != '0n':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0n')
@@ -20916,7 +20916,7 @@ def decrypt_0n():
 def decrypt_0p():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0p':
+        if x[:2] != '0p':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0p')
@@ -20930,7 +20930,7 @@ def decrypt_0p():
 def decrypt_0r():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0r':
+        if x[:2] != '0r':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0r')
@@ -20944,7 +20944,7 @@ def decrypt_0r():
 def decrypt_0t():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0t':
+        if x[:2] != '0t':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0t')
@@ -20958,7 +20958,7 @@ def decrypt_0t():
 def decrypt_0v():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0v':
+        if x[:2] != '0v':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0v')
@@ -20972,7 +20972,7 @@ def decrypt_0v():
 def decrypt_0x():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0x':
+        if x[:2] != '0x':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0x')
@@ -20986,7 +20986,7 @@ def decrypt_0x():
 def decrypt_0z():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0z':
+        if x[:2] != '0z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0z')
@@ -21000,7 +21000,7 @@ def decrypt_0z():
 def decrypt_0A():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0A':
+        if x[:2] != '0A':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0A')
@@ -21014,7 +21014,7 @@ def decrypt_0A():
 def decrypt_0B():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0B':
+        if x[:2] != '0B':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0B')
@@ -21028,7 +21028,7 @@ def decrypt_0B():
 def decrypt_0D():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0D':
+        if x[:2] != '0D':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0D')
@@ -21042,7 +21042,7 @@ def decrypt_0D():
 def decrypt_0F():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0F':
+        if x[:2] != '0F':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0F')
@@ -21056,7 +21056,7 @@ def decrypt_0F():
 def decrypt_0H():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0H':
+        if x[:2] != '0H':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0H')
@@ -21070,7 +21070,7 @@ def decrypt_0H():
 def decrypt_0J():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0J':
+        if x[:2] != '0J':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0J')
@@ -21084,7 +21084,7 @@ def decrypt_0J():
 def decrypt_0L():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0L':
+        if x[:2] != '0L':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0L')
@@ -21098,7 +21098,7 @@ def decrypt_0L():
 def decrypt_0N():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0N':
+        if x[:2] != '0N':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0N')
@@ -21112,7 +21112,7 @@ def decrypt_0N():
 def decrypt_0P():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0P':
+        if x[:2] != '0P':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0P')
@@ -21126,7 +21126,7 @@ def decrypt_0P():
 def decrypt_0R():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0R':
+        if x[:2] != '0R':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0R')
@@ -21140,7 +21140,7 @@ def decrypt_0R():
 def decrypt_0T():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0T':
+        if x[:2] != '0T':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0T')
@@ -21154,7 +21154,7 @@ def decrypt_0T():
 def decrypt_0V():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0V':
+        if x[:2] != '0V':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0V')
@@ -21168,7 +21168,7 @@ def decrypt_0V():
 def decrypt_0X():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0X':
+        if x[:2] != '0X':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0X')
@@ -21182,7 +21182,7 @@ def decrypt_0X():
 def decrypt_0Z():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0Z':
+        if x[:2] != '0Z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0Z')
@@ -21196,7 +21196,7 @@ def decrypt_0Z():
 def decrypt_00():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '00':
+        if x[:2] != '00':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -00')
@@ -21210,7 +21210,7 @@ def decrypt_00():
 def decrypt_02():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '02':
+        if x[:2] != '02':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -02')
@@ -21224,7 +21224,7 @@ def decrypt_02():
 def decrypt_04():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '04':
+        if x[:2] != '04':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -04')
@@ -21238,7 +21238,7 @@ def decrypt_04():
 def decrypt_06():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '06':
+        if x[:2] != '06':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -06')
@@ -21252,7 +21252,7 @@ def decrypt_06():
 def decrypt_08():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '08':
+        if x[:2] != '08':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -08')
@@ -21266,7 +21266,7 @@ def decrypt_08():
 def decrypt_0excl():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0!':
+        if x[:2] != '0!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0!')
@@ -21280,7 +21280,7 @@ def decrypt_0excl():
 def decrypt_0dquote():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0"':
+        if x[:2] != '0"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0"')
@@ -21294,7 +21294,7 @@ def decrypt_0dquote():
 def decrypt_0doll():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0$':
+        if x[:2] != '0$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0$')
@@ -21308,7 +21308,7 @@ def decrypt_0doll():
 def decrypt_0and():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0&':
+        if x[:2] != '0&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0&')
@@ -21322,7 +21322,7 @@ def decrypt_0and():
 def decrypt_0quote():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0\'':
+        if x[:2] != '0\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0\'')
@@ -21336,7 +21336,7 @@ def decrypt_0quote():
 def decrypt_0par():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0(':
+        if x[:2] != '0(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0(')
@@ -21350,7 +21350,7 @@ def decrypt_0par():
 def decrypt_0ast():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0*':
+        if x[:2] != '0*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0*')
@@ -21364,7 +21364,7 @@ def decrypt_0ast():
 def decrypt_0vir():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0,':
+        if x[:2] != '0,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0,')
@@ -21378,7 +21378,7 @@ def decrypt_0vir():
 def decrypt_0pp():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0.':
+        if x[:2] != '0.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0.')
@@ -21392,7 +21392,7 @@ def decrypt_0pp():
 def decrypt_0tp():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0:':
+        if x[:2] != '0:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0:')
@@ -21406,7 +21406,7 @@ def decrypt_0tp():
 def decrypt_0less():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0<':
+        if x[:2] != '0<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0<')
@@ -21420,7 +21420,7 @@ def decrypt_0less():
 def decrypt_0more():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0>':
+        if x[:2] != '0>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0>')
@@ -21434,7 +21434,7 @@ def decrypt_0more():
 def decrypt_0aro():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0@':
+        if x[:2] != '0@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0@')
@@ -21448,7 +21448,7 @@ def decrypt_0aro():
 def decrypt_0croc():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0[':
+        if x[:2] != '0[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0[')
@@ -21462,7 +21462,7 @@ def decrypt_0croc():
 def decrypt_0bsl():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0\\':
+        if x[:2] != '0\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0\\')
@@ -21476,7 +21476,7 @@ def decrypt_0bsl():
 def decrypt_0circ():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0^':
+        if x[:2] != '0^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0^')
@@ -21490,7 +21490,7 @@ def decrypt_0circ():
 def decrypt_0esp():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0`':
+        if x[:2] != '0`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0`')
@@ -21504,7 +21504,7 @@ def decrypt_0esp():
 def decrypt_0cr():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0{':
+        if x[:2] != '0{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0{')
@@ -21518,7 +21518,7 @@ def decrypt_0cr():
 def decrypt_0hl():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0|':
+        if x[:2] != '0|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0|')
@@ -21532,7 +21532,7 @@ def decrypt_0hl():
 def decrypt_0tild():
     i = 0
     for x in map(''.join, itertools.product('0abdfhjlnprtvxzABDFHJLNPRTVXZ2468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '0~':
+        if x[:2] != '0~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -0~')
@@ -21546,7 +21546,7 @@ def decrypt_0tild():
 def decrypt_2a():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2a':
+        if x[:2] != '2a':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2a')
@@ -21560,7 +21560,7 @@ def decrypt_2a():
 def decrypt_2b():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2b':
+        if x[:2] != '2b':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2b')
@@ -21574,7 +21574,7 @@ def decrypt_2b():
 def decrypt_2d():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2d':
+        if x[:2] != '2d':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2d')
@@ -21588,7 +21588,7 @@ def decrypt_2d():
 def decrypt_2f():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2f':
+        if x[:2] != '2f':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2f')
@@ -21602,7 +21602,7 @@ def decrypt_2f():
 def decrypt_2h():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2h':
+        if x[:2] != '2h':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2h')
@@ -21616,7 +21616,7 @@ def decrypt_2h():
 def decrypt_2j():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2j':
+        if x[:2] != '2j':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2j')
@@ -21630,7 +21630,7 @@ def decrypt_2j():
 def decrypt_2l():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2l':
+        if x[:2] != '2l':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2l')
@@ -21644,7 +21644,7 @@ def decrypt_2l():
 def decrypt_2n():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2n':
+        if x[:2] != '2n':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2n')
@@ -21658,7 +21658,7 @@ def decrypt_2n():
 def decrypt_2p():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2p':
+        if x[:2] != '2p':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2p')
@@ -21672,7 +21672,7 @@ def decrypt_2p():
 def decrypt_2r():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2r':
+        if x[:2] != '2r':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2r')
@@ -21686,7 +21686,7 @@ def decrypt_2r():
 def decrypt_2t():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2t':
+        if x[:2] != '2t':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2t')
@@ -21700,7 +21700,7 @@ def decrypt_2t():
 def decrypt_2v():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2v':
+        if x[:2] != '2v':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2v')
@@ -21714,7 +21714,7 @@ def decrypt_2v():
 def decrypt_2x():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2x':
+        if x[:2] != '2x':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2x')
@@ -21728,7 +21728,7 @@ def decrypt_2x():
 def decrypt_2z():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2z':
+        if x[:2] != '2z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2z')
@@ -21742,7 +21742,7 @@ def decrypt_2z():
 def decrypt_2A():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2A':
+        if x[:2] != '2A':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2A')
@@ -21756,7 +21756,7 @@ def decrypt_2A():
 def decrypt_2B():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2B':
+        if x[:2] != '2B':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2B')
@@ -21770,7 +21770,7 @@ def decrypt_2B():
 def decrypt_2D():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2D':
+        if x[:2] != '2D':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2D')
@@ -21784,7 +21784,7 @@ def decrypt_2D():
 def decrypt_2F():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2F':
+        if x[:2] != '2F':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2F')
@@ -21798,7 +21798,7 @@ def decrypt_2F():
 def decrypt_2H():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2H':
+        if x[:2] != '2H':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2H')
@@ -21812,7 +21812,7 @@ def decrypt_2H():
 def decrypt_2J():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2J':
+        if x[:2] != '2J':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2J')
@@ -21826,7 +21826,7 @@ def decrypt_2J():
 def decrypt_2L():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2L':
+        if x[:2] != '2L':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2L')
@@ -21840,7 +21840,7 @@ def decrypt_2L():
 def decrypt_2N():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2N':
+        if x[:2] != '2N':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2N')
@@ -21854,7 +21854,7 @@ def decrypt_2N():
 def decrypt_2P():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2P':
+        if x[:2] != '2P':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2P')
@@ -21868,7 +21868,7 @@ def decrypt_2P():
 def decrypt_2R():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2R':
+        if x[:2] != '2R':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2R')
@@ -21882,7 +21882,7 @@ def decrypt_2R():
 def decrypt_2T():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2T':
+        if x[:2] != '2T':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2T')
@@ -21896,7 +21896,7 @@ def decrypt_2T():
 def decrypt_2V():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2V':
+        if x[:2] != '2V':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2V')
@@ -21910,7 +21910,7 @@ def decrypt_2V():
 def decrypt_2X():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2X':
+        if x[:2] != '2X':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2X')
@@ -21924,7 +21924,7 @@ def decrypt_2X():
 def decrypt_2Z():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2Z':
+        if x[:2] != '2Z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2Z')
@@ -21938,7 +21938,7 @@ def decrypt_2Z():
 def decrypt_20():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '20':
+        if x[:2] != '20':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -20')
@@ -21952,7 +21952,7 @@ def decrypt_20():
 def decrypt_22():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '22':
+        if x[:2] != '22':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -22')
@@ -21966,7 +21966,7 @@ def decrypt_22():
 def decrypt_24():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '24':
+        if x[:2] != '24':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -24')
@@ -21980,7 +21980,7 @@ def decrypt_24():
 def decrypt_26():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '26':
+        if x[:2] != '26':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -26')
@@ -21994,7 +21994,7 @@ def decrypt_26():
 def decrypt_28():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '28':
+        if x[:2] != '28':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -28')
@@ -22008,7 +22008,7 @@ def decrypt_28():
 def decrypt_2excl():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2!':
+        if x[:2] != '2!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2!')
@@ -22022,7 +22022,7 @@ def decrypt_2excl():
 def decrypt_2dquote():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2"':
+        if x[:2] != '2"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2"')
@@ -22036,7 +22036,7 @@ def decrypt_2dquote():
 def decrypt_2doll():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2$':
+        if x[:2] != '2$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2$')
@@ -22050,7 +22050,7 @@ def decrypt_2doll():
 def decrypt_2and():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2&':
+        if x[:2] != '2&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2&')
@@ -22064,7 +22064,7 @@ def decrypt_2and():
 def decrypt_2quote():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2\'':
+        if x[:2] != '2\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2\'')
@@ -22078,7 +22078,7 @@ def decrypt_2quote():
 def decrypt_2par():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2(':
+        if x[:2] != '2(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2(')
@@ -22092,7 +22092,7 @@ def decrypt_2par():
 def decrypt_2ast():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2*':
+        if x[:2] != '2*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2*')
@@ -22106,7 +22106,7 @@ def decrypt_2ast():
 def decrypt_2vir():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2,':
+        if x[:2] != '2,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2,')
@@ -22120,7 +22120,7 @@ def decrypt_2vir():
 def decrypt_2pp():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2.':
+        if x[:2] != '2.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2.')
@@ -22134,7 +22134,7 @@ def decrypt_2pp():
 def decrypt_2tp():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2:':
+        if x[:2] != '2:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2:')
@@ -22148,7 +22148,7 @@ def decrypt_2tp():
 def decrypt_2less():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2<':
+        if x[:2] != '2<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2<')
@@ -22162,7 +22162,7 @@ def decrypt_2less():
 def decrypt_2more():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2>':
+        if x[:2] != '2>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2>')
@@ -22176,7 +22176,7 @@ def decrypt_2more():
 def decrypt_2aro():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2@':
+        if x[:2] != '2@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2@')
@@ -22190,7 +22190,7 @@ def decrypt_2aro():
 def decrypt_2croc():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2[':
+        if x[:2] != '2[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2[')
@@ -22204,7 +22204,7 @@ def decrypt_2croc():
 def decrypt_2bsl():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2\\':
+        if x[:2] != '2\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2\\')
@@ -22218,7 +22218,7 @@ def decrypt_2bsl():
 def decrypt_2circ():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2^':
+        if x[:2] != '2^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2^')
@@ -22232,7 +22232,7 @@ def decrypt_2circ():
 def decrypt_2esp():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2`':
+        if x[:2] != '2`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2`')
@@ -22246,7 +22246,7 @@ def decrypt_2esp():
 def decrypt_2cr():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2{':
+        if x[:2] != '2{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2{')
@@ -22260,7 +22260,7 @@ def decrypt_2cr():
 def decrypt_2hl():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2|':
+        if x[:2] != '2|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2|')
@@ -22274,7 +22274,7 @@ def decrypt_2hl():
 def decrypt_2tild():
     i = 0
     for x in map(''.join, itertools.product('2abdfhjlnprtvxzABDFHJLNPRTVXZ0468!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '2~':
+        if x[:2] != '2~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -2~')
@@ -22288,7 +22288,7 @@ def decrypt_2tild():
 def decrypt_4a():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4a':
+        if x[:2] != '4a':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4a')
@@ -22302,7 +22302,7 @@ def decrypt_4a():
 def decrypt_4b():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4b':
+        if x[:2] != '4b':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4b')
@@ -22316,7 +22316,7 @@ def decrypt_4b():
 def decrypt_4d():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4d':
+        if x[:2] != '4d':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4d')
@@ -22330,7 +22330,7 @@ def decrypt_4d():
 def decrypt_4f():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4f':
+        if x[:2] != '4f':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4f')
@@ -22344,7 +22344,7 @@ def decrypt_4f():
 def decrypt_4h():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4h':
+        if x[:2] != '4h':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4h')
@@ -22358,7 +22358,7 @@ def decrypt_4h():
 def decrypt_4j():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4j':
+        if x[:2] != '4j':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4j')
@@ -22372,7 +22372,7 @@ def decrypt_4j():
 def decrypt_4l():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4l':
+        if x[:2] != '4l':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4l')
@@ -22386,7 +22386,7 @@ def decrypt_4l():
 def decrypt_4n():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4n':
+        if x[:2] != '4n':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4n')
@@ -22400,7 +22400,7 @@ def decrypt_4n():
 def decrypt_4p():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4p':
+        if x[:2] != '4p':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4p')
@@ -22414,7 +22414,7 @@ def decrypt_4p():
 def decrypt_4r():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4r':
+        if x[:2] != '4r':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4r')
@@ -22428,7 +22428,7 @@ def decrypt_4r():
 def decrypt_4t():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4t':
+        if x[:2] != '4t':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4t')
@@ -22442,7 +22442,7 @@ def decrypt_4t():
 def decrypt_4v():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4v':
+        if x[:2] != '4v':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4v')
@@ -22456,7 +22456,7 @@ def decrypt_4v():
 def decrypt_4x():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4x':
+        if x[:2] != '4x':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4x')
@@ -22470,7 +22470,7 @@ def decrypt_4x():
 def decrypt_4z():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4z':
+        if x[:2] != '4z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4z')
@@ -22484,7 +22484,7 @@ def decrypt_4z():
 def decrypt_4A():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4A':
+        if x[:2] != '4A':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4A')
@@ -22498,7 +22498,7 @@ def decrypt_4A():
 def decrypt_4B():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4B':
+        if x[:2] != '4B':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4B')
@@ -22512,7 +22512,7 @@ def decrypt_4B():
 def decrypt_4D():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4D':
+        if x[:2] != '4D':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4D')
@@ -22526,7 +22526,7 @@ def decrypt_4D():
 def decrypt_4F():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4F':
+        if x[:2] != '4F':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4F')
@@ -22540,7 +22540,7 @@ def decrypt_4F():
 def decrypt_4H():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4H':
+        if x[:2] != '4H':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4H')
@@ -22554,7 +22554,7 @@ def decrypt_4H():
 def decrypt_4J():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4J':
+        if x[:2] != '4J':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4J')
@@ -22568,7 +22568,7 @@ def decrypt_4J():
 def decrypt_4L():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4L':
+        if x[:2] != '4L':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4L')
@@ -22582,7 +22582,7 @@ def decrypt_4L():
 def decrypt_4N():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4N':
+        if x[:2] != '4N':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4N')
@@ -22596,7 +22596,7 @@ def decrypt_4N():
 def decrypt_4P():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4P':
+        if x[:2] != '4P':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4P')
@@ -22610,7 +22610,7 @@ def decrypt_4P():
 def decrypt_4R():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4R':
+        if x[:2] != '4R':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4R')
@@ -22624,7 +22624,7 @@ def decrypt_4R():
 def decrypt_4T():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4T':
+        if x[:2] != '4T':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4T')
@@ -22638,7 +22638,7 @@ def decrypt_4T():
 def decrypt_4V():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4V':
+        if x[:2] != '4V':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4V')
@@ -22652,7 +22652,7 @@ def decrypt_4V():
 def decrypt_4X():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4X':
+        if x[:2] != '4X':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4X')
@@ -22666,7 +22666,7 @@ def decrypt_4X():
 def decrypt_4Z():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4Z':
+        if x[:2] != '4Z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4Z')
@@ -22680,7 +22680,7 @@ def decrypt_4Z():
 def decrypt_40():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '40':
+        if x[:2] != '40':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -40')
@@ -22694,7 +22694,7 @@ def decrypt_40():
 def decrypt_42():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '42':
+        if x[:2] != '42':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -42')
@@ -22708,7 +22708,7 @@ def decrypt_42():
 def decrypt_44():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '44':
+        if x[:2] != '44':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -44')
@@ -22722,7 +22722,7 @@ def decrypt_44():
 def decrypt_46():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '46':
+        if x[:2] != '46':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -46')
@@ -22736,7 +22736,7 @@ def decrypt_46():
 def decrypt_48():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '48':
+        if x[:2] != '48':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -48')
@@ -22750,7 +22750,7 @@ def decrypt_48():
 def decrypt_4excl():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4!':
+        if x[:2] != '4!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4!')
@@ -22764,7 +22764,7 @@ def decrypt_4excl():
 def decrypt_4dquote():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4"':
+        if x[:2] != '4"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4"')
@@ -22778,7 +22778,7 @@ def decrypt_4dquote():
 def decrypt_4doll():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4$':
+        if x[:2] != '4$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4$')
@@ -22792,7 +22792,7 @@ def decrypt_4doll():
 def decrypt_4and():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4&':
+        if x[:2] != '4&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4&')
@@ -22806,7 +22806,7 @@ def decrypt_4and():
 def decrypt_4quote():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4\'':
+        if x[:2] != '4\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4\'')
@@ -22820,7 +22820,7 @@ def decrypt_4quote():
 def decrypt_4par():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4(':
+        if x[:2] != '4(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4(')
@@ -22834,7 +22834,7 @@ def decrypt_4par():
 def decrypt_4ast():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4*':
+        if x[:2] != '4*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4*')
@@ -22848,7 +22848,7 @@ def decrypt_4ast():
 def decrypt_4vir():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4,':
+        if x[:2] != '4,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4,')
@@ -22862,7 +22862,7 @@ def decrypt_4vir():
 def decrypt_4pp():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4.':
+        if x[:2] != '4.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4.')
@@ -22876,7 +22876,7 @@ def decrypt_4pp():
 def decrypt_4tp():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4:':
+        if x[:2] != '4:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4:')
@@ -22890,7 +22890,7 @@ def decrypt_4tp():
 def decrypt_4less():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4<':
+        if x[:2] != '4<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4<')
@@ -22904,7 +22904,7 @@ def decrypt_4less():
 def decrypt_4more():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4>':
+        if x[:2] != '4>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4>')
@@ -22918,7 +22918,7 @@ def decrypt_4more():
 def decrypt_4aro():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4@':
+        if x[:2] != '4@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4@')
@@ -22932,7 +22932,7 @@ def decrypt_4aro():
 def decrypt_4croc():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4[':
+        if x[:2] != '4[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4[')
@@ -22946,7 +22946,7 @@ def decrypt_4croc():
 def decrypt_4bsl():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4\\':
+        if x[:2] != '4\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4\\')
@@ -22960,7 +22960,7 @@ def decrypt_4bsl():
 def decrypt_4circ():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4^':
+        if x[:2] != '4^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4^')
@@ -22974,7 +22974,7 @@ def decrypt_4circ():
 def decrypt_4esp():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4`':
+        if x[:2] != '4`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4`')
@@ -22988,7 +22988,7 @@ def decrypt_4esp():
 def decrypt_4cr():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4{':
+        if x[:2] != '4{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4{')
@@ -23002,7 +23002,7 @@ def decrypt_4cr():
 def decrypt_4hl():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4|':
+        if x[:2] != '4|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4|')
@@ -23016,7 +23016,7 @@ def decrypt_4hl():
 def decrypt_4tild():
     i = 0
     for x in map(''.join, itertools.product('4abdfhjlnprtvxzABDFHJLNPRTVXZ0268!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '4~':
+        if x[:2] != '4~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -4~')
@@ -23030,7 +23030,7 @@ def decrypt_4tild():
 def decrypt_6a():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6a':
+        if x[:2] != '6a':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6a')
@@ -23044,7 +23044,7 @@ def decrypt_6a():
 def decrypt_6b():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6b':
+        if x[:2] != '6b':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6b')
@@ -23058,7 +23058,7 @@ def decrypt_6b():
 def decrypt_6d():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6d':
+        if x[:2] != '6d':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6d')
@@ -23072,7 +23072,7 @@ def decrypt_6d():
 def decrypt_6f():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6f':
+        if x[:2] != '6f':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6f')
@@ -23086,7 +23086,7 @@ def decrypt_6f():
 def decrypt_6h():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6h':
+        if x[:2] != '6h':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6h')
@@ -23100,7 +23100,7 @@ def decrypt_6h():
 def decrypt_6j():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6j':
+        if x[:2] != '6j':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6j')
@@ -23114,7 +23114,7 @@ def decrypt_6j():
 def decrypt_6l():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6l':
+        if x[:2] != '6l':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6l')
@@ -23128,7 +23128,7 @@ def decrypt_6l():
 def decrypt_6n():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6n':
+        if x[:2] != '6n':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6n')
@@ -23142,7 +23142,7 @@ def decrypt_6n():
 def decrypt_6p():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6p':
+        if x[:2] != '6p':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6p')
@@ -23156,7 +23156,7 @@ def decrypt_6p():
 def decrypt_6r():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6r':
+        if x[:2] != '6r':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6r')
@@ -23170,7 +23170,7 @@ def decrypt_6r():
 def decrypt_6t():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6t':
+        if x[:2] != '6t':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6t')
@@ -23184,7 +23184,7 @@ def decrypt_6t():
 def decrypt_6v():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6v':
+        if x[:2] != '6v':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6v')
@@ -23198,7 +23198,7 @@ def decrypt_6v():
 def decrypt_6x():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6x':
+        if x[:2] != '6x':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6x')
@@ -23212,7 +23212,7 @@ def decrypt_6x():
 def decrypt_6z():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6z':
+        if x[:2] != '6z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6z')
@@ -23226,7 +23226,7 @@ def decrypt_6z():
 def decrypt_6A():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6A':
+        if x[:2] != '6A':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6A')
@@ -23240,7 +23240,7 @@ def decrypt_6A():
 def decrypt_6B():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6B':
+        if x[:2] != '6B':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6B')
@@ -23254,7 +23254,7 @@ def decrypt_6B():
 def decrypt_6D():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6D':
+        if x[:2] != '6D':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6D')
@@ -23268,7 +23268,7 @@ def decrypt_6D():
 def decrypt_6F():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6F':
+        if x[:2] != '6F':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6F')
@@ -23282,7 +23282,7 @@ def decrypt_6F():
 def decrypt_6H():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6H':
+        if x[:2] != '6H':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6H')
@@ -23296,7 +23296,7 @@ def decrypt_6H():
 def decrypt_6J():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6J':
+        if x[:2] != '6J':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6J')
@@ -23310,7 +23310,7 @@ def decrypt_6J():
 def decrypt_6L():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6L':
+        if x[:2] != '6L':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6L')
@@ -23324,7 +23324,7 @@ def decrypt_6L():
 def decrypt_6N():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6N':
+        if x[:2] != '6N':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6N')
@@ -23338,7 +23338,7 @@ def decrypt_6N():
 def decrypt_6P():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6P':
+        if x[:2] != '6P':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6P')
@@ -23352,7 +23352,7 @@ def decrypt_6P():
 def decrypt_6R():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6R':
+        if x[:2] != '6R':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6R')
@@ -23366,7 +23366,7 @@ def decrypt_6R():
 def decrypt_6T():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6T':
+        if x[:2] != '6T':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6T')
@@ -23380,7 +23380,7 @@ def decrypt_6T():
 def decrypt_6V():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6V':
+        if x[:2] != '6V':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6V')
@@ -23394,7 +23394,7 @@ def decrypt_6V():
 def decrypt_6X():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6X':
+        if x[:2] != '6X':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6X')
@@ -23408,7 +23408,7 @@ def decrypt_6X():
 def decrypt_6Z():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6Z':
+        if x[:2] != '6Z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6Z')
@@ -23422,7 +23422,7 @@ def decrypt_6Z():
 def decrypt_60():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '60':
+        if x[:2] != '60':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -60')
@@ -23436,7 +23436,7 @@ def decrypt_60():
 def decrypt_62():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '62':
+        if x[:2] != '62':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -62')
@@ -23450,7 +23450,7 @@ def decrypt_62():
 def decrypt_64():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '64':
+        if x[:2] != '64':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -64')
@@ -23464,7 +23464,7 @@ def decrypt_64():
 def decrypt_66():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '66':
+        if x[:2] != '66':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -66')
@@ -23478,7 +23478,7 @@ def decrypt_66():
 def decrypt_68():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '68':
+        if x[:2] != '68':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -68')
@@ -23492,7 +23492,7 @@ def decrypt_68():
 def decrypt_6excl():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6!':
+        if x[:2] != '6!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6!')
@@ -23506,7 +23506,7 @@ def decrypt_6excl():
 def decrypt_6dquote():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6"':
+        if x[:2] != '6"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6"')
@@ -23520,7 +23520,7 @@ def decrypt_6dquote():
 def decrypt_6doll():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6$':
+        if x[:2] != '6$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6$')
@@ -23534,7 +23534,7 @@ def decrypt_6doll():
 def decrypt_6and():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6&':
+        if x[:2] != '6&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6&')
@@ -23548,7 +23548,7 @@ def decrypt_6and():
 def decrypt_6quote():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6\'':
+        if x[:2] != '6\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6\'')
@@ -23562,7 +23562,7 @@ def decrypt_6quote():
 def decrypt_6par():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6(':
+        if x[:2] != '6(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6(')
@@ -23576,7 +23576,7 @@ def decrypt_6par():
 def decrypt_6ast():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6*':
+        if x[:2] != '6*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6*')
@@ -23590,7 +23590,7 @@ def decrypt_6ast():
 def decrypt_6vir():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6,':
+        if x[:2] != '6,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6,')
@@ -23604,7 +23604,7 @@ def decrypt_6vir():
 def decrypt_6pp():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6.':
+        if x[:2] != '6.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6.')
@@ -23618,7 +23618,7 @@ def decrypt_6pp():
 def decrypt_6tp():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6:':
+        if x[:2] != '6:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6:')
@@ -23632,7 +23632,7 @@ def decrypt_6tp():
 def decrypt_6less():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6<':
+        if x[:2] != '6<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6<')
@@ -23646,7 +23646,7 @@ def decrypt_6less():
 def decrypt_6more():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6>':
+        if x[:2] != '6>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6>')
@@ -23660,7 +23660,7 @@ def decrypt_6more():
 def decrypt_6aro():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6@':
+        if x[:2] != '6@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6@')
@@ -23674,7 +23674,7 @@ def decrypt_6aro():
 def decrypt_6croc():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6[':
+        if x[:2] != '6[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6[')
@@ -23688,7 +23688,7 @@ def decrypt_6croc():
 def decrypt_6bsl():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6\\':
+        if x[:2] != '6\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6\\')
@@ -23702,7 +23702,7 @@ def decrypt_6bsl():
 def decrypt_6circ():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6^':
+        if x[:2] != '6^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6^')
@@ -23716,7 +23716,7 @@ def decrypt_6circ():
 def decrypt_6esp():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6`':
+        if x[:2] != '6`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6`')
@@ -23730,7 +23730,7 @@ def decrypt_6esp():
 def decrypt_6cr():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6{':
+        if x[:2] != '6{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6{')
@@ -23744,7 +23744,7 @@ def decrypt_6cr():
 def decrypt_6hl():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6|':
+        if x[:2] != '6|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6|')
@@ -23758,7 +23758,7 @@ def decrypt_6hl():
 def decrypt_6tild():
     i = 0
     for x in map(''.join, itertools.product('6abdfhjlnprtvxzABDFHJLNPRTVXZ0248!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '6~':
+        if x[:2] != '6~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -6~')
@@ -23772,7 +23772,7 @@ def decrypt_6tild():
 def decrypt_8a():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8a':
+        if x[:2] != '8a':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8a')
@@ -23786,7 +23786,7 @@ def decrypt_8a():
 def decrypt_8b():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8b':
+        if x[:2] != '8b':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8b')
@@ -23800,7 +23800,7 @@ def decrypt_8b():
 def decrypt_8d():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8d':
+        if x[:2] != '8d':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8d')
@@ -23814,7 +23814,7 @@ def decrypt_8d():
 def decrypt_8f():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8f':
+        if x[:2] != '8f':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8f')
@@ -23828,7 +23828,7 @@ def decrypt_8f():
 def decrypt_8h():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8h':
+        if x[:2] != '8h':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8h')
@@ -23842,7 +23842,7 @@ def decrypt_8h():
 def decrypt_8j():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8j':
+        if x[:2] != '8j':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8j')
@@ -23856,7 +23856,7 @@ def decrypt_8j():
 def decrypt_8l():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8l':
+        if x[:2] != '8l':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8l')
@@ -23870,7 +23870,7 @@ def decrypt_8l():
 def decrypt_8n():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8n':
+        if x[:2] != '8n':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8n')
@@ -23884,7 +23884,7 @@ def decrypt_8n():
 def decrypt_8p():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8p':
+        if x[:2] != '8p':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8p')
@@ -23898,7 +23898,7 @@ def decrypt_8p():
 def decrypt_8r():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8r':
+        if x[:2] != '8r':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8r')
@@ -23912,7 +23912,7 @@ def decrypt_8r():
 def decrypt_8t():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8t':
+        if x[:2] != '8t':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8t')
@@ -23926,7 +23926,7 @@ def decrypt_8t():
 def decrypt_8v():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8v':
+        if x[:2] != '8v':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8v')
@@ -23940,7 +23940,7 @@ def decrypt_8v():
 def decrypt_8x():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8x':
+        if x[:2] != '8x':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8x')
@@ -23954,7 +23954,7 @@ def decrypt_8x():
 def decrypt_8z():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8z':
+        if x[:2] != '8z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8z')
@@ -23968,7 +23968,7 @@ def decrypt_8z():
 def decrypt_8A():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8A':
+        if x[:2] != '8A':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8A')
@@ -23982,7 +23982,7 @@ def decrypt_8A():
 def decrypt_8B():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8B':
+        if x[:2] != '8B':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8B')
@@ -23996,7 +23996,7 @@ def decrypt_8B():
 def decrypt_8D():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8D':
+        if x[:2] != '8D':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8D')
@@ -24010,7 +24010,7 @@ def decrypt_8D():
 def decrypt_8F():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8F':
+        if x[:2] != '8F':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8F')
@@ -24024,7 +24024,7 @@ def decrypt_8F():
 def decrypt_8H():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8H':
+        if x[:2] != '8H':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8H')
@@ -24038,7 +24038,7 @@ def decrypt_8H():
 def decrypt_8J():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8J':
+        if x[:2] != '8J':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8J')
@@ -24052,7 +24052,7 @@ def decrypt_8J():
 def decrypt_8L():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8L':
+        if x[:2] != '8L':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8L')
@@ -24066,7 +24066,7 @@ def decrypt_8L():
 def decrypt_8N():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8N':
+        if x[:2] != '8N':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8N')
@@ -24080,7 +24080,7 @@ def decrypt_8N():
 def decrypt_8P():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8P':
+        if x[:2] != '8P':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8P')
@@ -24094,7 +24094,7 @@ def decrypt_8P():
 def decrypt_8R():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8R':
+        if x[:2] != '8R':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8R')
@@ -24108,7 +24108,7 @@ def decrypt_8R():
 def decrypt_8T():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8T':
+        if x[:2] != '8T':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8T')
@@ -24122,7 +24122,7 @@ def decrypt_8T():
 def decrypt_8V():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8V':
+        if x[:2] != '8V':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8V')
@@ -24136,7 +24136,7 @@ def decrypt_8V():
 def decrypt_8X():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8X':
+        if x[:2] != '8X':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8X')
@@ -24150,7 +24150,7 @@ def decrypt_8X():
 def decrypt_8Z():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8Z':
+        if x[:2] != '8Z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8Z')
@@ -24164,7 +24164,7 @@ def decrypt_8Z():
 def decrypt_80():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '80':
+        if x[:2] != '80':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -80')
@@ -24178,7 +24178,7 @@ def decrypt_80():
 def decrypt_82():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '82':
+        if x[:2] != '82':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -82')
@@ -24192,7 +24192,7 @@ def decrypt_82():
 def decrypt_84():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '84':
+        if x[:2] != '84':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -84')
@@ -24206,7 +24206,7 @@ def decrypt_84():
 def decrypt_86():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '86':
+        if x[:2] != '86':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -86')
@@ -24220,7 +24220,7 @@ def decrypt_86():
 def decrypt_88():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '88':
+        if x[:2] != '88':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -88')
@@ -24234,7 +24234,7 @@ def decrypt_88():
 def decrypt_8excl():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8!':
+        if x[:2] != '8!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8!')
@@ -24248,7 +24248,7 @@ def decrypt_8excl():
 def decrypt_8dquote():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8"':
+        if x[:2] != '8"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8"')
@@ -24262,7 +24262,7 @@ def decrypt_8dquote():
 def decrypt_8doll():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8$':
+        if x[:2] != '8$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8$')
@@ -24276,7 +24276,7 @@ def decrypt_8doll():
 def decrypt_8and():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8&':
+        if x[:2] != '8&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8&')
@@ -24290,7 +24290,7 @@ def decrypt_8and():
 def decrypt_8quote():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8\'':
+        if x[:2] != '8\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8\'')
@@ -24304,7 +24304,7 @@ def decrypt_8quote():
 def decrypt_8par():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8(':
+        if x[:2] != '8(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8(')
@@ -24318,7 +24318,7 @@ def decrypt_8par():
 def decrypt_8ast():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8*':
+        if x[:2] != '8*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8*')
@@ -24332,7 +24332,7 @@ def decrypt_8ast():
 def decrypt_8vir():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8,':
+        if x[:2] != '8,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8,')
@@ -24346,7 +24346,7 @@ def decrypt_8vir():
 def decrypt_8pp():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8.':
+        if x[:2] != '8.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8.')
@@ -24360,7 +24360,7 @@ def decrypt_8pp():
 def decrypt_8tp():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8:':
+        if x[:2] != '8:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8:')
@@ -24374,7 +24374,7 @@ def decrypt_8tp():
 def decrypt_8less():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8<':
+        if x[:2] != '8<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8<')
@@ -24388,7 +24388,7 @@ def decrypt_8less():
 def decrypt_8more():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8>':
+        if x[:2] != '8>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8>')
@@ -24402,7 +24402,7 @@ def decrypt_8more():
 def decrypt_8aro():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8@':
+        if x[:2] != '8@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8@')
@@ -24416,7 +24416,7 @@ def decrypt_8aro():
 def decrypt_8croc():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8[':
+        if x[:2] != '8[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8[')
@@ -24430,7 +24430,7 @@ def decrypt_8croc():
 def decrypt_8bsl():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8\\':
+        if x[:2] != '8\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8\\')
@@ -24444,7 +24444,7 @@ def decrypt_8bsl():
 def decrypt_8circ():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8^':
+        if x[:2] != '8^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8^')
@@ -24458,7 +24458,7 @@ def decrypt_8circ():
 def decrypt_8esp():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8`':
+        if x[:2] != '8`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8`')
@@ -24472,7 +24472,7 @@ def decrypt_8esp():
 def decrypt_8cr():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8{':
+        if x[:2] != '8{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8{')
@@ -24486,7 +24486,7 @@ def decrypt_8cr():
 def decrypt_8hl():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8|':
+        if x[:2] != '8|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8|')
@@ -24500,7 +24500,7 @@ def decrypt_8hl():
 def decrypt_8tild():
     i = 0
     for x in map(''.join, itertools.product('8abdfhjlnprtvxzABDFHJLNPRTVXZ0246!"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '8~':
+        if x[:2] != '8~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -8~')
@@ -24514,7 +24514,7 @@ def decrypt_8tild():
 def decrypt_excla():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!a':
+        if x[:2] != '!a':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!a')
@@ -24528,7 +24528,7 @@ def decrypt_excla():
 def decrypt_exclb():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!b':
+        if x[:2] != '!b':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!b')
@@ -24542,7 +24542,7 @@ def decrypt_exclb():
 def decrypt_excld():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!d':
+        if x[:2] != '!d':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!d')
@@ -24556,7 +24556,7 @@ def decrypt_excld():
 def decrypt_exclf():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!f':
+        if x[:2] != '!f':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!f')
@@ -24570,7 +24570,7 @@ def decrypt_exclf():
 def decrypt_exclh():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!h':
+        if x[:2] != '!h':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!h')
@@ -24584,7 +24584,7 @@ def decrypt_exclh():
 def decrypt_exclj():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!j':
+        if x[:2] != '!j':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!j')
@@ -24598,7 +24598,7 @@ def decrypt_exclj():
 def decrypt_excll():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!l':
+        if x[:2] != '!l':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!l')
@@ -24612,7 +24612,7 @@ def decrypt_excll():
 def decrypt_excln():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!n':
+        if x[:2] != '!n':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!n')
@@ -24626,7 +24626,7 @@ def decrypt_excln():
 def decrypt_exclp():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!p':
+        if x[:2] != '!p':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!p')
@@ -24640,7 +24640,7 @@ def decrypt_exclp():
 def decrypt_exclr():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!r':
+        if x[:2] != '!r':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!r')
@@ -24654,7 +24654,7 @@ def decrypt_exclr():
 def decrypt_exclt():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!t':
+        if x[:2] != '!t':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!t')
@@ -24668,7 +24668,7 @@ def decrypt_exclt():
 def decrypt_exclv():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!v':
+        if x[:2] != '!v':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!v')
@@ -24682,7 +24682,7 @@ def decrypt_exclv():
 def decrypt_exclx():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!x':
+        if x[:2] != '!x':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!x')
@@ -24696,7 +24696,7 @@ def decrypt_exclx():
 def decrypt_exclz():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!z':
+        if x[:2] != '!z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!z')
@@ -24710,7 +24710,7 @@ def decrypt_exclz():
 def decrypt_exclA():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!A':
+        if x[:2] != '!A':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!A')
@@ -24724,7 +24724,7 @@ def decrypt_exclA():
 def decrypt_exclB():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!B':
+        if x[:2] != '!B':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!B')
@@ -24738,7 +24738,7 @@ def decrypt_exclB():
 def decrypt_exclD():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!D':
+        if x[:2] != '!D':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!D')
@@ -24752,7 +24752,7 @@ def decrypt_exclD():
 def decrypt_exclF():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!F':
+        if x[:2] != '!F':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!F')
@@ -24766,7 +24766,7 @@ def decrypt_exclF():
 def decrypt_exclH():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!H':
+        if x[:2] != '!H':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!H')
@@ -24780,7 +24780,7 @@ def decrypt_exclH():
 def decrypt_exclJ():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!J':
+        if x[:2] != '!J':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!J')
@@ -24794,7 +24794,7 @@ def decrypt_exclJ():
 def decrypt_exclL():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!L':
+        if x[:2] != '!L':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!L')
@@ -24808,7 +24808,7 @@ def decrypt_exclL():
 def decrypt_exclN():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!N':
+        if x[:2] != '!N':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!N')
@@ -24822,7 +24822,7 @@ def decrypt_exclN():
 def decrypt_exclP():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!P':
+        if x[:2] != '!P':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!P')
@@ -24836,7 +24836,7 @@ def decrypt_exclP():
 def decrypt_exclR():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!R':
+        if x[:2] != '!R':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!R')
@@ -24850,7 +24850,7 @@ def decrypt_exclR():
 def decrypt_exclT():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!T':
+        if x[:2] != '!T':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!T')
@@ -24864,7 +24864,7 @@ def decrypt_exclT():
 def decrypt_exclV():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!V':
+        if x[:2] != '!V':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!V')
@@ -24878,7 +24878,7 @@ def decrypt_exclV():
 def decrypt_exclX():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!X':
+        if x[:2] != '!X':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!X')
@@ -24892,7 +24892,7 @@ def decrypt_exclX():
 def decrypt_exclZ():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!Z':
+        if x[:2] != '!Z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!Z')
@@ -24906,7 +24906,7 @@ def decrypt_exclZ():
 def decrypt_excl0():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!0':
+        if x[:2] != '!0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!0')
@@ -24920,7 +24920,7 @@ def decrypt_excl0():
 def decrypt_excl2():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!2':
+        if x[:2] != '!2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!2')
@@ -24934,7 +24934,7 @@ def decrypt_excl2():
 def decrypt_excl4():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!4':
+        if x[:2] != '!4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!4')
@@ -24948,7 +24948,7 @@ def decrypt_excl4():
 def decrypt_excl6():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!6':
+        if x[:2] != '!6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!6')
@@ -24962,7 +24962,7 @@ def decrypt_excl6():
 def decrypt_excl8():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!8':
+        if x[:2] != '!8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!8')
@@ -24976,7 +24976,7 @@ def decrypt_excl8():
 def decrypt_exclexcl():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!!':
+        if x[:2] != '!!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!!')
@@ -24990,7 +24990,7 @@ def decrypt_exclexcl():
 def decrypt_excldquote():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!"':
+        if x[:2] != '!"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!"')
@@ -25004,7 +25004,7 @@ def decrypt_excldquote():
 def decrypt_excldoll():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!$':
+        if x[:2] != '!$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!$')
@@ -25018,7 +25018,7 @@ def decrypt_excldoll():
 def decrypt_excland():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!&':
+        if x[:2] != '!&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!&')
@@ -25032,7 +25032,7 @@ def decrypt_excland():
 def decrypt_exclquote():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!\'':
+        if x[:2] != '!\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!\'')
@@ -25046,7 +25046,7 @@ def decrypt_exclquote():
 def decrypt_exclpar():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'excl(':
+        if x[:2] != 'excl(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -excl(')
@@ -25060,7 +25060,7 @@ def decrypt_exclpar():
 def decrypt_exclast():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!*':
+        if x[:2] != '!*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!*')
@@ -25074,7 +25074,7 @@ def decrypt_exclast():
 def decrypt_exclvir():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!,':
+        if x[:2] != '!,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!,')
@@ -25088,7 +25088,7 @@ def decrypt_exclvir():
 def decrypt_exclpp():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!.':
+        if x[:2] != '!.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!.')
@@ -25102,7 +25102,7 @@ def decrypt_exclpp():
 def decrypt_excltp():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!:':
+        if x[:2] != '!:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!:')
@@ -25116,7 +25116,7 @@ def decrypt_excltp():
 def decrypt_exclless():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!<':
+        if x[:2] != '!<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!<')
@@ -25130,7 +25130,7 @@ def decrypt_exclless():
 def decrypt_exclmore():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!>':
+        if x[:2] != '!>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!>')
@@ -25144,7 +25144,7 @@ def decrypt_exclmore():
 def decrypt_exclaro():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!@':
+        if x[:2] != '!@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!@')
@@ -25158,7 +25158,7 @@ def decrypt_exclaro():
 def decrypt_exclcroc():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '![':
+        if x[:2] != '![':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -![')
@@ -25172,7 +25172,7 @@ def decrypt_exclcroc():
 def decrypt_exclbsl():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!\\':
+        if x[:2] != '!\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!\\')
@@ -25186,7 +25186,7 @@ def decrypt_exclbsl():
 def decrypt_exclcirc():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!^':
+        if x[:2] != '!^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!^')
@@ -25200,7 +25200,7 @@ def decrypt_exclcirc():
 def decrypt_exclesp():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!`':
+        if x[:2] != '!`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!`')
@@ -25214,7 +25214,7 @@ def decrypt_exclesp():
 def decrypt_exclcr():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!{':
+        if x[:2] != '!{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!{')
@@ -25228,7 +25228,7 @@ def decrypt_exclcr():
 def decrypt_exclhl():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!|':
+        if x[:2] != '!|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!|')
@@ -25242,7 +25242,7 @@ def decrypt_exclhl():
 def decrypt_excltild():
     i = 0
     for x in map(''.join, itertools.product('!abdfhjlnprtvxzABDFHJLNPRTVXZ02468"$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '!~':
+        if x[:2] != '!~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -!~')
@@ -25256,7 +25256,7 @@ def decrypt_excltild():
 def decrypt_doubquota():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"a':
+        if x[:2] != '"a':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"a')
@@ -25270,7 +25270,7 @@ def decrypt_doubquota():
 def decrypt_doubquotb():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"b':
+        if x[:2] != '"b':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"b')
@@ -25284,7 +25284,7 @@ def decrypt_doubquotb():
 def decrypt_doubquotd():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"d':
+        if x[:2] != '"d':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"d')
@@ -25298,7 +25298,7 @@ def decrypt_doubquotd():
 def decrypt_doubquotf():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"f':
+        if x[:2] != '"f':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"f')
@@ -25312,7 +25312,7 @@ def decrypt_doubquotf():
 def decrypt_doubquoth():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"h':
+        if x[:2] != '"h':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"h')
@@ -25326,7 +25326,7 @@ def decrypt_doubquoth():
 def decrypt_doubquotj():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"j':
+        if x[:2] != '"j':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"j')
@@ -25340,7 +25340,7 @@ def decrypt_doubquotj():
 def decrypt_doubquotl():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"l':
+        if x[:2] != '"l':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"l')
@@ -25354,7 +25354,7 @@ def decrypt_doubquotl():
 def decrypt_doubquotn():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"n':
+        if x[:2] != '"n':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"n')
@@ -25368,7 +25368,7 @@ def decrypt_doubquotn():
 def decrypt_doubquotp():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"p':
+        if x[:2] != '"p':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"p')
@@ -25382,7 +25382,7 @@ def decrypt_doubquotp():
 def decrypt_doubquotr():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"r':
+        if x[:2] != '"r':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"r')
@@ -25396,7 +25396,7 @@ def decrypt_doubquotr():
 def decrypt_doubquott():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"t':
+        if x[:2] != '"t':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"t')
@@ -25410,7 +25410,7 @@ def decrypt_doubquott():
 def decrypt_doubquotv():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"v':
+        if x[:2] != '"v':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"v')
@@ -25424,7 +25424,7 @@ def decrypt_doubquotv():
 def decrypt_doubquotx():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"x':
+        if x[:2] != '"x':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"x')
@@ -25438,7 +25438,7 @@ def decrypt_doubquotx():
 def decrypt_doubquotz():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"z':
+        if x[:2] != '"z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"z')
@@ -25452,7 +25452,7 @@ def decrypt_doubquotz():
 def decrypt_doubquotA():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"A':
+        if x[:2] != '"A':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"A')
@@ -25466,7 +25466,7 @@ def decrypt_doubquotA():
 def decrypt_doubquotB():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"B':
+        if x[:2] != '"B':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"B')
@@ -25480,7 +25480,7 @@ def decrypt_doubquotB():
 def decrypt_doubquotD():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"D':
+        if x[:2] != '"D':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"D')
@@ -25494,7 +25494,7 @@ def decrypt_doubquotD():
 def decrypt_doubquotF():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"F':
+        if x[:2] != '"F':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"F')
@@ -25508,7 +25508,7 @@ def decrypt_doubquotF():
 def decrypt_doubquotH():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"H':
+        if x[:2] != '"H':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"H')
@@ -25522,7 +25522,7 @@ def decrypt_doubquotH():
 def decrypt_doubquotJ():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"J':
+        if x[:2] != '"J':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"J')
@@ -25536,7 +25536,7 @@ def decrypt_doubquotJ():
 def decrypt_doubquotL():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"L':
+        if x[:2] != '"L':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"L')
@@ -25550,7 +25550,7 @@ def decrypt_doubquotL():
 def decrypt_doubquotN():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"N':
+        if x[:2] != '"N':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"N')
@@ -25564,7 +25564,7 @@ def decrypt_doubquotN():
 def decrypt_doubquotP():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"P':
+        if x[:2] != '"P':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"P')
@@ -25578,7 +25578,7 @@ def decrypt_doubquotP():
 def decrypt_doubquotR():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"R':
+        if x[:2] != '"R':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"R')
@@ -25592,7 +25592,7 @@ def decrypt_doubquotR():
 def decrypt_doubquotT():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"T':
+        if x[:2] != '"T':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"T')
@@ -25606,7 +25606,7 @@ def decrypt_doubquotT():
 def decrypt_doubquotV():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"V':
+        if x[:2] != '"V':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"V')
@@ -25620,7 +25620,7 @@ def decrypt_doubquotV():
 def decrypt_doubquotX():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"X':
+        if x[:2] != '"X':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"X')
@@ -25634,7 +25634,7 @@ def decrypt_doubquotX():
 def decrypt_doubquotZ():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"Z':
+        if x[:2] != '"Z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"Z')
@@ -25648,7 +25648,7 @@ def decrypt_doubquotZ():
 def decrypt_doubquot0():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"0':
+        if x[:2] != '"0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"0')
@@ -25662,7 +25662,7 @@ def decrypt_doubquot0():
 def decrypt_doubquot2():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"2':
+        if x[:2] != '"2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"2')
@@ -25676,7 +25676,7 @@ def decrypt_doubquot2():
 def decrypt_doubquot4():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"4':
+        if x[:2] != '"4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"4')
@@ -25690,7 +25690,7 @@ def decrypt_doubquot4():
 def decrypt_doubquot6():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"6':
+        if x[:2] != '"6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"6')
@@ -25704,7 +25704,7 @@ def decrypt_doubquot6():
 def decrypt_doubquot8():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"8':
+        if x[:2] != '"8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"8')
@@ -25718,7 +25718,7 @@ def decrypt_doubquot8():
 def decrypt_doubquotexcl():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"!':
+        if x[:2] != '"!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"!')
@@ -25732,7 +25732,7 @@ def decrypt_doubquotexcl():
 def decrypt_doubquotdquote():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '""':
+        if x[:2] != '""':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -""')
@@ -25746,7 +25746,7 @@ def decrypt_doubquotdquote():
 def decrypt_doubquotdoll():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"$':
+        if x[:2] != '"$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"$')
@@ -25760,7 +25760,7 @@ def decrypt_doubquotdoll():
 def decrypt_doubquotand():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"&':
+        if x[:2] != '"&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"&')
@@ -25774,7 +25774,7 @@ def decrypt_doubquotand():
 def decrypt_doubquotquote():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"\'':
+        if x[:2] != '"\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"\'')
@@ -25788,7 +25788,7 @@ def decrypt_doubquotquote():
 def decrypt_doubquotpar():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'dquote(':
+        if x[:2] != 'dquote(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -dquote(')
@@ -25802,7 +25802,7 @@ def decrypt_doubquotpar():
 def decrypt_doubquotast():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"*':
+        if x[:2] != '"*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"*')
@@ -25816,7 +25816,7 @@ def decrypt_doubquotast():
 def decrypt_doubquotvir():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '",':
+        if x[:2] != '",':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -",')
@@ -25830,7 +25830,7 @@ def decrypt_doubquotvir():
 def decrypt_doubquotpp():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '".':
+        if x[:2] != '".':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -".')
@@ -25844,7 +25844,7 @@ def decrypt_doubquotpp():
 def decrypt_doubquottp():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '":':
+        if x[:2] != '":':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -":')
@@ -25858,7 +25858,7 @@ def decrypt_doubquottp():
 def decrypt_doubquotless():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"<':
+        if x[:2] != '"<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"<')
@@ -25872,7 +25872,7 @@ def decrypt_doubquotless():
 def decrypt_doubquotmore():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '">':
+        if x[:2] != '">':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -">')
@@ -25886,7 +25886,7 @@ def decrypt_doubquotmore():
 def decrypt_doubquotaro():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"@':
+        if x[:2] != '"@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"@')
@@ -25900,7 +25900,7 @@ def decrypt_doubquotaro():
 def decrypt_doubquotcroc():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"[':
+        if x[:2] != '"[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"[')
@@ -25914,7 +25914,7 @@ def decrypt_doubquotcroc():
 def decrypt_doubquotbsl():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"\\':
+        if x[:2] != '"\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"\\')
@@ -25928,7 +25928,7 @@ def decrypt_doubquotbsl():
 def decrypt_doubquotcirc():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"^':
+        if x[:2] != '"^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"^')
@@ -25942,7 +25942,7 @@ def decrypt_doubquotcirc():
 def decrypt_doubquotesp():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"`':
+        if x[:2] != '"`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"`')
@@ -25956,7 +25956,7 @@ def decrypt_doubquotesp():
 def decrypt_doubquotcr():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"{':
+        if x[:2] != '"{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"{')
@@ -25970,7 +25970,7 @@ def decrypt_doubquotcr():
 def decrypt_doubquothl():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"|':
+        if x[:2] != '"|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"|')
@@ -25984,7 +25984,7 @@ def decrypt_doubquothl():
 def decrypt_doubquottild():
     i = 0
     for x in map(''.join, itertools.product('"abdfhjlnprtvxzABDFHJLNPRTVXZ02468!$&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '"~':
+        if x[:2] != '"~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -"~')
@@ -25998,7 +25998,7 @@ def decrypt_doubquottild():
 def decrypt_dolla():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$a':
+        if x[:2] != '$a':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$a')
@@ -26012,7 +26012,7 @@ def decrypt_dolla():
 def decrypt_dollb():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$b':
+        if x[:2] != '$b':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$b')
@@ -26026,7 +26026,7 @@ def decrypt_dollb():
 def decrypt_dolld():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$d':
+        if x[:2] != '$d':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$d')
@@ -26040,7 +26040,7 @@ def decrypt_dolld():
 def decrypt_dollf():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$f':
+        if x[:2] != '$f':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$f')
@@ -26054,7 +26054,7 @@ def decrypt_dollf():
 def decrypt_dollh():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$h':
+        if x[:2] != '$h':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$h')
@@ -26068,7 +26068,7 @@ def decrypt_dollh():
 def decrypt_dollj():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$j':
+        if x[:2] != '$j':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$j')
@@ -26082,7 +26082,7 @@ def decrypt_dollj():
 def decrypt_dolll():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$l':
+        if x[:2] != '$l':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$l')
@@ -26096,7 +26096,7 @@ def decrypt_dolll():
 def decrypt_dolln():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$n':
+        if x[:2] != '$n':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$n')
@@ -26110,7 +26110,7 @@ def decrypt_dolln():
 def decrypt_dollp():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$p':
+        if x[:2] != '$p':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$p')
@@ -26124,7 +26124,7 @@ def decrypt_dollp():
 def decrypt_dollr():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$r':
+        if x[:2] != '$r':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$r')
@@ -26138,7 +26138,7 @@ def decrypt_dollr():
 def decrypt_dollt():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$t':
+        if x[:2] != '$t':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$t')
@@ -26152,7 +26152,7 @@ def decrypt_dollt():
 def decrypt_dollv():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$v':
+        if x[:2] != '$v':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$v')
@@ -26166,7 +26166,7 @@ def decrypt_dollv():
 def decrypt_dollx():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$x':
+        if x[:2] != '$x':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$x')
@@ -26180,7 +26180,7 @@ def decrypt_dollx():
 def decrypt_dollz():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$z':
+        if x[:2] != '$z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$z')
@@ -26194,7 +26194,7 @@ def decrypt_dollz():
 def decrypt_dollA():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$A':
+        if x[:2] != '$A':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$A')
@@ -26208,7 +26208,7 @@ def decrypt_dollA():
 def decrypt_dollB():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$B':
+        if x[:2] != '$B':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$B')
@@ -26222,7 +26222,7 @@ def decrypt_dollB():
 def decrypt_dollD():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$D':
+        if x[:2] != '$D':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$D')
@@ -26236,7 +26236,7 @@ def decrypt_dollD():
 def decrypt_dollF():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$F':
+        if x[:2] != '$F':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$F')
@@ -26250,7 +26250,7 @@ def decrypt_dollF():
 def decrypt_dollH():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$H':
+        if x[:2] != '$H':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$H')
@@ -26264,7 +26264,7 @@ def decrypt_dollH():
 def decrypt_dollJ():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$J':
+        if x[:2] != '$J':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$J')
@@ -26278,7 +26278,7 @@ def decrypt_dollJ():
 def decrypt_dollL():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$L':
+        if x[:2] != '$L':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$L')
@@ -26292,7 +26292,7 @@ def decrypt_dollL():
 def decrypt_dollN():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$N':
+        if x[:2] != '$N':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$N')
@@ -26306,7 +26306,7 @@ def decrypt_dollN():
 def decrypt_dollP():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$P':
+        if x[:2] != '$P':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$P')
@@ -26320,7 +26320,7 @@ def decrypt_dollP():
 def decrypt_dollR():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$R':
+        if x[:2] != '$R':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$R')
@@ -26334,7 +26334,7 @@ def decrypt_dollR():
 def decrypt_dollT():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$T':
+        if x[:2] != '$T':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$T')
@@ -26348,7 +26348,7 @@ def decrypt_dollT():
 def decrypt_dollV():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$V':
+        if x[:2] != '$V':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$V')
@@ -26362,7 +26362,7 @@ def decrypt_dollV():
 def decrypt_dollX():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$X':
+        if x[:2] != '$X':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$X')
@@ -26376,7 +26376,7 @@ def decrypt_dollX():
 def decrypt_dollZ():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$Z':
+        if x[:2] != '$Z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$Z')
@@ -26390,7 +26390,7 @@ def decrypt_dollZ():
 def decrypt_doll0():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$0':
+        if x[:2] != '$0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$0')
@@ -26404,7 +26404,7 @@ def decrypt_doll0():
 def decrypt_doll2():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$2':
+        if x[:2] != '$2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$2')
@@ -26418,7 +26418,7 @@ def decrypt_doll2():
 def decrypt_doll4():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$4':
+        if x[:2] != '$4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$4')
@@ -26432,7 +26432,7 @@ def decrypt_doll4():
 def decrypt_doll6():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$6':
+        if x[:2] != '$6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$6')
@@ -26446,7 +26446,7 @@ def decrypt_doll6():
 def decrypt_doll8():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$8':
+        if x[:2] != '$8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$8')
@@ -26460,7 +26460,7 @@ def decrypt_doll8():
 def decrypt_dollexcl():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$!':
+        if x[:2] != '$!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$!')
@@ -26474,7 +26474,7 @@ def decrypt_dollexcl():
 def decrypt_dolldquote():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$"':
+        if x[:2] != '$"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$"')
@@ -26488,7 +26488,7 @@ def decrypt_dolldquote():
 def decrypt_dolldoll():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$$':
+        if x[:2] != '$$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$$')
@@ -26502,7 +26502,7 @@ def decrypt_dolldoll():
 def decrypt_dolland():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$&':
+        if x[:2] != '$&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$&')
@@ -26516,7 +26516,7 @@ def decrypt_dolland():
 def decrypt_dollquote():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$\'':
+        if x[:2] != '$\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$\'')
@@ -26530,7 +26530,7 @@ def decrypt_dollquote():
 def decrypt_dollpar():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'doll(':
+        if x[:2] != 'doll(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -doll(')
@@ -26544,7 +26544,7 @@ def decrypt_dollpar():
 def decrypt_dollast():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$*':
+        if x[:2] != '$*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$*')
@@ -26558,7 +26558,7 @@ def decrypt_dollast():
 def decrypt_dollvir():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$,':
+        if x[:2] != '$,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$,')
@@ -26572,7 +26572,7 @@ def decrypt_dollvir():
 def decrypt_dollpp():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$.':
+        if x[:2] != '$.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$.')
@@ -26586,7 +26586,7 @@ def decrypt_dollpp():
 def decrypt_dolltp():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$:':
+        if x[:2] != '$:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$:')
@@ -26600,7 +26600,7 @@ def decrypt_dolltp():
 def decrypt_dollless():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$<':
+        if x[:2] != '$<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$<')
@@ -26614,7 +26614,7 @@ def decrypt_dollless():
 def decrypt_dollmore():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$>':
+        if x[:2] != '$>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$>')
@@ -26628,7 +26628,7 @@ def decrypt_dollmore():
 def decrypt_dollaro():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$@':
+        if x[:2] != '$@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$@')
@@ -26642,7 +26642,7 @@ def decrypt_dollaro():
 def decrypt_dollcroc():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$[':
+        if x[:2] != '$[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$[')
@@ -26656,7 +26656,7 @@ def decrypt_dollcroc():
 def decrypt_dollbsl():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$\\':
+        if x[:2] != '$\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$\\')
@@ -26670,7 +26670,7 @@ def decrypt_dollbsl():
 def decrypt_dollcirc():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$^':
+        if x[:2] != '$^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$^')
@@ -26684,7 +26684,7 @@ def decrypt_dollcirc():
 def decrypt_dollesp():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$`':
+        if x[:2] != '$`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$`')
@@ -26698,7 +26698,7 @@ def decrypt_dollesp():
 def decrypt_dollcr():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '${':
+        if x[:2] != '${':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -${')
@@ -26712,7 +26712,7 @@ def decrypt_dollcr():
 def decrypt_dollhl():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$|':
+        if x[:2] != '$|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$|')
@@ -26726,7 +26726,7 @@ def decrypt_dollhl():
 def decrypt_dolltild():
     i = 0
     for x in map(''.join, itertools.product('$abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"&\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '$~':
+        if x[:2] != '$~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -$~')
@@ -26740,7 +26740,7 @@ def decrypt_dolltild():
 def decryptespaa():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&a':
+        if x[:2] != '&a':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&a')
@@ -26754,7 +26754,7 @@ def decryptespaa():
 def decryptespab():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&b':
+        if x[:2] != '&b':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&b')
@@ -26768,7 +26768,7 @@ def decryptespab():
 def decryptespad():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&d':
+        if x[:2] != '&d':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&d')
@@ -26782,7 +26782,7 @@ def decryptespad():
 def decryptespaf():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&f':
+        if x[:2] != '&f':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&f')
@@ -26796,7 +26796,7 @@ def decryptespaf():
 def decryptespah():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&h':
+        if x[:2] != '&h':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&h')
@@ -26810,7 +26810,7 @@ def decryptespah():
 def decryptespaj():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&j':
+        if x[:2] != '&j':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&j')
@@ -26824,7 +26824,7 @@ def decryptespaj():
 def decryptespal():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&l':
+        if x[:2] != '&l':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&l')
@@ -26838,7 +26838,7 @@ def decryptespal():
 def decryptespan():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&n':
+        if x[:2] != '&n':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&n')
@@ -26852,7 +26852,7 @@ def decryptespan():
 def decryptespap():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&p':
+        if x[:2] != '&p':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&p')
@@ -26866,7 +26866,7 @@ def decryptespap():
 def decryptespar():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&r':
+        if x[:2] != '&r':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&r')
@@ -26880,7 +26880,7 @@ def decryptespar():
 def decryptespat():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&t':
+        if x[:2] != '&t':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&t')
@@ -26894,7 +26894,7 @@ def decryptespat():
 def decryptespav():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&v':
+        if x[:2] != '&v':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&v')
@@ -26908,7 +26908,7 @@ def decryptespav():
 def decryptespax():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&x':
+        if x[:2] != '&x':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&x')
@@ -26922,7 +26922,7 @@ def decryptespax():
 def decryptespaz():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&z':
+        if x[:2] != '&z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&z')
@@ -26936,7 +26936,7 @@ def decryptespaz():
 def decryptespaA():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&A':
+        if x[:2] != '&A':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&A')
@@ -26950,7 +26950,7 @@ def decryptespaA():
 def decryptespaB():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&B':
+        if x[:2] != '&B':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&B')
@@ -26964,7 +26964,7 @@ def decryptespaB():
 def decryptespaD():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&D':
+        if x[:2] != '&D':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&D')
@@ -26978,7 +26978,7 @@ def decryptespaD():
 def decryptespaF():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&F':
+        if x[:2] != '&F':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&F')
@@ -26992,7 +26992,7 @@ def decryptespaF():
 def decryptespaH():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&H':
+        if x[:2] != '&H':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&H')
@@ -27006,7 +27006,7 @@ def decryptespaH():
 def decryptespaJ():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&J':
+        if x[:2] != '&J':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&J')
@@ -27020,7 +27020,7 @@ def decryptespaJ():
 def decryptespaL():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&L':
+        if x[:2] != '&L':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&L')
@@ -27034,7 +27034,7 @@ def decryptespaL():
 def decryptespaN():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&N':
+        if x[:2] != '&N':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&N')
@@ -27048,7 +27048,7 @@ def decryptespaN():
 def decryptespaP():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&P':
+        if x[:2] != '&P':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&P')
@@ -27062,7 +27062,7 @@ def decryptespaP():
 def decryptespaR():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&R':
+        if x[:2] != '&R':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&R')
@@ -27076,7 +27076,7 @@ def decryptespaR():
 def decryptespaT():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&T':
+        if x[:2] != '&T':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&T')
@@ -27090,7 +27090,7 @@ def decryptespaT():
 def decryptespaV():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&V':
+        if x[:2] != '&V':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&V')
@@ -27104,7 +27104,7 @@ def decryptespaV():
 def decryptespaX():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&X':
+        if x[:2] != '&X':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&X')
@@ -27118,7 +27118,7 @@ def decryptespaX():
 def decryptespaZ():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&Z':
+        if x[:2] != '&Z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&Z')
@@ -27132,7 +27132,7 @@ def decryptespaZ():
 def decryptespa0():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&0':
+        if x[:2] != '&0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&0')
@@ -27146,7 +27146,7 @@ def decryptespa0():
 def decryptespa2():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&2':
+        if x[:2] != '&2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&2')
@@ -27160,7 +27160,7 @@ def decryptespa2():
 def decryptespa4():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&4':
+        if x[:2] != '&4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&4')
@@ -27174,7 +27174,7 @@ def decryptespa4():
 def decryptespa6():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&6':
+        if x[:2] != '&6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&6')
@@ -27188,7 +27188,7 @@ def decryptespa6():
 def decryptespa8():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&8':
+        if x[:2] != '&8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&8')
@@ -27202,7 +27202,7 @@ def decryptespa8():
 def decryptespaexcl():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&!':
+        if x[:2] != '&!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&!')
@@ -27216,7 +27216,7 @@ def decryptespaexcl():
 def decryptespadquote():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&"':
+        if x[:2] != '&"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&"')
@@ -27230,7 +27230,7 @@ def decryptespadquote():
 def decryptespadoll():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&$':
+        if x[:2] != '&$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&$')
@@ -27244,7 +27244,7 @@ def decryptespadoll():
 def decryptespaand():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&&':
+        if x[:2] != '&&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&&')
@@ -27258,7 +27258,7 @@ def decryptespaand():
 def decryptespaquote():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&\'':
+        if x[:2] != '&\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&\'')
@@ -27272,7 +27272,7 @@ def decryptespaquote():
 def decryptespapar():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'and(':
+        if x[:2] != 'and(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -and(')
@@ -27286,7 +27286,7 @@ def decryptespapar():
 def decryptespaast():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&*':
+        if x[:2] != '&*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&*')
@@ -27300,7 +27300,7 @@ def decryptespaast():
 def decryptespavir():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&,':
+        if x[:2] != '&,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&,')
@@ -27314,7 +27314,7 @@ def decryptespavir():
 def decryptespapp():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&.':
+        if x[:2] != '&.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&.')
@@ -27328,7 +27328,7 @@ def decryptespapp():
 def decryptespatp():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&:':
+        if x[:2] != '&:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&:')
@@ -27342,7 +27342,7 @@ def decryptespatp():
 def decryptespaless():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&<':
+        if x[:2] != '&<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&<')
@@ -27356,7 +27356,7 @@ def decryptespaless():
 def decryptespamore():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&>':
+        if x[:2] != '&>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&>')
@@ -27370,7 +27370,7 @@ def decryptespamore():
 def decryptespaaro():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&@':
+        if x[:2] != '&@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&@')
@@ -27384,7 +27384,7 @@ def decryptespaaro():
 def decryptespacroc():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&[':
+        if x[:2] != '&[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&[')
@@ -27398,7 +27398,7 @@ def decryptespacroc():
 def decryptespabsl():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&\\':
+        if x[:2] != '&\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&\\')
@@ -27412,7 +27412,7 @@ def decryptespabsl():
 def decryptespacirc():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&^':
+        if x[:2] != '&^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&^')
@@ -27426,7 +27426,7 @@ def decryptespacirc():
 def decryptespaesp():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&`':
+        if x[:2] != '&`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&`')
@@ -27440,7 +27440,7 @@ def decryptespaesp():
 def decryptespacr():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&{':
+        if x[:2] != '&{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&{')
@@ -27454,7 +27454,7 @@ def decryptespacr():
 def decryptespahl():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&|':
+        if x[:2] != '&|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&|')
@@ -27468,7 +27468,7 @@ def decryptespahl():
 def decryptespatild():
     i = 0
     for x in map(''.join, itertools.product('&abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$\'(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '&~':
+        if x[:2] != '&~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -&~')
@@ -27482,7 +27482,7 @@ def decryptespatild():
 def decrypt_quota():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'a':
+        if x[:2] != '\'a':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'a')
@@ -27496,7 +27496,7 @@ def decrypt_quota():
 def decrypt_quotb():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'b':
+        if x[:2] != '\'b':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'b')
@@ -27510,7 +27510,7 @@ def decrypt_quotb():
 def decrypt_quotd():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'d':
+        if x[:2] != '\'d':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'d')
@@ -27524,7 +27524,7 @@ def decrypt_quotd():
 def decrypt_quotf():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'f':
+        if x[:2] != '\'f':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'f')
@@ -27538,7 +27538,7 @@ def decrypt_quotf():
 def decrypt_quoth():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'h':
+        if x[:2] != '\'h':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'h')
@@ -27552,7 +27552,7 @@ def decrypt_quoth():
 def decrypt_quotj():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'j':
+        if x[:2] != '\'j':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'j')
@@ -27566,7 +27566,7 @@ def decrypt_quotj():
 def decrypt_quotl():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'l':
+        if x[:2] != '\'l':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'l')
@@ -27580,7 +27580,7 @@ def decrypt_quotl():
 def decrypt_quotn():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'n':
+        if x[:2] != '\'n':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'n')
@@ -27594,7 +27594,7 @@ def decrypt_quotn():
 def decrypt_quotp():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'p':
+        if x[:2] != '\'p':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'p')
@@ -27608,7 +27608,7 @@ def decrypt_quotp():
 def decrypt_quotr():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'r':
+        if x[:2] != '\'r':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'r')
@@ -27622,7 +27622,7 @@ def decrypt_quotr():
 def decrypt_quott():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'t':
+        if x[:2] != '\'t':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'t')
@@ -27636,7 +27636,7 @@ def decrypt_quott():
 def decrypt_quotv():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'v':
+        if x[:2] != '\'v':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'v')
@@ -27650,7 +27650,7 @@ def decrypt_quotv():
 def decrypt_quotx():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'x':
+        if x[:2] != '\'x':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'x')
@@ -27664,7 +27664,7 @@ def decrypt_quotx():
 def decrypt_quotz():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'z':
+        if x[:2] != '\'z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'z')
@@ -27678,7 +27678,7 @@ def decrypt_quotz():
 def decrypt_quotA():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'A':
+        if x[:2] != '\'A':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'A')
@@ -27692,7 +27692,7 @@ def decrypt_quotA():
 def decrypt_quotB():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'B':
+        if x[:2] != '\'B':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'B')
@@ -27706,7 +27706,7 @@ def decrypt_quotB():
 def decrypt_quotD():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'D':
+        if x[:2] != '\'D':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'D')
@@ -27720,7 +27720,7 @@ def decrypt_quotD():
 def decrypt_quotF():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'F':
+        if x[:2] != '\'F':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'F')
@@ -27734,7 +27734,7 @@ def decrypt_quotF():
 def decrypt_quotH():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'H':
+        if x[:2] != '\'H':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'H')
@@ -27748,7 +27748,7 @@ def decrypt_quotH():
 def decrypt_quotJ():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'J':
+        if x[:2] != '\'J':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'J')
@@ -27762,7 +27762,7 @@ def decrypt_quotJ():
 def decrypt_quotL():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'L':
+        if x[:2] != '\'L':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'L')
@@ -27776,7 +27776,7 @@ def decrypt_quotL():
 def decrypt_quotN():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'N':
+        if x[:2] != '\'N':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'N')
@@ -27790,7 +27790,7 @@ def decrypt_quotN():
 def decrypt_quotP():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'P':
+        if x[:2] != '\'P':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'P')
@@ -27804,7 +27804,7 @@ def decrypt_quotP():
 def decrypt_quotR():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'R':
+        if x[:2] != '\'R':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'R')
@@ -27818,7 +27818,7 @@ def decrypt_quotR():
 def decrypt_quotT():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'T':
+        if x[:2] != '\'T':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'T')
@@ -27832,7 +27832,7 @@ def decrypt_quotT():
 def decrypt_quotV():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'V':
+        if x[:2] != '\'V':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'V')
@@ -27846,7 +27846,7 @@ def decrypt_quotV():
 def decrypt_quotX():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'X':
+        if x[:2] != '\'X':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'X')
@@ -27860,7 +27860,7 @@ def decrypt_quotX():
 def decrypt_quotZ():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'Z':
+        if x[:2] != '\'Z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'Z')
@@ -27874,7 +27874,7 @@ def decrypt_quotZ():
 def decrypt_quot0():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'0':
+        if x[:2] != '\'0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'0')
@@ -27888,7 +27888,7 @@ def decrypt_quot0():
 def decrypt_quot2():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'2':
+        if x[:2] != '\'2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'2')
@@ -27902,7 +27902,7 @@ def decrypt_quot2():
 def decrypt_quot4():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'4':
+        if x[:2] != '\'4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'4')
@@ -27916,7 +27916,7 @@ def decrypt_quot4():
 def decrypt_quot6():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'6':
+        if x[:2] != '\'6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'6')
@@ -27930,7 +27930,7 @@ def decrypt_quot6():
 def decrypt_quot8():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'8':
+        if x[:2] != '\'8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'8')
@@ -27944,7 +27944,7 @@ def decrypt_quot8():
 def decrypt_quotexcl():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'!':
+        if x[:2] != '\'!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'!')
@@ -27958,7 +27958,7 @@ def decrypt_quotexcl():
 def decrypt_quotdquote():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'"':
+        if x[:2] != '\'"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'"')
@@ -27972,7 +27972,7 @@ def decrypt_quotdquote():
 def decrypt_quotdoll():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'$':
+        if x[:2] != '\'$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'$')
@@ -27986,7 +27986,7 @@ def decrypt_quotdoll():
 def decrypt_quotand():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'&':
+        if x[:2] != '\'&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'&')
@@ -28000,7 +28000,7 @@ def decrypt_quotand():
 def decrypt_quotquote():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'\'':
+        if x[:2] != '\'\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'\'')
@@ -28014,7 +28014,7 @@ def decrypt_quotquote():
 def decrypt_quotpar():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'(':
+        if x[:2] != '\'(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'(')
@@ -28028,7 +28028,7 @@ def decrypt_quotpar():
 def decrypt_quotast():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'*':
+        if x[:2] != '\'*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'*')
@@ -28042,7 +28042,7 @@ def decrypt_quotast():
 def decrypt_quotvir():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\',':
+        if x[:2] != '\',':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\',')
@@ -28056,7 +28056,7 @@ def decrypt_quotvir():
 def decrypt_quotpp():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'.':
+        if x[:2] != '\'.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'.')
@@ -28070,7 +28070,7 @@ def decrypt_quotpp():
 def decrypt_quottp():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\':':
+        if x[:2] != '\':':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\':')
@@ -28084,7 +28084,7 @@ def decrypt_quottp():
 def decrypt_quotless():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'<':
+        if x[:2] != '\'<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'<')
@@ -28098,7 +28098,7 @@ def decrypt_quotless():
 def decrypt_quotmore():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'>':
+        if x[:2] != '\'>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'>')
@@ -28112,7 +28112,7 @@ def decrypt_quotmore():
 def decrypt_quotaro():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'@':
+        if x[:2] != '\'@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'@')
@@ -28126,7 +28126,7 @@ def decrypt_quotaro():
 def decrypt_quotcroc():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'[':
+        if x[:2] != '\'[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'[')
@@ -28140,7 +28140,7 @@ def decrypt_quotcroc():
 def decrypt_quotbsl():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'\\':
+        if x[:2] != '\'\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'\\')
@@ -28154,7 +28154,7 @@ def decrypt_quotbsl():
 def decrypt_quotcirc():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'^':
+        if x[:2] != '\'^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'^')
@@ -28168,7 +28168,7 @@ def decrypt_quotcirc():
 def decrypt_quotesp():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'`':
+        if x[:2] != '\'`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'`')
@@ -28182,7 +28182,7 @@ def decrypt_quotesp():
 def decrypt_quotcr():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'{':
+        if x[:2] != '\'{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'{')
@@ -28196,7 +28196,7 @@ def decrypt_quotcr():
 def decrypt_quothl():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'|':
+        if x[:2] != '\'|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'|')
@@ -28210,7 +28210,7 @@ def decrypt_quothl():
 def decrypt_quottild():
     i = 0
     for x in map(''.join, itertools.product('\'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&(*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\'~':
+        if x[:2] != '\'~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\'~')
@@ -28224,7 +28224,7 @@ def decrypt_quottild():
 def decrypt_parena():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(a':
+        if x[:2] != '(a':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(a')
@@ -28238,7 +28238,7 @@ def decrypt_parena():
 def decrypt_parenb():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(b':
+        if x[:2] != '(b':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(b')
@@ -28252,7 +28252,7 @@ def decrypt_parenb():
 def decrypt_parend():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(d':
+        if x[:2] != '(d':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(d')
@@ -28266,7 +28266,7 @@ def decrypt_parend():
 def decrypt_parenf():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(f':
+        if x[:2] != '(f':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(f')
@@ -28280,7 +28280,7 @@ def decrypt_parenf():
 def decrypt_parenh():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(h':
+        if x[:2] != '(h':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(h')
@@ -28294,7 +28294,7 @@ def decrypt_parenh():
 def decrypt_parenj():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(j':
+        if x[:2] != '(j':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(j')
@@ -28308,7 +28308,7 @@ def decrypt_parenj():
 def decrypt_parenl():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(l':
+        if x[:2] != '(l':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(l')
@@ -28322,7 +28322,7 @@ def decrypt_parenl():
 def decrypt_parenn():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(n':
+        if x[:2] != '(n':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(n')
@@ -28336,7 +28336,7 @@ def decrypt_parenn():
 def decrypt_parenp():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(p':
+        if x[:2] != '(p':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(p')
@@ -28350,7 +28350,7 @@ def decrypt_parenp():
 def decrypt_parenr():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(r':
+        if x[:2] != '(r':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(r')
@@ -28364,7 +28364,7 @@ def decrypt_parenr():
 def decrypt_parent():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(t':
+        if x[:2] != '(t':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(t')
@@ -28378,7 +28378,7 @@ def decrypt_parent():
 def decrypt_parenv():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(v':
+        if x[:2] != '(v':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(v')
@@ -28392,7 +28392,7 @@ def decrypt_parenv():
 def decrypt_parenx():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(x':
+        if x[:2] != '(x':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(x')
@@ -28406,7 +28406,7 @@ def decrypt_parenx():
 def decrypt_parenz():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(z':
+        if x[:2] != '(z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(z')
@@ -28420,7 +28420,7 @@ def decrypt_parenz():
 def decrypt_parenA():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(A':
+        if x[:2] != '(A':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(A')
@@ -28434,7 +28434,7 @@ def decrypt_parenA():
 def decrypt_parenB():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(B':
+        if x[:2] != '(B':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(B')
@@ -28448,7 +28448,7 @@ def decrypt_parenB():
 def decrypt_parenD():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(D':
+        if x[:2] != '(D':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(D')
@@ -28462,7 +28462,7 @@ def decrypt_parenD():
 def decrypt_parenF():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(F':
+        if x[:2] != '(F':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(F')
@@ -28476,7 +28476,7 @@ def decrypt_parenF():
 def decrypt_parenH():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(H':
+        if x[:2] != '(H':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(H')
@@ -28490,7 +28490,7 @@ def decrypt_parenH():
 def decrypt_parenJ():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(J':
+        if x[:2] != '(J':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(J')
@@ -28504,7 +28504,7 @@ def decrypt_parenJ():
 def decrypt_parenL():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(L':
+        if x[:2] != '(L':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(L')
@@ -28518,7 +28518,7 @@ def decrypt_parenL():
 def decrypt_parenN():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(N':
+        if x[:2] != '(N':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(N')
@@ -28532,7 +28532,7 @@ def decrypt_parenN():
 def decrypt_parenP():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(P':
+        if x[:2] != '(P':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(P')
@@ -28546,7 +28546,7 @@ def decrypt_parenP():
 def decrypt_parenR():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(R':
+        if x[:2] != '(R':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(R')
@@ -28560,7 +28560,7 @@ def decrypt_parenR():
 def decrypt_parenT():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(T':
+        if x[:2] != '(T':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(T')
@@ -28574,7 +28574,7 @@ def decrypt_parenT():
 def decrypt_parenV():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(V':
+        if x[:2] != '(V':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(V')
@@ -28588,7 +28588,7 @@ def decrypt_parenV():
 def decrypt_parenX():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(X':
+        if x[:2] != '(X':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(X')
@@ -28602,7 +28602,7 @@ def decrypt_parenX():
 def decrypt_parenZ():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(Z':
+        if x[:2] != '(Z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(Z')
@@ -28616,7 +28616,7 @@ def decrypt_parenZ():
 def decrypt_paren0():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(0':
+        if x[:2] != '(0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(0')
@@ -28630,7 +28630,7 @@ def decrypt_paren0():
 def decrypt_paren2():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(2':
+        if x[:2] != '(2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(2')
@@ -28644,7 +28644,7 @@ def decrypt_paren2():
 def decrypt_paren4():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(4':
+        if x[:2] != '(4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(4')
@@ -28658,7 +28658,7 @@ def decrypt_paren4():
 def decrypt_paren6():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(6':
+        if x[:2] != '(6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(6')
@@ -28672,7 +28672,7 @@ def decrypt_paren6():
 def decrypt_paren8():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(8':
+        if x[:2] != '(8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(8')
@@ -28686,7 +28686,7 @@ def decrypt_paren8():
 def decrypt_parenexcl():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(!':
+        if x[:2] != '(!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(!')
@@ -28700,7 +28700,7 @@ def decrypt_parenexcl():
 def decrypt_parendquote():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '("':
+        if x[:2] != '("':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -("')
@@ -28714,7 +28714,7 @@ def decrypt_parendquote():
 def decrypt_parendoll():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '($':
+        if x[:2] != '($':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -($')
@@ -28728,7 +28728,7 @@ def decrypt_parendoll():
 def decrypt_parenand():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(&':
+        if x[:2] != '(&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(&')
@@ -28742,7 +28742,7 @@ def decrypt_parenand():
 def decrypt_parenquote():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(\'':
+        if x[:2] != '(\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(\'')
@@ -28756,7 +28756,7 @@ def decrypt_parenquote():
 def decrypt_parpara():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'par(':
+        if x[:2] != 'par(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -par(')
@@ -28770,7 +28770,7 @@ def decrypt_parpara():
 def decrypt_parenast():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(*':
+        if x[:2] != '(*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(*')
@@ -28784,7 +28784,7 @@ def decrypt_parenast():
 def decrypt_parenvir():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(,':
+        if x[:2] != '(,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(,')
@@ -28798,7 +28798,7 @@ def decrypt_parenvir():
 def decrypt_parenpp():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(.':
+        if x[:2] != '(.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(.')
@@ -28812,7 +28812,7 @@ def decrypt_parenpp():
 def decrypt_parentp():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(:':
+        if x[:2] != '(:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(:')
@@ -28826,7 +28826,7 @@ def decrypt_parentp():
 def decrypt_parenless():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(<':
+        if x[:2] != '(<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(<')
@@ -28840,7 +28840,7 @@ def decrypt_parenless():
 def decrypt_parenmore():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(>':
+        if x[:2] != '(>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(>')
@@ -28854,7 +28854,7 @@ def decrypt_parenmore():
 def decrypt_parenaro():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(@':
+        if x[:2] != '(@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(@')
@@ -28868,7 +28868,7 @@ def decrypt_parenaro():
 def decrypt_parencroc():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '([':
+        if x[:2] != '([':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -([')
@@ -28882,7 +28882,7 @@ def decrypt_parencroc():
 def decrypt_parenbsl():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(\\':
+        if x[:2] != '(\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(\\')
@@ -28896,7 +28896,7 @@ def decrypt_parenbsl():
 def decrypt_parencirc():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(^':
+        if x[:2] != '(^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(^')
@@ -28910,7 +28910,7 @@ def decrypt_parencirc():
 def decrypt_parenesp():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(`':
+        if x[:2] != '(`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(`')
@@ -28924,7 +28924,7 @@ def decrypt_parenesp():
 def decrypt_parencr():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '({':
+        if x[:2] != '({':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -({')
@@ -28938,7 +28938,7 @@ def decrypt_parencr():
 def decrypt_parenhl():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(|':
+        if x[:2] != '(|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(|')
@@ -28952,7 +28952,7 @@ def decrypt_parenhl():
 def decrypt_parentild():
     i = 0
     for x in map(''.join, itertools.product('(abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'*,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '(~':
+        if x[:2] != '(~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -(~')
@@ -28966,7 +28966,7 @@ def decrypt_parentild():
 def decrypt_espea():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*a':
+        if x[:2] != '*a':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*a')
@@ -28980,7 +28980,7 @@ def decrypt_espea():
 def decrypt_espeb():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*b':
+        if x[:2] != '*b':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*b')
@@ -28994,7 +28994,7 @@ def decrypt_espeb():
 def decrypt_esped():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*d':
+        if x[:2] != '*d':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*d')
@@ -29008,7 +29008,7 @@ def decrypt_esped():
 def decrypt_espef():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*f':
+        if x[:2] != '*f':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*f')
@@ -29022,7 +29022,7 @@ def decrypt_espef():
 def decrypt_espeh():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*h':
+        if x[:2] != '*h':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*h')
@@ -29036,7 +29036,7 @@ def decrypt_espeh():
 def decrypt_espej():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*j':
+        if x[:2] != '*j':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*j')
@@ -29050,7 +29050,7 @@ def decrypt_espej():
 def decrypt_espel():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*l':
+        if x[:2] != '*l':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*l')
@@ -29064,7 +29064,7 @@ def decrypt_espel():
 def decrypt_espen():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*n':
+        if x[:2] != '*n':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*n')
@@ -29078,7 +29078,7 @@ def decrypt_espen():
 def decrypt_espep():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*p':
+        if x[:2] != '*p':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*p')
@@ -29092,7 +29092,7 @@ def decrypt_espep():
 def decrypt_esper():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*r':
+        if x[:2] != '*r':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*r')
@@ -29106,7 +29106,7 @@ def decrypt_esper():
 def decrypt_espet():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*t':
+        if x[:2] != '*t':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*t')
@@ -29120,7 +29120,7 @@ def decrypt_espet():
 def decrypt_espev():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*v':
+        if x[:2] != '*v':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*v')
@@ -29134,7 +29134,7 @@ def decrypt_espev():
 def decrypt_espex():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*x':
+        if x[:2] != '*x':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*x')
@@ -29148,7 +29148,7 @@ def decrypt_espex():
 def decrypt_espez():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*z':
+        if x[:2] != '*z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*z')
@@ -29162,7 +29162,7 @@ def decrypt_espez():
 def decrypt_espeA():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*A':
+        if x[:2] != '*A':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*A')
@@ -29176,7 +29176,7 @@ def decrypt_espeA():
 def decrypt_espeB():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*B':
+        if x[:2] != '*B':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*B')
@@ -29190,7 +29190,7 @@ def decrypt_espeB():
 def decrypt_espeD():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*D':
+        if x[:2] != '*D':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*D')
@@ -29204,7 +29204,7 @@ def decrypt_espeD():
 def decrypt_espeF():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*F':
+        if x[:2] != '*F':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*F')
@@ -29218,7 +29218,7 @@ def decrypt_espeF():
 def decrypt_espeH():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*H':
+        if x[:2] != '*H':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*H')
@@ -29232,7 +29232,7 @@ def decrypt_espeH():
 def decrypt_espeJ():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*J':
+        if x[:2] != '*J':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*J')
@@ -29246,7 +29246,7 @@ def decrypt_espeJ():
 def decrypt_espeL():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*L':
+        if x[:2] != '*L':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*L')
@@ -29260,7 +29260,7 @@ def decrypt_espeL():
 def decrypt_espeN():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*N':
+        if x[:2] != '*N':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*N')
@@ -29274,7 +29274,7 @@ def decrypt_espeN():
 def decrypt_espeP():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*P':
+        if x[:2] != '*P':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*P')
@@ -29288,7 +29288,7 @@ def decrypt_espeP():
 def decrypt_espeR():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*R':
+        if x[:2] != '*R':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*R')
@@ -29302,7 +29302,7 @@ def decrypt_espeR():
 def decrypt_espeT():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*T':
+        if x[:2] != '*T':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*T')
@@ -29316,7 +29316,7 @@ def decrypt_espeT():
 def decrypt_espeV():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*V':
+        if x[:2] != '*V':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*V')
@@ -29330,7 +29330,7 @@ def decrypt_espeV():
 def decrypt_espeX():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*X':
+        if x[:2] != '*X':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*X')
@@ -29344,7 +29344,7 @@ def decrypt_espeX():
 def decrypt_espeZ():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*Z':
+        if x[:2] != '*Z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*Z')
@@ -29358,7 +29358,7 @@ def decrypt_espeZ():
 def decrypt_espe0():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*0':
+        if x[:2] != '*0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*0')
@@ -29372,7 +29372,7 @@ def decrypt_espe0():
 def decrypt_espe2():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*2':
+        if x[:2] != '*2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*2')
@@ -29386,7 +29386,7 @@ def decrypt_espe2():
 def decrypt_espe4():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*4':
+        if x[:2] != '*4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*4')
@@ -29400,7 +29400,7 @@ def decrypt_espe4():
 def decrypt_espe6():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*6':
+        if x[:2] != '*6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*6')
@@ -29414,7 +29414,7 @@ def decrypt_espe6():
 def decrypt_espe8():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*8':
+        if x[:2] != '*8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*8')
@@ -29428,7 +29428,7 @@ def decrypt_espe8():
 def decrypt_espeexcl():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*!':
+        if x[:2] != '*!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*!')
@@ -29442,7 +29442,7 @@ def decrypt_espeexcl():
 def decrypt_espedquote():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*"':
+        if x[:2] != '*"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*"')
@@ -29456,7 +29456,7 @@ def decrypt_espedquote():
 def decrypt_espedoll():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*$':
+        if x[:2] != '*$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*$')
@@ -29470,7 +29470,7 @@ def decrypt_espedoll():
 def decrypt_espeand():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*&':
+        if x[:2] != '*&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*&')
@@ -29484,7 +29484,7 @@ def decrypt_espeand():
 def decrypt_espequote():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*\'':
+        if x[:2] != '*\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*\'')
@@ -29498,7 +29498,7 @@ def decrypt_espequote():
 def decrypt_astpar():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'ast(':
+        if x[:2] != 'ast(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -ast(')
@@ -29512,7 +29512,7 @@ def decrypt_astpar():
 def decrypt_espeast():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '**':
+        if x[:2] != '**':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -**')
@@ -29526,7 +29526,7 @@ def decrypt_espeast():
 def decrypt_espevir():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*,':
+        if x[:2] != '*,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*,')
@@ -29540,7 +29540,7 @@ def decrypt_espevir():
 def decrypt_espepp():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*.':
+        if x[:2] != '*.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*.')
@@ -29554,7 +29554,7 @@ def decrypt_espepp():
 def decrypt_espetp():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*:':
+        if x[:2] != '*:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*:')
@@ -29568,7 +29568,7 @@ def decrypt_espetp():
 def decrypt_espeless():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*<':
+        if x[:2] != '*<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*<')
@@ -29582,7 +29582,7 @@ def decrypt_espeless():
 def decrypt_espemore():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*>':
+        if x[:2] != '*>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*>')
@@ -29596,7 +29596,7 @@ def decrypt_espemore():
 def decrypt_espearo():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*@':
+        if x[:2] != '*@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*@')
@@ -29610,7 +29610,7 @@ def decrypt_espearo():
 def decrypt_especroc():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*[':
+        if x[:2] != '*[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*[')
@@ -29624,7 +29624,7 @@ def decrypt_especroc():
 def decrypt_espebsl():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*\\':
+        if x[:2] != '*\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*\\')
@@ -29638,7 +29638,7 @@ def decrypt_espebsl():
 def decrypt_especirc():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*^':
+        if x[:2] != '*^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*^')
@@ -29652,7 +29652,7 @@ def decrypt_especirc():
 def decrypt_espeesp():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*`':
+        if x[:2] != '*`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*`')
@@ -29666,7 +29666,7 @@ def decrypt_espeesp():
 def decrypt_especr():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*{':
+        if x[:2] != '*{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*{')
@@ -29680,7 +29680,7 @@ def decrypt_especr():
 def decrypt_espehl():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*|':
+        if x[:2] != '*|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*|')
@@ -29694,7 +29694,7 @@ def decrypt_espehl():
 def decrypt_espetild():
     i = 0
     for x in map(''.join, itertools.product('*abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(,.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '*~':
+        if x[:2] != '*~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -*~')
@@ -29708,7 +29708,7 @@ def decrypt_espetild():
 def decrypt_vira():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',a':
+        if x[:2] != ',a':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,a')
@@ -29722,7 +29722,7 @@ def decrypt_vira():
 def decrypt_virb():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',b':
+        if x[:2] != ',b':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,b')
@@ -29736,7 +29736,7 @@ def decrypt_virb():
 def decrypt_vird():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',d':
+        if x[:2] != ',d':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,d')
@@ -29750,7 +29750,7 @@ def decrypt_vird():
 def decrypt_virf():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',f':
+        if x[:2] != ',f':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,f')
@@ -29764,7 +29764,7 @@ def decrypt_virf():
 def decrypt_virh():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',h':
+        if x[:2] != ',h':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,h')
@@ -29778,7 +29778,7 @@ def decrypt_virh():
 def decrypt_virj():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',j':
+        if x[:2] != ',j':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,j')
@@ -29792,7 +29792,7 @@ def decrypt_virj():
 def decrypt_virl():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',l':
+        if x[:2] != ',l':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,l')
@@ -29806,7 +29806,7 @@ def decrypt_virl():
 def decrypt_virn():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',n':
+        if x[:2] != ',n':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,n')
@@ -29820,7 +29820,7 @@ def decrypt_virn():
 def decrypt_virp():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',p':
+        if x[:2] != ',p':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,p')
@@ -29834,7 +29834,7 @@ def decrypt_virp():
 def decrypt_virr():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',r':
+        if x[:2] != ',r':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,r')
@@ -29848,7 +29848,7 @@ def decrypt_virr():
 def decrypt_virt():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',t':
+        if x[:2] != ',t':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,t')
@@ -29862,7 +29862,7 @@ def decrypt_virt():
 def decrypt_virv():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',v':
+        if x[:2] != ',v':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,v')
@@ -29876,7 +29876,7 @@ def decrypt_virv():
 def decrypt_virx():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',x':
+        if x[:2] != ',x':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,x')
@@ -29890,7 +29890,7 @@ def decrypt_virx():
 def decrypt_virz():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',z':
+        if x[:2] != ',z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,z')
@@ -29904,7 +29904,7 @@ def decrypt_virz():
 def decrypt_virA():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',A':
+        if x[:2] != ',A':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,A')
@@ -29918,7 +29918,7 @@ def decrypt_virA():
 def decrypt_virB():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',B':
+        if x[:2] != ',B':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,B')
@@ -29932,7 +29932,7 @@ def decrypt_virB():
 def decrypt_virD():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',D':
+        if x[:2] != ',D':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,D')
@@ -29946,7 +29946,7 @@ def decrypt_virD():
 def decrypt_virF():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',F':
+        if x[:2] != ',F':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,F')
@@ -29960,7 +29960,7 @@ def decrypt_virF():
 def decrypt_virH():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',H':
+        if x[:2] != ',H':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,H')
@@ -29974,7 +29974,7 @@ def decrypt_virH():
 def decrypt_virJ():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',J':
+        if x[:2] != ',J':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,J')
@@ -29988,7 +29988,7 @@ def decrypt_virJ():
 def decrypt_virL():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',L':
+        if x[:2] != ',L':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,L')
@@ -30002,7 +30002,7 @@ def decrypt_virL():
 def decrypt_virN():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',N':
+        if x[:2] != ',N':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,N')
@@ -30016,7 +30016,7 @@ def decrypt_virN():
 def decrypt_virP():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',P':
+        if x[:2] != ',P':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,P')
@@ -30030,7 +30030,7 @@ def decrypt_virP():
 def decrypt_virR():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',R':
+        if x[:2] != ',R':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,R')
@@ -30044,7 +30044,7 @@ def decrypt_virR():
 def decrypt_virT():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',T':
+        if x[:2] != ',T':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,T')
@@ -30058,7 +30058,7 @@ def decrypt_virT():
 def decrypt_virV():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',V':
+        if x[:2] != ',V':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,V')
@@ -30072,7 +30072,7 @@ def decrypt_virV():
 def decrypt_virX():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',X':
+        if x[:2] != ',X':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,X')
@@ -30086,7 +30086,7 @@ def decrypt_virX():
 def decrypt_virZ():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',Z':
+        if x[:2] != ',Z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,Z')
@@ -30100,7 +30100,7 @@ def decrypt_virZ():
 def decrypt_vir0():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',0':
+        if x[:2] != ',0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,0')
@@ -30114,7 +30114,7 @@ def decrypt_vir0():
 def decrypt_vir2():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',2':
+        if x[:2] != ',2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,2')
@@ -30128,7 +30128,7 @@ def decrypt_vir2():
 def decrypt_vir4():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',4':
+        if x[:2] != ',4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,4')
@@ -30142,7 +30142,7 @@ def decrypt_vir4():
 def decrypt_vir6():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',6':
+        if x[:2] != ',6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,6')
@@ -30156,7 +30156,7 @@ def decrypt_vir6():
 def decrypt_vir8():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',8':
+        if x[:2] != ',8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,8')
@@ -30170,7 +30170,7 @@ def decrypt_vir8():
 def decrypt_virexcl():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',!':
+        if x[:2] != ',!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,!')
@@ -30184,7 +30184,7 @@ def decrypt_virexcl():
 def decrypt_virdquote():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',"':
+        if x[:2] != ',"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,"')
@@ -30198,7 +30198,7 @@ def decrypt_virdquote():
 def decrypt_virdoll():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',$':
+        if x[:2] != ',$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,$')
@@ -30212,7 +30212,7 @@ def decrypt_virdoll():
 def decrypt_virand():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',&':
+        if x[:2] != ',&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,&')
@@ -30226,7 +30226,7 @@ def decrypt_virand():
 def decrypt_virquote():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',\'':
+        if x[:2] != ',\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,\'')
@@ -30240,7 +30240,7 @@ def decrypt_virquote():
 def decrypt_virpar():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'vir(':
+        if x[:2] != 'vir(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -vir(')
@@ -30254,7 +30254,7 @@ def decrypt_virpar():
 def decrypt_virast():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',*':
+        if x[:2] != ',*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,*')
@@ -30268,7 +30268,7 @@ def decrypt_virast():
 def decrypt_virvir():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',,':
+        if x[:2] != ',,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,,')
@@ -30282,7 +30282,7 @@ def decrypt_virvir():
 def decrypt_virpp():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',.':
+        if x[:2] != ',.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,.')
@@ -30296,7 +30296,7 @@ def decrypt_virpp():
 def decrypt_virtp():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',:':
+        if x[:2] != ',:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,:')
@@ -30310,7 +30310,7 @@ def decrypt_virtp():
 def decrypt_virless():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',<':
+        if x[:2] != ',<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,<')
@@ -30324,7 +30324,7 @@ def decrypt_virless():
 def decrypt_virmore():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',>':
+        if x[:2] != ',>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,>')
@@ -30338,7 +30338,7 @@ def decrypt_virmore():
 def decrypt_viraro():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',@':
+        if x[:2] != ',@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,@')
@@ -30352,7 +30352,7 @@ def decrypt_viraro():
 def decrypt_vircroc():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',[':
+        if x[:2] != ',[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,[')
@@ -30366,7 +30366,7 @@ def decrypt_vircroc():
 def decrypt_virbsl():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',\\':
+        if x[:2] != ',\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,\\')
@@ -30380,7 +30380,7 @@ def decrypt_virbsl():
 def decrypt_vircirc():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',^':
+        if x[:2] != ',^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,^')
@@ -30394,7 +30394,7 @@ def decrypt_vircirc():
 def decrypt_viresp():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',`':
+        if x[:2] != ',`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,`')
@@ -30408,7 +30408,7 @@ def decrypt_viresp():
 def decrypt_vircr():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',{':
+        if x[:2] != ',{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,{')
@@ -30422,7 +30422,7 @@ def decrypt_vircr():
 def decrypt_virhl():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',|':
+        if x[:2] != ',|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,|')
@@ -30436,7 +30436,7 @@ def decrypt_virhl():
 def decrypt_virtild():
     i = 0
     for x in map(''.join, itertools.product(',abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*.:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ',~':
+        if x[:2] != ',~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -,~')
@@ -30450,7 +30450,7 @@ def decrypt_virtild():
 def decrypt_poina():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.a':
+        if x[:2] != '.a':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.a')
@@ -30464,7 +30464,7 @@ def decrypt_poina():
 def decrypt_poinb():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.b':
+        if x[:2] != '.b':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.b')
@@ -30478,7 +30478,7 @@ def decrypt_poinb():
 def decrypt_poind():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.d':
+        if x[:2] != '.d':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.d')
@@ -30492,7 +30492,7 @@ def decrypt_poind():
 def decrypt_poinf():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.f':
+        if x[:2] != '.f':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.f')
@@ -30506,7 +30506,7 @@ def decrypt_poinf():
 def decrypt_poinh():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.h':
+        if x[:2] != '.h':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.h')
@@ -30520,7 +30520,7 @@ def decrypt_poinh():
 def decrypt_poinj():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.j':
+        if x[:2] != '.j':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.j')
@@ -30534,7 +30534,7 @@ def decrypt_poinj():
 def decrypt_poinl():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.l':
+        if x[:2] != '.l':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.l')
@@ -30548,7 +30548,7 @@ def decrypt_poinl():
 def decrypt_poinn():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.n':
+        if x[:2] != '.n':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.n')
@@ -30562,7 +30562,7 @@ def decrypt_poinn():
 def decrypt_poinp():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.p':
+        if x[:2] != '.p':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.p')
@@ -30576,7 +30576,7 @@ def decrypt_poinp():
 def decrypt_poinr():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.r':
+        if x[:2] != '.r':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.r')
@@ -30590,7 +30590,7 @@ def decrypt_poinr():
 def decrypt_point():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.t':
+        if x[:2] != '.t':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.t')
@@ -30604,7 +30604,7 @@ def decrypt_point():
 def decrypt_poinv():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.v':
+        if x[:2] != '.v':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.v')
@@ -30618,7 +30618,7 @@ def decrypt_poinv():
 def decrypt_poinx():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.x':
+        if x[:2] != '.x':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.x')
@@ -30632,7 +30632,7 @@ def decrypt_poinx():
 def decrypt_poinz():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.z':
+        if x[:2] != '.z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.z')
@@ -30646,7 +30646,7 @@ def decrypt_poinz():
 def decrypt_poinA():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.A':
+        if x[:2] != '.A':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.A')
@@ -30660,7 +30660,7 @@ def decrypt_poinA():
 def decrypt_poinB():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.B':
+        if x[:2] != '.B':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.B')
@@ -30674,7 +30674,7 @@ def decrypt_poinB():
 def decrypt_poinD():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.D':
+        if x[:2] != '.D':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.D')
@@ -30688,7 +30688,7 @@ def decrypt_poinD():
 def decrypt_poinF():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.F':
+        if x[:2] != '.F':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.F')
@@ -30702,7 +30702,7 @@ def decrypt_poinF():
 def decrypt_poinH():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.H':
+        if x[:2] != '.H':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.H')
@@ -30716,7 +30716,7 @@ def decrypt_poinH():
 def decrypt_poinJ():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.J':
+        if x[:2] != '.J':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.J')
@@ -30730,7 +30730,7 @@ def decrypt_poinJ():
 def decrypt_poinL():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.L':
+        if x[:2] != '.L':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.L')
@@ -30744,7 +30744,7 @@ def decrypt_poinL():
 def decrypt_poinN():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.N':
+        if x[:2] != '.N':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.N')
@@ -30758,7 +30758,7 @@ def decrypt_poinN():
 def decrypt_poinP():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.P':
+        if x[:2] != '.P':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.P')
@@ -30772,7 +30772,7 @@ def decrypt_poinP():
 def decrypt_poinR():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.R':
+        if x[:2] != '.R':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.R')
@@ -30786,7 +30786,7 @@ def decrypt_poinR():
 def decrypt_poinT():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.T':
+        if x[:2] != '.T':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.T')
@@ -30800,7 +30800,7 @@ def decrypt_poinT():
 def decrypt_poinV():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.V':
+        if x[:2] != '.V':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.V')
@@ -30814,7 +30814,7 @@ def decrypt_poinV():
 def decrypt_poinX():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.X':
+        if x[:2] != '.X':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.X')
@@ -30828,7 +30828,7 @@ def decrypt_poinX():
 def decrypt_poinZ():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.Z':
+        if x[:2] != '.Z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.Z')
@@ -30842,7 +30842,7 @@ def decrypt_poinZ():
 def decrypt_poin0():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.0':
+        if x[:2] != '.0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.0')
@@ -30856,7 +30856,7 @@ def decrypt_poin0():
 def decrypt_poin2():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.2':
+        if x[:2] != '.2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.2')
@@ -30870,7 +30870,7 @@ def decrypt_poin2():
 def decrypt_poin4():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.4':
+        if x[:2] != '.4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.4')
@@ -30884,7 +30884,7 @@ def decrypt_poin4():
 def decrypt_poin6():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.6':
+        if x[:2] != '.6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.6')
@@ -30898,7 +30898,7 @@ def decrypt_poin6():
 def decrypt_poin8():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.8':
+        if x[:2] != '.8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.8')
@@ -30912,7 +30912,7 @@ def decrypt_poin8():
 def decrypt_poinexcl():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.!':
+        if x[:2] != '.!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.!')
@@ -30926,7 +30926,7 @@ def decrypt_poinexcl():
 def decrypt_poindquote():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '."':
+        if x[:2] != '."':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -."')
@@ -30940,7 +30940,7 @@ def decrypt_poindquote():
 def decrypt_poindoll():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.$':
+        if x[:2] != '.$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.$')
@@ -30954,7 +30954,7 @@ def decrypt_poindoll():
 def decrypt_poinand():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.&':
+        if x[:2] != '.&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.&')
@@ -30968,7 +30968,7 @@ def decrypt_poinand():
 def decrypt_poinquote():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.\'':
+        if x[:2] != '.\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.\'')
@@ -30982,7 +30982,7 @@ def decrypt_poinquote():
 def decrypt_pppar():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'pp(':
+        if x[:2] != 'pp(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -pp(')
@@ -30996,7 +30996,7 @@ def decrypt_pppar():
 def decrypt_poinast():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.*':
+        if x[:2] != '.*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.*')
@@ -31010,7 +31010,7 @@ def decrypt_poinast():
 def decrypt_poinvir():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.,':
+        if x[:2] != '.,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.,')
@@ -31024,7 +31024,7 @@ def decrypt_poinvir():
 def decrypt_poinpp():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '..':
+        if x[:2] != '..':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -..')
@@ -31038,7 +31038,7 @@ def decrypt_poinpp():
 def decrypt_pointp():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.:':
+        if x[:2] != '.:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.:')
@@ -31052,7 +31052,7 @@ def decrypt_pointp():
 def decrypt_poinless():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.<':
+        if x[:2] != '.<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.<')
@@ -31066,7 +31066,7 @@ def decrypt_poinless():
 def decrypt_poinmore():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.>':
+        if x[:2] != '.>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.>')
@@ -31080,7 +31080,7 @@ def decrypt_poinmore():
 def decrypt_poinaro():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.@':
+        if x[:2] != '.@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.@')
@@ -31094,7 +31094,7 @@ def decrypt_poinaro():
 def decrypt_poincroc():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.[':
+        if x[:2] != '.[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.[')
@@ -31108,7 +31108,7 @@ def decrypt_poincroc():
 def decrypt_poinbsl():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.\\':
+        if x[:2] != '.\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.\\')
@@ -31122,7 +31122,7 @@ def decrypt_poinbsl():
 def decrypt_poincirc():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.^':
+        if x[:2] != '.^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.^')
@@ -31136,7 +31136,7 @@ def decrypt_poincirc():
 def decrypt_poinesp():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.`':
+        if x[:2] != '.`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.`')
@@ -31150,7 +31150,7 @@ def decrypt_poinesp():
 def decrypt_poincr():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.{':
+        if x[:2] != '.{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.{')
@@ -31164,7 +31164,7 @@ def decrypt_poincr():
 def decrypt_poinhl():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.|':
+        if x[:2] != '.|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.|')
@@ -31178,7 +31178,7 @@ def decrypt_poinhl():
 def decrypt_pointild():
     i = 0
     for x in map(''.join, itertools.product('.abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,:<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '.~':
+        if x[:2] != '.~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -.~')
@@ -31192,7 +31192,7 @@ def decrypt_pointild():
 def decrypt_doubpoina():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':a':
+        if x[:2] != ':a':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:a')
@@ -31206,7 +31206,7 @@ def decrypt_doubpoina():
 def decrypt_doubpoinb():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':b':
+        if x[:2] != ':b':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:b')
@@ -31220,7 +31220,7 @@ def decrypt_doubpoinb():
 def decrypt_doubpoind():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':d':
+        if x[:2] != ':d':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:d')
@@ -31234,7 +31234,7 @@ def decrypt_doubpoind():
 def decrypt_doubpoinf():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':f':
+        if x[:2] != ':f':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:f')
@@ -31248,7 +31248,7 @@ def decrypt_doubpoinf():
 def decrypt_doubpoinh():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':h':
+        if x[:2] != ':h':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:h')
@@ -31262,7 +31262,7 @@ def decrypt_doubpoinh():
 def decrypt_doubpoinj():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':j':
+        if x[:2] != ':j':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:j')
@@ -31276,7 +31276,7 @@ def decrypt_doubpoinj():
 def decrypt_doubpoinl():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':l':
+        if x[:2] != ':l':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:l')
@@ -31290,7 +31290,7 @@ def decrypt_doubpoinl():
 def decrypt_doubpoinn():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':n':
+        if x[:2] != ':n':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:n')
@@ -31304,7 +31304,7 @@ def decrypt_doubpoinn():
 def decrypt_doubpoinp():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':p':
+        if x[:2] != ':p':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:p')
@@ -31318,7 +31318,7 @@ def decrypt_doubpoinp():
 def decrypt_doubpoinr():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':r':
+        if x[:2] != ':r':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:r')
@@ -31332,7 +31332,7 @@ def decrypt_doubpoinr():
 def decrypt_doubpoint():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':t':
+        if x[:2] != ':t':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:t')
@@ -31346,7 +31346,7 @@ def decrypt_doubpoint():
 def decrypt_doubpoinv():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':v':
+        if x[:2] != ':v':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:v')
@@ -31360,7 +31360,7 @@ def decrypt_doubpoinv():
 def decrypt_doubpoinx():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':x':
+        if x[:2] != ':x':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:x')
@@ -31374,7 +31374,7 @@ def decrypt_doubpoinx():
 def decrypt_doubpoinz():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':z':
+        if x[:2] != ':z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:z')
@@ -31388,7 +31388,7 @@ def decrypt_doubpoinz():
 def decrypt_doubpoinA():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':A':
+        if x[:2] != ':A':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:A')
@@ -31402,7 +31402,7 @@ def decrypt_doubpoinA():
 def decrypt_doubpoinB():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':B':
+        if x[:2] != ':B':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:B')
@@ -31416,7 +31416,7 @@ def decrypt_doubpoinB():
 def decrypt_doubpoinD():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':D':
+        if x[:2] != ':D':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:D')
@@ -31430,7 +31430,7 @@ def decrypt_doubpoinD():
 def decrypt_doubpoinF():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':F':
+        if x[:2] != ':F':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:F')
@@ -31444,7 +31444,7 @@ def decrypt_doubpoinF():
 def decrypt_doubpoinH():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':H':
+        if x[:2] != ':H':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:H')
@@ -31458,7 +31458,7 @@ def decrypt_doubpoinH():
 def decrypt_doubpoinJ():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':J':
+        if x[:2] != ':J':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:J')
@@ -31472,7 +31472,7 @@ def decrypt_doubpoinJ():
 def decrypt_doubpoinL():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':L':
+        if x[:2] != ':L':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:L')
@@ -31486,7 +31486,7 @@ def decrypt_doubpoinL():
 def decrypt_doubpoinN():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':N':
+        if x[:2] != ':N':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:N')
@@ -31500,7 +31500,7 @@ def decrypt_doubpoinN():
 def decrypt_doubpoinP():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':P':
+        if x[:2] != ':P':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:P')
@@ -31514,7 +31514,7 @@ def decrypt_doubpoinP():
 def decrypt_doubpoinR():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':R':
+        if x[:2] != ':R':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:R')
@@ -31528,7 +31528,7 @@ def decrypt_doubpoinR():
 def decrypt_doubpoinT():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':T':
+        if x[:2] != ':T':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:T')
@@ -31542,7 +31542,7 @@ def decrypt_doubpoinT():
 def decrypt_doubpoinV():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':V':
+        if x[:2] != ':V':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:V')
@@ -31556,7 +31556,7 @@ def decrypt_doubpoinV():
 def decrypt_doubpoinX():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':X':
+        if x[:2] != ':X':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:X')
@@ -31570,7 +31570,7 @@ def decrypt_doubpoinX():
 def decrypt_doubpoinZ():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':Z':
+        if x[:2] != ':Z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:Z')
@@ -31584,7 +31584,7 @@ def decrypt_doubpoinZ():
 def decrypt_doubpoin0():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':0':
+        if x[:2] != ':0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:0')
@@ -31598,7 +31598,7 @@ def decrypt_doubpoin0():
 def decrypt_doubpoin2():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':2':
+        if x[:2] != ':2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:2')
@@ -31612,7 +31612,7 @@ def decrypt_doubpoin2():
 def decrypt_doubpoin4():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':4':
+        if x[:2] != ':4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:4')
@@ -31626,7 +31626,7 @@ def decrypt_doubpoin4():
 def decrypt_doubpoin6():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':6':
+        if x[:2] != ':6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:6')
@@ -31640,7 +31640,7 @@ def decrypt_doubpoin6():
 def decrypt_doubpoin8():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':8':
+        if x[:2] != ':8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:8')
@@ -31654,7 +31654,7 @@ def decrypt_doubpoin8():
 def decrypt_doubpoinexcl():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':!':
+        if x[:2] != ':!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:!')
@@ -31668,7 +31668,7 @@ def decrypt_doubpoinexcl():
 def decrypt_doubpoindquote():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':"':
+        if x[:2] != ':"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:"')
@@ -31682,7 +31682,7 @@ def decrypt_doubpoindquote():
 def decrypt_doubpoindoll():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':$':
+        if x[:2] != ':$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:$')
@@ -31696,7 +31696,7 @@ def decrypt_doubpoindoll():
 def decrypt_doubpoinand():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':&':
+        if x[:2] != ':&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:&')
@@ -31710,7 +31710,7 @@ def decrypt_doubpoinand():
 def decrypt_doubpoinquote():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':\'':
+        if x[:2] != ':\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:\'')
@@ -31724,7 +31724,7 @@ def decrypt_doubpoinquote():
 def decrypt_tppar():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'tp(':
+        if x[:2] != 'tp(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -tp(')
@@ -31738,7 +31738,7 @@ def decrypt_tppar():
 def decrypt_doubpoinast():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':*':
+        if x[:2] != ':*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:*')
@@ -31752,7 +31752,7 @@ def decrypt_doubpoinast():
 def decrypt_doubpoinvir():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':,':
+        if x[:2] != ':,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:,')
@@ -31766,7 +31766,7 @@ def decrypt_doubpoinvir():
 def decrypt_doubpoinpp():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':.':
+        if x[:2] != ':.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:.')
@@ -31780,7 +31780,7 @@ def decrypt_doubpoinpp():
 def decrypt_doubpointp():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '::':
+        if x[:2] != '::':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -::')
@@ -31794,7 +31794,7 @@ def decrypt_doubpointp():
 def decrypt_doubpoinless():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':<':
+        if x[:2] != ':<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:<')
@@ -31808,7 +31808,7 @@ def decrypt_doubpoinless():
 def decrypt_doubpoinmore():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':>':
+        if x[:2] != ':>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:>')
@@ -31822,7 +31822,7 @@ def decrypt_doubpoinmore():
 def decrypt_doubpoinaro():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':@':
+        if x[:2] != ':@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:@')
@@ -31836,7 +31836,7 @@ def decrypt_doubpoinaro():
 def decrypt_doubpoincroc():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':[':
+        if x[:2] != ':[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:[')
@@ -31850,7 +31850,7 @@ def decrypt_doubpoincroc():
 def decrypt_doubpoinbsl():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':\\':
+        if x[:2] != ':\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:\\')
@@ -31864,7 +31864,7 @@ def decrypt_doubpoinbsl():
 def decrypt_doubpoincirc():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':^':
+        if x[:2] != ':^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:^')
@@ -31878,7 +31878,7 @@ def decrypt_doubpoincirc():
 def decrypt_doubpoinesp():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':`':
+        if x[:2] != ':`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:`')
@@ -31892,7 +31892,7 @@ def decrypt_doubpoinesp():
 def decrypt_doubpoincr():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':{':
+        if x[:2] != ':{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:{')
@@ -31906,7 +31906,7 @@ def decrypt_doubpoincr():
 def decrypt_doubpoinhl():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':|':
+        if x[:2] != ':|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:|')
@@ -31920,7 +31920,7 @@ def decrypt_doubpoinhl():
 def decrypt_doubpointild():
     i = 0
     for x in map(''.join, itertools.product(':abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.<>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != ':~':
+        if x[:2] != ':~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -:~')
@@ -31934,7 +31934,7 @@ def decrypt_doubpointild():
 def decrypt_lessa():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<a':
+        if x[:2] != '<a':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<a')
@@ -31948,7 +31948,7 @@ def decrypt_lessa():
 def decrypt_lessb():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<b':
+        if x[:2] != '<b':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<b')
@@ -31962,7 +31962,7 @@ def decrypt_lessb():
 def decrypt_lessd():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<d':
+        if x[:2] != '<d':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<d')
@@ -31976,7 +31976,7 @@ def decrypt_lessd():
 def decrypt_lessf():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<f':
+        if x[:2] != '<f':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<f')
@@ -31990,7 +31990,7 @@ def decrypt_lessf():
 def decrypt_lessh():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<h':
+        if x[:2] != '<h':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<h')
@@ -32004,7 +32004,7 @@ def decrypt_lessh():
 def decrypt_lessj():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<j':
+        if x[:2] != '<j':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<j')
@@ -32018,7 +32018,7 @@ def decrypt_lessj():
 def decrypt_lessl():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<l':
+        if x[:2] != '<l':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<l')
@@ -32032,7 +32032,7 @@ def decrypt_lessl():
 def decrypt_lessn():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<n':
+        if x[:2] != '<n':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<n')
@@ -32046,7 +32046,7 @@ def decrypt_lessn():
 def decrypt_lessp():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<p':
+        if x[:2] != '<p':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<p')
@@ -32060,7 +32060,7 @@ def decrypt_lessp():
 def decrypt_lessr():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<r':
+        if x[:2] != '<r':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<r')
@@ -32074,7 +32074,7 @@ def decrypt_lessr():
 def decrypt_lesst():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<t':
+        if x[:2] != '<t':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<t')
@@ -32088,7 +32088,7 @@ def decrypt_lesst():
 def decrypt_lessv():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<v':
+        if x[:2] != '<v':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<v')
@@ -32102,7 +32102,7 @@ def decrypt_lessv():
 def decrypt_lessx():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<x':
+        if x[:2] != '<x':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<x')
@@ -32116,7 +32116,7 @@ def decrypt_lessx():
 def decrypt_lessz():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<z':
+        if x[:2] != '<z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<z')
@@ -32130,7 +32130,7 @@ def decrypt_lessz():
 def decrypt_lessA():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<A':
+        if x[:2] != '<A':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<A')
@@ -32144,7 +32144,7 @@ def decrypt_lessA():
 def decrypt_lessB():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<B':
+        if x[:2] != '<B':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<B')
@@ -32158,7 +32158,7 @@ def decrypt_lessB():
 def decrypt_lessD():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<D':
+        if x[:2] != '<D':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<D')
@@ -32172,7 +32172,7 @@ def decrypt_lessD():
 def decrypt_lessF():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<F':
+        if x[:2] != '<F':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<F')
@@ -32186,7 +32186,7 @@ def decrypt_lessF():
 def decrypt_lessH():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<H':
+        if x[:2] != '<H':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<H')
@@ -32200,7 +32200,7 @@ def decrypt_lessH():
 def decrypt_lessJ():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<J':
+        if x[:2] != '<J':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<J')
@@ -32214,7 +32214,7 @@ def decrypt_lessJ():
 def decrypt_lessL():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<L':
+        if x[:2] != '<L':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<L')
@@ -32228,7 +32228,7 @@ def decrypt_lessL():
 def decrypt_lessN():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<N':
+        if x[:2] != '<N':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<N')
@@ -32242,7 +32242,7 @@ def decrypt_lessN():
 def decrypt_lessP():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<P':
+        if x[:2] != '<P':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<P')
@@ -32256,7 +32256,7 @@ def decrypt_lessP():
 def decrypt_lessR():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<R':
+        if x[:2] != '<R':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<R')
@@ -32270,7 +32270,7 @@ def decrypt_lessR():
 def decrypt_lessT():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<T':
+        if x[:2] != '<T':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<T')
@@ -32284,7 +32284,7 @@ def decrypt_lessT():
 def decrypt_lessV():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<V':
+        if x[:2] != '<V':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<V')
@@ -32298,7 +32298,7 @@ def decrypt_lessV():
 def decrypt_lessX():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<X':
+        if x[:2] != '<X':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<X')
@@ -32312,7 +32312,7 @@ def decrypt_lessX():
 def decrypt_lessZ():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<Z':
+        if x[:2] != '<Z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<Z')
@@ -32326,7 +32326,7 @@ def decrypt_lessZ():
 def decrypt_less0():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<0':
+        if x[:2] != '<0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<0')
@@ -32340,7 +32340,7 @@ def decrypt_less0():
 def decrypt_less2():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<2':
+        if x[:2] != '<2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<2')
@@ -32354,7 +32354,7 @@ def decrypt_less2():
 def decrypt_less4():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<4':
+        if x[:2] != '<4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<4')
@@ -32368,7 +32368,7 @@ def decrypt_less4():
 def decrypt_less6():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<6':
+        if x[:2] != '<6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<6')
@@ -32382,7 +32382,7 @@ def decrypt_less6():
 def decrypt_less8():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<8':
+        if x[:2] != '<8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<8')
@@ -32396,7 +32396,7 @@ def decrypt_less8():
 def decrypt_lessexcl():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<!':
+        if x[:2] != '<!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<!')
@@ -32410,7 +32410,7 @@ def decrypt_lessexcl():
 def decrypt_lessdquote():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<"':
+        if x[:2] != '<"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<"')
@@ -32424,7 +32424,7 @@ def decrypt_lessdquote():
 def decrypt_lessdoll():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<$':
+        if x[:2] != '<$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<$')
@@ -32438,7 +32438,7 @@ def decrypt_lessdoll():
 def decrypt_lessand():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<&':
+        if x[:2] != '<&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<&')
@@ -32452,7 +32452,7 @@ def decrypt_lessand():
 def decrypt_lessquote():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<\'':
+        if x[:2] != '<\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<\'')
@@ -32466,7 +32466,7 @@ def decrypt_lessquote():
 def decrypt_morepar():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'less(':
+        if x[:2] != 'less(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -less(')
@@ -32480,7 +32480,7 @@ def decrypt_morepar():
 def decrypt_lessast():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<*':
+        if x[:2] != '<*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<*')
@@ -32494,7 +32494,7 @@ def decrypt_lessast():
 def decrypt_lessvir():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<,':
+        if x[:2] != '<,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<,')
@@ -32508,7 +32508,7 @@ def decrypt_lessvir():
 def decrypt_lesspp():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<.':
+        if x[:2] != '<.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<.')
@@ -32522,7 +32522,7 @@ def decrypt_lesspp():
 def decrypt_lesstp():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<:':
+        if x[:2] != '<:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<:')
@@ -32536,7 +32536,7 @@ def decrypt_lesstp():
 def decrypt_lessless():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<<':
+        if x[:2] != '<<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<<')
@@ -32550,7 +32550,7 @@ def decrypt_lessless():
 def decrypt_lessmore():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<>':
+        if x[:2] != '<>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<>')
@@ -32564,7 +32564,7 @@ def decrypt_lessmore():
 def decrypt_lessaro():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<@':
+        if x[:2] != '<@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<@')
@@ -32578,7 +32578,7 @@ def decrypt_lessaro():
 def decrypt_lesscroc():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<[':
+        if x[:2] != '<[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<[')
@@ -32592,7 +32592,7 @@ def decrypt_lesscroc():
 def decrypt_lessbsl():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<\\':
+        if x[:2] != '<\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<\\')
@@ -32606,7 +32606,7 @@ def decrypt_lessbsl():
 def decrypt_lesscirc():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<^':
+        if x[:2] != '<^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<^')
@@ -32620,7 +32620,7 @@ def decrypt_lesscirc():
 def decrypt_lessesp():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<`':
+        if x[:2] != '<`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<`')
@@ -32634,7 +32634,7 @@ def decrypt_lessesp():
 def decrypt_lesscr():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<{':
+        if x[:2] != '<{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<{')
@@ -32648,7 +32648,7 @@ def decrypt_lesscr():
 def decrypt_lesshl():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<|':
+        if x[:2] != '<|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<|')
@@ -32662,7 +32662,7 @@ def decrypt_lesshl():
 def decrypt_lesstild():
     i = 0
     for x in map(''.join, itertools.product('<abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:>@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '<~':
+        if x[:2] != '<~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -<~')
@@ -32676,7 +32676,7 @@ def decrypt_lesstild():
 def decrypt_morea():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>a':
+        if x[:2] != '>a':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->a')
@@ -32690,7 +32690,7 @@ def decrypt_morea():
 def decrypt_moreb():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>b':
+        if x[:2] != '>b':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->b')
@@ -32704,7 +32704,7 @@ def decrypt_moreb():
 def decrypt_mored():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>d':
+        if x[:2] != '>d':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->d')
@@ -32718,7 +32718,7 @@ def decrypt_mored():
 def decrypt_moref():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>f':
+        if x[:2] != '>f':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->f')
@@ -32732,7 +32732,7 @@ def decrypt_moref():
 def decrypt_moreh():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>h':
+        if x[:2] != '>h':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->h')
@@ -32746,7 +32746,7 @@ def decrypt_moreh():
 def decrypt_morej():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>j':
+        if x[:2] != '>j':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->j')
@@ -32760,7 +32760,7 @@ def decrypt_morej():
 def decrypt_morel():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>l':
+        if x[:2] != '>l':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->l')
@@ -32774,7 +32774,7 @@ def decrypt_morel():
 def decrypt_moren():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>n':
+        if x[:2] != '>n':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->n')
@@ -32788,7 +32788,7 @@ def decrypt_moren():
 def decrypt_morep():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>p':
+        if x[:2] != '>p':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->p')
@@ -32802,7 +32802,7 @@ def decrypt_morep():
 def decrypt_morer():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>r':
+        if x[:2] != '>r':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->r')
@@ -32816,7 +32816,7 @@ def decrypt_morer():
 def decrypt_moret():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>t':
+        if x[:2] != '>t':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->t')
@@ -32830,7 +32830,7 @@ def decrypt_moret():
 def decrypt_morev():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>v':
+        if x[:2] != '>v':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->v')
@@ -32844,7 +32844,7 @@ def decrypt_morev():
 def decrypt_morex():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>x':
+        if x[:2] != '>x':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->x')
@@ -32858,7 +32858,7 @@ def decrypt_morex():
 def decrypt_morez():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>z':
+        if x[:2] != '>z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->z')
@@ -32872,7 +32872,7 @@ def decrypt_morez():
 def decrypt_moreA():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>A':
+        if x[:2] != '>A':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->A')
@@ -32886,7 +32886,7 @@ def decrypt_moreA():
 def decrypt_moreB():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>B':
+        if x[:2] != '>B':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->B')
@@ -32900,7 +32900,7 @@ def decrypt_moreB():
 def decrypt_moreD():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>D':
+        if x[:2] != '>D':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->D')
@@ -32914,7 +32914,7 @@ def decrypt_moreD():
 def decrypt_moreF():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>F':
+        if x[:2] != '>F':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->F')
@@ -32928,7 +32928,7 @@ def decrypt_moreF():
 def decrypt_moreH():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>H':
+        if x[:2] != '>H':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->H')
@@ -32942,7 +32942,7 @@ def decrypt_moreH():
 def decrypt_moreJ():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>J':
+        if x[:2] != '>J':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->J')
@@ -32956,7 +32956,7 @@ def decrypt_moreJ():
 def decrypt_moreL():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>L':
+        if x[:2] != '>L':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->L')
@@ -32970,7 +32970,7 @@ def decrypt_moreL():
 def decrypt_moreN():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>N':
+        if x[:2] != '>N':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->N')
@@ -32984,7 +32984,7 @@ def decrypt_moreN():
 def decrypt_moreP():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>P':
+        if x[:2] != '>P':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->P')
@@ -32998,7 +32998,7 @@ def decrypt_moreP():
 def decrypt_moreR():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>R':
+        if x[:2] != '>R':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->R')
@@ -33012,7 +33012,7 @@ def decrypt_moreR():
 def decrypt_moreT():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>T':
+        if x[:2] != '>T':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->T')
@@ -33026,7 +33026,7 @@ def decrypt_moreT():
 def decrypt_moreV():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>V':
+        if x[:2] != '>V':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->V')
@@ -33040,7 +33040,7 @@ def decrypt_moreV():
 def decrypt_moreX():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>X':
+        if x[:2] != '>X':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->X')
@@ -33054,7 +33054,7 @@ def decrypt_moreX():
 def decrypt_moreZ():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>Z':
+        if x[:2] != '>Z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->Z')
@@ -33068,7 +33068,7 @@ def decrypt_moreZ():
 def decrypt_more0():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>0':
+        if x[:2] != '>0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->0')
@@ -33082,7 +33082,7 @@ def decrypt_more0():
 def decrypt_more2():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>2':
+        if x[:2] != '>2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->2')
@@ -33096,7 +33096,7 @@ def decrypt_more2():
 def decrypt_more4():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>4':
+        if x[:2] != '>4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->4')
@@ -33110,7 +33110,7 @@ def decrypt_more4():
 def decrypt_more6():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>6':
+        if x[:2] != '>6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->6')
@@ -33124,7 +33124,7 @@ def decrypt_more6():
 def decrypt_more8():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>8':
+        if x[:2] != '>8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->8')
@@ -33138,7 +33138,7 @@ def decrypt_more8():
 def decrypt_moreexcl():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>!':
+        if x[:2] != '>!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->!')
@@ -33152,7 +33152,7 @@ def decrypt_moreexcl():
 def decrypt_moredquote():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>"':
+        if x[:2] != '>"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->"')
@@ -33166,7 +33166,7 @@ def decrypt_moredquote():
 def decrypt_moredoll():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>$':
+        if x[:2] != '>$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->$')
@@ -33180,7 +33180,7 @@ def decrypt_moredoll():
 def decrypt_moreand():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>&':
+        if x[:2] != '>&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->&')
@@ -33194,7 +33194,7 @@ def decrypt_moreand():
 def decrypt_morequote():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>\'':
+        if x[:2] != '>\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->\'')
@@ -33208,7 +33208,7 @@ def decrypt_morequote():
 def decrypt_lesspar():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'more(':
+        if x[:2] != 'more(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -more(')
@@ -33222,7 +33222,7 @@ def decrypt_lesspar():
 def decrypt_moreast():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>*':
+        if x[:2] != '>*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->*')
@@ -33236,7 +33236,7 @@ def decrypt_moreast():
 def decrypt_morevir():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>,':
+        if x[:2] != '>,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->,')
@@ -33250,7 +33250,7 @@ def decrypt_morevir():
 def decrypt_morepp():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>.':
+        if x[:2] != '>.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->.')
@@ -33264,7 +33264,7 @@ def decrypt_morepp():
 def decrypt_moretp():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>:':
+        if x[:2] != '>:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->:')
@@ -33278,7 +33278,7 @@ def decrypt_moretp():
 def decrypt_moreless():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '><':
+        if x[:2] != '><':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -><')
@@ -33292,7 +33292,7 @@ def decrypt_moreless():
 def decrypt_moremore():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>>':
+        if x[:2] != '>>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->>')
@@ -33306,7 +33306,7 @@ def decrypt_moremore():
 def decrypt_morearo():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>@':
+        if x[:2] != '>@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->@')
@@ -33320,7 +33320,7 @@ def decrypt_morearo():
 def decrypt_morecroc():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>[':
+        if x[:2] != '>[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->[')
@@ -33334,7 +33334,7 @@ def decrypt_morecroc():
 def decrypt_morebsl():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>\\':
+        if x[:2] != '>\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->\\')
@@ -33348,7 +33348,7 @@ def decrypt_morebsl():
 def decrypt_morecirc():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>^':
+        if x[:2] != '>^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->^')
@@ -33362,7 +33362,7 @@ def decrypt_morecirc():
 def decrypt_moreesp():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>`':
+        if x[:2] != '>`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->`')
@@ -33376,7 +33376,7 @@ def decrypt_moreesp():
 def decrypt_morecr():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>{':
+        if x[:2] != '>{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->{')
@@ -33390,7 +33390,7 @@ def decrypt_morecr():
 def decrypt_morehl():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>|':
+        if x[:2] != '>|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->|')
@@ -33404,7 +33404,7 @@ def decrypt_morehl():
 def decrypt_moretild():
     i = 0
     for x in map(''.join, itertools.product('>abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<@[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '>~':
+        if x[:2] != '>~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' ->~')
@@ -33418,7 +33418,7 @@ def decrypt_moretild():
 def decrypt_arobasa():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@a':
+        if x[:2] != '@a':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@a')
@@ -33432,7 +33432,7 @@ def decrypt_arobasa():
 def decrypt_arobasb():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@b':
+        if x[:2] != '@b':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@b')
@@ -33446,7 +33446,7 @@ def decrypt_arobasb():
 def decrypt_arobasd():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@d':
+        if x[:2] != '@d':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@d')
@@ -33460,7 +33460,7 @@ def decrypt_arobasd():
 def decrypt_arobasf():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@f':
+        if x[:2] != '@f':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@f')
@@ -33474,7 +33474,7 @@ def decrypt_arobasf():
 def decrypt_arobash():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@h':
+        if x[:2] != '@h':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@h')
@@ -33488,7 +33488,7 @@ def decrypt_arobash():
 def decrypt_arobasj():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@j':
+        if x[:2] != '@j':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@j')
@@ -33502,7 +33502,7 @@ def decrypt_arobasj():
 def decrypt_arobasl():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@l':
+        if x[:2] != '@l':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@l')
@@ -33516,7 +33516,7 @@ def decrypt_arobasl():
 def decrypt_arobasn():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@n':
+        if x[:2] != '@n':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@n')
@@ -33530,7 +33530,7 @@ def decrypt_arobasn():
 def decrypt_arobasp():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@p':
+        if x[:2] != '@p':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@p')
@@ -33544,7 +33544,7 @@ def decrypt_arobasp():
 def decrypt_arobasr():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@r':
+        if x[:2] != '@r':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@r')
@@ -33558,7 +33558,7 @@ def decrypt_arobasr():
 def decrypt_arobast():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@t':
+        if x[:2] != '@t':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@t')
@@ -33572,7 +33572,7 @@ def decrypt_arobast():
 def decrypt_arobasv():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@v':
+        if x[:2] != '@v':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@v')
@@ -33586,7 +33586,7 @@ def decrypt_arobasv():
 def decrypt_arobasx():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@x':
+        if x[:2] != '@x':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@x')
@@ -33600,7 +33600,7 @@ def decrypt_arobasx():
 def decrypt_arobasz():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@z':
+        if x[:2] != '@z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@z')
@@ -33614,7 +33614,7 @@ def decrypt_arobasz():
 def decrypt_arobasA():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@A':
+        if x[:2] != '@A':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@A')
@@ -33628,7 +33628,7 @@ def decrypt_arobasA():
 def decrypt_arobasB():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@B':
+        if x[:2] != '@B':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@B')
@@ -33642,7 +33642,7 @@ def decrypt_arobasB():
 def decrypt_arobasD():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@D':
+        if x[:2] != '@D':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@D')
@@ -33656,7 +33656,7 @@ def decrypt_arobasD():
 def decrypt_arobasF():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@F':
+        if x[:2] != '@F':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@F')
@@ -33670,7 +33670,7 @@ def decrypt_arobasF():
 def decrypt_arobasH():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@H':
+        if x[:2] != '@H':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@H')
@@ -33684,7 +33684,7 @@ def decrypt_arobasH():
 def decrypt_arobasJ():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@J':
+        if x[:2] != '@J':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@J')
@@ -33698,7 +33698,7 @@ def decrypt_arobasJ():
 def decrypt_arobasL():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@L':
+        if x[:2] != '@L':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@L')
@@ -33712,7 +33712,7 @@ def decrypt_arobasL():
 def decrypt_arobasN():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@N':
+        if x[:2] != '@N':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@N')
@@ -33726,7 +33726,7 @@ def decrypt_arobasN():
 def decrypt_arobasP():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@P':
+        if x[:2] != '@P':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@P')
@@ -33740,7 +33740,7 @@ def decrypt_arobasP():
 def decrypt_arobasR():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@R':
+        if x[:2] != '@R':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@R')
@@ -33754,7 +33754,7 @@ def decrypt_arobasR():
 def decrypt_arobasT():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@T':
+        if x[:2] != '@T':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@T')
@@ -33768,7 +33768,7 @@ def decrypt_arobasT():
 def decrypt_arobasV():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@V':
+        if x[:2] != '@V':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@V')
@@ -33782,7 +33782,7 @@ def decrypt_arobasV():
 def decrypt_arobasX():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@X':
+        if x[:2] != '@X':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@X')
@@ -33796,7 +33796,7 @@ def decrypt_arobasX():
 def decrypt_arobasZ():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@Z':
+        if x[:2] != '@Z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@Z')
@@ -33810,7 +33810,7 @@ def decrypt_arobasZ():
 def decrypt_arobas0():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@0':
+        if x[:2] != '@0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@0')
@@ -33824,7 +33824,7 @@ def decrypt_arobas0():
 def decrypt_arobas2():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@2':
+        if x[:2] != '@2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@2')
@@ -33838,7 +33838,7 @@ def decrypt_arobas2():
 def decrypt_arobas4():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@4':
+        if x[:2] != '@4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@4')
@@ -33852,7 +33852,7 @@ def decrypt_arobas4():
 def decrypt_arobas6():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@6':
+        if x[:2] != '@6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@6')
@@ -33866,7 +33866,7 @@ def decrypt_arobas6():
 def decrypt_arobas8():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@8':
+        if x[:2] != '@8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@8')
@@ -33880,7 +33880,7 @@ def decrypt_arobas8():
 def decrypt_arobasexcl():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@!':
+        if x[:2] != '@!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@!')
@@ -33894,7 +33894,7 @@ def decrypt_arobasexcl():
 def decrypt_arobasdquote():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@"':
+        if x[:2] != '@"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@"')
@@ -33908,7 +33908,7 @@ def decrypt_arobasdquote():
 def decrypt_arobasdoll():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@$':
+        if x[:2] != '@$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@$')
@@ -33922,7 +33922,7 @@ def decrypt_arobasdoll():
 def decrypt_arobasand():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@&':
+        if x[:2] != '@&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@&')
@@ -33936,7 +33936,7 @@ def decrypt_arobasand():
 def decrypt_arobasquote():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@\'':
+        if x[:2] != '@\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@\'')
@@ -33950,7 +33950,7 @@ def decrypt_arobasquote():
 def decrypt_aropar():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'aro(':
+        if x[:2] != 'aro(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -aro(')
@@ -33964,7 +33964,7 @@ def decrypt_aropar():
 def decrypt_arobasast():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@*':
+        if x[:2] != '@*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@*')
@@ -33978,7 +33978,7 @@ def decrypt_arobasast():
 def decrypt_arobasvir():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@,':
+        if x[:2] != '@,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@,')
@@ -33992,7 +33992,7 @@ def decrypt_arobasvir():
 def decrypt_arobaspp():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@.':
+        if x[:2] != '@.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@.')
@@ -34006,7 +34006,7 @@ def decrypt_arobaspp():
 def decrypt_arobastp():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@:':
+        if x[:2] != '@:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@:')
@@ -34020,7 +34020,7 @@ def decrypt_arobastp():
 def decrypt_arobasless():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@<':
+        if x[:2] != '@<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@<')
@@ -34034,7 +34034,7 @@ def decrypt_arobasless():
 def decrypt_arobasmore():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@>':
+        if x[:2] != '@>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@>')
@@ -34048,7 +34048,7 @@ def decrypt_arobasmore():
 def decrypt_arobasaro():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@@':
+        if x[:2] != '@@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@@')
@@ -34062,7 +34062,7 @@ def decrypt_arobasaro():
 def decrypt_arobascroc():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@[':
+        if x[:2] != '@[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@[')
@@ -34076,7 +34076,7 @@ def decrypt_arobascroc():
 def decrypt_arobasbsl():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@\\':
+        if x[:2] != '@\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@\\')
@@ -34090,7 +34090,7 @@ def decrypt_arobasbsl():
 def decrypt_arobascirc():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@^':
+        if x[:2] != '@^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@^')
@@ -34104,7 +34104,7 @@ def decrypt_arobascirc():
 def decrypt_arobasesp():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@`':
+        if x[:2] != '@`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@`')
@@ -34118,7 +34118,7 @@ def decrypt_arobasesp():
 def decrypt_arobascr():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@{':
+        if x[:2] != '@{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@{')
@@ -34132,7 +34132,7 @@ def decrypt_arobascr():
 def decrypt_arobashl():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@|':
+        if x[:2] != '@|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@|')
@@ -34146,7 +34146,7 @@ def decrypt_arobashl():
 def decrypt_arobastild():
     i = 0
     for x in map(''.join, itertools.product('@abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>[\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '@~':
+        if x[:2] != '@~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -@~')
@@ -34160,7 +34160,7 @@ def decrypt_arobastild():
 def decrypt_crocha():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[a':
+        if x[:2] != '[a':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[a')
@@ -34174,7 +34174,7 @@ def decrypt_crocha():
 def decrypt_crochb():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[b':
+        if x[:2] != '[b':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[b')
@@ -34188,7 +34188,7 @@ def decrypt_crochb():
 def decrypt_crochd():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[d':
+        if x[:2] != '[d':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[d')
@@ -34202,7 +34202,7 @@ def decrypt_crochd():
 def decrypt_crochf():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[f':
+        if x[:2] != '[f':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[f')
@@ -34216,7 +34216,7 @@ def decrypt_crochf():
 def decrypt_crochh():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[h':
+        if x[:2] != '[h':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[h')
@@ -34230,7 +34230,7 @@ def decrypt_crochh():
 def decrypt_crochj():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[j':
+        if x[:2] != '[j':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[j')
@@ -34244,7 +34244,7 @@ def decrypt_crochj():
 def decrypt_crochl():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[l':
+        if x[:2] != '[l':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[l')
@@ -34258,7 +34258,7 @@ def decrypt_crochl():
 def decrypt_crochn():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[n':
+        if x[:2] != '[n':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[n')
@@ -34272,7 +34272,7 @@ def decrypt_crochn():
 def decrypt_crochp():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[p':
+        if x[:2] != '[p':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[p')
@@ -34286,7 +34286,7 @@ def decrypt_crochp():
 def decrypt_crochr():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[r':
+        if x[:2] != '[r':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[r')
@@ -34300,7 +34300,7 @@ def decrypt_crochr():
 def decrypt_crocht():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[t':
+        if x[:2] != '[t':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[t')
@@ -34314,7 +34314,7 @@ def decrypt_crocht():
 def decrypt_crochv():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[v':
+        if x[:2] != '[v':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[v')
@@ -34328,7 +34328,7 @@ def decrypt_crochv():
 def decrypt_crochx():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[x':
+        if x[:2] != '[x':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[x')
@@ -34342,7 +34342,7 @@ def decrypt_crochx():
 def decrypt_crochz():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[z':
+        if x[:2] != '[z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[z')
@@ -34356,7 +34356,7 @@ def decrypt_crochz():
 def decrypt_crochA():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[A':
+        if x[:2] != '[A':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[A')
@@ -34370,7 +34370,7 @@ def decrypt_crochA():
 def decrypt_crochB():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[B':
+        if x[:2] != '[B':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[B')
@@ -34384,7 +34384,7 @@ def decrypt_crochB():
 def decrypt_crochD():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[D':
+        if x[:2] != '[D':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[D')
@@ -34398,7 +34398,7 @@ def decrypt_crochD():
 def decrypt_crochF():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[F':
+        if x[:2] != '[F':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[F')
@@ -34412,7 +34412,7 @@ def decrypt_crochF():
 def decrypt_crochH():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[H':
+        if x[:2] != '[H':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[H')
@@ -34426,7 +34426,7 @@ def decrypt_crochH():
 def decrypt_crochJ():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[J':
+        if x[:2] != '[J':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[J')
@@ -34440,7 +34440,7 @@ def decrypt_crochJ():
 def decrypt_crochL():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[L':
+        if x[:2] != '[L':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[L')
@@ -34454,7 +34454,7 @@ def decrypt_crochL():
 def decrypt_crochN():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[N':
+        if x[:2] != '[N':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[N')
@@ -34468,7 +34468,7 @@ def decrypt_crochN():
 def decrypt_crochP():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[P':
+        if x[:2] != '[P':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[P')
@@ -34482,7 +34482,7 @@ def decrypt_crochP():
 def decrypt_crochR():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[R':
+        if x[:2] != '[R':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[R')
@@ -34496,7 +34496,7 @@ def decrypt_crochR():
 def decrypt_crochT():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[T':
+        if x[:2] != '[T':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[T')
@@ -34510,7 +34510,7 @@ def decrypt_crochT():
 def decrypt_crochV():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[V':
+        if x[:2] != '[V':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[V')
@@ -34524,7 +34524,7 @@ def decrypt_crochV():
 def decrypt_crochX():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[X':
+        if x[:2] != '[X':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[X')
@@ -34538,7 +34538,7 @@ def decrypt_crochX():
 def decrypt_crochZ():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[Z':
+        if x[:2] != '[Z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[Z')
@@ -34552,7 +34552,7 @@ def decrypt_crochZ():
 def decrypt_croch0():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[0':
+        if x[:2] != '[0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[0')
@@ -34566,7 +34566,7 @@ def decrypt_croch0():
 def decrypt_croch2():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[2':
+        if x[:2] != '[2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[2')
@@ -34580,7 +34580,7 @@ def decrypt_croch2():
 def decrypt_croch4():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[4':
+        if x[:2] != '[4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[4')
@@ -34594,7 +34594,7 @@ def decrypt_croch4():
 def decrypt_croch6():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[6':
+        if x[:2] != '[6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[6')
@@ -34608,7 +34608,7 @@ def decrypt_croch6():
 def decrypt_croch8():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[8':
+        if x[:2] != '[8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[8')
@@ -34622,7 +34622,7 @@ def decrypt_croch8():
 def decrypt_crochexcl():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[!':
+        if x[:2] != '[!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[!')
@@ -34636,7 +34636,7 @@ def decrypt_crochexcl():
 def decrypt_crochdquote():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '["':
+        if x[:2] != '["':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -["')
@@ -34650,7 +34650,7 @@ def decrypt_crochdquote():
 def decrypt_crochdoll():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[$':
+        if x[:2] != '[$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[$')
@@ -34664,7 +34664,7 @@ def decrypt_crochdoll():
 def decrypt_crochand():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[&':
+        if x[:2] != '[&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[&')
@@ -34678,7 +34678,7 @@ def decrypt_crochand():
 def decrypt_crochquote():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[\'':
+        if x[:2] != '[\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[\'')
@@ -34692,7 +34692,7 @@ def decrypt_crochquote():
 def decrypt_crocpar():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'croc(':
+        if x[:2] != 'croc(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -croc(')
@@ -34706,7 +34706,7 @@ def decrypt_crocpar():
 def decrypt_crochast():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[*':
+        if x[:2] != '[*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[*')
@@ -34720,7 +34720,7 @@ def decrypt_crochast():
 def decrypt_crochvir():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[,':
+        if x[:2] != '[,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[,')
@@ -34734,7 +34734,7 @@ def decrypt_crochvir():
 def decrypt_crochpp():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[.':
+        if x[:2] != '[.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[.')
@@ -34748,7 +34748,7 @@ def decrypt_crochpp():
 def decrypt_crochtp():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[:':
+        if x[:2] != '[:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[:')
@@ -34762,7 +34762,7 @@ def decrypt_crochtp():
 def decrypt_crochless():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[<':
+        if x[:2] != '[<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[<')
@@ -34776,7 +34776,7 @@ def decrypt_crochless():
 def decrypt_crochmore():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[>':
+        if x[:2] != '[>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[>')
@@ -34790,7 +34790,7 @@ def decrypt_crochmore():
 def decrypt_crocharo():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[@':
+        if x[:2] != '[@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[@')
@@ -34804,7 +34804,7 @@ def decrypt_crocharo():
 def decrypt_crochcroc():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[[':
+        if x[:2] != '[[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[[')
@@ -34818,7 +34818,7 @@ def decrypt_crochcroc():
 def decrypt_crochbsl():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[\\':
+        if x[:2] != '[\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[\\')
@@ -34832,7 +34832,7 @@ def decrypt_crochbsl():
 def decrypt_crochcirc():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[^':
+        if x[:2] != '[^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[^')
@@ -34846,7 +34846,7 @@ def decrypt_crochcirc():
 def decrypt_crochesp():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[`':
+        if x[:2] != '[`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[`')
@@ -34860,7 +34860,7 @@ def decrypt_crochesp():
 def decrypt_crochcr():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[{':
+        if x[:2] != '[{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[{')
@@ -34874,7 +34874,7 @@ def decrypt_crochcr():
 def decrypt_crochhl():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[|':
+        if x[:2] != '[|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[|')
@@ -34888,7 +34888,7 @@ def decrypt_crochhl():
 def decrypt_crochtild():
     i = 0
     for x in map(''.join, itertools.product('[abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@\^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '[~':
+        if x[:2] != '[~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -[~')
@@ -34902,7 +34902,7 @@ def decrypt_crochtild():
 def decrypt_bsa():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\a':
+        if x[:2] != '\a':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\a')
@@ -34916,7 +34916,7 @@ def decrypt_bsa():
 def decrypt_bsb():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\b':
+        if x[:2] != '\b':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\b')
@@ -34930,7 +34930,7 @@ def decrypt_bsb():
 def decrypt_bsd():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\d':
+        if x[:2] != '\d':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\d')
@@ -34944,7 +34944,7 @@ def decrypt_bsd():
 def decrypt_bsf():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\f':
+        if x[:2] != '\f':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\f')
@@ -34958,7 +34958,7 @@ def decrypt_bsf():
 def decrypt_bsh():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\h':
+        if x[:2] != '\h':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\h')
@@ -34972,7 +34972,7 @@ def decrypt_bsh():
 def decrypt_bsj():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\j':
+        if x[:2] != '\j':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\j')
@@ -34986,7 +34986,7 @@ def decrypt_bsj():
 def decrypt_bsl():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\l':
+        if x[:2] != '\l':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\l')
@@ -35000,7 +35000,7 @@ def decrypt_bsl():
 def decrypt_bsn():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\n':
+        if x[:2] != '\n':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\n')
@@ -35014,7 +35014,7 @@ def decrypt_bsn():
 def decrypt_bsp():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\p':
+        if x[:2] != '\p':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\p')
@@ -35028,7 +35028,7 @@ def decrypt_bsp():
 def decrypt_bsr():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\r':
+        if x[:2] != '\r':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\r')
@@ -35042,7 +35042,7 @@ def decrypt_bsr():
 def decrypt_bst():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\t':
+        if x[:2] != '\t':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\t')
@@ -35056,7 +35056,7 @@ def decrypt_bst():
 def decrypt_bsv():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\v':
+        if x[:2] != '\v':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\v')
@@ -35070,7 +35070,7 @@ def decrypt_bsv():
 def decrypt_bsx():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\\x':
+        if x[:2] != '\\x':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\\x')
@@ -35084,7 +35084,7 @@ def decrypt_bsx():
 def decrypt_bsz():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\z':
+        if x[:2] != '\z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\z')
@@ -35098,7 +35098,7 @@ def decrypt_bsz():
 def decrypt_bsA():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\A':
+        if x[:2] != '\A':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\A')
@@ -35112,7 +35112,7 @@ def decrypt_bsA():
 def decrypt_bsB():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\B':
+        if x[:2] != '\B':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\B')
@@ -35126,7 +35126,7 @@ def decrypt_bsB():
 def decrypt_bsD():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\D':
+        if x[:2] != '\D':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\D')
@@ -35140,7 +35140,7 @@ def decrypt_bsD():
 def decrypt_bsF():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\F':
+        if x[:2] != '\F':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\F')
@@ -35154,7 +35154,7 @@ def decrypt_bsF():
 def decrypt_bsH():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\H':
+        if x[:2] != '\H':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\H')
@@ -35168,7 +35168,7 @@ def decrypt_bsH():
 def decrypt_bsJ():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\J':
+        if x[:2] != '\J':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\J')
@@ -35182,7 +35182,7 @@ def decrypt_bsJ():
 def decrypt_bsL():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\L':
+        if x[:2] != '\L':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\L')
@@ -35196,7 +35196,7 @@ def decrypt_bsL():
 def decrypt_bsN():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\\N':
+        if x[:2] != '\\N':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\\N')
@@ -35210,7 +35210,7 @@ def decrypt_bsN():
 def decrypt_bsP():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\P':
+        if x[:2] != '\P':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\P')
@@ -35224,7 +35224,7 @@ def decrypt_bsP():
 def decrypt_bsR():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\R':
+        if x[:2] != '\R':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\R')
@@ -35238,7 +35238,7 @@ def decrypt_bsR():
 def decrypt_bsT():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\T':
+        if x[:2] != '\T':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\T')
@@ -35252,7 +35252,7 @@ def decrypt_bsT():
 def decrypt_bsV():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\V':
+        if x[:2] != '\V':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\V')
@@ -35266,7 +35266,7 @@ def decrypt_bsV():
 def decrypt_bsX():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\X':
+        if x[:2] != '\X':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\X')
@@ -35280,7 +35280,7 @@ def decrypt_bsX():
 def decrypt_bsZ():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\Z':
+        if x[:2] != '\Z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\Z')
@@ -35294,7 +35294,7 @@ def decrypt_bsZ():
 def decrypt_bs0():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\0':
+        if x[:2] != '\0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\0')
@@ -35308,7 +35308,7 @@ def decrypt_bs0():
 def decrypt_bs2():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\2':
+        if x[:2] != '\2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\2')
@@ -35322,7 +35322,7 @@ def decrypt_bs2():
 def decrypt_bs4():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\4':
+        if x[:2] != '\4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\4')
@@ -35336,7 +35336,7 @@ def decrypt_bs4():
 def decrypt_bs6():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\6':
+        if x[:2] != '\6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\6')
@@ -35350,7 +35350,7 @@ def decrypt_bs6():
 def decrypt_bs8():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\8':
+        if x[:2] != '\8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\8')
@@ -35364,7 +35364,7 @@ def decrypt_bs8():
 def decrypt_bsexcl():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\!':
+        if x[:2] != '\!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\!')
@@ -35378,7 +35378,7 @@ def decrypt_bsexcl():
 def decrypt_bsdquote():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\"':
+        if x[:2] != '\"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\"')
@@ -35392,7 +35392,7 @@ def decrypt_bsdquote():
 def decrypt_bsdoll():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\$':
+        if x[:2] != '\$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\$')
@@ -35406,7 +35406,7 @@ def decrypt_bsdoll():
 def decrypt_bsand():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\&':
+        if x[:2] != '\&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\&')
@@ -35420,7 +35420,7 @@ def decrypt_bsand():
 def decrypt_bsquote():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\\\'':
+        if x[:2] != '\\\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\\\'')
@@ -35434,7 +35434,7 @@ def decrypt_bsquote():
 def decrypt_bslpar():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'bsl(':
+        if x[:2] != 'bsl(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -bsl(')
@@ -35448,7 +35448,7 @@ def decrypt_bslpar():
 def decrypt_bsast():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\*':
+        if x[:2] != '\*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\*')
@@ -35462,7 +35462,7 @@ def decrypt_bsast():
 def decrypt_bsvir():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\,':
+        if x[:2] != '\,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\,')
@@ -35476,7 +35476,7 @@ def decrypt_bsvir():
 def decrypt_bspp():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\.':
+        if x[:2] != '\.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\.')
@@ -35490,7 +35490,7 @@ def decrypt_bspp():
 def decrypt_bstp():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\:':
+        if x[:2] != '\:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\:')
@@ -35504,7 +35504,7 @@ def decrypt_bstp():
 def decrypt_bsless():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\<':
+        if x[:2] != '\<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\<')
@@ -35518,7 +35518,7 @@ def decrypt_bsless():
 def decrypt_bsmore():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\>':
+        if x[:2] != '\>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\>')
@@ -35532,7 +35532,7 @@ def decrypt_bsmore():
 def decrypt_bsaro():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\@':
+        if x[:2] != '\@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\@')
@@ -35546,7 +35546,7 @@ def decrypt_bsaro():
 def decrypt_bscroc():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\[':
+        if x[:2] != '\[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\[')
@@ -35560,7 +35560,7 @@ def decrypt_bscroc():
 def decrypt_bsbsl():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\\':
+        if x[:2] != '\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\\')
@@ -35574,7 +35574,7 @@ def decrypt_bsbsl():
 def decrypt_bscirc():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\^':
+        if x[:2] != '\^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\^')
@@ -35588,7 +35588,7 @@ def decrypt_bscirc():
 def decrypt_bsesp():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\`':
+        if x[:2] != '\`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\`')
@@ -35602,7 +35602,7 @@ def decrypt_bsesp():
 def decrypt_bscr():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\{':
+        if x[:2] != '\{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\{')
@@ -35616,7 +35616,7 @@ def decrypt_bscr():
 def decrypt_bshl():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\|':
+        if x[:2] != '\|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\|')
@@ -35630,7 +35630,7 @@ def decrypt_bshl():
 def decrypt_bstild():
     i = 0
     for x in map(''.join, itertools.product('\abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[^`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '\~':
+        if x[:2] != '\~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -\~')
@@ -35644,7 +35644,7 @@ def decrypt_bstild():
 def decrypt_cira():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^a':
+        if x[:2] != '^a':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^a')
@@ -35658,7 +35658,7 @@ def decrypt_cira():
 def decrypt_cirb():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^b':
+        if x[:2] != '^b':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^b')
@@ -35672,7 +35672,7 @@ def decrypt_cirb():
 def decrypt_cird():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^d':
+        if x[:2] != '^d':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^d')
@@ -35686,7 +35686,7 @@ def decrypt_cird():
 def decrypt_cirf():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^f':
+        if x[:2] != '^f':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^f')
@@ -35700,7 +35700,7 @@ def decrypt_cirf():
 def decrypt_cirh():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^h':
+        if x[:2] != '^h':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^h')
@@ -35714,7 +35714,7 @@ def decrypt_cirh():
 def decrypt_cirj():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^j':
+        if x[:2] != '^j':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^j')
@@ -35728,7 +35728,7 @@ def decrypt_cirj():
 def decrypt_cirl():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^l':
+        if x[:2] != '^l':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^l')
@@ -35742,7 +35742,7 @@ def decrypt_cirl():
 def decrypt_cirn():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^n':
+        if x[:2] != '^n':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^n')
@@ -35756,7 +35756,7 @@ def decrypt_cirn():
 def decrypt_cirp():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^p':
+        if x[:2] != '^p':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^p')
@@ -35770,7 +35770,7 @@ def decrypt_cirp():
 def decrypt_cirr():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^r':
+        if x[:2] != '^r':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^r')
@@ -35784,7 +35784,7 @@ def decrypt_cirr():
 def decrypt_cirt():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^t':
+        if x[:2] != '^t':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^t')
@@ -35798,7 +35798,7 @@ def decrypt_cirt():
 def decrypt_cirv():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^v':
+        if x[:2] != '^v':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^v')
@@ -35812,7 +35812,7 @@ def decrypt_cirv():
 def decrypt_cirx():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^x':
+        if x[:2] != '^x':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^x')
@@ -35826,7 +35826,7 @@ def decrypt_cirx():
 def decrypt_cirz():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^z':
+        if x[:2] != '^z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^z')
@@ -35840,7 +35840,7 @@ def decrypt_cirz():
 def decrypt_cirA():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^A':
+        if x[:2] != '^A':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^A')
@@ -35854,7 +35854,7 @@ def decrypt_cirA():
 def decrypt_cirB():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^B':
+        if x[:2] != '^B':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^B')
@@ -35868,7 +35868,7 @@ def decrypt_cirB():
 def decrypt_cirD():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^D':
+        if x[:2] != '^D':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^D')
@@ -35882,7 +35882,7 @@ def decrypt_cirD():
 def decrypt_cirF():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^F':
+        if x[:2] != '^F':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^F')
@@ -35896,7 +35896,7 @@ def decrypt_cirF():
 def decrypt_cirH():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^H':
+        if x[:2] != '^H':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^H')
@@ -35910,7 +35910,7 @@ def decrypt_cirH():
 def decrypt_cirJ():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^J':
+        if x[:2] != '^J':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^J')
@@ -35924,7 +35924,7 @@ def decrypt_cirJ():
 def decrypt_cirL():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^L':
+        if x[:2] != '^L':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^L')
@@ -35938,7 +35938,7 @@ def decrypt_cirL():
 def decrypt_cirN():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^N':
+        if x[:2] != '^N':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^N')
@@ -35952,7 +35952,7 @@ def decrypt_cirN():
 def decrypt_cirP():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^P':
+        if x[:2] != '^P':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^P')
@@ -35966,7 +35966,7 @@ def decrypt_cirP():
 def decrypt_cirR():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^R':
+        if x[:2] != '^R':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^R')
@@ -35980,7 +35980,7 @@ def decrypt_cirR():
 def decrypt_cirT():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^T':
+        if x[:2] != '^T':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^T')
@@ -35994,7 +35994,7 @@ def decrypt_cirT():
 def decrypt_cirV():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^V':
+        if x[:2] != '^V':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^V')
@@ -36008,7 +36008,7 @@ def decrypt_cirV():
 def decrypt_cirX():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^X':
+        if x[:2] != '^X':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^X')
@@ -36022,7 +36022,7 @@ def decrypt_cirX():
 def decrypt_cirZ():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^Z':
+        if x[:2] != '^Z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^Z')
@@ -36036,7 +36036,7 @@ def decrypt_cirZ():
 def decrypt_cir0():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^0':
+        if x[:2] != '^0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^0')
@@ -36050,7 +36050,7 @@ def decrypt_cir0():
 def decrypt_cir2():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^2':
+        if x[:2] != '^2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^2')
@@ -36064,7 +36064,7 @@ def decrypt_cir2():
 def decrypt_cir4():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^4':
+        if x[:2] != '^4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^4')
@@ -36078,7 +36078,7 @@ def decrypt_cir4():
 def decrypt_cir6():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^6':
+        if x[:2] != '^6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^6')
@@ -36092,7 +36092,7 @@ def decrypt_cir6():
 def decrypt_cir8():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^8':
+        if x[:2] != '^8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^8')
@@ -36106,7 +36106,7 @@ def decrypt_cir8():
 def decrypt_cirexcl():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^!':
+        if x[:2] != '^!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^!')
@@ -36120,7 +36120,7 @@ def decrypt_cirexcl():
 def decrypt_cirdquote():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^"':
+        if x[:2] != '^"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^"')
@@ -36134,7 +36134,7 @@ def decrypt_cirdquote():
 def decrypt_cirdoll():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^$':
+        if x[:2] != '^$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^$')
@@ -36148,7 +36148,7 @@ def decrypt_cirdoll():
 def decrypt_cirand():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^&':
+        if x[:2] != '^&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^&')
@@ -36162,7 +36162,7 @@ def decrypt_cirand():
 def decrypt_cirquote():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^\'':
+        if x[:2] != '^\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^\'')
@@ -36176,7 +36176,7 @@ def decrypt_cirquote():
 def decrypt_circpar():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'circ(':
+        if x[:2] != 'circ(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -circ(')
@@ -36190,7 +36190,7 @@ def decrypt_circpar():
 def decrypt_cirast():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^*':
+        if x[:2] != '^*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^*')
@@ -36204,7 +36204,7 @@ def decrypt_cirast():
 def decrypt_cirvir():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^,':
+        if x[:2] != '^,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^,')
@@ -36218,7 +36218,7 @@ def decrypt_cirvir():
 def decrypt_cirpp():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^.':
+        if x[:2] != '^.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^.')
@@ -36232,7 +36232,7 @@ def decrypt_cirpp():
 def decrypt_cirtp():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^:':
+        if x[:2] != '^:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^:')
@@ -36246,7 +36246,7 @@ def decrypt_cirtp():
 def decrypt_cirless():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^<':
+        if x[:2] != '^<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^<')
@@ -36260,7 +36260,7 @@ def decrypt_cirless():
 def decrypt_cirmore():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^>':
+        if x[:2] != '^>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^>')
@@ -36274,7 +36274,7 @@ def decrypt_cirmore():
 def decrypt_ciraro():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^@':
+        if x[:2] != '^@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^@')
@@ -36288,7 +36288,7 @@ def decrypt_ciraro():
 def decrypt_circroc():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^[':
+        if x[:2] != '^[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^[')
@@ -36302,7 +36302,7 @@ def decrypt_circroc():
 def decrypt_cirbsl():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^\\':
+        if x[:2] != '^\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^\\')
@@ -36316,7 +36316,7 @@ def decrypt_cirbsl():
 def decrypt_circirc():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^^':
+        if x[:2] != '^^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^^')
@@ -36330,7 +36330,7 @@ def decrypt_circirc():
 def decrypt_ciresp():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^`':
+        if x[:2] != '^`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^`')
@@ -36344,7 +36344,7 @@ def decrypt_ciresp():
 def decrypt_circr():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^{':
+        if x[:2] != '^{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^{')
@@ -36358,7 +36358,7 @@ def decrypt_circr():
 def decrypt_cirhl():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^|':
+        if x[:2] != '^|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^|')
@@ -36372,7 +36372,7 @@ def decrypt_cirhl():
 def decrypt_cirtild():
     i = 0
     for x in map(''.join, itertools.product('^abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\`{|~', repeat=8)):
-        if i == 1000 or x[:2] != '^~':
+        if x[:2] != '^~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -^~')
@@ -36386,7 +36386,7 @@ def decrypt_cirtild():
 def decrypt_esua():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`a':
+        if x[:2] != '`a':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`a')
@@ -36400,7 +36400,7 @@ def decrypt_esua():
 def decrypt_esub():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`b':
+        if x[:2] != '`b':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`b')
@@ -36414,7 +36414,7 @@ def decrypt_esub():
 def decrypt_esud():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`d':
+        if x[:2] != '`d':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`d')
@@ -36428,7 +36428,7 @@ def decrypt_esud():
 def decrypt_esuf():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`f':
+        if x[:2] != '`f':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`f')
@@ -36442,7 +36442,7 @@ def decrypt_esuf():
 def decrypt_esuh():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`h':
+        if x[:2] != '`h':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`h')
@@ -36456,7 +36456,7 @@ def decrypt_esuh():
 def decrypt_esuj():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`j':
+        if x[:2] != '`j':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`j')
@@ -36470,7 +36470,7 @@ def decrypt_esuj():
 def decrypt_esul():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`l':
+        if x[:2] != '`l':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`l')
@@ -36484,7 +36484,7 @@ def decrypt_esul():
 def decrypt_esun():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`n':
+        if x[:2] != '`n':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`n')
@@ -36498,7 +36498,7 @@ def decrypt_esun():
 def decrypt_esup():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`p':
+        if x[:2] != '`p':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`p')
@@ -36512,7 +36512,7 @@ def decrypt_esup():
 def decrypt_esur():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`r':
+        if x[:2] != '`r':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`r')
@@ -36526,7 +36526,7 @@ def decrypt_esur():
 def decrypt_esut():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`t':
+        if x[:2] != '`t':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`t')
@@ -36540,7 +36540,7 @@ def decrypt_esut():
 def decrypt_esuv():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`v':
+        if x[:2] != '`v':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`v')
@@ -36554,7 +36554,7 @@ def decrypt_esuv():
 def decrypt_esux():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`x':
+        if x[:2] != '`x':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`x')
@@ -36568,7 +36568,7 @@ def decrypt_esux():
 def decrypt_esuz():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`z':
+        if x[:2] != '`z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`z')
@@ -36582,7 +36582,7 @@ def decrypt_esuz():
 def decrypt_esuA():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`A':
+        if x[:2] != '`A':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`A')
@@ -36596,7 +36596,7 @@ def decrypt_esuA():
 def decrypt_esuB():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`B':
+        if x[:2] != '`B':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`B')
@@ -36610,7 +36610,7 @@ def decrypt_esuB():
 def decrypt_esuD():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`D':
+        if x[:2] != '`D':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`D')
@@ -36624,7 +36624,7 @@ def decrypt_esuD():
 def decrypt_esuF():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`F':
+        if x[:2] != '`F':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`F')
@@ -36638,7 +36638,7 @@ def decrypt_esuF():
 def decrypt_esuH():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`H':
+        if x[:2] != '`H':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`H')
@@ -36652,7 +36652,7 @@ def decrypt_esuH():
 def decrypt_esuJ():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`J':
+        if x[:2] != '`J':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`J')
@@ -36666,7 +36666,7 @@ def decrypt_esuJ():
 def decrypt_esuL():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`L':
+        if x[:2] != '`L':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`L')
@@ -36680,7 +36680,7 @@ def decrypt_esuL():
 def decrypt_esuN():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`N':
+        if x[:2] != '`N':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`N')
@@ -36694,7 +36694,7 @@ def decrypt_esuN():
 def decrypt_esuP():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`P':
+        if x[:2] != '`P':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`P')
@@ -36708,7 +36708,7 @@ def decrypt_esuP():
 def decrypt_esuR():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`R':
+        if x[:2] != '`R':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`R')
@@ -36722,7 +36722,7 @@ def decrypt_esuR():
 def decrypt_esuT():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`T':
+        if x[:2] != '`T':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`T')
@@ -36736,7 +36736,7 @@ def decrypt_esuT():
 def decrypt_esuV():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`V':
+        if x[:2] != '`V':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`V')
@@ -36750,7 +36750,7 @@ def decrypt_esuV():
 def decrypt_esuX():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`X':
+        if x[:2] != '`X':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`X')
@@ -36764,7 +36764,7 @@ def decrypt_esuX():
 def decrypt_esuZ():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`Z':
+        if x[:2] != '`Z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`Z')
@@ -36778,7 +36778,7 @@ def decrypt_esuZ():
 def decrypt_esu0():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`0':
+        if x[:2] != '`0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`0')
@@ -36792,7 +36792,7 @@ def decrypt_esu0():
 def decrypt_esu2():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`2':
+        if x[:2] != '`2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`2')
@@ -36806,7 +36806,7 @@ def decrypt_esu2():
 def decrypt_esu4():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`4':
+        if x[:2] != '`4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`4')
@@ -36820,7 +36820,7 @@ def decrypt_esu4():
 def decrypt_esu6():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`6':
+        if x[:2] != '`6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`6')
@@ -36834,7 +36834,7 @@ def decrypt_esu6():
 def decrypt_esu8():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`8':
+        if x[:2] != '`8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`8')
@@ -36848,7 +36848,7 @@ def decrypt_esu8():
 def decrypt_esuexcl():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`!':
+        if x[:2] != '`!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`!')
@@ -36862,7 +36862,7 @@ def decrypt_esuexcl():
 def decrypt_esudquote():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`"':
+        if x[:2] != '`"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`"')
@@ -36876,7 +36876,7 @@ def decrypt_esudquote():
 def decrypt_esudoll():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`$':
+        if x[:2] != '`$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`$')
@@ -36890,7 +36890,7 @@ def decrypt_esudoll():
 def decrypt_esuand():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`&':
+        if x[:2] != '`&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`&')
@@ -36904,7 +36904,7 @@ def decrypt_esuand():
 def decrypt_esuquote():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`\'':
+        if x[:2] != '`\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`\'')
@@ -36918,7 +36918,7 @@ def decrypt_esuquote():
 def decrypt_esppar():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != 'esp(':
+        if x[:2] != 'esp(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -esp(')
@@ -36932,7 +36932,7 @@ def decrypt_esppar():
 def decrypt_esuast():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`*':
+        if x[:2] != '`*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`*')
@@ -36946,7 +36946,7 @@ def decrypt_esuast():
 def decrypt_esuvir():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`,':
+        if x[:2] != '`,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`,')
@@ -36960,7 +36960,7 @@ def decrypt_esuvir():
 def decrypt_esupp():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`.':
+        if x[:2] != '`.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`.')
@@ -36974,7 +36974,7 @@ def decrypt_esupp():
 def decrypt_esutp():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`:':
+        if x[:2] != '`:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`:')
@@ -36988,7 +36988,7 @@ def decrypt_esutp():
 def decrypt_esuless():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`<':
+        if x[:2] != '`<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`<')
@@ -37002,7 +37002,7 @@ def decrypt_esuless():
 def decrypt_esumore():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`>':
+        if x[:2] != '`>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`>')
@@ -37016,7 +37016,7 @@ def decrypt_esumore():
 def decrypt_esuaro():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`@':
+        if x[:2] != '`@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`@')
@@ -37030,7 +37030,7 @@ def decrypt_esuaro():
 def decrypt_esucroc():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`[':
+        if x[:2] != '`[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`[')
@@ -37044,7 +37044,7 @@ def decrypt_esucroc():
 def decrypt_esubsl():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`\\':
+        if x[:2] != '`\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`\\')
@@ -37058,7 +37058,7 @@ def decrypt_esubsl():
 def decrypt_esucirc():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`^':
+        if x[:2] != '`^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`^')
@@ -37072,7 +37072,7 @@ def decrypt_esucirc():
 def decrypt_esuesp():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '``':
+        if x[:2] != '``':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -``')
@@ -37086,7 +37086,7 @@ def decrypt_esuesp():
 def decrypt_esucr():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`{':
+        if x[:2] != '`{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`{')
@@ -37100,7 +37100,7 @@ def decrypt_esucr():
 def decrypt_esuhl():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`|':
+        if x[:2] != '`|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`|')
@@ -37114,7 +37114,7 @@ def decrypt_esuhl():
 def decrypt_esutild():
     i = 0
     for x in map(''.join, itertools.product('`abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^{|~', repeat=8)):
-        if i == 1000 or x[:2] != '`~':
+        if x[:2] != '`~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -`~')
@@ -37128,7 +37128,7 @@ def decrypt_esutild():
 def decrypt_crocha():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{a':
+        if x[:2] != '{a':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{a')
@@ -37142,7 +37142,7 @@ def decrypt_crocha():
 def decrypt_crochb():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{b':
+        if x[:2] != '{b':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{b')
@@ -37156,7 +37156,7 @@ def decrypt_crochb():
 def decrypt_crochd():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{d':
+        if x[:2] != '{d':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{d')
@@ -37170,7 +37170,7 @@ def decrypt_crochd():
 def decrypt_crochf():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{f':
+        if x[:2] != '{f':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{f')
@@ -37184,7 +37184,7 @@ def decrypt_crochf():
 def decrypt_crochh():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{h':
+        if x[:2] != '{h':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{h')
@@ -37198,7 +37198,7 @@ def decrypt_crochh():
 def decrypt_crochj():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{j':
+        if x[:2] != '{j':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{j')
@@ -37212,7 +37212,7 @@ def decrypt_crochj():
 def decrypt_crochl():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{l':
+        if x[:2] != '{l':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{l')
@@ -37226,7 +37226,7 @@ def decrypt_crochl():
 def decrypt_crochn():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{n':
+        if x[:2] != '{n':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{n')
@@ -37240,7 +37240,7 @@ def decrypt_crochn():
 def decrypt_crochp():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{p':
+        if x[:2] != '{p':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{p')
@@ -37254,7 +37254,7 @@ def decrypt_crochp():
 def decrypt_crochr():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{r':
+        if x[:2] != '{r':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{r')
@@ -37268,7 +37268,7 @@ def decrypt_crochr():
 def decrypt_crocht():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{t':
+        if x[:2] != '{t':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{t')
@@ -37282,7 +37282,7 @@ def decrypt_crocht():
 def decrypt_crochv():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{v':
+        if x[:2] != '{v':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{v')
@@ -37296,7 +37296,7 @@ def decrypt_crochv():
 def decrypt_crochx():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{x':
+        if x[:2] != '{x':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{x')
@@ -37310,7 +37310,7 @@ def decrypt_crochx():
 def decrypt_crochz():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{z':
+        if x[:2] != '{z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{z')
@@ -37324,7 +37324,7 @@ def decrypt_crochz():
 def decrypt_crochA():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{A':
+        if x[:2] != '{A':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{A')
@@ -37338,7 +37338,7 @@ def decrypt_crochA():
 def decrypt_crochB():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{B':
+        if x[:2] != '{B':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{B')
@@ -37352,7 +37352,7 @@ def decrypt_crochB():
 def decrypt_crochD():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{D':
+        if x[:2] != '{D':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{D')
@@ -37366,7 +37366,7 @@ def decrypt_crochD():
 def decrypt_crochF():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{F':
+        if x[:2] != '{F':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{F')
@@ -37380,7 +37380,7 @@ def decrypt_crochF():
 def decrypt_crochH():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{H':
+        if x[:2] != '{H':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{H')
@@ -37394,7 +37394,7 @@ def decrypt_crochH():
 def decrypt_crochJ():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{J':
+        if x[:2] != '{J':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{J')
@@ -37408,7 +37408,7 @@ def decrypt_crochJ():
 def decrypt_crochL():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{L':
+        if x[:2] != '{L':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{L')
@@ -37422,7 +37422,7 @@ def decrypt_crochL():
 def decrypt_crochN():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{N':
+        if x[:2] != '{N':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{N')
@@ -37436,7 +37436,7 @@ def decrypt_crochN():
 def decrypt_crochP():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{P':
+        if x[:2] != '{P':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{P')
@@ -37450,7 +37450,7 @@ def decrypt_crochP():
 def decrypt_crochR():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{R':
+        if x[:2] != '{R':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{R')
@@ -37464,7 +37464,7 @@ def decrypt_crochR():
 def decrypt_crochT():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{T':
+        if x[:2] != '{T':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{T')
@@ -37478,7 +37478,7 @@ def decrypt_crochT():
 def decrypt_crochV():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{V':
+        if x[:2] != '{V':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{V')
@@ -37492,7 +37492,7 @@ def decrypt_crochV():
 def decrypt_crochX():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{X':
+        if x[:2] != '{X':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{X')
@@ -37506,7 +37506,7 @@ def decrypt_crochX():
 def decrypt_crochZ():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{Z':
+        if x[:2] != '{Z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{Z')
@@ -37520,7 +37520,7 @@ def decrypt_crochZ():
 def decrypt_croch0():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{0':
+        if x[:2] != '{0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{0')
@@ -37534,7 +37534,7 @@ def decrypt_croch0():
 def decrypt_croch2():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{2':
+        if x[:2] != '{2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{2')
@@ -37548,7 +37548,7 @@ def decrypt_croch2():
 def decrypt_croch4():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{4':
+        if x[:2] != '{4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{4')
@@ -37562,7 +37562,7 @@ def decrypt_croch4():
 def decrypt_croch6():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{6':
+        if x[:2] != '{6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{6')
@@ -37576,7 +37576,7 @@ def decrypt_croch6():
 def decrypt_croch8():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{8':
+        if x[:2] != '{8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{8')
@@ -37590,7 +37590,7 @@ def decrypt_croch8():
 def decrypt_crochexcl():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{!':
+        if x[:2] != '{!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{!')
@@ -37604,7 +37604,7 @@ def decrypt_crochexcl():
 def decrypt_crochdquote():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{"':
+        if x[:2] != '{"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{"')
@@ -37618,7 +37618,7 @@ def decrypt_crochdquote():
 def decrypt_crochdoll():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{$':
+        if x[:2] != '{$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{$')
@@ -37632,7 +37632,7 @@ def decrypt_crochdoll():
 def decrypt_crochand():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{&':
+        if x[:2] != '{&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{&')
@@ -37646,7 +37646,7 @@ def decrypt_crochand():
 def decrypt_crochquote():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{\'':
+        if x[:2] != '{\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{\'')
@@ -37660,7 +37660,7 @@ def decrypt_crochquote():
 def decrypt_crpar():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != 'cr(':
+        if x[:2] != 'cr(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -cr(')
@@ -37674,7 +37674,7 @@ def decrypt_crpar():
 def decrypt_crochast():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{*':
+        if x[:2] != '{*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{*')
@@ -37688,7 +37688,7 @@ def decrypt_crochast():
 def decrypt_crochvir():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{,':
+        if x[:2] != '{,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{,')
@@ -37702,7 +37702,7 @@ def decrypt_crochvir():
 def decrypt_crochpp():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{.':
+        if x[:2] != '{.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{.')
@@ -37716,7 +37716,7 @@ def decrypt_crochpp():
 def decrypt_crochtp():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{:':
+        if x[:2] != '{:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{:')
@@ -37730,7 +37730,7 @@ def decrypt_crochtp():
 def decrypt_crochless():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{<':
+        if x[:2] != '{<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{<')
@@ -37744,7 +37744,7 @@ def decrypt_crochless():
 def decrypt_crochmore():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{>':
+        if x[:2] != '{>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{>')
@@ -37758,7 +37758,7 @@ def decrypt_crochmore():
 def decrypt_crocharo():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{@':
+        if x[:2] != '{@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{@')
@@ -37772,7 +37772,7 @@ def decrypt_crocharo():
 def decrypt_crochcroc():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{[':
+        if x[:2] != '{[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{[')
@@ -37786,7 +37786,7 @@ def decrypt_crochcroc():
 def decrypt_crochbsl():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{\\':
+        if x[:2] != '{\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{\\')
@@ -37800,7 +37800,7 @@ def decrypt_crochbsl():
 def decrypt_crochcirc():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{^':
+        if x[:2] != '{^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{^')
@@ -37814,7 +37814,7 @@ def decrypt_crochcirc():
 def decrypt_crochesp():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{`':
+        if x[:2] != '{`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{`')
@@ -37828,7 +37828,7 @@ def decrypt_crochesp():
 def decrypt_crochcr():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{{':
+        if x[:2] != '{{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{{')
@@ -37842,7 +37842,7 @@ def decrypt_crochcr():
 def decrypt_crochhl():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{|':
+        if x[:2] != '{|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{|')
@@ -37856,7 +37856,7 @@ def decrypt_crochhl():
 def decrypt_crochtild():
     i = 0
     for x in map(''.join, itertools.product('{abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`|~', repeat=8)):
-        if i == 1000 or x[:2] != '{~':
+        if x[:2] != '{~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -{~')
@@ -37870,7 +37870,7 @@ def decrypt_crochtild():
 def decrypt_vsla():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|a':
+        if x[:2] != '|a':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|a')
@@ -37884,7 +37884,7 @@ def decrypt_vsla():
 def decrypt_vslb():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|b':
+        if x[:2] != '|b':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|b')
@@ -37898,7 +37898,7 @@ def decrypt_vslb():
 def decrypt_vsld():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|d':
+        if x[:2] != '|d':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|d')
@@ -37912,7 +37912,7 @@ def decrypt_vsld():
 def decrypt_vslf():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|f':
+        if x[:2] != '|f':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|f')
@@ -37926,7 +37926,7 @@ def decrypt_vslf():
 def decrypt_vslh():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|h':
+        if x[:2] != '|h':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|h')
@@ -37940,7 +37940,7 @@ def decrypt_vslh():
 def decrypt_vslj():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|j':
+        if x[:2] != '|j':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|j')
@@ -37954,7 +37954,7 @@ def decrypt_vslj():
 def decrypt_vsll():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|l':
+        if x[:2] != '|l':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|l')
@@ -37968,7 +37968,7 @@ def decrypt_vsll():
 def decrypt_vsln():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|n':
+        if x[:2] != '|n':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|n')
@@ -37982,7 +37982,7 @@ def decrypt_vsln():
 def decrypt_vslp():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|p':
+        if x[:2] != '|p':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|p')
@@ -37996,7 +37996,7 @@ def decrypt_vslp():
 def decrypt_vslr():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|r':
+        if x[:2] != '|r':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|r')
@@ -38010,7 +38010,7 @@ def decrypt_vslr():
 def decrypt_vslt():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|t':
+        if x[:2] != '|t':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|t')
@@ -38024,7 +38024,7 @@ def decrypt_vslt():
 def decrypt_vslv():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|v':
+        if x[:2] != '|v':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|v')
@@ -38038,7 +38038,7 @@ def decrypt_vslv():
 def decrypt_vslx():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|x':
+        if x[:2] != '|x':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|x')
@@ -38052,7 +38052,7 @@ def decrypt_vslx():
 def decrypt_vslz():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|z':
+        if x[:2] != '|z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|z')
@@ -38066,7 +38066,7 @@ def decrypt_vslz():
 def decrypt_vslA():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|A':
+        if x[:2] != '|A':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|A')
@@ -38080,7 +38080,7 @@ def decrypt_vslA():
 def decrypt_vslB():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|B':
+        if x[:2] != '|B':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|B')
@@ -38094,7 +38094,7 @@ def decrypt_vslB():
 def decrypt_vslD():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|D':
+        if x[:2] != '|D':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|D')
@@ -38108,7 +38108,7 @@ def decrypt_vslD():
 def decrypt_vslF():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|F':
+        if x[:2] != '|F':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|F')
@@ -38122,7 +38122,7 @@ def decrypt_vslF():
 def decrypt_vslH():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|H':
+        if x[:2] != '|H':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|H')
@@ -38136,7 +38136,7 @@ def decrypt_vslH():
 def decrypt_vslJ():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|J':
+        if x[:2] != '|J':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|J')
@@ -38150,7 +38150,7 @@ def decrypt_vslJ():
 def decrypt_vslL():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|L':
+        if x[:2] != '|L':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|L')
@@ -38164,7 +38164,7 @@ def decrypt_vslL():
 def decrypt_vslN():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|N':
+        if x[:2] != '|N':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|N')
@@ -38178,7 +38178,7 @@ def decrypt_vslN():
 def decrypt_vslP():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|P':
+        if x[:2] != '|P':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|P')
@@ -38192,7 +38192,7 @@ def decrypt_vslP():
 def decrypt_vslR():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|R':
+        if x[:2] != '|R':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|R')
@@ -38206,7 +38206,7 @@ def decrypt_vslR():
 def decrypt_vslT():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|T':
+        if x[:2] != '|T':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|T')
@@ -38220,7 +38220,7 @@ def decrypt_vslT():
 def decrypt_vslV():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|V':
+        if x[:2] != '|V':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|V')
@@ -38234,7 +38234,7 @@ def decrypt_vslV():
 def decrypt_vslX():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|X':
+        if x[:2] != '|X':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|X')
@@ -38248,7 +38248,7 @@ def decrypt_vslX():
 def decrypt_vslZ():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|Z':
+        if x[:2] != '|Z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|Z')
@@ -38262,7 +38262,7 @@ def decrypt_vslZ():
 def decrypt_vsl0():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|0':
+        if x[:2] != '|0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|0')
@@ -38276,7 +38276,7 @@ def decrypt_vsl0():
 def decrypt_vsl2():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|2':
+        if x[:2] != '|2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|2')
@@ -38290,7 +38290,7 @@ def decrypt_vsl2():
 def decrypt_vsl4():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|4':
+        if x[:2] != '|4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|4')
@@ -38304,7 +38304,7 @@ def decrypt_vsl4():
 def decrypt_vsl6():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|6':
+        if x[:2] != '|6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|6')
@@ -38318,7 +38318,7 @@ def decrypt_vsl6():
 def decrypt_vsl8():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|8':
+        if x[:2] != '|8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|8')
@@ -38332,7 +38332,7 @@ def decrypt_vsl8():
 def decrypt_vslexcl():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|!':
+        if x[:2] != '|!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|!')
@@ -38346,7 +38346,7 @@ def decrypt_vslexcl():
 def decrypt_vsldquote():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|"':
+        if x[:2] != '|"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|"')
@@ -38360,7 +38360,7 @@ def decrypt_vsldquote():
 def decrypt_vsldoll():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|$':
+        if x[:2] != '|$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|$')
@@ -38374,7 +38374,7 @@ def decrypt_vsldoll():
 def decrypt_vsland():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|&':
+        if x[:2] != '|&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|&')
@@ -38388,7 +38388,7 @@ def decrypt_vsland():
 def decrypt_vslquote():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|\'':
+        if x[:2] != '|\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|\'')
@@ -38402,7 +38402,7 @@ def decrypt_vslquote():
 def decrypt_hlpar():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != 'hl(':
+        if x[:2] != 'hl(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -hl(')
@@ -38416,7 +38416,7 @@ def decrypt_hlpar():
 def decrypt_vslast():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|*':
+        if x[:2] != '|*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|*')
@@ -38430,7 +38430,7 @@ def decrypt_vslast():
 def decrypt_vslvir():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|,':
+        if x[:2] != '|,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|,')
@@ -38444,7 +38444,7 @@ def decrypt_vslvir():
 def decrypt_vslpp():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|.':
+        if x[:2] != '|.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|.')
@@ -38458,7 +38458,7 @@ def decrypt_vslpp():
 def decrypt_vsltp():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|:':
+        if x[:2] != '|:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|:')
@@ -38472,7 +38472,7 @@ def decrypt_vsltp():
 def decrypt_vslless():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|<':
+        if x[:2] != '|<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|<')
@@ -38486,7 +38486,7 @@ def decrypt_vslless():
 def decrypt_vslmore():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|>':
+        if x[:2] != '|>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|>')
@@ -38500,7 +38500,7 @@ def decrypt_vslmore():
 def decrypt_vslaro():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|@':
+        if x[:2] != '|@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|@')
@@ -38514,7 +38514,7 @@ def decrypt_vslaro():
 def decrypt_vslcroc():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|[':
+        if x[:2] != '|[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|[')
@@ -38528,7 +38528,7 @@ def decrypt_vslcroc():
 def decrypt_vslbsl():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|\\':
+        if x[:2] != '|\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|\\')
@@ -38542,7 +38542,7 @@ def decrypt_vslbsl():
 def decrypt_vslcirc():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|^':
+        if x[:2] != '|^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|^')
@@ -38556,7 +38556,7 @@ def decrypt_vslcirc():
 def decrypt_vslesp():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|`':
+        if x[:2] != '|`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|`')
@@ -38570,7 +38570,7 @@ def decrypt_vslesp():
 def decrypt_vslcr():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|{':
+        if x[:2] != '|{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|{')
@@ -38584,7 +38584,7 @@ def decrypt_vslcr():
 def decrypt_vslhl():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '||':
+        if x[:2] != '||':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -||')
@@ -38598,7 +38598,7 @@ def decrypt_vslhl():
 def decrypt_vsltild():
     i = 0
     for x in map(''.join, itertools.product('|abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{~', repeat=8)):
-        if i == 1000 or x[:2] != '|~':
+        if x[:2] != '|~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -|~')
@@ -38612,7 +38612,7 @@ def decrypt_vsltild():
 def decrypt_tila():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~a':
+        if x[:2] != '~a':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~a')
@@ -38626,7 +38626,7 @@ def decrypt_tila():
 def decrypt_tilb():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~b':
+        if x[:2] != '~b':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~b')
@@ -38640,7 +38640,7 @@ def decrypt_tilb():
 def decrypt_tild():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~d':
+        if x[:2] != '~d':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~d')
@@ -38654,7 +38654,7 @@ def decrypt_tild():
 def decrypt_tilf():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~f':
+        if x[:2] != '~f':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~f')
@@ -38668,7 +38668,7 @@ def decrypt_tilf():
 def decrypt_tilh():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~h':
+        if x[:2] != '~h':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~h')
@@ -38682,7 +38682,7 @@ def decrypt_tilh():
 def decrypt_tilj():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~j':
+        if x[:2] != '~j':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~j')
@@ -38696,7 +38696,7 @@ def decrypt_tilj():
 def decrypt_till():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~l':
+        if x[:2] != '~l':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~l')
@@ -38710,7 +38710,7 @@ def decrypt_till():
 def decrypt_tiln():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~n':
+        if x[:2] != '~n':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~n')
@@ -38724,7 +38724,7 @@ def decrypt_tiln():
 def decrypt_tilp():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~p':
+        if x[:2] != '~p':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~p')
@@ -38738,7 +38738,7 @@ def decrypt_tilp():
 def decrypt_tilr():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~r':
+        if x[:2] != '~r':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~r')
@@ -38752,7 +38752,7 @@ def decrypt_tilr():
 def decrypt_tilt():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~t':
+        if x[:2] != '~t':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~t')
@@ -38766,7 +38766,7 @@ def decrypt_tilt():
 def decrypt_tilv():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~v':
+        if x[:2] != '~v':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~v')
@@ -38780,7 +38780,7 @@ def decrypt_tilv():
 def decrypt_tilx():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~x':
+        if x[:2] != '~x':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~x')
@@ -38794,7 +38794,7 @@ def decrypt_tilx():
 def decrypt_tilz():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~z':
+        if x[:2] != '~z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~z')
@@ -38808,7 +38808,7 @@ def decrypt_tilz():
 def decrypt_tilA():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~A':
+        if x[:2] != '~A':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~A')
@@ -38822,7 +38822,7 @@ def decrypt_tilA():
 def decrypt_tilB():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~B':
+        if x[:2] != '~B':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~B')
@@ -38836,7 +38836,7 @@ def decrypt_tilB():
 def decrypt_tilD():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~D':
+        if x[:2] != '~D':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~D')
@@ -38850,7 +38850,7 @@ def decrypt_tilD():
 def decrypt_tilF():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~F':
+        if x[:2] != '~F':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~F')
@@ -38864,7 +38864,7 @@ def decrypt_tilF():
 def decrypt_tilH():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~H':
+        if x[:2] != '~H':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~H')
@@ -38878,7 +38878,7 @@ def decrypt_tilH():
 def decrypt_tilJ():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~J':
+        if x[:2] != '~J':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~J')
@@ -38892,7 +38892,7 @@ def decrypt_tilJ():
 def decrypt_tilL():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~L':
+        if x[:2] != '~L':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~L')
@@ -38906,7 +38906,7 @@ def decrypt_tilL():
 def decrypt_tilN():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~N':
+        if x[:2] != '~N':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~N')
@@ -38920,7 +38920,7 @@ def decrypt_tilN():
 def decrypt_tilP():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~P':
+        if x[:2] != '~P':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~P')
@@ -38934,7 +38934,7 @@ def decrypt_tilP():
 def decrypt_tilR():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~R':
+        if x[:2] != '~R':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~R')
@@ -38948,7 +38948,7 @@ def decrypt_tilR():
 def decrypt_tilT():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~T':
+        if x[:2] != '~T':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~T')
@@ -38962,7 +38962,7 @@ def decrypt_tilT():
 def decrypt_tilV():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~V':
+        if x[:2] != '~V':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~V')
@@ -38976,7 +38976,7 @@ def decrypt_tilV():
 def decrypt_tilX():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~X':
+        if x[:2] != '~X':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~X')
@@ -38990,7 +38990,7 @@ def decrypt_tilX():
 def decrypt_tilZ():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~Z':
+        if x[:2] != '~Z':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~Z')
@@ -39004,7 +39004,7 @@ def decrypt_tilZ():
 def decrypt_til0():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~0':
+        if x[:2] != '~0':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~0')
@@ -39018,7 +39018,7 @@ def decrypt_til0():
 def decrypt_til2():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~2':
+        if x[:2] != '~2':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~2')
@@ -39032,7 +39032,7 @@ def decrypt_til2():
 def decrypt_til4():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~4':
+        if x[:2] != '~4':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~4')
@@ -39046,7 +39046,7 @@ def decrypt_til4():
 def decrypt_til6():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~6':
+        if x[:2] != '~6':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~6')
@@ -39060,7 +39060,7 @@ def decrypt_til6():
 def decrypt_til8():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~8':
+        if x[:2] != '~8':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~8')
@@ -39074,7 +39074,7 @@ def decrypt_til8():
 def decrypt_tilexcl():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~!':
+        if x[:2] != '~!':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~!')
@@ -39088,7 +39088,7 @@ def decrypt_tilexcl():
 def decrypt_tildquote():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~"':
+        if x[:2] != '~"':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~"')
@@ -39102,7 +39102,7 @@ def decrypt_tildquote():
 def decrypt_tildoll():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~$':
+        if x[:2] != '~$':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~$')
@@ -39116,7 +39116,7 @@ def decrypt_tildoll():
 def decrypt_tiland():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~&':
+        if x[:2] != '~&':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~&')
@@ -39130,7 +39130,7 @@ def decrypt_tiland():
 def decrypt_tilquote():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~\'':
+        if x[:2] != '~\'':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~\'')
@@ -39144,7 +39144,7 @@ def decrypt_tilquote():
 def decrypt_tilpar():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != 'tild(':
+        if x[:2] != 'tild(':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -tild(')
@@ -39158,7 +39158,7 @@ def decrypt_tilpar():
 def decrypt_tilast():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~*':
+        if x[:2] != '~*':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~*')
@@ -39172,7 +39172,7 @@ def decrypt_tilast():
 def decrypt_tilvir():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~,':
+        if x[:2] != '~,':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~,')
@@ -39186,7 +39186,7 @@ def decrypt_tilvir():
 def decrypt_tilpp():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~.':
+        if x[:2] != '~.':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~.')
@@ -39200,7 +39200,7 @@ def decrypt_tilpp():
 def decrypt_tiltp():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~:':
+        if x[:2] != '~:':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~:')
@@ -39214,7 +39214,7 @@ def decrypt_tiltp():
 def decrypt_tilless():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~<':
+        if x[:2] != '~<':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~<')
@@ -39228,7 +39228,7 @@ def decrypt_tilless():
 def decrypt_tilmore():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~>':
+        if x[:2] != '~>':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~>')
@@ -39242,7 +39242,7 @@ def decrypt_tilmore():
 def decrypt_tilaro():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~@':
+        if x[:2] != '~@':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~@')
@@ -39256,7 +39256,7 @@ def decrypt_tilaro():
 def decrypt_tilcroc():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~[':
+        if x[:2] != '~[':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~[')
@@ -39270,7 +39270,7 @@ def decrypt_tilcroc():
 def decrypt_tilbsl():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~\\':
+        if x[:2] != '~\\':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~\\')
@@ -39284,7 +39284,7 @@ def decrypt_tilbsl():
 def decrypt_tilcirc():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~^':
+        if x[:2] != '~^':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~^')
@@ -39298,7 +39298,7 @@ def decrypt_tilcirc():
 def decrypt_tilesp():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~`':
+        if x[:2] != '~`':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~`')
@@ -39312,7 +39312,7 @@ def decrypt_tilesp():
 def decrypt_tilcr():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~{':
+        if x[:2] != '~{':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~{')
@@ -39326,7 +39326,7 @@ def decrypt_tilcr():
 def decrypt_tilhl():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~|':
+        if x[:2] != '~|':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~|')
@@ -39340,7 +39340,7 @@ def decrypt_tilhl():
 def decrypt_tiltild():
     i = 0
     for x in map(''.join, itertools.product('~abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\^`{|', repeat=8)):
-        if i == 1000 or x[:2] != '~~':
+        if x[:2] != '~~':
             break
         fkey = x.encode('utf-8')
         #print(fkey, ' -~~')

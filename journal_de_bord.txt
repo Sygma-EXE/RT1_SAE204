@@ -44,3 +44,16 @@ chaque jour de travail.
 | -Programme de brute-force fonctionnant sur CUDA (sur le PC de Diego) mais pas sur la CG (problème de    |
 |  driver du laptop de l'établissement, un besoin de mise à jour driver pouvant en être la cause)         |
 +---------------------------------------------------------------------------------------------------------+
+
++---------------------------------------------------------------------------------------------------------+
+|>28/05/2025:                                                                                             |
+| -MAJ driver NVIDIA pour le PC de l'établissement                                                        |
+| -Modification de BFDES-opti-test3 : mise en commentaire des prints afin d'accelélèrer l'execution       |
+| -Test BFDES-opti-3 sur une nouvelle machine (I9 11900): réduction massive du temps de calcule qui est   |
+|  estimé à 7h maxiumum (un test complet de cette durée sera effectué en off)                             |
+| -Abandon de l'idée de dresser une liste de toutes les clefs possibles pour une raison stockage          |
+| -Le programme initial sous CUDA ne fonctionne pas correctement, l'écriture du code est à revoir         |
+|  (possibilié de passer sous c++ afin d'utiliser un programme déjà existant pour effectuer le DES sur    |
+|  la GPU)                                                                                                |
+| -Nouveau programme CUDA fonctionnel (sauf sur IDE)                                                      |
++---------------------------------------------------------------------------------------------------------+
