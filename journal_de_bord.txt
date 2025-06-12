@@ -57,3 +57,21 @@ chaque jour de travail.
 |  la GPU)                                                                                                |
 | -Nouveau programme CUDA fonctionnel (sauf sur IDE)                                                      |
 +---------------------------------------------------------------------------------------------------------+
+
++---------------------------------------------------------------------------------------------------------+
+|>11/06/2025:                                                                                             |
+| -Mise en place du BFDES-opti-test3 sur le I9 : dépassement de la durée estimé (des recherches serons à  |
+|  faire pour comprendre cela)                                                                            |
+| -Début de la présentation pour la soutenance                                                            |
++---------------------------------------------------------------------------------------------------------+
+
++---------------------------------------------------------------------------------------------------------+
+|>12/06/2025:                                                                                             |
+| -Demmarrage brute force CUDA pour plusieurs jours (ajout d'un time sur le code de la machine afin de    |
+|  suivre quand la clef sera trouvé)                                                                      |
+| -observation de pourquoi le programme est plus lent que prévu (tous les threads ne se lance pas)        |
+| -recherche sur l'utilisation de "multiprocess" plutôt que de "multithread" pour du calcul en paralèlle  |
+| -test du multiprocess assez concluant sur le I9 (530000 clef en 10 secondes)                            |
+| -il est possible que le problème des threads viens du fais que le programme break les threads suite à   |
+|  un mauvais paramètre.                                                                                  |
++---------------------------------------------------------------------------------------------------------+
