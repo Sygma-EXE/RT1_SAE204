@@ -75,3 +75,10 @@ chaque jour de travail.
 | -il est possible que le problème des threads viens du fais que le programme break les threads suite à   |
 |  un mauvais paramètre.                                                                                  |
 +---------------------------------------------------------------------------------------------------------+
+
++---------------------------------------------------------------------------------------------------------+
+|>13/06/2025:                                                                                             |
+| -Problème de "BFDES-opti-test3" fixé (test de 2 756 000 clefs en moins de 2min, soit environs 22 966    |
+| clefs testés par secondes)                                                                              |
+| -maj du brute force utilisant process (avait les mêmes problèmes que celui avec threads)                |
++---------------------------------------------------------------------------------------------------------+
