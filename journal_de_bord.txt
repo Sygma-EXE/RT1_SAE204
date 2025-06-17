@@ -82,3 +82,12 @@ chaque jour de travail.
 | clefs testés par secondes)                                                                              |
 | -maj du brute force utilisant process (avait les mêmes problèmes que celui avec threads)                |
 +---------------------------------------------------------------------------------------------------------+
+
++---------------------------------------------------------------------------------------------------------+
+|>17/06/2025:                                                                                             |
+| -Réorganisation des fichiers pour une meilleure structure                                               |
+| -Ajour d'une légère interface terminale centralisant les différents programmes                          |
+| -Abandon du projet visant à utiliser Threads et Process (plus ont ajouts des process avec des threads,  |
+|  plus le temps de calcul augement). Cette idée venait du fais que individuellement, les process ce      |
+|  terminait plus vite que les threads mais les threads ensembles finissaient avant tous les process.     |
++---------------------------------------------------------------------------------------------------------+
