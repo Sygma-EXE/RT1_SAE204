@@ -1,3 +1,7 @@
+################################################
+#This is a demo with 1000 key tested by process#
+################################################
+
 from Crypto.Cipher import DES
 import itertools
 import multiprocessing
@@ -25,7 +29,7 @@ def decrypt_aa():
         #print(fkey, ' -aa')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if ptx == texte:
+        if i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -39,7 +43,7 @@ def decrypt_ab():
         #print(fkey, ' -ab')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -53,7 +57,7 @@ def decrypt_ad():
         #print(fkey, ' -ad')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -67,7 +71,7 @@ def decrypt_af():
         #print(fkey, ' -af')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -81,7 +85,7 @@ def decrypt_ah():
         #print(fkey, ' -ah')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -95,7 +99,7 @@ def decrypt_aj():
         #print(fkey, ' -aj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -109,7 +113,7 @@ def decrypt_al():
         #print(fkey, ' -al')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -123,7 +127,7 @@ def decrypt_an():
         #print(fkey, ' -an')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -137,7 +141,7 @@ def decrypt_ap():
         #print(fkey, ' -ap')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -151,7 +155,7 @@ def decrypt_ar():
         #print(fkey, ' -ar')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -165,7 +169,7 @@ def decrypt_at():
         #print(fkey, ' -at')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -179,7 +183,7 @@ def decrypt_av():
         #print(fkey, ' -av')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -193,7 +197,7 @@ def decrypt_ax():
         #print(fkey, ' -ax')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -207,7 +211,7 @@ def decrypt_az():
         #print(fkey, ' -az')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -221,7 +225,7 @@ def decrypt_aA():
         #print(fkey, ' -aA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -235,7 +239,7 @@ def decrypt_aB():
         #print(fkey, ' -aB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -249,7 +253,7 @@ def decrypt_aD():
         #print(fkey, ' -aD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -263,7 +267,7 @@ def decrypt_aF():
         #print(fkey, ' -aF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -277,7 +281,7 @@ def decrypt_aH():
         #print(fkey, ' -aH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -291,7 +295,7 @@ def decrypt_aJ():
         #print(fkey, ' -aJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -305,7 +309,7 @@ def decrypt_aL():
         #print(fkey, ' -aL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -319,7 +323,7 @@ def decrypt_aN():
         #print(fkey, ' -aN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -333,7 +337,7 @@ def decrypt_aP():
         #print(fkey, ' -aP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -347,7 +351,7 @@ def decrypt_aR():
         #print(fkey, ' -aR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -361,7 +365,7 @@ def decrypt_aT():
         #print(fkey, ' -aT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -375,7 +379,7 @@ def decrypt_aV():
         #print(fkey, ' -aV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -389,7 +393,7 @@ def decrypt_aX():
         #print(fkey, ' -aX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -403,7 +407,7 @@ def decrypt_aZ():
         #print(fkey, ' -aZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -417,7 +421,7 @@ def decrypt_a0():
         #print(fkey, ' -a0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -431,7 +435,7 @@ def decrypt_a2():
         #print(fkey, ' -a2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -445,7 +449,7 @@ def decrypt_a4():
         #print(fkey, ' -a4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -459,7 +463,7 @@ def decrypt_a6():
         #print(fkey, ' -a6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -473,7 +477,7 @@ def decrypt_a8():
         #print(fkey, ' -a8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -487,7 +491,7 @@ def decrypt_aexcl():
         #print(fkey, ' -a!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -501,7 +505,7 @@ def decrypt_adquote():
         #print(fkey, ' -a"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -515,7 +519,7 @@ def decrypt_adoll():
         #print(fkey, ' -a$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -529,7 +533,7 @@ def decrypt_aand():
         #print(fkey, ' -a&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -543,7 +547,7 @@ def decrypt_aquote():
         #print(fkey, ' -a\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -557,7 +561,7 @@ def decrypt_apar():
         #print(fkey, ' -a(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -571,7 +575,7 @@ def decrypt_aast():
         #print(fkey, ' -a*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -585,7 +589,7 @@ def decrypt_avir():
         #print(fkey, ' -a,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -599,7 +603,7 @@ def decrypt_app():
         #print(fkey, ' -a.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -613,7 +617,7 @@ def decrypt_atp():
         #print(fkey, ' -a:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -627,7 +631,7 @@ def decrypt_aless():
         #print(fkey, ' -a<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -641,7 +645,7 @@ def decrypt_amore():
         #print(fkey, ' -a>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -655,7 +659,7 @@ def decrypt_aaro():
         #print(fkey, ' -a@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -669,7 +673,7 @@ def decrypt_acroc():
         #print(fkey, ' -a[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -683,7 +687,7 @@ def decrypt_absl():
         #print(fkey, ' -a\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -697,7 +701,7 @@ def decrypt_acirc():
         #print(fkey, ' -a^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -711,7 +715,7 @@ def decrypt_aesp():
         #print(fkey, ' -a`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -725,7 +729,7 @@ def decrypt_acr():
         #print(fkey, ' -a{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -739,7 +743,7 @@ def decrypt_ahl():
         #print(fkey, ' -a|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -753,7 +757,7 @@ def decrypt_atild():
         #print(fkey, ' -a~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -766,7 +770,7 @@ def decrypt_ba():
         #print(fkey, ' -ba')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if ptx == texte:
+        if i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -780,7 +784,7 @@ def decrypt_bb():
         #print(fkey, ' -bb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -794,7 +798,7 @@ def decrypt_bd():
         #print(fkey, ' -bd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -808,7 +812,7 @@ def decrypt_bf():
         #print(fkey, ' -bf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -822,7 +826,7 @@ def decrypt_bh():
         #print(fkey, ' -bh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -836,7 +840,7 @@ def decrypt_bj():
         #print(fkey, ' -bj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -850,7 +854,7 @@ def decrypt_bl():
         #print(fkey, ' -bl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -864,7 +868,7 @@ def decrypt_bn():
         #print(fkey, ' -bn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -878,7 +882,7 @@ def decrypt_bp():
         #print(fkey, ' -bp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -892,7 +896,7 @@ def decrypt_br():
         #print(fkey, ' -br')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -906,7 +910,7 @@ def decrypt_bt():
         #print(fkey, ' -bt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -920,7 +924,7 @@ def decrypt_bv():
         #print(fkey, ' -bv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -934,7 +938,7 @@ def decrypt_bx():
         #print(fkey, ' -bx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -948,7 +952,7 @@ def decrypt_bz():
         #print(fkey, ' -bz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -962,7 +966,7 @@ def decrypt_bA():
         #print(fkey, ' -bA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -976,7 +980,7 @@ def decrypt_bB():
         #print(fkey, ' -bB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -990,7 +994,7 @@ def decrypt_bD():
         #print(fkey, ' -bD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1004,7 +1008,7 @@ def decrypt_bF():
         #print(fkey, ' -bF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1018,7 +1022,7 @@ def decrypt_bH():
         #print(fkey, ' -bH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1032,7 +1036,7 @@ def decrypt_bJ():
         #print(fkey, ' -bJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1046,7 +1050,7 @@ def decrypt_bL():
         #print(fkey, ' -bL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1060,7 +1064,7 @@ def decrypt_bN():
         #print(fkey, ' -bN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1074,7 +1078,7 @@ def decrypt_bP():
         #print(fkey, ' -bP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1088,7 +1092,7 @@ def decrypt_bR():
         #print(fkey, ' -bR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1102,7 +1106,7 @@ def decrypt_bT():
         #print(fkey, ' -bT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1116,7 +1120,7 @@ def decrypt_bV():
         #print(fkey, ' -bV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1130,7 +1134,7 @@ def decrypt_bX():
         #print(fkey, ' -bX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1144,7 +1148,7 @@ def decrypt_bZ():
         #print(fkey, ' -bZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1158,7 +1162,7 @@ def decrypt_b0():
         #print(fkey, ' -b0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1172,7 +1176,7 @@ def decrypt_b2():
         #print(fkey, ' -b2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1186,7 +1190,7 @@ def decrypt_b4():
         #print(fkey, ' -b4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1200,7 +1204,7 @@ def decrypt_b6():
         #print(fkey, ' -b6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1214,7 +1218,7 @@ def decrypt_b8():
         #print(fkey, ' -b8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1228,7 +1232,7 @@ def decrypt_bexcl():
         #print(fkey, ' -b!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1242,7 +1246,7 @@ def decrypt_bdquote():
         #print(fkey, ' -b"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1256,7 +1260,7 @@ def decrypt_bdoll():
         #print(fkey, ' -b$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1270,7 +1274,7 @@ def decrypt_band():
         #print(fkey, ' -b&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1284,7 +1288,7 @@ def decrypt_bquote():
         #print(fkey, ' -b\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1298,7 +1302,7 @@ def decrypt_bpar():
         #print(fkey, ' -b(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1312,7 +1316,7 @@ def decrypt_bast():
         #print(fkey, ' -b*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1326,7 +1330,7 @@ def decrypt_bvir():
         #print(fkey, ' -b,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1340,7 +1344,7 @@ def decrypt_bpp():
         #print(fkey, ' -b.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1354,7 +1358,7 @@ def decrypt_btp():
         #print(fkey, ' -b:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1368,7 +1372,7 @@ def decrypt_bless():
         #print(fkey, ' -b<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1382,7 +1386,7 @@ def decrypt_bmore():
         #print(fkey, ' -b>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1396,7 +1400,7 @@ def decrypt_baro():
         #print(fkey, ' -b@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1410,7 +1414,7 @@ def decrypt_bcroc():
         #print(fkey, ' -b[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1424,7 +1428,7 @@ def decrypt_bbsl():
         #print(fkey, ' -b\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1438,7 +1442,7 @@ def decrypt_bcirc():
         #print(fkey, ' -b^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1452,7 +1456,7 @@ def decrypt_besp():
         #print(fkey, ' -b`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1466,7 +1470,7 @@ def decrypt_bcr():
         #print(fkey, ' -b{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1480,7 +1484,7 @@ def decrypt_bhl():
         #print(fkey, ' -b|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1494,7 +1498,7 @@ def decrypt_btild():
         #print(fkey, ' -b~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1507,7 +1511,7 @@ def decrypt_da():
         #print(fkey, ' -da')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if ptx == texte:
+        if i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1521,7 +1525,7 @@ def decrypt_db():
         #print(fkey, ' -db')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1535,7 +1539,7 @@ def decrypt_dd():
         #print(fkey, ' -dd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1549,7 +1553,7 @@ def decrypt_df():
         #print(fkey, ' -df')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1563,7 +1567,7 @@ def decrypt_dh():
         #print(fkey, ' -dh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1577,7 +1581,7 @@ def decrypt_dj():
         #print(fkey, ' -dj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1591,7 +1595,7 @@ def decrypt_dl():
         #print(fkey, ' -dl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1605,7 +1609,7 @@ def decrypt_dn():
         #print(fkey, ' -dn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1619,7 +1623,7 @@ def decrypt_dp():
         #print(fkey, ' -dp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1633,7 +1637,7 @@ def decrypt_dr():
         #print(fkey, ' -dr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1647,7 +1651,7 @@ def decrypt_dt():
         #print(fkey, ' -dt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1661,7 +1665,7 @@ def decrypt_dv():
         #print(fkey, ' -dv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1675,7 +1679,7 @@ def decrypt_dx():
         #print(fkey, ' -dx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1689,7 +1693,7 @@ def decrypt_dz():
         #print(fkey, ' -dz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1703,7 +1707,7 @@ def decrypt_dA():
         #print(fkey, ' -dA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1717,7 +1721,7 @@ def decrypt_dB():
         #print(fkey, ' -dB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1731,7 +1735,7 @@ def decrypt_dD():
         #print(fkey, ' -dD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1745,7 +1749,7 @@ def decrypt_dF():
         #print(fkey, ' -dF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1759,7 +1763,7 @@ def decrypt_dH():
         #print(fkey, ' -dH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1773,7 +1777,7 @@ def decrypt_dJ():
         #print(fkey, ' -dJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1787,7 +1791,7 @@ def decrypt_dL():
         #print(fkey, ' -dL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1801,7 +1805,7 @@ def decrypt_dN():
         #print(fkey, ' -dN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1815,7 +1819,7 @@ def decrypt_dP():
         #print(fkey, ' -dP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1829,7 +1833,7 @@ def decrypt_dR():
         #print(fkey, ' -dR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1843,7 +1847,7 @@ def decrypt_dT():
         #print(fkey, ' -dT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1857,7 +1861,7 @@ def decrypt_dV():
         #print(fkey, ' -dV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1871,7 +1875,7 @@ def decrypt_dX():
         #print(fkey, ' -dX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1885,7 +1889,7 @@ def decrypt_dZ():
         #print(fkey, ' -dZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1899,7 +1903,7 @@ def decrypt_d0():
         #print(fkey, ' -d0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1913,7 +1917,7 @@ def decrypt_d2():
         #print(fkey, ' -d2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1927,7 +1931,7 @@ def decrypt_d4():
         #print(fkey, ' -d4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1941,7 +1945,7 @@ def decrypt_d6():
         #print(fkey, ' -d6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1955,7 +1959,7 @@ def decrypt_d8():
         #print(fkey, ' -d8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1969,7 +1973,7 @@ def decrypt_dexcl():
         #print(fkey, ' -d!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1983,7 +1987,7 @@ def decrypt_ddquote():
         #print(fkey, ' -d"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -1997,7 +2001,7 @@ def decrypt_ddoll():
         #print(fkey, ' -d$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2011,7 +2015,7 @@ def decrypt_dand():
         #print(fkey, ' -d&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2025,7 +2029,7 @@ def decrypt_dquote():
         #print(fkey, ' -d\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2039,7 +2043,7 @@ def decrypt_dpar():
         #print(fkey, ' -d(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2053,7 +2057,7 @@ def decrypt_dast():
         #print(fkey, ' -d*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2067,7 +2071,7 @@ def decrypt_dvir():
         #print(fkey, ' -d,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2081,7 +2085,7 @@ def decrypt_dpp():
         #print(fkey, ' -d.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2095,7 +2099,7 @@ def decrypt_dtp():
         #print(fkey, ' -d:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2109,7 +2113,7 @@ def decrypt_dless():
         #print(fkey, ' -d<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2123,7 +2127,7 @@ def decrypt_dmore():
         #print(fkey, ' -d>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2137,7 +2141,7 @@ def decrypt_daro():
         #print(fkey, ' -d@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2151,7 +2155,7 @@ def decrypt_dcroc():
         #print(fkey, ' -d[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2165,7 +2169,7 @@ def decrypt_dbsl():
         #print(fkey, ' -d\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2179,7 +2183,7 @@ def decrypt_dcirc():
         #print(fkey, ' -d^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2193,7 +2197,7 @@ def decrypt_desp():
         #print(fkey, ' -d`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2207,7 +2211,7 @@ def decrypt_dcr():
         #print(fkey, ' -d{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2221,7 +2225,7 @@ def decrypt_dhl():
         #print(fkey, ' -d|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2235,7 +2239,7 @@ def decrypt_dtild():
         #print(fkey, ' -d~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2249,7 +2253,7 @@ def decrypt_fa():
         #print(fkey, ' -fa')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2263,7 +2267,7 @@ def decrypt_fb():
         #print(fkey, ' -fb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2277,7 +2281,7 @@ def decrypt_fd():
         #print(fkey, ' -fd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2291,7 +2295,7 @@ def decrypt_ff():
         #print(fkey, ' -ff')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2305,7 +2309,7 @@ def decrypt_fh():
         #print(fkey, ' -fh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2319,7 +2323,7 @@ def decrypt_fj():
         #print(fkey, ' -fj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2333,7 +2337,7 @@ def decrypt_fl():
         #print(fkey, ' -fl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2347,7 +2351,7 @@ def decrypt_fn():
         #print(fkey, ' -fn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2361,7 +2365,7 @@ def decrypt_fp():
         #print(fkey, ' -fp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2375,7 +2379,7 @@ def decrypt_fr():
         #print(fkey, ' -fr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2389,7 +2393,7 @@ def decrypt_ft():
         #print(fkey, ' -ft')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2403,7 +2407,7 @@ def decrypt_fv():
         #print(fkey, ' -fv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2417,7 +2421,7 @@ def decrypt_fx():
         #print(fkey, ' -fx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2431,7 +2435,7 @@ def decrypt_fz():
         #print(fkey, ' -fz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2445,7 +2449,7 @@ def decrypt_fA():
         #print(fkey, ' -fA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2459,7 +2463,7 @@ def decrypt_fB():
         #print(fkey, ' -fB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2473,7 +2477,7 @@ def decrypt_fD():
         #print(fkey, ' -fD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2487,7 +2491,7 @@ def decrypt_fF():
         #print(fkey, ' -fF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2501,7 +2505,7 @@ def decrypt_fH():
         #print(fkey, ' -fH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2515,7 +2519,7 @@ def decrypt_fJ():
         #print(fkey, ' -fJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2529,7 +2533,7 @@ def decrypt_fL():
         #print(fkey, ' -fL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2543,7 +2547,7 @@ def decrypt_fN():
         #print(fkey, ' -fN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2557,7 +2561,7 @@ def decrypt_fP():
         #print(fkey, ' -fP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2571,7 +2575,7 @@ def decrypt_fR():
         #print(fkey, ' -fR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2585,7 +2589,7 @@ def decrypt_fT():
         #print(fkey, ' -fT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2599,7 +2603,7 @@ def decrypt_fV():
         #print(fkey, ' -fV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2613,7 +2617,7 @@ def decrypt_fX():
         #print(fkey, ' -fX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2627,7 +2631,7 @@ def decrypt_fZ():
         #print(fkey, ' -fZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2641,7 +2645,7 @@ def decrypt_f0():
         #print(fkey, ' -f0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2655,7 +2659,7 @@ def decrypt_f2():
         #print(fkey, ' -f2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2669,7 +2673,7 @@ def decrypt_f4():
         #print(fkey, ' -f4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2683,7 +2687,7 @@ def decrypt_f6():
         #print(fkey, ' -f6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2697,7 +2701,7 @@ def decrypt_f8():
         #print(fkey, ' -f8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2711,7 +2715,7 @@ def decrypt_fexcl():
         #print(fkey, ' -f!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2725,7 +2729,7 @@ def decrypt_fdquote():
         #print(fkey, ' -f"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2739,7 +2743,7 @@ def decrypt_fdoll():
         #print(fkey, ' -f$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2753,7 +2757,7 @@ def decrypt_fand():
         #print(fkey, ' -f&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2767,7 +2771,7 @@ def decrypt_fquote():
         #print(fkey, ' -f\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2781,7 +2785,7 @@ def decrypt_fpar():
         #print(fkey, ' -f(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2795,7 +2799,7 @@ def decrypt_fast():
         #print(fkey, ' -f*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2809,7 +2813,7 @@ def decrypt_fvir():
         #print(fkey, ' -f,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2823,7 +2827,7 @@ def decrypt_fpp():
         #print(fkey, ' -f.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2837,7 +2841,7 @@ def decrypt_ftp():
         #print(fkey, ' -f:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2851,7 +2855,7 @@ def decrypt_fless():
         #print(fkey, ' -f<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2865,7 +2869,7 @@ def decrypt_fmore():
         #print(fkey, ' -f>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2879,7 +2883,7 @@ def decrypt_faro():
         #print(fkey, ' -f@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2893,7 +2897,7 @@ def decrypt_fcroc():
         #print(fkey, ' -f[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2907,7 +2911,7 @@ def decrypt_fbsl():
         #print(fkey, ' -f\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2921,7 +2925,7 @@ def decrypt_fcirc():
         #print(fkey, ' -f^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2935,7 +2939,7 @@ def decrypt_fesp():
         #print(fkey, ' -f`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2949,7 +2953,7 @@ def decrypt_fcr():
         #print(fkey, ' -f{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2963,7 +2967,7 @@ def decrypt_fhl():
         #print(fkey, ' -f|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2977,7 +2981,7 @@ def decrypt_ftild():
         #print(fkey, ' -f~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -2991,7 +2995,7 @@ def decrypt_ha():
         #print(fkey, ' -ha')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3005,7 +3009,7 @@ def decrypt_hb():
         #print(fkey, ' -hb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3019,7 +3023,7 @@ def decrypt_hd():
         #print(fkey, ' -hd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3033,7 +3037,7 @@ def decrypt_hf():
         #print(fkey, ' -hf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3047,7 +3051,7 @@ def decrypt_hh():
         #print(fkey, ' -hh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3061,7 +3065,7 @@ def decrypt_hj():
         #print(fkey, ' -hj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3075,7 +3079,7 @@ def decrypt_hl():
         #print(fkey, ' -hl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3089,7 +3093,7 @@ def decrypt_hn():
         #print(fkey, ' -hn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3103,7 +3107,7 @@ def decrypt_hp():
         #print(fkey, ' -hp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3117,7 +3121,7 @@ def decrypt_hr():
         #print(fkey, ' -hr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3131,7 +3135,7 @@ def decrypt_ht():
         #print(fkey, ' -ht')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3145,7 +3149,7 @@ def decrypt_hv():
         #print(fkey, ' -hv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3159,7 +3163,7 @@ def decrypt_hx():
         #print(fkey, ' -hx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3173,7 +3177,7 @@ def decrypt_hz():
         #print(fkey, ' -hz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3187,7 +3191,7 @@ def decrypt_hA():
         #print(fkey, ' -hA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3201,7 +3205,7 @@ def decrypt_hB():
         #print(fkey, ' -hB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3215,7 +3219,7 @@ def decrypt_hD():
         #print(fkey, ' -hD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3229,7 +3233,7 @@ def decrypt_hF():
         #print(fkey, ' -hF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3243,7 +3247,7 @@ def decrypt_hH():
         #print(fkey, ' -hH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3257,7 +3261,7 @@ def decrypt_hJ():
         #print(fkey, ' -hJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3271,7 +3275,7 @@ def decrypt_hL():
         #print(fkey, ' -hL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3285,7 +3289,7 @@ def decrypt_hN():
         #print(fkey, ' -hN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3299,7 +3303,7 @@ def decrypt_hP():
         #print(fkey, ' -hP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3313,7 +3317,7 @@ def decrypt_hR():
         #print(fkey, ' -hR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3327,7 +3331,7 @@ def decrypt_hT():
         #print(fkey, ' -hT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3341,7 +3345,7 @@ def decrypt_hV():
         #print(fkey, ' -hV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3355,7 +3359,7 @@ def decrypt_hX():
         #print(fkey, ' -hX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3369,7 +3373,7 @@ def decrypt_hZ():
         #print(fkey, ' -hZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3383,7 +3387,7 @@ def decrypt_h0():
         #print(fkey, ' -h0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3397,7 +3401,7 @@ def decrypt_h2():
         #print(fkey, ' -h2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3411,7 +3415,7 @@ def decrypt_h4():
         #print(fkey, ' -h4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3425,7 +3429,7 @@ def decrypt_h6():
         #print(fkey, ' -h6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3439,7 +3443,7 @@ def decrypt_h8():
         #print(fkey, ' -h8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3453,7 +3457,7 @@ def decrypt_hexcl():
         #print(fkey, ' -h!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3467,7 +3471,7 @@ def decrypt_hdquote():
         #print(fkey, ' -h"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3481,7 +3485,7 @@ def decrypt_hdoll():
         #print(fkey, ' -h$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3495,7 +3499,7 @@ def decrypt_hand():
         #print(fkey, ' -h&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3509,7 +3513,7 @@ def decrypt_hquote():
         #print(fkey, ' -h\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3523,7 +3527,7 @@ def decrypt_hpar():
         #print(fkey, ' -h(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3537,7 +3541,7 @@ def decrypt_hast():
         #print(fkey, ' -h*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3551,7 +3555,7 @@ def decrypt_hvir():
         #print(fkey, ' -h,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3565,7 +3569,7 @@ def decrypt_hpp():
         #print(fkey, ' -h.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3579,7 +3583,7 @@ def decrypt_htp():
         #print(fkey, ' -h:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3593,7 +3597,7 @@ def decrypt_hless():
         #print(fkey, ' -h<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3607,7 +3611,7 @@ def decrypt_hmore():
         #print(fkey, ' -h>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3621,7 +3625,7 @@ def decrypt_haro():
         #print(fkey, ' -h@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3635,7 +3639,7 @@ def decrypt_hcroc():
         #print(fkey, ' -h[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3649,7 +3653,7 @@ def decrypt_hbsl():
         #print(fkey, ' -h\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3663,7 +3667,7 @@ def decrypt_hcirc():
         #print(fkey, ' -h^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3677,7 +3681,7 @@ def decrypt_hesp():
         #print(fkey, ' -h`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3691,7 +3695,7 @@ def decrypt_hcr():
         #print(fkey, ' -h{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3705,7 +3709,7 @@ def decrypt_hhl():
         #print(fkey, ' -h|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3719,7 +3723,7 @@ def decrypt_htild():
         #print(fkey, ' -h~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3733,7 +3737,7 @@ def decrypt_ja():
         #print(fkey, ' -ja')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3747,7 +3751,7 @@ def decrypt_jb():
         #print(fkey, ' -jb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3761,7 +3765,7 @@ def decrypt_jd():
         #print(fkey, ' -jd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3775,7 +3779,7 @@ def decrypt_jf():
         #print(fkey, ' -jf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3789,7 +3793,7 @@ def decrypt_jh():
         #print(fkey, ' -jh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3803,7 +3807,7 @@ def decrypt_jj():
         #print(fkey, ' -jj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3817,7 +3821,7 @@ def decrypt_jl():
         #print(fkey, ' -jl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3831,7 +3835,7 @@ def decrypt_jn():
         #print(fkey, ' -jn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3845,7 +3849,7 @@ def decrypt_jp():
         #print(fkey, ' -jp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3859,7 +3863,7 @@ def decrypt_jr():
         #print(fkey, ' -jr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3873,7 +3877,7 @@ def decrypt_jt():
         #print(fkey, ' -jt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3887,7 +3891,7 @@ def decrypt_jv():
         #print(fkey, ' -jv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3901,7 +3905,7 @@ def decrypt_jx():
         #print(fkey, ' -jx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3915,7 +3919,7 @@ def decrypt_jz():
         #print(fkey, ' -jz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3929,7 +3933,7 @@ def decrypt_jA():
         #print(fkey, ' -jA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3943,7 +3947,7 @@ def decrypt_jB():
         #print(fkey, ' -jB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3957,7 +3961,7 @@ def decrypt_jD():
         #print(fkey, ' -jD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3971,7 +3975,7 @@ def decrypt_jF():
         #print(fkey, ' -jF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3985,7 +3989,7 @@ def decrypt_jH():
         #print(fkey, ' -jH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -3999,7 +4003,7 @@ def decrypt_jJ():
         #print(fkey, ' -jJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4013,7 +4017,7 @@ def decrypt_jL():
         #print(fkey, ' -jL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4027,7 +4031,7 @@ def decrypt_jN():
         #print(fkey, ' -jN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4041,7 +4045,7 @@ def decrypt_jP():
         #print(fkey, ' -jP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4055,7 +4059,7 @@ def decrypt_jR():
         #print(fkey, ' -jR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4069,7 +4073,7 @@ def decrypt_jT():
         #print(fkey, ' -jT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4083,7 +4087,7 @@ def decrypt_jV():
         #print(fkey, ' -jV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4097,7 +4101,7 @@ def decrypt_jX():
         #print(fkey, ' -jX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4111,7 +4115,7 @@ def decrypt_jZ():
         #print(fkey, ' -jZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4125,7 +4129,7 @@ def decrypt_j0():
         #print(fkey, ' -j0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4139,7 +4143,7 @@ def decrypt_j2():
         #print(fkey, ' -j2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4153,7 +4157,7 @@ def decrypt_j4():
         #print(fkey, ' -j4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4167,7 +4171,7 @@ def decrypt_j6():
         #print(fkey, ' -j6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4181,7 +4185,7 @@ def decrypt_j8():
         #print(fkey, ' -j8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4195,7 +4199,7 @@ def decrypt_jexcl():
         #print(fkey, ' -j!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4209,7 +4213,7 @@ def decrypt_jdquote():
         #print(fkey, ' -j"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4223,7 +4227,7 @@ def decrypt_jdoll():
         #print(fkey, ' -j$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4237,7 +4241,7 @@ def decrypt_jand():
         #print(fkey, ' -j&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4251,7 +4255,7 @@ def decrypt_jquote():
         #print(fkey, ' -j\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4265,7 +4269,7 @@ def decrypt_jpar():
         #print(fkey, ' -j(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4279,7 +4283,7 @@ def decrypt_jast():
         #print(fkey, ' -j*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4293,7 +4297,7 @@ def decrypt_jvir():
         #print(fkey, ' -j,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4307,7 +4311,7 @@ def decrypt_jpp():
         #print(fkey, ' -j.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4321,7 +4325,7 @@ def decrypt_jtp():
         #print(fkey, ' -j:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4335,7 +4339,7 @@ def decrypt_jless():
         #print(fkey, ' -j<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4349,7 +4353,7 @@ def decrypt_jmore():
         #print(fkey, ' -j>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4363,7 +4367,7 @@ def decrypt_jaro():
         #print(fkey, ' -j@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4377,7 +4381,7 @@ def decrypt_jcroc():
         #print(fkey, ' -j[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4391,7 +4395,7 @@ def decrypt_jbsl():
         #print(fkey, ' -j\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4405,7 +4409,7 @@ def decrypt_jcirc():
         #print(fkey, ' -j^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4419,7 +4423,7 @@ def decrypt_jesp():
         #print(fkey, ' -j`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4433,7 +4437,7 @@ def decrypt_jcr():
         #print(fkey, ' -j{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4447,7 +4451,7 @@ def decrypt_jhl():
         #print(fkey, ' -j|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4461,7 +4465,7 @@ def decrypt_jtild():
         #print(fkey, ' -j~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4475,7 +4479,7 @@ def decrypt_la():
         #print(fkey, ' -la')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4489,7 +4493,7 @@ def decrypt_lb():
         #print(fkey, ' -lb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4503,7 +4507,7 @@ def decrypt_ld():
         #print(fkey, ' -ld')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4517,7 +4521,7 @@ def decrypt_lf():
         #print(fkey, ' -lf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4531,7 +4535,7 @@ def decrypt_lh():
         #print(fkey, ' -lh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4545,7 +4549,7 @@ def decrypt_lj():
         #print(fkey, ' -lj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4559,7 +4563,7 @@ def decrypt_ll():
         #print(fkey, ' -ll')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4573,7 +4577,7 @@ def decrypt_ln():
         #print(fkey, ' -ln')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4587,7 +4591,7 @@ def decrypt_lp():
         #print(fkey, ' -lp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4601,7 +4605,7 @@ def decrypt_lr():
         #print(fkey, ' -lr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4615,7 +4619,7 @@ def decrypt_lt():
         #print(fkey, ' -lt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4629,7 +4633,7 @@ def decrypt_lv():
         #print(fkey, ' -lv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4643,7 +4647,7 @@ def decrypt_lx():
         #print(fkey, ' -lx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4657,7 +4661,7 @@ def decrypt_lz():
         #print(fkey, ' -lz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4671,7 +4675,7 @@ def decrypt_lA():
         #print(fkey, ' -lA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4685,7 +4689,7 @@ def decrypt_lB():
         #print(fkey, ' -lB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4699,7 +4703,7 @@ def decrypt_lD():
         #print(fkey, ' -lD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4713,7 +4717,7 @@ def decrypt_lF():
         #print(fkey, ' -lF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4727,7 +4731,7 @@ def decrypt_lH():
         #print(fkey, ' -lH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4741,7 +4745,7 @@ def decrypt_lJ():
         #print(fkey, ' -lJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4755,7 +4759,7 @@ def decrypt_lL():
         #print(fkey, ' -lL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4769,7 +4773,7 @@ def decrypt_lN():
         #print(fkey, ' -lN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4783,7 +4787,7 @@ def decrypt_lP():
         #print(fkey, ' -lP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4797,7 +4801,7 @@ def decrypt_lR():
         #print(fkey, ' -lR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4811,7 +4815,7 @@ def decrypt_lT():
         #print(fkey, ' -lT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4825,7 +4829,7 @@ def decrypt_lV():
         #print(fkey, ' -lV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4839,7 +4843,7 @@ def decrypt_lX():
         #print(fkey, ' -lX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4853,7 +4857,7 @@ def decrypt_lZ():
         #print(fkey, ' -lZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4867,7 +4871,7 @@ def decrypt_l0():
         #print(fkey, ' -l0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4881,7 +4885,7 @@ def decrypt_l2():
         #print(fkey, ' -l2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4895,7 +4899,7 @@ def decrypt_l4():
         #print(fkey, ' -l4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4909,7 +4913,7 @@ def decrypt_l6():
         #print(fkey, ' -l6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4923,7 +4927,7 @@ def decrypt_l8():
         #print(fkey, ' -l8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4937,7 +4941,7 @@ def decrypt_lexcl():
         #print(fkey, ' -l!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4951,7 +4955,7 @@ def decrypt_ldquote():
         #print(fkey, ' -l"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4965,7 +4969,7 @@ def decrypt_ldoll():
         #print(fkey, ' -l$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4979,7 +4983,7 @@ def decrypt_land():
         #print(fkey, ' -l&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -4993,7 +4997,7 @@ def decrypt_lquote():
         #print(fkey, ' -l\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5007,7 +5011,7 @@ def decrypt_lpar():
         #print(fkey, ' -l(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5021,7 +5025,7 @@ def decrypt_last():
         #print(fkey, ' -l*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5035,7 +5039,7 @@ def decrypt_lvir():
         #print(fkey, ' -l,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5049,7 +5053,7 @@ def decrypt_lpp():
         #print(fkey, ' -l.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5063,7 +5067,7 @@ def decrypt_ltp():
         #print(fkey, ' -l:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5077,7 +5081,7 @@ def decrypt_lless():
         #print(fkey, ' -l<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5091,7 +5095,7 @@ def decrypt_lmore():
         #print(fkey, ' -l>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5105,7 +5109,7 @@ def decrypt_laro():
         #print(fkey, ' -l@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5119,7 +5123,7 @@ def decrypt_lcroc():
         #print(fkey, ' -l[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5133,7 +5137,7 @@ def decrypt_lbsl():
         #print(fkey, ' -l\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5147,7 +5151,7 @@ def decrypt_lcirc():
         #print(fkey, ' -l^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5161,7 +5165,7 @@ def decrypt_lesp():
         #print(fkey, ' -l`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5175,7 +5179,7 @@ def decrypt_lcr():
         #print(fkey, ' -l{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5189,7 +5193,7 @@ def decrypt_lhl():
         #print(fkey, ' -l|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5203,7 +5207,7 @@ def decrypt_ltild():
         #print(fkey, ' -l~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5217,7 +5221,7 @@ def decrypt_na():
         #print(fkey, ' -na')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5231,7 +5235,7 @@ def decrypt_nb():
         #print(fkey, ' -nb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5245,7 +5249,7 @@ def decrypt_nd():
         #print(fkey, ' -nd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5259,7 +5263,7 @@ def decrypt_nf():
         #print(fkey, ' -nf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5273,7 +5277,7 @@ def decrypt_nh():
         #print(fkey, ' -nh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5287,7 +5291,7 @@ def decrypt_nj():
         #print(fkey, ' -nj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5301,7 +5305,7 @@ def decrypt_nl():
         #print(fkey, ' -nl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5315,7 +5319,7 @@ def decrypt_nn():
         #print(fkey, ' -nn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5329,7 +5333,7 @@ def decrypt_np():
         #print(fkey, ' -np')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5343,7 +5347,7 @@ def decrypt_nr():
         #print(fkey, ' -nr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5357,7 +5361,7 @@ def decrypt_nt():
         #print(fkey, ' -nt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5371,7 +5375,7 @@ def decrypt_nv():
         #print(fkey, ' -nv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5385,7 +5389,7 @@ def decrypt_nx():
         #print(fkey, ' -nx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5399,7 +5403,7 @@ def decrypt_nz():
         #print(fkey, ' -nz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5413,7 +5417,7 @@ def decrypt_nA():
         #print(fkey, ' -nA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5427,7 +5431,7 @@ def decrypt_nB():
         #print(fkey, ' -nB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5441,7 +5445,7 @@ def decrypt_nD():
         #print(fkey, ' -nD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5455,7 +5459,7 @@ def decrypt_nF():
         #print(fkey, ' -nF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5469,7 +5473,7 @@ def decrypt_nH():
         #print(fkey, ' -nH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5483,7 +5487,7 @@ def decrypt_nJ():
         #print(fkey, ' -nJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5497,7 +5501,7 @@ def decrypt_nL():
         #print(fkey, ' -nL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5511,7 +5515,7 @@ def decrypt_nN():
         #print(fkey, ' -nN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5525,7 +5529,7 @@ def decrypt_nP():
         #print(fkey, ' -nP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5539,7 +5543,7 @@ def decrypt_nR():
         #print(fkey, ' -nR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5553,7 +5557,7 @@ def decrypt_nT():
         #print(fkey, ' -nT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5567,7 +5571,7 @@ def decrypt_nV():
         #print(fkey, ' -nV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5581,7 +5585,7 @@ def decrypt_nX():
         #print(fkey, ' -nX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5595,7 +5599,7 @@ def decrypt_nZ():
         #print(fkey, ' -nZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5609,7 +5613,7 @@ def decrypt_n0():
         #print(fkey, ' -n0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5623,7 +5627,7 @@ def decrypt_n2():
         #print(fkey, ' -n2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5637,7 +5641,7 @@ def decrypt_n4():
         #print(fkey, ' -n4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5651,7 +5655,7 @@ def decrypt_n6():
         #print(fkey, ' -n6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5665,7 +5669,7 @@ def decrypt_n8():
         #print(fkey, ' -n8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5679,7 +5683,7 @@ def decrypt_nexcl():
         #print(fkey, ' -n!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5693,7 +5697,7 @@ def decrypt_ndquote():
         #print(fkey, ' -n"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5707,7 +5711,7 @@ def decrypt_ndoll():
         #print(fkey, ' -n$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5721,7 +5725,7 @@ def decrypt_nand():
         #print(fkey, ' -n&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5735,7 +5739,7 @@ def decrypt_nquote():
         #print(fkey, ' -n\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5749,7 +5753,7 @@ def decrypt_npar():
         #print(fkey, ' -n(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5763,7 +5767,7 @@ def decrypt_nast():
         #print(fkey, ' -n*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5777,7 +5781,7 @@ def decrypt_nvir():
         #print(fkey, ' -n,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5791,7 +5795,7 @@ def decrypt_npp():
         #print(fkey, ' -n.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5805,7 +5809,7 @@ def decrypt_ntp():
         #print(fkey, ' -n:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5819,7 +5823,7 @@ def decrypt_nless():
         #print(fkey, ' -n<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5833,7 +5837,7 @@ def decrypt_nmore():
         #print(fkey, ' -n>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5847,7 +5851,7 @@ def decrypt_naro():
         #print(fkey, ' -n@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5861,7 +5865,7 @@ def decrypt_ncroc():
         #print(fkey, ' -n[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5875,7 +5879,7 @@ def decrypt_nbsl():
         #print(fkey, ' -n\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5889,7 +5893,7 @@ def decrypt_ncirc():
         #print(fkey, ' -n^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5903,7 +5907,7 @@ def decrypt_nesp():
         #print(fkey, ' -n`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5917,7 +5921,7 @@ def decrypt_ncr():
         #print(fkey, ' -n{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5931,7 +5935,7 @@ def decrypt_nhl():
         #print(fkey, ' -n|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5945,7 +5949,7 @@ def decrypt_ntild():
         #print(fkey, ' -n~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5959,7 +5963,7 @@ def decrypt_pa():
         #print(fkey, ' -pa')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5973,7 +5977,7 @@ def decrypt_pb():
         #print(fkey, ' -pb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -5987,7 +5991,7 @@ def decrypt_pd():
         #print(fkey, ' -pd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6001,7 +6005,7 @@ def decrypt_pf():
         #print(fkey, ' -pf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6015,7 +6019,7 @@ def decrypt_ph():
         #print(fkey, ' -ph')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6029,7 +6033,7 @@ def decrypt_pj():
         #print(fkey, ' -pj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6043,7 +6047,7 @@ def decrypt_pl():
         #print(fkey, ' -pl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6057,7 +6061,7 @@ def decrypt_pn():
         #print(fkey, ' -pn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6071,7 +6075,7 @@ def decrypt_pp():
         #print(fkey, ' -pp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6085,7 +6089,7 @@ def decrypt_pr():
         #print(fkey, ' -pr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6099,7 +6103,7 @@ def decrypt_pt():
         #print(fkey, ' -pt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6113,7 +6117,7 @@ def decrypt_pv():
         #print(fkey, ' -pv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6127,7 +6131,7 @@ def decrypt_px():
         #print(fkey, ' -px')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6141,7 +6145,7 @@ def decrypt_pz():
         #print(fkey, ' -pz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6155,7 +6159,7 @@ def decrypt_pA():
         #print(fkey, ' -pA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6169,7 +6173,7 @@ def decrypt_pB():
         #print(fkey, ' -pB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6183,7 +6187,7 @@ def decrypt_pD():
         #print(fkey, ' -pD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6197,7 +6201,7 @@ def decrypt_pF():
         #print(fkey, ' -pF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6211,7 +6215,7 @@ def decrypt_pH():
         #print(fkey, ' -pH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6225,7 +6229,7 @@ def decrypt_pJ():
         #print(fkey, ' -pJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6239,7 +6243,7 @@ def decrypt_pL():
         #print(fkey, ' -pL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6253,7 +6257,7 @@ def decrypt_pN():
         #print(fkey, ' -pN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6267,7 +6271,7 @@ def decrypt_pP():
         #print(fkey, ' -pP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6281,7 +6285,7 @@ def decrypt_pR():
         #print(fkey, ' -pR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6295,7 +6299,7 @@ def decrypt_pT():
         #print(fkey, ' -pT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6309,7 +6313,7 @@ def decrypt_pV():
         #print(fkey, ' -pV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6323,7 +6327,7 @@ def decrypt_pX():
         #print(fkey, ' -pX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6337,7 +6341,7 @@ def decrypt_pZ():
         #print(fkey, ' -pZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6351,7 +6355,7 @@ def decrypt_p0():
         #print(fkey, ' -p0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6365,7 +6369,7 @@ def decrypt_p2():
         #print(fkey, ' -p2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6379,7 +6383,7 @@ def decrypt_p4():
         #print(fkey, ' -p4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6393,7 +6397,7 @@ def decrypt_p6():
         #print(fkey, ' -p6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6407,7 +6411,7 @@ def decrypt_p8():
         #print(fkey, ' -p8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6421,7 +6425,7 @@ def decrypt_pexcl():
         #print(fkey, ' -p!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6435,7 +6439,7 @@ def decrypt_pdquote():
         #print(fkey, ' -p"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6449,7 +6453,7 @@ def decrypt_pdoll():
         #print(fkey, ' -p$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6463,7 +6467,7 @@ def decrypt_pand():
         #print(fkey, ' -p&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6477,7 +6481,7 @@ def decrypt_pquote():
         #print(fkey, ' -p\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6491,7 +6495,7 @@ def decrypt_ppar():
         #print(fkey, ' -p(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6505,7 +6509,7 @@ def decrypt_past():
         #print(fkey, ' -p*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6519,7 +6523,7 @@ def decrypt_pvir():
         #print(fkey, ' -p,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6533,7 +6537,7 @@ def decrypt_ppp():
         #print(fkey, ' -p.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6547,7 +6551,7 @@ def decrypt_ptp():
         #print(fkey, ' -p:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6561,7 +6565,7 @@ def decrypt_pless():
         #print(fkey, ' -p<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6575,7 +6579,7 @@ def decrypt_pmore():
         #print(fkey, ' -p>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6589,7 +6593,7 @@ def decrypt_paro():
         #print(fkey, ' -p@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6603,7 +6607,7 @@ def decrypt_pcroc():
         #print(fkey, ' -p[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6617,7 +6621,7 @@ def decrypt_pbsl():
         #print(fkey, ' -p\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6631,7 +6635,7 @@ def decrypt_pcirc():
         #print(fkey, ' -p^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6645,7 +6649,7 @@ def decrypt_pesp():
         #print(fkey, ' -p`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6659,7 +6663,7 @@ def decrypt_pcr():
         #print(fkey, ' -p{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6673,7 +6677,7 @@ def decrypt_phl():
         #print(fkey, ' -p|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6687,7 +6691,7 @@ def decrypt_ptild():
         #print(fkey, ' -p~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6701,7 +6705,7 @@ def decrypt_ra():
         #print(fkey, ' -ra')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6715,7 +6719,7 @@ def decrypt_rb():
         #print(fkey, ' -rb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6729,7 +6733,7 @@ def decrypt_rd():
         #print(fkey, ' -rd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6743,7 +6747,7 @@ def decrypt_rf():
         #print(fkey, ' -rf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6757,7 +6761,7 @@ def decrypt_rh():
         #print(fkey, ' -rh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6771,7 +6775,7 @@ def decrypt_rj():
         #print(fkey, ' -rj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6785,7 +6789,7 @@ def decrypt_rl():
         #print(fkey, ' -rl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6799,7 +6803,7 @@ def decrypt_rn():
         #print(fkey, ' -rn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6813,7 +6817,7 @@ def decrypt_rp():
         #print(fkey, ' -rp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6827,7 +6831,7 @@ def decrypt_rr():
         #print(fkey, ' -rr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6841,7 +6845,7 @@ def decrypt_rt():
         #print(fkey, ' -rt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6855,7 +6859,7 @@ def decrypt_rv():
         #print(fkey, ' -rv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6869,7 +6873,7 @@ def decrypt_rx():
         #print(fkey, ' -rx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6883,7 +6887,7 @@ def decrypt_rz():
         #print(fkey, ' -rz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6897,7 +6901,7 @@ def decrypt_rA():
         #print(fkey, ' -rA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6911,7 +6915,7 @@ def decrypt_rB():
         #print(fkey, ' -rB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6925,7 +6929,7 @@ def decrypt_rD():
         #print(fkey, ' -rD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6939,7 +6943,7 @@ def decrypt_rF():
         #print(fkey, ' -rF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6953,7 +6957,7 @@ def decrypt_rH():
         #print(fkey, ' -rH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6967,7 +6971,7 @@ def decrypt_rJ():
         #print(fkey, ' -rJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6981,7 +6985,7 @@ def decrypt_rL():
         #print(fkey, ' -rL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -6995,7 +6999,7 @@ def decrypt_rN():
         #print(fkey, ' -rN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7009,7 +7013,7 @@ def decrypt_rP():
         #print(fkey, ' -rP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7023,7 +7027,7 @@ def decrypt_rR():
         #print(fkey, ' -rR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7037,7 +7041,7 @@ def decrypt_rT():
         #print(fkey, ' -rT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7051,7 +7055,7 @@ def decrypt_rV():
         #print(fkey, ' -rV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7065,7 +7069,7 @@ def decrypt_rX():
         #print(fkey, ' -rX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7079,7 +7083,7 @@ def decrypt_rZ():
         #print(fkey, ' -rZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7093,7 +7097,7 @@ def decrypt_r0():
         #print(fkey, ' -r0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7107,7 +7111,7 @@ def decrypt_r2():
         #print(fkey, ' -r2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7121,7 +7125,7 @@ def decrypt_r4():
         #print(fkey, ' -r4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7135,7 +7139,7 @@ def decrypt_r6():
         #print(fkey, ' -r6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7149,7 +7153,7 @@ def decrypt_r8():
         #print(fkey, ' -r8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7163,7 +7167,7 @@ def decrypt_rexcl():
         #print(fkey, ' -r!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7177,7 +7181,7 @@ def decrypt_rdquote():
         #print(fkey, ' -r"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7191,7 +7195,7 @@ def decrypt_rdoll():
         #print(fkey, ' -r$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7205,7 +7209,7 @@ def decrypt_rand():
         #print(fkey, ' -r&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7219,7 +7223,7 @@ def decrypt_rquote():
         #print(fkey, ' -r\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7233,7 +7237,7 @@ def decrypt_rpar():
         #print(fkey, ' -r(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7247,7 +7251,7 @@ def decrypt_rast():
         #print(fkey, ' -r*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7261,7 +7265,7 @@ def decrypt_rvir():
         #print(fkey, ' -r,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7275,7 +7279,7 @@ def decrypt_rpp():
         #print(fkey, ' -r.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7289,7 +7293,7 @@ def decrypt_rtp():
         #print(fkey, ' -r:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7303,7 +7307,7 @@ def decrypt_rless():
         #print(fkey, ' -r<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7317,7 +7321,7 @@ def decrypt_rmore():
         #print(fkey, ' -r>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7331,7 +7335,7 @@ def decrypt_raro():
         #print(fkey, ' -r@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7345,7 +7349,7 @@ def decrypt_rcroc():
         #print(fkey, ' -r[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7359,7 +7363,7 @@ def decrypt_rbsl():
         #print(fkey, ' -r\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7373,7 +7377,7 @@ def decrypt_rcirc():
         #print(fkey, ' -r^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7387,7 +7391,7 @@ def decrypt_resp():
         #print(fkey, ' -r`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7401,7 +7405,7 @@ def decrypt_rcr():
         #print(fkey, ' -r{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7415,7 +7419,7 @@ def decrypt_rhl():
         #print(fkey, ' -r|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7429,7 +7433,7 @@ def decrypt_rtild():
         #print(fkey, ' -r~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7443,7 +7447,7 @@ def decrypt_ta():
         #print(fkey, ' -ta')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7457,7 +7461,7 @@ def decrypt_tb():
         #print(fkey, ' -tb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7471,7 +7475,7 @@ def decrypt_td():
         #print(fkey, ' -td')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7485,7 +7489,7 @@ def decrypt_tf():
         #print(fkey, ' -tf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7499,7 +7503,7 @@ def decrypt_th():
         #print(fkey, ' -th')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7513,7 +7517,7 @@ def decrypt_tj():
         #print(fkey, ' -tj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7527,7 +7531,7 @@ def decrypt_tl():
         #print(fkey, ' -tl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7541,7 +7545,7 @@ def decrypt_tn():
         #print(fkey, ' -tn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7555,7 +7559,7 @@ def decrypt_tp():
         #print(fkey, ' -tp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7569,7 +7573,7 @@ def decrypt_tr():
         #print(fkey, ' -tr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7583,7 +7587,7 @@ def decrypt_tt():
         #print(fkey, ' -tt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7597,7 +7601,7 @@ def decrypt_tv():
         #print(fkey, ' -tv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7611,7 +7615,7 @@ def decrypt_tx():
         #print(fkey, ' -tx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7625,7 +7629,7 @@ def decrypt_tz():
         #print(fkey, ' -tz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7639,7 +7643,7 @@ def decrypt_tA():
         #print(fkey, ' -tA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7653,7 +7657,7 @@ def decrypt_tB():
         #print(fkey, ' -tB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7667,7 +7671,7 @@ def decrypt_tD():
         #print(fkey, ' -tD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7681,7 +7685,7 @@ def decrypt_tF():
         #print(fkey, ' -tF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7695,7 +7699,7 @@ def decrypt_tH():
         #print(fkey, ' -tH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7709,7 +7713,7 @@ def decrypt_tJ():
         #print(fkey, ' -tJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7723,7 +7727,7 @@ def decrypt_tL():
         #print(fkey, ' -tL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7737,7 +7741,7 @@ def decrypt_tN():
         #print(fkey, ' -tN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7751,7 +7755,7 @@ def decrypt_tP():
         #print(fkey, ' -tP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7765,7 +7769,7 @@ def decrypt_tR():
         #print(fkey, ' -tR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7779,7 +7783,7 @@ def decrypt_tT():
         #print(fkey, ' -tT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7793,7 +7797,7 @@ def decrypt_tV():
         #print(fkey, ' -tV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7807,7 +7811,7 @@ def decrypt_tX():
         #print(fkey, ' -tX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7821,7 +7825,7 @@ def decrypt_tZ():
         #print(fkey, ' -tZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7835,7 +7839,7 @@ def decrypt_t0():
         #print(fkey, ' -t0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7849,7 +7853,7 @@ def decrypt_t2():
         #print(fkey, ' -t2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7863,7 +7867,7 @@ def decrypt_t4():
         #print(fkey, ' -t4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7877,7 +7881,7 @@ def decrypt_t6():
         #print(fkey, ' -t6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7891,7 +7895,7 @@ def decrypt_t8():
         #print(fkey, ' -t8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7905,7 +7909,7 @@ def decrypt_texcl():
         #print(fkey, ' -t!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7919,7 +7923,7 @@ def decrypt_tdquote():
         #print(fkey, ' -t"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7933,7 +7937,7 @@ def decrypt_tdoll():
         #print(fkey, ' -t$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7947,7 +7951,7 @@ def decrypt_tand():
         #print(fkey, ' -t&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7961,7 +7965,7 @@ def decrypt_tquote():
         #print(fkey, ' -t\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7975,7 +7979,7 @@ def decrypt_tpar():
         #print(fkey, ' -t(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -7989,7 +7993,7 @@ def decrypt_tast():
         #print(fkey, ' -t*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8003,7 +8007,7 @@ def decrypt_tvir():
         #print(fkey, ' -t,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8017,7 +8021,7 @@ def decrypt_tpp():
         #print(fkey, ' -t.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8031,7 +8035,7 @@ def decrypt_ttp():
         #print(fkey, ' -t:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8045,7 +8049,7 @@ def decrypt_tless():
         #print(fkey, ' -t<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8059,7 +8063,7 @@ def decrypt_tmore():
         #print(fkey, ' -t>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8073,7 +8077,7 @@ def decrypt_taro():
         #print(fkey, ' -t@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8087,7 +8091,7 @@ def decrypt_tcroc():
         #print(fkey, ' -t[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8101,7 +8105,7 @@ def decrypt_tbsl():
         #print(fkey, ' -t\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8115,7 +8119,7 @@ def decrypt_tcirc():
         #print(fkey, ' -t^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8129,7 +8133,7 @@ def decrypt_tesp():
         #print(fkey, ' -t`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8143,7 +8147,7 @@ def decrypt_tcr():
         #print(fkey, ' -t{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8157,7 +8161,7 @@ def decrypt_thl():
         #print(fkey, ' -t|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8171,7 +8175,7 @@ def decrypt_ttild():
         #print(fkey, ' -t~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8185,7 +8189,7 @@ def decrypt_va():
         #print(fkey, ' -va')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8199,7 +8203,7 @@ def decrypt_vb():
         #print(fkey, ' -vb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8213,7 +8217,7 @@ def decrypt_vd():
         #print(fkey, ' -vd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8227,7 +8231,7 @@ def decrypt_vf():
         #print(fkey, ' -vf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8241,7 +8245,7 @@ def decrypt_vh():
         #print(fkey, ' -vh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8255,7 +8259,7 @@ def decrypt_vj():
         #print(fkey, ' -vj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8269,7 +8273,7 @@ def decrypt_vl():
         #print(fkey, ' -vl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8283,7 +8287,7 @@ def decrypt_vn():
         #print(fkey, ' -vn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8297,7 +8301,7 @@ def decrypt_vp():
         #print(fkey, ' -vp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8311,7 +8315,7 @@ def decrypt_vr():
         #print(fkey, ' -vr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8325,7 +8329,7 @@ def decrypt_vt():
         #print(fkey, ' -vt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8339,7 +8343,7 @@ def decrypt_vv():
         #print(fkey, ' -vv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8353,7 +8357,7 @@ def decrypt_vx():
         #print(fkey, ' -vx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8367,7 +8371,7 @@ def decrypt_vz():
         #print(fkey, ' -vz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8381,7 +8385,7 @@ def decrypt_vA():
         #print(fkey, ' -vA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8395,7 +8399,7 @@ def decrypt_vB():
         #print(fkey, ' -vB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8409,7 +8413,7 @@ def decrypt_vD():
         #print(fkey, ' -vD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8423,7 +8427,7 @@ def decrypt_vF():
         #print(fkey, ' -vF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8437,7 +8441,7 @@ def decrypt_vH():
         #print(fkey, ' -vH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8451,7 +8455,7 @@ def decrypt_vJ():
         #print(fkey, ' -vJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8465,7 +8469,7 @@ def decrypt_vL():
         #print(fkey, ' -vL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8479,7 +8483,7 @@ def decrypt_vN():
         #print(fkey, ' -vN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8493,7 +8497,7 @@ def decrypt_vP():
         #print(fkey, ' -vP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8507,7 +8511,7 @@ def decrypt_vR():
         #print(fkey, ' -vR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8521,7 +8525,7 @@ def decrypt_vT():
         #print(fkey, ' -vT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8535,7 +8539,7 @@ def decrypt_vV():
         #print(fkey, ' -vV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8549,7 +8553,7 @@ def decrypt_vX():
         #print(fkey, ' -vX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8563,7 +8567,7 @@ def decrypt_vZ():
         #print(fkey, ' -vZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8577,7 +8581,7 @@ def decrypt_v0():
         #print(fkey, ' -v0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8591,7 +8595,7 @@ def decrypt_v2():
         #print(fkey, ' -v2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8605,7 +8609,7 @@ def decrypt_v4():
         #print(fkey, ' -v4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8619,7 +8623,7 @@ def decrypt_v6():
         #print(fkey, ' -v6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8633,7 +8637,7 @@ def decrypt_v8():
         #print(fkey, ' -v8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8647,7 +8651,7 @@ def decrypt_vexcl():
         #print(fkey, ' -v!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8661,7 +8665,7 @@ def decrypt_vdquote():
         #print(fkey, ' -v"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8675,7 +8679,7 @@ def decrypt_vdoll():
         #print(fkey, ' -v$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8689,7 +8693,7 @@ def decrypt_vand():
         #print(fkey, ' -v&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8703,7 +8707,7 @@ def decrypt_vquote():
         #print(fkey, ' -v\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8717,7 +8721,7 @@ def decrypt_vpar():
         #print(fkey, ' -v(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8731,7 +8735,7 @@ def decrypt_vast():
         #print(fkey, ' -v*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8745,7 +8749,7 @@ def decrypt_vvir():
         #print(fkey, ' -v,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8759,7 +8763,7 @@ def decrypt_vpp():
         #print(fkey, ' -v.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8773,7 +8777,7 @@ def decrypt_vtp():
         #print(fkey, ' -v:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8787,7 +8791,7 @@ def decrypt_vless():
         #print(fkey, ' -v<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8801,7 +8805,7 @@ def decrypt_vmore():
         #print(fkey, ' -v>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8815,7 +8819,7 @@ def decrypt_varo():
         #print(fkey, ' -v@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8829,7 +8833,7 @@ def decrypt_vcroc():
         #print(fkey, ' -v[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8843,7 +8847,7 @@ def decrypt_vbsl():
         #print(fkey, ' -v\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8857,7 +8861,7 @@ def decrypt_vcirc():
         #print(fkey, ' -v^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8871,7 +8875,7 @@ def decrypt_vesp():
         #print(fkey, ' -v`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8885,7 +8889,7 @@ def decrypt_vcr():
         #print(fkey, ' -v{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8899,7 +8903,7 @@ def decrypt_vhl():
         #print(fkey, ' -v|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8913,7 +8917,7 @@ def decrypt_vtild():
         #print(fkey, ' -v~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8927,7 +8931,7 @@ def decrypt_xa():
         #print(fkey, ' -xa')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8941,7 +8945,7 @@ def decrypt_xb():
         #print(fkey, ' -xb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8955,7 +8959,7 @@ def decrypt_xd():
         #print(fkey, ' -xd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8969,7 +8973,7 @@ def decrypt_xf():
         #print(fkey, ' -xf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8983,7 +8987,7 @@ def decrypt_xh():
         #print(fkey, ' -xh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -8997,7 +9001,7 @@ def decrypt_xj():
         #print(fkey, ' -xj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9011,7 +9015,7 @@ def decrypt_xl():
         #print(fkey, ' -xl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9025,7 +9029,7 @@ def decrypt_xn():
         #print(fkey, ' -xn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9039,7 +9043,7 @@ def decrypt_xp():
         #print(fkey, ' -xp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9053,7 +9057,7 @@ def decrypt_xr():
         #print(fkey, ' -xr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9067,7 +9071,7 @@ def decrypt_xt():
         #print(fkey, ' -xt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9081,7 +9085,7 @@ def decrypt_xv():
         #print(fkey, ' -xv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9095,7 +9099,7 @@ def decrypt_xx():
         #print(fkey, ' -xx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9109,7 +9113,7 @@ def decrypt_xz():
         #print(fkey, ' -xz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9123,7 +9127,7 @@ def decrypt_xA():
         #print(fkey, ' -xA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9137,7 +9141,7 @@ def decrypt_xB():
         #print(fkey, ' -xB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9151,7 +9155,7 @@ def decrypt_xD():
         #print(fkey, ' -xD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9165,7 +9169,7 @@ def decrypt_xF():
         #print(fkey, ' -xF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9179,7 +9183,7 @@ def decrypt_xH():
         #print(fkey, ' -xH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9193,7 +9197,7 @@ def decrypt_xJ():
         #print(fkey, ' -xJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9207,7 +9211,7 @@ def decrypt_xL():
         #print(fkey, ' -xL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9221,7 +9225,7 @@ def decrypt_xN():
         #print(fkey, ' -xN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9235,7 +9239,7 @@ def decrypt_xP():
         #print(fkey, ' -xP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9249,7 +9253,7 @@ def decrypt_xR():
         #print(fkey, ' -xR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9263,7 +9267,7 @@ def decrypt_xT():
         #print(fkey, ' -xT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9277,7 +9281,7 @@ def decrypt_xV():
         #print(fkey, ' -xV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9291,7 +9295,7 @@ def decrypt_xX():
         #print(fkey, ' -xX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9305,7 +9309,7 @@ def decrypt_xZ():
         #print(fkey, ' -xZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9319,7 +9323,7 @@ def decrypt_x0():
         #print(fkey, ' -x0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9333,7 +9337,7 @@ def decrypt_x2():
         #print(fkey, ' -x2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9347,7 +9351,7 @@ def decrypt_x4():
         #print(fkey, ' -x4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9361,7 +9365,7 @@ def decrypt_x6():
         #print(fkey, ' -x6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9375,7 +9379,7 @@ def decrypt_x8():
         #print(fkey, ' -x8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9389,7 +9393,7 @@ def decrypt_xexcl():
         #print(fkey, ' -x!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9403,7 +9407,7 @@ def decrypt_xdquote():
         #print(fkey, ' -x"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9417,7 +9421,7 @@ def decrypt_xdoll():
         #print(fkey, ' -x$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9431,7 +9435,7 @@ def decrypt_xand():
         #print(fkey, ' -x&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9445,7 +9449,7 @@ def decrypt_xquote():
         #print(fkey, ' -x\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9459,7 +9463,7 @@ def decrypt_xpar():
         #print(fkey, ' -x(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9473,7 +9477,7 @@ def decrypt_xast():
         #print(fkey, ' -x*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9487,7 +9491,7 @@ def decrypt_xvir():
         #print(fkey, ' -x,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9501,7 +9505,7 @@ def decrypt_xpp():
         #print(fkey, ' -x.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9515,7 +9519,7 @@ def decrypt_xtp():
         #print(fkey, ' -x:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9529,7 +9533,7 @@ def decrypt_xless():
         #print(fkey, ' -x<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9543,7 +9547,7 @@ def decrypt_xmore():
         #print(fkey, ' -x>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9557,7 +9561,7 @@ def decrypt_xaro():
         #print(fkey, ' -x@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9571,7 +9575,7 @@ def decrypt_xcroc():
         #print(fkey, ' -x[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9585,7 +9589,7 @@ def decrypt_xbsl():
         #print(fkey, ' -x\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9599,7 +9603,7 @@ def decrypt_xcirc():
         #print(fkey, ' -x^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9613,7 +9617,7 @@ def decrypt_xesp():
         #print(fkey, ' -x`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9627,7 +9631,7 @@ def decrypt_xcr():
         #print(fkey, ' -x{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9641,7 +9645,7 @@ def decrypt_xhl():
         #print(fkey, ' -x|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9655,7 +9659,7 @@ def decrypt_xtild():
         #print(fkey, ' -x~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9669,7 +9673,7 @@ def decrypt_za():
         #print(fkey, ' -za')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9683,7 +9687,7 @@ def decrypt_zb():
         #print(fkey, ' -zb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9697,7 +9701,7 @@ def decrypt_zd():
         #print(fkey, ' -zd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9711,7 +9715,7 @@ def decrypt_zf():
         #print(fkey, ' -zf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9725,7 +9729,7 @@ def decrypt_zh():
         #print(fkey, ' -zh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9739,7 +9743,7 @@ def decrypt_zj():
         #print(fkey, ' -zj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9753,7 +9757,7 @@ def decrypt_zl():
         #print(fkey, ' -zl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9767,7 +9771,7 @@ def decrypt_zn():
         #print(fkey, ' -zn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9781,7 +9785,7 @@ def decrypt_zp():
         #print(fkey, ' -zp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9795,7 +9799,7 @@ def decrypt_zr():
         #print(fkey, ' -zr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9809,7 +9813,7 @@ def decrypt_zt():
         #print(fkey, ' -zt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9823,7 +9827,7 @@ def decrypt_zv():
         #print(fkey, ' -zv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9837,7 +9841,7 @@ def decrypt_zx():
         #print(fkey, ' -zx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9851,7 +9855,7 @@ def decrypt_zz():
         #print(fkey, ' -zz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9865,7 +9869,7 @@ def decrypt_zA():
         #print(fkey, ' -zA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9879,7 +9883,7 @@ def decrypt_zB():
         #print(fkey, ' -zB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9893,7 +9897,7 @@ def decrypt_zD():
         #print(fkey, ' -zD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9907,7 +9911,7 @@ def decrypt_zF():
         #print(fkey, ' -zF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9921,7 +9925,7 @@ def decrypt_zH():
         #print(fkey, ' -zH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9935,7 +9939,7 @@ def decrypt_zJ():
         #print(fkey, ' -zJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9949,7 +9953,7 @@ def decrypt_zL():
         #print(fkey, ' -zL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9963,7 +9967,7 @@ def decrypt_zN():
         #print(fkey, ' -zN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9977,7 +9981,7 @@ def decrypt_zP():
         #print(fkey, ' -zP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -9991,7 +9995,7 @@ def decrypt_zR():
         #print(fkey, ' -zR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10005,7 +10009,7 @@ def decrypt_zT():
         #print(fkey, ' -zT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10019,7 +10023,7 @@ def decrypt_zV():
         #print(fkey, ' -zV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10033,7 +10037,7 @@ def decrypt_zX():
         #print(fkey, ' -zX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10047,7 +10051,7 @@ def decrypt_zZ():
         #print(fkey, ' -zZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10061,7 +10065,7 @@ def decrypt_z0():
         #print(fkey, ' -z0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10075,7 +10079,7 @@ def decrypt_z2():
         #print(fkey, ' -z2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10089,7 +10093,7 @@ def decrypt_z4():
         #print(fkey, ' -z4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10103,7 +10107,7 @@ def decrypt_z6():
         #print(fkey, ' -z6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10117,7 +10121,7 @@ def decrypt_z8():
         #print(fkey, ' -z8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10131,7 +10135,7 @@ def decrypt_zexcl():
         #print(fkey, ' -z!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10145,7 +10149,7 @@ def decrypt_zdquote():
         #print(fkey, ' -z"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10159,7 +10163,7 @@ def decrypt_zdoll():
         #print(fkey, ' -z$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10173,7 +10177,7 @@ def decrypt_zand():
         #print(fkey, ' -z&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10187,7 +10191,7 @@ def decrypt_zquote():
         #print(fkey, ' -z\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10201,7 +10205,7 @@ def decrypt_zpar():
         #print(fkey, ' -z(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10215,7 +10219,7 @@ def decrypt_zast():
         #print(fkey, ' -z*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10229,7 +10233,7 @@ def decrypt_zvir():
         #print(fkey, ' -z,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10243,7 +10247,7 @@ def decrypt_zpp():
         #print(fkey, ' -z.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10257,7 +10261,7 @@ def decrypt_ztp():
         #print(fkey, ' -z:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10271,7 +10275,7 @@ def decrypt_zless():
         #print(fkey, ' -z<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10285,7 +10289,7 @@ def decrypt_zmore():
         #print(fkey, ' -z>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10299,7 +10303,7 @@ def decrypt_zaro():
         #print(fkey, ' -z@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10313,7 +10317,7 @@ def decrypt_zcroc():
         #print(fkey, ' -z[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10327,7 +10331,7 @@ def decrypt_zbsl():
         #print(fkey, ' -z\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10341,7 +10345,7 @@ def decrypt_zcirc():
         #print(fkey, ' -z^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10355,7 +10359,7 @@ def decrypt_zesp():
         #print(fkey, ' -z`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10369,7 +10373,7 @@ def decrypt_zcr():
         #print(fkey, ' -z{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10383,7 +10387,7 @@ def decrypt_zhl():
         #print(fkey, ' -z|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10397,7 +10401,7 @@ def decrypt_ztild():
         #print(fkey, ' -z~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10411,7 +10415,7 @@ def decrypt_Aa():
         #print(fkey, ' -Aa')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10425,7 +10429,7 @@ def decrypt_Ab():
         #print(fkey, ' -Ab')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10439,7 +10443,7 @@ def decrypt_Ad():
         #print(fkey, ' -Ad')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10453,7 +10457,7 @@ def decrypt_Af():
         #print(fkey, ' -Af')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10467,7 +10471,7 @@ def decrypt_Ah():
         #print(fkey, ' -Ah')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10481,7 +10485,7 @@ def decrypt_Aj():
         #print(fkey, ' -Aj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10495,7 +10499,7 @@ def decrypt_Al():
         #print(fkey, ' -Al')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10509,7 +10513,7 @@ def decrypt_An():
         #print(fkey, ' -An')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10523,7 +10527,7 @@ def decrypt_Ap():
         #print(fkey, ' -Ap')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10537,7 +10541,7 @@ def decrypt_Ar():
         #print(fkey, ' -Ar')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10551,7 +10555,7 @@ def decrypt_At():
         #print(fkey, ' -At')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10565,7 +10569,7 @@ def decrypt_Av():
         #print(fkey, ' -Av')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10579,7 +10583,7 @@ def decrypt_Ax():
         #print(fkey, ' -Ax')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10593,7 +10597,7 @@ def decrypt_Az():
         #print(fkey, ' -Az')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10607,7 +10611,7 @@ def decrypt_AA():
         #print(fkey, ' -AA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10621,7 +10625,7 @@ def decrypt_AB():
         #print(fkey, ' -AB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10635,7 +10639,7 @@ def decrypt_AD():
         #print(fkey, ' -AD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10649,7 +10653,7 @@ def decrypt_AF():
         #print(fkey, ' -AF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10663,7 +10667,7 @@ def decrypt_AH():
         #print(fkey, ' -AH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10677,7 +10681,7 @@ def decrypt_AJ():
         #print(fkey, ' -AJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10691,7 +10695,7 @@ def decrypt_AL():
         #print(fkey, ' -AL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10705,7 +10709,7 @@ def decrypt_AN():
         #print(fkey, ' -AN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10719,7 +10723,7 @@ def decrypt_AP():
         #print(fkey, ' -AP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10733,7 +10737,7 @@ def decrypt_AR():
         #print(fkey, ' -AR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10747,7 +10751,7 @@ def decrypt_AT():
         #print(fkey, ' -AT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10761,7 +10765,7 @@ def decrypt_AV():
         #print(fkey, ' -AV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10775,7 +10779,7 @@ def decrypt_AX():
         #print(fkey, ' -AX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10789,7 +10793,7 @@ def decrypt_AZ():
         #print(fkey, ' -AZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10803,7 +10807,7 @@ def decrypt_A0():
         #print(fkey, ' -A0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10817,7 +10821,7 @@ def decrypt_A2():
         #print(fkey, ' -A2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10831,7 +10835,7 @@ def decrypt_A4():
         #print(fkey, ' -A4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10845,7 +10849,7 @@ def decrypt_A6():
         #print(fkey, ' -A6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10859,7 +10863,7 @@ def decrypt_A8():
         #print(fkey, ' -A8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10873,7 +10877,7 @@ def decrypt_Aexcl():
         #print(fkey, ' -A!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10887,7 +10891,7 @@ def decrypt_Adquote():
         #print(fkey, ' -A"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10901,7 +10905,7 @@ def decrypt_Adoll():
         #print(fkey, ' -A$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10915,7 +10919,7 @@ def decrypt_Aand():
         #print(fkey, ' -A&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10929,7 +10933,7 @@ def decrypt_Aquote():
         #print(fkey, ' -A\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10943,7 +10947,7 @@ def decrypt_Apar():
         #print(fkey, ' -A(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10957,7 +10961,7 @@ def decrypt_Aast():
         #print(fkey, ' -A*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10971,7 +10975,7 @@ def decrypt_Avir():
         #print(fkey, ' -A,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10985,7 +10989,7 @@ def decrypt_App():
         #print(fkey, ' -A.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -10999,7 +11003,7 @@ def decrypt_Atp():
         #print(fkey, ' -A:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11013,7 +11017,7 @@ def decrypt_Aless():
         #print(fkey, ' -A<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11027,7 +11031,7 @@ def decrypt_Amore():
         #print(fkey, ' -A>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11041,7 +11045,7 @@ def decrypt_Aaro():
         #print(fkey, ' -A@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11055,7 +11059,7 @@ def decrypt_Acroc():
         #print(fkey, ' -A[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11069,7 +11073,7 @@ def decrypt_Absl():
         #print(fkey, ' -A\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11083,7 +11087,7 @@ def decrypt_Acirc():
         #print(fkey, ' -A^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11097,7 +11101,7 @@ def decrypt_Aesp():
         #print(fkey, ' -A`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11111,7 +11115,7 @@ def decrypt_Acr():
         #print(fkey, ' -A{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11125,7 +11129,7 @@ def decrypt_Ahl():
         #print(fkey, ' -A|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11139,7 +11143,7 @@ def decrypt_Atild():
         #print(fkey, ' -A~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11153,7 +11157,7 @@ def decrypt_Ba():
         #print(fkey, ' -Ba')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11167,7 +11171,7 @@ def decrypt_Bb():
         #print(fkey, ' -Bb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11181,7 +11185,7 @@ def decrypt_Bd():
         #print(fkey, ' -Bd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11195,7 +11199,7 @@ def decrypt_Bf():
         #print(fkey, ' -Bf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11209,7 +11213,7 @@ def decrypt_Bh():
         #print(fkey, ' -Bh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11223,7 +11227,7 @@ def decrypt_Bj():
         #print(fkey, ' -Bj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11237,7 +11241,7 @@ def decrypt_Bl():
         #print(fkey, ' -Bl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11251,7 +11255,7 @@ def decrypt_Bn():
         #print(fkey, ' -Bn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11265,7 +11269,7 @@ def decrypt_Bp():
         #print(fkey, ' -Bp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11279,7 +11283,7 @@ def decrypt_Br():
         #print(fkey, ' -Br')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11293,7 +11297,7 @@ def decrypt_Bt():
         #print(fkey, ' -Bt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11307,7 +11311,7 @@ def decrypt_Bv():
         #print(fkey, ' -Bv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11321,7 +11325,7 @@ def decrypt_Bx():
         #print(fkey, ' -Bx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11335,7 +11339,7 @@ def decrypt_Bz():
         #print(fkey, ' -Bz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11349,7 +11353,7 @@ def decrypt_BA():
         #print(fkey, ' -BA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11363,7 +11367,7 @@ def decrypt_BB():
         #print(fkey, ' -BB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11377,7 +11381,7 @@ def decrypt_BD():
         #print(fkey, ' -BD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11391,7 +11395,7 @@ def decrypt_BF():
         #print(fkey, ' -BF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11405,7 +11409,7 @@ def decrypt_BH():
         #print(fkey, ' -BH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11419,7 +11423,7 @@ def decrypt_BJ():
         #print(fkey, ' -BJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11433,7 +11437,7 @@ def decrypt_BL():
         #print(fkey, ' -BL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11447,7 +11451,7 @@ def decrypt_BN():
         #print(fkey, ' -BN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11461,7 +11465,7 @@ def decrypt_BP():
         #print(fkey, ' -BP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11475,7 +11479,7 @@ def decrypt_BR():
         #print(fkey, ' -BR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11489,7 +11493,7 @@ def decrypt_BT():
         #print(fkey, ' -BT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11503,7 +11507,7 @@ def decrypt_BV():
         #print(fkey, ' -BV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11517,7 +11521,7 @@ def decrypt_BX():
         #print(fkey, ' -BX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11531,7 +11535,7 @@ def decrypt_BZ():
         #print(fkey, ' -BZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11545,7 +11549,7 @@ def decrypt_B0():
         #print(fkey, ' -B0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11559,7 +11563,7 @@ def decrypt_B2():
         #print(fkey, ' -B2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11573,7 +11577,7 @@ def decrypt_B4():
         #print(fkey, ' -B4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11587,7 +11591,7 @@ def decrypt_B6():
         #print(fkey, ' -B6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11601,7 +11605,7 @@ def decrypt_B8():
         #print(fkey, ' -B8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11615,7 +11619,7 @@ def decrypt_Bexcl():
         #print(fkey, ' -B!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11629,7 +11633,7 @@ def decrypt_Bdquote():
         #print(fkey, ' -B"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11643,7 +11647,7 @@ def decrypt_Bdoll():
         #print(fkey, ' -B$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11657,7 +11661,7 @@ def decrypt_Band():
         #print(fkey, ' -B&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11671,7 +11675,7 @@ def decrypt_Bquote():
         #print(fkey, ' -B\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11685,7 +11689,7 @@ def decrypt_Bpar():
         #print(fkey, ' -B(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11699,7 +11703,7 @@ def decrypt_Bast():
         #print(fkey, ' -B*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11713,7 +11717,7 @@ def decrypt_Bvir():
         #print(fkey, ' -B,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11727,7 +11731,7 @@ def decrypt_Bpp():
         #print(fkey, ' -B.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11741,7 +11745,7 @@ def decrypt_Btp():
         #print(fkey, ' -B:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11755,7 +11759,7 @@ def decrypt_Bless():
         #print(fkey, ' -B<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11769,7 +11773,7 @@ def decrypt_Bmore():
         #print(fkey, ' -B>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11783,7 +11787,7 @@ def decrypt_Baro():
         #print(fkey, ' -B@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11797,7 +11801,7 @@ def decrypt_Bcroc():
         #print(fkey, ' -B[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11811,7 +11815,7 @@ def decrypt_Bbsl():
         #print(fkey, ' -B\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11825,7 +11829,7 @@ def decrypt_Bcirc():
         #print(fkey, ' -B^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11839,7 +11843,7 @@ def decrypt_Besp():
         #print(fkey, ' -B`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11853,7 +11857,7 @@ def decrypt_Bcr():
         #print(fkey, ' -B{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11867,7 +11871,7 @@ def decrypt_Bhl():
         #print(fkey, ' -B|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11881,7 +11885,7 @@ def decrypt_Btild():
         #print(fkey, ' -B~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11895,7 +11899,7 @@ def decrypt_Da():
         #print(fkey, ' -Da')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11909,7 +11913,7 @@ def decrypt_Db():
         #print(fkey, ' -Db')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11923,7 +11927,7 @@ def decrypt_Dd():
         #print(fkey, ' -Dd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11937,7 +11941,7 @@ def decrypt_Df():
         #print(fkey, ' -Df')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11951,7 +11955,7 @@ def decrypt_Dh():
         #print(fkey, ' -Dh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11965,7 +11969,7 @@ def decrypt_Dj():
         #print(fkey, ' -Dj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11979,7 +11983,7 @@ def decrypt_Dl():
         #print(fkey, ' -Dl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -11993,7 +11997,7 @@ def decrypt_Dn():
         #print(fkey, ' -Dn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12007,7 +12011,7 @@ def decrypt_Dp():
         #print(fkey, ' -Dp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12021,7 +12025,7 @@ def decrypt_Dr():
         #print(fkey, ' -Dr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12035,7 +12039,7 @@ def decrypt_Dt():
         #print(fkey, ' -Dt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12049,7 +12053,7 @@ def decrypt_Dv():
         #print(fkey, ' -Dv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12063,7 +12067,7 @@ def decrypt_Dx():
         #print(fkey, ' -Dx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12077,7 +12081,7 @@ def decrypt_Dz():
         #print(fkey, ' -Dz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12091,7 +12095,7 @@ def decrypt_DA():
         #print(fkey, ' -DA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12105,7 +12109,7 @@ def decrypt_DB():
         #print(fkey, ' -DB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12119,7 +12123,7 @@ def decrypt_DD():
         #print(fkey, ' -DD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12133,7 +12137,7 @@ def decrypt_DF():
         #print(fkey, ' -DF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12147,7 +12151,7 @@ def decrypt_DH():
         #print(fkey, ' -DH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12161,7 +12165,7 @@ def decrypt_DJ():
         #print(fkey, ' -DJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12175,7 +12179,7 @@ def decrypt_DL():
         #print(fkey, ' -DL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12189,7 +12193,7 @@ def decrypt_DN():
         #print(fkey, ' -DN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12203,7 +12207,7 @@ def decrypt_DP():
         #print(fkey, ' -DP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12217,7 +12221,7 @@ def decrypt_DR():
         #print(fkey, ' -DR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12231,7 +12235,7 @@ def decrypt_DT():
         #print(fkey, ' -DT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12245,7 +12249,7 @@ def decrypt_DV():
         #print(fkey, ' -DV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12259,7 +12263,7 @@ def decrypt_DX():
         #print(fkey, ' -DX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12273,7 +12277,7 @@ def decrypt_DZ():
         #print(fkey, ' -DZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12287,7 +12291,7 @@ def decrypt_D0():
         #print(fkey, ' -D0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12301,7 +12305,7 @@ def decrypt_D2():
         #print(fkey, ' -D2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12315,7 +12319,7 @@ def decrypt_D4():
         #print(fkey, ' -D4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12329,7 +12333,7 @@ def decrypt_D6():
         #print(fkey, ' -D6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12343,7 +12347,7 @@ def decrypt_D8():
         #print(fkey, ' -D8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12357,7 +12361,7 @@ def decrypt_Dexcl():
         #print(fkey, ' -D!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12371,7 +12375,7 @@ def decrypt_Ddquote():
         #print(fkey, ' -D"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12385,7 +12389,7 @@ def decrypt_Ddoll():
         #print(fkey, ' -D$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12399,7 +12403,7 @@ def decrypt_Dand():
         #print(fkey, ' -D&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12413,7 +12417,7 @@ def decrypt_Dquote():
         #print(fkey, ' -D\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12427,7 +12431,7 @@ def decrypt_Dpar():
         #print(fkey, ' -D(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12441,7 +12445,7 @@ def decrypt_Dast():
         #print(fkey, ' -D*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12455,7 +12459,7 @@ def decrypt_Dvir():
         #print(fkey, ' -D,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12469,7 +12473,7 @@ def decrypt_Dpp():
         #print(fkey, ' -D.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12483,7 +12487,7 @@ def decrypt_Dtp():
         #print(fkey, ' -D:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12497,7 +12501,7 @@ def decrypt_Dless():
         #print(fkey, ' -D<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12511,7 +12515,7 @@ def decrypt_Dmore():
         #print(fkey, ' -D>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12525,7 +12529,7 @@ def decrypt_Daro():
         #print(fkey, ' -D@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12539,7 +12543,7 @@ def decrypt_Dcroc():
         #print(fkey, ' -D[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12553,7 +12557,7 @@ def decrypt_Dbsl():
         #print(fkey, ' -D\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12567,7 +12571,7 @@ def decrypt_Dcirc():
         #print(fkey, ' -D^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12581,7 +12585,7 @@ def decrypt_Desp():
         #print(fkey, ' -D`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12595,7 +12599,7 @@ def decrypt_Dcr():
         #print(fkey, ' -D{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12609,7 +12613,7 @@ def decrypt_Dhl():
         #print(fkey, ' -D|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12623,7 +12627,7 @@ def decrypt_Dtild():
         #print(fkey, ' -D~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12637,7 +12641,7 @@ def decrypt_Fa():
         #print(fkey, ' -Fa')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12651,7 +12655,7 @@ def decrypt_Fb():
         #print(fkey, ' -Fb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12665,7 +12669,7 @@ def decrypt_Fd():
         #print(fkey, ' -Fd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12679,7 +12683,7 @@ def decrypt_Ff():
         #print(fkey, ' -Ff')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12693,7 +12697,7 @@ def decrypt_Fh():
         #print(fkey, ' -Fh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12707,7 +12711,7 @@ def decrypt_Fj():
         #print(fkey, ' -Fj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12721,7 +12725,7 @@ def decrypt_Fl():
         #print(fkey, ' -Fl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12735,7 +12739,7 @@ def decrypt_Fn():
         #print(fkey, ' -Fn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12749,7 +12753,7 @@ def decrypt_Fp():
         #print(fkey, ' -Fp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12763,7 +12767,7 @@ def decrypt_Fr():
         #print(fkey, ' -Fr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12777,7 +12781,7 @@ def decrypt_Ft():
         #print(fkey, ' -Ft')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12791,7 +12795,7 @@ def decrypt_Fv():
         #print(fkey, ' -Fv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12805,7 +12809,7 @@ def decrypt_Fx():
         #print(fkey, ' -Fx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12819,7 +12823,7 @@ def decrypt_Fz():
         #print(fkey, ' -Fz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12833,7 +12837,7 @@ def decrypt_FA():
         #print(fkey, ' -FA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12847,7 +12851,7 @@ def decrypt_FB():
         #print(fkey, ' -FB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12861,7 +12865,7 @@ def decrypt_FD():
         #print(fkey, ' -FD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12875,7 +12879,7 @@ def decrypt_FF():
         #print(fkey, ' -FF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12889,7 +12893,7 @@ def decrypt_FH():
         #print(fkey, ' -FH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12903,7 +12907,7 @@ def decrypt_FJ():
         #print(fkey, ' -FJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12917,7 +12921,7 @@ def decrypt_FL():
         #print(fkey, ' -FL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12931,7 +12935,7 @@ def decrypt_FN():
         #print(fkey, ' -FN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12945,7 +12949,7 @@ def decrypt_FP():
         #print(fkey, ' -FP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12959,7 +12963,7 @@ def decrypt_FR():
         #print(fkey, ' -FR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12973,7 +12977,7 @@ def decrypt_FT():
         #print(fkey, ' -FT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -12987,7 +12991,7 @@ def decrypt_FV():
         #print(fkey, ' -FV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13001,7 +13005,7 @@ def decrypt_FX():
         #print(fkey, ' -FX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13015,7 +13019,7 @@ def decrypt_FZ():
         #print(fkey, ' -FZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13029,7 +13033,7 @@ def decrypt_F0():
         #print(fkey, ' -F0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13043,7 +13047,7 @@ def decrypt_F2():
         #print(fkey, ' -F2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13057,7 +13061,7 @@ def decrypt_F4():
         #print(fkey, ' -F4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13071,7 +13075,7 @@ def decrypt_F6():
         #print(fkey, ' -F6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13085,7 +13089,7 @@ def decrypt_F8():
         #print(fkey, ' -F8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13099,7 +13103,7 @@ def decrypt_Fexcl():
         #print(fkey, ' -F!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13113,7 +13117,7 @@ def decrypt_Fdquote():
         #print(fkey, ' -F"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13127,7 +13131,7 @@ def decrypt_Fdoll():
         #print(fkey, ' -F$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13141,7 +13145,7 @@ def decrypt_Fand():
         #print(fkey, ' -F&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13155,7 +13159,7 @@ def decrypt_Fquote():
         #print(fkey, ' -F\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13169,7 +13173,7 @@ def decrypt_Fpar():
         #print(fkey, ' -F(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13183,7 +13187,7 @@ def decrypt_Fast():
         #print(fkey, ' -F*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13197,7 +13201,7 @@ def decrypt_Fvir():
         #print(fkey, ' -F,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13211,7 +13215,7 @@ def decrypt_Fpp():
         #print(fkey, ' -F.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13225,7 +13229,7 @@ def decrypt_Ftp():
         #print(fkey, ' -F:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13239,7 +13243,7 @@ def decrypt_Fless():
         #print(fkey, ' -F<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13253,7 +13257,7 @@ def decrypt_Fmore():
         #print(fkey, ' -F>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13267,7 +13271,7 @@ def decrypt_Faro():
         #print(fkey, ' -F@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13281,7 +13285,7 @@ def decrypt_Fcroc():
         #print(fkey, ' -F[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13295,7 +13299,7 @@ def decrypt_Fbsl():
         #print(fkey, ' -F\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13309,7 +13313,7 @@ def decrypt_Fcirc():
         #print(fkey, ' -F^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13323,7 +13327,7 @@ def decrypt_Fesp():
         #print(fkey, ' -F`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13337,7 +13341,7 @@ def decrypt_Fcr():
         #print(fkey, ' -F{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13351,7 +13355,7 @@ def decrypt_Fhl():
         #print(fkey, ' -F|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13365,7 +13369,7 @@ def decrypt_Ftild():
         #print(fkey, ' -F~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13379,7 +13383,7 @@ def decrypt_Ha():
         #print(fkey, ' -Ha')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13393,7 +13397,7 @@ def decrypt_Hb():
         #print(fkey, ' -Hb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13407,7 +13411,7 @@ def decrypt_Hd():
         #print(fkey, ' -Hd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13421,7 +13425,7 @@ def decrypt_Hf():
         #print(fkey, ' -Hf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13435,7 +13439,7 @@ def decrypt_Hh():
         #print(fkey, ' -Hh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13449,7 +13453,7 @@ def decrypt_Hj():
         #print(fkey, ' -Hj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13463,7 +13467,7 @@ def decrypt_Hl():
         #print(fkey, ' -Hl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13477,7 +13481,7 @@ def decrypt_Hn():
         #print(fkey, ' -Hn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13491,7 +13495,7 @@ def decrypt_Hp():
         #print(fkey, ' -Hp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13505,7 +13509,7 @@ def decrypt_Hr():
         #print(fkey, ' -Hr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13519,7 +13523,7 @@ def decrypt_Ht():
         #print(fkey, ' -Ht')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13533,7 +13537,7 @@ def decrypt_Hv():
         #print(fkey, ' -Hv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13547,7 +13551,7 @@ def decrypt_Hx():
         #print(fkey, ' -Hx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13561,7 +13565,7 @@ def decrypt_Hz():
         #print(fkey, ' -Hz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13575,7 +13579,7 @@ def decrypt_HA():
         #print(fkey, ' -HA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13589,7 +13593,7 @@ def decrypt_HB():
         #print(fkey, ' -HB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13603,7 +13607,7 @@ def decrypt_HD():
         #print(fkey, ' -HD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13617,7 +13621,7 @@ def decrypt_HF():
         #print(fkey, ' -HF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13631,7 +13635,7 @@ def decrypt_HH():
         #print(fkey, ' -HH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13645,7 +13649,7 @@ def decrypt_HJ():
         #print(fkey, ' -HJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13659,7 +13663,7 @@ def decrypt_HL():
         #print(fkey, ' -HL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13673,7 +13677,7 @@ def decrypt_HN():
         #print(fkey, ' -HN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13687,7 +13691,7 @@ def decrypt_HP():
         #print(fkey, ' -HP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13701,7 +13705,7 @@ def decrypt_HR():
         #print(fkey, ' -HR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13715,7 +13719,7 @@ def decrypt_HT():
         #print(fkey, ' -HT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13729,7 +13733,7 @@ def decrypt_HV():
         #print(fkey, ' -HV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13743,7 +13747,7 @@ def decrypt_HX():
         #print(fkey, ' -HX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13757,7 +13761,7 @@ def decrypt_HZ():
         #print(fkey, ' -HZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13771,7 +13775,7 @@ def decrypt_H0():
         #print(fkey, ' -H0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13785,7 +13789,7 @@ def decrypt_H2():
         #print(fkey, ' -H2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13799,7 +13803,7 @@ def decrypt_H4():
         #print(fkey, ' -H4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13813,7 +13817,7 @@ def decrypt_H6():
         #print(fkey, ' -H6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13827,7 +13831,7 @@ def decrypt_H8():
         #print(fkey, ' -H8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13841,7 +13845,7 @@ def decrypt_Hexcl():
         #print(fkey, ' -H!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13855,7 +13859,7 @@ def decrypt_Hdquote():
         #print(fkey, ' -H"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13869,7 +13873,7 @@ def decrypt_Hdoll():
         #print(fkey, ' -H$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13883,7 +13887,7 @@ def decrypt_Hand():
         #print(fkey, ' -H&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13897,7 +13901,7 @@ def decrypt_Hquote():
         #print(fkey, ' -H\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13911,7 +13915,7 @@ def decrypt_Hpar():
         #print(fkey, ' -H(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13925,7 +13929,7 @@ def decrypt_Hast():
         #print(fkey, ' -H*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13939,7 +13943,7 @@ def decrypt_Hvir():
         #print(fkey, ' -H,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13953,7 +13957,7 @@ def decrypt_Hpp():
         #print(fkey, ' -H.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13967,7 +13971,7 @@ def decrypt_Htp():
         #print(fkey, ' -H:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13981,7 +13985,7 @@ def decrypt_Hless():
         #print(fkey, ' -H<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -13995,7 +13999,7 @@ def decrypt_Hmore():
         #print(fkey, ' -H>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14009,7 +14013,7 @@ def decrypt_Haro():
         #print(fkey, ' -H@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14023,7 +14027,7 @@ def decrypt_Hcroc():
         #print(fkey, ' -H[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14037,7 +14041,7 @@ def decrypt_Hbsl():
         #print(fkey, ' -H\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14051,7 +14055,7 @@ def decrypt_Hcirc():
         #print(fkey, ' -H^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14065,7 +14069,7 @@ def decrypt_Hesp():
         #print(fkey, ' -H`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14079,7 +14083,7 @@ def decrypt_Hcr():
         #print(fkey, ' -H{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14093,7 +14097,7 @@ def decrypt_Hhl():
         #print(fkey, ' -H|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14107,7 +14111,7 @@ def decrypt_Htild():
         #print(fkey, ' -H~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14121,7 +14125,7 @@ def decrypt_Ja():
         #print(fkey, ' -Ja')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14135,7 +14139,7 @@ def decrypt_Jb():
         #print(fkey, ' -Jb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14149,7 +14153,7 @@ def decrypt_Jd():
         #print(fkey, ' -Jd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14163,7 +14167,7 @@ def decrypt_Jf():
         #print(fkey, ' -Jf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14177,7 +14181,7 @@ def decrypt_Jh():
         #print(fkey, ' -Jh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14191,7 +14195,7 @@ def decrypt_Jj():
         #print(fkey, ' -Jj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14205,7 +14209,7 @@ def decrypt_Jl():
         #print(fkey, ' -Jl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14219,7 +14223,7 @@ def decrypt_Jn():
         #print(fkey, ' -Jn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14233,7 +14237,7 @@ def decrypt_Jp():
         #print(fkey, ' -Jp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14247,7 +14251,7 @@ def decrypt_Jr():
         #print(fkey, ' -Jr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14261,7 +14265,7 @@ def decrypt_Jt():
         #print(fkey, ' -Jt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14275,7 +14279,7 @@ def decrypt_Jv():
         #print(fkey, ' -Jv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14289,7 +14293,7 @@ def decrypt_Jx():
         #print(fkey, ' -Jx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14303,7 +14307,7 @@ def decrypt_Jz():
         #print(fkey, ' -Jz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14317,7 +14321,7 @@ def decrypt_JA():
         #print(fkey, ' -JA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14331,7 +14335,7 @@ def decrypt_JB():
         #print(fkey, ' -JB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14345,7 +14349,7 @@ def decrypt_JD():
         #print(fkey, ' -JD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14359,7 +14363,7 @@ def decrypt_JF():
         #print(fkey, ' -JF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14373,7 +14377,7 @@ def decrypt_JH():
         #print(fkey, ' -JH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14387,7 +14391,7 @@ def decrypt_JJ():
         #print(fkey, ' -JJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14401,7 +14405,7 @@ def decrypt_JL():
         #print(fkey, ' -JL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14415,7 +14419,7 @@ def decrypt_JN():
         #print(fkey, ' -JN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14429,7 +14433,7 @@ def decrypt_JP():
         #print(fkey, ' -JP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14443,7 +14447,7 @@ def decrypt_JR():
         #print(fkey, ' -JR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14457,7 +14461,7 @@ def decrypt_JT():
         #print(fkey, ' -JT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14471,7 +14475,7 @@ def decrypt_JV():
         #print(fkey, ' -JV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14485,7 +14489,7 @@ def decrypt_JX():
         #print(fkey, ' -JX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14499,7 +14503,7 @@ def decrypt_JZ():
         #print(fkey, ' -JZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14513,7 +14517,7 @@ def decrypt_J0():
         #print(fkey, ' -J0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14527,7 +14531,7 @@ def decrypt_J2():
         #print(fkey, ' -J2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14541,7 +14545,7 @@ def decrypt_J4():
         #print(fkey, ' -J4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14555,7 +14559,7 @@ def decrypt_J6():
         #print(fkey, ' -J6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14569,7 +14573,7 @@ def decrypt_J8():
         #print(fkey, ' -J8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14583,7 +14587,7 @@ def decrypt_Jexcl():
         #print(fkey, ' -J!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14597,7 +14601,7 @@ def decrypt_Jdquote():
         #print(fkey, ' -J"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14611,7 +14615,7 @@ def decrypt_Jdoll():
         #print(fkey, ' -J$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14625,7 +14629,7 @@ def decrypt_Jand():
         #print(fkey, ' -J&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14639,7 +14643,7 @@ def decrypt_Jquote():
         #print(fkey, ' -J\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14653,7 +14657,7 @@ def decrypt_Jpar():
         #print(fkey, ' -J(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14667,7 +14671,7 @@ def decrypt_Jast():
         #print(fkey, ' -J*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14681,7 +14685,7 @@ def decrypt_Jvir():
         #print(fkey, ' -J,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14695,7 +14699,7 @@ def decrypt_Jpp():
         #print(fkey, ' -J.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14709,7 +14713,7 @@ def decrypt_Jtp():
         #print(fkey, ' -J:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14723,7 +14727,7 @@ def decrypt_Jless():
         #print(fkey, ' -J<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14737,7 +14741,7 @@ def decrypt_Jmore():
         #print(fkey, ' -J>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14751,7 +14755,7 @@ def decrypt_Jaro():
         #print(fkey, ' -J@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14765,7 +14769,7 @@ def decrypt_Jcroc():
         #print(fkey, ' -J[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14779,7 +14783,7 @@ def decrypt_Jbsl():
         #print(fkey, ' -J\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14793,7 +14797,7 @@ def decrypt_Jcirc():
         #print(fkey, ' -J^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14807,7 +14811,7 @@ def decrypt_Jesp():
         #print(fkey, ' -J`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14821,7 +14825,7 @@ def decrypt_Jcr():
         #print(fkey, ' -J{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14835,7 +14839,7 @@ def decrypt_Jhl():
         #print(fkey, ' -J|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14849,7 +14853,7 @@ def decrypt_Jtild():
         #print(fkey, ' -J~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14863,7 +14867,7 @@ def decrypt_La():
         #print(fkey, ' -La')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14877,7 +14881,7 @@ def decrypt_Lb():
         #print(fkey, ' -Lb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14891,7 +14895,7 @@ def decrypt_Ld():
         #print(fkey, ' -Ld')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14905,7 +14909,7 @@ def decrypt_Lf():
         #print(fkey, ' -Lf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14919,7 +14923,7 @@ def decrypt_Lh():
         #print(fkey, ' -Lh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14933,7 +14937,7 @@ def decrypt_Lj():
         #print(fkey, ' -Lj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14947,7 +14951,7 @@ def decrypt_Ll():
         #print(fkey, ' -Ll')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14961,7 +14965,7 @@ def decrypt_Ln():
         #print(fkey, ' -Ln')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14975,7 +14979,7 @@ def decrypt_Lp():
         #print(fkey, ' -Lp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -14989,7 +14993,7 @@ def decrypt_Lr():
         #print(fkey, ' -Lr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15003,7 +15007,7 @@ def decrypt_Lt():
         #print(fkey, ' -Lt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15017,7 +15021,7 @@ def decrypt_Lv():
         #print(fkey, ' -Lv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15031,7 +15035,7 @@ def decrypt_Lx():
         #print(fkey, ' -Lx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15045,7 +15049,7 @@ def decrypt_Lz():
         #print(fkey, ' -Lz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15059,7 +15063,7 @@ def decrypt_LA():
         #print(fkey, ' -LA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15073,7 +15077,7 @@ def decrypt_LB():
         #print(fkey, ' -LB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15087,7 +15091,7 @@ def decrypt_LD():
         #print(fkey, ' -LD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15101,7 +15105,7 @@ def decrypt_LF():
         #print(fkey, ' -LF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15115,7 +15119,7 @@ def decrypt_LH():
         #print(fkey, ' -LH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15129,7 +15133,7 @@ def decrypt_LJ():
         #print(fkey, ' -LJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15143,7 +15147,7 @@ def decrypt_LL():
         #print(fkey, ' -LL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15157,7 +15161,7 @@ def decrypt_LN():
         #print(fkey, ' -LN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15171,7 +15175,7 @@ def decrypt_LP():
         #print(fkey, ' -LP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15185,7 +15189,7 @@ def decrypt_LR():
         #print(fkey, ' -LR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15199,7 +15203,7 @@ def decrypt_LT():
         #print(fkey, ' -LT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15213,7 +15217,7 @@ def decrypt_LV():
         #print(fkey, ' -LV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15227,7 +15231,7 @@ def decrypt_LX():
         #print(fkey, ' -LX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15241,7 +15245,7 @@ def decrypt_LZ():
         #print(fkey, ' -LZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15255,7 +15259,7 @@ def decrypt_L0():
         #print(fkey, ' -L0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15269,7 +15273,7 @@ def decrypt_L2():
         #print(fkey, ' -L2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15283,7 +15287,7 @@ def decrypt_L4():
         #print(fkey, ' -L4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15297,7 +15301,7 @@ def decrypt_L6():
         #print(fkey, ' -L6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15311,7 +15315,7 @@ def decrypt_L8():
         #print(fkey, ' -L8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15325,7 +15329,7 @@ def decrypt_Lexcl():
         #print(fkey, ' -L!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15339,7 +15343,7 @@ def decrypt_Ldquote():
         #print(fkey, ' -L"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15353,7 +15357,7 @@ def decrypt_Ldoll():
         #print(fkey, ' -L$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15367,7 +15371,7 @@ def decrypt_Land():
         #print(fkey, ' -L&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15381,7 +15385,7 @@ def decrypt_Lquote():
         #print(fkey, ' -L\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15395,7 +15399,7 @@ def decrypt_Lpar():
         #print(fkey, ' -L(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15409,7 +15413,7 @@ def decrypt_Last():
         #print(fkey, ' -L*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15423,7 +15427,7 @@ def decrypt_Lvir():
         #print(fkey, ' -L,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15437,7 +15441,7 @@ def decrypt_Lpp():
         #print(fkey, ' -L.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15451,7 +15455,7 @@ def decrypt_Ltp():
         #print(fkey, ' -L:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15465,7 +15469,7 @@ def decrypt_Lless():
         #print(fkey, ' -L<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15479,7 +15483,7 @@ def decrypt_Lmore():
         #print(fkey, ' -L>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15493,7 +15497,7 @@ def decrypt_Laro():
         #print(fkey, ' -L@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15507,7 +15511,7 @@ def decrypt_Lcroc():
         #print(fkey, ' -L[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15521,7 +15525,7 @@ def decrypt_Lbsl():
         #print(fkey, ' -L\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15535,7 +15539,7 @@ def decrypt_Lcirc():
         #print(fkey, ' -L^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15549,7 +15553,7 @@ def decrypt_Lesp():
         #print(fkey, ' -L`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15563,7 +15567,7 @@ def decrypt_Lcr():
         #print(fkey, ' -L{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15577,7 +15581,7 @@ def decrypt_Lhl():
         #print(fkey, ' -L|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15591,7 +15595,7 @@ def decrypt_Ltild():
         #print(fkey, ' -L~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15605,7 +15609,7 @@ def decrypt_Na():
         #print(fkey, ' -Na')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15619,7 +15623,7 @@ def decrypt_Nb():
         #print(fkey, ' -Nb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15633,7 +15637,7 @@ def decrypt_Nd():
         #print(fkey, ' -Nd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15647,7 +15651,7 @@ def decrypt_Nf():
         #print(fkey, ' -Nf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15661,7 +15665,7 @@ def decrypt_Nh():
         #print(fkey, ' -Nh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15675,7 +15679,7 @@ def decrypt_Nj():
         #print(fkey, ' -Nj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15689,7 +15693,7 @@ def decrypt_Nl():
         #print(fkey, ' -Nl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15703,7 +15707,7 @@ def decrypt_Nn():
         #print(fkey, ' -Nn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15717,7 +15721,7 @@ def decrypt_Np():
         #print(fkey, ' -Np')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15731,7 +15735,7 @@ def decrypt_Nr():
         #print(fkey, ' -Nr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15745,7 +15749,7 @@ def decrypt_Nt():
         #print(fkey, ' -Nt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15759,7 +15763,7 @@ def decrypt_Nv():
         #print(fkey, ' -Nv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15773,7 +15777,7 @@ def decrypt_Nx():
         #print(fkey, ' -Nx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15787,7 +15791,7 @@ def decrypt_Nz():
         #print(fkey, ' -Nz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15801,7 +15805,7 @@ def decrypt_NA():
         #print(fkey, ' -NA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15815,7 +15819,7 @@ def decrypt_NB():
         #print(fkey, ' -NB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15829,7 +15833,7 @@ def decrypt_ND():
         #print(fkey, ' -ND')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15843,7 +15847,7 @@ def decrypt_NF():
         #print(fkey, ' -NF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15857,7 +15861,7 @@ def decrypt_NH():
         #print(fkey, ' -NH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15871,7 +15875,7 @@ def decrypt_NJ():
         #print(fkey, ' -NJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15885,7 +15889,7 @@ def decrypt_NL():
         #print(fkey, ' -NL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15899,7 +15903,7 @@ def decrypt_NN():
         #print(fkey, ' -NN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15913,7 +15917,7 @@ def decrypt_NP():
         #print(fkey, ' -NP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15927,7 +15931,7 @@ def decrypt_NR():
         #print(fkey, ' -NR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15941,7 +15945,7 @@ def decrypt_NT():
         #print(fkey, ' -NT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15955,7 +15959,7 @@ def decrypt_NV():
         #print(fkey, ' -NV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15969,7 +15973,7 @@ def decrypt_NX():
         #print(fkey, ' -NX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15983,7 +15987,7 @@ def decrypt_NZ():
         #print(fkey, ' -NZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -15997,7 +16001,7 @@ def decrypt_N0():
         #print(fkey, ' -N0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16011,7 +16015,7 @@ def decrypt_N2():
         #print(fkey, ' -N2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16025,7 +16029,7 @@ def decrypt_N4():
         #print(fkey, ' -N4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16039,7 +16043,7 @@ def decrypt_N6():
         #print(fkey, ' -N6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16053,7 +16057,7 @@ def decrypt_N8():
         #print(fkey, ' -N8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16067,7 +16071,7 @@ def decrypt_Nexcl():
         #print(fkey, ' -N!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16081,7 +16085,7 @@ def decrypt_Ndquote():
         #print(fkey, ' -N"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16095,7 +16099,7 @@ def decrypt_Ndoll():
         #print(fkey, ' -N$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16109,7 +16113,7 @@ def decrypt_Nand():
         #print(fkey, ' -N&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16123,7 +16127,7 @@ def decrypt_Nquote():
         #print(fkey, ' -N\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16137,7 +16141,7 @@ def decrypt_Npar():
         #print(fkey, ' -N(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16151,7 +16155,7 @@ def decrypt_Nast():
         #print(fkey, ' -N*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16165,7 +16169,7 @@ def decrypt_Nvir():
         #print(fkey, ' -N,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16179,7 +16183,7 @@ def decrypt_Npp():
         #print(fkey, ' -N.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16193,7 +16197,7 @@ def decrypt_Ntp():
         #print(fkey, ' -N:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16207,7 +16211,7 @@ def decrypt_Nless():
         #print(fkey, ' -N<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16221,7 +16225,7 @@ def decrypt_Nmore():
         #print(fkey, ' -N>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16235,7 +16239,7 @@ def decrypt_Naro():
         #print(fkey, ' -N@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16249,7 +16253,7 @@ def decrypt_Ncroc():
         #print(fkey, ' -N[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16263,7 +16267,7 @@ def decrypt_Nbsl():
         #print(fkey, ' -N\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16277,7 +16281,7 @@ def decrypt_Ncirc():
         #print(fkey, ' -N^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16291,7 +16295,7 @@ def decrypt_Nesp():
         #print(fkey, ' -N`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16305,7 +16309,7 @@ def decrypt_Ncr():
         #print(fkey, ' -N{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16319,7 +16323,7 @@ def decrypt_Nhl():
         #print(fkey, ' -N|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16333,7 +16337,7 @@ def decrypt_Ntild():
         #print(fkey, ' -N~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16347,7 +16351,7 @@ def decrypt_Pa():
         #print(fkey, ' -Pa')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16361,7 +16365,7 @@ def decrypt_Pb():
         #print(fkey, ' -Pb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16375,7 +16379,7 @@ def decrypt_Pd():
         #print(fkey, ' -Pd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16389,7 +16393,7 @@ def decrypt_Pf():
         #print(fkey, ' -Pf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16403,7 +16407,7 @@ def decrypt_Ph():
         #print(fkey, ' -Ph')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16417,7 +16421,7 @@ def decrypt_Pj():
         #print(fkey, ' -Pj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16431,7 +16435,7 @@ def decrypt_Pl():
         #print(fkey, ' -Pl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16445,7 +16449,7 @@ def decrypt_Pn():
         #print(fkey, ' -Pn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16459,7 +16463,7 @@ def decrypt_Pp():
         #print(fkey, ' -Pp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16473,7 +16477,7 @@ def decrypt_Pr():
         #print(fkey, ' -Pr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16487,7 +16491,7 @@ def decrypt_Pt():
         #print(fkey, ' -Pt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16501,7 +16505,7 @@ def decrypt_Pv():
         #print(fkey, ' -Pv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16515,7 +16519,7 @@ def decrypt_Px():
         #print(fkey, ' -Px')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16529,7 +16533,7 @@ def decrypt_Pz():
         #print(fkey, ' -Pz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16543,7 +16547,7 @@ def decrypt_PA():
         #print(fkey, ' -PA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16557,7 +16561,7 @@ def decrypt_PB():
         #print(fkey, ' -PB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16571,7 +16575,7 @@ def decrypt_PD():
         #print(fkey, ' -PD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16585,7 +16589,7 @@ def decrypt_PF():
         #print(fkey, ' -PF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16599,7 +16603,7 @@ def decrypt_PH():
         #print(fkey, ' -PH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16613,7 +16617,7 @@ def decrypt_PJ():
         #print(fkey, ' -PJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16627,7 +16631,7 @@ def decrypt_PL():
         #print(fkey, ' -PL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16641,7 +16645,7 @@ def decrypt_PN():
         #print(fkey, ' -PN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16655,7 +16659,7 @@ def decrypt_PP():
         #print(fkey, ' -PP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16669,7 +16673,7 @@ def decrypt_PR():
         #print(fkey, ' -PR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16683,7 +16687,7 @@ def decrypt_PT():
         #print(fkey, ' -PT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16697,7 +16701,7 @@ def decrypt_PV():
         #print(fkey, ' -PV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16711,7 +16715,7 @@ def decrypt_PX():
         #print(fkey, ' -PX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16725,7 +16729,7 @@ def decrypt_PZ():
         #print(fkey, ' -PZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16739,7 +16743,7 @@ def decrypt_P0():
         #print(fkey, ' -P0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16753,7 +16757,7 @@ def decrypt_P2():
         #print(fkey, ' -P2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16767,7 +16771,7 @@ def decrypt_P4():
         #print(fkey, ' -P4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16781,7 +16785,7 @@ def decrypt_P6():
         #print(fkey, ' -P6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16795,7 +16799,7 @@ def decrypt_P8():
         #print(fkey, ' -P8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16809,7 +16813,7 @@ def decrypt_Pexcl():
         #print(fkey, ' -P!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16823,7 +16827,7 @@ def decrypt_Pdquote():
         #print(fkey, ' -P"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16837,7 +16841,7 @@ def decrypt_Pdoll():
         #print(fkey, ' -P$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16851,7 +16855,7 @@ def decrypt_Pand():
         #print(fkey, ' -P&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16865,7 +16869,7 @@ def decrypt_Pquote():
         #print(fkey, ' -P\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16879,7 +16883,7 @@ def decrypt_Ppar():
         #print(fkey, ' -P(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16893,7 +16897,7 @@ def decrypt_Past():
         #print(fkey, ' -P*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16907,7 +16911,7 @@ def decrypt_Pvir():
         #print(fkey, ' -P,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16921,7 +16925,7 @@ def decrypt_Ppp():
         #print(fkey, ' -P.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16935,7 +16939,7 @@ def decrypt_Ptp():
         #print(fkey, ' -P:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16949,7 +16953,7 @@ def decrypt_Pless():
         #print(fkey, ' -P<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16963,7 +16967,7 @@ def decrypt_Pmore():
         #print(fkey, ' -P>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16977,7 +16981,7 @@ def decrypt_Paro():
         #print(fkey, ' -P@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -16991,7 +16995,7 @@ def decrypt_Pcroc():
         #print(fkey, ' -P[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17005,7 +17009,7 @@ def decrypt_Pbsl():
         #print(fkey, ' -P\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17019,7 +17023,7 @@ def decrypt_Pcirc():
         #print(fkey, ' -P^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17033,7 +17037,7 @@ def decrypt_Pesp():
         #print(fkey, ' -P`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17047,7 +17051,7 @@ def decrypt_Pcr():
         #print(fkey, ' -P{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17061,7 +17065,7 @@ def decrypt_Phl():
         #print(fkey, ' -P|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17075,7 +17079,7 @@ def decrypt_Ptild():
         #print(fkey, ' -P~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17089,7 +17093,7 @@ def decrypt_Ra():
         #print(fkey, ' -Ra')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17103,7 +17107,7 @@ def decrypt_Rb():
         #print(fkey, ' -Rb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17117,7 +17121,7 @@ def decrypt_Rd():
         #print(fkey, ' -Rd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17131,7 +17135,7 @@ def decrypt_Rf():
         #print(fkey, ' -Rf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17145,7 +17149,7 @@ def decrypt_Rh():
         #print(fkey, ' -Rh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17159,7 +17163,7 @@ def decrypt_Rj():
         #print(fkey, ' -Rj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17173,7 +17177,7 @@ def decrypt_Rl():
         #print(fkey, ' -Rl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17187,7 +17191,7 @@ def decrypt_Rn():
         #print(fkey, ' -Rn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17201,7 +17205,7 @@ def decrypt_Rp():
         #print(fkey, ' -Rp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17215,7 +17219,7 @@ def decrypt_Rr():
         #print(fkey, ' -Rr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17229,7 +17233,7 @@ def decrypt_Rt():
         #print(fkey, ' -Rt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17243,7 +17247,7 @@ def decrypt_Rv():
         #print(fkey, ' -Rv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17257,7 +17261,7 @@ def decrypt_Rx():
         #print(fkey, ' -Rx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17271,7 +17275,7 @@ def decrypt_Rz():
         #print(fkey, ' -Rz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17285,7 +17289,7 @@ def decrypt_RA():
         #print(fkey, ' -RA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17299,7 +17303,7 @@ def decrypt_RB():
         #print(fkey, ' -RB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17313,7 +17317,7 @@ def decrypt_RD():
         #print(fkey, ' -RD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17327,7 +17331,7 @@ def decrypt_RF():
         #print(fkey, ' -RF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17341,7 +17345,7 @@ def decrypt_RH():
         #print(fkey, ' -RH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17355,7 +17359,7 @@ def decrypt_RJ():
         #print(fkey, ' -RJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17369,7 +17373,7 @@ def decrypt_RL():
         #print(fkey, ' -RL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17383,7 +17387,7 @@ def decrypt_RN():
         #print(fkey, ' -RN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17397,7 +17401,7 @@ def decrypt_RP():
         #print(fkey, ' -RP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17411,7 +17415,7 @@ def decrypt_RR():
         #print(fkey, ' -RR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17425,7 +17429,7 @@ def decrypt_RT():
         #print(fkey, ' -RT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17439,7 +17443,7 @@ def decrypt_RV():
         #print(fkey, ' -RV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17453,7 +17457,7 @@ def decrypt_RX():
         #print(fkey, ' -RX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17467,7 +17471,7 @@ def decrypt_RZ():
         #print(fkey, ' -RZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17481,7 +17485,7 @@ def decrypt_R0():
         #print(fkey, ' -R0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17495,7 +17499,7 @@ def decrypt_R2():
         #print(fkey, ' -R2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17509,7 +17513,7 @@ def decrypt_R4():
         #print(fkey, ' -R4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17523,7 +17527,7 @@ def decrypt_R6():
         #print(fkey, ' -R6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17537,7 +17541,7 @@ def decrypt_R8():
         #print(fkey, ' -R8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17551,7 +17555,7 @@ def decrypt_Rexcl():
         #print(fkey, ' -R!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17565,7 +17569,7 @@ def decrypt_Rdquote():
         #print(fkey, ' -R"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17579,7 +17583,7 @@ def decrypt_Rdoll():
         #print(fkey, ' -R$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17593,7 +17597,7 @@ def decrypt_Rand():
         #print(fkey, ' -R&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17607,7 +17611,7 @@ def decrypt_Rquote():
         #print(fkey, ' -R\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17621,7 +17625,7 @@ def decrypt_Rpar():
         #print(fkey, ' -R(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17635,7 +17639,7 @@ def decrypt_Rast():
         #print(fkey, ' -R*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17649,7 +17653,7 @@ def decrypt_Rvir():
         #print(fkey, ' -R,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17663,7 +17667,7 @@ def decrypt_Rpp():
         #print(fkey, ' -R.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17677,7 +17681,7 @@ def decrypt_Rtp():
         #print(fkey, ' -R:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17691,7 +17695,7 @@ def decrypt_Rless():
         #print(fkey, ' -R<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17705,7 +17709,7 @@ def decrypt_Rmore():
         #print(fkey, ' -R>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17719,7 +17723,7 @@ def decrypt_Raro():
         #print(fkey, ' -R@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17733,7 +17737,7 @@ def decrypt_Rcroc():
         #print(fkey, ' -R[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17747,7 +17751,7 @@ def decrypt_Rbsl():
         #print(fkey, ' -R\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17761,7 +17765,7 @@ def decrypt_Rcirc():
         #print(fkey, ' -R^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17775,7 +17779,7 @@ def decrypt_Resp():
         #print(fkey, ' -R`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17789,7 +17793,7 @@ def decrypt_Rcr():
         #print(fkey, ' -R{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17803,7 +17807,7 @@ def decrypt_Rhl():
         #print(fkey, ' -R|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17817,7 +17821,7 @@ def decrypt_Rtild():
         #print(fkey, ' -R~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17831,7 +17835,7 @@ def decrypt_Ta():
         #print(fkey, ' -Ta')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17845,7 +17849,7 @@ def decrypt_Tb():
         #print(fkey, ' -Tb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17859,7 +17863,7 @@ def decrypt_Td():
         #print(fkey, ' -Td')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17873,7 +17877,7 @@ def decrypt_Tf():
         #print(fkey, ' -Tf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17887,7 +17891,7 @@ def decrypt_Th():
         #print(fkey, ' -Th')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17901,7 +17905,7 @@ def decrypt_Tj():
         #print(fkey, ' -Tj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17915,7 +17919,7 @@ def decrypt_Tl():
         #print(fkey, ' -Tl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17929,7 +17933,7 @@ def decrypt_Tn():
         #print(fkey, ' -Tn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17943,7 +17947,7 @@ def decrypt_Tp():
         #print(fkey, ' -Tp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17957,7 +17961,7 @@ def decrypt_Tr():
         #print(fkey, ' -Tr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17971,7 +17975,7 @@ def decrypt_Tt():
         #print(fkey, ' -Tt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17985,7 +17989,7 @@ def decrypt_Tv():
         #print(fkey, ' -Tv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -17999,7 +18003,7 @@ def decrypt_Tx():
         #print(fkey, ' -Tx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18013,7 +18017,7 @@ def decrypt_Tz():
         #print(fkey, ' -Tz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18027,7 +18031,7 @@ def decrypt_TA():
         #print(fkey, ' -TA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18041,7 +18045,7 @@ def decrypt_TB():
         #print(fkey, ' -TB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18055,7 +18059,7 @@ def decrypt_TD():
         #print(fkey, ' -TD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18069,7 +18073,7 @@ def decrypt_TF():
         #print(fkey, ' -TF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18083,7 +18087,7 @@ def decrypt_TH():
         #print(fkey, ' -TH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18097,7 +18101,7 @@ def decrypt_TJ():
         #print(fkey, ' -TJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18111,7 +18115,7 @@ def decrypt_TL():
         #print(fkey, ' -TL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18125,7 +18129,7 @@ def decrypt_TN():
         #print(fkey, ' -TN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18139,7 +18143,7 @@ def decrypt_TP():
         #print(fkey, ' -TP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18153,7 +18157,7 @@ def decrypt_TR():
         #print(fkey, ' -TR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18167,7 +18171,7 @@ def decrypt_TT():
         #print(fkey, ' -TT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18181,7 +18185,7 @@ def decrypt_TV():
         #print(fkey, ' -TV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18195,7 +18199,7 @@ def decrypt_TX():
         #print(fkey, ' -TX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18209,7 +18213,7 @@ def decrypt_TZ():
         #print(fkey, ' -TZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18223,7 +18227,7 @@ def decrypt_T0():
         #print(fkey, ' -T0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18237,7 +18241,7 @@ def decrypt_T2():
         #print(fkey, ' -T2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18251,7 +18255,7 @@ def decrypt_T4():
         #print(fkey, ' -T4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18265,7 +18269,7 @@ def decrypt_T6():
         #print(fkey, ' -T6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18279,7 +18283,7 @@ def decrypt_T8():
         #print(fkey, ' -T8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18293,7 +18297,7 @@ def decrypt_Texcl():
         #print(fkey, ' -T!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18307,7 +18311,7 @@ def decrypt_Tdquote():
         #print(fkey, ' -T"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18321,7 +18325,7 @@ def decrypt_Tdoll():
         #print(fkey, ' -T$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18335,7 +18339,7 @@ def decrypt_Tand():
         #print(fkey, ' -T&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18349,7 +18353,7 @@ def decrypt_Tquote():
         #print(fkey, ' -T\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18363,7 +18367,7 @@ def decrypt_Tpar():
         #print(fkey, ' -T(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18377,7 +18381,7 @@ def decrypt_Tast():
         #print(fkey, ' -T*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18391,7 +18395,7 @@ def decrypt_Tvir():
         #print(fkey, ' -T,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18405,7 +18409,7 @@ def decrypt_Tpp():
         #print(fkey, ' -T.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18419,7 +18423,7 @@ def decrypt_Ttp():
         #print(fkey, ' -T:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18433,7 +18437,7 @@ def decrypt_Tless():
         #print(fkey, ' -T<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18447,7 +18451,7 @@ def decrypt_Tmore():
         #print(fkey, ' -T>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18461,7 +18465,7 @@ def decrypt_Taro():
         #print(fkey, ' -T@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18475,7 +18479,7 @@ def decrypt_Tcroc():
         #print(fkey, ' -T[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18489,7 +18493,7 @@ def decrypt_Tbsl():
         #print(fkey, ' -T\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18503,7 +18507,7 @@ def decrypt_Tcirc():
         #print(fkey, ' -T^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18517,7 +18521,7 @@ def decrypt_Tesp():
         #print(fkey, ' -T`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18531,7 +18535,7 @@ def decrypt_Tcr():
         #print(fkey, ' -T{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18545,7 +18549,7 @@ def decrypt_Thl():
         #print(fkey, ' -T|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18559,7 +18563,7 @@ def decrypt_Ttild():
         #print(fkey, ' -T~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18573,7 +18577,7 @@ def decrypt_Va():
         #print(fkey, ' -Va')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18587,7 +18591,7 @@ def decrypt_Vb():
         #print(fkey, ' -Vb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18601,7 +18605,7 @@ def decrypt_Vd():
         #print(fkey, ' -Vd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18615,7 +18619,7 @@ def decrypt_Vf():
         #print(fkey, ' -Vf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18629,7 +18633,7 @@ def decrypt_Vh():
         #print(fkey, ' -Vh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18643,7 +18647,7 @@ def decrypt_Vj():
         #print(fkey, ' -Vj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18657,7 +18661,7 @@ def decrypt_Vl():
         #print(fkey, ' -Vl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18671,7 +18675,7 @@ def decrypt_Vn():
         #print(fkey, ' -Vn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18685,7 +18689,7 @@ def decrypt_Vp():
         #print(fkey, ' -Vp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18699,7 +18703,7 @@ def decrypt_Vr():
         #print(fkey, ' -Vr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18713,7 +18717,7 @@ def decrypt_Vt():
         #print(fkey, ' -Vt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18727,7 +18731,7 @@ def decrypt_Vv():
         #print(fkey, ' -Vv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18741,7 +18745,7 @@ def decrypt_Vx():
         #print(fkey, ' -Vx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18755,7 +18759,7 @@ def decrypt_Vz():
         #print(fkey, ' -Vz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18769,7 +18773,7 @@ def decrypt_VA():
         #print(fkey, ' -VA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18783,7 +18787,7 @@ def decrypt_VB():
         #print(fkey, ' -VB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18797,7 +18801,7 @@ def decrypt_VD():
         #print(fkey, ' -VD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18811,7 +18815,7 @@ def decrypt_VF():
         #print(fkey, ' -VF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18825,7 +18829,7 @@ def decrypt_VH():
         #print(fkey, ' -VH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18839,7 +18843,7 @@ def decrypt_VJ():
         #print(fkey, ' -VJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18853,7 +18857,7 @@ def decrypt_VL():
         #print(fkey, ' -VL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18867,7 +18871,7 @@ def decrypt_VN():
         #print(fkey, ' -VN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18881,7 +18885,7 @@ def decrypt_VP():
         #print(fkey, ' -VP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18895,7 +18899,7 @@ def decrypt_VR():
         #print(fkey, ' -VR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18909,7 +18913,7 @@ def decrypt_VT():
         #print(fkey, ' -VT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18923,7 +18927,7 @@ def decrypt_VV():
         #print(fkey, ' -VV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18937,7 +18941,7 @@ def decrypt_VX():
         #print(fkey, ' -VX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18951,7 +18955,7 @@ def decrypt_VZ():
         #print(fkey, ' -VZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18965,7 +18969,7 @@ def decrypt_V0():
         #print(fkey, ' -V0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18979,7 +18983,7 @@ def decrypt_V2():
         #print(fkey, ' -V2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -18993,7 +18997,7 @@ def decrypt_V4():
         #print(fkey, ' -V4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19007,7 +19011,7 @@ def decrypt_V6():
         #print(fkey, ' -V6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19021,7 +19025,7 @@ def decrypt_V8():
         #print(fkey, ' -V8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19035,7 +19039,7 @@ def decrypt_Vexcl():
         #print(fkey, ' -V!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19049,7 +19053,7 @@ def decrypt_Vdquote():
         #print(fkey, ' -V"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19063,7 +19067,7 @@ def decrypt_Vdoll():
         #print(fkey, ' -V$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19077,7 +19081,7 @@ def decrypt_Vand():
         #print(fkey, ' -V&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19091,7 +19095,7 @@ def decrypt_Vquote():
         #print(fkey, ' -V\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19105,7 +19109,7 @@ def decrypt_Vpar():
         #print(fkey, ' -V(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19119,7 +19123,7 @@ def decrypt_Vast():
         #print(fkey, ' -V*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19133,7 +19137,7 @@ def decrypt_Vvir():
         #print(fkey, ' -V,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19147,7 +19151,7 @@ def decrypt_Vpp():
         #print(fkey, ' -V.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19161,7 +19165,7 @@ def decrypt_Vtp():
         #print(fkey, ' -V:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19175,7 +19179,7 @@ def decrypt_Vless():
         #print(fkey, ' -V<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19189,7 +19193,7 @@ def decrypt_Vmore():
         #print(fkey, ' -V>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19203,7 +19207,7 @@ def decrypt_Varo():
         #print(fkey, ' -V@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19217,7 +19221,7 @@ def decrypt_Vcroc():
         #print(fkey, ' -V[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19231,7 +19235,7 @@ def decrypt_Vbsl():
         #print(fkey, ' -V\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19245,7 +19249,7 @@ def decrypt_Vcirc():
         #print(fkey, ' -V^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19259,7 +19263,7 @@ def decrypt_Vesp():
         #print(fkey, ' -V`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19273,7 +19277,7 @@ def decrypt_Vcr():
         #print(fkey, ' -V{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19287,7 +19291,7 @@ def decrypt_Vhl():
         #print(fkey, ' -V|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19301,7 +19305,7 @@ def decrypt_Vtild():
         #print(fkey, ' -V~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19315,7 +19319,7 @@ def decrypt_Xa():
         #print(fkey, ' -Xa')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19329,7 +19333,7 @@ def decrypt_Xb():
         #print(fkey, ' -Xb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19343,7 +19347,7 @@ def decrypt_Xd():
         #print(fkey, ' -Xd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19357,7 +19361,7 @@ def decrypt_Xf():
         #print(fkey, ' -Xf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19371,7 +19375,7 @@ def decrypt_Xh():
         #print(fkey, ' -Xh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19385,7 +19389,7 @@ def decrypt_Xj():
         #print(fkey, ' -Xj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19399,7 +19403,7 @@ def decrypt_Xl():
         #print(fkey, ' -Xl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19413,7 +19417,7 @@ def decrypt_Xn():
         #print(fkey, ' -Xn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19427,7 +19431,7 @@ def decrypt_Xp():
         #print(fkey, ' -Xp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19441,7 +19445,7 @@ def decrypt_Xr():
         #print(fkey, ' -Xr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19455,7 +19459,7 @@ def decrypt_Xt():
         #print(fkey, ' -Xt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19469,7 +19473,7 @@ def decrypt_Xv():
         #print(fkey, ' -Xv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19483,7 +19487,7 @@ def decrypt_Xx():
         #print(fkey, ' -Xx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19497,7 +19501,7 @@ def decrypt_Xz():
         #print(fkey, ' -Xz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19511,7 +19515,7 @@ def decrypt_XA():
         #print(fkey, ' -XA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19525,7 +19529,7 @@ def decrypt_XB():
         #print(fkey, ' -XB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19539,7 +19543,7 @@ def decrypt_XD():
         #print(fkey, ' -XD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19553,7 +19557,7 @@ def decrypt_XF():
         #print(fkey, ' -XF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19567,7 +19571,7 @@ def decrypt_XH():
         #print(fkey, ' -XH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19581,7 +19585,7 @@ def decrypt_XJ():
         #print(fkey, ' -XJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19595,7 +19599,7 @@ def decrypt_XL():
         #print(fkey, ' -XL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19609,7 +19613,7 @@ def decrypt_XN():
         #print(fkey, ' -XN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19623,7 +19627,7 @@ def decrypt_XP():
         #print(fkey, ' -XP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19637,7 +19641,7 @@ def decrypt_XR():
         #print(fkey, ' -XR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19651,7 +19655,7 @@ def decrypt_XT():
         #print(fkey, ' -XT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19665,7 +19669,7 @@ def decrypt_XV():
         #print(fkey, ' -XV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19679,7 +19683,7 @@ def decrypt_XX():
         #print(fkey, ' -XX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19693,7 +19697,7 @@ def decrypt_XZ():
         #print(fkey, ' -XZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19707,7 +19711,7 @@ def decrypt_X0():
         #print(fkey, ' -X0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19721,7 +19725,7 @@ def decrypt_X2():
         #print(fkey, ' -X2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19735,7 +19739,7 @@ def decrypt_X4():
         #print(fkey, ' -X4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19749,7 +19753,7 @@ def decrypt_X6():
         #print(fkey, ' -X6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19763,7 +19767,7 @@ def decrypt_X8():
         #print(fkey, ' -X8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19777,7 +19781,7 @@ def decrypt_Xexcl():
         #print(fkey, ' -X!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19791,7 +19795,7 @@ def decrypt_Xdquote():
         #print(fkey, ' -X"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19805,7 +19809,7 @@ def decrypt_Xdoll():
         #print(fkey, ' -X$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19819,7 +19823,7 @@ def decrypt_Xand():
         #print(fkey, ' -X&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19833,7 +19837,7 @@ def decrypt_Xquote():
         #print(fkey, ' -X\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19847,7 +19851,7 @@ def decrypt_Xpar():
         #print(fkey, ' -X(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19861,7 +19865,7 @@ def decrypt_Xast():
         #print(fkey, ' -X*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19875,7 +19879,7 @@ def decrypt_Xvir():
         #print(fkey, ' -X,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19889,7 +19893,7 @@ def decrypt_Xpp():
         #print(fkey, ' -X.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19903,7 +19907,7 @@ def decrypt_Xtp():
         #print(fkey, ' -X:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19917,7 +19921,7 @@ def decrypt_Xless():
         #print(fkey, ' -X<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19931,7 +19935,7 @@ def decrypt_Xmore():
         #print(fkey, ' -X>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19945,7 +19949,7 @@ def decrypt_Xaro():
         #print(fkey, ' -X@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19959,7 +19963,7 @@ def decrypt_Xcroc():
         #print(fkey, ' -X[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19973,7 +19977,7 @@ def decrypt_Xbsl():
         #print(fkey, ' -X\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -19987,7 +19991,7 @@ def decrypt_Xcirc():
         #print(fkey, ' -X^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20001,7 +20005,7 @@ def decrypt_Xesp():
         #print(fkey, ' -X`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20015,7 +20019,7 @@ def decrypt_Xcr():
         #print(fkey, ' -X{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20029,7 +20033,7 @@ def decrypt_Xhl():
         #print(fkey, ' -X|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20043,7 +20047,7 @@ def decrypt_Xtild():
         #print(fkey, ' -X~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20057,7 +20061,7 @@ def decrypt_Za():
         #print(fkey, ' -Za')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20071,7 +20075,7 @@ def decrypt_Zb():
         #print(fkey, ' -Zb')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20085,7 +20089,7 @@ def decrypt_Zd():
         #print(fkey, ' -Zd')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20099,7 +20103,7 @@ def decrypt_Zf():
         #print(fkey, ' -Zf')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20113,7 +20117,7 @@ def decrypt_Zh():
         #print(fkey, ' -Zh')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20127,7 +20131,7 @@ def decrypt_Zj():
         #print(fkey, ' -Zj')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20141,7 +20145,7 @@ def decrypt_Zl():
         #print(fkey, ' -Zl')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20155,7 +20159,7 @@ def decrypt_Zn():
         #print(fkey, ' -Zn')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20169,7 +20173,7 @@ def decrypt_Zp():
         #print(fkey, ' -Zp')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20183,7 +20187,7 @@ def decrypt_Zr():
         #print(fkey, ' -Zr')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20197,7 +20201,7 @@ def decrypt_Zt():
         #print(fkey, ' -Zt')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20211,7 +20215,7 @@ def decrypt_Zv():
         #print(fkey, ' -Zv')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20225,7 +20229,7 @@ def decrypt_Zx():
         #print(fkey, ' -Zx')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20239,7 +20243,7 @@ def decrypt_Zz():
         #print(fkey, ' -Zz')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20253,7 +20257,7 @@ def decrypt_ZA():
         #print(fkey, ' -ZA')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20267,7 +20271,7 @@ def decrypt_ZB():
         #print(fkey, ' -ZB')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20281,7 +20285,7 @@ def decrypt_ZD():
         #print(fkey, ' -ZD')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20295,7 +20299,7 @@ def decrypt_ZF():
         #print(fkey, ' -ZF')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20309,7 +20313,7 @@ def decrypt_ZH():
         #print(fkey, ' -ZH')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20323,7 +20327,7 @@ def decrypt_ZJ():
         #print(fkey, ' -ZJ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20337,7 +20341,7 @@ def decrypt_ZL():
         #print(fkey, ' -ZL')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20351,7 +20355,7 @@ def decrypt_ZN():
         #print(fkey, ' -ZN')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20365,7 +20369,7 @@ def decrypt_ZP():
         #print(fkey, ' -ZP')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20379,7 +20383,7 @@ def decrypt_ZR():
         #print(fkey, ' -ZR')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20393,7 +20397,7 @@ def decrypt_ZT():
         #print(fkey, ' -ZT')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20407,7 +20411,7 @@ def decrypt_ZV():
         #print(fkey, ' -ZV')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20421,7 +20425,7 @@ def decrypt_ZX():
         #print(fkey, ' -ZX')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20435,7 +20439,7 @@ def decrypt_ZZ():
         #print(fkey, ' -ZZ')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20449,7 +20453,7 @@ def decrypt_Z0():
         #print(fkey, ' -Z0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20463,7 +20467,7 @@ def decrypt_Z2():
         #print(fkey, ' -Z2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20477,7 +20481,7 @@ def decrypt_Z4():
         #print(fkey, ' -Z4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20491,7 +20495,7 @@ def decrypt_Z6():
         #print(fkey, ' -Z6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20505,7 +20509,7 @@ def decrypt_Z8():
         #print(fkey, ' -Z8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20519,7 +20523,7 @@ def decrypt_Zexcl():
         #print(fkey, ' -Z!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20533,7 +20537,7 @@ def decrypt_Zdquote():
         #print(fkey, ' -Z"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20547,7 +20551,7 @@ def decrypt_Zdoll():
         #print(fkey, ' -Z$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20561,7 +20565,7 @@ def decrypt_Zand():
         #print(fkey, ' -Z&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20575,7 +20579,7 @@ def decrypt_Zquote():
         #print(fkey, ' -Z\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20589,7 +20593,7 @@ def decrypt_Zpar():
         #print(fkey, ' -Z(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20603,7 +20607,7 @@ def decrypt_Zast():
         #print(fkey, ' -Z*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20617,7 +20621,7 @@ def decrypt_Zvir():
         #print(fkey, ' -Z,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20631,7 +20635,7 @@ def decrypt_Zpp():
         #print(fkey, ' -Z.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20645,7 +20649,7 @@ def decrypt_Ztp():
         #print(fkey, ' -Z:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20659,7 +20663,7 @@ def decrypt_Zless():
         #print(fkey, ' -Z<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20673,7 +20677,7 @@ def decrypt_Zmore():
         #print(fkey, ' -Z>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20687,7 +20691,7 @@ def decrypt_Zaro():
         #print(fkey, ' -Z@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20701,7 +20705,7 @@ def decrypt_Zcroc():
         #print(fkey, ' -Z[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20715,7 +20719,7 @@ def decrypt_Zbsl():
         #print(fkey, ' -Z\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20729,7 +20733,7 @@ def decrypt_Zcirc():
         #print(fkey, ' -Z^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20743,7 +20747,7 @@ def decrypt_Zesp():
         #print(fkey, ' -Z`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20757,7 +20761,7 @@ def decrypt_Zcr():
         #print(fkey, ' -Z{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20771,7 +20775,7 @@ def decrypt_Zhl():
         #print(fkey, ' -Z|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20785,7 +20789,7 @@ def decrypt_Ztild():
         #print(fkey, ' -Z~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20799,7 +20803,7 @@ def decrypt_0a():
         #print(fkey, ' -0a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20813,7 +20817,7 @@ def decrypt_0b():
         #print(fkey, ' -0b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20827,7 +20831,7 @@ def decrypt_0d():
         #print(fkey, ' -0d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20841,7 +20845,7 @@ def decrypt_0f():
         #print(fkey, ' -0f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20855,7 +20859,7 @@ def decrypt_0h():
         #print(fkey, ' -0h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20869,7 +20873,7 @@ def decrypt_0j():
         #print(fkey, ' -0j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20883,7 +20887,7 @@ def decrypt_0l():
         #print(fkey, ' -0l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20897,7 +20901,7 @@ def decrypt_0n():
         #print(fkey, ' -0n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20911,7 +20915,7 @@ def decrypt_0p():
         #print(fkey, ' -0p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20925,7 +20929,7 @@ def decrypt_0r():
         #print(fkey, ' -0r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20939,7 +20943,7 @@ def decrypt_0t():
         #print(fkey, ' -0t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20953,7 +20957,7 @@ def decrypt_0v():
         #print(fkey, ' -0v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20967,7 +20971,7 @@ def decrypt_0x():
         #print(fkey, ' -0x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20981,7 +20985,7 @@ def decrypt_0z():
         #print(fkey, ' -0z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -20995,7 +20999,7 @@ def decrypt_0A():
         #print(fkey, ' -0A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21009,7 +21013,7 @@ def decrypt_0B():
         #print(fkey, ' -0B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21023,7 +21027,7 @@ def decrypt_0D():
         #print(fkey, ' -0D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21037,7 +21041,7 @@ def decrypt_0F():
         #print(fkey, ' -0F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21051,7 +21055,7 @@ def decrypt_0H():
         #print(fkey, ' -0H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21065,7 +21069,7 @@ def decrypt_0J():
         #print(fkey, ' -0J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21079,7 +21083,7 @@ def decrypt_0L():
         #print(fkey, ' -0L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21093,7 +21097,7 @@ def decrypt_0N():
         #print(fkey, ' -0N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21107,7 +21111,7 @@ def decrypt_0P():
         #print(fkey, ' -0P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21121,7 +21125,7 @@ def decrypt_0R():
         #print(fkey, ' -0R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21135,7 +21139,7 @@ def decrypt_0T():
         #print(fkey, ' -0T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21149,7 +21153,7 @@ def decrypt_0V():
         #print(fkey, ' -0V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21163,7 +21167,7 @@ def decrypt_0X():
         #print(fkey, ' -0X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21177,7 +21181,7 @@ def decrypt_0Z():
         #print(fkey, ' -0Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21191,7 +21195,7 @@ def decrypt_00():
         #print(fkey, ' -00')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21205,7 +21209,7 @@ def decrypt_02():
         #print(fkey, ' -02')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21219,7 +21223,7 @@ def decrypt_04():
         #print(fkey, ' -04')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21233,7 +21237,7 @@ def decrypt_06():
         #print(fkey, ' -06')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21247,7 +21251,7 @@ def decrypt_08():
         #print(fkey, ' -08')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21261,7 +21265,7 @@ def decrypt_0excl():
         #print(fkey, ' -0!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21275,7 +21279,7 @@ def decrypt_0dquote():
         #print(fkey, ' -0"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21289,7 +21293,7 @@ def decrypt_0doll():
         #print(fkey, ' -0$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21303,7 +21307,7 @@ def decrypt_0and():
         #print(fkey, ' -0&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21317,7 +21321,7 @@ def decrypt_0quote():
         #print(fkey, ' -0\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21331,7 +21335,7 @@ def decrypt_0par():
         #print(fkey, ' -0(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21345,7 +21349,7 @@ def decrypt_0ast():
         #print(fkey, ' -0*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21359,7 +21363,7 @@ def decrypt_0vir():
         #print(fkey, ' -0,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21373,7 +21377,7 @@ def decrypt_0pp():
         #print(fkey, ' -0.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21387,7 +21391,7 @@ def decrypt_0tp():
         #print(fkey, ' -0:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21401,7 +21405,7 @@ def decrypt_0less():
         #print(fkey, ' -0<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21415,7 +21419,7 @@ def decrypt_0more():
         #print(fkey, ' -0>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21429,7 +21433,7 @@ def decrypt_0aro():
         #print(fkey, ' -0@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21443,7 +21447,7 @@ def decrypt_0croc():
         #print(fkey, ' -0[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21457,7 +21461,7 @@ def decrypt_0bsl():
         #print(fkey, ' -0\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21471,7 +21475,7 @@ def decrypt_0circ():
         #print(fkey, ' -0^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21485,7 +21489,7 @@ def decrypt_0esp():
         #print(fkey, ' -0`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21499,7 +21503,7 @@ def decrypt_0cr():
         #print(fkey, ' -0{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21513,7 +21517,7 @@ def decrypt_0hl():
         #print(fkey, ' -0|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21527,7 +21531,7 @@ def decrypt_0tild():
         #print(fkey, ' -0~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21541,7 +21545,7 @@ def decrypt_2a():
         #print(fkey, ' -2a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21555,7 +21559,7 @@ def decrypt_2b():
         #print(fkey, ' -2b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21569,7 +21573,7 @@ def decrypt_2d():
         #print(fkey, ' -2d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21583,7 +21587,7 @@ def decrypt_2f():
         #print(fkey, ' -2f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21597,7 +21601,7 @@ def decrypt_2h():
         #print(fkey, ' -2h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21611,7 +21615,7 @@ def decrypt_2j():
         #print(fkey, ' -2j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21625,7 +21629,7 @@ def decrypt_2l():
         #print(fkey, ' -2l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21639,7 +21643,7 @@ def decrypt_2n():
         #print(fkey, ' -2n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21653,7 +21657,7 @@ def decrypt_2p():
         #print(fkey, ' -2p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21667,7 +21671,7 @@ def decrypt_2r():
         #print(fkey, ' -2r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21681,7 +21685,7 @@ def decrypt_2t():
         #print(fkey, ' -2t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21695,7 +21699,7 @@ def decrypt_2v():
         #print(fkey, ' -2v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21709,7 +21713,7 @@ def decrypt_2x():
         #print(fkey, ' -2x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21723,7 +21727,7 @@ def decrypt_2z():
         #print(fkey, ' -2z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21737,7 +21741,7 @@ def decrypt_2A():
         #print(fkey, ' -2A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21751,7 +21755,7 @@ def decrypt_2B():
         #print(fkey, ' -2B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21765,7 +21769,7 @@ def decrypt_2D():
         #print(fkey, ' -2D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21779,7 +21783,7 @@ def decrypt_2F():
         #print(fkey, ' -2F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21793,7 +21797,7 @@ def decrypt_2H():
         #print(fkey, ' -2H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21807,7 +21811,7 @@ def decrypt_2J():
         #print(fkey, ' -2J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21821,7 +21825,7 @@ def decrypt_2L():
         #print(fkey, ' -2L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21835,7 +21839,7 @@ def decrypt_2N():
         #print(fkey, ' -2N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21849,7 +21853,7 @@ def decrypt_2P():
         #print(fkey, ' -2P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21863,7 +21867,7 @@ def decrypt_2R():
         #print(fkey, ' -2R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21877,7 +21881,7 @@ def decrypt_2T():
         #print(fkey, ' -2T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21891,7 +21895,7 @@ def decrypt_2V():
         #print(fkey, ' -2V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21905,7 +21909,7 @@ def decrypt_2X():
         #print(fkey, ' -2X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21919,7 +21923,7 @@ def decrypt_2Z():
         #print(fkey, ' -2Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21933,7 +21937,7 @@ def decrypt_20():
         #print(fkey, ' -20')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21947,7 +21951,7 @@ def decrypt_22():
         #print(fkey, ' -22')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21961,7 +21965,7 @@ def decrypt_24():
         #print(fkey, ' -24')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21975,7 +21979,7 @@ def decrypt_26():
         #print(fkey, ' -26')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -21989,7 +21993,7 @@ def decrypt_28():
         #print(fkey, ' -28')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22003,7 +22007,7 @@ def decrypt_2excl():
         #print(fkey, ' -2!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22017,7 +22021,7 @@ def decrypt_2dquote():
         #print(fkey, ' -2"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22031,7 +22035,7 @@ def decrypt_2doll():
         #print(fkey, ' -2$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22045,7 +22049,7 @@ def decrypt_2and():
         #print(fkey, ' -2&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22059,7 +22063,7 @@ def decrypt_2quote():
         #print(fkey, ' -2\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22073,7 +22077,7 @@ def decrypt_2par():
         #print(fkey, ' -2(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22087,7 +22091,7 @@ def decrypt_2ast():
         #print(fkey, ' -2*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22101,7 +22105,7 @@ def decrypt_2vir():
         #print(fkey, ' -2,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22115,7 +22119,7 @@ def decrypt_2pp():
         #print(fkey, ' -2.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22129,7 +22133,7 @@ def decrypt_2tp():
         #print(fkey, ' -2:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22143,7 +22147,7 @@ def decrypt_2less():
         #print(fkey, ' -2<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22157,7 +22161,7 @@ def decrypt_2more():
         #print(fkey, ' -2>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22171,7 +22175,7 @@ def decrypt_2aro():
         #print(fkey, ' -2@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22185,7 +22189,7 @@ def decrypt_2croc():
         #print(fkey, ' -2[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22199,7 +22203,7 @@ def decrypt_2bsl():
         #print(fkey, ' -2\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22213,7 +22217,7 @@ def decrypt_2circ():
         #print(fkey, ' -2^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22227,7 +22231,7 @@ def decrypt_2esp():
         #print(fkey, ' -2`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22241,7 +22245,7 @@ def decrypt_2cr():
         #print(fkey, ' -2{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22255,7 +22259,7 @@ def decrypt_2hl():
         #print(fkey, ' -2|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22269,7 +22273,7 @@ def decrypt_2tild():
         #print(fkey, ' -2~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22283,7 +22287,7 @@ def decrypt_4a():
         #print(fkey, ' -4a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22297,7 +22301,7 @@ def decrypt_4b():
         #print(fkey, ' -4b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22311,7 +22315,7 @@ def decrypt_4d():
         #print(fkey, ' -4d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22325,7 +22329,7 @@ def decrypt_4f():
         #print(fkey, ' -4f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22339,7 +22343,7 @@ def decrypt_4h():
         #print(fkey, ' -4h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22353,7 +22357,7 @@ def decrypt_4j():
         #print(fkey, ' -4j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22367,7 +22371,7 @@ def decrypt_4l():
         #print(fkey, ' -4l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22381,7 +22385,7 @@ def decrypt_4n():
         #print(fkey, ' -4n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22395,7 +22399,7 @@ def decrypt_4p():
         #print(fkey, ' -4p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22409,7 +22413,7 @@ def decrypt_4r():
         #print(fkey, ' -4r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22423,7 +22427,7 @@ def decrypt_4t():
         #print(fkey, ' -4t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22437,7 +22441,7 @@ def decrypt_4v():
         #print(fkey, ' -4v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22451,7 +22455,7 @@ def decrypt_4x():
         #print(fkey, ' -4x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22465,7 +22469,7 @@ def decrypt_4z():
         #print(fkey, ' -4z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22479,7 +22483,7 @@ def decrypt_4A():
         #print(fkey, ' -4A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22493,7 +22497,7 @@ def decrypt_4B():
         #print(fkey, ' -4B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22507,7 +22511,7 @@ def decrypt_4D():
         #print(fkey, ' -4D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22521,7 +22525,7 @@ def decrypt_4F():
         #print(fkey, ' -4F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22535,7 +22539,7 @@ def decrypt_4H():
         #print(fkey, ' -4H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22549,7 +22553,7 @@ def decrypt_4J():
         #print(fkey, ' -4J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22563,7 +22567,7 @@ def decrypt_4L():
         #print(fkey, ' -4L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22577,7 +22581,7 @@ def decrypt_4N():
         #print(fkey, ' -4N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22591,7 +22595,7 @@ def decrypt_4P():
         #print(fkey, ' -4P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22605,7 +22609,7 @@ def decrypt_4R():
         #print(fkey, ' -4R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22619,7 +22623,7 @@ def decrypt_4T():
         #print(fkey, ' -4T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22633,7 +22637,7 @@ def decrypt_4V():
         #print(fkey, ' -4V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22647,7 +22651,7 @@ def decrypt_4X():
         #print(fkey, ' -4X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22661,7 +22665,7 @@ def decrypt_4Z():
         #print(fkey, ' -4Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22675,7 +22679,7 @@ def decrypt_40():
         #print(fkey, ' -40')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22689,7 +22693,7 @@ def decrypt_42():
         #print(fkey, ' -42')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22703,7 +22707,7 @@ def decrypt_44():
         #print(fkey, ' -44')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22717,7 +22721,7 @@ def decrypt_46():
         #print(fkey, ' -46')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22731,7 +22735,7 @@ def decrypt_48():
         #print(fkey, ' -48')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22745,7 +22749,7 @@ def decrypt_4excl():
         #print(fkey, ' -4!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22759,7 +22763,7 @@ def decrypt_4dquote():
         #print(fkey, ' -4"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22773,7 +22777,7 @@ def decrypt_4doll():
         #print(fkey, ' -4$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22787,7 +22791,7 @@ def decrypt_4and():
         #print(fkey, ' -4&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22801,7 +22805,7 @@ def decrypt_4quote():
         #print(fkey, ' -4\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22815,7 +22819,7 @@ def decrypt_4par():
         #print(fkey, ' -4(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22829,7 +22833,7 @@ def decrypt_4ast():
         #print(fkey, ' -4*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22843,7 +22847,7 @@ def decrypt_4vir():
         #print(fkey, ' -4,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22857,7 +22861,7 @@ def decrypt_4pp():
         #print(fkey, ' -4.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22871,7 +22875,7 @@ def decrypt_4tp():
         #print(fkey, ' -4:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22885,7 +22889,7 @@ def decrypt_4less():
         #print(fkey, ' -4<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22899,7 +22903,7 @@ def decrypt_4more():
         #print(fkey, ' -4>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22913,7 +22917,7 @@ def decrypt_4aro():
         #print(fkey, ' -4@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22927,7 +22931,7 @@ def decrypt_4croc():
         #print(fkey, ' -4[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22941,7 +22945,7 @@ def decrypt_4bsl():
         #print(fkey, ' -4\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22955,7 +22959,7 @@ def decrypt_4circ():
         #print(fkey, ' -4^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22969,7 +22973,7 @@ def decrypt_4esp():
         #print(fkey, ' -4`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22983,7 +22987,7 @@ def decrypt_4cr():
         #print(fkey, ' -4{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -22997,7 +23001,7 @@ def decrypt_4hl():
         #print(fkey, ' -4|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23011,7 +23015,7 @@ def decrypt_4tild():
         #print(fkey, ' -4~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23025,7 +23029,7 @@ def decrypt_6a():
         #print(fkey, ' -6a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23039,7 +23043,7 @@ def decrypt_6b():
         #print(fkey, ' -6b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23053,7 +23057,7 @@ def decrypt_6d():
         #print(fkey, ' -6d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23067,7 +23071,7 @@ def decrypt_6f():
         #print(fkey, ' -6f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23081,7 +23085,7 @@ def decrypt_6h():
         #print(fkey, ' -6h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23095,7 +23099,7 @@ def decrypt_6j():
         #print(fkey, ' -6j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23109,7 +23113,7 @@ def decrypt_6l():
         #print(fkey, ' -6l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23123,7 +23127,7 @@ def decrypt_6n():
         #print(fkey, ' -6n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23137,7 +23141,7 @@ def decrypt_6p():
         #print(fkey, ' -6p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23151,7 +23155,7 @@ def decrypt_6r():
         #print(fkey, ' -6r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23165,7 +23169,7 @@ def decrypt_6t():
         #print(fkey, ' -6t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23179,7 +23183,7 @@ def decrypt_6v():
         #print(fkey, ' -6v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23193,7 +23197,7 @@ def decrypt_6x():
         #print(fkey, ' -6x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23207,7 +23211,7 @@ def decrypt_6z():
         #print(fkey, ' -6z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23221,7 +23225,7 @@ def decrypt_6A():
         #print(fkey, ' -6A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23235,7 +23239,7 @@ def decrypt_6B():
         #print(fkey, ' -6B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23249,7 +23253,7 @@ def decrypt_6D():
         #print(fkey, ' -6D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23263,7 +23267,7 @@ def decrypt_6F():
         #print(fkey, ' -6F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23277,7 +23281,7 @@ def decrypt_6H():
         #print(fkey, ' -6H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23291,7 +23295,7 @@ def decrypt_6J():
         #print(fkey, ' -6J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23305,7 +23309,7 @@ def decrypt_6L():
         #print(fkey, ' -6L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23319,7 +23323,7 @@ def decrypt_6N():
         #print(fkey, ' -6N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23333,7 +23337,7 @@ def decrypt_6P():
         #print(fkey, ' -6P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23347,7 +23351,7 @@ def decrypt_6R():
         #print(fkey, ' -6R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23361,7 +23365,7 @@ def decrypt_6T():
         #print(fkey, ' -6T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23375,7 +23379,7 @@ def decrypt_6V():
         #print(fkey, ' -6V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23389,7 +23393,7 @@ def decrypt_6X():
         #print(fkey, ' -6X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23403,7 +23407,7 @@ def decrypt_6Z():
         #print(fkey, ' -6Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23417,7 +23421,7 @@ def decrypt_60():
         #print(fkey, ' -60')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23431,7 +23435,7 @@ def decrypt_62():
         #print(fkey, ' -62')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23445,7 +23449,7 @@ def decrypt_64():
         #print(fkey, ' -64')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23459,7 +23463,7 @@ def decrypt_66():
         #print(fkey, ' -66')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23473,7 +23477,7 @@ def decrypt_68():
         #print(fkey, ' -68')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23487,7 +23491,7 @@ def decrypt_6excl():
         #print(fkey, ' -6!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23501,7 +23505,7 @@ def decrypt_6dquote():
         #print(fkey, ' -6"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23515,7 +23519,7 @@ def decrypt_6doll():
         #print(fkey, ' -6$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23529,7 +23533,7 @@ def decrypt_6and():
         #print(fkey, ' -6&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23543,7 +23547,7 @@ def decrypt_6quote():
         #print(fkey, ' -6\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23557,7 +23561,7 @@ def decrypt_6par():
         #print(fkey, ' -6(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23571,7 +23575,7 @@ def decrypt_6ast():
         #print(fkey, ' -6*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23585,7 +23589,7 @@ def decrypt_6vir():
         #print(fkey, ' -6,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23599,7 +23603,7 @@ def decrypt_6pp():
         #print(fkey, ' -6.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23613,7 +23617,7 @@ def decrypt_6tp():
         #print(fkey, ' -6:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23627,7 +23631,7 @@ def decrypt_6less():
         #print(fkey, ' -6<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23641,7 +23645,7 @@ def decrypt_6more():
         #print(fkey, ' -6>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23655,7 +23659,7 @@ def decrypt_6aro():
         #print(fkey, ' -6@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23669,7 +23673,7 @@ def decrypt_6croc():
         #print(fkey, ' -6[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23683,7 +23687,7 @@ def decrypt_6bsl():
         #print(fkey, ' -6\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23697,7 +23701,7 @@ def decrypt_6circ():
         #print(fkey, ' -6^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23711,7 +23715,7 @@ def decrypt_6esp():
         #print(fkey, ' -6`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23725,7 +23729,7 @@ def decrypt_6cr():
         #print(fkey, ' -6{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23739,7 +23743,7 @@ def decrypt_6hl():
         #print(fkey, ' -6|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23753,7 +23757,7 @@ def decrypt_6tild():
         #print(fkey, ' -6~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23767,7 +23771,7 @@ def decrypt_8a():
         #print(fkey, ' -8a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23781,7 +23785,7 @@ def decrypt_8b():
         #print(fkey, ' -8b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23795,7 +23799,7 @@ def decrypt_8d():
         #print(fkey, ' -8d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23809,7 +23813,7 @@ def decrypt_8f():
         #print(fkey, ' -8f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23823,7 +23827,7 @@ def decrypt_8h():
         #print(fkey, ' -8h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23837,7 +23841,7 @@ def decrypt_8j():
         #print(fkey, ' -8j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23851,7 +23855,7 @@ def decrypt_8l():
         #print(fkey, ' -8l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23865,7 +23869,7 @@ def decrypt_8n():
         #print(fkey, ' -8n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23879,7 +23883,7 @@ def decrypt_8p():
         #print(fkey, ' -8p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23893,7 +23897,7 @@ def decrypt_8r():
         #print(fkey, ' -8r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23907,7 +23911,7 @@ def decrypt_8t():
         #print(fkey, ' -8t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23921,7 +23925,7 @@ def decrypt_8v():
         #print(fkey, ' -8v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23935,7 +23939,7 @@ def decrypt_8x():
         #print(fkey, ' -8x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23949,7 +23953,7 @@ def decrypt_8z():
         #print(fkey, ' -8z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23963,7 +23967,7 @@ def decrypt_8A():
         #print(fkey, ' -8A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23977,7 +23981,7 @@ def decrypt_8B():
         #print(fkey, ' -8B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -23991,7 +23995,7 @@ def decrypt_8D():
         #print(fkey, ' -8D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24005,7 +24009,7 @@ def decrypt_8F():
         #print(fkey, ' -8F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24019,7 +24023,7 @@ def decrypt_8H():
         #print(fkey, ' -8H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24033,7 +24037,7 @@ def decrypt_8J():
         #print(fkey, ' -8J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24047,7 +24051,7 @@ def decrypt_8L():
         #print(fkey, ' -8L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24061,7 +24065,7 @@ def decrypt_8N():
         #print(fkey, ' -8N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24075,7 +24079,7 @@ def decrypt_8P():
         #print(fkey, ' -8P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24089,7 +24093,7 @@ def decrypt_8R():
         #print(fkey, ' -8R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24103,7 +24107,7 @@ def decrypt_8T():
         #print(fkey, ' -8T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24117,7 +24121,7 @@ def decrypt_8V():
         #print(fkey, ' -8V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24131,7 +24135,7 @@ def decrypt_8X():
         #print(fkey, ' -8X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24145,7 +24149,7 @@ def decrypt_8Z():
         #print(fkey, ' -8Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24159,7 +24163,7 @@ def decrypt_80():
         #print(fkey, ' -80')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24173,7 +24177,7 @@ def decrypt_82():
         #print(fkey, ' -82')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24187,7 +24191,7 @@ def decrypt_84():
         #print(fkey, ' -84')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24201,7 +24205,7 @@ def decrypt_86():
         #print(fkey, ' -86')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24215,7 +24219,7 @@ def decrypt_88():
         #print(fkey, ' -88')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24229,7 +24233,7 @@ def decrypt_8excl():
         #print(fkey, ' -8!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24243,7 +24247,7 @@ def decrypt_8dquote():
         #print(fkey, ' -8"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24257,7 +24261,7 @@ def decrypt_8doll():
         #print(fkey, ' -8$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24271,7 +24275,7 @@ def decrypt_8and():
         #print(fkey, ' -8&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24285,7 +24289,7 @@ def decrypt_8quote():
         #print(fkey, ' -8\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24299,7 +24303,7 @@ def decrypt_8par():
         #print(fkey, ' -8(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24313,7 +24317,7 @@ def decrypt_8ast():
         #print(fkey, ' -8*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24327,7 +24331,7 @@ def decrypt_8vir():
         #print(fkey, ' -8,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24341,7 +24345,7 @@ def decrypt_8pp():
         #print(fkey, ' -8.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24355,7 +24359,7 @@ def decrypt_8tp():
         #print(fkey, ' -8:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24369,7 +24373,7 @@ def decrypt_8less():
         #print(fkey, ' -8<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24383,7 +24387,7 @@ def decrypt_8more():
         #print(fkey, ' -8>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24397,7 +24401,7 @@ def decrypt_8aro():
         #print(fkey, ' -8@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24411,7 +24415,7 @@ def decrypt_8croc():
         #print(fkey, ' -8[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24425,7 +24429,7 @@ def decrypt_8bsl():
         #print(fkey, ' -8\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24439,7 +24443,7 @@ def decrypt_8circ():
         #print(fkey, ' -8^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24453,7 +24457,7 @@ def decrypt_8esp():
         #print(fkey, ' -8`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24467,7 +24471,7 @@ def decrypt_8cr():
         #print(fkey, ' -8{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24481,7 +24485,7 @@ def decrypt_8hl():
         #print(fkey, ' -8|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24495,7 +24499,7 @@ def decrypt_8tild():
         #print(fkey, ' -8~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24509,7 +24513,7 @@ def decrypt_excla():
         #print(fkey, ' -!a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24523,7 +24527,7 @@ def decrypt_exclb():
         #print(fkey, ' -!b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24537,7 +24541,7 @@ def decrypt_excld():
         #print(fkey, ' -!d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24551,7 +24555,7 @@ def decrypt_exclf():
         #print(fkey, ' -!f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24565,7 +24569,7 @@ def decrypt_exclh():
         #print(fkey, ' -!h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24579,7 +24583,7 @@ def decrypt_exclj():
         #print(fkey, ' -!j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24593,7 +24597,7 @@ def decrypt_excll():
         #print(fkey, ' -!l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24607,7 +24611,7 @@ def decrypt_excln():
         #print(fkey, ' -!n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24621,7 +24625,7 @@ def decrypt_exclp():
         #print(fkey, ' -!p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24635,7 +24639,7 @@ def decrypt_exclr():
         #print(fkey, ' -!r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24649,7 +24653,7 @@ def decrypt_exclt():
         #print(fkey, ' -!t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24663,7 +24667,7 @@ def decrypt_exclv():
         #print(fkey, ' -!v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24677,7 +24681,7 @@ def decrypt_exclx():
         #print(fkey, ' -!x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24691,7 +24695,7 @@ def decrypt_exclz():
         #print(fkey, ' -!z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24705,7 +24709,7 @@ def decrypt_exclA():
         #print(fkey, ' -!A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24719,7 +24723,7 @@ def decrypt_exclB():
         #print(fkey, ' -!B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24733,7 +24737,7 @@ def decrypt_exclD():
         #print(fkey, ' -!D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24747,7 +24751,7 @@ def decrypt_exclF():
         #print(fkey, ' -!F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24761,7 +24765,7 @@ def decrypt_exclH():
         #print(fkey, ' -!H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24775,7 +24779,7 @@ def decrypt_exclJ():
         #print(fkey, ' -!J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24789,7 +24793,7 @@ def decrypt_exclL():
         #print(fkey, ' -!L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24803,7 +24807,7 @@ def decrypt_exclN():
         #print(fkey, ' -!N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24817,7 +24821,7 @@ def decrypt_exclP():
         #print(fkey, ' -!P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24831,7 +24835,7 @@ def decrypt_exclR():
         #print(fkey, ' -!R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24845,7 +24849,7 @@ def decrypt_exclT():
         #print(fkey, ' -!T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24859,7 +24863,7 @@ def decrypt_exclV():
         #print(fkey, ' -!V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24873,7 +24877,7 @@ def decrypt_exclX():
         #print(fkey, ' -!X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24887,7 +24891,7 @@ def decrypt_exclZ():
         #print(fkey, ' -!Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24901,7 +24905,7 @@ def decrypt_excl0():
         #print(fkey, ' -!0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24915,7 +24919,7 @@ def decrypt_excl2():
         #print(fkey, ' -!2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24929,7 +24933,7 @@ def decrypt_excl4():
         #print(fkey, ' -!4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24943,7 +24947,7 @@ def decrypt_excl6():
         #print(fkey, ' -!6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24957,7 +24961,7 @@ def decrypt_excl8():
         #print(fkey, ' -!8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24971,7 +24975,7 @@ def decrypt_exclexcl():
         #print(fkey, ' -!!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24985,7 +24989,7 @@ def decrypt_excldquote():
         #print(fkey, ' -!"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -24999,7 +25003,7 @@ def decrypt_excldoll():
         #print(fkey, ' -!$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25013,7 +25017,7 @@ def decrypt_excland():
         #print(fkey, ' -!&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25027,7 +25031,7 @@ def decrypt_exclquote():
         #print(fkey, ' -!\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25041,7 +25045,7 @@ def decrypt_exclpar():
         #print(fkey, ' -excl(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25055,7 +25059,7 @@ def decrypt_exclast():
         #print(fkey, ' -!*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25069,7 +25073,7 @@ def decrypt_exclvir():
         #print(fkey, ' -!,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25083,7 +25087,7 @@ def decrypt_exclpp():
         #print(fkey, ' -!.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25097,7 +25101,7 @@ def decrypt_excltp():
         #print(fkey, ' -!:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25111,7 +25115,7 @@ def decrypt_exclless():
         #print(fkey, ' -!<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25125,7 +25129,7 @@ def decrypt_exclmore():
         #print(fkey, ' -!>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25139,7 +25143,7 @@ def decrypt_exclaro():
         #print(fkey, ' -!@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25153,7 +25157,7 @@ def decrypt_exclcroc():
         #print(fkey, ' -![')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25167,7 +25171,7 @@ def decrypt_exclbsl():
         #print(fkey, ' -!\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25181,7 +25185,7 @@ def decrypt_exclcirc():
         #print(fkey, ' -!^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25195,7 +25199,7 @@ def decrypt_exclesp():
         #print(fkey, ' -!`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25209,7 +25213,7 @@ def decrypt_exclcr():
         #print(fkey, ' -!{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25223,7 +25227,7 @@ def decrypt_exclhl():
         #print(fkey, ' -!|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25237,7 +25241,7 @@ def decrypt_excltild():
         #print(fkey, ' -!~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25251,7 +25255,7 @@ def decrypt_doubquota():
         #print(fkey, ' -"a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25265,7 +25269,7 @@ def decrypt_doubquotb():
         #print(fkey, ' -"b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25279,7 +25283,7 @@ def decrypt_doubquotd():
         #print(fkey, ' -"d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25293,7 +25297,7 @@ def decrypt_doubquotf():
         #print(fkey, ' -"f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25307,7 +25311,7 @@ def decrypt_doubquoth():
         #print(fkey, ' -"h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25321,7 +25325,7 @@ def decrypt_doubquotj():
         #print(fkey, ' -"j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25335,7 +25339,7 @@ def decrypt_doubquotl():
         #print(fkey, ' -"l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25349,7 +25353,7 @@ def decrypt_doubquotn():
         #print(fkey, ' -"n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25363,7 +25367,7 @@ def decrypt_doubquotp():
         #print(fkey, ' -"p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25377,7 +25381,7 @@ def decrypt_doubquotr():
         #print(fkey, ' -"r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25391,7 +25395,7 @@ def decrypt_doubquott():
         #print(fkey, ' -"t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25405,7 +25409,7 @@ def decrypt_doubquotv():
         #print(fkey, ' -"v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25419,7 +25423,7 @@ def decrypt_doubquotx():
         #print(fkey, ' -"x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25433,7 +25437,7 @@ def decrypt_doubquotz():
         #print(fkey, ' -"z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25447,7 +25451,7 @@ def decrypt_doubquotA():
         #print(fkey, ' -"A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25461,7 +25465,7 @@ def decrypt_doubquotB():
         #print(fkey, ' -"B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25475,7 +25479,7 @@ def decrypt_doubquotD():
         #print(fkey, ' -"D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25489,7 +25493,7 @@ def decrypt_doubquotF():
         #print(fkey, ' -"F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25503,7 +25507,7 @@ def decrypt_doubquotH():
         #print(fkey, ' -"H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25517,7 +25521,7 @@ def decrypt_doubquotJ():
         #print(fkey, ' -"J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25531,7 +25535,7 @@ def decrypt_doubquotL():
         #print(fkey, ' -"L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25545,7 +25549,7 @@ def decrypt_doubquotN():
         #print(fkey, ' -"N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25559,7 +25563,7 @@ def decrypt_doubquotP():
         #print(fkey, ' -"P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25573,7 +25577,7 @@ def decrypt_doubquotR():
         #print(fkey, ' -"R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25587,7 +25591,7 @@ def decrypt_doubquotT():
         #print(fkey, ' -"T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25601,7 +25605,7 @@ def decrypt_doubquotV():
         #print(fkey, ' -"V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25615,7 +25619,7 @@ def decrypt_doubquotX():
         #print(fkey, ' -"X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25629,7 +25633,7 @@ def decrypt_doubquotZ():
         #print(fkey, ' -"Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25643,7 +25647,7 @@ def decrypt_doubquot0():
         #print(fkey, ' -"0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25657,7 +25661,7 @@ def decrypt_doubquot2():
         #print(fkey, ' -"2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25671,7 +25675,7 @@ def decrypt_doubquot4():
         #print(fkey, ' -"4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25685,7 +25689,7 @@ def decrypt_doubquot6():
         #print(fkey, ' -"6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25699,7 +25703,7 @@ def decrypt_doubquot8():
         #print(fkey, ' -"8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25713,7 +25717,7 @@ def decrypt_doubquotexcl():
         #print(fkey, ' -"!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25727,7 +25731,7 @@ def decrypt_doubquotdquote():
         #print(fkey, ' -""')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25741,7 +25745,7 @@ def decrypt_doubquotdoll():
         #print(fkey, ' -"$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25755,7 +25759,7 @@ def decrypt_doubquotand():
         #print(fkey, ' -"&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25769,7 +25773,7 @@ def decrypt_doubquotquote():
         #print(fkey, ' -"\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25783,7 +25787,7 @@ def decrypt_doubquotpar():
         #print(fkey, ' -dquote(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25797,7 +25801,7 @@ def decrypt_doubquotast():
         #print(fkey, ' -"*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25811,7 +25815,7 @@ def decrypt_doubquotvir():
         #print(fkey, ' -",')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25825,7 +25829,7 @@ def decrypt_doubquotpp():
         #print(fkey, ' -".')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25839,7 +25843,7 @@ def decrypt_doubquottp():
         #print(fkey, ' -":')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25853,7 +25857,7 @@ def decrypt_doubquotless():
         #print(fkey, ' -"<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25867,7 +25871,7 @@ def decrypt_doubquotmore():
         #print(fkey, ' -">')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25881,7 +25885,7 @@ def decrypt_doubquotaro():
         #print(fkey, ' -"@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25895,7 +25899,7 @@ def decrypt_doubquotcroc():
         #print(fkey, ' -"[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25909,7 +25913,7 @@ def decrypt_doubquotbsl():
         #print(fkey, ' -"\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25923,7 +25927,7 @@ def decrypt_doubquotcirc():
         #print(fkey, ' -"^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25937,7 +25941,7 @@ def decrypt_doubquotesp():
         #print(fkey, ' -"`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25951,7 +25955,7 @@ def decrypt_doubquotcr():
         #print(fkey, ' -"{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25965,7 +25969,7 @@ def decrypt_doubquothl():
         #print(fkey, ' -"|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25979,7 +25983,7 @@ def decrypt_doubquottild():
         #print(fkey, ' -"~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -25993,7 +25997,7 @@ def decrypt_dolla():
         #print(fkey, ' -$a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26007,7 +26011,7 @@ def decrypt_dollb():
         #print(fkey, ' -$b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26021,7 +26025,7 @@ def decrypt_dolld():
         #print(fkey, ' -$d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26035,7 +26039,7 @@ def decrypt_dollf():
         #print(fkey, ' -$f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26049,7 +26053,7 @@ def decrypt_dollh():
         #print(fkey, ' -$h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26063,7 +26067,7 @@ def decrypt_dollj():
         #print(fkey, ' -$j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26077,7 +26081,7 @@ def decrypt_dolll():
         #print(fkey, ' -$l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26091,7 +26095,7 @@ def decrypt_dolln():
         #print(fkey, ' -$n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26105,7 +26109,7 @@ def decrypt_dollp():
         #print(fkey, ' -$p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26119,7 +26123,7 @@ def decrypt_dollr():
         #print(fkey, ' -$r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26133,7 +26137,7 @@ def decrypt_dollt():
         #print(fkey, ' -$t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26147,7 +26151,7 @@ def decrypt_dollv():
         #print(fkey, ' -$v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26161,7 +26165,7 @@ def decrypt_dollx():
         #print(fkey, ' -$x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26175,7 +26179,7 @@ def decrypt_dollz():
         #print(fkey, ' -$z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26189,7 +26193,7 @@ def decrypt_dollA():
         #print(fkey, ' -$A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26203,7 +26207,7 @@ def decrypt_dollB():
         #print(fkey, ' -$B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26217,7 +26221,7 @@ def decrypt_dollD():
         #print(fkey, ' -$D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26231,7 +26235,7 @@ def decrypt_dollF():
         #print(fkey, ' -$F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26245,7 +26249,7 @@ def decrypt_dollH():
         #print(fkey, ' -$H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26259,7 +26263,7 @@ def decrypt_dollJ():
         #print(fkey, ' -$J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26273,7 +26277,7 @@ def decrypt_dollL():
         #print(fkey, ' -$L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26287,7 +26291,7 @@ def decrypt_dollN():
         #print(fkey, ' -$N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26301,7 +26305,7 @@ def decrypt_dollP():
         #print(fkey, ' -$P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26315,7 +26319,7 @@ def decrypt_dollR():
         #print(fkey, ' -$R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26329,7 +26333,7 @@ def decrypt_dollT():
         #print(fkey, ' -$T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26343,7 +26347,7 @@ def decrypt_dollV():
         #print(fkey, ' -$V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26357,7 +26361,7 @@ def decrypt_dollX():
         #print(fkey, ' -$X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26371,7 +26375,7 @@ def decrypt_dollZ():
         #print(fkey, ' -$Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26385,7 +26389,7 @@ def decrypt_doll0():
         #print(fkey, ' -$0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26399,7 +26403,7 @@ def decrypt_doll2():
         #print(fkey, ' -$2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26413,7 +26417,7 @@ def decrypt_doll4():
         #print(fkey, ' -$4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26427,7 +26431,7 @@ def decrypt_doll6():
         #print(fkey, ' -$6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26441,7 +26445,7 @@ def decrypt_doll8():
         #print(fkey, ' -$8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26455,7 +26459,7 @@ def decrypt_dollexcl():
         #print(fkey, ' -$!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26469,7 +26473,7 @@ def decrypt_dolldquote():
         #print(fkey, ' -$"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26483,7 +26487,7 @@ def decrypt_dolldoll():
         #print(fkey, ' -$$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26497,7 +26501,7 @@ def decrypt_dolland():
         #print(fkey, ' -$&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26511,7 +26515,7 @@ def decrypt_dollquote():
         #print(fkey, ' -$\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26525,7 +26529,7 @@ def decrypt_dollpar():
         #print(fkey, ' -doll(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26539,7 +26543,7 @@ def decrypt_dollast():
         #print(fkey, ' -$*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26553,7 +26557,7 @@ def decrypt_dollvir():
         #print(fkey, ' -$,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26567,7 +26571,7 @@ def decrypt_dollpp():
         #print(fkey, ' -$.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26581,7 +26585,7 @@ def decrypt_dolltp():
         #print(fkey, ' -$:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26595,7 +26599,7 @@ def decrypt_dollless():
         #print(fkey, ' -$<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26609,7 +26613,7 @@ def decrypt_dollmore():
         #print(fkey, ' -$>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26623,7 +26627,7 @@ def decrypt_dollaro():
         #print(fkey, ' -$@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26637,7 +26641,7 @@ def decrypt_dollcroc():
         #print(fkey, ' -$[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26651,7 +26655,7 @@ def decrypt_dollbsl():
         #print(fkey, ' -$\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26665,7 +26669,7 @@ def decrypt_dollcirc():
         #print(fkey, ' -$^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26679,7 +26683,7 @@ def decrypt_dollesp():
         #print(fkey, ' -$`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26693,7 +26697,7 @@ def decrypt_dollcr():
         #print(fkey, ' -${')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26707,7 +26711,7 @@ def decrypt_dollhl():
         #print(fkey, ' -$|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26721,7 +26725,7 @@ def decrypt_dolltild():
         #print(fkey, ' -$~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26735,7 +26739,7 @@ def decryptespaa():
         #print(fkey, ' -&a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26749,7 +26753,7 @@ def decryptespab():
         #print(fkey, ' -&b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26763,7 +26767,7 @@ def decryptespad():
         #print(fkey, ' -&d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26777,7 +26781,7 @@ def decryptespaf():
         #print(fkey, ' -&f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26791,7 +26795,7 @@ def decryptespah():
         #print(fkey, ' -&h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26805,7 +26809,7 @@ def decryptespaj():
         #print(fkey, ' -&j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26819,7 +26823,7 @@ def decryptespal():
         #print(fkey, ' -&l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26833,7 +26837,7 @@ def decryptespan():
         #print(fkey, ' -&n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26847,7 +26851,7 @@ def decryptespap():
         #print(fkey, ' -&p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26861,7 +26865,7 @@ def decryptespar():
         #print(fkey, ' -&r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26875,7 +26879,7 @@ def decryptespat():
         #print(fkey, ' -&t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26889,7 +26893,7 @@ def decryptespav():
         #print(fkey, ' -&v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26903,7 +26907,7 @@ def decryptespax():
         #print(fkey, ' -&x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26917,7 +26921,7 @@ def decryptespaz():
         #print(fkey, ' -&z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26931,7 +26935,7 @@ def decryptespaA():
         #print(fkey, ' -&A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26945,7 +26949,7 @@ def decryptespaB():
         #print(fkey, ' -&B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26959,7 +26963,7 @@ def decryptespaD():
         #print(fkey, ' -&D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26973,7 +26977,7 @@ def decryptespaF():
         #print(fkey, ' -&F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -26987,7 +26991,7 @@ def decryptespaH():
         #print(fkey, ' -&H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27001,7 +27005,7 @@ def decryptespaJ():
         #print(fkey, ' -&J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27015,7 +27019,7 @@ def decryptespaL():
         #print(fkey, ' -&L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27029,7 +27033,7 @@ def decryptespaN():
         #print(fkey, ' -&N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27043,7 +27047,7 @@ def decryptespaP():
         #print(fkey, ' -&P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27057,7 +27061,7 @@ def decryptespaR():
         #print(fkey, ' -&R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27071,7 +27075,7 @@ def decryptespaT():
         #print(fkey, ' -&T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27085,7 +27089,7 @@ def decryptespaV():
         #print(fkey, ' -&V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27099,7 +27103,7 @@ def decryptespaX():
         #print(fkey, ' -&X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27113,7 +27117,7 @@ def decryptespaZ():
         #print(fkey, ' -&Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27127,7 +27131,7 @@ def decryptespa0():
         #print(fkey, ' -&0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27141,7 +27145,7 @@ def decryptespa2():
         #print(fkey, ' -&2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27155,7 +27159,7 @@ def decryptespa4():
         #print(fkey, ' -&4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27169,7 +27173,7 @@ def decryptespa6():
         #print(fkey, ' -&6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27183,7 +27187,7 @@ def decryptespa8():
         #print(fkey, ' -&8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27197,7 +27201,7 @@ def decryptespaexcl():
         #print(fkey, ' -&!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27211,7 +27215,7 @@ def decryptespadquote():
         #print(fkey, ' -&"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27225,7 +27229,7 @@ def decryptespadoll():
         #print(fkey, ' -&$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27239,7 +27243,7 @@ def decryptespaand():
         #print(fkey, ' -&&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27253,7 +27257,7 @@ def decryptespaquote():
         #print(fkey, ' -&\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27267,7 +27271,7 @@ def decryptespapar():
         #print(fkey, ' -and(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27281,7 +27285,7 @@ def decryptespaast():
         #print(fkey, ' -&*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27295,7 +27299,7 @@ def decryptespavir():
         #print(fkey, ' -&,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27309,7 +27313,7 @@ def decryptespapp():
         #print(fkey, ' -&.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27323,7 +27327,7 @@ def decryptespatp():
         #print(fkey, ' -&:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27337,7 +27341,7 @@ def decryptespaless():
         #print(fkey, ' -&<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27351,7 +27355,7 @@ def decryptespamore():
         #print(fkey, ' -&>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27365,7 +27369,7 @@ def decryptespaaro():
         #print(fkey, ' -&@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27379,7 +27383,7 @@ def decryptespacroc():
         #print(fkey, ' -&[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27393,7 +27397,7 @@ def decryptespabsl():
         #print(fkey, ' -&\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27407,7 +27411,7 @@ def decryptespacirc():
         #print(fkey, ' -&^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27421,7 +27425,7 @@ def decryptespaesp():
         #print(fkey, ' -&`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27435,7 +27439,7 @@ def decryptespacr():
         #print(fkey, ' -&{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27449,7 +27453,7 @@ def decryptespahl():
         #print(fkey, ' -&|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27463,7 +27467,7 @@ def decryptespatild():
         #print(fkey, ' -&~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27477,7 +27481,7 @@ def decrypt_quota():
         #print(fkey, ' -\'a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27491,7 +27495,7 @@ def decrypt_quotb():
         #print(fkey, ' -\'b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27505,7 +27509,7 @@ def decrypt_quotd():
         #print(fkey, ' -\'d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27519,7 +27523,7 @@ def decrypt_quotf():
         #print(fkey, ' -\'f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27533,7 +27537,7 @@ def decrypt_quoth():
         #print(fkey, ' -\'h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27547,7 +27551,7 @@ def decrypt_quotj():
         #print(fkey, ' -\'j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27561,7 +27565,7 @@ def decrypt_quotl():
         #print(fkey, ' -\'l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27575,7 +27579,7 @@ def decrypt_quotn():
         #print(fkey, ' -\'n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27589,7 +27593,7 @@ def decrypt_quotp():
         #print(fkey, ' -\'p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27603,7 +27607,7 @@ def decrypt_quotr():
         #print(fkey, ' -\'r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27617,7 +27621,7 @@ def decrypt_quott():
         #print(fkey, ' -\'t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27631,7 +27635,7 @@ def decrypt_quotv():
         #print(fkey, ' -\'v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27645,7 +27649,7 @@ def decrypt_quotx():
         #print(fkey, ' -\'x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27659,7 +27663,7 @@ def decrypt_quotz():
         #print(fkey, ' -\'z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27673,7 +27677,7 @@ def decrypt_quotA():
         #print(fkey, ' -\'A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27687,7 +27691,7 @@ def decrypt_quotB():
         #print(fkey, ' -\'B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27701,7 +27705,7 @@ def decrypt_quotD():
         #print(fkey, ' -\'D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27715,7 +27719,7 @@ def decrypt_quotF():
         #print(fkey, ' -\'F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27729,7 +27733,7 @@ def decrypt_quotH():
         #print(fkey, ' -\'H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27743,7 +27747,7 @@ def decrypt_quotJ():
         #print(fkey, ' -\'J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27757,7 +27761,7 @@ def decrypt_quotL():
         #print(fkey, ' -\'L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27771,7 +27775,7 @@ def decrypt_quotN():
         #print(fkey, ' -\'N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27785,7 +27789,7 @@ def decrypt_quotP():
         #print(fkey, ' -\'P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27799,7 +27803,7 @@ def decrypt_quotR():
         #print(fkey, ' -\'R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27813,7 +27817,7 @@ def decrypt_quotT():
         #print(fkey, ' -\'T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27827,7 +27831,7 @@ def decrypt_quotV():
         #print(fkey, ' -\'V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27841,7 +27845,7 @@ def decrypt_quotX():
         #print(fkey, ' -\'X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27855,7 +27859,7 @@ def decrypt_quotZ():
         #print(fkey, ' -\'Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27869,7 +27873,7 @@ def decrypt_quot0():
         #print(fkey, ' -\'0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27883,7 +27887,7 @@ def decrypt_quot2():
         #print(fkey, ' -\'2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27897,7 +27901,7 @@ def decrypt_quot4():
         #print(fkey, ' -\'4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27911,7 +27915,7 @@ def decrypt_quot6():
         #print(fkey, ' -\'6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27925,7 +27929,7 @@ def decrypt_quot8():
         #print(fkey, ' -\'8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27939,7 +27943,7 @@ def decrypt_quotexcl():
         #print(fkey, ' -\'!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27953,7 +27957,7 @@ def decrypt_quotdquote():
         #print(fkey, ' -\'"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27967,7 +27971,7 @@ def decrypt_quotdoll():
         #print(fkey, ' -\'$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27981,7 +27985,7 @@ def decrypt_quotand():
         #print(fkey, ' -\'&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -27995,7 +27999,7 @@ def decrypt_quotquote():
         #print(fkey, ' -\'\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28009,7 +28013,7 @@ def decrypt_quotpar():
         #print(fkey, ' -\'(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28023,7 +28027,7 @@ def decrypt_quotast():
         #print(fkey, ' -\'*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28037,7 +28041,7 @@ def decrypt_quotvir():
         #print(fkey, ' -\',')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28051,7 +28055,7 @@ def decrypt_quotpp():
         #print(fkey, ' -\'.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28065,7 +28069,7 @@ def decrypt_quottp():
         #print(fkey, ' -\':')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28079,7 +28083,7 @@ def decrypt_quotless():
         #print(fkey, ' -\'<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28093,7 +28097,7 @@ def decrypt_quotmore():
         #print(fkey, ' -\'>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28107,7 +28111,7 @@ def decrypt_quotaro():
         #print(fkey, ' -\'@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28121,7 +28125,7 @@ def decrypt_quotcroc():
         #print(fkey, ' -\'[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28135,7 +28139,7 @@ def decrypt_quotbsl():
         #print(fkey, ' -\'\\\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28149,7 +28153,7 @@ def decrypt_quotcirc():
         #print(fkey, ' -\'^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28163,7 +28167,7 @@ def decrypt_quotesp():
         #print(fkey, ' -\'`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28177,7 +28181,7 @@ def decrypt_quotcr():
         #print(fkey, ' -\'{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28191,7 +28195,7 @@ def decrypt_quothl():
         #print(fkey, ' -\'|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28205,7 +28209,7 @@ def decrypt_quottild():
         #print(fkey, ' -\'~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28219,7 +28223,7 @@ def decrypt_parena():
         #print(fkey, ' -(a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28233,7 +28237,7 @@ def decrypt_parenb():
         #print(fkey, ' -(b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28247,7 +28251,7 @@ def decrypt_parend():
         #print(fkey, ' -(d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28261,7 +28265,7 @@ def decrypt_parenf():
         #print(fkey, ' -(f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28275,7 +28279,7 @@ def decrypt_parenh():
         #print(fkey, ' -(h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28289,7 +28293,7 @@ def decrypt_parenj():
         #print(fkey, ' -(j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28303,7 +28307,7 @@ def decrypt_parenl():
         #print(fkey, ' -(l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28317,7 +28321,7 @@ def decrypt_parenn():
         #print(fkey, ' -(n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28331,7 +28335,7 @@ def decrypt_parenp():
         #print(fkey, ' -(p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28345,7 +28349,7 @@ def decrypt_parenr():
         #print(fkey, ' -(r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28359,7 +28363,7 @@ def decrypt_parent():
         #print(fkey, ' -(t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28373,7 +28377,7 @@ def decrypt_parenv():
         #print(fkey, ' -(v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28387,7 +28391,7 @@ def decrypt_parenx():
         #print(fkey, ' -(x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28401,7 +28405,7 @@ def decrypt_parenz():
         #print(fkey, ' -(z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28415,7 +28419,7 @@ def decrypt_parenA():
         #print(fkey, ' -(A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28429,7 +28433,7 @@ def decrypt_parenB():
         #print(fkey, ' -(B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28443,7 +28447,7 @@ def decrypt_parenD():
         #print(fkey, ' -(D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28457,7 +28461,7 @@ def decrypt_parenF():
         #print(fkey, ' -(F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28471,7 +28475,7 @@ def decrypt_parenH():
         #print(fkey, ' -(H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28485,7 +28489,7 @@ def decrypt_parenJ():
         #print(fkey, ' -(J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28499,7 +28503,7 @@ def decrypt_parenL():
         #print(fkey, ' -(L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28513,7 +28517,7 @@ def decrypt_parenN():
         #print(fkey, ' -(N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28527,7 +28531,7 @@ def decrypt_parenP():
         #print(fkey, ' -(P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28541,7 +28545,7 @@ def decrypt_parenR():
         #print(fkey, ' -(R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28555,7 +28559,7 @@ def decrypt_parenT():
         #print(fkey, ' -(T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28569,7 +28573,7 @@ def decrypt_parenV():
         #print(fkey, ' -(V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28583,7 +28587,7 @@ def decrypt_parenX():
         #print(fkey, ' -(X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28597,7 +28601,7 @@ def decrypt_parenZ():
         #print(fkey, ' -(Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28611,7 +28615,7 @@ def decrypt_paren0():
         #print(fkey, ' -(0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28625,7 +28629,7 @@ def decrypt_paren2():
         #print(fkey, ' -(2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28639,7 +28643,7 @@ def decrypt_paren4():
         #print(fkey, ' -(4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28653,7 +28657,7 @@ def decrypt_paren6():
         #print(fkey, ' -(6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28667,7 +28671,7 @@ def decrypt_paren8():
         #print(fkey, ' -(8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28681,7 +28685,7 @@ def decrypt_parenexcl():
         #print(fkey, ' -(!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28695,7 +28699,7 @@ def decrypt_parendquote():
         #print(fkey, ' -("')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28709,7 +28713,7 @@ def decrypt_parendoll():
         #print(fkey, ' -($')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28723,7 +28727,7 @@ def decrypt_parenand():
         #print(fkey, ' -(&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28737,7 +28741,7 @@ def decrypt_parenquote():
         #print(fkey, ' -(\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28751,7 +28755,7 @@ def decrypt_parpara():
         #print(fkey, ' -par(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28765,7 +28769,7 @@ def decrypt_parenast():
         #print(fkey, ' -(*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28779,7 +28783,7 @@ def decrypt_parenvir():
         #print(fkey, ' -(,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28793,7 +28797,7 @@ def decrypt_parenpp():
         #print(fkey, ' -(.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28807,7 +28811,7 @@ def decrypt_parentp():
         #print(fkey, ' -(:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28821,7 +28825,7 @@ def decrypt_parenless():
         #print(fkey, ' -(<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28835,7 +28839,7 @@ def decrypt_parenmore():
         #print(fkey, ' -(>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28849,7 +28853,7 @@ def decrypt_parenaro():
         #print(fkey, ' -(@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28863,7 +28867,7 @@ def decrypt_parencroc():
         #print(fkey, ' -([')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28877,7 +28881,7 @@ def decrypt_parenbsl():
         #print(fkey, ' -(\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28891,7 +28895,7 @@ def decrypt_parencirc():
         #print(fkey, ' -(^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28905,7 +28909,7 @@ def decrypt_parenesp():
         #print(fkey, ' -(`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28919,7 +28923,7 @@ def decrypt_parencr():
         #print(fkey, ' -({')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28933,7 +28937,7 @@ def decrypt_parenhl():
         #print(fkey, ' -(|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28947,7 +28951,7 @@ def decrypt_parentild():
         #print(fkey, ' -(~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28961,7 +28965,7 @@ def decrypt_espea():
         #print(fkey, ' -*a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28975,7 +28979,7 @@ def decrypt_espeb():
         #print(fkey, ' -*b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -28989,7 +28993,7 @@ def decrypt_esped():
         #print(fkey, ' -*d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29003,7 +29007,7 @@ def decrypt_espef():
         #print(fkey, ' -*f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29017,7 +29021,7 @@ def decrypt_espeh():
         #print(fkey, ' -*h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29031,7 +29035,7 @@ def decrypt_espej():
         #print(fkey, ' -*j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29045,7 +29049,7 @@ def decrypt_espel():
         #print(fkey, ' -*l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29059,7 +29063,7 @@ def decrypt_espen():
         #print(fkey, ' -*n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29073,7 +29077,7 @@ def decrypt_espep():
         #print(fkey, ' -*p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29087,7 +29091,7 @@ def decrypt_esper():
         #print(fkey, ' -*r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29101,7 +29105,7 @@ def decrypt_espet():
         #print(fkey, ' -*t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29115,7 +29119,7 @@ def decrypt_espev():
         #print(fkey, ' -*v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29129,7 +29133,7 @@ def decrypt_espex():
         #print(fkey, ' -*x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29143,7 +29147,7 @@ def decrypt_espez():
         #print(fkey, ' -*z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29157,7 +29161,7 @@ def decrypt_espeA():
         #print(fkey, ' -*A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29171,7 +29175,7 @@ def decrypt_espeB():
         #print(fkey, ' -*B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29185,7 +29189,7 @@ def decrypt_espeD():
         #print(fkey, ' -*D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29199,7 +29203,7 @@ def decrypt_espeF():
         #print(fkey, ' -*F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29213,7 +29217,7 @@ def decrypt_espeH():
         #print(fkey, ' -*H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29227,7 +29231,7 @@ def decrypt_espeJ():
         #print(fkey, ' -*J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29241,7 +29245,7 @@ def decrypt_espeL():
         #print(fkey, ' -*L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29255,7 +29259,7 @@ def decrypt_espeN():
         #print(fkey, ' -*N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29269,7 +29273,7 @@ def decrypt_espeP():
         #print(fkey, ' -*P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29283,7 +29287,7 @@ def decrypt_espeR():
         #print(fkey, ' -*R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29297,7 +29301,7 @@ def decrypt_espeT():
         #print(fkey, ' -*T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29311,7 +29315,7 @@ def decrypt_espeV():
         #print(fkey, ' -*V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29325,7 +29329,7 @@ def decrypt_espeX():
         #print(fkey, ' -*X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29339,7 +29343,7 @@ def decrypt_espeZ():
         #print(fkey, ' -*Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29353,7 +29357,7 @@ def decrypt_espe0():
         #print(fkey, ' -*0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29367,7 +29371,7 @@ def decrypt_espe2():
         #print(fkey, ' -*2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29381,7 +29385,7 @@ def decrypt_espe4():
         #print(fkey, ' -*4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29395,7 +29399,7 @@ def decrypt_espe6():
         #print(fkey, ' -*6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29409,7 +29413,7 @@ def decrypt_espe8():
         #print(fkey, ' -*8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29423,7 +29427,7 @@ def decrypt_espeexcl():
         #print(fkey, ' -*!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29437,7 +29441,7 @@ def decrypt_espedquote():
         #print(fkey, ' -*"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29451,7 +29455,7 @@ def decrypt_espedoll():
         #print(fkey, ' -*$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29465,7 +29469,7 @@ def decrypt_espeand():
         #print(fkey, ' -*&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29479,7 +29483,7 @@ def decrypt_espequote():
         #print(fkey, ' -*\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29493,7 +29497,7 @@ def decrypt_astpar():
         #print(fkey, ' -ast(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29507,7 +29511,7 @@ def decrypt_espeast():
         #print(fkey, ' -**')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29521,7 +29525,7 @@ def decrypt_espevir():
         #print(fkey, ' -*,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29535,7 +29539,7 @@ def decrypt_espepp():
         #print(fkey, ' -*.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29549,7 +29553,7 @@ def decrypt_espetp():
         #print(fkey, ' -*:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29563,7 +29567,7 @@ def decrypt_espeless():
         #print(fkey, ' -*<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29577,7 +29581,7 @@ def decrypt_espemore():
         #print(fkey, ' -*>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29591,7 +29595,7 @@ def decrypt_espearo():
         #print(fkey, ' -*@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29605,7 +29609,7 @@ def decrypt_especroc():
         #print(fkey, ' -*[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29619,7 +29623,7 @@ def decrypt_espebsl():
         #print(fkey, ' -*\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29633,7 +29637,7 @@ def decrypt_especirc():
         #print(fkey, ' -*^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29647,7 +29651,7 @@ def decrypt_espeesp():
         #print(fkey, ' -*`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29661,7 +29665,7 @@ def decrypt_especr():
         #print(fkey, ' -*{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29675,7 +29679,7 @@ def decrypt_espehl():
         #print(fkey, ' -*|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29689,7 +29693,7 @@ def decrypt_espetild():
         #print(fkey, ' -*~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29703,7 +29707,7 @@ def decrypt_vira():
         #print(fkey, ' -,a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29717,7 +29721,7 @@ def decrypt_virb():
         #print(fkey, ' -,b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29731,7 +29735,7 @@ def decrypt_vird():
         #print(fkey, ' -,d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29745,7 +29749,7 @@ def decrypt_virf():
         #print(fkey, ' -,f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29759,7 +29763,7 @@ def decrypt_virh():
         #print(fkey, ' -,h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29773,7 +29777,7 @@ def decrypt_virj():
         #print(fkey, ' -,j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29787,7 +29791,7 @@ def decrypt_virl():
         #print(fkey, ' -,l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29801,7 +29805,7 @@ def decrypt_virn():
         #print(fkey, ' -,n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29815,7 +29819,7 @@ def decrypt_virp():
         #print(fkey, ' -,p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29829,7 +29833,7 @@ def decrypt_virr():
         #print(fkey, ' -,r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29843,7 +29847,7 @@ def decrypt_virt():
         #print(fkey, ' -,t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29857,7 +29861,7 @@ def decrypt_virv():
         #print(fkey, ' -,v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29871,7 +29875,7 @@ def decrypt_virx():
         #print(fkey, ' -,x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29885,7 +29889,7 @@ def decrypt_virz():
         #print(fkey, ' -,z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29899,7 +29903,7 @@ def decrypt_virA():
         #print(fkey, ' -,A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29913,7 +29917,7 @@ def decrypt_virB():
         #print(fkey, ' -,B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29927,7 +29931,7 @@ def decrypt_virD():
         #print(fkey, ' -,D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29941,7 +29945,7 @@ def decrypt_virF():
         #print(fkey, ' -,F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29955,7 +29959,7 @@ def decrypt_virH():
         #print(fkey, ' -,H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29969,7 +29973,7 @@ def decrypt_virJ():
         #print(fkey, ' -,J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29983,7 +29987,7 @@ def decrypt_virL():
         #print(fkey, ' -,L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -29997,7 +30001,7 @@ def decrypt_virN():
         #print(fkey, ' -,N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30011,7 +30015,7 @@ def decrypt_virP():
         #print(fkey, ' -,P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30025,7 +30029,7 @@ def decrypt_virR():
         #print(fkey, ' -,R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30039,7 +30043,7 @@ def decrypt_virT():
         #print(fkey, ' -,T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30053,7 +30057,7 @@ def decrypt_virV():
         #print(fkey, ' -,V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30067,7 +30071,7 @@ def decrypt_virX():
         #print(fkey, ' -,X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30081,7 +30085,7 @@ def decrypt_virZ():
         #print(fkey, ' -,Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30095,7 +30099,7 @@ def decrypt_vir0():
         #print(fkey, ' -,0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30109,7 +30113,7 @@ def decrypt_vir2():
         #print(fkey, ' -,2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30123,7 +30127,7 @@ def decrypt_vir4():
         #print(fkey, ' -,4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30137,7 +30141,7 @@ def decrypt_vir6():
         #print(fkey, ' -,6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30151,7 +30155,7 @@ def decrypt_vir8():
         #print(fkey, ' -,8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30165,7 +30169,7 @@ def decrypt_virexcl():
         #print(fkey, ' -,!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30179,7 +30183,7 @@ def decrypt_virdquote():
         #print(fkey, ' -,"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30193,7 +30197,7 @@ def decrypt_virdoll():
         #print(fkey, ' -,$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30207,7 +30211,7 @@ def decrypt_virand():
         #print(fkey, ' -,&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30221,7 +30225,7 @@ def decrypt_virquote():
         #print(fkey, ' -,\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30235,7 +30239,7 @@ def decrypt_virpar():
         #print(fkey, ' -vir(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30249,7 +30253,7 @@ def decrypt_virast():
         #print(fkey, ' -,*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30263,7 +30267,7 @@ def decrypt_virvir():
         #print(fkey, ' -,,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30277,7 +30281,7 @@ def decrypt_virpp():
         #print(fkey, ' -,.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30291,7 +30295,7 @@ def decrypt_virtp():
         #print(fkey, ' -,:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30305,7 +30309,7 @@ def decrypt_virless():
         #print(fkey, ' -,<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30319,7 +30323,7 @@ def decrypt_virmore():
         #print(fkey, ' -,>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30333,7 +30337,7 @@ def decrypt_viraro():
         #print(fkey, ' -,@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30347,7 +30351,7 @@ def decrypt_vircroc():
         #print(fkey, ' -,[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30361,7 +30365,7 @@ def decrypt_virbsl():
         #print(fkey, ' -,\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30375,7 +30379,7 @@ def decrypt_vircirc():
         #print(fkey, ' -,^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30389,7 +30393,7 @@ def decrypt_viresp():
         #print(fkey, ' -,`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30403,7 +30407,7 @@ def decrypt_vircr():
         #print(fkey, ' -,{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30417,7 +30421,7 @@ def decrypt_virhl():
         #print(fkey, ' -,|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30431,7 +30435,7 @@ def decrypt_virtild():
         #print(fkey, ' -,~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30445,7 +30449,7 @@ def decrypt_poina():
         #print(fkey, ' -.a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30459,7 +30463,7 @@ def decrypt_poinb():
         #print(fkey, ' -.b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30473,7 +30477,7 @@ def decrypt_poind():
         #print(fkey, ' -.d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30487,7 +30491,7 @@ def decrypt_poinf():
         #print(fkey, ' -.f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30501,7 +30505,7 @@ def decrypt_poinh():
         #print(fkey, ' -.h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30515,7 +30519,7 @@ def decrypt_poinj():
         #print(fkey, ' -.j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30529,7 +30533,7 @@ def decrypt_poinl():
         #print(fkey, ' -.l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30543,7 +30547,7 @@ def decrypt_poinn():
         #print(fkey, ' -.n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30557,7 +30561,7 @@ def decrypt_poinp():
         #print(fkey, ' -.p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30571,7 +30575,7 @@ def decrypt_poinr():
         #print(fkey, ' -.r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30585,7 +30589,7 @@ def decrypt_point():
         #print(fkey, ' -.t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30599,7 +30603,7 @@ def decrypt_poinv():
         #print(fkey, ' -.v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30613,7 +30617,7 @@ def decrypt_poinx():
         #print(fkey, ' -.x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30627,7 +30631,7 @@ def decrypt_poinz():
         #print(fkey, ' -.z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30641,7 +30645,7 @@ def decrypt_poinA():
         #print(fkey, ' -.A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30655,7 +30659,7 @@ def decrypt_poinB():
         #print(fkey, ' -.B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30669,7 +30673,7 @@ def decrypt_poinD():
         #print(fkey, ' -.D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30683,7 +30687,7 @@ def decrypt_poinF():
         #print(fkey, ' -.F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30697,7 +30701,7 @@ def decrypt_poinH():
         #print(fkey, ' -.H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30711,7 +30715,7 @@ def decrypt_poinJ():
         #print(fkey, ' -.J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30725,7 +30729,7 @@ def decrypt_poinL():
         #print(fkey, ' -.L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30739,7 +30743,7 @@ def decrypt_poinN():
         #print(fkey, ' -.N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30753,7 +30757,7 @@ def decrypt_poinP():
         #print(fkey, ' -.P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30767,7 +30771,7 @@ def decrypt_poinR():
         #print(fkey, ' -.R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30781,7 +30785,7 @@ def decrypt_poinT():
         #print(fkey, ' -.T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30795,7 +30799,7 @@ def decrypt_poinV():
         #print(fkey, ' -.V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30809,7 +30813,7 @@ def decrypt_poinX():
         #print(fkey, ' -.X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30823,7 +30827,7 @@ def decrypt_poinZ():
         #print(fkey, ' -.Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30837,7 +30841,7 @@ def decrypt_poin0():
         #print(fkey, ' -.0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30851,7 +30855,7 @@ def decrypt_poin2():
         #print(fkey, ' -.2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30865,7 +30869,7 @@ def decrypt_poin4():
         #print(fkey, ' -.4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30879,7 +30883,7 @@ def decrypt_poin6():
         #print(fkey, ' -.6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30893,7 +30897,7 @@ def decrypt_poin8():
         #print(fkey, ' -.8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30907,7 +30911,7 @@ def decrypt_poinexcl():
         #print(fkey, ' -.!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30921,7 +30925,7 @@ def decrypt_poindquote():
         #print(fkey, ' -."')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30935,7 +30939,7 @@ def decrypt_poindoll():
         #print(fkey, ' -.$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30949,7 +30953,7 @@ def decrypt_poinand():
         #print(fkey, ' -.&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30963,7 +30967,7 @@ def decrypt_poinquote():
         #print(fkey, ' -.\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30977,7 +30981,7 @@ def decrypt_pppar():
         #print(fkey, ' -pp(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -30991,7 +30995,7 @@ def decrypt_poinast():
         #print(fkey, ' -.*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31005,7 +31009,7 @@ def decrypt_poinvir():
         #print(fkey, ' -.,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31019,7 +31023,7 @@ def decrypt_poinpp():
         #print(fkey, ' -..')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31033,7 +31037,7 @@ def decrypt_pointp():
         #print(fkey, ' -.:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31047,7 +31051,7 @@ def decrypt_poinless():
         #print(fkey, ' -.<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31061,7 +31065,7 @@ def decrypt_poinmore():
         #print(fkey, ' -.>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31075,7 +31079,7 @@ def decrypt_poinaro():
         #print(fkey, ' -.@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31089,7 +31093,7 @@ def decrypt_poincroc():
         #print(fkey, ' -.[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31103,7 +31107,7 @@ def decrypt_poinbsl():
         #print(fkey, ' -.\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31117,7 +31121,7 @@ def decrypt_poincirc():
         #print(fkey, ' -.^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31131,7 +31135,7 @@ def decrypt_poinesp():
         #print(fkey, ' -.`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31145,7 +31149,7 @@ def decrypt_poincr():
         #print(fkey, ' -.{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31159,7 +31163,7 @@ def decrypt_poinhl():
         #print(fkey, ' -.|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31173,7 +31177,7 @@ def decrypt_pointild():
         #print(fkey, ' -.~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31187,7 +31191,7 @@ def decrypt_doubpoina():
         #print(fkey, ' -:a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31201,7 +31205,7 @@ def decrypt_doubpoinb():
         #print(fkey, ' -:b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31215,7 +31219,7 @@ def decrypt_doubpoind():
         #print(fkey, ' -:d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31229,7 +31233,7 @@ def decrypt_doubpoinf():
         #print(fkey, ' -:f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31243,7 +31247,7 @@ def decrypt_doubpoinh():
         #print(fkey, ' -:h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31257,7 +31261,7 @@ def decrypt_doubpoinj():
         #print(fkey, ' -:j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31271,7 +31275,7 @@ def decrypt_doubpoinl():
         #print(fkey, ' -:l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31285,7 +31289,7 @@ def decrypt_doubpoinn():
         #print(fkey, ' -:n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31299,7 +31303,7 @@ def decrypt_doubpoinp():
         #print(fkey, ' -:p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31313,7 +31317,7 @@ def decrypt_doubpoinr():
         #print(fkey, ' -:r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31327,7 +31331,7 @@ def decrypt_doubpoint():
         #print(fkey, ' -:t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31341,7 +31345,7 @@ def decrypt_doubpoinv():
         #print(fkey, ' -:v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31355,7 +31359,7 @@ def decrypt_doubpoinx():
         #print(fkey, ' -:x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31369,7 +31373,7 @@ def decrypt_doubpoinz():
         #print(fkey, ' -:z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31383,7 +31387,7 @@ def decrypt_doubpoinA():
         #print(fkey, ' -:A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31397,7 +31401,7 @@ def decrypt_doubpoinB():
         #print(fkey, ' -:B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31411,7 +31415,7 @@ def decrypt_doubpoinD():
         #print(fkey, ' -:D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31425,7 +31429,7 @@ def decrypt_doubpoinF():
         #print(fkey, ' -:F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31439,7 +31443,7 @@ def decrypt_doubpoinH():
         #print(fkey, ' -:H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31453,7 +31457,7 @@ def decrypt_doubpoinJ():
         #print(fkey, ' -:J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31467,7 +31471,7 @@ def decrypt_doubpoinL():
         #print(fkey, ' -:L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31481,7 +31485,7 @@ def decrypt_doubpoinN():
         #print(fkey, ' -:N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31495,7 +31499,7 @@ def decrypt_doubpoinP():
         #print(fkey, ' -:P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31509,7 +31513,7 @@ def decrypt_doubpoinR():
         #print(fkey, ' -:R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31523,7 +31527,7 @@ def decrypt_doubpoinT():
         #print(fkey, ' -:T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31537,7 +31541,7 @@ def decrypt_doubpoinV():
         #print(fkey, ' -:V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31551,7 +31555,7 @@ def decrypt_doubpoinX():
         #print(fkey, ' -:X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31565,7 +31569,7 @@ def decrypt_doubpoinZ():
         #print(fkey, ' -:Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31579,7 +31583,7 @@ def decrypt_doubpoin0():
         #print(fkey, ' -:0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31593,7 +31597,7 @@ def decrypt_doubpoin2():
         #print(fkey, ' -:2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31607,7 +31611,7 @@ def decrypt_doubpoin4():
         #print(fkey, ' -:4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31621,7 +31625,7 @@ def decrypt_doubpoin6():
         #print(fkey, ' -:6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31635,7 +31639,7 @@ def decrypt_doubpoin8():
         #print(fkey, ' -:8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31649,7 +31653,7 @@ def decrypt_doubpoinexcl():
         #print(fkey, ' -:!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31663,7 +31667,7 @@ def decrypt_doubpoindquote():
         #print(fkey, ' -:"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31677,7 +31681,7 @@ def decrypt_doubpoindoll():
         #print(fkey, ' -:$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31691,7 +31695,7 @@ def decrypt_doubpoinand():
         #print(fkey, ' -:&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31705,7 +31709,7 @@ def decrypt_doubpoinquote():
         #print(fkey, ' -:\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31719,7 +31723,7 @@ def decrypt_tppar():
         #print(fkey, ' -tp(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31733,7 +31737,7 @@ def decrypt_doubpoinast():
         #print(fkey, ' -:*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31747,7 +31751,7 @@ def decrypt_doubpoinvir():
         #print(fkey, ' -:,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31761,7 +31765,7 @@ def decrypt_doubpoinpp():
         #print(fkey, ' -:.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31775,7 +31779,7 @@ def decrypt_doubpointp():
         #print(fkey, ' -::')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31789,7 +31793,7 @@ def decrypt_doubpoinless():
         #print(fkey, ' -:<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31803,7 +31807,7 @@ def decrypt_doubpoinmore():
         #print(fkey, ' -:>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31817,7 +31821,7 @@ def decrypt_doubpoinaro():
         #print(fkey, ' -:@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31831,7 +31835,7 @@ def decrypt_doubpoincroc():
         #print(fkey, ' -:[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31845,7 +31849,7 @@ def decrypt_doubpoinbsl():
         #print(fkey, ' -:\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31859,7 +31863,7 @@ def decrypt_doubpoincirc():
         #print(fkey, ' -:^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31873,7 +31877,7 @@ def decrypt_doubpoinesp():
         #print(fkey, ' -:`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31887,7 +31891,7 @@ def decrypt_doubpoincr():
         #print(fkey, ' -:{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31901,7 +31905,7 @@ def decrypt_doubpoinhl():
         #print(fkey, ' -:|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31915,7 +31919,7 @@ def decrypt_doubpointild():
         #print(fkey, ' -:~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31929,7 +31933,7 @@ def decrypt_lessa():
         #print(fkey, ' -<a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31943,7 +31947,7 @@ def decrypt_lessb():
         #print(fkey, ' -<b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31957,7 +31961,7 @@ def decrypt_lessd():
         #print(fkey, ' -<d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31971,7 +31975,7 @@ def decrypt_lessf():
         #print(fkey, ' -<f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31985,7 +31989,7 @@ def decrypt_lessh():
         #print(fkey, ' -<h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -31999,7 +32003,7 @@ def decrypt_lessj():
         #print(fkey, ' -<j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32013,7 +32017,7 @@ def decrypt_lessl():
         #print(fkey, ' -<l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32027,7 +32031,7 @@ def decrypt_lessn():
         #print(fkey, ' -<n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32041,7 +32045,7 @@ def decrypt_lessp():
         #print(fkey, ' -<p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32055,7 +32059,7 @@ def decrypt_lessr():
         #print(fkey, ' -<r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32069,7 +32073,7 @@ def decrypt_lesst():
         #print(fkey, ' -<t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32083,7 +32087,7 @@ def decrypt_lessv():
         #print(fkey, ' -<v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32097,7 +32101,7 @@ def decrypt_lessx():
         #print(fkey, ' -<x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32111,7 +32115,7 @@ def decrypt_lessz():
         #print(fkey, ' -<z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32125,7 +32129,7 @@ def decrypt_lessA():
         #print(fkey, ' -<A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32139,7 +32143,7 @@ def decrypt_lessB():
         #print(fkey, ' -<B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32153,7 +32157,7 @@ def decrypt_lessD():
         #print(fkey, ' -<D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32167,7 +32171,7 @@ def decrypt_lessF():
         #print(fkey, ' -<F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32181,7 +32185,7 @@ def decrypt_lessH():
         #print(fkey, ' -<H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32195,7 +32199,7 @@ def decrypt_lessJ():
         #print(fkey, ' -<J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32209,7 +32213,7 @@ def decrypt_lessL():
         #print(fkey, ' -<L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32223,7 +32227,7 @@ def decrypt_lessN():
         #print(fkey, ' -<N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32237,7 +32241,7 @@ def decrypt_lessP():
         #print(fkey, ' -<P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32251,7 +32255,7 @@ def decrypt_lessR():
         #print(fkey, ' -<R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32265,7 +32269,7 @@ def decrypt_lessT():
         #print(fkey, ' -<T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32279,7 +32283,7 @@ def decrypt_lessV():
         #print(fkey, ' -<V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32293,7 +32297,7 @@ def decrypt_lessX():
         #print(fkey, ' -<X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32307,7 +32311,7 @@ def decrypt_lessZ():
         #print(fkey, ' -<Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32321,7 +32325,7 @@ def decrypt_less0():
         #print(fkey, ' -<0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32335,7 +32339,7 @@ def decrypt_less2():
         #print(fkey, ' -<2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32349,7 +32353,7 @@ def decrypt_less4():
         #print(fkey, ' -<4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32363,7 +32367,7 @@ def decrypt_less6():
         #print(fkey, ' -<6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32377,7 +32381,7 @@ def decrypt_less8():
         #print(fkey, ' -<8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32391,7 +32395,7 @@ def decrypt_lessexcl():
         #print(fkey, ' -<!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32405,7 +32409,7 @@ def decrypt_lessdquote():
         #print(fkey, ' -<"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32419,7 +32423,7 @@ def decrypt_lessdoll():
         #print(fkey, ' -<$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32433,7 +32437,7 @@ def decrypt_lessand():
         #print(fkey, ' -<&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32447,7 +32451,7 @@ def decrypt_lessquote():
         #print(fkey, ' -<\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32461,7 +32465,7 @@ def decrypt_morepar():
         #print(fkey, ' -less(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32475,7 +32479,7 @@ def decrypt_lessast():
         #print(fkey, ' -<*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32489,7 +32493,7 @@ def decrypt_lessvir():
         #print(fkey, ' -<,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32503,7 +32507,7 @@ def decrypt_lesspp():
         #print(fkey, ' -<.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32517,7 +32521,7 @@ def decrypt_lesstp():
         #print(fkey, ' -<:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32531,7 +32535,7 @@ def decrypt_lessless():
         #print(fkey, ' -<<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32545,7 +32549,7 @@ def decrypt_lessmore():
         #print(fkey, ' -<>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32559,7 +32563,7 @@ def decrypt_lessaro():
         #print(fkey, ' -<@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32573,7 +32577,7 @@ def decrypt_lesscroc():
         #print(fkey, ' -<[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32587,7 +32591,7 @@ def decrypt_lessbsl():
         #print(fkey, ' -<\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32601,7 +32605,7 @@ def decrypt_lesscirc():
         #print(fkey, ' -<^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32615,7 +32619,7 @@ def decrypt_lessesp():
         #print(fkey, ' -<`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32629,7 +32633,7 @@ def decrypt_lesscr():
         #print(fkey, ' -<{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32643,7 +32647,7 @@ def decrypt_lesshl():
         #print(fkey, ' -<|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32657,7 +32661,7 @@ def decrypt_lesstild():
         #print(fkey, ' -<~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32671,7 +32675,7 @@ def decrypt_morea():
         #print(fkey, ' ->a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32685,7 +32689,7 @@ def decrypt_moreb():
         #print(fkey, ' ->b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32699,7 +32703,7 @@ def decrypt_mored():
         #print(fkey, ' ->d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32713,7 +32717,7 @@ def decrypt_moref():
         #print(fkey, ' ->f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32727,7 +32731,7 @@ def decrypt_moreh():
         #print(fkey, ' ->h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32741,7 +32745,7 @@ def decrypt_morej():
         #print(fkey, ' ->j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32755,7 +32759,7 @@ def decrypt_morel():
         #print(fkey, ' ->l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32769,7 +32773,7 @@ def decrypt_moren():
         #print(fkey, ' ->n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32783,7 +32787,7 @@ def decrypt_morep():
         #print(fkey, ' ->p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32797,7 +32801,7 @@ def decrypt_morer():
         #print(fkey, ' ->r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32811,7 +32815,7 @@ def decrypt_moret():
         #print(fkey, ' ->t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32825,7 +32829,7 @@ def decrypt_morev():
         #print(fkey, ' ->v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32839,7 +32843,7 @@ def decrypt_morex():
         #print(fkey, ' ->x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32853,7 +32857,7 @@ def decrypt_morez():
         #print(fkey, ' ->z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32867,7 +32871,7 @@ def decrypt_moreA():
         #print(fkey, ' ->A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32881,7 +32885,7 @@ def decrypt_moreB():
         #print(fkey, ' ->B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32895,7 +32899,7 @@ def decrypt_moreD():
         #print(fkey, ' ->D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32909,7 +32913,7 @@ def decrypt_moreF():
         #print(fkey, ' ->F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32923,7 +32927,7 @@ def decrypt_moreH():
         #print(fkey, ' ->H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32937,7 +32941,7 @@ def decrypt_moreJ():
         #print(fkey, ' ->J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32951,7 +32955,7 @@ def decrypt_moreL():
         #print(fkey, ' ->L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32965,7 +32969,7 @@ def decrypt_moreN():
         #print(fkey, ' ->N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32979,7 +32983,7 @@ def decrypt_moreP():
         #print(fkey, ' ->P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -32993,7 +32997,7 @@ def decrypt_moreR():
         #print(fkey, ' ->R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33007,7 +33011,7 @@ def decrypt_moreT():
         #print(fkey, ' ->T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33021,7 +33025,7 @@ def decrypt_moreV():
         #print(fkey, ' ->V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33035,7 +33039,7 @@ def decrypt_moreX():
         #print(fkey, ' ->X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33049,7 +33053,7 @@ def decrypt_moreZ():
         #print(fkey, ' ->Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33063,7 +33067,7 @@ def decrypt_more0():
         #print(fkey, ' ->0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33077,7 +33081,7 @@ def decrypt_more2():
         #print(fkey, ' ->2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33091,7 +33095,7 @@ def decrypt_more4():
         #print(fkey, ' ->4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33105,7 +33109,7 @@ def decrypt_more6():
         #print(fkey, ' ->6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33119,7 +33123,7 @@ def decrypt_more8():
         #print(fkey, ' ->8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33133,7 +33137,7 @@ def decrypt_moreexcl():
         #print(fkey, ' ->!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33147,7 +33151,7 @@ def decrypt_moredquote():
         #print(fkey, ' ->"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33161,7 +33165,7 @@ def decrypt_moredoll():
         #print(fkey, ' ->$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33175,7 +33179,7 @@ def decrypt_moreand():
         #print(fkey, ' ->&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33189,7 +33193,7 @@ def decrypt_morequote():
         #print(fkey, ' ->\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33203,7 +33207,7 @@ def decrypt_lesspar():
         #print(fkey, ' -more(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33217,7 +33221,7 @@ def decrypt_moreast():
         #print(fkey, ' ->*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33231,7 +33235,7 @@ def decrypt_morevir():
         #print(fkey, ' ->,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33245,7 +33249,7 @@ def decrypt_morepp():
         #print(fkey, ' ->.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33259,7 +33263,7 @@ def decrypt_moretp():
         #print(fkey, ' ->:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33273,7 +33277,7 @@ def decrypt_moreless():
         #print(fkey, ' -><')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33287,7 +33291,7 @@ def decrypt_moremore():
         #print(fkey, ' ->>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33301,7 +33305,7 @@ def decrypt_morearo():
         #print(fkey, ' ->@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33315,7 +33319,7 @@ def decrypt_morecroc():
         #print(fkey, ' ->[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33329,7 +33333,7 @@ def decrypt_morebsl():
         #print(fkey, ' ->\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33343,7 +33347,7 @@ def decrypt_morecirc():
         #print(fkey, ' ->^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33357,7 +33361,7 @@ def decrypt_moreesp():
         #print(fkey, ' ->`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33371,7 +33375,7 @@ def decrypt_morecr():
         #print(fkey, ' ->{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33385,7 +33389,7 @@ def decrypt_morehl():
         #print(fkey, ' ->|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33399,7 +33403,7 @@ def decrypt_moretild():
         #print(fkey, ' ->~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33413,7 +33417,7 @@ def decrypt_arobasa():
         #print(fkey, ' -@a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33427,7 +33431,7 @@ def decrypt_arobasb():
         #print(fkey, ' -@b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33441,7 +33445,7 @@ def decrypt_arobasd():
         #print(fkey, ' -@d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33455,7 +33459,7 @@ def decrypt_arobasf():
         #print(fkey, ' -@f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33469,7 +33473,7 @@ def decrypt_arobash():
         #print(fkey, ' -@h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33483,7 +33487,7 @@ def decrypt_arobasj():
         #print(fkey, ' -@j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33497,7 +33501,7 @@ def decrypt_arobasl():
         #print(fkey, ' -@l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33511,7 +33515,7 @@ def decrypt_arobasn():
         #print(fkey, ' -@n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33525,7 +33529,7 @@ def decrypt_arobasp():
         #print(fkey, ' -@p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33539,7 +33543,7 @@ def decrypt_arobasr():
         #print(fkey, ' -@r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33553,7 +33557,7 @@ def decrypt_arobast():
         #print(fkey, ' -@t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33567,7 +33571,7 @@ def decrypt_arobasv():
         #print(fkey, ' -@v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33581,7 +33585,7 @@ def decrypt_arobasx():
         #print(fkey, ' -@x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33595,7 +33599,7 @@ def decrypt_arobasz():
         #print(fkey, ' -@z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33609,7 +33613,7 @@ def decrypt_arobasA():
         #print(fkey, ' -@A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33623,7 +33627,7 @@ def decrypt_arobasB():
         #print(fkey, ' -@B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33637,7 +33641,7 @@ def decrypt_arobasD():
         #print(fkey, ' -@D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33651,7 +33655,7 @@ def decrypt_arobasF():
         #print(fkey, ' -@F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33665,7 +33669,7 @@ def decrypt_arobasH():
         #print(fkey, ' -@H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33679,7 +33683,7 @@ def decrypt_arobasJ():
         #print(fkey, ' -@J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33693,7 +33697,7 @@ def decrypt_arobasL():
         #print(fkey, ' -@L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33707,7 +33711,7 @@ def decrypt_arobasN():
         #print(fkey, ' -@N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33721,7 +33725,7 @@ def decrypt_arobasP():
         #print(fkey, ' -@P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33735,7 +33739,7 @@ def decrypt_arobasR():
         #print(fkey, ' -@R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33749,7 +33753,7 @@ def decrypt_arobasT():
         #print(fkey, ' -@T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33763,7 +33767,7 @@ def decrypt_arobasV():
         #print(fkey, ' -@V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33777,7 +33781,7 @@ def decrypt_arobasX():
         #print(fkey, ' -@X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33791,7 +33795,7 @@ def decrypt_arobasZ():
         #print(fkey, ' -@Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33805,7 +33809,7 @@ def decrypt_arobas0():
         #print(fkey, ' -@0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33819,7 +33823,7 @@ def decrypt_arobas2():
         #print(fkey, ' -@2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33833,7 +33837,7 @@ def decrypt_arobas4():
         #print(fkey, ' -@4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33847,7 +33851,7 @@ def decrypt_arobas6():
         #print(fkey, ' -@6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33861,7 +33865,7 @@ def decrypt_arobas8():
         #print(fkey, ' -@8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33875,7 +33879,7 @@ def decrypt_arobasexcl():
         #print(fkey, ' -@!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33889,7 +33893,7 @@ def decrypt_arobasdquote():
         #print(fkey, ' -@"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33903,7 +33907,7 @@ def decrypt_arobasdoll():
         #print(fkey, ' -@$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33917,7 +33921,7 @@ def decrypt_arobasand():
         #print(fkey, ' -@&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33931,7 +33935,7 @@ def decrypt_arobasquote():
         #print(fkey, ' -@\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33945,7 +33949,7 @@ def decrypt_aropar():
         #print(fkey, ' -aro(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33959,7 +33963,7 @@ def decrypt_arobasast():
         #print(fkey, ' -@*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33973,7 +33977,7 @@ def decrypt_arobasvir():
         #print(fkey, ' -@,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -33987,7 +33991,7 @@ def decrypt_arobaspp():
         #print(fkey, ' -@.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34001,7 +34005,7 @@ def decrypt_arobastp():
         #print(fkey, ' -@:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34015,7 +34019,7 @@ def decrypt_arobasless():
         #print(fkey, ' -@<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34029,7 +34033,7 @@ def decrypt_arobasmore():
         #print(fkey, ' -@>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34043,7 +34047,7 @@ def decrypt_arobasaro():
         #print(fkey, ' -@@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34057,7 +34061,7 @@ def decrypt_arobascroc():
         #print(fkey, ' -@[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34071,7 +34075,7 @@ def decrypt_arobasbsl():
         #print(fkey, ' -@\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34085,7 +34089,7 @@ def decrypt_arobascirc():
         #print(fkey, ' -@^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34099,7 +34103,7 @@ def decrypt_arobasesp():
         #print(fkey, ' -@`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34113,7 +34117,7 @@ def decrypt_arobascr():
         #print(fkey, ' -@{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34127,7 +34131,7 @@ def decrypt_arobashl():
         #print(fkey, ' -@|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34141,7 +34145,7 @@ def decrypt_arobastild():
         #print(fkey, ' -@~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34155,7 +34159,7 @@ def decrypt_crocha():
         #print(fkey, ' -[a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34169,7 +34173,7 @@ def decrypt_crochb():
         #print(fkey, ' -[b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34183,7 +34187,7 @@ def decrypt_crochd():
         #print(fkey, ' -[d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34197,7 +34201,7 @@ def decrypt_crochf():
         #print(fkey, ' -[f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34211,7 +34215,7 @@ def decrypt_crochh():
         #print(fkey, ' -[h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34225,7 +34229,7 @@ def decrypt_crochj():
         #print(fkey, ' -[j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34239,7 +34243,7 @@ def decrypt_crochl():
         #print(fkey, ' -[l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34253,7 +34257,7 @@ def decrypt_crochn():
         #print(fkey, ' -[n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34267,7 +34271,7 @@ def decrypt_crochp():
         #print(fkey, ' -[p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34281,7 +34285,7 @@ def decrypt_crochr():
         #print(fkey, ' -[r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34295,7 +34299,7 @@ def decrypt_crocht():
         #print(fkey, ' -[t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34309,7 +34313,7 @@ def decrypt_crochv():
         #print(fkey, ' -[v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34323,7 +34327,7 @@ def decrypt_crochx():
         #print(fkey, ' -[x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34337,7 +34341,7 @@ def decrypt_crochz():
         #print(fkey, ' -[z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34351,7 +34355,7 @@ def decrypt_crochA():
         #print(fkey, ' -[A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34365,7 +34369,7 @@ def decrypt_crochB():
         #print(fkey, ' -[B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34379,7 +34383,7 @@ def decrypt_crochD():
         #print(fkey, ' -[D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34393,7 +34397,7 @@ def decrypt_crochF():
         #print(fkey, ' -[F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34407,7 +34411,7 @@ def decrypt_crochH():
         #print(fkey, ' -[H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34421,7 +34425,7 @@ def decrypt_crochJ():
         #print(fkey, ' -[J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34435,7 +34439,7 @@ def decrypt_crochL():
         #print(fkey, ' -[L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34449,7 +34453,7 @@ def decrypt_crochN():
         #print(fkey, ' -[N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34463,7 +34467,7 @@ def decrypt_crochP():
         #print(fkey, ' -[P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34477,7 +34481,7 @@ def decrypt_crochR():
         #print(fkey, ' -[R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34491,7 +34495,7 @@ def decrypt_crochT():
         #print(fkey, ' -[T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34505,7 +34509,7 @@ def decrypt_crochV():
         #print(fkey, ' -[V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34519,7 +34523,7 @@ def decrypt_crochX():
         #print(fkey, ' -[X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34533,7 +34537,7 @@ def decrypt_crochZ():
         #print(fkey, ' -[Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34547,7 +34551,7 @@ def decrypt_croch0():
         #print(fkey, ' -[0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34561,7 +34565,7 @@ def decrypt_croch2():
         #print(fkey, ' -[2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34575,7 +34579,7 @@ def decrypt_croch4():
         #print(fkey, ' -[4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34589,7 +34593,7 @@ def decrypt_croch6():
         #print(fkey, ' -[6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34603,7 +34607,7 @@ def decrypt_croch8():
         #print(fkey, ' -[8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34617,7 +34621,7 @@ def decrypt_crochexcl():
         #print(fkey, ' -[!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34631,7 +34635,7 @@ def decrypt_crochdquote():
         #print(fkey, ' -["')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34645,7 +34649,7 @@ def decrypt_crochdoll():
         #print(fkey, ' -[$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34659,7 +34663,7 @@ def decrypt_crochand():
         #print(fkey, ' -[&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34673,7 +34677,7 @@ def decrypt_crochquote():
         #print(fkey, ' -[\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34687,7 +34691,7 @@ def decrypt_crocpar():
         #print(fkey, ' -croc(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34701,7 +34705,7 @@ def decrypt_crochast():
         #print(fkey, ' -[*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34715,7 +34719,7 @@ def decrypt_crochvir():
         #print(fkey, ' -[,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34729,7 +34733,7 @@ def decrypt_crochpp():
         #print(fkey, ' -[.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34743,7 +34747,7 @@ def decrypt_crochtp():
         #print(fkey, ' -[:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34757,7 +34761,7 @@ def decrypt_crochless():
         #print(fkey, ' -[<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34771,7 +34775,7 @@ def decrypt_crochmore():
         #print(fkey, ' -[>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34785,7 +34789,7 @@ def decrypt_crocharo():
         #print(fkey, ' -[@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34799,7 +34803,7 @@ def decrypt_crochcroc():
         #print(fkey, ' -[[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34813,7 +34817,7 @@ def decrypt_crochbsl():
         #print(fkey, ' -[\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34827,7 +34831,7 @@ def decrypt_crochcirc():
         #print(fkey, ' -[^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34841,7 +34845,7 @@ def decrypt_crochesp():
         #print(fkey, ' -[`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34855,7 +34859,7 @@ def decrypt_crochcr():
         #print(fkey, ' -[{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34869,7 +34873,7 @@ def decrypt_crochhl():
         #print(fkey, ' -[|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34883,7 +34887,7 @@ def decrypt_crochtild():
         #print(fkey, ' -[~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34897,7 +34901,7 @@ def decrypt_bsa():
         #print(fkey, ' -\a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34911,7 +34915,7 @@ def decrypt_bsb():
         #print(fkey, ' -\b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34925,7 +34929,7 @@ def decrypt_bsd():
         #print(fkey, ' -\d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34939,7 +34943,7 @@ def decrypt_bsf():
         #print(fkey, ' -\f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34953,7 +34957,7 @@ def decrypt_bsh():
         #print(fkey, ' -\h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34967,7 +34971,7 @@ def decrypt_bsj():
         #print(fkey, ' -\j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34981,7 +34985,7 @@ def decrypt_bsl():
         #print(fkey, ' -\l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -34995,7 +34999,7 @@ def decrypt_bsn():
         #print(fkey, ' -\n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35009,7 +35013,7 @@ def decrypt_bsp():
         #print(fkey, ' -\p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35023,7 +35027,7 @@ def decrypt_bsr():
         #print(fkey, ' -\r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35037,7 +35041,7 @@ def decrypt_bst():
         #print(fkey, ' -\t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35051,7 +35055,7 @@ def decrypt_bsv():
         #print(fkey, ' -\v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35065,7 +35069,7 @@ def decrypt_bsx():
         #print(fkey, ' -\\x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35079,7 +35083,7 @@ def decrypt_bsz():
         #print(fkey, ' -\z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35093,7 +35097,7 @@ def decrypt_bsA():
         #print(fkey, ' -\A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35107,7 +35111,7 @@ def decrypt_bsB():
         #print(fkey, ' -\B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35121,7 +35125,7 @@ def decrypt_bsD():
         #print(fkey, ' -\D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35135,7 +35139,7 @@ def decrypt_bsF():
         #print(fkey, ' -\F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35149,7 +35153,7 @@ def decrypt_bsH():
         #print(fkey, ' -\H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35163,7 +35167,7 @@ def decrypt_bsJ():
         #print(fkey, ' -\J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35177,7 +35181,7 @@ def decrypt_bsL():
         #print(fkey, ' -\L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35191,7 +35195,7 @@ def decrypt_bsN():
         #print(fkey, ' -\\N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35205,7 +35209,7 @@ def decrypt_bsP():
         #print(fkey, ' -\P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35219,7 +35223,7 @@ def decrypt_bsR():
         #print(fkey, ' -\R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35233,7 +35237,7 @@ def decrypt_bsT():
         #print(fkey, ' -\T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35247,7 +35251,7 @@ def decrypt_bsV():
         #print(fkey, ' -\V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35261,7 +35265,7 @@ def decrypt_bsX():
         #print(fkey, ' -\X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35275,7 +35279,7 @@ def decrypt_bsZ():
         #print(fkey, ' -\Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35289,7 +35293,7 @@ def decrypt_bs0():
         #print(fkey, ' -\0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35303,7 +35307,7 @@ def decrypt_bs2():
         #print(fkey, ' -\2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35317,7 +35321,7 @@ def decrypt_bs4():
         #print(fkey, ' -\4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35331,7 +35335,7 @@ def decrypt_bs6():
         #print(fkey, ' -\6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35345,7 +35349,7 @@ def decrypt_bs8():
         #print(fkey, ' -\8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35359,7 +35363,7 @@ def decrypt_bsexcl():
         #print(fkey, ' -\!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35373,7 +35377,7 @@ def decrypt_bsdquote():
         #print(fkey, ' -\"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35387,7 +35391,7 @@ def decrypt_bsdoll():
         #print(fkey, ' -\$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35401,7 +35405,7 @@ def decrypt_bsand():
         #print(fkey, ' -\&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35415,7 +35419,7 @@ def decrypt_bsquote():
         #print(fkey, ' -\\\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35429,7 +35433,7 @@ def decrypt_bslpar():
         #print(fkey, ' -bsl(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35443,7 +35447,7 @@ def decrypt_bsast():
         #print(fkey, ' -\*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35457,7 +35461,7 @@ def decrypt_bsvir():
         #print(fkey, ' -\,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35471,7 +35475,7 @@ def decrypt_bspp():
         #print(fkey, ' -\.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35485,7 +35489,7 @@ def decrypt_bstp():
         #print(fkey, ' -\:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35499,7 +35503,7 @@ def decrypt_bsless():
         #print(fkey, ' -\<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35513,7 +35517,7 @@ def decrypt_bsmore():
         #print(fkey, ' -\>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35527,7 +35531,7 @@ def decrypt_bsaro():
         #print(fkey, ' -\@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35541,7 +35545,7 @@ def decrypt_bscroc():
         #print(fkey, ' -\[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35555,7 +35559,7 @@ def decrypt_bsbsl():
         #print(fkey, ' -\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35569,7 +35573,7 @@ def decrypt_bscirc():
         #print(fkey, ' -\\^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35583,7 +35587,7 @@ def decrypt_bsesp():
         #print(fkey, ' -\`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35597,7 +35601,7 @@ def decrypt_bscr():
         #print(fkey, ' -\{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35611,7 +35615,7 @@ def decrypt_bshl():
         #print(fkey, ' -\|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35625,7 +35629,7 @@ def decrypt_bstild():
         #print(fkey, ' -\~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35639,7 +35643,7 @@ def decrypt_cira():
         #print(fkey, ' -^a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35653,7 +35657,7 @@ def decrypt_cirb():
         #print(fkey, ' -^b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35667,7 +35671,7 @@ def decrypt_cird():
         #print(fkey, ' -^d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35681,7 +35685,7 @@ def decrypt_cirf():
         #print(fkey, ' -^f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35695,7 +35699,7 @@ def decrypt_cirh():
         #print(fkey, ' -^h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35709,7 +35713,7 @@ def decrypt_cirj():
         #print(fkey, ' -^j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35723,7 +35727,7 @@ def decrypt_cirl():
         #print(fkey, ' -^l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35737,7 +35741,7 @@ def decrypt_cirn():
         #print(fkey, ' -^n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35751,7 +35755,7 @@ def decrypt_cirp():
         #print(fkey, ' -^p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35765,7 +35769,7 @@ def decrypt_cirr():
         #print(fkey, ' -^r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35779,7 +35783,7 @@ def decrypt_cirt():
         #print(fkey, ' -^t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35793,7 +35797,7 @@ def decrypt_cirv():
         #print(fkey, ' -^v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35807,7 +35811,7 @@ def decrypt_cirx():
         #print(fkey, ' -^x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35821,7 +35825,7 @@ def decrypt_cirz():
         #print(fkey, ' -^z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35835,7 +35839,7 @@ def decrypt_cirA():
         #print(fkey, ' -^A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35849,7 +35853,7 @@ def decrypt_cirB():
         #print(fkey, ' -^B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35863,7 +35867,7 @@ def decrypt_cirD():
         #print(fkey, ' -^D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35877,7 +35881,7 @@ def decrypt_cirF():
         #print(fkey, ' -^F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35891,7 +35895,7 @@ def decrypt_cirH():
         #print(fkey, ' -^H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35905,7 +35909,7 @@ def decrypt_cirJ():
         #print(fkey, ' -^J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35919,7 +35923,7 @@ def decrypt_cirL():
         #print(fkey, ' -^L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35933,7 +35937,7 @@ def decrypt_cirN():
         #print(fkey, ' -^N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35947,7 +35951,7 @@ def decrypt_cirP():
         #print(fkey, ' -^P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35961,7 +35965,7 @@ def decrypt_cirR():
         #print(fkey, ' -^R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35975,7 +35979,7 @@ def decrypt_cirT():
         #print(fkey, ' -^T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -35989,7 +35993,7 @@ def decrypt_cirV():
         #print(fkey, ' -^V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36003,7 +36007,7 @@ def decrypt_cirX():
         #print(fkey, ' -^X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36017,7 +36021,7 @@ def decrypt_cirZ():
         #print(fkey, ' -^Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36031,7 +36035,7 @@ def decrypt_cir0():
         #print(fkey, ' -^0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36045,7 +36049,7 @@ def decrypt_cir2():
         #print(fkey, ' -^2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36059,7 +36063,7 @@ def decrypt_cir4():
         #print(fkey, ' -^4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36073,7 +36077,7 @@ def decrypt_cir6():
         #print(fkey, ' -^6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36087,7 +36091,7 @@ def decrypt_cir8():
         #print(fkey, ' -^8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36101,7 +36105,7 @@ def decrypt_cirexcl():
         #print(fkey, ' -^!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36115,7 +36119,7 @@ def decrypt_cirdquote():
         #print(fkey, ' -^"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36129,7 +36133,7 @@ def decrypt_cirdoll():
         #print(fkey, ' -^$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36143,7 +36147,7 @@ def decrypt_cirand():
         #print(fkey, ' -^&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36157,7 +36161,7 @@ def decrypt_cirquote():
         #print(fkey, ' -^\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36171,7 +36175,7 @@ def decrypt_circpar():
         #print(fkey, ' -circ(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36185,7 +36189,7 @@ def decrypt_cirast():
         #print(fkey, ' -^*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36199,7 +36203,7 @@ def decrypt_cirvir():
         #print(fkey, ' -^,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36213,7 +36217,7 @@ def decrypt_cirpp():
         #print(fkey, ' -^.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36227,7 +36231,7 @@ def decrypt_cirtp():
         #print(fkey, ' -^:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36241,7 +36245,7 @@ def decrypt_cirless():
         #print(fkey, ' -^<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36255,7 +36259,7 @@ def decrypt_cirmore():
         #print(fkey, ' -^>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36269,7 +36273,7 @@ def decrypt_ciraro():
         #print(fkey, ' -^@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36283,7 +36287,7 @@ def decrypt_circroc():
         #print(fkey, ' -^[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36297,7 +36301,7 @@ def decrypt_cirbsl():
         #print(fkey, ' -^\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36311,7 +36315,7 @@ def decrypt_circirc():
         #print(fkey, ' -^^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36325,7 +36329,7 @@ def decrypt_ciresp():
         #print(fkey, ' -^`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36339,7 +36343,7 @@ def decrypt_circr():
         #print(fkey, ' -^{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36353,7 +36357,7 @@ def decrypt_cirhl():
         #print(fkey, ' -^|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36367,7 +36371,7 @@ def decrypt_cirtild():
         #print(fkey, ' -^~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36381,7 +36385,7 @@ def decrypt_esua():
         #print(fkey, ' -`a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36395,7 +36399,7 @@ def decrypt_esub():
         #print(fkey, ' -`b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36409,7 +36413,7 @@ def decrypt_esud():
         #print(fkey, ' -`d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36423,7 +36427,7 @@ def decrypt_esuf():
         #print(fkey, ' -`f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36437,7 +36441,7 @@ def decrypt_esuh():
         #print(fkey, ' -`h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36451,7 +36455,7 @@ def decrypt_esuj():
         #print(fkey, ' -`j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36465,7 +36469,7 @@ def decrypt_esul():
         #print(fkey, ' -`l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36479,7 +36483,7 @@ def decrypt_esun():
         #print(fkey, ' -`n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36493,7 +36497,7 @@ def decrypt_esup():
         #print(fkey, ' -`p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36507,7 +36511,7 @@ def decrypt_esur():
         #print(fkey, ' -`r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36521,7 +36525,7 @@ def decrypt_esut():
         #print(fkey, ' -`t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36535,7 +36539,7 @@ def decrypt_esuv():
         #print(fkey, ' -`v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36549,7 +36553,7 @@ def decrypt_esux():
         #print(fkey, ' -`x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36563,7 +36567,7 @@ def decrypt_esuz():
         #print(fkey, ' -`z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36577,7 +36581,7 @@ def decrypt_esuA():
         #print(fkey, ' -`A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36591,7 +36595,7 @@ def decrypt_esuB():
         #print(fkey, ' -`B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36605,7 +36609,7 @@ def decrypt_esuD():
         #print(fkey, ' -`D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36619,7 +36623,7 @@ def decrypt_esuF():
         #print(fkey, ' -`F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36633,7 +36637,7 @@ def decrypt_esuH():
         #print(fkey, ' -`H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36647,7 +36651,7 @@ def decrypt_esuJ():
         #print(fkey, ' -`J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36661,7 +36665,7 @@ def decrypt_esuL():
         #print(fkey, ' -`L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36675,7 +36679,7 @@ def decrypt_esuN():
         #print(fkey, ' -`N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36689,7 +36693,7 @@ def decrypt_esuP():
         #print(fkey, ' -`P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36703,7 +36707,7 @@ def decrypt_esuR():
         #print(fkey, ' -`R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36717,7 +36721,7 @@ def decrypt_esuT():
         #print(fkey, ' -`T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36731,7 +36735,7 @@ def decrypt_esuV():
         #print(fkey, ' -`V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36745,7 +36749,7 @@ def decrypt_esuX():
         #print(fkey, ' -`X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36759,7 +36763,7 @@ def decrypt_esuZ():
         #print(fkey, ' -`Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36773,7 +36777,7 @@ def decrypt_esu0():
         #print(fkey, ' -`0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36787,7 +36791,7 @@ def decrypt_esu2():
         #print(fkey, ' -`2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36801,7 +36805,7 @@ def decrypt_esu4():
         #print(fkey, ' -`4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36815,7 +36819,7 @@ def decrypt_esu6():
         #print(fkey, ' -`6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36829,7 +36833,7 @@ def decrypt_esu8():
         #print(fkey, ' -`8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36843,7 +36847,7 @@ def decrypt_esuexcl():
         #print(fkey, ' -`!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36857,7 +36861,7 @@ def decrypt_esudquote():
         #print(fkey, ' -`"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36871,7 +36875,7 @@ def decrypt_esudoll():
         #print(fkey, ' -`$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36885,7 +36889,7 @@ def decrypt_esuand():
         #print(fkey, ' -`&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36899,7 +36903,7 @@ def decrypt_esuquote():
         #print(fkey, ' -`\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36913,7 +36917,7 @@ def decrypt_esppar():
         #print(fkey, ' -esp(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36927,7 +36931,7 @@ def decrypt_esuast():
         #print(fkey, ' -`*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36941,7 +36945,7 @@ def decrypt_esuvir():
         #print(fkey, ' -`,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36955,7 +36959,7 @@ def decrypt_esupp():
         #print(fkey, ' -`.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36969,7 +36973,7 @@ def decrypt_esutp():
         #print(fkey, ' -`:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36983,7 +36987,7 @@ def decrypt_esuless():
         #print(fkey, ' -`<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -36997,7 +37001,7 @@ def decrypt_esumore():
         #print(fkey, ' -`>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37011,7 +37015,7 @@ def decrypt_esuaro():
         #print(fkey, ' -`@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37025,7 +37029,7 @@ def decrypt_esucroc():
         #print(fkey, ' -`[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37039,7 +37043,7 @@ def decrypt_esubsl():
         #print(fkey, ' -`\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37053,7 +37057,7 @@ def decrypt_esucirc():
         #print(fkey, ' -`^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37067,7 +37071,7 @@ def decrypt_esuesp():
         #print(fkey, ' -``')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37081,7 +37085,7 @@ def decrypt_esucr():
         #print(fkey, ' -`{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37095,7 +37099,7 @@ def decrypt_esuhl():
         #print(fkey, ' -`|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37109,7 +37113,7 @@ def decrypt_esutild():
         #print(fkey, ' -`~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37123,7 +37127,7 @@ def decrypt_crocha():
         #print(fkey, ' -{a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37137,7 +37141,7 @@ def decrypt_crochb():
         #print(fkey, ' -{b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37151,7 +37155,7 @@ def decrypt_crochd():
         #print(fkey, ' -{d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37165,7 +37169,7 @@ def decrypt_crochf():
         #print(fkey, ' -{f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37179,7 +37183,7 @@ def decrypt_crochh():
         #print(fkey, ' -{h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37193,7 +37197,7 @@ def decrypt_crochj():
         #print(fkey, ' -{j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37207,7 +37211,7 @@ def decrypt_crochl():
         #print(fkey, ' -{l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37221,7 +37225,7 @@ def decrypt_crochn():
         #print(fkey, ' -{n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37235,7 +37239,7 @@ def decrypt_crochp():
         #print(fkey, ' -{p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37249,7 +37253,7 @@ def decrypt_crochr():
         #print(fkey, ' -{r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37263,7 +37267,7 @@ def decrypt_crocht():
         #print(fkey, ' -{t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37277,7 +37281,7 @@ def decrypt_crochv():
         #print(fkey, ' -{v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37291,7 +37295,7 @@ def decrypt_crochx():
         #print(fkey, ' -{x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37305,7 +37309,7 @@ def decrypt_crochz():
         #print(fkey, ' -{z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37319,7 +37323,7 @@ def decrypt_crochA():
         #print(fkey, ' -{A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37333,7 +37337,7 @@ def decrypt_crochB():
         #print(fkey, ' -{B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37347,7 +37351,7 @@ def decrypt_crochD():
         #print(fkey, ' -{D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37361,7 +37365,7 @@ def decrypt_crochF():
         #print(fkey, ' -{F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37375,7 +37379,7 @@ def decrypt_crochH():
         #print(fkey, ' -{H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37389,7 +37393,7 @@ def decrypt_crochJ():
         #print(fkey, ' -{J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37403,7 +37407,7 @@ def decrypt_crochL():
         #print(fkey, ' -{L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37417,7 +37421,7 @@ def decrypt_crochN():
         #print(fkey, ' -{N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37431,7 +37435,7 @@ def decrypt_crochP():
         #print(fkey, ' -{P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37445,7 +37449,7 @@ def decrypt_crochR():
         #print(fkey, ' -{R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37459,7 +37463,7 @@ def decrypt_crochT():
         #print(fkey, ' -{T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37473,7 +37477,7 @@ def decrypt_crochV():
         #print(fkey, ' -{V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37487,7 +37491,7 @@ def decrypt_crochX():
         #print(fkey, ' -{X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37501,7 +37505,7 @@ def decrypt_crochZ():
         #print(fkey, ' -{Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37515,7 +37519,7 @@ def decrypt_croch0():
         #print(fkey, ' -{0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37529,7 +37533,7 @@ def decrypt_croch2():
         #print(fkey, ' -{2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37543,7 +37547,7 @@ def decrypt_croch4():
         #print(fkey, ' -{4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37557,7 +37561,7 @@ def decrypt_croch6():
         #print(fkey, ' -{6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37571,7 +37575,7 @@ def decrypt_croch8():
         #print(fkey, ' -{8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37585,7 +37589,7 @@ def decrypt_crochexcl():
         #print(fkey, ' -{!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37599,7 +37603,7 @@ def decrypt_crochdquote():
         #print(fkey, ' -{"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37613,7 +37617,7 @@ def decrypt_crochdoll():
         #print(fkey, ' -{$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37627,7 +37631,7 @@ def decrypt_crochand():
         #print(fkey, ' -{&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37641,7 +37645,7 @@ def decrypt_crochquote():
         #print(fkey, ' -{\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37655,7 +37659,7 @@ def decrypt_crpar():
         #print(fkey, ' -cr(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37669,7 +37673,7 @@ def decrypt_crochast():
         #print(fkey, ' -{*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37683,7 +37687,7 @@ def decrypt_crochvir():
         #print(fkey, ' -{,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37697,7 +37701,7 @@ def decrypt_crochpp():
         #print(fkey, ' -{.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37711,7 +37715,7 @@ def decrypt_crochtp():
         #print(fkey, ' -{:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37725,7 +37729,7 @@ def decrypt_crochless():
         #print(fkey, ' -{<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37739,7 +37743,7 @@ def decrypt_crochmore():
         #print(fkey, ' -{>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37753,7 +37757,7 @@ def decrypt_crocharo():
         #print(fkey, ' -{@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37767,7 +37771,7 @@ def decrypt_crochcroc():
         #print(fkey, ' -{[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37781,7 +37785,7 @@ def decrypt_crochbsl():
         #print(fkey, ' -{\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37795,7 +37799,7 @@ def decrypt_crochcirc():
         #print(fkey, ' -{^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37809,7 +37813,7 @@ def decrypt_crochesp():
         #print(fkey, ' -{`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37823,7 +37827,7 @@ def decrypt_crochcr():
         #print(fkey, ' -{{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37837,7 +37841,7 @@ def decrypt_crochhl():
         #print(fkey, ' -{|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37851,7 +37855,7 @@ def decrypt_crochtild():
         #print(fkey, ' -{~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37865,7 +37869,7 @@ def decrypt_vsla():
         #print(fkey, ' -|a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37879,7 +37883,7 @@ def decrypt_vslb():
         #print(fkey, ' -|b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37893,7 +37897,7 @@ def decrypt_vsld():
         #print(fkey, ' -|d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37907,7 +37911,7 @@ def decrypt_vslf():
         #print(fkey, ' -|f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37921,7 +37925,7 @@ def decrypt_vslh():
         #print(fkey, ' -|h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37935,7 +37939,7 @@ def decrypt_vslj():
         #print(fkey, ' -|j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37949,7 +37953,7 @@ def decrypt_vsll():
         #print(fkey, ' -|l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37963,7 +37967,7 @@ def decrypt_vsln():
         #print(fkey, ' -|n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37977,7 +37981,7 @@ def decrypt_vslp():
         #print(fkey, ' -|p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -37991,7 +37995,7 @@ def decrypt_vslr():
         #print(fkey, ' -|r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38005,7 +38009,7 @@ def decrypt_vslt():
         #print(fkey, ' -|t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38019,7 +38023,7 @@ def decrypt_vslv():
         #print(fkey, ' -|v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38033,7 +38037,7 @@ def decrypt_vslx():
         #print(fkey, ' -|x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38047,7 +38051,7 @@ def decrypt_vslz():
         #print(fkey, ' -|z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38061,7 +38065,7 @@ def decrypt_vslA():
         #print(fkey, ' -|A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38075,7 +38079,7 @@ def decrypt_vslB():
         #print(fkey, ' -|B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38089,7 +38093,7 @@ def decrypt_vslD():
         #print(fkey, ' -|D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38103,7 +38107,7 @@ def decrypt_vslF():
         #print(fkey, ' -|F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38117,7 +38121,7 @@ def decrypt_vslH():
         #print(fkey, ' -|H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38131,7 +38135,7 @@ def decrypt_vslJ():
         #print(fkey, ' -|J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38145,7 +38149,7 @@ def decrypt_vslL():
         #print(fkey, ' -|L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38159,7 +38163,7 @@ def decrypt_vslN():
         #print(fkey, ' -|N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38173,7 +38177,7 @@ def decrypt_vslP():
         #print(fkey, ' -|P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38187,7 +38191,7 @@ def decrypt_vslR():
         #print(fkey, ' -|R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38201,7 +38205,7 @@ def decrypt_vslT():
         #print(fkey, ' -|T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38215,7 +38219,7 @@ def decrypt_vslV():
         #print(fkey, ' -|V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38229,7 +38233,7 @@ def decrypt_vslX():
         #print(fkey, ' -|X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38243,7 +38247,7 @@ def decrypt_vslZ():
         #print(fkey, ' -|Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38257,7 +38261,7 @@ def decrypt_vsl0():
         #print(fkey, ' -|0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38271,7 +38275,7 @@ def decrypt_vsl2():
         #print(fkey, ' -|2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38285,7 +38289,7 @@ def decrypt_vsl4():
         #print(fkey, ' -|4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38299,7 +38303,7 @@ def decrypt_vsl6():
         #print(fkey, ' -|6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38313,7 +38317,7 @@ def decrypt_vsl8():
         #print(fkey, ' -|8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38327,7 +38331,7 @@ def decrypt_vslexcl():
         #print(fkey, ' -|!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38341,7 +38345,7 @@ def decrypt_vsldquote():
         #print(fkey, ' -|"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38355,7 +38359,7 @@ def decrypt_vsldoll():
         #print(fkey, ' -|$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38369,7 +38373,7 @@ def decrypt_vsland():
         #print(fkey, ' -|&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38383,7 +38387,7 @@ def decrypt_vslquote():
         #print(fkey, ' -|\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38397,7 +38401,7 @@ def decrypt_hlpar():
         #print(fkey, ' -hl(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38411,7 +38415,7 @@ def decrypt_vslast():
         #print(fkey, ' -|*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38425,7 +38429,7 @@ def decrypt_vslvir():
         #print(fkey, ' -|,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38439,7 +38443,7 @@ def decrypt_vslpp():
         #print(fkey, ' -|.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38453,7 +38457,7 @@ def decrypt_vsltp():
         #print(fkey, ' -|:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38467,7 +38471,7 @@ def decrypt_vslless():
         #print(fkey, ' -|<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38481,7 +38485,7 @@ def decrypt_vslmore():
         #print(fkey, ' -|>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38495,7 +38499,7 @@ def decrypt_vslaro():
         #print(fkey, ' -|@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38509,7 +38513,7 @@ def decrypt_vslcroc():
         #print(fkey, ' -|[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38523,7 +38527,7 @@ def decrypt_vslbsl():
         #print(fkey, ' -|\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38537,7 +38541,7 @@ def decrypt_vslcirc():
         #print(fkey, ' -|^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38551,7 +38555,7 @@ def decrypt_vslesp():
         #print(fkey, ' -|`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38565,7 +38569,7 @@ def decrypt_vslcr():
         #print(fkey, ' -|{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38579,7 +38583,7 @@ def decrypt_vslhl():
         #print(fkey, ' -||')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38593,7 +38597,7 @@ def decrypt_vsltild():
         #print(fkey, ' -|~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38607,7 +38611,7 @@ def decrypt_tila():
         #print(fkey, ' -~a')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38621,7 +38625,7 @@ def decrypt_tilb():
         #print(fkey, ' -~b')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38635,7 +38639,7 @@ def decrypt_tild():
         #print(fkey, ' -~d')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38649,7 +38653,7 @@ def decrypt_tilf():
         #print(fkey, ' -~f')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38663,7 +38667,7 @@ def decrypt_tilh():
         #print(fkey, ' -~h')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38677,7 +38681,7 @@ def decrypt_tilj():
         #print(fkey, ' -~j')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38691,7 +38695,7 @@ def decrypt_till():
         #print(fkey, ' -~l')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38705,7 +38709,7 @@ def decrypt_tiln():
         #print(fkey, ' -~n')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38719,7 +38723,7 @@ def decrypt_tilp():
         #print(fkey, ' -~p')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38733,7 +38737,7 @@ def decrypt_tilr():
         #print(fkey, ' -~r')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38747,7 +38751,7 @@ def decrypt_tilt():
         #print(fkey, ' -~t')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38761,7 +38765,7 @@ def decrypt_tilv():
         #print(fkey, ' -~v')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38775,7 +38779,7 @@ def decrypt_tilx():
         #print(fkey, ' -~x')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38789,7 +38793,7 @@ def decrypt_tilz():
         #print(fkey, ' -~z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38803,7 +38807,7 @@ def decrypt_tilA():
         #print(fkey, ' -~A')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38817,7 +38821,7 @@ def decrypt_tilB():
         #print(fkey, ' -~B')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38831,7 +38835,7 @@ def decrypt_tilD():
         #print(fkey, ' -~D')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38845,7 +38849,7 @@ def decrypt_tilF():
         #print(fkey, ' -~F')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38859,7 +38863,7 @@ def decrypt_tilH():
         #print(fkey, ' -~H')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38873,7 +38877,7 @@ def decrypt_tilJ():
         #print(fkey, ' -~J')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38887,7 +38891,7 @@ def decrypt_tilL():
         #print(fkey, ' -~L')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38901,7 +38905,7 @@ def decrypt_tilN():
         #print(fkey, ' -~N')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38915,7 +38919,7 @@ def decrypt_tilP():
         #print(fkey, ' -~P')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38929,7 +38933,7 @@ def decrypt_tilR():
         #print(fkey, ' -~R')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38943,7 +38947,7 @@ def decrypt_tilT():
         #print(fkey, ' -~T')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38957,7 +38961,7 @@ def decrypt_tilV():
         #print(fkey, ' -~V')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38971,7 +38975,7 @@ def decrypt_tilX():
         #print(fkey, ' -~X')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38985,7 +38989,7 @@ def decrypt_tilZ():
         #print(fkey, ' -~Z')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -38999,7 +39003,7 @@ def decrypt_til0():
         #print(fkey, ' -~0')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -39013,7 +39017,7 @@ def decrypt_til2():
         #print(fkey, ' -~2')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -39027,7 +39031,7 @@ def decrypt_til4():
         #print(fkey, ' -~4')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -39041,7 +39045,7 @@ def decrypt_til6():
         #print(fkey, ' -~6')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -39055,7 +39059,7 @@ def decrypt_til8():
         #print(fkey, ' -~8')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -39069,7 +39073,7 @@ def decrypt_tilexcl():
         #print(fkey, ' -~!')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -39083,7 +39087,7 @@ def decrypt_tildquote():
         #print(fkey, ' -~"')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -39097,7 +39101,7 @@ def decrypt_tildoll():
         #print(fkey, ' -~$')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -39111,7 +39115,7 @@ def decrypt_tiland():
         #print(fkey, ' -~&')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -39125,7 +39129,7 @@ def decrypt_tilquote():
         #print(fkey, ' -~\'')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -39139,7 +39143,7 @@ def decrypt_tilpar():
         #print(fkey, ' -tild(')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -39153,7 +39157,7 @@ def decrypt_tilast():
         #print(fkey, ' -~*')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -39167,7 +39171,7 @@ def decrypt_tilvir():
         #print(fkey, ' -~,')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -39181,7 +39185,7 @@ def decrypt_tilpp():
         #print(fkey, ' -~.')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -39195,7 +39199,7 @@ def decrypt_tiltp():
         #print(fkey, ' -~:')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -39209,7 +39213,7 @@ def decrypt_tilless():
         #print(fkey, ' -~<')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -39223,7 +39227,7 @@ def decrypt_tilmore():
         #print(fkey, ' -~>')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -39237,7 +39241,7 @@ def decrypt_tilaro():
         #print(fkey, ' -~@')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -39251,7 +39255,7 @@ def decrypt_tilcroc():
         #print(fkey, ' -~[')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -39265,7 +39269,7 @@ def decrypt_tilbsl():
         #print(fkey, ' -~\')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -39279,7 +39283,7 @@ def decrypt_tilcirc():
         #print(fkey, ' -~^')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -39293,7 +39297,7 @@ def decrypt_tilesp():
         #print(fkey, ' -~`')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -39307,7 +39311,7 @@ def decrypt_tilcr():
         #print(fkey, ' -~{')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -39321,7 +39325,7 @@ def decrypt_tilhl():
         #print(fkey, ' -~|')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1
@@ -39335,7 +39339,7 @@ def decrypt_tiltild():
         #print(fkey, ' -~~')
         dec = DES.new(fkey, DES.MODE_CFB, iv)
         ptx = dec.decrypt(ciphertext)
-        if  ptx == texte:
+        if  i ==1000 or ptx == texte:
             print("Found Key:: ", fkey)
             break
         i += 1

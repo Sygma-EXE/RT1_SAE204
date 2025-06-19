@@ -34,12 +34,12 @@ def generate_keys(start_idx, keys_out, charset, charset_len, key_length):
 
 
 def run_gpu_bruteforce():
-    print("🔐 Texte chiffré :", ciphertext)
+    print("Texte chiffré :", ciphertext)
 
     total_keys = charset_len ** key_length
-    print(f"🔎 Tentatives totales : {total_keys}")
+    print(f"Tentatives totales : {total_keys}")
 
-    batch_size = 1_000_000  # 1 million de clés par batch (à ajuster selon ta RAM / GPU)
+    batch_size = 1_000_000  # 1 million de clés par batch (peut être ajusté)
     threads_per_block = 128
     des_instance = des()
 
@@ -63,14 +63,14 @@ def run_gpu_bruteforce():
             try:
                 decrypted = des_instance.decrypt(candidate_key, ciphertext, padding=True)
                 if decrypted == plaintext:
-                    print("✅ Clé trouvée :", candidate_key)
+                    print("Clé trouvée :", candidate_key)
                     return
             except Exception:
                 pass
 
         print(f"Batch {start // batch_size + 1} / {math.ceil(total_keys / batch_size)} testé...")
 
-    print("❌ Aucune clé correcte trouvée.")
+    print("Aucune clé correcte trouvée.")
 
 
 # === Exécution ===
