@@ -2,6 +2,7 @@ from numba import cuda
 import numpy as np
 import math
 from des import des  # Assure-toi d’avoir le fichier des.py dans le même dossier
+import datetime
 
 # === CONFIGURATION ===
 charset_str = 'abdfhjlnprtvxzABDFHJLNPRTVXZ02468!"$&\'(*,.:<>@[\\^`{|~'
@@ -76,3 +77,5 @@ def run_gpu_bruteforce():
 # === Exécution ===
 if __name__ == "__main__":
     run_gpu_bruteforce()
+
+print(datetime.datetime.now())

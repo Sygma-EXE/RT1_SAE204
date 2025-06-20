@@ -3,7 +3,7 @@ import itertools
 import multiprocessing
 import base64
 
-key = b'uSD-fk83'
+key = b'abaaa!b~'
 texte = b'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.'
 
 #Chiffrement
@@ -27,7 +27,7 @@ def decrypt_aa():
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -41,7 +41,7 @@ def decrypt_ab():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -55,7 +55,7 @@ def decrypt_ad():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -69,7 +69,7 @@ def decrypt_af():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -83,7 +83,7 @@ def decrypt_ah():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -97,7 +97,7 @@ def decrypt_aj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -111,7 +111,7 @@ def decrypt_al():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -125,7 +125,7 @@ def decrypt_an():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -139,7 +139,7 @@ def decrypt_ap():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -153,7 +153,7 @@ def decrypt_ar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -167,7 +167,7 @@ def decrypt_at():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -181,7 +181,7 @@ def decrypt_av():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -195,7 +195,7 @@ def decrypt_ax():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -209,7 +209,7 @@ def decrypt_az():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -223,7 +223,7 @@ def decrypt_aA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -237,7 +237,7 @@ def decrypt_aB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -251,7 +251,7 @@ def decrypt_aD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -265,7 +265,7 @@ def decrypt_aF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -279,7 +279,7 @@ def decrypt_aH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -293,7 +293,7 @@ def decrypt_aJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -307,7 +307,7 @@ def decrypt_aL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -321,7 +321,7 @@ def decrypt_aN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -335,7 +335,7 @@ def decrypt_aP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -349,7 +349,7 @@ def decrypt_aR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -363,7 +363,7 @@ def decrypt_aT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -377,7 +377,7 @@ def decrypt_aV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -391,7 +391,7 @@ def decrypt_aX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -405,7 +405,7 @@ def decrypt_aZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -419,7 +419,7 @@ def decrypt_a0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -433,7 +433,7 @@ def decrypt_a2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -447,7 +447,7 @@ def decrypt_a4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -461,7 +461,7 @@ def decrypt_a6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -475,7 +475,7 @@ def decrypt_a8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -489,7 +489,7 @@ def decrypt_aexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -503,7 +503,7 @@ def decrypt_adquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -517,7 +517,7 @@ def decrypt_adoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -531,7 +531,7 @@ def decrypt_aand():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -545,7 +545,7 @@ def decrypt_aquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -559,7 +559,7 @@ def decrypt_apar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -573,7 +573,7 @@ def decrypt_aast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -587,7 +587,7 @@ def decrypt_avir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -601,7 +601,7 @@ def decrypt_app():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -615,7 +615,7 @@ def decrypt_atp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -629,7 +629,7 @@ def decrypt_aless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -643,7 +643,7 @@ def decrypt_amore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -657,7 +657,7 @@ def decrypt_aaro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -671,7 +671,7 @@ def decrypt_acroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -685,7 +685,7 @@ def decrypt_absl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -699,7 +699,7 @@ def decrypt_acirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -713,7 +713,7 @@ def decrypt_aesp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -727,7 +727,7 @@ def decrypt_acr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -741,7 +741,7 @@ def decrypt_ahl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -755,7 +755,7 @@ def decrypt_atild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 def decrypt_ba():
@@ -768,7 +768,7 @@ def decrypt_ba():
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -782,7 +782,7 @@ def decrypt_bb():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -796,7 +796,7 @@ def decrypt_bd():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -810,7 +810,7 @@ def decrypt_bf():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -824,7 +824,7 @@ def decrypt_bh():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -838,7 +838,7 @@ def decrypt_bj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -852,7 +852,7 @@ def decrypt_bl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -866,7 +866,7 @@ def decrypt_bn():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -880,7 +880,7 @@ def decrypt_bp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -894,7 +894,7 @@ def decrypt_br():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -908,7 +908,7 @@ def decrypt_bt():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -922,7 +922,7 @@ def decrypt_bv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -936,7 +936,7 @@ def decrypt_bx():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -950,7 +950,7 @@ def decrypt_bz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -964,7 +964,7 @@ def decrypt_bA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -978,7 +978,7 @@ def decrypt_bB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -992,7 +992,7 @@ def decrypt_bD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1006,7 +1006,7 @@ def decrypt_bF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1020,7 +1020,7 @@ def decrypt_bH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1034,7 +1034,7 @@ def decrypt_bJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1048,7 +1048,7 @@ def decrypt_bL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1062,7 +1062,7 @@ def decrypt_bN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1076,7 +1076,7 @@ def decrypt_bP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1090,7 +1090,7 @@ def decrypt_bR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1104,7 +1104,7 @@ def decrypt_bT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1118,7 +1118,7 @@ def decrypt_bV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1132,7 +1132,7 @@ def decrypt_bX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1146,7 +1146,7 @@ def decrypt_bZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1160,7 +1160,7 @@ def decrypt_b0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1174,7 +1174,7 @@ def decrypt_b2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1188,7 +1188,7 @@ def decrypt_b4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1202,7 +1202,7 @@ def decrypt_b6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1216,7 +1216,7 @@ def decrypt_b8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1230,7 +1230,7 @@ def decrypt_bexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1244,7 +1244,7 @@ def decrypt_bdquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1258,7 +1258,7 @@ def decrypt_bdoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1272,7 +1272,7 @@ def decrypt_band():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1286,7 +1286,7 @@ def decrypt_bquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1300,7 +1300,7 @@ def decrypt_bpar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1314,7 +1314,7 @@ def decrypt_bast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1328,7 +1328,7 @@ def decrypt_bvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1342,7 +1342,7 @@ def decrypt_bpp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1356,7 +1356,7 @@ def decrypt_btp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1370,7 +1370,7 @@ def decrypt_bless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1384,7 +1384,7 @@ def decrypt_bmore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1398,7 +1398,7 @@ def decrypt_baro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1412,7 +1412,7 @@ def decrypt_bcroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1426,7 +1426,7 @@ def decrypt_bbsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1440,7 +1440,7 @@ def decrypt_bcirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1454,7 +1454,7 @@ def decrypt_besp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1468,7 +1468,7 @@ def decrypt_bcr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1482,7 +1482,7 @@ def decrypt_bhl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1496,7 +1496,7 @@ def decrypt_btild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 def decrypt_da():
@@ -1509,7 +1509,7 @@ def decrypt_da():
         ptx = dec.decrypt(ciphertext)
         if ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1523,7 +1523,7 @@ def decrypt_db():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1537,7 +1537,7 @@ def decrypt_dd():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1551,7 +1551,7 @@ def decrypt_df():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1565,7 +1565,7 @@ def decrypt_dh():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1579,7 +1579,7 @@ def decrypt_dj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1593,7 +1593,7 @@ def decrypt_dl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1607,7 +1607,7 @@ def decrypt_dn():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1621,7 +1621,7 @@ def decrypt_dp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1635,7 +1635,7 @@ def decrypt_dr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1649,7 +1649,7 @@ def decrypt_dt():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1663,7 +1663,7 @@ def decrypt_dv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1677,7 +1677,7 @@ def decrypt_dx():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1691,7 +1691,7 @@ def decrypt_dz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1705,7 +1705,7 @@ def decrypt_dA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1719,7 +1719,7 @@ def decrypt_dB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1733,7 +1733,7 @@ def decrypt_dD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1747,7 +1747,7 @@ def decrypt_dF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1761,7 +1761,7 @@ def decrypt_dH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1775,7 +1775,7 @@ def decrypt_dJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1789,7 +1789,7 @@ def decrypt_dL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1803,7 +1803,7 @@ def decrypt_dN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1817,7 +1817,7 @@ def decrypt_dP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1831,7 +1831,7 @@ def decrypt_dR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1845,7 +1845,7 @@ def decrypt_dT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1859,7 +1859,7 @@ def decrypt_dV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1873,7 +1873,7 @@ def decrypt_dX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1887,7 +1887,7 @@ def decrypt_dZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1901,7 +1901,7 @@ def decrypt_d0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1915,7 +1915,7 @@ def decrypt_d2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1929,7 +1929,7 @@ def decrypt_d4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1943,7 +1943,7 @@ def decrypt_d6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1957,7 +1957,7 @@ def decrypt_d8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1971,7 +1971,7 @@ def decrypt_dexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1985,7 +1985,7 @@ def decrypt_ddquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -1999,7 +1999,7 @@ def decrypt_ddoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2013,7 +2013,7 @@ def decrypt_dand():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2027,7 +2027,7 @@ def decrypt_dquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2041,7 +2041,7 @@ def decrypt_dpar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2055,7 +2055,7 @@ def decrypt_dast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2069,7 +2069,7 @@ def decrypt_dvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2083,7 +2083,7 @@ def decrypt_dpp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2097,7 +2097,7 @@ def decrypt_dtp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2111,7 +2111,7 @@ def decrypt_dless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2125,7 +2125,7 @@ def decrypt_dmore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2139,7 +2139,7 @@ def decrypt_daro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2153,7 +2153,7 @@ def decrypt_dcroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2167,7 +2167,7 @@ def decrypt_dbsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2181,7 +2181,7 @@ def decrypt_dcirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2195,7 +2195,7 @@ def decrypt_desp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2209,7 +2209,7 @@ def decrypt_dcr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2223,7 +2223,7 @@ def decrypt_dhl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2237,7 +2237,7 @@ def decrypt_dtild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2251,7 +2251,7 @@ def decrypt_fa():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2265,7 +2265,7 @@ def decrypt_fb():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2279,7 +2279,7 @@ def decrypt_fd():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2293,7 +2293,7 @@ def decrypt_ff():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2307,7 +2307,7 @@ def decrypt_fh():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2321,7 +2321,7 @@ def decrypt_fj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2335,7 +2335,7 @@ def decrypt_fl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2349,7 +2349,7 @@ def decrypt_fn():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2363,7 +2363,7 @@ def decrypt_fp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2377,7 +2377,7 @@ def decrypt_fr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2391,7 +2391,7 @@ def decrypt_ft():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2405,7 +2405,7 @@ def decrypt_fv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2419,7 +2419,7 @@ def decrypt_fx():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2433,7 +2433,7 @@ def decrypt_fz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2447,7 +2447,7 @@ def decrypt_fA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2461,7 +2461,7 @@ def decrypt_fB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2475,7 +2475,7 @@ def decrypt_fD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2489,7 +2489,7 @@ def decrypt_fF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2503,7 +2503,7 @@ def decrypt_fH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2517,7 +2517,7 @@ def decrypt_fJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2531,7 +2531,7 @@ def decrypt_fL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2545,7 +2545,7 @@ def decrypt_fN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2559,7 +2559,7 @@ def decrypt_fP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2573,7 +2573,7 @@ def decrypt_fR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2587,7 +2587,7 @@ def decrypt_fT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2601,7 +2601,7 @@ def decrypt_fV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2615,7 +2615,7 @@ def decrypt_fX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2629,7 +2629,7 @@ def decrypt_fZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2643,7 +2643,7 @@ def decrypt_f0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2657,7 +2657,7 @@ def decrypt_f2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2671,7 +2671,7 @@ def decrypt_f4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2685,7 +2685,7 @@ def decrypt_f6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2699,7 +2699,7 @@ def decrypt_f8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2713,7 +2713,7 @@ def decrypt_fexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2727,7 +2727,7 @@ def decrypt_fdquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2741,7 +2741,7 @@ def decrypt_fdoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2755,7 +2755,7 @@ def decrypt_fand():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2769,7 +2769,7 @@ def decrypt_fquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2783,7 +2783,7 @@ def decrypt_fpar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2797,7 +2797,7 @@ def decrypt_fast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2811,7 +2811,7 @@ def decrypt_fvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2825,7 +2825,7 @@ def decrypt_fpp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2839,7 +2839,7 @@ def decrypt_ftp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2853,7 +2853,7 @@ def decrypt_fless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2867,7 +2867,7 @@ def decrypt_fmore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2881,7 +2881,7 @@ def decrypt_faro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2895,7 +2895,7 @@ def decrypt_fcroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2909,7 +2909,7 @@ def decrypt_fbsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2923,7 +2923,7 @@ def decrypt_fcirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2937,7 +2937,7 @@ def decrypt_fesp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2951,7 +2951,7 @@ def decrypt_fcr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2965,7 +2965,7 @@ def decrypt_fhl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2979,7 +2979,7 @@ def decrypt_ftild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -2993,7 +2993,7 @@ def decrypt_ha():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3007,7 +3007,7 @@ def decrypt_hb():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3021,7 +3021,7 @@ def decrypt_hd():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3035,7 +3035,7 @@ def decrypt_hf():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3049,7 +3049,7 @@ def decrypt_hh():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3063,7 +3063,7 @@ def decrypt_hj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3077,7 +3077,7 @@ def decrypt_hl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3091,7 +3091,7 @@ def decrypt_hn():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3105,7 +3105,7 @@ def decrypt_hp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3119,7 +3119,7 @@ def decrypt_hr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3133,7 +3133,7 @@ def decrypt_ht():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3147,7 +3147,7 @@ def decrypt_hv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3161,7 +3161,7 @@ def decrypt_hx():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3175,7 +3175,7 @@ def decrypt_hz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3189,7 +3189,7 @@ def decrypt_hA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3203,7 +3203,7 @@ def decrypt_hB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3217,7 +3217,7 @@ def decrypt_hD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3231,7 +3231,7 @@ def decrypt_hF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3245,7 +3245,7 @@ def decrypt_hH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3259,7 +3259,7 @@ def decrypt_hJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3273,7 +3273,7 @@ def decrypt_hL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3287,7 +3287,7 @@ def decrypt_hN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3301,7 +3301,7 @@ def decrypt_hP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3315,7 +3315,7 @@ def decrypt_hR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3329,7 +3329,7 @@ def decrypt_hT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3343,7 +3343,7 @@ def decrypt_hV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3357,7 +3357,7 @@ def decrypt_hX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3371,7 +3371,7 @@ def decrypt_hZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3385,7 +3385,7 @@ def decrypt_h0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3399,7 +3399,7 @@ def decrypt_h2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3413,7 +3413,7 @@ def decrypt_h4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3427,7 +3427,7 @@ def decrypt_h6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3441,7 +3441,7 @@ def decrypt_h8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3455,7 +3455,7 @@ def decrypt_hexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3469,7 +3469,7 @@ def decrypt_hdquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3483,7 +3483,7 @@ def decrypt_hdoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3497,7 +3497,7 @@ def decrypt_hand():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3511,7 +3511,7 @@ def decrypt_hquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3525,7 +3525,7 @@ def decrypt_hpar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3539,7 +3539,7 @@ def decrypt_hast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3553,7 +3553,7 @@ def decrypt_hvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3567,7 +3567,7 @@ def decrypt_hpp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3581,7 +3581,7 @@ def decrypt_htp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3595,7 +3595,7 @@ def decrypt_hless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3609,7 +3609,7 @@ def decrypt_hmore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3623,7 +3623,7 @@ def decrypt_haro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3637,7 +3637,7 @@ def decrypt_hcroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3651,7 +3651,7 @@ def decrypt_hbsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3665,7 +3665,7 @@ def decrypt_hcirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3679,7 +3679,7 @@ def decrypt_hesp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3693,7 +3693,7 @@ def decrypt_hcr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3707,7 +3707,7 @@ def decrypt_hhl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3721,7 +3721,7 @@ def decrypt_htild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3735,7 +3735,7 @@ def decrypt_ja():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3749,7 +3749,7 @@ def decrypt_jb():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3763,7 +3763,7 @@ def decrypt_jd():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3777,7 +3777,7 @@ def decrypt_jf():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3791,7 +3791,7 @@ def decrypt_jh():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3805,7 +3805,7 @@ def decrypt_jj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3819,7 +3819,7 @@ def decrypt_jl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3833,7 +3833,7 @@ def decrypt_jn():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3847,7 +3847,7 @@ def decrypt_jp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3861,7 +3861,7 @@ def decrypt_jr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3875,7 +3875,7 @@ def decrypt_jt():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3889,7 +3889,7 @@ def decrypt_jv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3903,7 +3903,7 @@ def decrypt_jx():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3917,7 +3917,7 @@ def decrypt_jz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3931,7 +3931,7 @@ def decrypt_jA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3945,7 +3945,7 @@ def decrypt_jB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3959,7 +3959,7 @@ def decrypt_jD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3973,7 +3973,7 @@ def decrypt_jF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -3987,7 +3987,7 @@ def decrypt_jH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4001,7 +4001,7 @@ def decrypt_jJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4015,7 +4015,7 @@ def decrypt_jL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4029,7 +4029,7 @@ def decrypt_jN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4043,7 +4043,7 @@ def decrypt_jP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4057,7 +4057,7 @@ def decrypt_jR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4071,7 +4071,7 @@ def decrypt_jT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4085,7 +4085,7 @@ def decrypt_jV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4099,7 +4099,7 @@ def decrypt_jX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4113,7 +4113,7 @@ def decrypt_jZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4127,7 +4127,7 @@ def decrypt_j0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4141,7 +4141,7 @@ def decrypt_j2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4155,7 +4155,7 @@ def decrypt_j4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4169,7 +4169,7 @@ def decrypt_j6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4183,7 +4183,7 @@ def decrypt_j8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4197,7 +4197,7 @@ def decrypt_jexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4211,7 +4211,7 @@ def decrypt_jdquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4225,7 +4225,7 @@ def decrypt_jdoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4239,7 +4239,7 @@ def decrypt_jand():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4253,7 +4253,7 @@ def decrypt_jquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4267,7 +4267,7 @@ def decrypt_jpar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4281,7 +4281,7 @@ def decrypt_jast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4295,7 +4295,7 @@ def decrypt_jvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4309,7 +4309,7 @@ def decrypt_jpp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4323,7 +4323,7 @@ def decrypt_jtp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4337,7 +4337,7 @@ def decrypt_jless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4351,7 +4351,7 @@ def decrypt_jmore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4365,7 +4365,7 @@ def decrypt_jaro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4379,7 +4379,7 @@ def decrypt_jcroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4393,7 +4393,7 @@ def decrypt_jbsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4407,7 +4407,7 @@ def decrypt_jcirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4421,7 +4421,7 @@ def decrypt_jesp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4435,7 +4435,7 @@ def decrypt_jcr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4449,7 +4449,7 @@ def decrypt_jhl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4463,7 +4463,7 @@ def decrypt_jtild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4477,7 +4477,7 @@ def decrypt_la():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4491,7 +4491,7 @@ def decrypt_lb():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4505,7 +4505,7 @@ def decrypt_ld():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4519,7 +4519,7 @@ def decrypt_lf():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4533,7 +4533,7 @@ def decrypt_lh():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4547,7 +4547,7 @@ def decrypt_lj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4561,7 +4561,7 @@ def decrypt_ll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4575,7 +4575,7 @@ def decrypt_ln():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4589,7 +4589,7 @@ def decrypt_lp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4603,7 +4603,7 @@ def decrypt_lr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4617,7 +4617,7 @@ def decrypt_lt():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4631,7 +4631,7 @@ def decrypt_lv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4645,7 +4645,7 @@ def decrypt_lx():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4659,7 +4659,7 @@ def decrypt_lz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4673,7 +4673,7 @@ def decrypt_lA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4687,7 +4687,7 @@ def decrypt_lB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4701,7 +4701,7 @@ def decrypt_lD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4715,7 +4715,7 @@ def decrypt_lF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4729,7 +4729,7 @@ def decrypt_lH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4743,7 +4743,7 @@ def decrypt_lJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4757,7 +4757,7 @@ def decrypt_lL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4771,7 +4771,7 @@ def decrypt_lN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4785,7 +4785,7 @@ def decrypt_lP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4799,7 +4799,7 @@ def decrypt_lR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4813,7 +4813,7 @@ def decrypt_lT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4827,7 +4827,7 @@ def decrypt_lV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4841,7 +4841,7 @@ def decrypt_lX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4855,7 +4855,7 @@ def decrypt_lZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4869,7 +4869,7 @@ def decrypt_l0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4883,7 +4883,7 @@ def decrypt_l2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4897,7 +4897,7 @@ def decrypt_l4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4911,7 +4911,7 @@ def decrypt_l6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4925,7 +4925,7 @@ def decrypt_l8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4939,7 +4939,7 @@ def decrypt_lexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4953,7 +4953,7 @@ def decrypt_ldquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4967,7 +4967,7 @@ def decrypt_ldoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4981,7 +4981,7 @@ def decrypt_land():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -4995,7 +4995,7 @@ def decrypt_lquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5009,7 +5009,7 @@ def decrypt_lpar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5023,7 +5023,7 @@ def decrypt_last():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5037,7 +5037,7 @@ def decrypt_lvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5051,7 +5051,7 @@ def decrypt_lpp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5065,7 +5065,7 @@ def decrypt_ltp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5079,7 +5079,7 @@ def decrypt_lless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5093,7 +5093,7 @@ def decrypt_lmore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5107,7 +5107,7 @@ def decrypt_laro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5121,7 +5121,7 @@ def decrypt_lcroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5135,7 +5135,7 @@ def decrypt_lbsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5149,7 +5149,7 @@ def decrypt_lcirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5163,7 +5163,7 @@ def decrypt_lesp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5177,7 +5177,7 @@ def decrypt_lcr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5191,7 +5191,7 @@ def decrypt_lhl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5205,7 +5205,7 @@ def decrypt_ltild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5219,7 +5219,7 @@ def decrypt_na():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5233,7 +5233,7 @@ def decrypt_nb():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5247,7 +5247,7 @@ def decrypt_nd():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5261,7 +5261,7 @@ def decrypt_nf():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5275,7 +5275,7 @@ def decrypt_nh():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5289,7 +5289,7 @@ def decrypt_nj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5303,7 +5303,7 @@ def decrypt_nl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5317,7 +5317,7 @@ def decrypt_nn():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5331,7 +5331,7 @@ def decrypt_np():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5345,7 +5345,7 @@ def decrypt_nr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5359,7 +5359,7 @@ def decrypt_nt():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5373,7 +5373,7 @@ def decrypt_nv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5387,7 +5387,7 @@ def decrypt_nx():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5401,7 +5401,7 @@ def decrypt_nz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5415,7 +5415,7 @@ def decrypt_nA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5429,7 +5429,7 @@ def decrypt_nB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5443,7 +5443,7 @@ def decrypt_nD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5457,7 +5457,7 @@ def decrypt_nF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5471,7 +5471,7 @@ def decrypt_nH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5485,7 +5485,7 @@ def decrypt_nJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5499,7 +5499,7 @@ def decrypt_nL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5513,7 +5513,7 @@ def decrypt_nN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5527,7 +5527,7 @@ def decrypt_nP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5541,7 +5541,7 @@ def decrypt_nR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5555,7 +5555,7 @@ def decrypt_nT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5569,7 +5569,7 @@ def decrypt_nV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5583,7 +5583,7 @@ def decrypt_nX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5597,7 +5597,7 @@ def decrypt_nZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5611,7 +5611,7 @@ def decrypt_n0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5625,7 +5625,7 @@ def decrypt_n2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5639,7 +5639,7 @@ def decrypt_n4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5653,7 +5653,7 @@ def decrypt_n6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5667,7 +5667,7 @@ def decrypt_n8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5681,7 +5681,7 @@ def decrypt_nexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5695,7 +5695,7 @@ def decrypt_ndquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5709,7 +5709,7 @@ def decrypt_ndoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5723,7 +5723,7 @@ def decrypt_nand():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5737,7 +5737,7 @@ def decrypt_nquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5751,7 +5751,7 @@ def decrypt_npar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5765,7 +5765,7 @@ def decrypt_nast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5779,7 +5779,7 @@ def decrypt_nvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5793,7 +5793,7 @@ def decrypt_npp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5807,7 +5807,7 @@ def decrypt_ntp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5821,7 +5821,7 @@ def decrypt_nless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5835,7 +5835,7 @@ def decrypt_nmore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5849,7 +5849,7 @@ def decrypt_naro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5863,7 +5863,7 @@ def decrypt_ncroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5877,7 +5877,7 @@ def decrypt_nbsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5891,7 +5891,7 @@ def decrypt_ncirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5905,7 +5905,7 @@ def decrypt_nesp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5919,7 +5919,7 @@ def decrypt_ncr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5933,7 +5933,7 @@ def decrypt_nhl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5947,7 +5947,7 @@ def decrypt_ntild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5961,7 +5961,7 @@ def decrypt_pa():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5975,7 +5975,7 @@ def decrypt_pb():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -5989,7 +5989,7 @@ def decrypt_pd():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6003,7 +6003,7 @@ def decrypt_pf():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6017,7 +6017,7 @@ def decrypt_ph():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6031,7 +6031,7 @@ def decrypt_pj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6045,7 +6045,7 @@ def decrypt_pl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6059,7 +6059,7 @@ def decrypt_pn():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6073,7 +6073,7 @@ def decrypt_pp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6087,7 +6087,7 @@ def decrypt_pr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6101,7 +6101,7 @@ def decrypt_pt():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6115,7 +6115,7 @@ def decrypt_pv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6129,7 +6129,7 @@ def decrypt_px():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6143,7 +6143,7 @@ def decrypt_pz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6157,7 +6157,7 @@ def decrypt_pA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6171,7 +6171,7 @@ def decrypt_pB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6185,7 +6185,7 @@ def decrypt_pD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6199,7 +6199,7 @@ def decrypt_pF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6213,7 +6213,7 @@ def decrypt_pH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6227,7 +6227,7 @@ def decrypt_pJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6241,7 +6241,7 @@ def decrypt_pL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6255,7 +6255,7 @@ def decrypt_pN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6269,7 +6269,7 @@ def decrypt_pP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6283,7 +6283,7 @@ def decrypt_pR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6297,7 +6297,7 @@ def decrypt_pT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6311,7 +6311,7 @@ def decrypt_pV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6325,7 +6325,7 @@ def decrypt_pX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6339,7 +6339,7 @@ def decrypt_pZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6353,7 +6353,7 @@ def decrypt_p0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6367,7 +6367,7 @@ def decrypt_p2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6381,7 +6381,7 @@ def decrypt_p4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6395,7 +6395,7 @@ def decrypt_p6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6409,7 +6409,7 @@ def decrypt_p8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6423,7 +6423,7 @@ def decrypt_pexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6437,7 +6437,7 @@ def decrypt_pdquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6451,7 +6451,7 @@ def decrypt_pdoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6465,7 +6465,7 @@ def decrypt_pand():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6479,7 +6479,7 @@ def decrypt_pquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6493,7 +6493,7 @@ def decrypt_ppar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6507,7 +6507,7 @@ def decrypt_past():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6521,7 +6521,7 @@ def decrypt_pvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6535,7 +6535,7 @@ def decrypt_ppp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6549,7 +6549,7 @@ def decrypt_ptp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6563,7 +6563,7 @@ def decrypt_pless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6577,7 +6577,7 @@ def decrypt_pmore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6591,7 +6591,7 @@ def decrypt_paro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6605,7 +6605,7 @@ def decrypt_pcroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6619,7 +6619,7 @@ def decrypt_pbsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6633,7 +6633,7 @@ def decrypt_pcirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6647,7 +6647,7 @@ def decrypt_pesp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6661,7 +6661,7 @@ def decrypt_pcr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6675,7 +6675,7 @@ def decrypt_phl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6689,7 +6689,7 @@ def decrypt_ptild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6703,7 +6703,7 @@ def decrypt_ra():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6717,7 +6717,7 @@ def decrypt_rb():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6731,7 +6731,7 @@ def decrypt_rd():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6745,7 +6745,7 @@ def decrypt_rf():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6759,7 +6759,7 @@ def decrypt_rh():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6773,7 +6773,7 @@ def decrypt_rj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6787,7 +6787,7 @@ def decrypt_rl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6801,7 +6801,7 @@ def decrypt_rn():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6815,7 +6815,7 @@ def decrypt_rp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6829,7 +6829,7 @@ def decrypt_rr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6843,7 +6843,7 @@ def decrypt_rt():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6857,7 +6857,7 @@ def decrypt_rv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6871,7 +6871,7 @@ def decrypt_rx():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6885,7 +6885,7 @@ def decrypt_rz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6899,7 +6899,7 @@ def decrypt_rA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6913,7 +6913,7 @@ def decrypt_rB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6927,7 +6927,7 @@ def decrypt_rD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6941,7 +6941,7 @@ def decrypt_rF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6955,7 +6955,7 @@ def decrypt_rH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6969,7 +6969,7 @@ def decrypt_rJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6983,7 +6983,7 @@ def decrypt_rL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -6997,7 +6997,7 @@ def decrypt_rN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7011,7 +7011,7 @@ def decrypt_rP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7025,7 +7025,7 @@ def decrypt_rR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7039,7 +7039,7 @@ def decrypt_rT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7053,7 +7053,7 @@ def decrypt_rV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7067,7 +7067,7 @@ def decrypt_rX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7081,7 +7081,7 @@ def decrypt_rZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7095,7 +7095,7 @@ def decrypt_r0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7109,7 +7109,7 @@ def decrypt_r2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7123,7 +7123,7 @@ def decrypt_r4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7137,7 +7137,7 @@ def decrypt_r6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7151,7 +7151,7 @@ def decrypt_r8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7165,7 +7165,7 @@ def decrypt_rexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7179,7 +7179,7 @@ def decrypt_rdquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7193,7 +7193,7 @@ def decrypt_rdoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7207,7 +7207,7 @@ def decrypt_rand():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7221,7 +7221,7 @@ def decrypt_rquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7235,7 +7235,7 @@ def decrypt_rpar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7249,7 +7249,7 @@ def decrypt_rast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7263,7 +7263,7 @@ def decrypt_rvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7277,7 +7277,7 @@ def decrypt_rpp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7291,7 +7291,7 @@ def decrypt_rtp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7305,7 +7305,7 @@ def decrypt_rless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7319,7 +7319,7 @@ def decrypt_rmore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7333,7 +7333,7 @@ def decrypt_raro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7347,7 +7347,7 @@ def decrypt_rcroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7361,7 +7361,7 @@ def decrypt_rbsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7375,7 +7375,7 @@ def decrypt_rcirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7389,7 +7389,7 @@ def decrypt_resp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7403,7 +7403,7 @@ def decrypt_rcr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7417,7 +7417,7 @@ def decrypt_rhl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7431,7 +7431,7 @@ def decrypt_rtild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7445,7 +7445,7 @@ def decrypt_ta():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7459,7 +7459,7 @@ def decrypt_tb():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7473,7 +7473,7 @@ def decrypt_td():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7487,7 +7487,7 @@ def decrypt_tf():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7501,7 +7501,7 @@ def decrypt_th():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7515,7 +7515,7 @@ def decrypt_tj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7529,7 +7529,7 @@ def decrypt_tl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7543,7 +7543,7 @@ def decrypt_tn():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7557,7 +7557,7 @@ def decrypt_tp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7571,7 +7571,7 @@ def decrypt_tr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7585,7 +7585,7 @@ def decrypt_tt():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7599,7 +7599,7 @@ def decrypt_tv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7613,7 +7613,7 @@ def decrypt_tx():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7627,7 +7627,7 @@ def decrypt_tz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7641,7 +7641,7 @@ def decrypt_tA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7655,7 +7655,7 @@ def decrypt_tB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7669,7 +7669,7 @@ def decrypt_tD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7683,7 +7683,7 @@ def decrypt_tF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7697,7 +7697,7 @@ def decrypt_tH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7711,7 +7711,7 @@ def decrypt_tJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7725,7 +7725,7 @@ def decrypt_tL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7739,7 +7739,7 @@ def decrypt_tN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7753,7 +7753,7 @@ def decrypt_tP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7767,7 +7767,7 @@ def decrypt_tR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7781,7 +7781,7 @@ def decrypt_tT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7795,7 +7795,7 @@ def decrypt_tV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7809,7 +7809,7 @@ def decrypt_tX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7823,7 +7823,7 @@ def decrypt_tZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7837,7 +7837,7 @@ def decrypt_t0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7851,7 +7851,7 @@ def decrypt_t2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7865,7 +7865,7 @@ def decrypt_t4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7879,7 +7879,7 @@ def decrypt_t6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7893,7 +7893,7 @@ def decrypt_t8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7907,7 +7907,7 @@ def decrypt_texcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7921,7 +7921,7 @@ def decrypt_tdquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7935,7 +7935,7 @@ def decrypt_tdoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7949,7 +7949,7 @@ def decrypt_tand():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7963,7 +7963,7 @@ def decrypt_tquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7977,7 +7977,7 @@ def decrypt_tpar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -7991,7 +7991,7 @@ def decrypt_tast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8005,7 +8005,7 @@ def decrypt_tvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8019,7 +8019,7 @@ def decrypt_tpp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8033,7 +8033,7 @@ def decrypt_ttp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8047,7 +8047,7 @@ def decrypt_tless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8061,7 +8061,7 @@ def decrypt_tmore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8075,7 +8075,7 @@ def decrypt_taro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8089,7 +8089,7 @@ def decrypt_tcroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8103,7 +8103,7 @@ def decrypt_tbsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8117,7 +8117,7 @@ def decrypt_tcirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8131,7 +8131,7 @@ def decrypt_tesp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8145,7 +8145,7 @@ def decrypt_tcr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8159,7 +8159,7 @@ def decrypt_thl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8173,7 +8173,7 @@ def decrypt_ttild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8187,7 +8187,7 @@ def decrypt_va():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8201,7 +8201,7 @@ def decrypt_vb():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8215,7 +8215,7 @@ def decrypt_vd():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8229,7 +8229,7 @@ def decrypt_vf():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8243,7 +8243,7 @@ def decrypt_vh():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8257,7 +8257,7 @@ def decrypt_vj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8271,7 +8271,7 @@ def decrypt_vl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8285,7 +8285,7 @@ def decrypt_vn():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8299,7 +8299,7 @@ def decrypt_vp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8313,7 +8313,7 @@ def decrypt_vr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8327,7 +8327,7 @@ def decrypt_vt():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8341,7 +8341,7 @@ def decrypt_vv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8355,7 +8355,7 @@ def decrypt_vx():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8369,7 +8369,7 @@ def decrypt_vz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8383,7 +8383,7 @@ def decrypt_vA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8397,7 +8397,7 @@ def decrypt_vB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8411,7 +8411,7 @@ def decrypt_vD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8425,7 +8425,7 @@ def decrypt_vF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8439,7 +8439,7 @@ def decrypt_vH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8453,7 +8453,7 @@ def decrypt_vJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8467,7 +8467,7 @@ def decrypt_vL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8481,7 +8481,7 @@ def decrypt_vN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8495,7 +8495,7 @@ def decrypt_vP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8509,7 +8509,7 @@ def decrypt_vR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8523,7 +8523,7 @@ def decrypt_vT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8537,7 +8537,7 @@ def decrypt_vV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8551,7 +8551,7 @@ def decrypt_vX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8565,7 +8565,7 @@ def decrypt_vZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8579,7 +8579,7 @@ def decrypt_v0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8593,7 +8593,7 @@ def decrypt_v2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8607,7 +8607,7 @@ def decrypt_v4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8621,7 +8621,7 @@ def decrypt_v6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8635,7 +8635,7 @@ def decrypt_v8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8649,7 +8649,7 @@ def decrypt_vexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8663,7 +8663,7 @@ def decrypt_vdquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8677,7 +8677,7 @@ def decrypt_vdoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8691,7 +8691,7 @@ def decrypt_vand():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8705,7 +8705,7 @@ def decrypt_vquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8719,7 +8719,7 @@ def decrypt_vpar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8733,7 +8733,7 @@ def decrypt_vast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8747,7 +8747,7 @@ def decrypt_vvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8761,7 +8761,7 @@ def decrypt_vpp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8775,7 +8775,7 @@ def decrypt_vtp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8789,7 +8789,7 @@ def decrypt_vless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8803,7 +8803,7 @@ def decrypt_vmore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8817,7 +8817,7 @@ def decrypt_varo():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8831,7 +8831,7 @@ def decrypt_vcroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8845,7 +8845,7 @@ def decrypt_vbsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8859,7 +8859,7 @@ def decrypt_vcirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8873,7 +8873,7 @@ def decrypt_vesp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8887,7 +8887,7 @@ def decrypt_vcr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8901,7 +8901,7 @@ def decrypt_vhl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8915,7 +8915,7 @@ def decrypt_vtild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8929,7 +8929,7 @@ def decrypt_xa():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8943,7 +8943,7 @@ def decrypt_xb():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8957,7 +8957,7 @@ def decrypt_xd():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8971,7 +8971,7 @@ def decrypt_xf():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8985,7 +8985,7 @@ def decrypt_xh():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -8999,7 +8999,7 @@ def decrypt_xj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9013,7 +9013,7 @@ def decrypt_xl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9027,7 +9027,7 @@ def decrypt_xn():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9041,7 +9041,7 @@ def decrypt_xp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9055,7 +9055,7 @@ def decrypt_xr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9069,7 +9069,7 @@ def decrypt_xt():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9083,7 +9083,7 @@ def decrypt_xv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9097,7 +9097,7 @@ def decrypt_xx():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9111,7 +9111,7 @@ def decrypt_xz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9125,7 +9125,7 @@ def decrypt_xA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9139,7 +9139,7 @@ def decrypt_xB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9153,7 +9153,7 @@ def decrypt_xD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9167,7 +9167,7 @@ def decrypt_xF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9181,7 +9181,7 @@ def decrypt_xH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9195,7 +9195,7 @@ def decrypt_xJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9209,7 +9209,7 @@ def decrypt_xL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9223,7 +9223,7 @@ def decrypt_xN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9237,7 +9237,7 @@ def decrypt_xP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9251,7 +9251,7 @@ def decrypt_xR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9265,7 +9265,7 @@ def decrypt_xT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9279,7 +9279,7 @@ def decrypt_xV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9293,7 +9293,7 @@ def decrypt_xX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9307,7 +9307,7 @@ def decrypt_xZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9321,7 +9321,7 @@ def decrypt_x0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9335,7 +9335,7 @@ def decrypt_x2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9349,7 +9349,7 @@ def decrypt_x4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9363,7 +9363,7 @@ def decrypt_x6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9377,7 +9377,7 @@ def decrypt_x8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9391,7 +9391,7 @@ def decrypt_xexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9405,7 +9405,7 @@ def decrypt_xdquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9419,7 +9419,7 @@ def decrypt_xdoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9433,7 +9433,7 @@ def decrypt_xand():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9447,7 +9447,7 @@ def decrypt_xquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9461,7 +9461,7 @@ def decrypt_xpar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9475,7 +9475,7 @@ def decrypt_xast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9489,7 +9489,7 @@ def decrypt_xvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9503,7 +9503,7 @@ def decrypt_xpp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9517,7 +9517,7 @@ def decrypt_xtp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9531,7 +9531,7 @@ def decrypt_xless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9545,7 +9545,7 @@ def decrypt_xmore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9559,7 +9559,7 @@ def decrypt_xaro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9573,7 +9573,7 @@ def decrypt_xcroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9587,7 +9587,7 @@ def decrypt_xbsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9601,7 +9601,7 @@ def decrypt_xcirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9615,7 +9615,7 @@ def decrypt_xesp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9629,7 +9629,7 @@ def decrypt_xcr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9643,7 +9643,7 @@ def decrypt_xhl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9657,7 +9657,7 @@ def decrypt_xtild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9671,7 +9671,7 @@ def decrypt_za():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9685,7 +9685,7 @@ def decrypt_zb():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9699,7 +9699,7 @@ def decrypt_zd():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9713,7 +9713,7 @@ def decrypt_zf():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9727,7 +9727,7 @@ def decrypt_zh():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9741,7 +9741,7 @@ def decrypt_zj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9755,7 +9755,7 @@ def decrypt_zl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9769,7 +9769,7 @@ def decrypt_zn():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9783,7 +9783,7 @@ def decrypt_zp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9797,7 +9797,7 @@ def decrypt_zr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9811,7 +9811,7 @@ def decrypt_zt():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9825,7 +9825,7 @@ def decrypt_zv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9839,7 +9839,7 @@ def decrypt_zx():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9853,7 +9853,7 @@ def decrypt_zz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9867,7 +9867,7 @@ def decrypt_zA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9881,7 +9881,7 @@ def decrypt_zB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9895,7 +9895,7 @@ def decrypt_zD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9909,7 +9909,7 @@ def decrypt_zF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9923,7 +9923,7 @@ def decrypt_zH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9937,7 +9937,7 @@ def decrypt_zJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9951,7 +9951,7 @@ def decrypt_zL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9965,7 +9965,7 @@ def decrypt_zN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9979,7 +9979,7 @@ def decrypt_zP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -9993,7 +9993,7 @@ def decrypt_zR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10007,7 +10007,7 @@ def decrypt_zT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10021,7 +10021,7 @@ def decrypt_zV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10035,7 +10035,7 @@ def decrypt_zX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10049,7 +10049,7 @@ def decrypt_zZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10063,7 +10063,7 @@ def decrypt_z0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10077,7 +10077,7 @@ def decrypt_z2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10091,7 +10091,7 @@ def decrypt_z4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10105,7 +10105,7 @@ def decrypt_z6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10119,7 +10119,7 @@ def decrypt_z8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10133,7 +10133,7 @@ def decrypt_zexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10147,7 +10147,7 @@ def decrypt_zdquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10161,7 +10161,7 @@ def decrypt_zdoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10175,7 +10175,7 @@ def decrypt_zand():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10189,7 +10189,7 @@ def decrypt_zquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10203,7 +10203,7 @@ def decrypt_zpar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10217,7 +10217,7 @@ def decrypt_zast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10231,7 +10231,7 @@ def decrypt_zvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10245,7 +10245,7 @@ def decrypt_zpp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10259,7 +10259,7 @@ def decrypt_ztp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10273,7 +10273,7 @@ def decrypt_zless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10287,7 +10287,7 @@ def decrypt_zmore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10301,7 +10301,7 @@ def decrypt_zaro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10315,7 +10315,7 @@ def decrypt_zcroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10329,7 +10329,7 @@ def decrypt_zbsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10343,7 +10343,7 @@ def decrypt_zcirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10357,7 +10357,7 @@ def decrypt_zesp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10371,7 +10371,7 @@ def decrypt_zcr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10385,7 +10385,7 @@ def decrypt_zhl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10399,7 +10399,7 @@ def decrypt_ztild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10413,7 +10413,7 @@ def decrypt_Aa():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10427,7 +10427,7 @@ def decrypt_Ab():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10441,7 +10441,7 @@ def decrypt_Ad():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10455,7 +10455,7 @@ def decrypt_Af():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10469,7 +10469,7 @@ def decrypt_Ah():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10483,7 +10483,7 @@ def decrypt_Aj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10497,7 +10497,7 @@ def decrypt_Al():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10511,7 +10511,7 @@ def decrypt_An():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10525,7 +10525,7 @@ def decrypt_Ap():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10539,7 +10539,7 @@ def decrypt_Ar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10553,7 +10553,7 @@ def decrypt_At():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10567,7 +10567,7 @@ def decrypt_Av():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10581,7 +10581,7 @@ def decrypt_Ax():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10595,7 +10595,7 @@ def decrypt_Az():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10609,7 +10609,7 @@ def decrypt_AA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10623,7 +10623,7 @@ def decrypt_AB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10637,7 +10637,7 @@ def decrypt_AD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10651,7 +10651,7 @@ def decrypt_AF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10665,7 +10665,7 @@ def decrypt_AH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10679,7 +10679,7 @@ def decrypt_AJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10693,7 +10693,7 @@ def decrypt_AL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10707,7 +10707,7 @@ def decrypt_AN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10721,7 +10721,7 @@ def decrypt_AP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10735,7 +10735,7 @@ def decrypt_AR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10749,7 +10749,7 @@ def decrypt_AT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10763,7 +10763,7 @@ def decrypt_AV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10777,7 +10777,7 @@ def decrypt_AX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10791,7 +10791,7 @@ def decrypt_AZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10805,7 +10805,7 @@ def decrypt_A0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10819,7 +10819,7 @@ def decrypt_A2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10833,7 +10833,7 @@ def decrypt_A4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10847,7 +10847,7 @@ def decrypt_A6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10861,7 +10861,7 @@ def decrypt_A8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10875,7 +10875,7 @@ def decrypt_Aexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10889,7 +10889,7 @@ def decrypt_Adquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10903,7 +10903,7 @@ def decrypt_Adoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10917,7 +10917,7 @@ def decrypt_Aand():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10931,7 +10931,7 @@ def decrypt_Aquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10945,7 +10945,7 @@ def decrypt_Apar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10959,7 +10959,7 @@ def decrypt_Aast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10973,7 +10973,7 @@ def decrypt_Avir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -10987,7 +10987,7 @@ def decrypt_App():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11001,7 +11001,7 @@ def decrypt_Atp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11015,7 +11015,7 @@ def decrypt_Aless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11029,7 +11029,7 @@ def decrypt_Amore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11043,7 +11043,7 @@ def decrypt_Aaro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11057,7 +11057,7 @@ def decrypt_Acroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11071,7 +11071,7 @@ def decrypt_Absl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11085,7 +11085,7 @@ def decrypt_Acirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11099,7 +11099,7 @@ def decrypt_Aesp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11113,7 +11113,7 @@ def decrypt_Acr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11127,7 +11127,7 @@ def decrypt_Ahl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11141,7 +11141,7 @@ def decrypt_Atild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11155,7 +11155,7 @@ def decrypt_Ba():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11169,7 +11169,7 @@ def decrypt_Bb():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11183,7 +11183,7 @@ def decrypt_Bd():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11197,7 +11197,7 @@ def decrypt_Bf():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11211,7 +11211,7 @@ def decrypt_Bh():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11225,7 +11225,7 @@ def decrypt_Bj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11239,7 +11239,7 @@ def decrypt_Bl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11253,7 +11253,7 @@ def decrypt_Bn():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11267,7 +11267,7 @@ def decrypt_Bp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11281,7 +11281,7 @@ def decrypt_Br():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11295,7 +11295,7 @@ def decrypt_Bt():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11309,7 +11309,7 @@ def decrypt_Bv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11323,7 +11323,7 @@ def decrypt_Bx():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11337,7 +11337,7 @@ def decrypt_Bz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11351,7 +11351,7 @@ def decrypt_BA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11365,7 +11365,7 @@ def decrypt_BB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11379,7 +11379,7 @@ def decrypt_BD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11393,7 +11393,7 @@ def decrypt_BF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11407,7 +11407,7 @@ def decrypt_BH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11421,7 +11421,7 @@ def decrypt_BJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11435,7 +11435,7 @@ def decrypt_BL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11449,7 +11449,7 @@ def decrypt_BN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11463,7 +11463,7 @@ def decrypt_BP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11477,7 +11477,7 @@ def decrypt_BR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11491,7 +11491,7 @@ def decrypt_BT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11505,7 +11505,7 @@ def decrypt_BV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11519,7 +11519,7 @@ def decrypt_BX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11533,7 +11533,7 @@ def decrypt_BZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11547,7 +11547,7 @@ def decrypt_B0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11561,7 +11561,7 @@ def decrypt_B2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11575,7 +11575,7 @@ def decrypt_B4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11589,7 +11589,7 @@ def decrypt_B6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11603,7 +11603,7 @@ def decrypt_B8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11617,7 +11617,7 @@ def decrypt_Bexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11631,7 +11631,7 @@ def decrypt_Bdquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11645,7 +11645,7 @@ def decrypt_Bdoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11659,7 +11659,7 @@ def decrypt_Band():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11673,7 +11673,7 @@ def decrypt_Bquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11687,7 +11687,7 @@ def decrypt_Bpar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11701,7 +11701,7 @@ def decrypt_Bast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11715,7 +11715,7 @@ def decrypt_Bvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11729,7 +11729,7 @@ def decrypt_Bpp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11743,7 +11743,7 @@ def decrypt_Btp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11757,7 +11757,7 @@ def decrypt_Bless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11771,7 +11771,7 @@ def decrypt_Bmore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11785,7 +11785,7 @@ def decrypt_Baro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11799,7 +11799,7 @@ def decrypt_Bcroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11813,7 +11813,7 @@ def decrypt_Bbsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11827,7 +11827,7 @@ def decrypt_Bcirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11841,7 +11841,7 @@ def decrypt_Besp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11855,7 +11855,7 @@ def decrypt_Bcr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11869,7 +11869,7 @@ def decrypt_Bhl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11883,7 +11883,7 @@ def decrypt_Btild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11897,7 +11897,7 @@ def decrypt_Da():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11911,7 +11911,7 @@ def decrypt_Db():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11925,7 +11925,7 @@ def decrypt_Dd():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11939,7 +11939,7 @@ def decrypt_Df():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11953,7 +11953,7 @@ def decrypt_Dh():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11967,7 +11967,7 @@ def decrypt_Dj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11981,7 +11981,7 @@ def decrypt_Dl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -11995,7 +11995,7 @@ def decrypt_Dn():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12009,7 +12009,7 @@ def decrypt_Dp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12023,7 +12023,7 @@ def decrypt_Dr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12037,7 +12037,7 @@ def decrypt_Dt():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12051,7 +12051,7 @@ def decrypt_Dv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12065,7 +12065,7 @@ def decrypt_Dx():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12079,7 +12079,7 @@ def decrypt_Dz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12093,7 +12093,7 @@ def decrypt_DA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12107,7 +12107,7 @@ def decrypt_DB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12121,7 +12121,7 @@ def decrypt_DD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12135,7 +12135,7 @@ def decrypt_DF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12149,7 +12149,7 @@ def decrypt_DH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12163,7 +12163,7 @@ def decrypt_DJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12177,7 +12177,7 @@ def decrypt_DL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12191,7 +12191,7 @@ def decrypt_DN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12205,7 +12205,7 @@ def decrypt_DP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12219,7 +12219,7 @@ def decrypt_DR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12233,7 +12233,7 @@ def decrypt_DT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12247,7 +12247,7 @@ def decrypt_DV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12261,7 +12261,7 @@ def decrypt_DX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12275,7 +12275,7 @@ def decrypt_DZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12289,7 +12289,7 @@ def decrypt_D0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12303,7 +12303,7 @@ def decrypt_D2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12317,7 +12317,7 @@ def decrypt_D4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12331,7 +12331,7 @@ def decrypt_D6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12345,7 +12345,7 @@ def decrypt_D8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12359,7 +12359,7 @@ def decrypt_Dexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12373,7 +12373,7 @@ def decrypt_Ddquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12387,7 +12387,7 @@ def decrypt_Ddoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12401,7 +12401,7 @@ def decrypt_Dand():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12415,7 +12415,7 @@ def decrypt_Dquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12429,7 +12429,7 @@ def decrypt_Dpar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12443,7 +12443,7 @@ def decrypt_Dast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12457,7 +12457,7 @@ def decrypt_Dvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12471,7 +12471,7 @@ def decrypt_Dpp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12485,7 +12485,7 @@ def decrypt_Dtp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12499,7 +12499,7 @@ def decrypt_Dless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12513,7 +12513,7 @@ def decrypt_Dmore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12527,7 +12527,7 @@ def decrypt_Daro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12541,7 +12541,7 @@ def decrypt_Dcroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12555,7 +12555,7 @@ def decrypt_Dbsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12569,7 +12569,7 @@ def decrypt_Dcirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12583,7 +12583,7 @@ def decrypt_Desp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12597,7 +12597,7 @@ def decrypt_Dcr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12611,7 +12611,7 @@ def decrypt_Dhl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12625,7 +12625,7 @@ def decrypt_Dtild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12639,7 +12639,7 @@ def decrypt_Fa():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12653,7 +12653,7 @@ def decrypt_Fb():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12667,7 +12667,7 @@ def decrypt_Fd():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12681,7 +12681,7 @@ def decrypt_Ff():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12695,7 +12695,7 @@ def decrypt_Fh():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12709,7 +12709,7 @@ def decrypt_Fj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12723,7 +12723,7 @@ def decrypt_Fl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12737,7 +12737,7 @@ def decrypt_Fn():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12751,7 +12751,7 @@ def decrypt_Fp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12765,7 +12765,7 @@ def decrypt_Fr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12779,7 +12779,7 @@ def decrypt_Ft():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12793,7 +12793,7 @@ def decrypt_Fv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12807,7 +12807,7 @@ def decrypt_Fx():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12821,7 +12821,7 @@ def decrypt_Fz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12835,7 +12835,7 @@ def decrypt_FA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12849,7 +12849,7 @@ def decrypt_FB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12863,7 +12863,7 @@ def decrypt_FD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12877,7 +12877,7 @@ def decrypt_FF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12891,7 +12891,7 @@ def decrypt_FH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12905,7 +12905,7 @@ def decrypt_FJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12919,7 +12919,7 @@ def decrypt_FL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12933,7 +12933,7 @@ def decrypt_FN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12947,7 +12947,7 @@ def decrypt_FP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12961,7 +12961,7 @@ def decrypt_FR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12975,7 +12975,7 @@ def decrypt_FT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -12989,7 +12989,7 @@ def decrypt_FV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13003,7 +13003,7 @@ def decrypt_FX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13017,7 +13017,7 @@ def decrypt_FZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13031,7 +13031,7 @@ def decrypt_F0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13045,7 +13045,7 @@ def decrypt_F2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13059,7 +13059,7 @@ def decrypt_F4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13073,7 +13073,7 @@ def decrypt_F6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13087,7 +13087,7 @@ def decrypt_F8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13101,7 +13101,7 @@ def decrypt_Fexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13115,7 +13115,7 @@ def decrypt_Fdquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13129,7 +13129,7 @@ def decrypt_Fdoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13143,7 +13143,7 @@ def decrypt_Fand():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13157,7 +13157,7 @@ def decrypt_Fquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13171,7 +13171,7 @@ def decrypt_Fpar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13185,7 +13185,7 @@ def decrypt_Fast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13199,7 +13199,7 @@ def decrypt_Fvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13213,7 +13213,7 @@ def decrypt_Fpp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13227,7 +13227,7 @@ def decrypt_Ftp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13241,7 +13241,7 @@ def decrypt_Fless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13255,7 +13255,7 @@ def decrypt_Fmore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13269,7 +13269,7 @@ def decrypt_Faro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13283,7 +13283,7 @@ def decrypt_Fcroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13297,7 +13297,7 @@ def decrypt_Fbsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13311,7 +13311,7 @@ def decrypt_Fcirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13325,7 +13325,7 @@ def decrypt_Fesp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13339,7 +13339,7 @@ def decrypt_Fcr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13353,7 +13353,7 @@ def decrypt_Fhl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13367,7 +13367,7 @@ def decrypt_Ftild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13381,7 +13381,7 @@ def decrypt_Ha():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13395,7 +13395,7 @@ def decrypt_Hb():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13409,7 +13409,7 @@ def decrypt_Hd():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13423,7 +13423,7 @@ def decrypt_Hf():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13437,7 +13437,7 @@ def decrypt_Hh():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13451,7 +13451,7 @@ def decrypt_Hj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13465,7 +13465,7 @@ def decrypt_Hl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13479,7 +13479,7 @@ def decrypt_Hn():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13493,7 +13493,7 @@ def decrypt_Hp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13507,7 +13507,7 @@ def decrypt_Hr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13521,7 +13521,7 @@ def decrypt_Ht():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13535,7 +13535,7 @@ def decrypt_Hv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13549,7 +13549,7 @@ def decrypt_Hx():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13563,7 +13563,7 @@ def decrypt_Hz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13577,7 +13577,7 @@ def decrypt_HA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13591,7 +13591,7 @@ def decrypt_HB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13605,7 +13605,7 @@ def decrypt_HD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13619,7 +13619,7 @@ def decrypt_HF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13633,7 +13633,7 @@ def decrypt_HH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13647,7 +13647,7 @@ def decrypt_HJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13661,7 +13661,7 @@ def decrypt_HL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13675,7 +13675,7 @@ def decrypt_HN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13689,7 +13689,7 @@ def decrypt_HP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13703,7 +13703,7 @@ def decrypt_HR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13717,7 +13717,7 @@ def decrypt_HT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13731,7 +13731,7 @@ def decrypt_HV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13745,7 +13745,7 @@ def decrypt_HX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13759,7 +13759,7 @@ def decrypt_HZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13773,7 +13773,7 @@ def decrypt_H0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13787,7 +13787,7 @@ def decrypt_H2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13801,7 +13801,7 @@ def decrypt_H4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13815,7 +13815,7 @@ def decrypt_H6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13829,7 +13829,7 @@ def decrypt_H8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13843,7 +13843,7 @@ def decrypt_Hexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13857,7 +13857,7 @@ def decrypt_Hdquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13871,7 +13871,7 @@ def decrypt_Hdoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13885,7 +13885,7 @@ def decrypt_Hand():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13899,7 +13899,7 @@ def decrypt_Hquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13913,7 +13913,7 @@ def decrypt_Hpar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13927,7 +13927,7 @@ def decrypt_Hast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13941,7 +13941,7 @@ def decrypt_Hvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13955,7 +13955,7 @@ def decrypt_Hpp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13969,7 +13969,7 @@ def decrypt_Htp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13983,7 +13983,7 @@ def decrypt_Hless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -13997,7 +13997,7 @@ def decrypt_Hmore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14011,7 +14011,7 @@ def decrypt_Haro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14025,7 +14025,7 @@ def decrypt_Hcroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14039,7 +14039,7 @@ def decrypt_Hbsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14053,7 +14053,7 @@ def decrypt_Hcirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14067,7 +14067,7 @@ def decrypt_Hesp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14081,7 +14081,7 @@ def decrypt_Hcr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14095,7 +14095,7 @@ def decrypt_Hhl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14109,7 +14109,7 @@ def decrypt_Htild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14123,7 +14123,7 @@ def decrypt_Ja():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14137,7 +14137,7 @@ def decrypt_Jb():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14151,7 +14151,7 @@ def decrypt_Jd():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14165,7 +14165,7 @@ def decrypt_Jf():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14179,7 +14179,7 @@ def decrypt_Jh():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14193,7 +14193,7 @@ def decrypt_Jj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14207,7 +14207,7 @@ def decrypt_Jl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14221,7 +14221,7 @@ def decrypt_Jn():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14235,7 +14235,7 @@ def decrypt_Jp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14249,7 +14249,7 @@ def decrypt_Jr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14263,7 +14263,7 @@ def decrypt_Jt():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14277,7 +14277,7 @@ def decrypt_Jv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14291,7 +14291,7 @@ def decrypt_Jx():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14305,7 +14305,7 @@ def decrypt_Jz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14319,7 +14319,7 @@ def decrypt_JA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14333,7 +14333,7 @@ def decrypt_JB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14347,7 +14347,7 @@ def decrypt_JD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14361,7 +14361,7 @@ def decrypt_JF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14375,7 +14375,7 @@ def decrypt_JH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14389,7 +14389,7 @@ def decrypt_JJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14403,7 +14403,7 @@ def decrypt_JL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14417,7 +14417,7 @@ def decrypt_JN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14431,7 +14431,7 @@ def decrypt_JP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14445,7 +14445,7 @@ def decrypt_JR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14459,7 +14459,7 @@ def decrypt_JT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14473,7 +14473,7 @@ def decrypt_JV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14487,7 +14487,7 @@ def decrypt_JX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14501,7 +14501,7 @@ def decrypt_JZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14515,7 +14515,7 @@ def decrypt_J0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14529,7 +14529,7 @@ def decrypt_J2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14543,7 +14543,7 @@ def decrypt_J4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14557,7 +14557,7 @@ def decrypt_J6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14571,7 +14571,7 @@ def decrypt_J8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14585,7 +14585,7 @@ def decrypt_Jexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14599,7 +14599,7 @@ def decrypt_Jdquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14613,7 +14613,7 @@ def decrypt_Jdoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14627,7 +14627,7 @@ def decrypt_Jand():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14641,7 +14641,7 @@ def decrypt_Jquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14655,7 +14655,7 @@ def decrypt_Jpar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14669,7 +14669,7 @@ def decrypt_Jast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14683,7 +14683,7 @@ def decrypt_Jvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14697,7 +14697,7 @@ def decrypt_Jpp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14711,7 +14711,7 @@ def decrypt_Jtp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14725,7 +14725,7 @@ def decrypt_Jless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14739,7 +14739,7 @@ def decrypt_Jmore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14753,7 +14753,7 @@ def decrypt_Jaro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14767,7 +14767,7 @@ def decrypt_Jcroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14781,7 +14781,7 @@ def decrypt_Jbsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14795,7 +14795,7 @@ def decrypt_Jcirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14809,7 +14809,7 @@ def decrypt_Jesp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14823,7 +14823,7 @@ def decrypt_Jcr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14837,7 +14837,7 @@ def decrypt_Jhl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14851,7 +14851,7 @@ def decrypt_Jtild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14865,7 +14865,7 @@ def decrypt_La():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14879,7 +14879,7 @@ def decrypt_Lb():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14893,7 +14893,7 @@ def decrypt_Ld():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14907,7 +14907,7 @@ def decrypt_Lf():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14921,7 +14921,7 @@ def decrypt_Lh():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14935,7 +14935,7 @@ def decrypt_Lj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14949,7 +14949,7 @@ def decrypt_Ll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14963,7 +14963,7 @@ def decrypt_Ln():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14977,7 +14977,7 @@ def decrypt_Lp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -14991,7 +14991,7 @@ def decrypt_Lr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15005,7 +15005,7 @@ def decrypt_Lt():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15019,7 +15019,7 @@ def decrypt_Lv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15033,7 +15033,7 @@ def decrypt_Lx():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15047,7 +15047,7 @@ def decrypt_Lz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15061,7 +15061,7 @@ def decrypt_LA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15075,7 +15075,7 @@ def decrypt_LB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15089,7 +15089,7 @@ def decrypt_LD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15103,7 +15103,7 @@ def decrypt_LF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15117,7 +15117,7 @@ def decrypt_LH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15131,7 +15131,7 @@ def decrypt_LJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15145,7 +15145,7 @@ def decrypt_LL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15159,7 +15159,7 @@ def decrypt_LN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15173,7 +15173,7 @@ def decrypt_LP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15187,7 +15187,7 @@ def decrypt_LR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15201,7 +15201,7 @@ def decrypt_LT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15215,7 +15215,7 @@ def decrypt_LV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15229,7 +15229,7 @@ def decrypt_LX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15243,7 +15243,7 @@ def decrypt_LZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15257,7 +15257,7 @@ def decrypt_L0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15271,7 +15271,7 @@ def decrypt_L2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15285,7 +15285,7 @@ def decrypt_L4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15299,7 +15299,7 @@ def decrypt_L6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15313,7 +15313,7 @@ def decrypt_L8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15327,7 +15327,7 @@ def decrypt_Lexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15341,7 +15341,7 @@ def decrypt_Ldquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15355,7 +15355,7 @@ def decrypt_Ldoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15369,7 +15369,7 @@ def decrypt_Land():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15383,7 +15383,7 @@ def decrypt_Lquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15397,7 +15397,7 @@ def decrypt_Lpar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15411,7 +15411,7 @@ def decrypt_Last():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15425,7 +15425,7 @@ def decrypt_Lvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15439,7 +15439,7 @@ def decrypt_Lpp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15453,7 +15453,7 @@ def decrypt_Ltp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15467,7 +15467,7 @@ def decrypt_Lless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15481,7 +15481,7 @@ def decrypt_Lmore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15495,7 +15495,7 @@ def decrypt_Laro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15509,7 +15509,7 @@ def decrypt_Lcroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15523,7 +15523,7 @@ def decrypt_Lbsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15537,7 +15537,7 @@ def decrypt_Lcirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15551,7 +15551,7 @@ def decrypt_Lesp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15565,7 +15565,7 @@ def decrypt_Lcr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15579,7 +15579,7 @@ def decrypt_Lhl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15593,7 +15593,7 @@ def decrypt_Ltild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15607,7 +15607,7 @@ def decrypt_Na():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15621,7 +15621,7 @@ def decrypt_Nb():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15635,7 +15635,7 @@ def decrypt_Nd():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15649,7 +15649,7 @@ def decrypt_Nf():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15663,7 +15663,7 @@ def decrypt_Nh():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15677,7 +15677,7 @@ def decrypt_Nj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15691,7 +15691,7 @@ def decrypt_Nl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15705,7 +15705,7 @@ def decrypt_Nn():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15719,7 +15719,7 @@ def decrypt_Np():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15733,7 +15733,7 @@ def decrypt_Nr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15747,7 +15747,7 @@ def decrypt_Nt():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15761,7 +15761,7 @@ def decrypt_Nv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15775,7 +15775,7 @@ def decrypt_Nx():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15789,7 +15789,7 @@ def decrypt_Nz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15803,7 +15803,7 @@ def decrypt_NA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15817,7 +15817,7 @@ def decrypt_NB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15831,7 +15831,7 @@ def decrypt_ND():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15845,7 +15845,7 @@ def decrypt_NF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15859,7 +15859,7 @@ def decrypt_NH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15873,7 +15873,7 @@ def decrypt_NJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15887,7 +15887,7 @@ def decrypt_NL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15901,7 +15901,7 @@ def decrypt_NN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15915,7 +15915,7 @@ def decrypt_NP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15929,7 +15929,7 @@ def decrypt_NR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15943,7 +15943,7 @@ def decrypt_NT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15957,7 +15957,7 @@ def decrypt_NV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15971,7 +15971,7 @@ def decrypt_NX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15985,7 +15985,7 @@ def decrypt_NZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -15999,7 +15999,7 @@ def decrypt_N0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16013,7 +16013,7 @@ def decrypt_N2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16027,7 +16027,7 @@ def decrypt_N4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16041,7 +16041,7 @@ def decrypt_N6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16055,7 +16055,7 @@ def decrypt_N8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16069,7 +16069,7 @@ def decrypt_Nexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16083,7 +16083,7 @@ def decrypt_Ndquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16097,7 +16097,7 @@ def decrypt_Ndoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16111,7 +16111,7 @@ def decrypt_Nand():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16125,7 +16125,7 @@ def decrypt_Nquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16139,7 +16139,7 @@ def decrypt_Npar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16153,7 +16153,7 @@ def decrypt_Nast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16167,7 +16167,7 @@ def decrypt_Nvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16181,7 +16181,7 @@ def decrypt_Npp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16195,7 +16195,7 @@ def decrypt_Ntp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16209,7 +16209,7 @@ def decrypt_Nless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16223,7 +16223,7 @@ def decrypt_Nmore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16237,7 +16237,7 @@ def decrypt_Naro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16251,7 +16251,7 @@ def decrypt_Ncroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16265,7 +16265,7 @@ def decrypt_Nbsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16279,7 +16279,7 @@ def decrypt_Ncirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16293,7 +16293,7 @@ def decrypt_Nesp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16307,7 +16307,7 @@ def decrypt_Ncr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16321,7 +16321,7 @@ def decrypt_Nhl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16335,7 +16335,7 @@ def decrypt_Ntild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16349,7 +16349,7 @@ def decrypt_Pa():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16363,7 +16363,7 @@ def decrypt_Pb():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16377,7 +16377,7 @@ def decrypt_Pd():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16391,7 +16391,7 @@ def decrypt_Pf():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16405,7 +16405,7 @@ def decrypt_Ph():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16419,7 +16419,7 @@ def decrypt_Pj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16433,7 +16433,7 @@ def decrypt_Pl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16447,7 +16447,7 @@ def decrypt_Pn():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16461,7 +16461,7 @@ def decrypt_Pp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16475,7 +16475,7 @@ def decrypt_Pr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16489,7 +16489,7 @@ def decrypt_Pt():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16503,7 +16503,7 @@ def decrypt_Pv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16517,7 +16517,7 @@ def decrypt_Px():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16531,7 +16531,7 @@ def decrypt_Pz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16545,7 +16545,7 @@ def decrypt_PA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16559,7 +16559,7 @@ def decrypt_PB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16573,7 +16573,7 @@ def decrypt_PD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16587,7 +16587,7 @@ def decrypt_PF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16601,7 +16601,7 @@ def decrypt_PH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16615,7 +16615,7 @@ def decrypt_PJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16629,7 +16629,7 @@ def decrypt_PL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16643,7 +16643,7 @@ def decrypt_PN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16657,7 +16657,7 @@ def decrypt_PP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16671,7 +16671,7 @@ def decrypt_PR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16685,7 +16685,7 @@ def decrypt_PT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16699,7 +16699,7 @@ def decrypt_PV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16713,7 +16713,7 @@ def decrypt_PX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16727,7 +16727,7 @@ def decrypt_PZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16741,7 +16741,7 @@ def decrypt_P0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16755,7 +16755,7 @@ def decrypt_P2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16769,7 +16769,7 @@ def decrypt_P4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16783,7 +16783,7 @@ def decrypt_P6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16797,7 +16797,7 @@ def decrypt_P8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16811,7 +16811,7 @@ def decrypt_Pexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16825,7 +16825,7 @@ def decrypt_Pdquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16839,7 +16839,7 @@ def decrypt_Pdoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16853,7 +16853,7 @@ def decrypt_Pand():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16867,7 +16867,7 @@ def decrypt_Pquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16881,7 +16881,7 @@ def decrypt_Ppar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16895,7 +16895,7 @@ def decrypt_Past():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16909,7 +16909,7 @@ def decrypt_Pvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16923,7 +16923,7 @@ def decrypt_Ppp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16937,7 +16937,7 @@ def decrypt_Ptp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16951,7 +16951,7 @@ def decrypt_Pless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16965,7 +16965,7 @@ def decrypt_Pmore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16979,7 +16979,7 @@ def decrypt_Paro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -16993,7 +16993,7 @@ def decrypt_Pcroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17007,7 +17007,7 @@ def decrypt_Pbsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17021,7 +17021,7 @@ def decrypt_Pcirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17035,7 +17035,7 @@ def decrypt_Pesp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17049,7 +17049,7 @@ def decrypt_Pcr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17063,7 +17063,7 @@ def decrypt_Phl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17077,7 +17077,7 @@ def decrypt_Ptild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17091,7 +17091,7 @@ def decrypt_Ra():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17105,7 +17105,7 @@ def decrypt_Rb():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17119,7 +17119,7 @@ def decrypt_Rd():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17133,7 +17133,7 @@ def decrypt_Rf():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17147,7 +17147,7 @@ def decrypt_Rh():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17161,7 +17161,7 @@ def decrypt_Rj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17175,7 +17175,7 @@ def decrypt_Rl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17189,7 +17189,7 @@ def decrypt_Rn():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17203,7 +17203,7 @@ def decrypt_Rp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17217,7 +17217,7 @@ def decrypt_Rr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17231,7 +17231,7 @@ def decrypt_Rt():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17245,7 +17245,7 @@ def decrypt_Rv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17259,7 +17259,7 @@ def decrypt_Rx():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17273,7 +17273,7 @@ def decrypt_Rz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17287,7 +17287,7 @@ def decrypt_RA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17301,7 +17301,7 @@ def decrypt_RB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17315,7 +17315,7 @@ def decrypt_RD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17329,7 +17329,7 @@ def decrypt_RF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17343,7 +17343,7 @@ def decrypt_RH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17357,7 +17357,7 @@ def decrypt_RJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17371,7 +17371,7 @@ def decrypt_RL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17385,7 +17385,7 @@ def decrypt_RN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17399,7 +17399,7 @@ def decrypt_RP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17413,7 +17413,7 @@ def decrypt_RR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17427,7 +17427,7 @@ def decrypt_RT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17441,7 +17441,7 @@ def decrypt_RV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17455,7 +17455,7 @@ def decrypt_RX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17469,7 +17469,7 @@ def decrypt_RZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17483,7 +17483,7 @@ def decrypt_R0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17497,7 +17497,7 @@ def decrypt_R2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17511,7 +17511,7 @@ def decrypt_R4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17525,7 +17525,7 @@ def decrypt_R6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17539,7 +17539,7 @@ def decrypt_R8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17553,7 +17553,7 @@ def decrypt_Rexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17567,7 +17567,7 @@ def decrypt_Rdquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17581,7 +17581,7 @@ def decrypt_Rdoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17595,7 +17595,7 @@ def decrypt_Rand():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17609,7 +17609,7 @@ def decrypt_Rquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17623,7 +17623,7 @@ def decrypt_Rpar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17637,7 +17637,7 @@ def decrypt_Rast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17651,7 +17651,7 @@ def decrypt_Rvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17665,7 +17665,7 @@ def decrypt_Rpp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17679,7 +17679,7 @@ def decrypt_Rtp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17693,7 +17693,7 @@ def decrypt_Rless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17707,7 +17707,7 @@ def decrypt_Rmore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17721,7 +17721,7 @@ def decrypt_Raro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17735,7 +17735,7 @@ def decrypt_Rcroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17749,7 +17749,7 @@ def decrypt_Rbsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17763,7 +17763,7 @@ def decrypt_Rcirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17777,7 +17777,7 @@ def decrypt_Resp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17791,7 +17791,7 @@ def decrypt_Rcr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17805,7 +17805,7 @@ def decrypt_Rhl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17819,7 +17819,7 @@ def decrypt_Rtild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17833,7 +17833,7 @@ def decrypt_Ta():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17847,7 +17847,7 @@ def decrypt_Tb():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17861,7 +17861,7 @@ def decrypt_Td():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17875,7 +17875,7 @@ def decrypt_Tf():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17889,7 +17889,7 @@ def decrypt_Th():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17903,7 +17903,7 @@ def decrypt_Tj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17917,7 +17917,7 @@ def decrypt_Tl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17931,7 +17931,7 @@ def decrypt_Tn():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17945,7 +17945,7 @@ def decrypt_Tp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17959,7 +17959,7 @@ def decrypt_Tr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17973,7 +17973,7 @@ def decrypt_Tt():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -17987,7 +17987,7 @@ def decrypt_Tv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18001,7 +18001,7 @@ def decrypt_Tx():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18015,7 +18015,7 @@ def decrypt_Tz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18029,7 +18029,7 @@ def decrypt_TA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18043,7 +18043,7 @@ def decrypt_TB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18057,7 +18057,7 @@ def decrypt_TD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18071,7 +18071,7 @@ def decrypt_TF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18085,7 +18085,7 @@ def decrypt_TH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18099,7 +18099,7 @@ def decrypt_TJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18113,7 +18113,7 @@ def decrypt_TL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18127,7 +18127,7 @@ def decrypt_TN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18141,7 +18141,7 @@ def decrypt_TP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18155,7 +18155,7 @@ def decrypt_TR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18169,7 +18169,7 @@ def decrypt_TT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18183,7 +18183,7 @@ def decrypt_TV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18197,7 +18197,7 @@ def decrypt_TX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18211,7 +18211,7 @@ def decrypt_TZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18225,7 +18225,7 @@ def decrypt_T0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18239,7 +18239,7 @@ def decrypt_T2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18253,7 +18253,7 @@ def decrypt_T4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18267,7 +18267,7 @@ def decrypt_T6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18281,7 +18281,7 @@ def decrypt_T8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18295,7 +18295,7 @@ def decrypt_Texcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18309,7 +18309,7 @@ def decrypt_Tdquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18323,7 +18323,7 @@ def decrypt_Tdoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18337,7 +18337,7 @@ def decrypt_Tand():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18351,7 +18351,7 @@ def decrypt_Tquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18365,7 +18365,7 @@ def decrypt_Tpar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18379,7 +18379,7 @@ def decrypt_Tast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18393,7 +18393,7 @@ def decrypt_Tvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18407,7 +18407,7 @@ def decrypt_Tpp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18421,7 +18421,7 @@ def decrypt_Ttp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18435,7 +18435,7 @@ def decrypt_Tless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18449,7 +18449,7 @@ def decrypt_Tmore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18463,7 +18463,7 @@ def decrypt_Taro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18477,7 +18477,7 @@ def decrypt_Tcroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18491,7 +18491,7 @@ def decrypt_Tbsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18505,7 +18505,7 @@ def decrypt_Tcirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18519,7 +18519,7 @@ def decrypt_Tesp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18533,7 +18533,7 @@ def decrypt_Tcr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18547,7 +18547,7 @@ def decrypt_Thl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18561,7 +18561,7 @@ def decrypt_Ttild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18575,7 +18575,7 @@ def decrypt_Va():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18589,7 +18589,7 @@ def decrypt_Vb():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18603,7 +18603,7 @@ def decrypt_Vd():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18617,7 +18617,7 @@ def decrypt_Vf():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18631,7 +18631,7 @@ def decrypt_Vh():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18645,7 +18645,7 @@ def decrypt_Vj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18659,7 +18659,7 @@ def decrypt_Vl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18673,7 +18673,7 @@ def decrypt_Vn():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18687,7 +18687,7 @@ def decrypt_Vp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18701,7 +18701,7 @@ def decrypt_Vr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18715,7 +18715,7 @@ def decrypt_Vt():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18729,7 +18729,7 @@ def decrypt_Vv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18743,7 +18743,7 @@ def decrypt_Vx():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18757,7 +18757,7 @@ def decrypt_Vz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18771,7 +18771,7 @@ def decrypt_VA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18785,7 +18785,7 @@ def decrypt_VB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18799,7 +18799,7 @@ def decrypt_VD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18813,7 +18813,7 @@ def decrypt_VF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18827,7 +18827,7 @@ def decrypt_VH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18841,7 +18841,7 @@ def decrypt_VJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18855,7 +18855,7 @@ def decrypt_VL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18869,7 +18869,7 @@ def decrypt_VN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18883,7 +18883,7 @@ def decrypt_VP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18897,7 +18897,7 @@ def decrypt_VR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18911,7 +18911,7 @@ def decrypt_VT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18925,7 +18925,7 @@ def decrypt_VV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18939,7 +18939,7 @@ def decrypt_VX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18953,7 +18953,7 @@ def decrypt_VZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18967,7 +18967,7 @@ def decrypt_V0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18981,7 +18981,7 @@ def decrypt_V2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -18995,7 +18995,7 @@ def decrypt_V4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19009,7 +19009,7 @@ def decrypt_V6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19023,7 +19023,7 @@ def decrypt_V8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19037,7 +19037,7 @@ def decrypt_Vexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19051,7 +19051,7 @@ def decrypt_Vdquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19065,7 +19065,7 @@ def decrypt_Vdoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19079,7 +19079,7 @@ def decrypt_Vand():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19093,7 +19093,7 @@ def decrypt_Vquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19107,7 +19107,7 @@ def decrypt_Vpar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19121,7 +19121,7 @@ def decrypt_Vast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19135,7 +19135,7 @@ def decrypt_Vvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19149,7 +19149,7 @@ def decrypt_Vpp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19163,7 +19163,7 @@ def decrypt_Vtp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19177,7 +19177,7 @@ def decrypt_Vless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19191,7 +19191,7 @@ def decrypt_Vmore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19205,7 +19205,7 @@ def decrypt_Varo():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19219,7 +19219,7 @@ def decrypt_Vcroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19233,7 +19233,7 @@ def decrypt_Vbsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19247,7 +19247,7 @@ def decrypt_Vcirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19261,7 +19261,7 @@ def decrypt_Vesp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19275,7 +19275,7 @@ def decrypt_Vcr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19289,7 +19289,7 @@ def decrypt_Vhl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19303,7 +19303,7 @@ def decrypt_Vtild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19317,7 +19317,7 @@ def decrypt_Xa():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19331,7 +19331,7 @@ def decrypt_Xb():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19345,7 +19345,7 @@ def decrypt_Xd():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19359,7 +19359,7 @@ def decrypt_Xf():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19373,7 +19373,7 @@ def decrypt_Xh():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19387,7 +19387,7 @@ def decrypt_Xj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19401,7 +19401,7 @@ def decrypt_Xl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19415,7 +19415,7 @@ def decrypt_Xn():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19429,7 +19429,7 @@ def decrypt_Xp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19443,7 +19443,7 @@ def decrypt_Xr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19457,7 +19457,7 @@ def decrypt_Xt():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19471,7 +19471,7 @@ def decrypt_Xv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19485,7 +19485,7 @@ def decrypt_Xx():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19499,7 +19499,7 @@ def decrypt_Xz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19513,7 +19513,7 @@ def decrypt_XA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19527,7 +19527,7 @@ def decrypt_XB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19541,7 +19541,7 @@ def decrypt_XD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19555,7 +19555,7 @@ def decrypt_XF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19569,7 +19569,7 @@ def decrypt_XH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19583,7 +19583,7 @@ def decrypt_XJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19597,7 +19597,7 @@ def decrypt_XL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19611,7 +19611,7 @@ def decrypt_XN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19625,7 +19625,7 @@ def decrypt_XP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19639,7 +19639,7 @@ def decrypt_XR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19653,7 +19653,7 @@ def decrypt_XT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19667,7 +19667,7 @@ def decrypt_XV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19681,7 +19681,7 @@ def decrypt_XX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19695,7 +19695,7 @@ def decrypt_XZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19709,7 +19709,7 @@ def decrypt_X0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19723,7 +19723,7 @@ def decrypt_X2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19737,7 +19737,7 @@ def decrypt_X4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19751,7 +19751,7 @@ def decrypt_X6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19765,7 +19765,7 @@ def decrypt_X8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19779,7 +19779,7 @@ def decrypt_Xexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19793,7 +19793,7 @@ def decrypt_Xdquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19807,7 +19807,7 @@ def decrypt_Xdoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19821,7 +19821,7 @@ def decrypt_Xand():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19835,7 +19835,7 @@ def decrypt_Xquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19849,7 +19849,7 @@ def decrypt_Xpar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19863,7 +19863,7 @@ def decrypt_Xast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19877,7 +19877,7 @@ def decrypt_Xvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19891,7 +19891,7 @@ def decrypt_Xpp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19905,7 +19905,7 @@ def decrypt_Xtp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19919,7 +19919,7 @@ def decrypt_Xless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19933,7 +19933,7 @@ def decrypt_Xmore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19947,7 +19947,7 @@ def decrypt_Xaro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19961,7 +19961,7 @@ def decrypt_Xcroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19975,7 +19975,7 @@ def decrypt_Xbsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -19989,7 +19989,7 @@ def decrypt_Xcirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20003,7 +20003,7 @@ def decrypt_Xesp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20017,7 +20017,7 @@ def decrypt_Xcr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20031,7 +20031,7 @@ def decrypt_Xhl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20045,7 +20045,7 @@ def decrypt_Xtild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20059,7 +20059,7 @@ def decrypt_Za():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20073,7 +20073,7 @@ def decrypt_Zb():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20087,7 +20087,7 @@ def decrypt_Zd():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20101,7 +20101,7 @@ def decrypt_Zf():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20115,7 +20115,7 @@ def decrypt_Zh():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20129,7 +20129,7 @@ def decrypt_Zj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20143,7 +20143,7 @@ def decrypt_Zl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20157,7 +20157,7 @@ def decrypt_Zn():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20171,7 +20171,7 @@ def decrypt_Zp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20185,7 +20185,7 @@ def decrypt_Zr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20199,7 +20199,7 @@ def decrypt_Zt():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20213,7 +20213,7 @@ def decrypt_Zv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20227,7 +20227,7 @@ def decrypt_Zx():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20241,7 +20241,7 @@ def decrypt_Zz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20255,7 +20255,7 @@ def decrypt_ZA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20269,7 +20269,7 @@ def decrypt_ZB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20283,7 +20283,7 @@ def decrypt_ZD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20297,7 +20297,7 @@ def decrypt_ZF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20311,7 +20311,7 @@ def decrypt_ZH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20325,7 +20325,7 @@ def decrypt_ZJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20339,7 +20339,7 @@ def decrypt_ZL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20353,7 +20353,7 @@ def decrypt_ZN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20367,7 +20367,7 @@ def decrypt_ZP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20381,7 +20381,7 @@ def decrypt_ZR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20395,7 +20395,7 @@ def decrypt_ZT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20409,7 +20409,7 @@ def decrypt_ZV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20423,7 +20423,7 @@ def decrypt_ZX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20437,7 +20437,7 @@ def decrypt_ZZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20451,7 +20451,7 @@ def decrypt_Z0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20465,7 +20465,7 @@ def decrypt_Z2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20479,7 +20479,7 @@ def decrypt_Z4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20493,7 +20493,7 @@ def decrypt_Z6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20507,7 +20507,7 @@ def decrypt_Z8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20521,7 +20521,7 @@ def decrypt_Zexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20535,7 +20535,7 @@ def decrypt_Zdquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20549,7 +20549,7 @@ def decrypt_Zdoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20563,7 +20563,7 @@ def decrypt_Zand():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20577,7 +20577,7 @@ def decrypt_Zquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20591,7 +20591,7 @@ def decrypt_Zpar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20605,7 +20605,7 @@ def decrypt_Zast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20619,7 +20619,7 @@ def decrypt_Zvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20633,7 +20633,7 @@ def decrypt_Zpp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20647,7 +20647,7 @@ def decrypt_Ztp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20661,7 +20661,7 @@ def decrypt_Zless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20675,7 +20675,7 @@ def decrypt_Zmore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20689,7 +20689,7 @@ def decrypt_Zaro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20703,7 +20703,7 @@ def decrypt_Zcroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20717,7 +20717,7 @@ def decrypt_Zbsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20731,7 +20731,7 @@ def decrypt_Zcirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20745,7 +20745,7 @@ def decrypt_Zesp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20759,7 +20759,7 @@ def decrypt_Zcr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20773,7 +20773,7 @@ def decrypt_Zhl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20787,7 +20787,7 @@ def decrypt_Ztild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20801,7 +20801,7 @@ def decrypt_0a():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20815,7 +20815,7 @@ def decrypt_0b():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20829,7 +20829,7 @@ def decrypt_0d():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20843,7 +20843,7 @@ def decrypt_0f():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20857,7 +20857,7 @@ def decrypt_0h():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20871,7 +20871,7 @@ def decrypt_0j():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20885,7 +20885,7 @@ def decrypt_0l():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20899,7 +20899,7 @@ def decrypt_0n():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20913,7 +20913,7 @@ def decrypt_0p():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20927,7 +20927,7 @@ def decrypt_0r():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20941,7 +20941,7 @@ def decrypt_0t():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20955,7 +20955,7 @@ def decrypt_0v():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20969,7 +20969,7 @@ def decrypt_0x():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20983,7 +20983,7 @@ def decrypt_0z():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -20997,7 +20997,7 @@ def decrypt_0A():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21011,7 +21011,7 @@ def decrypt_0B():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21025,7 +21025,7 @@ def decrypt_0D():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21039,7 +21039,7 @@ def decrypt_0F():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21053,7 +21053,7 @@ def decrypt_0H():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21067,7 +21067,7 @@ def decrypt_0J():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21081,7 +21081,7 @@ def decrypt_0L():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21095,7 +21095,7 @@ def decrypt_0N():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21109,7 +21109,7 @@ def decrypt_0P():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21123,7 +21123,7 @@ def decrypt_0R():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21137,7 +21137,7 @@ def decrypt_0T():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21151,7 +21151,7 @@ def decrypt_0V():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21165,7 +21165,7 @@ def decrypt_0X():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21179,7 +21179,7 @@ def decrypt_0Z():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21193,7 +21193,7 @@ def decrypt_00():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21207,7 +21207,7 @@ def decrypt_02():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21221,7 +21221,7 @@ def decrypt_04():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21235,7 +21235,7 @@ def decrypt_06():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21249,7 +21249,7 @@ def decrypt_08():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21263,7 +21263,7 @@ def decrypt_0excl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21277,7 +21277,7 @@ def decrypt_0dquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21291,7 +21291,7 @@ def decrypt_0doll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21305,7 +21305,7 @@ def decrypt_0and():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21319,7 +21319,7 @@ def decrypt_0quote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21333,7 +21333,7 @@ def decrypt_0par():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21347,7 +21347,7 @@ def decrypt_0ast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21361,7 +21361,7 @@ def decrypt_0vir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21375,7 +21375,7 @@ def decrypt_0pp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21389,7 +21389,7 @@ def decrypt_0tp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21403,7 +21403,7 @@ def decrypt_0less():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21417,7 +21417,7 @@ def decrypt_0more():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21431,7 +21431,7 @@ def decrypt_0aro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21445,7 +21445,7 @@ def decrypt_0croc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21459,7 +21459,7 @@ def decrypt_0bsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21473,7 +21473,7 @@ def decrypt_0circ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21487,7 +21487,7 @@ def decrypt_0esp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21501,7 +21501,7 @@ def decrypt_0cr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21515,7 +21515,7 @@ def decrypt_0hl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21529,7 +21529,7 @@ def decrypt_0tild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21543,7 +21543,7 @@ def decrypt_2a():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21557,7 +21557,7 @@ def decrypt_2b():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21571,7 +21571,7 @@ def decrypt_2d():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21585,7 +21585,7 @@ def decrypt_2f():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21599,7 +21599,7 @@ def decrypt_2h():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21613,7 +21613,7 @@ def decrypt_2j():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21627,7 +21627,7 @@ def decrypt_2l():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21641,7 +21641,7 @@ def decrypt_2n():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21655,7 +21655,7 @@ def decrypt_2p():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21669,7 +21669,7 @@ def decrypt_2r():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21683,7 +21683,7 @@ def decrypt_2t():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21697,7 +21697,7 @@ def decrypt_2v():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21711,7 +21711,7 @@ def decrypt_2x():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21725,7 +21725,7 @@ def decrypt_2z():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21739,7 +21739,7 @@ def decrypt_2A():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21753,7 +21753,7 @@ def decrypt_2B():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21767,7 +21767,7 @@ def decrypt_2D():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21781,7 +21781,7 @@ def decrypt_2F():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21795,7 +21795,7 @@ def decrypt_2H():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21809,7 +21809,7 @@ def decrypt_2J():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21823,7 +21823,7 @@ def decrypt_2L():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21837,7 +21837,7 @@ def decrypt_2N():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21851,7 +21851,7 @@ def decrypt_2P():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21865,7 +21865,7 @@ def decrypt_2R():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21879,7 +21879,7 @@ def decrypt_2T():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21893,7 +21893,7 @@ def decrypt_2V():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21907,7 +21907,7 @@ def decrypt_2X():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21921,7 +21921,7 @@ def decrypt_2Z():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21935,7 +21935,7 @@ def decrypt_20():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21949,7 +21949,7 @@ def decrypt_22():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21963,7 +21963,7 @@ def decrypt_24():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21977,7 +21977,7 @@ def decrypt_26():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -21991,7 +21991,7 @@ def decrypt_28():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22005,7 +22005,7 @@ def decrypt_2excl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22019,7 +22019,7 @@ def decrypt_2dquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22033,7 +22033,7 @@ def decrypt_2doll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22047,7 +22047,7 @@ def decrypt_2and():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22061,7 +22061,7 @@ def decrypt_2quote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22075,7 +22075,7 @@ def decrypt_2par():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22089,7 +22089,7 @@ def decrypt_2ast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22103,7 +22103,7 @@ def decrypt_2vir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22117,7 +22117,7 @@ def decrypt_2pp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22131,7 +22131,7 @@ def decrypt_2tp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22145,7 +22145,7 @@ def decrypt_2less():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22159,7 +22159,7 @@ def decrypt_2more():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22173,7 +22173,7 @@ def decrypt_2aro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22187,7 +22187,7 @@ def decrypt_2croc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22201,7 +22201,7 @@ def decrypt_2bsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22215,7 +22215,7 @@ def decrypt_2circ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22229,7 +22229,7 @@ def decrypt_2esp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22243,7 +22243,7 @@ def decrypt_2cr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22257,7 +22257,7 @@ def decrypt_2hl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22271,7 +22271,7 @@ def decrypt_2tild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22285,7 +22285,7 @@ def decrypt_4a():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22299,7 +22299,7 @@ def decrypt_4b():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22313,7 +22313,7 @@ def decrypt_4d():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22327,7 +22327,7 @@ def decrypt_4f():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22341,7 +22341,7 @@ def decrypt_4h():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22355,7 +22355,7 @@ def decrypt_4j():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22369,7 +22369,7 @@ def decrypt_4l():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22383,7 +22383,7 @@ def decrypt_4n():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22397,7 +22397,7 @@ def decrypt_4p():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22411,7 +22411,7 @@ def decrypt_4r():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22425,7 +22425,7 @@ def decrypt_4t():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22439,7 +22439,7 @@ def decrypt_4v():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22453,7 +22453,7 @@ def decrypt_4x():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22467,7 +22467,7 @@ def decrypt_4z():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22481,7 +22481,7 @@ def decrypt_4A():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22495,7 +22495,7 @@ def decrypt_4B():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22509,7 +22509,7 @@ def decrypt_4D():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22523,7 +22523,7 @@ def decrypt_4F():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22537,7 +22537,7 @@ def decrypt_4H():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22551,7 +22551,7 @@ def decrypt_4J():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22565,7 +22565,7 @@ def decrypt_4L():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22579,7 +22579,7 @@ def decrypt_4N():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22593,7 +22593,7 @@ def decrypt_4P():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22607,7 +22607,7 @@ def decrypt_4R():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22621,7 +22621,7 @@ def decrypt_4T():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22635,7 +22635,7 @@ def decrypt_4V():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22649,7 +22649,7 @@ def decrypt_4X():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22663,7 +22663,7 @@ def decrypt_4Z():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22677,7 +22677,7 @@ def decrypt_40():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22691,7 +22691,7 @@ def decrypt_42():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22705,7 +22705,7 @@ def decrypt_44():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22719,7 +22719,7 @@ def decrypt_46():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22733,7 +22733,7 @@ def decrypt_48():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22747,7 +22747,7 @@ def decrypt_4excl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22761,7 +22761,7 @@ def decrypt_4dquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22775,7 +22775,7 @@ def decrypt_4doll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22789,7 +22789,7 @@ def decrypt_4and():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22803,7 +22803,7 @@ def decrypt_4quote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22817,7 +22817,7 @@ def decrypt_4par():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22831,7 +22831,7 @@ def decrypt_4ast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22845,7 +22845,7 @@ def decrypt_4vir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22859,7 +22859,7 @@ def decrypt_4pp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22873,7 +22873,7 @@ def decrypt_4tp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22887,7 +22887,7 @@ def decrypt_4less():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22901,7 +22901,7 @@ def decrypt_4more():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22915,7 +22915,7 @@ def decrypt_4aro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22929,7 +22929,7 @@ def decrypt_4croc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22943,7 +22943,7 @@ def decrypt_4bsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22957,7 +22957,7 @@ def decrypt_4circ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22971,7 +22971,7 @@ def decrypt_4esp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22985,7 +22985,7 @@ def decrypt_4cr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -22999,7 +22999,7 @@ def decrypt_4hl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23013,7 +23013,7 @@ def decrypt_4tild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23027,7 +23027,7 @@ def decrypt_6a():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23041,7 +23041,7 @@ def decrypt_6b():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23055,7 +23055,7 @@ def decrypt_6d():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23069,7 +23069,7 @@ def decrypt_6f():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23083,7 +23083,7 @@ def decrypt_6h():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23097,7 +23097,7 @@ def decrypt_6j():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23111,7 +23111,7 @@ def decrypt_6l():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23125,7 +23125,7 @@ def decrypt_6n():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23139,7 +23139,7 @@ def decrypt_6p():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23153,7 +23153,7 @@ def decrypt_6r():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23167,7 +23167,7 @@ def decrypt_6t():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23181,7 +23181,7 @@ def decrypt_6v():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23195,7 +23195,7 @@ def decrypt_6x():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23209,7 +23209,7 @@ def decrypt_6z():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23223,7 +23223,7 @@ def decrypt_6A():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23237,7 +23237,7 @@ def decrypt_6B():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23251,7 +23251,7 @@ def decrypt_6D():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23265,7 +23265,7 @@ def decrypt_6F():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23279,7 +23279,7 @@ def decrypt_6H():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23293,7 +23293,7 @@ def decrypt_6J():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23307,7 +23307,7 @@ def decrypt_6L():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23321,7 +23321,7 @@ def decrypt_6N():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23335,7 +23335,7 @@ def decrypt_6P():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23349,7 +23349,7 @@ def decrypt_6R():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23363,7 +23363,7 @@ def decrypt_6T():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23377,7 +23377,7 @@ def decrypt_6V():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23391,7 +23391,7 @@ def decrypt_6X():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23405,7 +23405,7 @@ def decrypt_6Z():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23419,7 +23419,7 @@ def decrypt_60():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23433,7 +23433,7 @@ def decrypt_62():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23447,7 +23447,7 @@ def decrypt_64():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23461,7 +23461,7 @@ def decrypt_66():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23475,7 +23475,7 @@ def decrypt_68():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23489,7 +23489,7 @@ def decrypt_6excl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23503,7 +23503,7 @@ def decrypt_6dquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23517,7 +23517,7 @@ def decrypt_6doll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23531,7 +23531,7 @@ def decrypt_6and():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23545,7 +23545,7 @@ def decrypt_6quote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23559,7 +23559,7 @@ def decrypt_6par():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23573,7 +23573,7 @@ def decrypt_6ast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23587,7 +23587,7 @@ def decrypt_6vir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23601,7 +23601,7 @@ def decrypt_6pp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23615,7 +23615,7 @@ def decrypt_6tp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23629,7 +23629,7 @@ def decrypt_6less():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23643,7 +23643,7 @@ def decrypt_6more():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23657,7 +23657,7 @@ def decrypt_6aro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23671,7 +23671,7 @@ def decrypt_6croc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23685,7 +23685,7 @@ def decrypt_6bsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23699,7 +23699,7 @@ def decrypt_6circ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23713,7 +23713,7 @@ def decrypt_6esp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23727,7 +23727,7 @@ def decrypt_6cr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23741,7 +23741,7 @@ def decrypt_6hl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23755,7 +23755,7 @@ def decrypt_6tild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23769,7 +23769,7 @@ def decrypt_8a():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23783,7 +23783,7 @@ def decrypt_8b():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23797,7 +23797,7 @@ def decrypt_8d():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23811,7 +23811,7 @@ def decrypt_8f():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23825,7 +23825,7 @@ def decrypt_8h():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23839,7 +23839,7 @@ def decrypt_8j():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23853,7 +23853,7 @@ def decrypt_8l():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23867,7 +23867,7 @@ def decrypt_8n():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23881,7 +23881,7 @@ def decrypt_8p():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23895,7 +23895,7 @@ def decrypt_8r():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23909,7 +23909,7 @@ def decrypt_8t():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23923,7 +23923,7 @@ def decrypt_8v():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23937,7 +23937,7 @@ def decrypt_8x():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23951,7 +23951,7 @@ def decrypt_8z():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23965,7 +23965,7 @@ def decrypt_8A():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23979,7 +23979,7 @@ def decrypt_8B():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -23993,7 +23993,7 @@ def decrypt_8D():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24007,7 +24007,7 @@ def decrypt_8F():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24021,7 +24021,7 @@ def decrypt_8H():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24035,7 +24035,7 @@ def decrypt_8J():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24049,7 +24049,7 @@ def decrypt_8L():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24063,7 +24063,7 @@ def decrypt_8N():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24077,7 +24077,7 @@ def decrypt_8P():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24091,7 +24091,7 @@ def decrypt_8R():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24105,7 +24105,7 @@ def decrypt_8T():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24119,7 +24119,7 @@ def decrypt_8V():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24133,7 +24133,7 @@ def decrypt_8X():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24147,7 +24147,7 @@ def decrypt_8Z():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24161,7 +24161,7 @@ def decrypt_80():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24175,7 +24175,7 @@ def decrypt_82():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24189,7 +24189,7 @@ def decrypt_84():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24203,7 +24203,7 @@ def decrypt_86():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24217,7 +24217,7 @@ def decrypt_88():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24231,7 +24231,7 @@ def decrypt_8excl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24245,7 +24245,7 @@ def decrypt_8dquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24259,7 +24259,7 @@ def decrypt_8doll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24273,7 +24273,7 @@ def decrypt_8and():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24287,7 +24287,7 @@ def decrypt_8quote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24301,7 +24301,7 @@ def decrypt_8par():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24315,7 +24315,7 @@ def decrypt_8ast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24329,7 +24329,7 @@ def decrypt_8vir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24343,7 +24343,7 @@ def decrypt_8pp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24357,7 +24357,7 @@ def decrypt_8tp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24371,7 +24371,7 @@ def decrypt_8less():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24385,7 +24385,7 @@ def decrypt_8more():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24399,7 +24399,7 @@ def decrypt_8aro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24413,7 +24413,7 @@ def decrypt_8croc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24427,7 +24427,7 @@ def decrypt_8bsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24441,7 +24441,7 @@ def decrypt_8circ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24455,7 +24455,7 @@ def decrypt_8esp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24469,7 +24469,7 @@ def decrypt_8cr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24483,7 +24483,7 @@ def decrypt_8hl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24497,7 +24497,7 @@ def decrypt_8tild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24511,7 +24511,7 @@ def decrypt_excla():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24525,7 +24525,7 @@ def decrypt_exclb():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24539,7 +24539,7 @@ def decrypt_excld():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24553,7 +24553,7 @@ def decrypt_exclf():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24567,7 +24567,7 @@ def decrypt_exclh():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24581,7 +24581,7 @@ def decrypt_exclj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24595,7 +24595,7 @@ def decrypt_excll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24609,7 +24609,7 @@ def decrypt_excln():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24623,7 +24623,7 @@ def decrypt_exclp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24637,7 +24637,7 @@ def decrypt_exclr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24651,7 +24651,7 @@ def decrypt_exclt():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24665,7 +24665,7 @@ def decrypt_exclv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24679,7 +24679,7 @@ def decrypt_exclx():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24693,7 +24693,7 @@ def decrypt_exclz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24707,7 +24707,7 @@ def decrypt_exclA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24721,7 +24721,7 @@ def decrypt_exclB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24735,7 +24735,7 @@ def decrypt_exclD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24749,7 +24749,7 @@ def decrypt_exclF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24763,7 +24763,7 @@ def decrypt_exclH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24777,7 +24777,7 @@ def decrypt_exclJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24791,7 +24791,7 @@ def decrypt_exclL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24805,7 +24805,7 @@ def decrypt_exclN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24819,7 +24819,7 @@ def decrypt_exclP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24833,7 +24833,7 @@ def decrypt_exclR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24847,7 +24847,7 @@ def decrypt_exclT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24861,7 +24861,7 @@ def decrypt_exclV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24875,7 +24875,7 @@ def decrypt_exclX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24889,7 +24889,7 @@ def decrypt_exclZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24903,7 +24903,7 @@ def decrypt_excl0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24917,7 +24917,7 @@ def decrypt_excl2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24931,7 +24931,7 @@ def decrypt_excl4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24945,7 +24945,7 @@ def decrypt_excl6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24959,7 +24959,7 @@ def decrypt_excl8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24973,7 +24973,7 @@ def decrypt_exclexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -24987,7 +24987,7 @@ def decrypt_excldquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25001,7 +25001,7 @@ def decrypt_excldoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25015,7 +25015,7 @@ def decrypt_excland():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25029,7 +25029,7 @@ def decrypt_exclquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25043,7 +25043,7 @@ def decrypt_exclpar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25057,7 +25057,7 @@ def decrypt_exclast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25071,7 +25071,7 @@ def decrypt_exclvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25085,7 +25085,7 @@ def decrypt_exclpp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25099,7 +25099,7 @@ def decrypt_excltp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25113,7 +25113,7 @@ def decrypt_exclless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25127,7 +25127,7 @@ def decrypt_exclmore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25141,7 +25141,7 @@ def decrypt_exclaro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25155,7 +25155,7 @@ def decrypt_exclcroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25169,7 +25169,7 @@ def decrypt_exclbsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25183,7 +25183,7 @@ def decrypt_exclcirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25197,7 +25197,7 @@ def decrypt_exclesp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25211,7 +25211,7 @@ def decrypt_exclcr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25225,7 +25225,7 @@ def decrypt_exclhl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25239,7 +25239,7 @@ def decrypt_excltild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25253,7 +25253,7 @@ def decrypt_doubquota():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25267,7 +25267,7 @@ def decrypt_doubquotb():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25281,7 +25281,7 @@ def decrypt_doubquotd():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25295,7 +25295,7 @@ def decrypt_doubquotf():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25309,7 +25309,7 @@ def decrypt_doubquoth():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25323,7 +25323,7 @@ def decrypt_doubquotj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25337,7 +25337,7 @@ def decrypt_doubquotl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25351,7 +25351,7 @@ def decrypt_doubquotn():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25365,7 +25365,7 @@ def decrypt_doubquotp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25379,7 +25379,7 @@ def decrypt_doubquotr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25393,7 +25393,7 @@ def decrypt_doubquott():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25407,7 +25407,7 @@ def decrypt_doubquotv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25421,7 +25421,7 @@ def decrypt_doubquotx():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25435,7 +25435,7 @@ def decrypt_doubquotz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25449,7 +25449,7 @@ def decrypt_doubquotA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25463,7 +25463,7 @@ def decrypt_doubquotB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25477,7 +25477,7 @@ def decrypt_doubquotD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25491,7 +25491,7 @@ def decrypt_doubquotF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25505,7 +25505,7 @@ def decrypt_doubquotH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25519,7 +25519,7 @@ def decrypt_doubquotJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25533,7 +25533,7 @@ def decrypt_doubquotL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25547,7 +25547,7 @@ def decrypt_doubquotN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25561,7 +25561,7 @@ def decrypt_doubquotP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25575,7 +25575,7 @@ def decrypt_doubquotR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25589,7 +25589,7 @@ def decrypt_doubquotT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25603,7 +25603,7 @@ def decrypt_doubquotV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25617,7 +25617,7 @@ def decrypt_doubquotX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25631,7 +25631,7 @@ def decrypt_doubquotZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25645,7 +25645,7 @@ def decrypt_doubquot0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25659,7 +25659,7 @@ def decrypt_doubquot2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25673,7 +25673,7 @@ def decrypt_doubquot4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25687,7 +25687,7 @@ def decrypt_doubquot6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25701,7 +25701,7 @@ def decrypt_doubquot8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25715,7 +25715,7 @@ def decrypt_doubquotexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25729,7 +25729,7 @@ def decrypt_doubquotdquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25743,7 +25743,7 @@ def decrypt_doubquotdoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25757,7 +25757,7 @@ def decrypt_doubquotand():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25771,7 +25771,7 @@ def decrypt_doubquotquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25785,7 +25785,7 @@ def decrypt_doubquotpar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25799,7 +25799,7 @@ def decrypt_doubquotast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25813,7 +25813,7 @@ def decrypt_doubquotvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25827,7 +25827,7 @@ def decrypt_doubquotpp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25841,7 +25841,7 @@ def decrypt_doubquottp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25855,7 +25855,7 @@ def decrypt_doubquotless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25869,7 +25869,7 @@ def decrypt_doubquotmore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25883,7 +25883,7 @@ def decrypt_doubquotaro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25897,7 +25897,7 @@ def decrypt_doubquotcroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25911,7 +25911,7 @@ def decrypt_doubquotbsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25925,7 +25925,7 @@ def decrypt_doubquotcirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25939,7 +25939,7 @@ def decrypt_doubquotesp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25953,7 +25953,7 @@ def decrypt_doubquotcr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25967,7 +25967,7 @@ def decrypt_doubquothl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25981,7 +25981,7 @@ def decrypt_doubquottild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -25995,7 +25995,7 @@ def decrypt_dolla():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26009,7 +26009,7 @@ def decrypt_dollb():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26023,7 +26023,7 @@ def decrypt_dolld():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26037,7 +26037,7 @@ def decrypt_dollf():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26051,7 +26051,7 @@ def decrypt_dollh():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26065,7 +26065,7 @@ def decrypt_dollj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26079,7 +26079,7 @@ def decrypt_dolll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26093,7 +26093,7 @@ def decrypt_dolln():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26107,7 +26107,7 @@ def decrypt_dollp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26121,7 +26121,7 @@ def decrypt_dollr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26135,7 +26135,7 @@ def decrypt_dollt():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26149,7 +26149,7 @@ def decrypt_dollv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26163,7 +26163,7 @@ def decrypt_dollx():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26177,7 +26177,7 @@ def decrypt_dollz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26191,7 +26191,7 @@ def decrypt_dollA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26205,7 +26205,7 @@ def decrypt_dollB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26219,7 +26219,7 @@ def decrypt_dollD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26233,7 +26233,7 @@ def decrypt_dollF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26247,7 +26247,7 @@ def decrypt_dollH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26261,7 +26261,7 @@ def decrypt_dollJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26275,7 +26275,7 @@ def decrypt_dollL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26289,7 +26289,7 @@ def decrypt_dollN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26303,7 +26303,7 @@ def decrypt_dollP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26317,7 +26317,7 @@ def decrypt_dollR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26331,7 +26331,7 @@ def decrypt_dollT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26345,7 +26345,7 @@ def decrypt_dollV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26359,7 +26359,7 @@ def decrypt_dollX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26373,7 +26373,7 @@ def decrypt_dollZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26387,7 +26387,7 @@ def decrypt_doll0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26401,7 +26401,7 @@ def decrypt_doll2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26415,7 +26415,7 @@ def decrypt_doll4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26429,7 +26429,7 @@ def decrypt_doll6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26443,7 +26443,7 @@ def decrypt_doll8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26457,7 +26457,7 @@ def decrypt_dollexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26471,7 +26471,7 @@ def decrypt_dolldquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26485,7 +26485,7 @@ def decrypt_dolldoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26499,7 +26499,7 @@ def decrypt_dolland():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26513,7 +26513,7 @@ def decrypt_dollquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26527,7 +26527,7 @@ def decrypt_dollpar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26541,7 +26541,7 @@ def decrypt_dollast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26555,7 +26555,7 @@ def decrypt_dollvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26569,7 +26569,7 @@ def decrypt_dollpp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26583,7 +26583,7 @@ def decrypt_dolltp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26597,7 +26597,7 @@ def decrypt_dollless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26611,7 +26611,7 @@ def decrypt_dollmore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26625,7 +26625,7 @@ def decrypt_dollaro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26639,7 +26639,7 @@ def decrypt_dollcroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26653,7 +26653,7 @@ def decrypt_dollbsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26667,7 +26667,7 @@ def decrypt_dollcirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26681,7 +26681,7 @@ def decrypt_dollesp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26695,7 +26695,7 @@ def decrypt_dollcr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26709,7 +26709,7 @@ def decrypt_dollhl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26723,7 +26723,7 @@ def decrypt_dolltild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26737,7 +26737,7 @@ def decryptespaa():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26751,7 +26751,7 @@ def decryptespab():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26765,7 +26765,7 @@ def decryptespad():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26779,7 +26779,7 @@ def decryptespaf():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26793,7 +26793,7 @@ def decryptespah():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26807,7 +26807,7 @@ def decryptespaj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26821,7 +26821,7 @@ def decryptespal():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26835,7 +26835,7 @@ def decryptespan():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26849,7 +26849,7 @@ def decryptespap():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26863,7 +26863,7 @@ def decryptespar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26877,7 +26877,7 @@ def decryptespat():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26891,7 +26891,7 @@ def decryptespav():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26905,7 +26905,7 @@ def decryptespax():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26919,7 +26919,7 @@ def decryptespaz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26933,7 +26933,7 @@ def decryptespaA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26947,7 +26947,7 @@ def decryptespaB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26961,7 +26961,7 @@ def decryptespaD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26975,7 +26975,7 @@ def decryptespaF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -26989,7 +26989,7 @@ def decryptespaH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27003,7 +27003,7 @@ def decryptespaJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27017,7 +27017,7 @@ def decryptespaL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27031,7 +27031,7 @@ def decryptespaN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27045,7 +27045,7 @@ def decryptespaP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27059,7 +27059,7 @@ def decryptespaR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27073,7 +27073,7 @@ def decryptespaT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27087,7 +27087,7 @@ def decryptespaV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27101,7 +27101,7 @@ def decryptespaX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27115,7 +27115,7 @@ def decryptespaZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27129,7 +27129,7 @@ def decryptespa0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27143,7 +27143,7 @@ def decryptespa2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27157,7 +27157,7 @@ def decryptespa4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27171,7 +27171,7 @@ def decryptespa6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27185,7 +27185,7 @@ def decryptespa8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27199,7 +27199,7 @@ def decryptespaexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27213,7 +27213,7 @@ def decryptespadquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27227,7 +27227,7 @@ def decryptespadoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27241,7 +27241,7 @@ def decryptespaand():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27255,7 +27255,7 @@ def decryptespaquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27269,7 +27269,7 @@ def decryptespapar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27283,7 +27283,7 @@ def decryptespaast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27297,7 +27297,7 @@ def decryptespavir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27311,7 +27311,7 @@ def decryptespapp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27325,7 +27325,7 @@ def decryptespatp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27339,7 +27339,7 @@ def decryptespaless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27353,7 +27353,7 @@ def decryptespamore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27367,7 +27367,7 @@ def decryptespaaro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27381,7 +27381,7 @@ def decryptespacroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27395,7 +27395,7 @@ def decryptespabsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27409,7 +27409,7 @@ def decryptespacirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27423,7 +27423,7 @@ def decryptespaesp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27437,7 +27437,7 @@ def decryptespacr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27451,7 +27451,7 @@ def decryptespahl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27465,7 +27465,7 @@ def decryptespatild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27479,7 +27479,7 @@ def decrypt_quota():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27493,7 +27493,7 @@ def decrypt_quotb():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27507,7 +27507,7 @@ def decrypt_quotd():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27521,7 +27521,7 @@ def decrypt_quotf():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27535,7 +27535,7 @@ def decrypt_quoth():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27549,7 +27549,7 @@ def decrypt_quotj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27563,7 +27563,7 @@ def decrypt_quotl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27577,7 +27577,7 @@ def decrypt_quotn():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27591,7 +27591,7 @@ def decrypt_quotp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27605,7 +27605,7 @@ def decrypt_quotr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27619,7 +27619,7 @@ def decrypt_quott():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27633,7 +27633,7 @@ def decrypt_quotv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27647,7 +27647,7 @@ def decrypt_quotx():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27661,7 +27661,7 @@ def decrypt_quotz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27675,7 +27675,7 @@ def decrypt_quotA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27689,7 +27689,7 @@ def decrypt_quotB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27703,7 +27703,7 @@ def decrypt_quotD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27717,7 +27717,7 @@ def decrypt_quotF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27731,7 +27731,7 @@ def decrypt_quotH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27745,7 +27745,7 @@ def decrypt_quotJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27759,7 +27759,7 @@ def decrypt_quotL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27773,7 +27773,7 @@ def decrypt_quotN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27787,7 +27787,7 @@ def decrypt_quotP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27801,7 +27801,7 @@ def decrypt_quotR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27815,7 +27815,7 @@ def decrypt_quotT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27829,7 +27829,7 @@ def decrypt_quotV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27843,7 +27843,7 @@ def decrypt_quotX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27857,7 +27857,7 @@ def decrypt_quotZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27871,7 +27871,7 @@ def decrypt_quot0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27885,7 +27885,7 @@ def decrypt_quot2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27899,7 +27899,7 @@ def decrypt_quot4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27913,7 +27913,7 @@ def decrypt_quot6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27927,7 +27927,7 @@ def decrypt_quot8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27941,7 +27941,7 @@ def decrypt_quotexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27955,7 +27955,7 @@ def decrypt_quotdquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27969,7 +27969,7 @@ def decrypt_quotdoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27983,7 +27983,7 @@ def decrypt_quotand():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -27997,7 +27997,7 @@ def decrypt_quotquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28011,7 +28011,7 @@ def decrypt_quotpar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28025,7 +28025,7 @@ def decrypt_quotast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28039,7 +28039,7 @@ def decrypt_quotvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28053,7 +28053,7 @@ def decrypt_quotpp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28067,7 +28067,7 @@ def decrypt_quottp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28081,7 +28081,7 @@ def decrypt_quotless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28095,7 +28095,7 @@ def decrypt_quotmore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28109,7 +28109,7 @@ def decrypt_quotaro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28123,7 +28123,7 @@ def decrypt_quotcroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28137,7 +28137,7 @@ def decrypt_quotbsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28151,7 +28151,7 @@ def decrypt_quotcirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28165,7 +28165,7 @@ def decrypt_quotesp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28179,7 +28179,7 @@ def decrypt_quotcr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28193,7 +28193,7 @@ def decrypt_quothl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28207,7 +28207,7 @@ def decrypt_quottild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28221,7 +28221,7 @@ def decrypt_parena():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28235,7 +28235,7 @@ def decrypt_parenb():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28249,7 +28249,7 @@ def decrypt_parend():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28263,7 +28263,7 @@ def decrypt_parenf():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28277,7 +28277,7 @@ def decrypt_parenh():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28291,7 +28291,7 @@ def decrypt_parenj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28305,7 +28305,7 @@ def decrypt_parenl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28319,7 +28319,7 @@ def decrypt_parenn():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28333,7 +28333,7 @@ def decrypt_parenp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28347,7 +28347,7 @@ def decrypt_parenr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28361,7 +28361,7 @@ def decrypt_parent():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28375,7 +28375,7 @@ def decrypt_parenv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28389,7 +28389,7 @@ def decrypt_parenx():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28403,7 +28403,7 @@ def decrypt_parenz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28417,7 +28417,7 @@ def decrypt_parenA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28431,7 +28431,7 @@ def decrypt_parenB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28445,7 +28445,7 @@ def decrypt_parenD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28459,7 +28459,7 @@ def decrypt_parenF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28473,7 +28473,7 @@ def decrypt_parenH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28487,7 +28487,7 @@ def decrypt_parenJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28501,7 +28501,7 @@ def decrypt_parenL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28515,7 +28515,7 @@ def decrypt_parenN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28529,7 +28529,7 @@ def decrypt_parenP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28543,7 +28543,7 @@ def decrypt_parenR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28557,7 +28557,7 @@ def decrypt_parenT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28571,7 +28571,7 @@ def decrypt_parenV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28585,7 +28585,7 @@ def decrypt_parenX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28599,7 +28599,7 @@ def decrypt_parenZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28613,7 +28613,7 @@ def decrypt_paren0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28627,7 +28627,7 @@ def decrypt_paren2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28641,7 +28641,7 @@ def decrypt_paren4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28655,7 +28655,7 @@ def decrypt_paren6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28669,7 +28669,7 @@ def decrypt_paren8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28683,7 +28683,7 @@ def decrypt_parenexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28697,7 +28697,7 @@ def decrypt_parendquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28711,7 +28711,7 @@ def decrypt_parendoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28725,7 +28725,7 @@ def decrypt_parenand():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28739,7 +28739,7 @@ def decrypt_parenquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28753,7 +28753,7 @@ def decrypt_parpara():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28767,7 +28767,7 @@ def decrypt_parenast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28781,7 +28781,7 @@ def decrypt_parenvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28795,7 +28795,7 @@ def decrypt_parenpp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28809,7 +28809,7 @@ def decrypt_parentp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28823,7 +28823,7 @@ def decrypt_parenless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28837,7 +28837,7 @@ def decrypt_parenmore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28851,7 +28851,7 @@ def decrypt_parenaro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28865,7 +28865,7 @@ def decrypt_parencroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28879,7 +28879,7 @@ def decrypt_parenbsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28893,7 +28893,7 @@ def decrypt_parencirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28907,7 +28907,7 @@ def decrypt_parenesp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28921,7 +28921,7 @@ def decrypt_parencr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28935,7 +28935,7 @@ def decrypt_parenhl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28949,7 +28949,7 @@ def decrypt_parentild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28963,7 +28963,7 @@ def decrypt_espea():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28977,7 +28977,7 @@ def decrypt_espeb():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -28991,7 +28991,7 @@ def decrypt_esped():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29005,7 +29005,7 @@ def decrypt_espef():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29019,7 +29019,7 @@ def decrypt_espeh():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29033,7 +29033,7 @@ def decrypt_espej():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29047,7 +29047,7 @@ def decrypt_espel():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29061,7 +29061,7 @@ def decrypt_espen():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29075,7 +29075,7 @@ def decrypt_espep():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29089,7 +29089,7 @@ def decrypt_esper():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29103,7 +29103,7 @@ def decrypt_espet():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29117,7 +29117,7 @@ def decrypt_espev():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29131,7 +29131,7 @@ def decrypt_espex():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29145,7 +29145,7 @@ def decrypt_espez():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29159,7 +29159,7 @@ def decrypt_espeA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29173,7 +29173,7 @@ def decrypt_espeB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29187,7 +29187,7 @@ def decrypt_espeD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29201,7 +29201,7 @@ def decrypt_espeF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29215,7 +29215,7 @@ def decrypt_espeH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29229,7 +29229,7 @@ def decrypt_espeJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29243,7 +29243,7 @@ def decrypt_espeL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29257,7 +29257,7 @@ def decrypt_espeN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29271,7 +29271,7 @@ def decrypt_espeP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29285,7 +29285,7 @@ def decrypt_espeR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29299,7 +29299,7 @@ def decrypt_espeT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29313,7 +29313,7 @@ def decrypt_espeV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29327,7 +29327,7 @@ def decrypt_espeX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29341,7 +29341,7 @@ def decrypt_espeZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29355,7 +29355,7 @@ def decrypt_espe0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29369,7 +29369,7 @@ def decrypt_espe2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29383,7 +29383,7 @@ def decrypt_espe4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29397,7 +29397,7 @@ def decrypt_espe6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29411,7 +29411,7 @@ def decrypt_espe8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29425,7 +29425,7 @@ def decrypt_espeexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29439,7 +29439,7 @@ def decrypt_espedquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29453,7 +29453,7 @@ def decrypt_espedoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29467,7 +29467,7 @@ def decrypt_espeand():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29481,7 +29481,7 @@ def decrypt_espequote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29495,7 +29495,7 @@ def decrypt_astpar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29509,7 +29509,7 @@ def decrypt_espeast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29523,7 +29523,7 @@ def decrypt_espevir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29537,7 +29537,7 @@ def decrypt_espepp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29551,7 +29551,7 @@ def decrypt_espetp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29565,7 +29565,7 @@ def decrypt_espeless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29579,7 +29579,7 @@ def decrypt_espemore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29593,7 +29593,7 @@ def decrypt_espearo():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29607,7 +29607,7 @@ def decrypt_especroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29621,7 +29621,7 @@ def decrypt_espebsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29635,7 +29635,7 @@ def decrypt_especirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29649,7 +29649,7 @@ def decrypt_espeesp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29663,7 +29663,7 @@ def decrypt_especr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29677,7 +29677,7 @@ def decrypt_espehl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29691,7 +29691,7 @@ def decrypt_espetild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29705,7 +29705,7 @@ def decrypt_vira():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29719,7 +29719,7 @@ def decrypt_virb():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29733,7 +29733,7 @@ def decrypt_vird():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29747,7 +29747,7 @@ def decrypt_virf():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29761,7 +29761,7 @@ def decrypt_virh():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29775,7 +29775,7 @@ def decrypt_virj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29789,7 +29789,7 @@ def decrypt_virl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29803,7 +29803,7 @@ def decrypt_virn():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29817,7 +29817,7 @@ def decrypt_virp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29831,7 +29831,7 @@ def decrypt_virr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29845,7 +29845,7 @@ def decrypt_virt():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29859,7 +29859,7 @@ def decrypt_virv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29873,7 +29873,7 @@ def decrypt_virx():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29887,7 +29887,7 @@ def decrypt_virz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29901,7 +29901,7 @@ def decrypt_virA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29915,7 +29915,7 @@ def decrypt_virB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29929,7 +29929,7 @@ def decrypt_virD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29943,7 +29943,7 @@ def decrypt_virF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29957,7 +29957,7 @@ def decrypt_virH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29971,7 +29971,7 @@ def decrypt_virJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29985,7 +29985,7 @@ def decrypt_virL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -29999,7 +29999,7 @@ def decrypt_virN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30013,7 +30013,7 @@ def decrypt_virP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30027,7 +30027,7 @@ def decrypt_virR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30041,7 +30041,7 @@ def decrypt_virT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30055,7 +30055,7 @@ def decrypt_virV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30069,7 +30069,7 @@ def decrypt_virX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30083,7 +30083,7 @@ def decrypt_virZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30097,7 +30097,7 @@ def decrypt_vir0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30111,7 +30111,7 @@ def decrypt_vir2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30125,7 +30125,7 @@ def decrypt_vir4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30139,7 +30139,7 @@ def decrypt_vir6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30153,7 +30153,7 @@ def decrypt_vir8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30167,7 +30167,7 @@ def decrypt_virexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30181,7 +30181,7 @@ def decrypt_virdquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30195,7 +30195,7 @@ def decrypt_virdoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30209,7 +30209,7 @@ def decrypt_virand():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30223,7 +30223,7 @@ def decrypt_virquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30237,7 +30237,7 @@ def decrypt_virpar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30251,7 +30251,7 @@ def decrypt_virast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30265,7 +30265,7 @@ def decrypt_virvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30279,7 +30279,7 @@ def decrypt_virpp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30293,7 +30293,7 @@ def decrypt_virtp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30307,7 +30307,7 @@ def decrypt_virless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30321,7 +30321,7 @@ def decrypt_virmore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30335,7 +30335,7 @@ def decrypt_viraro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30349,7 +30349,7 @@ def decrypt_vircroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30363,7 +30363,7 @@ def decrypt_virbsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30377,7 +30377,7 @@ def decrypt_vircirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30391,7 +30391,7 @@ def decrypt_viresp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30405,7 +30405,7 @@ def decrypt_vircr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30419,7 +30419,7 @@ def decrypt_virhl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30433,7 +30433,7 @@ def decrypt_virtild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30447,7 +30447,7 @@ def decrypt_poina():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30461,7 +30461,7 @@ def decrypt_poinb():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30475,7 +30475,7 @@ def decrypt_poind():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30489,7 +30489,7 @@ def decrypt_poinf():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30503,7 +30503,7 @@ def decrypt_poinh():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30517,7 +30517,7 @@ def decrypt_poinj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30531,7 +30531,7 @@ def decrypt_poinl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30545,7 +30545,7 @@ def decrypt_poinn():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30559,7 +30559,7 @@ def decrypt_poinp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30573,7 +30573,7 @@ def decrypt_poinr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30587,7 +30587,7 @@ def decrypt_point():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30601,7 +30601,7 @@ def decrypt_poinv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30615,7 +30615,7 @@ def decrypt_poinx():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30629,7 +30629,7 @@ def decrypt_poinz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30643,7 +30643,7 @@ def decrypt_poinA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30657,7 +30657,7 @@ def decrypt_poinB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30671,7 +30671,7 @@ def decrypt_poinD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30685,7 +30685,7 @@ def decrypt_poinF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30699,7 +30699,7 @@ def decrypt_poinH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30713,7 +30713,7 @@ def decrypt_poinJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30727,7 +30727,7 @@ def decrypt_poinL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30741,7 +30741,7 @@ def decrypt_poinN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30755,7 +30755,7 @@ def decrypt_poinP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30769,7 +30769,7 @@ def decrypt_poinR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30783,7 +30783,7 @@ def decrypt_poinT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30797,7 +30797,7 @@ def decrypt_poinV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30811,7 +30811,7 @@ def decrypt_poinX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30825,7 +30825,7 @@ def decrypt_poinZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30839,7 +30839,7 @@ def decrypt_poin0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30853,7 +30853,7 @@ def decrypt_poin2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30867,7 +30867,7 @@ def decrypt_poin4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30881,7 +30881,7 @@ def decrypt_poin6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30895,7 +30895,7 @@ def decrypt_poin8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30909,7 +30909,7 @@ def decrypt_poinexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30923,7 +30923,7 @@ def decrypt_poindquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30937,7 +30937,7 @@ def decrypt_poindoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30951,7 +30951,7 @@ def decrypt_poinand():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30965,7 +30965,7 @@ def decrypt_poinquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30979,7 +30979,7 @@ def decrypt_pppar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -30993,7 +30993,7 @@ def decrypt_poinast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31007,7 +31007,7 @@ def decrypt_poinvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31021,7 +31021,7 @@ def decrypt_poinpp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31035,7 +31035,7 @@ def decrypt_pointp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31049,7 +31049,7 @@ def decrypt_poinless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31063,7 +31063,7 @@ def decrypt_poinmore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31077,7 +31077,7 @@ def decrypt_poinaro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31091,7 +31091,7 @@ def decrypt_poincroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31105,7 +31105,7 @@ def decrypt_poinbsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31119,7 +31119,7 @@ def decrypt_poincirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31133,7 +31133,7 @@ def decrypt_poinesp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31147,7 +31147,7 @@ def decrypt_poincr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31161,7 +31161,7 @@ def decrypt_poinhl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31175,7 +31175,7 @@ def decrypt_pointild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31189,7 +31189,7 @@ def decrypt_doubpoina():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31203,7 +31203,7 @@ def decrypt_doubpoinb():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31217,7 +31217,7 @@ def decrypt_doubpoind():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31231,7 +31231,7 @@ def decrypt_doubpoinf():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31245,7 +31245,7 @@ def decrypt_doubpoinh():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31259,7 +31259,7 @@ def decrypt_doubpoinj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31273,7 +31273,7 @@ def decrypt_doubpoinl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31287,7 +31287,7 @@ def decrypt_doubpoinn():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31301,7 +31301,7 @@ def decrypt_doubpoinp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31315,7 +31315,7 @@ def decrypt_doubpoinr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31329,7 +31329,7 @@ def decrypt_doubpoint():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31343,7 +31343,7 @@ def decrypt_doubpoinv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31357,7 +31357,7 @@ def decrypt_doubpoinx():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31371,7 +31371,7 @@ def decrypt_doubpoinz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31385,7 +31385,7 @@ def decrypt_doubpoinA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31399,7 +31399,7 @@ def decrypt_doubpoinB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31413,7 +31413,7 @@ def decrypt_doubpoinD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31427,7 +31427,7 @@ def decrypt_doubpoinF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31441,7 +31441,7 @@ def decrypt_doubpoinH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31455,7 +31455,7 @@ def decrypt_doubpoinJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31469,7 +31469,7 @@ def decrypt_doubpoinL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31483,7 +31483,7 @@ def decrypt_doubpoinN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31497,7 +31497,7 @@ def decrypt_doubpoinP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31511,7 +31511,7 @@ def decrypt_doubpoinR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31525,7 +31525,7 @@ def decrypt_doubpoinT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31539,7 +31539,7 @@ def decrypt_doubpoinV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31553,7 +31553,7 @@ def decrypt_doubpoinX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31567,7 +31567,7 @@ def decrypt_doubpoinZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31581,7 +31581,7 @@ def decrypt_doubpoin0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31595,7 +31595,7 @@ def decrypt_doubpoin2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31609,7 +31609,7 @@ def decrypt_doubpoin4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31623,7 +31623,7 @@ def decrypt_doubpoin6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31637,7 +31637,7 @@ def decrypt_doubpoin8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31651,7 +31651,7 @@ def decrypt_doubpoinexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31665,7 +31665,7 @@ def decrypt_doubpoindquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31679,7 +31679,7 @@ def decrypt_doubpoindoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31693,7 +31693,7 @@ def decrypt_doubpoinand():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31707,7 +31707,7 @@ def decrypt_doubpoinquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31721,7 +31721,7 @@ def decrypt_tppar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31735,7 +31735,7 @@ def decrypt_doubpoinast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31749,7 +31749,7 @@ def decrypt_doubpoinvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31763,7 +31763,7 @@ def decrypt_doubpoinpp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31777,7 +31777,7 @@ def decrypt_doubpointp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31791,7 +31791,7 @@ def decrypt_doubpoinless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31805,7 +31805,7 @@ def decrypt_doubpoinmore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31819,7 +31819,7 @@ def decrypt_doubpoinaro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31833,7 +31833,7 @@ def decrypt_doubpoincroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31847,7 +31847,7 @@ def decrypt_doubpoinbsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31861,7 +31861,7 @@ def decrypt_doubpoincirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31875,7 +31875,7 @@ def decrypt_doubpoinesp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31889,7 +31889,7 @@ def decrypt_doubpoincr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31903,7 +31903,7 @@ def decrypt_doubpoinhl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31917,7 +31917,7 @@ def decrypt_doubpointild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31931,7 +31931,7 @@ def decrypt_lessa():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31945,7 +31945,7 @@ def decrypt_lessb():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31959,7 +31959,7 @@ def decrypt_lessd():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31973,7 +31973,7 @@ def decrypt_lessf():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -31987,7 +31987,7 @@ def decrypt_lessh():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32001,7 +32001,7 @@ def decrypt_lessj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32015,7 +32015,7 @@ def decrypt_lessl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32029,7 +32029,7 @@ def decrypt_lessn():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32043,7 +32043,7 @@ def decrypt_lessp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32057,7 +32057,7 @@ def decrypt_lessr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32071,7 +32071,7 @@ def decrypt_lesst():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32085,7 +32085,7 @@ def decrypt_lessv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32099,7 +32099,7 @@ def decrypt_lessx():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32113,7 +32113,7 @@ def decrypt_lessz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32127,7 +32127,7 @@ def decrypt_lessA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32141,7 +32141,7 @@ def decrypt_lessB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32155,7 +32155,7 @@ def decrypt_lessD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32169,7 +32169,7 @@ def decrypt_lessF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32183,7 +32183,7 @@ def decrypt_lessH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32197,7 +32197,7 @@ def decrypt_lessJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32211,7 +32211,7 @@ def decrypt_lessL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32225,7 +32225,7 @@ def decrypt_lessN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32239,7 +32239,7 @@ def decrypt_lessP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32253,7 +32253,7 @@ def decrypt_lessR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32267,7 +32267,7 @@ def decrypt_lessT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32281,7 +32281,7 @@ def decrypt_lessV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32295,7 +32295,7 @@ def decrypt_lessX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32309,7 +32309,7 @@ def decrypt_lessZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32323,7 +32323,7 @@ def decrypt_less0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32337,7 +32337,7 @@ def decrypt_less2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32351,7 +32351,7 @@ def decrypt_less4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32365,7 +32365,7 @@ def decrypt_less6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32379,7 +32379,7 @@ def decrypt_less8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32393,7 +32393,7 @@ def decrypt_lessexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32407,7 +32407,7 @@ def decrypt_lessdquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32421,7 +32421,7 @@ def decrypt_lessdoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32435,7 +32435,7 @@ def decrypt_lessand():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32449,7 +32449,7 @@ def decrypt_lessquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32463,7 +32463,7 @@ def decrypt_morepar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32477,7 +32477,7 @@ def decrypt_lessast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32491,7 +32491,7 @@ def decrypt_lessvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32505,7 +32505,7 @@ def decrypt_lesspp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32519,7 +32519,7 @@ def decrypt_lesstp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32533,7 +32533,7 @@ def decrypt_lessless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32547,7 +32547,7 @@ def decrypt_lessmore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32561,7 +32561,7 @@ def decrypt_lessaro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32575,7 +32575,7 @@ def decrypt_lesscroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32589,7 +32589,7 @@ def decrypt_lessbsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32603,7 +32603,7 @@ def decrypt_lesscirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32617,7 +32617,7 @@ def decrypt_lessesp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32631,7 +32631,7 @@ def decrypt_lesscr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32645,7 +32645,7 @@ def decrypt_lesshl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32659,7 +32659,7 @@ def decrypt_lesstild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32673,7 +32673,7 @@ def decrypt_morea():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32687,7 +32687,7 @@ def decrypt_moreb():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32701,7 +32701,7 @@ def decrypt_mored():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32715,7 +32715,7 @@ def decrypt_moref():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32729,7 +32729,7 @@ def decrypt_moreh():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32743,7 +32743,7 @@ def decrypt_morej():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32757,7 +32757,7 @@ def decrypt_morel():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32771,7 +32771,7 @@ def decrypt_moren():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32785,7 +32785,7 @@ def decrypt_morep():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32799,7 +32799,7 @@ def decrypt_morer():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32813,7 +32813,7 @@ def decrypt_moret():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32827,7 +32827,7 @@ def decrypt_morev():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32841,7 +32841,7 @@ def decrypt_morex():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32855,7 +32855,7 @@ def decrypt_morez():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32869,7 +32869,7 @@ def decrypt_moreA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32883,7 +32883,7 @@ def decrypt_moreB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32897,7 +32897,7 @@ def decrypt_moreD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32911,7 +32911,7 @@ def decrypt_moreF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32925,7 +32925,7 @@ def decrypt_moreH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32939,7 +32939,7 @@ def decrypt_moreJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32953,7 +32953,7 @@ def decrypt_moreL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32967,7 +32967,7 @@ def decrypt_moreN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32981,7 +32981,7 @@ def decrypt_moreP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -32995,7 +32995,7 @@ def decrypt_moreR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33009,7 +33009,7 @@ def decrypt_moreT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33023,7 +33023,7 @@ def decrypt_moreV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33037,7 +33037,7 @@ def decrypt_moreX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33051,7 +33051,7 @@ def decrypt_moreZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33065,7 +33065,7 @@ def decrypt_more0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33079,7 +33079,7 @@ def decrypt_more2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33093,7 +33093,7 @@ def decrypt_more4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33107,7 +33107,7 @@ def decrypt_more6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33121,7 +33121,7 @@ def decrypt_more8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33135,7 +33135,7 @@ def decrypt_moreexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33149,7 +33149,7 @@ def decrypt_moredquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33163,7 +33163,7 @@ def decrypt_moredoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33177,7 +33177,7 @@ def decrypt_moreand():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33191,7 +33191,7 @@ def decrypt_morequote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33205,7 +33205,7 @@ def decrypt_lesspar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33219,7 +33219,7 @@ def decrypt_moreast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33233,7 +33233,7 @@ def decrypt_morevir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33247,7 +33247,7 @@ def decrypt_morepp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33261,7 +33261,7 @@ def decrypt_moretp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33275,7 +33275,7 @@ def decrypt_moreless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33289,7 +33289,7 @@ def decrypt_moremore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33303,7 +33303,7 @@ def decrypt_morearo():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33317,7 +33317,7 @@ def decrypt_morecroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33331,7 +33331,7 @@ def decrypt_morebsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33345,7 +33345,7 @@ def decrypt_morecirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33359,7 +33359,7 @@ def decrypt_moreesp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33373,7 +33373,7 @@ def decrypt_morecr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33387,7 +33387,7 @@ def decrypt_morehl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33401,7 +33401,7 @@ def decrypt_moretild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33415,7 +33415,7 @@ def decrypt_arobasa():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33429,7 +33429,7 @@ def decrypt_arobasb():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33443,7 +33443,7 @@ def decrypt_arobasd():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33457,7 +33457,7 @@ def decrypt_arobasf():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33471,7 +33471,7 @@ def decrypt_arobash():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33485,7 +33485,7 @@ def decrypt_arobasj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33499,7 +33499,7 @@ def decrypt_arobasl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33513,7 +33513,7 @@ def decrypt_arobasn():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33527,7 +33527,7 @@ def decrypt_arobasp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33541,7 +33541,7 @@ def decrypt_arobasr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33555,7 +33555,7 @@ def decrypt_arobast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33569,7 +33569,7 @@ def decrypt_arobasv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33583,7 +33583,7 @@ def decrypt_arobasx():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33597,7 +33597,7 @@ def decrypt_arobasz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33611,7 +33611,7 @@ def decrypt_arobasA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33625,7 +33625,7 @@ def decrypt_arobasB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33639,7 +33639,7 @@ def decrypt_arobasD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33653,7 +33653,7 @@ def decrypt_arobasF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33667,7 +33667,7 @@ def decrypt_arobasH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33681,7 +33681,7 @@ def decrypt_arobasJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33695,7 +33695,7 @@ def decrypt_arobasL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33709,7 +33709,7 @@ def decrypt_arobasN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33723,7 +33723,7 @@ def decrypt_arobasP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33737,7 +33737,7 @@ def decrypt_arobasR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33751,7 +33751,7 @@ def decrypt_arobasT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33765,7 +33765,7 @@ def decrypt_arobasV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33779,7 +33779,7 @@ def decrypt_arobasX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33793,7 +33793,7 @@ def decrypt_arobasZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33807,7 +33807,7 @@ def decrypt_arobas0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33821,7 +33821,7 @@ def decrypt_arobas2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33835,7 +33835,7 @@ def decrypt_arobas4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33849,7 +33849,7 @@ def decrypt_arobas6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33863,7 +33863,7 @@ def decrypt_arobas8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33877,7 +33877,7 @@ def decrypt_arobasexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33891,7 +33891,7 @@ def decrypt_arobasdquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33905,7 +33905,7 @@ def decrypt_arobasdoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33919,7 +33919,7 @@ def decrypt_arobasand():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33933,7 +33933,7 @@ def decrypt_arobasquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33947,7 +33947,7 @@ def decrypt_aropar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33961,7 +33961,7 @@ def decrypt_arobasast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33975,7 +33975,7 @@ def decrypt_arobasvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -33989,7 +33989,7 @@ def decrypt_arobaspp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34003,7 +34003,7 @@ def decrypt_arobastp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34017,7 +34017,7 @@ def decrypt_arobasless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34031,7 +34031,7 @@ def decrypt_arobasmore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34045,7 +34045,7 @@ def decrypt_arobasaro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34059,7 +34059,7 @@ def decrypt_arobascroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34073,7 +34073,7 @@ def decrypt_arobasbsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34087,7 +34087,7 @@ def decrypt_arobascirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34101,7 +34101,7 @@ def decrypt_arobasesp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34115,7 +34115,7 @@ def decrypt_arobascr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34129,7 +34129,7 @@ def decrypt_arobashl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34143,7 +34143,7 @@ def decrypt_arobastild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34157,7 +34157,7 @@ def decrypt_crocha():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34171,7 +34171,7 @@ def decrypt_crochb():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34185,7 +34185,7 @@ def decrypt_crochd():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34199,7 +34199,7 @@ def decrypt_crochf():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34213,7 +34213,7 @@ def decrypt_crochh():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34227,7 +34227,7 @@ def decrypt_crochj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34241,7 +34241,7 @@ def decrypt_crochl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34255,7 +34255,7 @@ def decrypt_crochn():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34269,7 +34269,7 @@ def decrypt_crochp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34283,7 +34283,7 @@ def decrypt_crochr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34297,7 +34297,7 @@ def decrypt_crocht():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34311,7 +34311,7 @@ def decrypt_crochv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34325,7 +34325,7 @@ def decrypt_crochx():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34339,7 +34339,7 @@ def decrypt_crochz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34353,7 +34353,7 @@ def decrypt_crochA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34367,7 +34367,7 @@ def decrypt_crochB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34381,7 +34381,7 @@ def decrypt_crochD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34395,7 +34395,7 @@ def decrypt_crochF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34409,7 +34409,7 @@ def decrypt_crochH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34423,7 +34423,7 @@ def decrypt_crochJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34437,7 +34437,7 @@ def decrypt_crochL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34451,7 +34451,7 @@ def decrypt_crochN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34465,7 +34465,7 @@ def decrypt_crochP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34479,7 +34479,7 @@ def decrypt_crochR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34493,7 +34493,7 @@ def decrypt_crochT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34507,7 +34507,7 @@ def decrypt_crochV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34521,7 +34521,7 @@ def decrypt_crochX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34535,7 +34535,7 @@ def decrypt_crochZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34549,7 +34549,7 @@ def decrypt_croch0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34563,7 +34563,7 @@ def decrypt_croch2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34577,7 +34577,7 @@ def decrypt_croch4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34591,7 +34591,7 @@ def decrypt_croch6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34605,7 +34605,7 @@ def decrypt_croch8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34619,7 +34619,7 @@ def decrypt_crochexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34633,7 +34633,7 @@ def decrypt_crochdquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34647,7 +34647,7 @@ def decrypt_crochdoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34661,7 +34661,7 @@ def decrypt_crochand():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34675,7 +34675,7 @@ def decrypt_crochquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34689,7 +34689,7 @@ def decrypt_crocpar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34703,7 +34703,7 @@ def decrypt_crochast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34717,7 +34717,7 @@ def decrypt_crochvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34731,7 +34731,7 @@ def decrypt_crochpp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34745,7 +34745,7 @@ def decrypt_crochtp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34759,7 +34759,7 @@ def decrypt_crochless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34773,7 +34773,7 @@ def decrypt_crochmore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34787,7 +34787,7 @@ def decrypt_crocharo():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34801,7 +34801,7 @@ def decrypt_crochcroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34815,7 +34815,7 @@ def decrypt_crochbsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34829,7 +34829,7 @@ def decrypt_crochcirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34843,7 +34843,7 @@ def decrypt_crochesp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34857,7 +34857,7 @@ def decrypt_crochcr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34871,7 +34871,7 @@ def decrypt_crochhl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34885,7 +34885,7 @@ def decrypt_crochtild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34899,7 +34899,7 @@ def decrypt_bsa():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34913,7 +34913,7 @@ def decrypt_bsb():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34927,7 +34927,7 @@ def decrypt_bsd():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34941,7 +34941,7 @@ def decrypt_bsf():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34955,7 +34955,7 @@ def decrypt_bsh():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34969,7 +34969,7 @@ def decrypt_bsj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34983,7 +34983,7 @@ def decrypt_bsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -34997,7 +34997,7 @@ def decrypt_bsn():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35011,7 +35011,7 @@ def decrypt_bsp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35025,7 +35025,7 @@ def decrypt_bsr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35039,7 +35039,7 @@ def decrypt_bst():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35053,7 +35053,7 @@ def decrypt_bsv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35067,7 +35067,7 @@ def decrypt_bsx():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35081,7 +35081,7 @@ def decrypt_bsz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35095,7 +35095,7 @@ def decrypt_bsA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35109,7 +35109,7 @@ def decrypt_bsB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35123,7 +35123,7 @@ def decrypt_bsD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35137,7 +35137,7 @@ def decrypt_bsF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35151,7 +35151,7 @@ def decrypt_bsH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35165,7 +35165,7 @@ def decrypt_bsJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35179,7 +35179,7 @@ def decrypt_bsL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35193,7 +35193,7 @@ def decrypt_bsN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35207,7 +35207,7 @@ def decrypt_bsP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35221,7 +35221,7 @@ def decrypt_bsR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35235,7 +35235,7 @@ def decrypt_bsT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35249,7 +35249,7 @@ def decrypt_bsV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35263,7 +35263,7 @@ def decrypt_bsX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35277,7 +35277,7 @@ def decrypt_bsZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35291,7 +35291,7 @@ def decrypt_bs0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35305,7 +35305,7 @@ def decrypt_bs2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35319,7 +35319,7 @@ def decrypt_bs4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35333,7 +35333,7 @@ def decrypt_bs6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35347,7 +35347,7 @@ def decrypt_bs8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35361,7 +35361,7 @@ def decrypt_bsexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35375,7 +35375,7 @@ def decrypt_bsdquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35389,7 +35389,7 @@ def decrypt_bsdoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35403,7 +35403,7 @@ def decrypt_bsand():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35417,7 +35417,7 @@ def decrypt_bsquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35431,7 +35431,7 @@ def decrypt_bslpar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35445,7 +35445,7 @@ def decrypt_bsast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35459,7 +35459,7 @@ def decrypt_bsvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35473,7 +35473,7 @@ def decrypt_bspp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35487,7 +35487,7 @@ def decrypt_bstp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35501,7 +35501,7 @@ def decrypt_bsless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35515,7 +35515,7 @@ def decrypt_bsmore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35529,7 +35529,7 @@ def decrypt_bsaro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35543,7 +35543,7 @@ def decrypt_bscroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35557,7 +35557,7 @@ def decrypt_bsbsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35571,7 +35571,7 @@ def decrypt_bscirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35585,7 +35585,7 @@ def decrypt_bsesp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35599,7 +35599,7 @@ def decrypt_bscr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35613,7 +35613,7 @@ def decrypt_bshl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35627,7 +35627,7 @@ def decrypt_bstild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35641,7 +35641,7 @@ def decrypt_cira():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35655,7 +35655,7 @@ def decrypt_cirb():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35669,7 +35669,7 @@ def decrypt_cird():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35683,7 +35683,7 @@ def decrypt_cirf():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35697,7 +35697,7 @@ def decrypt_cirh():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35711,7 +35711,7 @@ def decrypt_cirj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35725,7 +35725,7 @@ def decrypt_cirl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35739,7 +35739,7 @@ def decrypt_cirn():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35753,7 +35753,7 @@ def decrypt_cirp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35767,7 +35767,7 @@ def decrypt_cirr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35781,7 +35781,7 @@ def decrypt_cirt():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35795,7 +35795,7 @@ def decrypt_cirv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35809,7 +35809,7 @@ def decrypt_cirx():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35823,7 +35823,7 @@ def decrypt_cirz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35837,7 +35837,7 @@ def decrypt_cirA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35851,7 +35851,7 @@ def decrypt_cirB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35865,7 +35865,7 @@ def decrypt_cirD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35879,7 +35879,7 @@ def decrypt_cirF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35893,7 +35893,7 @@ def decrypt_cirH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35907,7 +35907,7 @@ def decrypt_cirJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35921,7 +35921,7 @@ def decrypt_cirL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35935,7 +35935,7 @@ def decrypt_cirN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35949,7 +35949,7 @@ def decrypt_cirP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35963,7 +35963,7 @@ def decrypt_cirR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35977,7 +35977,7 @@ def decrypt_cirT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -35991,7 +35991,7 @@ def decrypt_cirV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36005,7 +36005,7 @@ def decrypt_cirX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36019,7 +36019,7 @@ def decrypt_cirZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36033,7 +36033,7 @@ def decrypt_cir0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36047,7 +36047,7 @@ def decrypt_cir2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36061,7 +36061,7 @@ def decrypt_cir4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36075,7 +36075,7 @@ def decrypt_cir6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36089,7 +36089,7 @@ def decrypt_cir8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36103,7 +36103,7 @@ def decrypt_cirexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36117,7 +36117,7 @@ def decrypt_cirdquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36131,7 +36131,7 @@ def decrypt_cirdoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36145,7 +36145,7 @@ def decrypt_cirand():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36159,7 +36159,7 @@ def decrypt_cirquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36173,7 +36173,7 @@ def decrypt_circpar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36187,7 +36187,7 @@ def decrypt_cirast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36201,7 +36201,7 @@ def decrypt_cirvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36215,7 +36215,7 @@ def decrypt_cirpp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36229,7 +36229,7 @@ def decrypt_cirtp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36243,7 +36243,7 @@ def decrypt_cirless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36257,7 +36257,7 @@ def decrypt_cirmore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36271,7 +36271,7 @@ def decrypt_ciraro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36285,7 +36285,7 @@ def decrypt_circroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36299,7 +36299,7 @@ def decrypt_cirbsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36313,7 +36313,7 @@ def decrypt_circirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36327,7 +36327,7 @@ def decrypt_ciresp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36341,7 +36341,7 @@ def decrypt_circr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36355,7 +36355,7 @@ def decrypt_cirhl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36369,7 +36369,7 @@ def decrypt_cirtild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36383,7 +36383,7 @@ def decrypt_esua():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36397,7 +36397,7 @@ def decrypt_esub():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36411,7 +36411,7 @@ def decrypt_esud():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36425,7 +36425,7 @@ def decrypt_esuf():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36439,7 +36439,7 @@ def decrypt_esuh():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36453,7 +36453,7 @@ def decrypt_esuj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36467,7 +36467,7 @@ def decrypt_esul():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36481,7 +36481,7 @@ def decrypt_esun():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36495,7 +36495,7 @@ def decrypt_esup():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36509,7 +36509,7 @@ def decrypt_esur():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36523,7 +36523,7 @@ def decrypt_esut():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36537,7 +36537,7 @@ def decrypt_esuv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36551,7 +36551,7 @@ def decrypt_esux():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36565,7 +36565,7 @@ def decrypt_esuz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36579,7 +36579,7 @@ def decrypt_esuA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36593,7 +36593,7 @@ def decrypt_esuB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36607,7 +36607,7 @@ def decrypt_esuD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36621,7 +36621,7 @@ def decrypt_esuF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36635,7 +36635,7 @@ def decrypt_esuH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36649,7 +36649,7 @@ def decrypt_esuJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36663,7 +36663,7 @@ def decrypt_esuL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36677,7 +36677,7 @@ def decrypt_esuN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36691,7 +36691,7 @@ def decrypt_esuP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36705,7 +36705,7 @@ def decrypt_esuR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36719,7 +36719,7 @@ def decrypt_esuT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36733,7 +36733,7 @@ def decrypt_esuV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36747,7 +36747,7 @@ def decrypt_esuX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36761,7 +36761,7 @@ def decrypt_esuZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36775,7 +36775,7 @@ def decrypt_esu0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36789,7 +36789,7 @@ def decrypt_esu2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36803,7 +36803,7 @@ def decrypt_esu4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36817,7 +36817,7 @@ def decrypt_esu6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36831,7 +36831,7 @@ def decrypt_esu8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36845,7 +36845,7 @@ def decrypt_esuexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36859,7 +36859,7 @@ def decrypt_esudquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36873,7 +36873,7 @@ def decrypt_esudoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36887,7 +36887,7 @@ def decrypt_esuand():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36901,7 +36901,7 @@ def decrypt_esuquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36915,7 +36915,7 @@ def decrypt_esppar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36929,7 +36929,7 @@ def decrypt_esuast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36943,7 +36943,7 @@ def decrypt_esuvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36957,7 +36957,7 @@ def decrypt_esupp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36971,7 +36971,7 @@ def decrypt_esutp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36985,7 +36985,7 @@ def decrypt_esuless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -36999,7 +36999,7 @@ def decrypt_esumore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37013,7 +37013,7 @@ def decrypt_esuaro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37027,7 +37027,7 @@ def decrypt_esucroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37041,7 +37041,7 @@ def decrypt_esubsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37055,7 +37055,7 @@ def decrypt_esucirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37069,7 +37069,7 @@ def decrypt_esuesp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37083,7 +37083,7 @@ def decrypt_esucr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37097,7 +37097,7 @@ def decrypt_esuhl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37111,7 +37111,7 @@ def decrypt_esutild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37125,7 +37125,7 @@ def decrypt_crocha():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37139,7 +37139,7 @@ def decrypt_crochb():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37153,7 +37153,7 @@ def decrypt_crochd():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37167,7 +37167,7 @@ def decrypt_crochf():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37181,7 +37181,7 @@ def decrypt_crochh():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37195,7 +37195,7 @@ def decrypt_crochj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37209,7 +37209,7 @@ def decrypt_crochl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37223,7 +37223,7 @@ def decrypt_crochn():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37237,7 +37237,7 @@ def decrypt_crochp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37251,7 +37251,7 @@ def decrypt_crochr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37265,7 +37265,7 @@ def decrypt_crocht():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37279,7 +37279,7 @@ def decrypt_crochv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37293,7 +37293,7 @@ def decrypt_crochx():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37307,7 +37307,7 @@ def decrypt_crochz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37321,7 +37321,7 @@ def decrypt_crochA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37335,7 +37335,7 @@ def decrypt_crochB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37349,7 +37349,7 @@ def decrypt_crochD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37363,7 +37363,7 @@ def decrypt_crochF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37377,7 +37377,7 @@ def decrypt_crochH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37391,7 +37391,7 @@ def decrypt_crochJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37405,7 +37405,7 @@ def decrypt_crochL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37419,7 +37419,7 @@ def decrypt_crochN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37433,7 +37433,7 @@ def decrypt_crochP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37447,7 +37447,7 @@ def decrypt_crochR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37461,7 +37461,7 @@ def decrypt_crochT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37475,7 +37475,7 @@ def decrypt_crochV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37489,7 +37489,7 @@ def decrypt_crochX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37503,7 +37503,7 @@ def decrypt_crochZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37517,7 +37517,7 @@ def decrypt_croch0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37531,7 +37531,7 @@ def decrypt_croch2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37545,7 +37545,7 @@ def decrypt_croch4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37559,7 +37559,7 @@ def decrypt_croch6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37573,7 +37573,7 @@ def decrypt_croch8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37587,7 +37587,7 @@ def decrypt_crochexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37601,7 +37601,7 @@ def decrypt_crochdquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37615,7 +37615,7 @@ def decrypt_crochdoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37629,7 +37629,7 @@ def decrypt_crochand():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37643,7 +37643,7 @@ def decrypt_crochquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37657,7 +37657,7 @@ def decrypt_crpar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37671,7 +37671,7 @@ def decrypt_crochast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37685,7 +37685,7 @@ def decrypt_crochvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37699,7 +37699,7 @@ def decrypt_crochpp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37713,7 +37713,7 @@ def decrypt_crochtp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37727,7 +37727,7 @@ def decrypt_crochless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37741,7 +37741,7 @@ def decrypt_crochmore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37755,7 +37755,7 @@ def decrypt_crocharo():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37769,7 +37769,7 @@ def decrypt_crochcroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37783,7 +37783,7 @@ def decrypt_crochbsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37797,7 +37797,7 @@ def decrypt_crochcirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37811,7 +37811,7 @@ def decrypt_crochesp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37825,7 +37825,7 @@ def decrypt_crochcr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37839,7 +37839,7 @@ def decrypt_crochhl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37853,7 +37853,7 @@ def decrypt_crochtild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37867,7 +37867,7 @@ def decrypt_vsla():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37881,7 +37881,7 @@ def decrypt_vslb():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37895,7 +37895,7 @@ def decrypt_vsld():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37909,7 +37909,7 @@ def decrypt_vslf():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37923,7 +37923,7 @@ def decrypt_vslh():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37937,7 +37937,7 @@ def decrypt_vslj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37951,7 +37951,7 @@ def decrypt_vsll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37965,7 +37965,7 @@ def decrypt_vsln():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37979,7 +37979,7 @@ def decrypt_vslp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -37993,7 +37993,7 @@ def decrypt_vslr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38007,7 +38007,7 @@ def decrypt_vslt():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38021,7 +38021,7 @@ def decrypt_vslv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38035,7 +38035,7 @@ def decrypt_vslx():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38049,7 +38049,7 @@ def decrypt_vslz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38063,7 +38063,7 @@ def decrypt_vslA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38077,7 +38077,7 @@ def decrypt_vslB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38091,7 +38091,7 @@ def decrypt_vslD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38105,7 +38105,7 @@ def decrypt_vslF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38119,7 +38119,7 @@ def decrypt_vslH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38133,7 +38133,7 @@ def decrypt_vslJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38147,7 +38147,7 @@ def decrypt_vslL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38161,7 +38161,7 @@ def decrypt_vslN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38175,7 +38175,7 @@ def decrypt_vslP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38189,7 +38189,7 @@ def decrypt_vslR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38203,7 +38203,7 @@ def decrypt_vslT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38217,7 +38217,7 @@ def decrypt_vslV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38231,7 +38231,7 @@ def decrypt_vslX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38245,7 +38245,7 @@ def decrypt_vslZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38259,7 +38259,7 @@ def decrypt_vsl0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38273,7 +38273,7 @@ def decrypt_vsl2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38287,7 +38287,7 @@ def decrypt_vsl4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38301,7 +38301,7 @@ def decrypt_vsl6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38315,7 +38315,7 @@ def decrypt_vsl8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38329,7 +38329,7 @@ def decrypt_vslexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38343,7 +38343,7 @@ def decrypt_vsldquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38357,7 +38357,7 @@ def decrypt_vsldoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38371,7 +38371,7 @@ def decrypt_vsland():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38385,7 +38385,7 @@ def decrypt_vslquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38399,7 +38399,7 @@ def decrypt_hlpar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38413,7 +38413,7 @@ def decrypt_vslast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38427,7 +38427,7 @@ def decrypt_vslvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38441,7 +38441,7 @@ def decrypt_vslpp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38455,7 +38455,7 @@ def decrypt_vsltp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38469,7 +38469,7 @@ def decrypt_vslless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38483,7 +38483,7 @@ def decrypt_vslmore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38497,7 +38497,7 @@ def decrypt_vslaro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38511,7 +38511,7 @@ def decrypt_vslcroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38525,7 +38525,7 @@ def decrypt_vslbsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38539,7 +38539,7 @@ def decrypt_vslcirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38553,7 +38553,7 @@ def decrypt_vslesp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38567,7 +38567,7 @@ def decrypt_vslcr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38581,7 +38581,7 @@ def decrypt_vslhl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38595,7 +38595,7 @@ def decrypt_vsltild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38609,7 +38609,7 @@ def decrypt_tila():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38623,7 +38623,7 @@ def decrypt_tilb():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38637,7 +38637,7 @@ def decrypt_tild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38651,7 +38651,7 @@ def decrypt_tilf():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38665,7 +38665,7 @@ def decrypt_tilh():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38679,7 +38679,7 @@ def decrypt_tilj():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38693,7 +38693,7 @@ def decrypt_till():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38707,7 +38707,7 @@ def decrypt_tiln():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38721,7 +38721,7 @@ def decrypt_tilp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38735,7 +38735,7 @@ def decrypt_tilr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38749,7 +38749,7 @@ def decrypt_tilt():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38763,7 +38763,7 @@ def decrypt_tilv():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38777,7 +38777,7 @@ def decrypt_tilx():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38791,7 +38791,7 @@ def decrypt_tilz():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38805,7 +38805,7 @@ def decrypt_tilA():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38819,7 +38819,7 @@ def decrypt_tilB():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38833,7 +38833,7 @@ def decrypt_tilD():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38847,7 +38847,7 @@ def decrypt_tilF():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38861,7 +38861,7 @@ def decrypt_tilH():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38875,7 +38875,7 @@ def decrypt_tilJ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38889,7 +38889,7 @@ def decrypt_tilL():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38903,7 +38903,7 @@ def decrypt_tilN():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38917,7 +38917,7 @@ def decrypt_tilP():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38931,7 +38931,7 @@ def decrypt_tilR():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38945,7 +38945,7 @@ def decrypt_tilT():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38959,7 +38959,7 @@ def decrypt_tilV():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38973,7 +38973,7 @@ def decrypt_tilX():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -38987,7 +38987,7 @@ def decrypt_tilZ():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -39001,7 +39001,7 @@ def decrypt_til0():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -39015,7 +39015,7 @@ def decrypt_til2():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -39029,7 +39029,7 @@ def decrypt_til4():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -39043,7 +39043,7 @@ def decrypt_til6():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -39057,7 +39057,7 @@ def decrypt_til8():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -39071,7 +39071,7 @@ def decrypt_tilexcl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -39085,7 +39085,7 @@ def decrypt_tildquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -39099,7 +39099,7 @@ def decrypt_tildoll():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -39113,7 +39113,7 @@ def decrypt_tiland():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -39127,7 +39127,7 @@ def decrypt_tilquote():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -39141,7 +39141,7 @@ def decrypt_tilpar():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -39155,7 +39155,7 @@ def decrypt_tilast():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -39169,7 +39169,7 @@ def decrypt_tilvir():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -39183,7 +39183,7 @@ def decrypt_tilpp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -39197,7 +39197,7 @@ def decrypt_tiltp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -39211,7 +39211,7 @@ def decrypt_tilless():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -39225,7 +39225,7 @@ def decrypt_tilmore():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -39239,7 +39239,7 @@ def decrypt_tilaro():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -39253,7 +39253,7 @@ def decrypt_tilcroc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -39267,7 +39267,7 @@ def decrypt_tilbsl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -39281,7 +39281,7 @@ def decrypt_tilcirc():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -39295,7 +39295,7 @@ def decrypt_tilesp():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -39309,7 +39309,7 @@ def decrypt_tilcr():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -39323,7 +39323,7 @@ def decrypt_tilhl():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 
@@ -39337,7 +39337,7 @@ def decrypt_tiltild():
         ptx = dec.decrypt(ciphertext)
         if  ptx == texte:
             print("Found Key:: ", fkey)
-            break
+            exit()
         i += 1
 
 if __name__ == "__main__":
